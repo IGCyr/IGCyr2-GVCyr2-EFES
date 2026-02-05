@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr122400</idno>
+                <idno type="number" subtype="second-edition">122400</idno>
+                <idno type="TM">738773</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr122400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr122400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr122400</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Rock</material>-cut <objectType>sarcophagus</objectType> forming part of an enclosure of 4 x 2 sarcophagi
+                                        (dimensions unrecorded).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the lid slope.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; slightly dissymmetrical mu, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0270" precision="medium" cert="low" resp="JMR">
+                                Fourth or perhaps early third century BC (Reynolds)</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1954" resp="Cassels">
+                                    <p>Found and photographed by J. Cassels in 1954 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, above and behind tomb N200.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1998" resp="Thorn JMR">
+                                    <p>Seen in situ in 1998 by J. Thorn and J.M. Reynolds, who ascertained the place in the <rs type="monuList" ref="https://www.slsgazetteer.org/1971">North Necropolis</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous mentions (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-12-10" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77608/3/igcyr122400-view.tiff.jpg" corresp="igcyr122400" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77608">View of igcyr122400 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not really published before <bibl><ptr target="#IGCyr"/> <citedRange>122400</citedRange></bibl>. 
+                Cf. <bibl><ptr target="#cassels1955"/>, pl. <citedRange>III.b</citedRange></bibl>;
+                <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>79</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name nymRef="#Ἀπονίκας">Ἀπονίκα<unclear>ς</unclear></name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Aponikas.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Aponikas.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Aponikas.</p>
+         </div><div type="commentary">
+                
+               <p>This inscription was not mentioned by Cassels, who nevertheless gave a photograph on which it is clearly readable. The photograph was aimed at showing
+                    a typical enclosure of sarcophagi. Unfortunately, the caption to the plate refers to the South Necropolis. We now know its exact place thanks to the Thorns 
+                    who reprint Cassels' photograph and comment: «This isolated clutch of sarcophagi was found in 1998 to be buried in modern refuse and Cassels' claim that
+                    it was in the Southern Necropolis is incorrect». They add some comments from J.M. Reynolds about reading and dating.</p>
+	           <p>J.M. Reynolds commented that she could not decide whether the third letter was an omega or an omicron. However the latter gives a well-formed name and should 
+	           be preferred. She also wondered whether this was the nominative of a man's name or the genitive of a woman's name. However, only the masculine is morphologically 
+	           acceptable and we have in fact another occurrence of this rare name at <ref type="inscription" source="#IGCyr2">IGCyr000500</ref>, which might also have been written at Thera.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

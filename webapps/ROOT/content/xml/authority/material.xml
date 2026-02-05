@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled Vocabulary of the Inscriptions of Greek Cyrenaica and Greek Verse inscriptions of Cyrenaica: Material</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>IGCyr Project</authority>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename, as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <p>InsLib Partnership</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="Alice" when="2017-06-25">checked for IGCyr-GVCyr publication</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="bronze">
+                    <term type="prefLabel">bronze</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/109</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300010957</idno>
+                </item>
+                <item xml:id="ceramics">
+                    <term type="prefLabel">ceramics</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/130</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300235507</idno>
+                </item>
+                <item xml:id="clay">
+                    <term type="prefLabel">clay</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/131</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300010439</idno>
+                </item>
+                <item xml:id="lead">
+                    <term type="prefLabel">lead</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/108</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011022</idno>
+                </item>
+                <item xml:id="limestone">
+                    <term type="prefLabel">limestone</term>
+                    <term type="altLabel">limestone</term>
+                    <term type="altLabel">nummulitic limestone</term>
+                    <term type="altLabel">marly limestone</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/66</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011286</idno>
+                </item>
+                <item xml:id="marble">
+                    <term type="prefLabel">marble</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/48</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011443</idno>
+                </item>
+                <item xml:id="pebbles">
+                    <term type="prefLabel">pebbles</term>
+                    <idno type="eagle"></idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011691</idno>
+                </item>
+                <item xml:id="plaster">
+                    <term type="prefLabel">plaster</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/126</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300014922</idno>
+                </item>
+                <item xml:id="rock">
+                    <term type="prefLabel">rock</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/1</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011692</idno>
+                </item>
+                <item xml:id="sandstone">
+                    <term type="prefLabel">sandstone</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/75</idno>  
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011376</idno>  
+                </item>
+                <item xml:id="stone">
+                    <term type="prefLabel">stone</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/2</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011176</idno>
+                </item>
+                <item xml:id="terracotta">
+                    <term type="prefLabel">terracotta</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/130</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300010669</idno>
+                </item>
+                <item xml:id="tufa">
+                    <term type="prefLabel">tufa</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/30</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011712</idno>
+                </item>
+                <item xml:id="ware">
+                    <term type="prefLabel">ware</term>
+                    <term type="altLabel">ware</term>
+                    <term type="altLabel">Attic black figure</term>
+                    <term type="altLabel">Attic black figure ware</term>
+                    <term type="altLabel">Attic ware</term>
+                    <term type="altLabel">black-glazed</term>
+                    <term type="altLabel">black-glazed Attic ware</term>
+                    <term type="altLabel">black-glazed ware</term>
+                    <term type="altLabel">Corinthian black-glazed ware</term>
+                    <term type="altLabel">Corinthian ware</term>
+                    <term type="altLabel">Eastern ware</term>
+                    <term type="altLabel">fine-ware</term>
+                    <term type="altLabel">Ionian-style ware</term>
+                    <term type="altLabel">Laconian ware</term>
+                    <term type="altLabel">late-Rhodian ware</term>
+                    <term type="altLabel">light brown-glazed ware</term>
+                    <term type="altLabel">local ware</term>
+                    <term type="altLabel">Parian ware</term>
+                    <term type="altLabel">Proto-corinthian ware</term>
+                    <term type="altLabel">Rhodian ware</term>
+                    <term type="altLabel">Parian ware</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/130</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300244578</idno>
+                </item>
+                <item xml:id="unknownmaterial">
+                    <term type="prefLabel">unknown</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/material/lod/138</idno>
+                    <idno type="getty"><!--not found--></idno>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

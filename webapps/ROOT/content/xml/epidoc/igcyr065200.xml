@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">List of contributors</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr065200</idno>
+                <idno type="number" subtype="second-edition">065200</idno>
+                <idno type="TM">738343</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr065200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr065200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr065200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">fragment a: 343; fragment b: 1822; fragment c: 2994</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three non adjacent fragments of a Parian <material>marble</material> half <objectType>column</objectType>, produced
+                                        through sawing vertically a fluted column and offering a new, slightly tapering surface,
+                                        the other half having been used for <ref type="inscription" source="#IGCyr2">IGCyr065210</ref>; the surface is badly chipped off,
+                                        fragment b is broken on top, right and below and has on its left side the same flat margin (0.045 wide) before the first fluting as fragment a;
+                                        fragment c is broken on all sides, but for a very small part of the right side, which shows a flat margin also 0.045 wide; 
+                                        fragment a has been sawn off behind, offering a flat surface, either for the list itself or for the re-use as a pavement
+                                        (fragment a <dimensions>
+                                            <width min="0.52" max="0.54">0.52-0.54</width>
+                                            <height>1.24</height>
+                                            <depth>0.22</depth>
+                                        </dimensions>; 
+                                        fragment b <dimensions>
+                                            <width>0.30</width>
+                                            <height>0.40</height>
+                                            <depth atLeast="0.33">0.33</depth> 
+                                       </dimensions>);
+                                        fragment c <dimensions>
+                                            <width>0.22</width>
+                                            <height>0.12</height>
+                                            <depth atLeast="0.095">0.095</depth>
+                                        </dimensions>.
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro"/>Ll. 1-2 cut on the whole width; from l. 3 on in two columns, each entry ending with a numeral, preceded by a space after the personal name;
+                                    there is also, whenever possible, a small space between own name and father's name; fragment b belongs to the lower part of column i; fragment c belongs to the lower part of 
+                                    column ii.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.016" max="0.02">0.016-0.02</height> (min E to max I) at ll. 1-2, <height>0.08</height> from l. 3 on; serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0280" notAfter="-0270" precision="low">Between ca. 280 (Laronde) and ca. 270 (Rosamilia) BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925">
+                                    <p>Fragment a found in 1926 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        re-used as pavement of the frigidarium of the <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>; fragment b found before 1961 
+                                       at unknown place; fragment c found before 1982 at unknown place.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Fragments a and b seen in 1979 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1982" when-iso="1997" resp="CDL">
+                                    <p>Fragment c seen in 1982 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-03-30" who="Alice">checked</change> 
+            <change when="2024-03-22" who="CDL">translations fgt c and additional commentary</change>
+            <change when="2024-03-19" who="CDL">support and bibl fgt c</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-08-29" who="CDL">updated bibl</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2016-03-03" who="CDL">added French and English translations; slight corrections in text and apparatus</change>
+            <change when="2016-03-02" who="HellasLabUnibo">added Italian translation</change>
+            <change when="2016-02-24" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-09" who="CD+HB">lemma, bibliography, text, apparatus, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77104/3/igcyr065200-1-a.1-22.tiff.jpg" corresp="igcyr065200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77104">Fragment a, ll. 1-22 of igcyr065200 List of contributors</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77105/3/igcyr065200-2-a.20-50.tiff.jpg" corresp="igcyr065200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77105">Fragment a, ll. 20-50 of igcyr065200 List of contributors</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77106/3/igcyr065200-3-a.42-68.tiff.jpg" corresp="igcyr065200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77106">Fragment a, ll. 42-68 of igcyr065200 List of contributors</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77107/3/igcyr065200-4-a.57-80.tiff.jpg" corresp="igcyr065200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77107">Fragment a, ll. 57-80 of igcyr065200 List of contributors</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77108/3/igcyr065200-5-fgtb.tiff.jpg" corresp="igcyr065200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77108">Fragment b of igcyr065200 List of contributors</ref></desc></graphic>
+        <graphic url="https://historica.unibo.it/bitstream/20.500.14008/80550/3/igcyr065200-6-squeezefrgc.tiff.jpg" corresp="igcyr065200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target=" http://hdl.handle.net/20.500.14008/80550">Squeeze of fragment c of igcyr065200 List of contributors</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1927"/>, pp. <citedRange>324-325</citedRange></bibl> (mention of discovery and copy of lines 1-2);
+                    fragments a and b: <bibl><ptr target="#gpc1961"/>, pp. 5-9, n. <citedRange>1.I</citedRange> (from †Oliverio's papers) and 53-54, n. <citedRange>1 bis.b</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.735 a and d</citedRange></bibl>; 
+                    <bibl><ptr target="#cdl1998a"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>48.2055</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>065200</citedRange></bibl>;
+                    fragment c not published before this edition.</p>
+            <p>Cf. <bibl><ptr target="#cdl2017b"/></bibl> (numbers), whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>67.1478</citedRange></bibl>;
+                <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>205-207</citedRange> (date), pp. <citedRange>329-331</citedRange>, number 68A (text)</bibl>. 
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <div type="textpart" subtype="text">
+                        <ab>
+                        <lb n="1"/><rs type="office" key="eponymous priest"><w lemma="ἱαρεύς"><supplied reason="undefined" evidence="parallel">Ἱαρεὺς</supplied></w></rs> <persName type="attested"><name nymRef="#Νικόβωλος"><supplied reason="undefined" evidence="parallel">Νικόβω</supplied><unclear>λ</unclear>ος</name> <persName type="attested"><name nymRef="#Ἰάσων" type="patronymic">Ἰάσονος</name></persName></persName>·
+                         <lb n="2"/><w lemma="ὅσσος"><supplied reason="undefined" evidence="parallel">ὅσσοι</supplied></w> <w lemma="ἐπιδίδωμι"><supplied reason="undefined" evidence="parallel">ἐπέδωκαν</supplied></w> <w lemma="χρῆμα"><unclear>χ</unclear>ρήμ<unclear>α</unclear>τα</w> τᾶι <w lemma="πόλις">πόλ<unclear>ει</unclear></w>· 
+                    </ab>
+                    </div>
+                    <div type="textpart" subtype="column" n="i">
+                        <ab>
+                        <lb n="3"/><gap reason="lost" quantity="1" unit="line"/>    
+                         <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>  
+                            <lb n="5"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>                                
+                                <num type="cardinal" value="1000">
+                                    <measure type="currency" unit="drachma">
+                                        <hi rend="ligature"><g type="alphabetic">Ϡα</g></hi></measure></num>
+                        <lb n="6"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>                               
+                            <num type="cardinal" value="900">
+                                    <measure type="currency" unit="drachma">
+                                            <unclear><g type="alphabetic">Ϡ</g></unclear></measure></num>
+                            <lb n="7"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ευς</seg></name></persName></persName>
+                                <num type="cardinal" value="1100">
+                                    <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡ</g><supplied reason="lost"><g type="alphabetic">α</g></supplied></hi>
+                                            <unclear><g type="alphabetic">ρ</g></unclear></measure></num>                             
+                            <lb n="8"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ας" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">αντος</seg></name></persName></persName>                                           
+                                <num type="cardinal" value="600">
+                                    <measure type="currency" unit="drachma">                                           
+                                        <g type="alphabetic">χ</g></measure></num>
+                            <lb n="9"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                                        <persName type="attested" key=""><name nymRef="#_πος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">πω</seg></name></persName></persName>
+                                    <num type="cardinal" value="500">
+                                        <measure type="currency" unit="drachma"><g type="alphabetic">φ</g></measure></num>
+                            <lb n="10"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64100"><name type="patronymic" nymRef="#Θεμίσων">Θεμί<unclear>σω</unclear>νος</name></persName></persName>
+                                     <num type="cardinal" value="1000">
+                                        <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡ</g><unclear><g type="alphabetic">α</g></unclear></hi></measure></num>   
+                            <lb n="11"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                                        <persName type="attested" key=""><name nymRef="#_ανδρος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">άνδ<supplied reason="lost">ρω</supplied></seg></name></persName></persName>
+                                        <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num> 
+                            <lb n="12"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                                        <persName type="attested" key=""><name nymRef="_ος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ω</seg></name></persName></persName>
+                                        <num type="cardinal" value="80">
+                                        <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">π</g></unclear></measure></num>
+                            <lb n="13"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ος</seg></name></persName></persName>
+                                     <num type="cardinal" value="800">
+                                        <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">ω</g></unclear></measure></num>
+                            <lb n="14"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#Ἁνίοχος" type="patronymic"><unclear>Ἁν</unclear>ιόχω</name></persName></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="15"/> <persName type="attested"><name nymRef="#_ονοσ_"><gap reason="lost" extent="unknown" unit="character"/><seg part="M"><orig>ονοσ</orig></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="16"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                                        <persName type="attested" key=""><name nymRef="#Θεύχρηστος" type="patronymic"><unclear>Θ</unclear>ευ<supplied reason="lost">χρήστ</supplied>ω</name></persName></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="17"/><persName type="attested"><name nymRef="#_λ_"><seg part="M"><gap reason="lost" extent="unknown" unit="character"/><orig>λ</orig><gap reason="lost" extent="unknown" unit="character"/></seg></name></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="18"/>  <persName type="attested"><name nymRef="#_ασ_"><gap reason="lost" quantity="5" unit="character"/><seg part="M"><orig>ασ</orig></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="19"/><persName type="attested"><name nymRef="#_λλ_"><gap reason="lost" quantity="5" unit="character"/><seg part="M"><orig>λλ</orig></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="20"/><persName type="attested" key=""><name nymRef="#_αρχος"><gap reason="lost" quantity="3" unit="character"/><seg part="F">αρχος</seg></name>
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="21"/><persName type="attested" key=""><name nymRef="#Ἄγαθος"><supplied reason="lost">Ἄγ</supplied>αθος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="22"/><persName type="attested" key=""><name nymRef="#Λυσίστρατος"><supplied reason="lost">Λυ</supplied>σίστρατος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="23"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64169"><name nymRef="#Θεύδωρος"><supplied reason="lost">Θ</supplied>εύδωρ<supplied reason="lost">ος</supplied></name> 
+                                        <persName type="attested" key=""><name nymRef="#Ἰάσων" type="patronymic"><supplied reason="lost">Ἰ</supplied>άσο<supplied reason="lost">νος</supplied></name></persName></persName>
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="24"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63513"><name nymRef="#Δεῖνις">Δεῖνις</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62846"><name nymRef="#Ἀναξίμανδρος" type="patronymic">Ἀναξιμ<unclear>άν</unclear>δρω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="25"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64531"><name nymRef="#Καλλίφαντος">Καλλίφαντος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="26"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65722"><name nymRef="#Σῶσις">Σῶσις</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                           
+                            <lb n="27"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65338"><name nymRef="#Πολιάνθης">Πολιάνθης</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="28"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65250"><name nymRef="#Παραιβάτας">Παραιβάτας</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="29"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63666"><name nymRef="#Ἐξάκων">Ἐξάκω<unclear>ν</unclear></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62880"><name nymRef="#Ἀνδροσθένης" type="patronymic">Ἀνδροσθ<supplied reason="lost">ένευς</supplied></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="30"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66171"><name nymRef="#Χάρων">Χάρων</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="31"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65713"><name nymRef="#Σώσιππος">Σώσιππος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="32"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66036"><name nymRef="#Φιλόξενος">Φιλόξενος</name> 
+                                        <persName type="attested" key=""><name type="patronymic" nymRef="#Σώσιππος"><supplied reason="lost">Σωσίππω</supplied></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="33"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62649"><name nymRef="#Αἰγλάνωρ">Αἰγλάνωρ</name> 
+                                        <persName type="attested" key=""><name nymRef="#Σώσιππος" type="patronymic"><supplied reason="lost">Σ</supplied>ω<supplied reason="lost">σ</supplied>ίππ<supplied reason="lost">ω</supplied></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="34"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64587"><name nymRef="#Καρνήδας">Καρνήδας</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="35"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62526"><name nymRef="#Ἀγαθοκλῆς">Ἀγ<unclear>α</unclear>θοκλῆς</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="36"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63941"><name nymRef="#Εὐφράνωρ">Εὐφράνωρ</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65442"><name nymRef="#Πρᾶξις" type="patronymic">Πράξιος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="37"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64977"><name nymRef="#Μελάνιππος">Μελάνιππος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63221"><name nymRef="#Ἀρίστων" type="patronymic">Ἀρίστωνος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="38"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62513"><name nymRef="#Ἀγαθῖνος">Ἀγαθῖνος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64977"><name nymRef="#Μελάνιππος" type="patronymic">Μελα<unclear>νίππ</unclear>ω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="39"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63091"><name nymRef="#Ἀρίστιππος">Ἀρίστιππος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64977"><name nymRef="#Μελάνιππος" type="patronymic">Μελα<unclear>νίππ</unclear>ω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="40"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64973"><name nymRef="#Μελάνιππος">Μελάνιππος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="41"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65830"><name nymRef="#Τιμόνοθος">Τιμόνοθος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63576"><name nymRef="#Διοκλῆς" type="patronymic">Διο<unclear>κ</unclear>λεῦς</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="42"/><persName type="attested" key=""><name nymRef="#Ἱππ_"><seg part="I">Ἱππ</seg><gap reason="lost" extent="unknown" unit="character"/></name>                                        
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                        
+                            <lb n="43"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64342"><name nymRef="#Ἰάσων">Ἰάσων</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64871"><name nymRef="#Λυσίμαχος" type="patronymic">Λυσιμάχω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="44"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64339"><name nymRef="#Ἰάσων">Ἰάσων</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62580"><name nymRef="#Ἁγησίστρατος" type="patronymic">Ἁγησιστράτω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                             
+                            <lb n="45"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65158"><name nymRef="#Νῖκις">Νῖκις</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63222"><name nymRef="#Ἀρίστων" type="patronymic">Ἀρίστωνος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="46"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63051"><name nymRef="#Ἀρισταγόρας">Ἀρισταγόρας</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="47"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64672"><name nymRef="#Κλεύθεμις">Κλεύθεμις</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="48"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63026"><name nymRef="#Ἄρατος">Ἄρατος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65818"><name type="patronymic" nymRef="#Τιμασίαναξ">Τιμασιάν<supplied reason="lost">ακτος</supplied></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num> 
+                            <lb n="49"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64904"><name nymRef="#Λῦσις">Λῦσις</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64914"><name nymRef="#Λύσων" type="patronymic">Λύσωνος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                        
+                            <lb n="50"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63120"><name nymRef="#Ἄριστις">Ἄρ<unclear>ισ</unclear>τις</name> 
+                                        <persName type="attested" key=""><name nymRef="#Ποσειδ_" type="patronymic"><seg part="I"><unclear>Ποσ</unclear>ειδ</seg><gap reason="lost" atLeast="4" atMost="5" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                           
+                            <lb n="51"/><persName type="attested" key=""><name nymRef="#Θευμίων"><unclear>Θ</unclear><supplied reason="lost">ε</supplied><unclear>υμ</unclear>ί<unclear>ω</unclear><supplied reason="lost">ν</supplied></name> 
+                                        <persName type="attested" key=""><name nymRef="#Φιλ_" type="patronymic"><seg part="I"><unclear>Φ</unclear>ιλ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="52"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63654"><name nymRef="#Ἐξαίνετος">Ἐξαίνετος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="53"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64178"><name nymRef="#Θεύδωρος">Θεύδωρος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64911"><name nymRef="#Λυσίστρατος" type="patronymic"><unclear>Λ</unclear>υσισ<unclear>τρ</unclear>ά<unclear>τω</unclear></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="54"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63315"><name nymRef="#Ἄστυλλος">Ἄστυλ<unclear>λ</unclear>ος</name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="55"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63052"><name nymRef="#Ἀρισταγόρας">Ἀρισταγ̣<unclear>όρ</unclear><supplied reason="lost">ας</supplied></name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="56"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65497"><name nymRef="#Πρῶρος">Πρῶρο<unclear>ς</unclear></name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="57"/><persName type="attested"><name nymRef="#Ἀριμ_"><seg part="I">Ἀριμ</seg><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="57a"/><gap reason="lost" extent="unknown" unit="line"/>
+                        </ab>
+                    </div>
+                    
+                    <div type="textpart" subtype="column" n="ii">
+                        <ab>
+                            <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64415"><name nymRef="#Ἱππόστρατος">Ἱππόστρατος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66154"><name nymRef="#Χαρίλας" type="patronymic"><unclear>Χ</unclear>α<unclear>ρ</unclear>ίλ<unclear>α</unclear></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="4"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65453"><name nymRef="#Πράταρχος">Πράταρχος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64337"><name nymRef="#Ἰάσων" type="patronymic">Ἰάσονος</name></persName></persName> 
+                                <num type="cardinal" value="300">
+                                    <measure type="currency" unit="drachma">
+                                            <unclear><g type="alphabetic">τ</g></unclear></measure></num>
+                            <lb n="5"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65743"><name nymRef="#Σώστρατος">Σώστρατος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65453"><name nymRef="#Πράταρχος" type="patronymic">Πρατάρχω</name></persName></persName> 
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                            <lb n="6"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63190"><name nymRef="#Ἀριστοτέλης">Ἀριστοτέλης</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65450"><name nymRef="#Πραξίτιμος" type="patronymic"><unclear>Πρα</unclear>ξιτίμω</name></persName></persName> 
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                            <lb n="7"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65762"><name nymRef="#Τείσων">Τε<unclear>ί</unclear><supplied reason="lost">σω</supplied>ν</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63190"><name nymRef="#Ἀριστοτέλης" type="patronymic">Ἀριστοτέλευς</name></persName></persName>
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                             <lb n="8"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63804"><name nymRef="#Εὔιππος">Εὔι<supplied reason="lost">π</supplied>πος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65443"><name nymRef="#Πρᾶξις" type="patronymic"><unclear>Πρ</unclear>άξιος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65599"><name nymRef="#Σῖμος">Σῖμος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65757"><name nymRef="#Τισάμενος" type="patronymic"><unclear>Τ</unclear>ισαμέ<supplied reason="lost">ν</supplied><unclear>ω</unclear></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="10"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65687"><name nymRef="#Σώπατρος">Σώπατρος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63188"><name nymRef="#Ἀριστοτέλης" type="patronymic">Ἀριστοτέλε<supplied reason="lost">υς</supplied></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="11"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65251"><name nymRef="#Παραιβάτας">Παρ<supplied reason="lost">αι</supplied>βάτας</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65060"><name nymRef="#Μνάσων" type="patronymic"><unclear>Μ</unclear>νάσονος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="12"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62557"><name nymRef="#Ἁγήσανδρος">Ἁ<unclear>γ</unclear>ήσανδ<supplied reason="lost">ρος</supplied></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66093"><name nymRef="#Φίλων" type="patronymic"><unclear>Φ</unclear>ίλων<unclear>ος</unclear></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="13"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63998"><name nymRef="#Ζηνόδωρος"><unclear>Ζη</unclear>νό<unclear>δω</unclear>ρος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63364"><name nymRef="#Βακαλ" type="patronymic">Βακαλ<supplied reason="lost">ος</supplied></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="14"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65882"><name nymRef="#Φείδιμος">Φείδιμος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64590"><name nymRef="#Κάρνις" type="patronymic">Κάρνιος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="15"/><persName type="attested" key=""><name nymRef="#Φιλοτάσιος">Φιλοτάσ<supplied reason="lost">ι</supplied>ος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64336"><name nymRef="#Ἰάσων" type="patronymic">Ἰάσονος</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="16"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63004"><name nymRef="#Ἀπολλώνιος">Ἀπολλώνιος</name> 
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" quantity="6" unit="character"/><seg part="F">ς</seg></name></persName></persName>                                
+                                    <num type="cardinal" value="370">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">το</g></measure></num>
+                            <lb n="17"/><space quantity="1" unit="character"/> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62889"><name nymRef="#Ἄνδρων">Ἄνδρων</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65386"><name nymRef="#Πολυκλῆς" type="patronymic">Πολυ<supplied reason="lost">κλε</supplied>ῦς</name></persName></persName>
+                                    <num type="cardinal" value="1000">
+                                    <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡα</g></hi></measure></num>
+                            <lb n="18"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64252"><name nymRef="#Θεύχρηστος">Θεύχρηστος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64188"><name nymRef="#Θευκρίσιος" type="patronymic"><supplied reason="lost">Θευ</supplied><unclear>κ</unclear>ρισίω</name></persName></persName>
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>   
+                            <lb n="19"/><space quantity="1" unit="character"/> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65787"><name nymRef="#Τερψικλῆς">Τ<unclear>ερ</unclear>ψι<unclear>κλῆς</unclear></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64003"><name nymRef="#Ζήνων" type="patronymic"><unclear>Ζ</unclear>ήνωνος</name></persName></persName> 
+                                    <num type="cardinal" value="500">
+                                    <measure type="currency" unit="drachma">
+                                            <unclear><g type="alphabetic">φ</g></unclear></measure></num>
+                            <lb n="20"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ιος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ίω</seg></name></persName></persName> 
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                            <lb n="21"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_νης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>ν</unclear>ευς</seg></name></persName></persName>
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                            <lb n="22"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">υς</seg></name></persName></persName>
+                                    <num type="cardinal" value="70">
+                                    <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">ο</g></unclear></measure></num>
+                            <lb n="23"/><persName type="attested"><name><gap reason="lost" atLeast="5" atMost="7" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65035"><name nymRef="#Μνάσαρχος" type="patronymic">Μν<unclear>ασ</unclear>άρχω</name></persName></persName>
+                                   <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                            <lb n="24"/><persName type="attested" key=""><name nymRef="#_χος"><gap reason="lost" atLeast="4" atMost="6" unit="character"/><seg part="F">χος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65352"><name nymRef="#Πολύαρχος" type="patronymic"><unclear>Πολυ</unclear>άρχω</name></persName></persName>
+                                    <num type="cardinal" value="80">
+                                    <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">π</g></unclear></measure></num>
+                            <lb n="25"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">υς</seg></name></persName></persName>
+                                    <num type="cardinal" value="50">
+                                    <measure type="currency" unit="drachma">
+                                        <unclear><g type="alphabetic">ν</g></unclear></measure></num>                    
+                            <lb n="26"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ανδρος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">άνδρω</seg></name></persName></persName>
+                                    <num type="cardinal" value="80">
+                                    <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">π</g></unclear></measure></num>
+                            <lb n="27"/><persName type="attested"><name><gap reason="lost" atLeast="4" atMost="6" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64216"><name nymRef="#Θεύφραστος" type="patronymic"><unclear>Θ</unclear>ευ<unclear>φ</unclear>ράσ<unclear>τ</unclear>ω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                    
+                            <lb n="28"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63004"><name nymRef="#Ἀπολλώνιος" type="patronymic">Ἀπολλωνίω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="29"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ων" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">νος</seg></name></persName></persName>
+                                   <num type="cardinal" value="900">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">Ϡ</g></measure></num>
+                            <lb n="30"/><persName type="attested"><name nymRef="#_ν_"><gap reason="lost" extent="unknown" unit="character"/><seg part="M"><orig>ν</orig></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>         
+                            <lb n="31"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#Θεύχρηστος" type="patronymic"><supplied reason="lost">Θευχρ</supplied>ήστω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="32"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63660"><name nymRef="#Ἔξακις" type="patronymic"><unclear>Ἐξ</unclear>ά<unclear>κ</unclear>ιος</name></persName></persName>
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                            <lb n="33"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ξενος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ξένω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="34"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_όνικος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ονίκω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="35"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62877"><name nymRef="#Ἀνδρόξενος" type="patronymic"><unclear>Ἀνδρο</unclear>ξένω</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="characteρ"/></measure></num>
+                            <lb n="36"/><persName type="attested"><name><gap reason="lost" atLeast="6" atMost="7" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63459"><name nymRef="#Δαμάτριος" type="patronymic">Δαματρίω</name></persName></persName>
+                                    <num type="cardinal" value="70">
+                                    <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">ο</g></unclear></measure></num>
+                            <lb n="37"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ων" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ωνος</seg></name></persName></persName>
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                        <g type="alphabetic">σν</g></measure></num>
+                            <lb n="38"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ισις" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ισιος</seg></name></persName></persName>
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                        <g type="alphabetic">σν</g></measure></num>
+                            <lb n="39"/><persName type="attested"><name><gap reason="lost" atLeast="6" atMost="7" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64571"><name nymRef="#Καρνήδας" type="patronymic"><unclear>Καρν</unclear>ήδα</name></persName></persName> 
+                                    <num type="cardinal" value="50">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">ν</g></measure></num>
+                            <lb n="40"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_σιος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">σίω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="41"/><persName type="attested"><name><gap reason="lost" atLeast="6" atMost="8" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64106"><name nymRef="#Θεμίσων" type="patronymic">Θεμίσωνος</name></persName></persName> 
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                        <g type="alphabetic">σν</g></measure></num>
+                            <lb n="42"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64923"><name nymRef="#Μᾶνις" type="patronymic"><unclear>Μ</unclear>άνιος</name></persName></persName> 
+                                    <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                        <g type="alphabetic">σν</g></measure></num>
+                            <lb n="43"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_τισθένης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">τισθένευς</seg></name></persName></persName>
+                                    <num type="cardinal" value="300">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">τ</g></measure></num>
+                            <lb n="44"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                                    <num type="cardinal" value="1000">
+                                    <measure type="currency" unit="drachma">
+                                        <hi rend="ligature"><g type="alphabetic">Ϡα</g></hi></measure></num>
+                            <lb n="45"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                                    <num type="total" value="400">
+                                    <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">υ</g></unclear></measure></num>
+                            <lb n="46"/><persName type="attested"><name><gap reason="lost" atLeast="7" atMost="9" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#Σωσίλας" type="patronymic"><supplied reason="lost">Σ</supplied><unclear>ω</unclear>σίλα</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="47"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ας" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">α</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="48"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>ε</unclear>υς</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="49"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ένος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ένω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                            
+                            <lb n="50"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="51"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="52"/><gap reason="lost" quantity="1" unit="line"/> 
+                            <lb n="53"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="Χαῖνυς" type="patronymic"><supplied reason="lost">Χαί</supplied>νυο<unclear>ς</unclear></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="54"/><gap reason="lost" quantity="7" unit="line"/>                            
+                            <lb n="61"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="line"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#Καφισίας" type="patronymic"><supplied reason="lost">Κα</supplied>φισία</name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="62"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_δωρος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>δ</unclear>ώρω</seg></name></persName></persName> 
+                                     <num type="cardinal" value="200">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σ</g></measure></num>
+                            <lb n="63"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="64"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_σίας" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">σία</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="65"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="66"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_της" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">τευς</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="67"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="68"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_νος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">νω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="69"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ος</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="70"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ων" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ντος</seg></name></persName></persName> 
+                                        <num type="cardinal" value="200">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σ</g></measure></num>                            
+                            <lb n="71"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ηνος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ήνω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="72"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="73"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="74"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ο<unclear>ς</unclear></seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="75"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="76"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ος</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="77"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ος</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="78"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="79"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_ης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ευς</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                            <lb n="80"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                        <persName type="attested" key=""><name nymRef="#_τος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">τω</seg></name></persName></persName> 
+                                        <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num> 
+                            <lb n="80a"/><gap reason="lost" extent="unknown" unit="line"/> 
+                        </ab>
+                    </div>
+                </div>
+                    <div type="textpart" subtype="fragment" n="b.i">
+<ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#_ος"><gap reason="lost" atLeast="6" atMost="7" unit="character"/><seg part="F">ος</seg></name> 
+                                <persName type="attested" key=""><name nymRef="#Εὐμηλίδας" type="patronymic">Εὐμη<supplied reason="lost">λίδα</supplied></name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                    
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64277"><name nymRef="#Θρασύμαχος">Θρασύμαχος</name> 
+                                <persName type="attested" key=""><name nymRef="#Ἀριστ_" type="patronymic"><seg part="I">Ἀριστ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63155"><name nymRef="#Ἀριστόμαχος">Ἀριστόμαχος</name> 
+                                <persName type="attested" key=""><name nymRef="#Στρατ_" type="patronymic"><seg part="I">Στρατ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="4"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62896"><name nymRef="#Ἁνίοχος">Ἁνίοχος</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63155"><name nymRef="#Ἀριστόμαχος" type="patronymic">Ἀριστομάχω</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="5"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66170"><name nymRef="#Χαρτάδας">Χαρτάδας</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66042"><name nymRef="#Φιλόξενος" type="patronymic">Φιλοξέν<unclear>ω</unclear></name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>                    
+                    <lb n="6"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66102"><name nymRef="#Φίλων">Φίλων</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62814"><name nymRef="#Ἀμμώνιος" type="patronymic">Ἀμμωνίω</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="7"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65482"><name nymRef="#Πρατομήδης">Πρατομήδης</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63275"><name nymRef="#Ἀρχικλῆς" type="patronymic">Ἀρχικλεῦς</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="8"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64584"><name nymRef="#Καρνήδας">Καρνήδας</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65482"><name nymRef="#Πρατομήδης" type="patronymic">Πρατομήδευς</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64583"><name nymRef="#Καρνήδας">Καρνήδας</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64290"><name nymRef="#Ἴασις" type="patronymic">Ἰάσιος</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="10"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66143"><name nymRef="#Χαιρεσίλας">Χαιρεσίλας</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64290"><name nymRef="#Ἴασις" type="patronymic">Ἰάσι<unclear>ο</unclear>ς</name></persName></persName> 
+                                <num type="cardinal" value="500">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">φ</g></measure></num>
+                    <lb n="11"/><persName type="attested" key=""><name nymRef="#Ἄρατος"><supplied reason="lost">Ἄ</supplied>ρατος</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64675"><name nymRef="Κλεύθεμις" type="patronymic">Κλευθέ<unclear>μ</unclear><supplied reason="lost">ιος</supplied></name></persName></persName>
+                                <num type="cardinal" value="500">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">φ</g></measure></num>
+                    <lb n="12"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63706"><name nymRef="#Ἐπικράτης"><supplied reason="lost">Ἐ</supplied>πικράτης</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66043"><name nymRef="#Φιλόξενος" type="patronymic">Φιλο<unclear>ξ</unclear><supplied reason="lost">ένω</supplied></name></persName></persName>
+                                <num type="cardinal" value="2000">
+                                    <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡβ</g></hi></measure></num>
+                    <lb n="13"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63707"><name nymRef="#Ἐπικράτης"><supplied reason="lost">Ἐ</supplied>πικράτης</name> 
+                                <persName type="attested" key=""><name nymRef="#Ἐπικ_" type="patronymic"><seg part="I">Ἐπικ</seg><gap reason="lost" atMost="7" unit="character"/></name></persName></persName>
+                                <num type="cardinal" value="500">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">φ</g></measure></num>
+                    <lb n="14"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62583"><name nymRef="#Ἁγησίστρατος">Ἁγησίστρατο<unclear>ς</unclear></name> 
+                                <persName type="attested"><name type="patronymic"><gap reason="lost" atMost="6" unit="character"/></name></persName></persName> 
+                               <num type="cardinal" value="1500">
+                                    <measure type="currency" unit="drachma">
+                                            <g type="alphabetic">Ϡφ</g></measure></num>
+                    <lb n="15"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63256"><name nymRef="#Ἀρτεμίδωρος">Ἀρτεμίδωρος</name> 
+                                <persName type="attested"><name type="patronymic"><gap reason="lost" atMost="7" unit="character"/></name></persName></persName>
+                                <num type="cardinal" value="2000">
+                                    <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡβ</g></hi></measure></num> 
+                    <lb n="16"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65948"><name nymRef="#Φίλιππος">Φίλιππος</name> 
+                                <persName type="attested" key=""><name nymRef="#Υ_" type="patronymic"><seg part="I">Υ</seg><gap reason="lost" atMost="8" unit="character"/></name></persName></persName>                                 
+                                    <num type="cardinal" value="300">
+                                    <measure type="currency" unit="drachma">
+                                           <unclear><g type="alphabetic">τ</g></unclear></measure></num>
+                    <lb n="17"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66163"><name nymRef="#Χαρίτιμος">Χαρίτιμος</name> 
+                                <persName type="attested" key=""><name nymRef="#Α_" type="patronymic"><seg part="I"><unclear>Α</unclear></seg><gap reason="lost" atMost="5" unit="character"/></name></persName></persName>
+                                <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                    <lb n="18"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63223"><name nymRef="#Ἀρίστων">Ἀρίστων</name> 
+                                <persName type="attested" key=""><name nymRef="#Κότταβος" type="patronymic">Κο<supplied reason="lost" cert="low">ττ</supplied>άβω</name></persName></persName>
+                                <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                    <lb n="19"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64497"><name nymRef="#Καλλίμαχος">Καλ<unclear>λ</unclear>ίμαχος</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63223"><name nymRef="#Ἀρίστων" type="patronymic">Ἀρίστωνος</name></persName></persName>
+                                <num type="cardinal" value="250">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">σν</g></measure></num>
+                    <lb n="20"/><persName type="attested" key=""><name nymRef="#Ἐπικάρτης">Ἐ<unclear>π</unclear>ι<unclear>κ</unclear>άρτης</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63720"><name nymRef="#Ἐπιτέλης" type="patronymic">Ἐπιτέλευς</name></persName></persName> 
+                                <num type="cardinal" value="300">
+                                    <measure type="currency" unit="drachma">
+                                           <g type="alphabetic">τ</g></measure></num>
+                    <lb n="21"/><persName type="attested" key=""><name nymRef="#Φιλύτας">Φιλ<supplied reason="lost">ύ</supplied><unclear>τ</unclear>ας</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62650"><name nymRef="#Αἰγλάνωρ" type="patronymic">Αἰγλάνορος</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="22"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65205"><name nymRef="#Οἰνεύς"><supplied reason="lost">Οἰ</supplied>νεὺς</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65695"><name nymRef="#Σώσανδρος" type="patronymic">Σωσάνδρω</name></persName></persName>
+                                    <num type="cardinal" value="1000">
+                                    <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡα</g></hi></measure></num>
+                    <lb n="23"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65355"><name nymRef="#Πολύαρχος"><supplied reason="lost">Πο</supplied>λύαρχος</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65205"><name nymRef="#Οἰνεύς" type="patronymic">Οἰνεῦς</name></persName></persName>
+                                    <num type="cardinal" value="1000">
+                                    <measure type="currency" unit="drachma">
+                                            <hi rend="ligature"><g type="alphabetic">Ϡα</g></hi></measure></num>
+                    <lb n="24"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63912"><name nymRef="#Εὐφραῖος"><supplied reason="lost">Εὐ</supplied><unclear>φρα</unclear><supplied reason="lost">ῖο</supplied>ς</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65140"><name nymRef="#Νικίας" type="patronymic">Νικία</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="25"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65141"><name nymRef="#Νικίας"><supplied reason="lost">Νι</supplied><unclear>κ</unclear>ίας</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63912"><name nymRef="#Εὐφραῖος" type="patronymic">Εὐφραίω</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="26"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62951"><name nymRef="#Ἀντιφάνης" type="patronymic"><supplied reason="lost">Ἀν</supplied>τιφάνευς</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="27"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62951"><name nymRef="#Ἀντιφάνης" type="patronymic"><supplied reason="lost">Ἀν</supplied>τιφάνευς</name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="28"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62951"><name nymRef="#Ἀντιφάνης" type="patronymic"><supplied reason="lost">Ἀντι</supplied><unclear>φ</unclear>άνευ<unclear>ς</unclear></name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="29"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                <persName type="attested" key=""><name nymRef="#_ης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">ε</supplied><unclear>υ</unclear>ς</seg></name></persName></persName> 
+                                    <num><measure type="currency" unit="drachma">                                                
+                                              <gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                    <lb n="29a"/><gap reason="lost" extent="unknown" unit="line"/>               
+                </ab>
+               </div>
+                
+                <div type="textpart" subtype="fragment" n="c.ii">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><choice><unclear>ι</unclear><unclear>τ</unclear><unclear>γ</unclear></choice><unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/> 
+                        <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                        <lb n="2"/><persName type="attested" key=""><name nymRef="#_ιστος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ιστος</seg></name> 
+                            <persName><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num> 
+                        <lb n="3"/><persName type="attested" key=""><name nymRef="#_τας"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">τας</seg></name> <persName type="attested" key=""><name nymRef="#Εὐκλῆς">Εὐκλεῦς</name></persName></persName> 
+                        <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                        <lb n="4"/><persName type="attested" key=""><name nymRef="#_ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>ς</unclear></seg></name> 
+                            <persName type="attested" key=""><name nymRef="#Πρατομήδης">Πρατομήδευς</name></persName></persName> <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                        <lb n="5"/><persName type="attested" key=""><name nymRef="#_ης"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ης</seg></name> 
+                        <persName type="attested" key=""><name nymRef="#Δαμόφιλος">Δαμοφίλω</name></persName></persName> <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num>
+                        <lb n="6"/><persName type="attested" key=""><name nymRef="#_ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ς</seg></name> 
+                        <persName type="attested" key=""><name nymRef="#Δαμόφιλος">Δαμοφίλω</name></persName></persName> <num type="cardinal" value="400"><measure type="currency" unit="drachma"><unclear><g type="alphabetic">υ</g></unclear></measure></num>
+                        <lb n="7"/><persName><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#Πρατομήδης"><unclear>Πρ</unclear><supplied reason="lost">α</supplied>τ<supplied reason="lost">ο</supplied>μήδευς</name></persName></persName> <num><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num> 
+                        <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+	 
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>Fragment a, col. i</p>
+                    <p><app loc="16"><lem><unclear>Θ</unclear>ευ<supplied reason="lost">χρήστ</supplied>ω</lem>
+                        <rdg resp="#gpc1961"><unclear>Θ</unclear>ευ<gap reason="lost" quantity="5" unit="character"/>ω <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="21"><lem><supplied reason="lost">Ἄγ</supplied>αθος</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" quantity="2" unit="character"/>αθος <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="22"><lem><supplied reason="lost">Λυ</supplied>σίστρατος</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" quantity="2" unit="character"/>σίστρατος <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="23"><lem><supplied reason="lost">Θ</supplied>εύδωρ<supplied reason="lost">ος</supplied></lem>
+                        <rdg resp="#gpc1961"><supplied reason="lost">Θ</supplied>εύδωρος <gap reason="lost" extent="unknown" unit="character"/> <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="23"><lem><supplied reason="lost">Ἰ</supplied>άσο<supplied reason="lost">νος</supplied></lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/> <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="32"><lem><supplied reason="lost">Σωσίππω</supplied> <note>supplied from position between 31 and 33</note></lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/> <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="33"><lem><supplied reason="lost">Σ</supplied>ω<supplied reason="lost">σ</supplied>ίππ<supplied reason="lost">ω</supplied></lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/> <note>Oliverio's reading</note></rdg>
+                    </app>
+                        <app loc="47"><lem resp="#gpc1961 #IGCyr"><gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#rosamilia2023"><supplied reason="lost" cert="low">Στάσιος</supplied></rdg>
+                    </app>
+                        <app loc="50"><lem resp="#IGCyr #rosamilia2023"><unclear>Ποσ</unclear>ειδ<gap reason="lost" atLeast="4" atMost="5" unit="character"/></lem>
+                        <rdg resp="#gpc1961"><unclear>Ποσ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        </app>
+                    <app loc="51"><lem><unclear>Θ</unclear><supplied reason="lost">ε</supplied><unclear>υμ</unclear>ί<unclear>ω</unclear><supplied reason="lost">ν</supplied></lem>
+                        <rdg resp="#gpc1961"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64201"><name>Θ<unclear>ευ</unclear>νίω<unclear>ν</unclear></name></persName></rdg></app>
+                </p>
+                <p>Fragment a, col. ii</p>
+                <p>
+                    <app loc="6"><lem><num value="200"><g type="alphabetic">σ</g></num><num value="50"><unclear><g type="alphabetic">ν</g></unclear></num></lem>
+                        <rdg resp="#gpc1961"><num value="50"><unclear><g type="alphabetic">ν</g></unclear></num> <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="15"><lem>Φιλοτάσ<supplied reason="lost">ι</supplied>ος</lem>
+                        <rdg resp="#gpc1961">Φιλότας <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="17"><lem resp="#fraser-matthews1987 #rosamilia2023">Πολυ<supplied reason="lost">κλε</supplied>ῦς <note>J.M. Reynolds' suggestion</note></lem>
+                    <rdg resp="#gpc1961 #IGCyr">Πολυ<gap reason="lost" quantity="3" unit="character"/><supplied reason="lost">ε</supplied>υς</rdg>
+                    </app>
+                   <app loc="26"><lem><num value="80"><unclear><g type="alphabetic">π</g></unclear></num></lem>
+                        <rdg resp="#gpc1961"><num value="300"><unclear><g type="alphabetic">τ</g></unclear></num> <note>Oliverio's reading</note></rdg>
+                    </app>
+                   <app loc="29"><lem><num value="900"><g type="alphabetic">Ϡ</g></num></lem>
+                        <rdg resp="#gpc1961 #rosamilia2023"><num type="cardinal" value="250"><g type="alphabetic">σν</g></num> <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="31"><lem resp="#rosamilia2023"><supplied reason="lost">Θευχρ</supplied>ήστω</lem>
+                    <rdg resp="#gpc1961 #IGCyr"><gap reason="lost" extent="unknown" unit="character"/>ήστω</rdg> <note>Oliverio's reading</note></app>
+                    <app loc="33"><lem><gap reason="lost" extent="unknown" unit="character"/>ξένω</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>θω <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="38"><lem><gap reason="lost" extent="unknown" unit="character"/>ισιος</lem>                        
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>ανυτος <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="46"><lem><supplied reason="lost">Σ</supplied><unclear>ω</unclear>σίλα</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>οσίλ<supplied reason="lost">α</supplied> <note>Oliverio's reading</note></rdg>
+                    </app>
+                    <app loc="53"><lem resp="#rosamilia2023"><supplied reason="lost">Χαί</supplied>νυο<unclear>ς</unclear></lem>
+                    <rdg resp="#gpc1961 #IGCyr"><gap reason="lost" extent="unknown" unit="character"/>νυο<unclear>ς</unclear></rdg> <note>Oliverio's reading</note></app>
+                    <app loc="61"><lem><supplied reason="lost">Κα</supplied>φισία</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>φισία <note>Oliverio's reading</note></rdg>
+                    </app>
+                </p>
+
+                <p>Fragment b</p>
+                   <p> <app loc="1"><lem>Εὐμη<supplied reason="lost">λίδα</supplied></lem>
+                        <rdg resp="#gpc1961">Εὐμη<supplied reason="lost">λ</supplied><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                       <app loc="11"><lem resp="#rosamilia2023"><supplied reason="lost">Π</supplied>ρᾶτος</lem>
+                       <rdg resp="#gpc1961 #IGCyr"><supplied reason="lost">Ἄ</supplied>ρατος</rdg>
+                       </app>
+                     <app loc="12"><lem><num value="2000"><hi rend="ligature"><g type="alphabetic">Ϡβ</g></hi></num></lem>
+                        <rdg resp="#gpc1961"><num value="2000"><hi rend="ligature"><g type="alphabetic">Ϡβ</g></hi></num>
+                                        <gap reason="illegible" quantity="1" unit="character"/> <note>the ligature for 2000, being taller, 
+                                            has been written further to the left and no character is missing after it</note></rdg>
+                    </app>
+                   <app loc="18"><lem>Κο<supplied reason="lost" cert="low">ττ</supplied>άβω</lem>
+                        <rdg resp="#gpc1961"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64716"><name>Κο<supplied reason="lost" cert="low">μβ</supplied>άβω</name></persName></rdg>
+                    </app>
+                    <app loc="20"><lem>Ἐ<unclear>π</unclear>ι<unclear>κ</unclear>άρτης</lem>
+                        <rdg resp="#gpc1961"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63625"><name>Εἰ<unclear>δ</unclear><supplied reason="lost">υ</supplied>άρτης</name></persName></rdg>
+                    </app>
+                     <app loc="21"><lem>Φιλ<supplied reason="lost">ύ</supplied><unclear>τ</unclear>ας</lem>
+                         <rdg resp="#fraser-matthews1987">Φιλ<supplied reason="lost">ίν</supplied><unclear>ν</unclear>ας <note>J.M. Reynolds' suggestion.</note></rdg>
+                        <rdg resp="#gpc1961"><unclear>Φ</unclear>ιλ<supplied reason="lost">ώ</supplied><unclear>ν</unclear>ας</rdg>
+                    </app>
+                </p>   
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>a. Prêtre Nikobolos fils d'Iasôn. Tous ceux qui ont volontairement donné des espèces à la cité :</p>
+            <p>i. <gap reason="lost" quantity="4" unit="line"/> (5) <gap reason="lost" extent="unknown" unit="character"/> 1000 drachmes, <gap reason="lost" extent="unknown" unit="character"/>  900 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>es 1100 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>as 600 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>pos 500 drachmes, (10) <gap reason="lost" extent="unknown" unit="character"/> fils de Thémisôn 1000 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>andros <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> 80 drachmes, <gap reason="lost" extent="unknown" unit="character"/> 800 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils d'Haniochos, <gap reason="lost" extent="unknown" unit="character"/>, (15) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de Theukhrestos, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (20) <gap reason="lost" extent="unknown" unit="character"/>arkhos fils de <gap reason="lost" extent="unknown" unit="character"/>, Agathos fils de <gap reason="lost" extent="unknown" unit="character"/>, Lysistratos fils de <gap reason="lost" extent="unknown" unit="character"/>, Theudoros fils d'Iasôn <gap reason="lost" extent="unknown" unit="character"/>, Deinis fils d'Anaximandros <gap reason="lost" extent="unknown" unit="character"/>, (25) Kalliphantos fils de <gap reason="lost" extent="unknown" unit="character"/>, Sôsis fils de <gap reason="lost" extent="unknown" unit="character"/>, Polianthès fils de <gap reason="lost" extent="unknown" unit="character"/>, Paraibatas fils de <gap reason="lost" extent="unknown" unit="character"/>, Exakon fils d'Androsthénès <gap reason="lost" extent="unknown" unit="character"/>, (30) Kharôn fils de <gap reason="lost" extent="unknown" unit="character"/>, Sôsippos fils de <gap reason="lost" extent="unknown" unit="character"/>, Philoxénos fils de <supplied reason="lost">Sôsippos</supplied> <gap reason="lost" extent="unknown" unit="character"/>, Aiglanôr fils de Sôsippos <gap reason="lost" extent="unknown" unit="character"/>, Karnèdas fils de <gap reason="lost" extent="unknown" unit="character"/>, (35) Agathoklès fils de <gap reason="lost" extent="unknown" unit="character"/> Euphranôr fils de Praxis <gap reason="lost" extent="unknown" unit="character"/>, Mélanippos fils d'Aristôn <gap reason="lost" extent="unknown" unit="character"/>, Agathinos fils de Mélanippos <gap reason="lost" extent="unknown" unit="character"/>, Aristippos fils de Mélanippos <gap reason="lost" extent="unknown" unit="character"/>, (40) Mélanippos fils de <gap reason="lost" extent="unknown" unit="character"/>, Timonothos fils de Dioklès <gap reason="lost" extent="unknown" unit="character"/>, Hipp<gap reason="lost" extent="unknown" unit="character"/>, Iasôn fils de Lysimakhos <gap reason="lost" extent="unknown" unit="character"/>, Iasôn fils d'Hagèsistratos <gap reason="lost" extent="unknown" unit="character"/>, (45) Nikis fils d'Aristôn <gap reason="lost" extent="unknown" unit="character"/>, Aristagoras fils de <gap reason="lost" extent="unknown" unit="character"/>, Kleuthémis fils de <gap reason="lost" extent="unknown" unit="character"/>, Aratos fils de Timasianax <gap reason="lost" extent="unknown" unit="character"/>, Lysis fils de Lysôn <gap reason="lost" extent="unknown" unit="character"/>, (50) Aristis fils de Poseid<gap reason="lost" extent="unknown" unit="character"/>, Theumiôn fils de Phil<gap reason="lost" extent="unknown" unit="character"/>, Exainetos fils de <gap reason="lost" extent="unknown" unit="character"/>, Theudôros fils de Lysistratos <gap reason="lost" extent="unknown" unit="character"/>, Astyllos fils de <gap reason="lost" extent="unknown" unit="character"/>, (55) Aristagoras fils de <gap reason="lost" extent="unknown" unit="character"/>, Prôros fils de <gap reason="lost" extent="unknown" unit="character"/>, Arim<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>ii. Hippostratos fils de Kharilas <gap reason="lost" extent="unknown" unit="character"/>, Pratarkhos fils d'Iasôn 300 drachmes, (5) Sôstratos fils de Pratarkhos 250 drachmes, Aristotélès fils de Praxitimos 250 drachmes, Teisôn fils d'Aristotélès <gap reason="lost" extent="unknown" unit="character"/>, Euippos fils de Praxis <gap reason="lost" extent="unknown" unit="character"/>, Simos fils de Tisamenos <gap reason="lost" extent="unknown" unit="character"/>, (10) Sôpatros fils d'Aristotélès <gap reason="lost" extent="unknown" unit="character"/>, Paraibatas fils de Mnasôn <gap reason="lost" extent="unknown" unit="character"/>, Hagèsandros fils de Philôn <gap reason="lost" extent="unknown" unit="character"/>, Zènodôros fils de Bakal <gap reason="lost" extent="unknown" unit="character"/>, Pheidimos fils de Karnis <gap reason="lost" extent="unknown" unit="character"/>, (15) Philôtas fils d'Iasôn <gap reason="lost" extent="unknown" unit="character"/>, Apollônios fils de <gap reason="lost" extent="unknown" unit="character"/> 370 drachmes, Andrôn fils de Poly<supplied reason="lost">kl</supplied>ès 1000 drachmes, Theukhrestos fils de Theukrisios 250 drachmes, Terpsiklès fils de Zènôn 500 drachmes, (20) <gap reason="lost" extent="unknown" unit="character"/> 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>nès 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> 70 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de Mnasarkhos 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/>chos fils de Polyarkhos 80 drachmes, (25) <gap reason="lost" extent="unknown" unit="character"/> 50 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>andros 80 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de Theuphrastos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils d'Apollônios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> 900 drachmes, (30) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <supplied reason="lost">Theukhr</supplied>estos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils d'Exakis 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>xénos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>onikos <gap reason="lost" extent="unknown" unit="character"/>, (35) <gap reason="lost" extent="unknown" unit="character"/> fils d'Androxénos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de Damatrios 70 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>ôn 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>isis 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de Karnèdas 50 drachmes, (40) <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>sios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de Thémisôn 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de Mânis 250 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>tisthenes 300 drachmes, <gap reason="lost" extent="unknown" unit="character"/> 1000 drachmes, (45) <gap reason="lost" extent="unknown" unit="character"/> 400 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de Sôsilas <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>as <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/> , <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>enos <gap reason="lost" extent="unknown" unit="character"/>, (50) <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>os <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>os <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <supplied reason="lost">Khai</supplied>nys <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de Kaphisias <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>dôros 200 drachmes, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>sias <gap reason="lost" extent="unknown" unit="character"/>, (65) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>tès <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>nos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (70) <gap reason="lost" extent="unknown" unit="character"/> 200 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>ènos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (75) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>ès <gap reason="lost" extent="unknown" unit="character"/>, (80) <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>tos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+            <p>b.i <gap reason="lost" extent="unknown" unit="line"/>, <gap reason="lost" extent="unknown" unit="character"/>os fils d'Eumèlidas <gap reason="lost" extent="unknown" unit="character"/>, Thrasymakhos fils d'Arist<gap reason="lost" extent="unknown" unit="character"/>, Aristomakhos fils de Strat<gap reason="lost" extent="unknown" unit="character"/>, Haniokhos fils d'Aristomakhos <gap reason="lost" extent="unknown" unit="character"/>, (5) Khartadas fils de Philoxénos <gap reason="lost" extent="unknown" unit="character"/>, Philôn fils d'Ammônios <gap reason="lost" extent="unknown" unit="character"/>, Pratomedes fils d'Arkhikles <gap reason="lost" extent="unknown" unit="character"/>, Karnedas fils de Pratomèdès <gap reason="lost" extent="unknown" unit="character"/>, Karnèdas fils d'Iasis <gap reason="lost" extent="unknown" unit="character"/>, (10) Khairesilas fils d'Iasis 500 drachmes, <supplied reason="lost">A</supplied>ratos fils de Kleuthemis 500 drachmes, Epikratès fils de Philoxénos 2000 drachmes, Epikratès fils d'Epik<gap reason="lost" extent="unknown" unit="character"/> 500 drachmes, Hagesistratos figlio di <gap reason="lost" extent="unknown" unit="character"/> 1500 drachmes, (15) Artemidôros fils de <gap reason="lost" extent="unknown" unit="character"/> 2000 drachmes, Philippos fils d'Y<gap reason="lost" extent="unknown" unit="character"/> 300 drachmes, Kharitimos fils d'A<gap reason="lost" extent="unknown" unit="character"/> 250 drachmes, Aristôn fils de Ko<supplied reason="lost" cert="low">tt</supplied>abos 250 drachmes, Kallimakhos fils d'Aristôn 250 drachmes, (20) Epikartès fils d'Epitélès 300 drachmes, Philytas fils d'Aiglanôr <gap reason="lost" extent="unknown" unit="character"/>, Oineus fils de Sôsandros 1000 drachmes, Polyarkhos fils d'Oineus 1000 drachmes, Euphraios fils de Nikias <gap reason="lost" extent="unknown" unit="character"/>, (25) Nikias fils d'Euphraios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils d'Antiphanès <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils d'Antiphanès <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils d'Antiphanès <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>ès <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+            <p>c.ii <gap reason="lost" extent="unknown" unit="line"/>, <gap reason="lost" extent="unknown" unit="character"/>io<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>istos fils de <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>tas fils d'Euklès, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>s fils de Pratomèdès, <gap reason="lost" extent="unknown" unit="character"/>, (5) <gap reason="lost" extent="unknown" unit="character"/>ès fils de Damophilos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>s fils de Damophilos, 400 drachmes, <gap reason="lost" extent="unknown" unit="character"/> fils de Pratomèdès, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="line"/></p>
+
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>a. Priest Nikobolos son of Iason. All those who freely gave money to the city:</p>
+            <p>i. <gap reason="lost" quantity="4" unit="line"/> (5) <gap reason="lost" extent="unknown" unit="character"/> 1000 drachmas, <gap reason="lost" extent="unknown" unit="character"/> 900 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>es 1100 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>as 600 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>pos 500 drachmas, (10) <gap reason="lost" extent="unknown" unit="character"/> son of Themison 1000 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>andros <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> 80 drachmas, <gap reason="lost" extent="unknown" unit="character"/> 800 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of Haniochos <gap reason="lost" extent="unknown" unit="character"/>, (15) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Theuchrestos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (20) <gap reason="lost" extent="unknown" unit="character"/>archos son of <gap reason="lost" extent="unknown" unit="character"/>, Agathos son of <gap reason="lost" extent="unknown" unit="character"/>, Lysistratos son of <gap reason="lost" extent="unknown" unit="character"/>, Theudoros son of Iason <gap reason="lost" extent="unknown" unit="character"/>, Deinis son of Anaximandros <gap reason="lost" extent="unknown" unit="character"/>, (25) Kalliphantos son of <gap reason="lost" extent="unknown" unit="character"/>, Sosis son of <gap reason="lost" extent="unknown" unit="character"/>, Polianthes son of <gap reason="lost" extent="unknown" unit="character"/>, Paraibatas son of <gap reason="lost" extent="unknown" unit="character"/>, Exakon son of Androsthenes <gap reason="lost" extent="unknown" unit="character"/>, (30) Charon son of <gap reason="lost" extent="unknown" unit="character"/>, Sosippos son of <gap reason="lost" extent="unknown" unit="character"/>, Philoxenos son of <supplied reason="lost">Sosippos</supplied> <gap reason="lost" extent="unknown" unit="character"/>, Aiglanor son of Sosippos <gap reason="lost" extent="unknown" unit="character"/>, Karnedas son of <gap reason="lost" extent="unknown" unit="character"/>, (35) Agathokles son of <gap reason="lost" extent="unknown" unit="character"/>, Euphranor son of Praxis <gap reason="lost" extent="unknown" unit="character"/>, Melanippos son of Ariston <gap reason="lost" extent="unknown" unit="character"/>, Agathinos son of Melanippos <gap reason="lost" extent="unknown" unit="character"/>, Aristippos son of Melanippos <gap reason="lost" extent="unknown" unit="character"/>, (40) Melanippos son of <gap reason="lost" extent="unknown" unit="character"/>, Timonothos son of Diokles <gap reason="lost" extent="unknown" unit="character"/>, Hipp<gap reason="lost" extent="unknown" unit="character"/>, Iason son of Lysimachos <gap reason="lost" extent="unknown" unit="character"/>, Iason son of Hagesistratos <gap reason="lost" extent="unknown" unit="character"/>, (45) Nikis son of Ariston <gap reason="lost" extent="unknown" unit="character"/>, Aristagoras son of <gap reason="lost" extent="unknown" unit="character"/>, Kleuthemis son of <gap reason="lost" extent="unknown" unit="character"/>, Aratos son of Timasianax <gap reason="lost" extent="unknown" unit="character"/>, Lysis son of Lyson <gap reason="lost" extent="unknown" unit="character"/>, (50) Aristis son of Poseid<gap reason="lost" extent="unknown" unit="character"/>, Theumion son of Phil<gap reason="lost" extent="unknown" unit="character"/>, Exainetos son of <gap reason="lost" extent="unknown" unit="character"/>, Theudoros son of Lysistratos <gap reason="lost" extent="unknown" unit="character"/>, Astyllos son of <gap reason="lost" extent="unknown" unit="character"/>, (55) Aristagoras son of <gap reason="lost" extent="unknown" unit="character"/>, Proros son of <gap reason="lost" extent="unknown" unit="character"/>, Arim<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>ii. Hippostratos son of Charilas <gap reason="lost" extent="unknown" unit="character"/>, Pratarchos son of Iason 300 drachmas, (5) Sostratos son of Pratarchos 250 drachmas, Aristoteles son of Praxitimos 250 drachmas, Teison son of Aristoteles <gap reason="lost" extent="unknown" unit="character"/>, Euippos son of Praxis <gap reason="lost" extent="unknown" unit="character"/>, Simos son of Tisamenos <gap reason="lost" extent="unknown" unit="character"/>, (10) Sopatros son of Aristoteles <gap reason="lost" extent="unknown" unit="character"/>, Paraibatas son of Mnason <gap reason="lost" extent="unknown" unit="character"/>, Hagesandros son of Philon <gap reason="lost" extent="unknown" unit="character"/>, Zenodoros son of Bakal <gap reason="lost" extent="unknown" unit="character"/>, Pheidimos son of Karnis <gap reason="lost" extent="unknown" unit="character"/>, (15) Philotas son of Iason <gap reason="lost" extent="unknown" unit="character"/>, Apollonios son of <gap reason="lost" extent="unknown" unit="character"/> 370 drachmas, Andron son of Poly<supplied reason="lost" unit="character">kl</supplied>es 1000 drachmas, Theuchrestos son of Theukrisios 250 drachmas, Terpsikles son of Zenon 500 drachmas, (20) <gap reason="lost" extent="unknown" unit="character"/> 250 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>nes 250 drachmas, <gap reason="lost" extent="unknown" unit="character"/> 70 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of Mnasarchos 250 drachmas, <gap reason="lost" extent="unknown" unit="character"/>chos son of Polyarchos 80 drachmas, (25) <gap reason="lost" extent="unknown" unit="character"/> 50 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>andros 80 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of Theuphrastos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Apollonios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> 900 drachmas, (30) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <supplied reason="lost">Theuchr</supplied>estos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Exakis 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>xenos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>onikos <gap reason="lost" extent="unknown" unit="character"/>, (35) <gap reason="lost" extent="unknown" unit="character"/> son of Androxenos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Damatrios 70 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>on 250 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>isis 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> son of Karnedas 50 dracme, (40) <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>sios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Themison 250 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of Manis 250 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>tisthenes 300 dracme, <gap reason="lost" extent="unknown" unit="character"/> 1000 dracme, (45) <gap reason="lost" extent="unknown" unit="character"/> 400 dracme, <gap reason="lost" extent="unknown" unit="character"/> son of Sosilas <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>as <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/> , <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>enos <gap reason="lost" extent="unknown" unit="character"/>, (50) <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>os <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>os <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <supplied reason="lost">Chai</supplied>nys <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (55) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Kaphisias <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>doros 200 drachmas, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>sias <gap reason="lost" extent="unknown" unit="character"/>, (65) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>tes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>nos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (70) <gap reason="lost" extent="unknown" unit="character"/> 200 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>enos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (75) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/>, (80) <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>tos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>b.i <gap reason="lost" extent="unknown" unit="line"/>, <gap reason="lost" extent="unknown" unit="character"/>os son of Eumelidas <gap reason="lost" extent="unknown" unit="character"/>, Thrasymachos son of Arist<gap reason="lost" extent="unknown" unit="character"/>, Aristomachos son of Strat<gap reason="lost" extent="unknown" unit="character"/>, Haniochos son of Aristomachos, <gap reason="lost" extent="unknown" unit="character"/>, (5) Chartadas son of Philoxenos <gap reason="lost" extent="unknown" unit="character"/>, Philon son of Ammonios <gap reason="lost" extent="unknown" unit="character"/>, Pratomedes son of Archikles <gap reason="lost" extent="unknown" unit="character"/>, Karnedas son of Pratomedes <gap reason="lost" extent="unknown" unit="character"/>, Karnedas son of Iasis <gap reason="lost" extent="unknown" unit="character"/>, (10) Chairesilas son of Iasis 500 drachmas, <supplied reason="lost">A</supplied>ratos son of Kleuthemis 500 dracme, Epikrates son of Philoxenos 2000 drachmas, Epikrates son of Epik<gap reason="lost" extent="unknown" unit="character"/> 500 drachmas, Hagesistratos son of <gap reason="lost" extent="unknown" unit="character"/> 1500 drachmas, (15) Artemidoros son of <gap reason="lost" extent="unknown" unit="character"/> 2000 drachmas, Philippos son of Y<gap reason="lost" extent="unknown" unit="character"/> 300 drachmas, Charitimos son of A<gap reason="lost" extent="unknown" unit="character"/> 250 drachmas, Ariston son of Ko<supplied reason="lost" cert="low">tt</supplied>abos 250 drachmas, Kallimachos son of Ariston 250 drachmas, (20) Epikartes son of Epiteles 300 drachmas, Philytas son of Aiglanor <gap reason="lost" extent="unknown" unit="character"/>, Oineus son of Sosandros 1000 drachmas, Polyarchos son of Oineus 1000 drachmas, Euphraios son of Nikias <gap reason="lost" extent="unknown" unit="character"/>, (25) Nikias son of Euphraios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Antiphanes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Antiphanes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of Antiphanes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>
+            </p><p>c.ii <gap reason="lost" extent="unknown" unit="line"/>, <gap reason="lost" extent="unknown" unit="character"/>io<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>istos son of <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>tas son of Eukles, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>s son of Pratomedes, <gap reason="lost" extent="unknown" unit="character"/>, (5) <gap reason="lost" extent="unknown" unit="character"/>es son of Damophilos, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>s son of Damophilos, 400 drachmas, <gap reason="lost" extent="unknown" unit="character"/> son of Pratomedes, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="line"/></p>
+         
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>a. Sacerdote Nikobolos figlio di Iason. Quanti donarono somme di denaro alla città:</p>
+            <p>i. <gap reason="lost" quantity="4" unit="line"/> (5) <gap reason="lost" extent="unknown" unit="character"/> 1000 dracme, <gap reason="lost" extent="unknown" unit="character"/> 900 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>es 1100 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>as 600 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>pos 500 dracme, (10) <gap reason="lost" extent="unknown" unit="character"/> figlio di Themison 1000 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>andros <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> 80 dracme, <gap reason="lost" extent="unknown" unit="character"/> 800 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Haniochos <gap reason="lost" extent="unknown" unit="character"/>, (15) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Theuchrestos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (20) <gap reason="lost" extent="unknown" unit="character"/>archos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Agathos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Lysistratos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Theudoros figlio di Iason <gap reason="lost" extent="unknown" unit="character"/>, Deinis figlio di Anaximandros <gap reason="lost" extent="unknown" unit="character"/>, (25) Kalliphantos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Sosis figlio di <gap reason="lost" extent="unknown" unit="character"/>, Polianthes figlio di <gap reason="lost" extent="unknown" unit="character"/>, Paraibatas figlio di <gap reason="lost" extent="unknown" unit="character"/>, Exakon figlio di Androsthenes <gap reason="lost" extent="unknown" unit="character"/>, (30) Charon figlio di <gap reason="lost" extent="unknown" unit="character"/>, Sosippos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Philoxenos figlio di <supplied reason="lost">Sosippos</supplied> <gap reason="lost" extent="unknown" unit="character"/>, Aiglanor figlio di Sosippos <gap reason="lost" extent="unknown" unit="character"/>, Karnedas figlio di <gap reason="lost" extent="unknown" unit="character"/>, (35) Agathokles figlio di <gap reason="lost" extent="unknown" unit="character"/>, Euphranor figlio di Praxis <gap reason="lost" extent="unknown" unit="character"/>, Melanippos figlio di Ariston <gap reason="lost" extent="unknown" unit="character"/>, Agathinos figlio di Melanippos <gap reason="lost" extent="unknown" unit="character"/>, Aristippos figlio di Melanippos <gap reason="lost" extent="unknown" unit="character"/>, (40) Melanippos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Timonothos figlio di Diokles <gap reason="lost" extent="unknown" unit="character"/>, Hipp<gap reason="lost" extent="unknown" unit="character"/>, Iason figlio di Lysimachos <gap reason="lost" extent="unknown" unit="character"/>, Iason figlio di Hagesistratos <gap reason="lost" extent="unknown" unit="character"/>, (45) Nikis figlio di Ariston <gap reason="lost" extent="unknown" unit="character"/>, Aristagoras figlio di <gap reason="lost" extent="unknown" unit="character"/>, Kleuthemis figlio di <gap reason="lost" extent="unknown" unit="character"/>, Aratos figlio di Timasianax <gap reason="lost" extent="unknown" unit="character"/>, Lysis figlio di Lyson <gap reason="lost" extent="unknown" unit="character"/>, (50) Aristis figlio di Poseid<gap reason="lost" extent="unknown" unit="character"/>, Theumion figlio di Phil<gap reason="lost" extent="unknown" unit="character"/>, Exainetos figlio di <gap reason="lost" extent="unknown" unit="character"/>, Theudoros figlio di Lysistratos <gap reason="lost" extent="unknown" unit="character"/>, Astyllos figlio di <gap reason="lost" extent="unknown" unit="character"/>, (55) Aristagoras figlio di <gap reason="lost" extent="unknown" unit="character"/>, Proros figlio di <gap reason="lost" extent="unknown" unit="character"/>, Arim<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>ii. Hippostratos figlio di Charilas <gap reason="lost" extent="unknown" unit="character"/>, Pratarchos figlio di Iason 300 dracme, (5) Sostratos figlio di Pratarchos 250 dracme, Aristoteles figlio di Praxitimos 250 dracme, Teison figlio di Aristoteles <gap reason="lost" extent="unknown" unit="character"/>, Euippos figlio di Praxis <gap reason="lost" extent="unknown" unit="character"/>, Simos figlio di Tisamenos <gap reason="lost" extent="unknown" unit="character"/>, (10) Sopatros figlio di Aristoteles <gap reason="lost" extent="unknown" unit="character"/>, Paraibatas figlio di Mnason <gap reason="lost" extent="unknown" unit="character"/>, Hagesandros figlio di Philon <gap reason="lost" extent="unknown" unit="character"/>, Zenodoros figlio di Bakal <gap reason="lost" extent="unknown" unit="character"/>, Pheidimos figlio di Karnis <gap reason="lost" extent="unknown" unit="character"/>, (15) Philotas figlio di Iason <gap reason="lost" extent="unknown" unit="character"/>, Apollonios figlio di <gap reason="lost" extent="unknown" unit="character"/> 370 dracme, Andron figlio di Poly<supplied reason="lost">kl</supplied>es 1000 dracme, Theuchrestos figlio di Theukrisios 250 dracme, Terpsikles figlio di Zenon 500 dracme, (20) <gap reason="lost" extent="unknown" unit="character"/> 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>nes 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> 70 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Mnasarchos 250 dracme, <gap reason="lost" extent="unknown" unit="character"/>chos figlio di Polyarchos 80 dracme, (25) <gap reason="lost" extent="unknown" unit="character"/> 50 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>andros 80 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Theuphrastos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Apollonios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> 900 dracme, (30) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <supplied reason="lost">Theuchr</supplied>estos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Exakis 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>xenos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>onikos <gap reason="lost" extent="unknown" unit="character"/>, (35) <gap reason="lost" extent="unknown" unit="character"/> figlio di Androxenos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Damatrios 70 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>on 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>isis 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Karnedas 50 dracme, (40) <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>sios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Themison 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Manis 250 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>tisthenes 300 dracme, <gap reason="lost" extent="unknown" unit="character"/> 1000 dracme, (45) <gap reason="lost" extent="unknown" unit="character"/> 400 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Sosilas <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>as <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/> , <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>enos <gap reason="lost" extent="unknown" unit="character"/>, (50) <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>os <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>os <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <supplied reason="lost">Chai</supplied>nys, <gap reason="lost" extent="unknown" unit="character"/>, (55) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Kaphisias <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>doros 200 dracme, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>sias <gap reason="lost" extent="unknown" unit="character"/>, (65) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>tes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>nos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (70) <gap reason="lost" extent="unknown" unit="character"/> 200 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>enos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, (75) <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/>, (80) <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>tos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/></p>
+             <p>b.i <gap reason="lost" extent="unknown" unit="line"/>, <gap reason="lost" extent="unknown" unit="character"/>os figlio di Eumelidas <gap reason="lost" extent="unknown" unit="character"/>, Thrasymachos figlio di Arist<gap reason="lost" extent="unknown" unit="character"/>, Aristomachos figlio di Strat<gap reason="lost" extent="unknown" unit="character"/>, Haniochos figlio di Aristomachos <gap reason="lost" extent="unknown" unit="character"/>, (5) Chartadas figlio di Philoxenos <gap reason="lost" extent="unknown" unit="character"/>, Philon figlio di Ammonios <gap reason="lost" extent="unknown" unit="character"/>, Pratomedes figlio di Archikles <gap reason="lost" extent="unknown" unit="character"/>, Karnedas figlio di Pratomedes <gap reason="lost" extent="unknown" unit="character"/>, Karnedas figlio di Iasis <gap reason="lost" extent="unknown" unit="character"/>, (10) Chairesilas figlio di Iasis 500 dracme, <supplied reason="lost">A</supplied>ratos figlio di Kleuthemis 500 dracme, Epikrates figlio di Philoxenos 2000 dracme, Epikrates figlio di Epik<gap reason="lost" extent="unknown" unit="character"/> 500 dracme, Hagesistratos figlio di <gap reason="lost" extent="unknown" unit="character"/> 1500 dracme, (15) Artemidoros figlio di <gap reason="lost" extent="unknown" unit="character"/> 2000 dracme, Philippos figlio di Y<gap reason="lost" extent="unknown" unit="character"/> 300 dracme, Charitimos figlio di A<gap reason="lost" extent="unknown" unit="character"/> 250 dracme, Ariston figlio di Ko<supplied reason="lost" cert="low">tt</supplied>abos 250 dracme, Kallimachos figlio di Ariston 250 dracme, (20) Epikartes figlio di Epiteles 300 dracme, Philytas figlio di Aiglanor <gap reason="lost" extent="unknown" unit="character"/>, Oineus figlio di Sosandros 1000 dracme, Polyarchos figlio di Oineus 1000 dracme, Euphraios figlio di Nikias <gap reason="lost" extent="unknown" unit="character"/>, (25) Nikias figlio di Euphraios <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Antiphanes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Antiphanes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di Antiphanes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>es <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>
+                </p><p>c.ii <gap reason="lost" extent="unknown" unit="line"/>, <gap reason="lost" extent="unknown" unit="character"/>io<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>istos figlio di <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>tas figlio di Eukles, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>s figlio di Pratomedes, <gap reason="lost" extent="unknown" unit="character"/>, (5) <gap reason="lost" extent="unknown" unit="character"/>es figlio di Damophilos, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>s figlio di Damophilos, 400 dracme, <gap reason="lost" extent="unknown" unit="character"/> figlio di Pratomedes, <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="line"/></p>
+   
+         </div><div type="commentary">
+                
+                <p>This list of contributors was cut in the same workshop and by the same hand as <ref type="inscription" source="#IGCyr2">IGCyr065210</ref>; a third list with a similar, but somewhat smaller lettering is <ref type="inscription" source="#IGCyr2">IGCyr097170</ref>,
+                    while a fragment recorded in 1861 but now lost (<ref type="inscription" source="#IGCyr2">IGCyr009300</ref>) cannot be attributed to anyone of the three lists. Having been reused in the Byzantine baths, the 
+                present list is much worn out.</p>
+                <p>The incipit is restored through collation with <ref type="inscription" source="#IGCyr2">IGCyr065210</ref>. As to the general organisation of the text, see at <ref type="inscription" source="#IGCyr2">IGCyr065210</ref>.</p>
+             <p>The bad condition of the surface induces <bibl><ptr target="#rosamilia2023"/></bibl> to suggest some alternative readings in commentary. For instance, the number written <foreign xml:lang="grc"><g type="alphabetic">Ϡ</g></foreign> at a.i.6 might have lost a small letter in ligature above and correspond to 1000; the number now readable as 
+                 <foreign xml:lang="grc"><g type="alphabetic">π</g></foreign> at a.i.12 is perhaps a further instance of <foreign xml:lang="grc"><g type="alphabetic">Ϡ</g></foreign>. However, the amounts surpassing 1000 are not the most numerous ones and at any case there is no decreasing classification 
+             of the contributions. The chronological order of the deposits is the most plausible.</p>
+             <p>Fragment c is newly added in <bibl><ptr target="#IGCyr2"/></bibl>. Only the very small vestiges of its right side allow to relate it to the right column, in the same way as fragment b 
+             is related to the left column. A junction between them is impossible.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr013300</idno>
+                <idno type="number" subtype="second-edition">013300</idno>
+                <idno type="TM">5989</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr013300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr013300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr013300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">440</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a white <material>marble</material> <objectType>stele</objectType> with cymatium, 
+                                        broken below; from block i, only the upper part now remains; block ii, originally adjoining at cymatium, seems to be now lost
+                                        (together <dimensions>
+                                            <width>0.32</width>
+                                            <height atLeast="0.14">0.14-</height>
+                                            <depth>0.025</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on face, line 1 on the cymatium, the rest below.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0290" notAfter="-0260" evidence="lettering prosopography" resp="rosamilia">Between 290 and 260 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1933">
+                                    <p>Found before 1933 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" when-iso="2004" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 and again in 2004 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.
+                                        After removal of the collection, this fragment was erroneously renumbered as 2911 in the '90s.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-03-22" who="CDL">changed text and app line2</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-10-12" who="HellasLabUnibo">checked</change>
+            <change when="2016-08-03" who="CDL">tagged w and lemma in text</change>
+            <change when="2015-04-20" who="CDL">Fr. and engl. translations, commentary.</change>
+            <change when="2013-05-30" who="Ljuba">corrected persName added name tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-10-12" who="CDL+HB">lemma</change>
+            <change when="2012-09-28" who="CDL+HB">text edited</change>
+            <change when="2012-07-12" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76815/3/igcyr013300-1-face.tiff.jpg" corresp="igcyr013300" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76815">Face of igcyr013300 Account of the damiergoi</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76816/3/igcyr013300-2-squeeze.tiff.jpg" corresp="igcyr013300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/76816">Squeeze of igcyr013300 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, p. 96, n. <citedRange>30</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.31</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>013300</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>171-174</citedRange> (content), p. <citedRange>311</citedRange>, number 53 (text)</bibl>.</p>
+                    <p>For a general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><milestone unit="fragment" n="i"/><w lemma="θεός"><supplied reason="lost">Θ</supplied>εός</w>. <rs type="office" key="damiergos"><w lemma="δαμιεργέω">Δα<supplied reason="lost">μ</supplied><milestone unit="fragment" n="ii"/>ιεργέ<supplied reason="lost">ντων</supplied></w></rs>
+                    <lb n="2"/><milestone unit="fragment" n="i"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62899"><name nymRef="#Αννικερις"><supplied reason="undefined" evidence="previouseditor">Α</supplied>ννικεριο<unclear>ς</unclear></name>
+                            <milestone unit="fragment" n="ii"/><persName type="attested"><name nymRef="#_βωλος" type="patronymic"><gap reason="lost" quantity="5" unit="character"/><seg part="F"><supplied reason="lost">β</supplied>ώλω</seg></name></persName></persName>, <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64877"><name nymRef="#Λύσιππος">Λυσίππ<supplied reason="lost">ω</supplied></name>, <persName type="attested"><name><gap reason="lost" atLeast="4" atMost="5" unit="character"/></name></persName></persName>,
+                    <lb n="3"/><milestone unit="fragment" n="i"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64890"><name nymRef="#Λῦσις"><supplied reason="lost">Λ</supplied><supplied reason="undefined" evidence="previouseditor">ύσιο</supplied>ς</name> 
+                        <persName type="attested"><name nymRef="#Κ_" type="patronymic"><seg part="I">Κ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>, 
+                        <supplied reason="lost">τῶ <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνος</name></persName></supplied>
+                    <lb n="4"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱαρ</supplied><supplied reason="undefined" evidence="previouseditor">ιτεύ</supplied><supplied reason="lost">οντος</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>.
+                    <lb n="5"/><w lemma="καρπός"><supplied reason="lost">Καρ</supplied><supplied reason="undefined" evidence="previouseditor">πῶ</supplied><supplied reason="lost">ν</supplied></w> <w><supplied reason="lost">τίμασις</supplied></w>· <gap reason="lost" extent="unknown" unit="character"/>.
+                    <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="2"><lem><gap reason="lost" quantity="5" unit="character"/><supplied reason="lost">β</supplied>ώλω</lem>
+                <rdg resp="#rosamilia2023"><gap reason="lost" quantity="4" unit="character"/><supplied reason="lost">β</supplied>ώλω</rdg>
+                <rdg resp="#oliverioDAI1 #IGCyr"><gap reason="lost" quantity="5" unit="character"/>ώλω</rdg>
+                </app>
+                <app loc="5"><lem resp="#rosamilia2023"><supplied reason="lost">Καρ</supplied><supplied reason="undefined" evidence="previouseditor">πῶ</supplied><supplied reason="lost">ν</supplied></lem>
+                <rdg resp="#oliverioDAI1 #IGCyr"><supplied reason="lost">Καρ</supplied><supplied reason="undefined" evidence="previouseditor">πῶ</supplied></rdg>
+                </app></p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Dieu. Etant démiurges Annikéris fils de <gap reason="lost" extent="unknown" unit="character"/>bôlos, Lysippos <supplied reason="lost">fils d'un tel</supplied>, Lysis fils de K<gap reason="lost" extent="unknown" unit="character"/>,
+            étant prêtre <supplied reason="lost">d'Apollon un tel fils d'un tel</supplied>. <supplied reason="lost">Estimation</supplied> des récoltes. <gap reason="lost" extent="unknown" unit="character"/>.
+            </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>God. Being damiergoi Annikeris son of <gap reason="lost" extent="unknown" unit="character"/>bolos, Lysippos <supplied reason="lost">son of So-and-so</supplied>, Lysis son of K<gap reason="lost" extent="unknown" unit="character"/>,
+            being priest <supplied reason="lost">of Apollo So-and-so son of So-and-so</supplied>. <supplied reason="lost">Estimation</supplied> of the crops. <gap reason="lost" extent="unknown" unit="character"/>.
+            </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Dio. Essendo damiurghi Annikeris figlio di <gap reason="lost" extent="unknown" unit="character"/>bolos, Lysippos <supplied reason="lost">figlio del tale</supplied>, Lysis figlio di K<gap reason="lost" extent="unknown" unit="character"/>,
+            essendo sacerdote <supplied reason="lost">di Apollo il tale figlio del tale</supplied>. <supplied reason="lost">Valutazione</supplied> dei raccolti. <gap reason="lost" extent="unknown" unit="character"/>.
+            </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>المؤله. في فترة كل من الداميرجوي أنيكيريس بن [---] بولوس وليسيبوس [بن فلان] وليسيس بن ك [---] وكاهن [أبولون فلان بن فلان]. تم [تقدير] المحاصيل كالتالي: [---].</p>
+         </div><div type="commentary">
+                
+	      <p>Only fragm. i) was to be found from 1977 on and at the time lines 3-5 seen by Oliverio were missing.</p>
+                <p>Rosamilia, on behalf of the lettering, groups this account with a few others which divide the accounts into two semesters and thus prefers to have the plural of the word for 'crops'.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Enyalios by Eupolemos</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr022</idno>
+                <idno type="number" subtype="second-edition">022</idno>
+                <idno type="TM">738915</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr022</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr022</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr022</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Apollonia Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <objectType>base</objectType> of white-veined grey-blue <material>marble</material>, slightly chipped off at the upper left angle,
+                                        with a large rectangular recess (<dimensions><width>0.325</width> <height>0.0245</height> <depth>0.12</depth></dimensions>) for attachment 
+                                        on the upper side (<dimensions>
+                                            <width>0.575</width>
+                                            <height>0.34</height>
+                                            <depth>0.45</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in four lines on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.009" max="0.025">0.009 (omicron) to 0.025 (beta)</height>; carefully cut letters pressed close to one another,
+                            without serifs; smaller round letters, larger beta and nu; slanting sigma, phi with small loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>.</origPlace>
+                            <origDate evidence="lettering reign" notBefore="-0283" notAfter="-0260" precision="medium">Between 283 and 260 BC</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1954" resp="Montet">
+                            <p>Found by Montet in March 1954, at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>: reused in a late house, above the  
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1399">Byzantine warehouses</rs>.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1976" when-iso="2010" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou several times from 1976 to 2010 at <placeName type="modernSpot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>:
+                                in the <rs type="monuList" ref="https://www.slsgazetteer.org/932">Apollonia Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-04-30" who="Alice">changed Italian translation</change>
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-10" who="Alice">checked</change>
+            <change when="2017-03-02" who="CDL">overall check</change>
+            <change when="2017-02-13" who="Alice">It. translation</change>
+            <change when="2015-12-05" who="CDL">text, apparatus, translations, commentary</change>
+            <change when="2015-12-04" who="CDL">file created, lemma, bibliography</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76602/3/gvcyr022-1-face.tiff.jpg" corresp="gvcyr022" decls="#photograph"><desc resp="Walda, H." source="IRCyr project" n="2008"><ref target="http://hdl.handle.net/20.500.14008/76602">Face of gvcyr022 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76603/3/gvcyr022-2-face.tiff.jpg" corresp="gvcyr022" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76603">Face of gvcyr022 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#chamoux1958"/>, pp. <citedRange>572-581</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>17.817</citedRange></bibl>;
+                    <bibl><ptr target="#peek1972"/>, n. <citedRange>4</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>022</citedRange></bibl>.
+                   Cf. <bibl><ptr target="#fraser1960"/>, p. <citedRange>100</citedRange></bibl>;
+                    <bibl><ptr target="#jmr1976"/>, n. <citedRange>2</citedRange></bibl>;
+                    <bibl><ptr target="#papazoglou1997"/>, n. <citedRange>T 9</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2357</citedRange></bibl>; 
+                    <bibl><ptr target="#cdl1999"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>49.2352</citedRange></bibl>;
+                    <bibl><ptr target="#marquaille2001"/>, pp. <citedRange>70-71</citedRange></bibl>;                    
+                    <bibl><ptr target="#marquaille2003"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2028</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2014a"/>, p. <citedRange>329</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2009</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2018"/>, p. <citedRange>199-200; 201</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>68.1745</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>386</citedRange>, number 115 (text)</bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg met="elegiac couplet">
+                       <l n="1" met="hexameter" real="+--|+--|+--|+--|+--|--">
+                           <lb n="1"/><w lemma="ἀσπίς"><supplied reason="lost">Ἀσπ</supplied>ὶς</w> <persName type="divine" ref="#Enyalios"><name nymRef="#Ἐνυάλιος">Ἐνυαλίωι</name></persName> <w lemma="πρέπω">πρέπον</w> <w lemma="ἀνάθεμα">ἄνθεμα</w> καὶ <w lemma="φάλαρον">φάλαρα</w> <w lemma="ἵππος">ἵππων</w></l>
+                       <l n="2" met="pentameter" real="+--|++|+|+--|+--|-">
+                           <lb n="2"/><w lemma="ποικίλος">ποικίλα</w>· τὰν <persName type="divine" ref="#Nika"><name nymRef="#Νίκα">Νίκαν</name></persName> δὲ <w lemma="ἀνατίθημι">ἀνθέμεν</w> 
+                           <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62071"><name nymRef="#Εὐπόλεμος">Εὐπόλεμος</name></persName></l>      
+                       <l n="3" met="hexameter" real="+--|+--|+--|+--|+--|+-">
+                           <lb n="3"/><w lemma="φημί">φατὶ</w> <persName type="ruler" key="Magas"><name nymRef="#Μάγας">Μάγαι</name></persName> <w lemma="βασιλεύς">βασιλῆϊ</w> <w lemma="καλός">καλὸν</w> 
+                           <w lemma="γέρας">γέρας</w>, <w lemma="ὄφρα">ὄφρα</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ὅδε">τᾶιδε</w></l>
+                       <l n="4" met="pentameter" real="+--|++|+|+--|+--|+">
+                           <lb n="4"/><w lemma="σκῆπτρον">σκῆπτρά</w> τε καὶ <w lemma="λαός">λαοὺς</w> καὶ <w lemma="πτολίεθρον">πτολίεθρα</w> <w lemma="σαόω">σαοῖ</w>.</l>
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><rdg resp="#chamoux1958"><supplied reason="lost">Ἀσπ</supplied>ὶς</rdg>
+                <rdg resp="#peek1972"><supplied reason="lost">Αἰγ</supplied>ὶς</rdg></app></p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr" source="#chamoux1958">
+                <p><supplied reason="lost">Un bouclier</supplied> est pour Enyalios une consécration convenable, avec des plaques de harnais</p>
+                <p>scintillantes; quant à la Victoire, Eupolémos proclame</p>
+                <p>qu'il l'a consacrée au roi Magas comme un beau privilège, afin que sous son patronage</p>
+                <p>il sauvegarde ses sceptres, ses peuples et ses cités.</p><note>trad. Fr. Chamoux</note>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><supplied reason="lost">A shield</supplied> is for Enyalios a fitting offering, with glittering</p>
+                <p>cheek-pieces; as to the Victory, Eupolemos declares</p>
+                <p>that he dedicated her to king Magas as a fine gift, so that, with her help,</p>
+                <p>he will be able to save his sceptres, his peoples and his cities.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="lost">Uno scudo</supplied> per Enyalios è offerta conveniente, e falere scintillanti</p>
+                    <p>di cavalli; la Vittoria, Eupolemos proclama</p> 
+                    <p>che l'ha dedicata al re Magas come speciale privilegio, in modo che, con la sua protezione,</p> 
+                    <p>i suoi scettri, i suoi popoli, le sue città egli salvi.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>[درع] لأجل إنياليوس، الهدية المناسبة ، مع أَلجِمَةٌ لامعةً لفكتوري (آلهة النصر). إفبيليموس صرح بأنه كان قد أهداها (تمثال فكتوري) إلى الملك ماجاس كأفضل هدية، أملاً في أن الملك ربما يستطيع بمساعدتها أن يحفظ صوَالجة (أي عُروشه) و شعبه ومدنه.</p>
+         </div><div type="commentary">
+                
+                <p>The epigram dates from the royal period of Magas in Cyrene. C. Marquaille in her thesis suggests more precisely a date around 275 BC
+                    (cf. <bibl><ptr target="#marquaille2001"/>, pp. <citedRange>70-71</citedRange></bibl>).</p>                
+                <p>There is no reason to supply the word for 'aegis' (cuirass), as proposed by Peek, instead of 'shield', which is an actual piece of the outfit of a soldier, as well as 
+                the metal discs decorating the harness of his horse. There are many examples of such dedications for Enyalios or Ares. For the cult of Ares in the Port of Cyrene,
+                there is no sure parallel, his name being only possible in <ref type="inscription" source="#IGCyr2">IGCyr062600</ref>.</p>
+                <p>A small statue of winged Nike ('Victory') was presumably attached on the top of the base and this offering was especially for king Magas, who was worshipped 
+                like the other kings of the Ptolemaic dynasty (see <ref type="inscription" source="#IGCyr2">IGCyr020000</ref>). As he became king of Cyrenaica in 283 and died in 250 (Chamoux, Laronde) or rather 260 (Rosamili), this dedication 
+                may be dated inside a short span of time.</p>
+                <p>Chamoux emphasized the careful composition of this poem and thought that it might be a work of Callimachus or a poet in his circle. Anyhow, there are subtle arguments 
+                relying Magas' with Philadelphos' own kingship, probably echoing their rivalry. So the verb 'to save' might allude to the former Ptolemy's epithet 'Soter'. As the last word 
+                of the epigram, it might be its point (<foreign xml:lang="la">pace</foreign> <bibl><ptr target="#fraser1960"/>, p. <citedRange>100</citedRange></bibl>).</p>
+                <p>At line 4, the plural for 'sceptres, peoples and cities' may be explained by a poetic amplification. However, <foreign xml:lang="grc">λαοί</foreign> may 
+                    also have a precise meaning, referring to the semi-hellenised Libyan tribes (for which see <bibl><ptr target="#papazoglou1997"/>,
+                    n. <citedRange>T 9</citedRange></bibl>).</p>
+                <p>Metrical analysis: two quite regular elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

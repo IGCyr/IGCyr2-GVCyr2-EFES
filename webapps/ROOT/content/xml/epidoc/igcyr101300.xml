@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr101300</idno>
+                <idno type="number" subtype="second-edition">101300</idno>
+                <idno type="TM">738525</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr101300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr101300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr101300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Upper right angle of a greyish <material>marble</material> rectangular <objectType>block</objectType> broken off at left, below and at back; 
+                                        a circular dowel hole on top favoured the breaking at left
+                                        (<dimensions>
+                                            <width>0.50</width>
+                                            <height>0.265</height>
+                                            <depth>0.28</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face, the only line preserved being centered along the vertical axis.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; very slight serifs, pi with shorter right stroke and longer upper bar, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0251" precision="medium">First half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1925" notAfter="1928" resp="Anti">
+                                    <p>Found between 1925 and 1928 by C. Anti at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:      
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by G. Pugliese Carratelli in 1960 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:      
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, on a wall South of 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1231">Altar of Artemis</rs>.</p>
+                                </provenance>
+
+                        <provenance type="observed" when="1983" when-iso="2001" resp="cdl">
+                            <p>Seen in 1983 and again in 2001 by C. Dobias-Lalou at the same place.</p>
+                        </provenance>
+                        
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2013-11-23" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>      
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77383/3/igcyr101300-1-view.tiff.jpg" corresp="igcyr101300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77383">View of igcyr101300 Name</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77384/3/igcyr101300-2-squeeze.tiff.jpg" corresp="igcyr101300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77384">Squeeze of igcyr101300 Name</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#antiTacc"/>, <citedRange>III.20</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>178</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>101300</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63079"><name nymRef="#Ἀριστίππα">Ἀριστίππα</name></persName>
+                    <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><note>no lost line mentioned in <bibl><ptr target="#SECir"/>, <citedRange>178</citedRange></bibl></note></app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Aristippa <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Aristippa <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Aristippa <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>The dowel hole is at such a place that the block might have belonged to a larger monument along with at least one similar block to its left.
+                If so, another name might have stood on the other block.</p>
+	      <p>With such a fragmentary context it is impossible to know whether Aristippa took part in a dedication or was honored with a statue.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

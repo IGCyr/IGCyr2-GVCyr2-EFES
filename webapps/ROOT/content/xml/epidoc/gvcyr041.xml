@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> and <rs type="textType">hymn</rs> to Isis and Serapis</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr041</idno>
+                <idno type="number" subtype="second-edition">041</idno>
+                <idno type="TM">738934</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr041</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr041</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr041</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Upper part of a white <material>marble</material> <objectType>panel</objectType> broken off obliquely below  
+                                        (<dimensions>
+                                            <width>0.38</width>
+                                            <height atLeast="0.32">0.32</height>
+                                            <depth>0.10</depth>
+                                        </dimensions>);  three vertical rows of small holes, distant <dim type="distance">0.02</dim> from one another, are cut on the face and should 
+                                        be related to a re-use; a chip, lost at the left bottom since the discovery, does not touch the inscribed area.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face: a) 3 lines of prose on the whole width; b) 20 preserved lines 
+                                    with large margins at left (0.06) and right (min. 0.095).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Ll. 1-2 <height>0.02</height>; l. 3 <height min="0.013" max="0.015">0.013-0.015</height>; ll. 4-24 <height>0.005</height>;
+                            small serifs; alpha with dropped bar, pi with equal hastae, non-slanting and rather large sigma, phi with large loop and short hasta, 
+                            psi with widely open oblique strokes, horse-shoe omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="internal-date" notBefore="0102" notAfter="0103" precision="high">102/103 AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1916">
+                            <p>Found by E. Ghislanzoni in 1916 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                on the North side of the <rs type="monuList" ref="https://www.slsgazetteer.org/1016">Acropolis</rs>, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1020">Iseum</rs>.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1982" when-iso="2001" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1982, kept inside the <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>, 
+                                and again in 2001, moved to the <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs></p>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-02-05" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-13" who="Alice">It. translation; checked</change>
+            <change when="2017-03-06" who="CDL">overall check</change>
+            <change when="2016-05-30" who="CDL">lemma, text, Fr. and Engl. translations, commentary</change>
+            <change when="2016-05-26" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76631/3/gvcyr041-1-face.tiff.jpg" corresp="gvcyr041" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/76631">Face of gvcyr041 Dedication and hymn to Isis and Serapis</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76632/3/gvcyr041-2-squeeze.tiff.jpg" corresp="gvcyr041" decls="#photograph"><desc resp="Laronde, A." source="Mission Archéologique Française" n="1975"><ref target="http://hdl.handle.net/20.500.14008/76632">Squeeze of gvcyr041 Dedication and hymn to Isis and Serapis</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1927b"/>, n. <citedRange>1</citedRange>, pp. 209-211, photo pl. XXXII, 1</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.192</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>042</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#roussel1929"/>, pp. <citedRange>149-151</citedRange></bibl>; 
+                    <bibl><ptr target="#peek1930"/>, pp. <citedRange>128-131</citedRange></bibl>;
+                    <bibl><ptr target="#vidman1969"/>, p. <citedRange>803</citedRange></bibl>;
+                    <bibl><ptr target="#grandjean1975"/><citedRange/></bibl>;
+                    <bibl><ptr target="#ensoli1992"/>, pp. <citedRange>201-202</citedRange></bibl>;
+                    <bibl><ptr target="#bricault2005"/>, n. <citedRange>701/0103</citedRange> and pl. CXXIX</bibl>;
+                    <bibl><ptr target="#alvar2008"/>, pp. <citedRange>51, 186</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                    <lb n="1"/><g type="leaf">❧</g> <w lemma="ἀγαθός">Ἀγαθὴ</w> <w lemma="τύχη">τύχη</w> 
+                    <lb n="2"/><date calendar="cyrenaean" xml:id="ActiumEra"><expan><abbr><am><g type="year">𐅹</g></am></abbr> <ex>ἔτους</ex></expan>
+                    <num type="cardinal" value="133"><g type="alphabetic">ρλγ</g></num></date>· <persName type="divine" ref="#Isis"><name nymRef="Ἶσις">Ἴσιδι</name></persName> <g type="punct">·</g> 
+                           καὶ <g type="punct">·</g> <persName type="divine" ref="#Serapis"><name nymRef="Σέραπις">Σεράπιδι</name></persName> <g type="punct">·</g> 
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#Ἀγαθὸς Δαίμων">Ἀγαθὸς Δαίμων</name></persName>
+                    <rs type="office" key="neokoros"><w lemma="νεωκόρος">νεωκόρος</w></rs> <w lemma="ἀνατίθημι"><expan><abbr>ἀνέθη</abbr><ex>κε</ex></expan>.</w>
+                </ab>
+                    <lg met="iambic trimeters">
+                       <l n="1" real="-+|-+|-+|-+|++|-+">
+                           <lb n="4"/><w lemma="ἐγώ">Ἐγὼ</w> <w lemma="τύραννος">τύραννος</w> <persName type="divine" ref="#Isis"><name nymRef="#Ἶσις">Εἶσις</name>
+                        <w lemma="αἰών">αἰῶνος</w></persName> <w lemma="μόνος">μόνη</w></l> 
+                    <l n="2" real="++|-+|++|-+|-+|-+">
+                        <lb n="5"/><w lemma="πόντος">πόντου</w> τε καὶ <w lemma="γῆ">γῆς</w> <w lemma="τέρμων">τέρμονας</w> τ’ <w lemma="ἐπιβλέπω">ἐπιβλέπω</w></l> 
+                    <l n="3" real="++|-+|-+|-+|-+|-+">
+                        <lb n="6"/>καὶ <w lemma="σκῆπτρον">σκῆπτρ’</w>  <w lemma="ἔχω">ἔχουσα</w> καὶ <w lemma="εἷς">μί’</w>  <w lemma="εἰμι">οὖσ’</w>  
+                        <w lemma="ἐπικρατέω">ἐπι<choice><corr>κρατῶ</corr><sic>βλέπω</sic></choice></w>·</l> 
+                    <l n="4" real="-+|-+|-+|-+|++|-+">
+                        <lb n="7"/><w lemma="καλέω">καλοῦσι</w> δή <w lemma="ἐγώ">με</w> <w lemma="πᾶς">πάντες</w> <w lemma="ὕψιστος">ὑψίστην</w> <w lemma="θεός">θεὸν</w></l>
+                    <l n="5" real="++|-+|++|-+|-+|--">
+                        <lb n="8"/> <w lemma="πᾶς">πάντων</w> <w lemma="μέγας">μεγίστην</w> τῶν <w lemma="ἐν">ἐν</w> <w lemma="οὐρανός">οὐρανῶι</w> <w lemma="θεός">θεῶν</w>·</l> 
+                    <l n="6" real="++|-+|++|--+|-+|-+"> 
+                        <lb n="9"/><w lemma="αὐτός">αὐτὴ</w> γὰρ <w lemma="εὑρίσκω">εὗρον</w> <w lemma="πᾶς">πάντα</w> καὶ <w lemma="αἱρέω">εἱλόμην</w> <w lemma="πόνος">πόνον</w>·</l>
+                    <l n="7" real="-+|-+|-+|-+|++|--">
+                        <lb n="10"/><w lemma="γραφή">γραφὴ</w> δ' <w lemma="ἐπί">ἐπὶ</w> <w lemma="σφραγίς">σφραγεῖσι</w> <w lemma="δηλόω">δηλώσει</w> <w lemma="σαφής">σαφὴς</w></l> 
+                    <l n="8" real="++|-+|-+|-+|++|-+">
+                        <lb n="11"/><w lemma="δείκνυμι">δεικνῦσα</w> <w lemma="ἐμός">τἀμὰ</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="ἐξεύρημα">ἐξευρήματα</w></l> 
+                    <l n="9" real="-+|-+|-+|-+|++|--">
+                        <lb n="12"/><w lemma="ὅς1" type="relative">ἃ</w> καὶ <w lemma="βροτός">βροτοῖς</w> <w lemma="δείκνυμι">ἔδειξα</w> καὶ <w lemma="καρπός">καρποὺς</w> <w lemma="βίος">βίου</w>·</l> 
+                    <l n="10" real="-+|-+|+--|-+|-+|-+">
+                        <lb n="13"/><w lemma="πόλις">πόλεις</w> τε <w lemma="σεμνός">σεμνοῖς</w> <w lemma="περίβολος">περιβόλοις</w> <w lemma="τειχίζω">ἐτείχισα</w></l>
+                    <l n="11" real="-+|-+|-+|-+|++|-+">
+                        <lb n="14"/><w lemma="βροτός">βροτοῖς</w> τ’ <w lemma="νέμω">ἔνειμα</w> <w lemma="οὗτος">ταῦτα</w> <w lemma="τρανῶς">τρανῶς</w> <w lemma="οἶδα">εἰδέναι</w>·</l> 
+                    <l n="12" real="-+|-+|++|-+|++|-+">
+                        <lb n="15"/><w lemma="ἐγώ">ἐμοῦ</w> δὲ <w lemma="χωρίς">χωρὶς</w> <w lemma="γίγνομαι">γείνετ’</w>  <w lemma="οὐδείς">οὐδὲν</w> <w lemma="πώποτε">πώποτε</w>· </l>
+                    <l n="13" real="++|-+|++|-+|++|-±">
+                        <lb n="16"/>οὐδ’  <w lemma="ἄστρον">ἄστρα</w> γὰρ <w lemma="φοιτάω">φοιτῶσι</w> τὴν <w lemma="αὐτός">αὐτὴν</w> <w lemma="ὁδός">ὁδὸν</w></l> 
+                    <l n="14" real="++|-+|-+|-+|-+|--">
+                        <lb n="17"/><w lemma="ἐάν">ἂν</w> μὴ <w lemma="ἐκ">ἐξ</w> <w lemma="ἐγώ">ἐμοῦ</w> <w lemma="λαμβάνω">λαβῶσιν</w> <w lemma="ἐντολή">ἐντο<unclear>λ</unclear><supplied reason="lost">ὰς</supplied></w> <w lemma="πάρος"><supplied reason="lost">πάρος</supplied></w>,</l>
+                    <l n="15" real="++|-+|-+|-+|-+|-+">
+                        <lb n="18"/>οὐ μή τε <w lemma="γαῖα">γαῖα</w> <w lemma="καρπός">καρπὸν</w> <w lemma="ἔαρ">ἦρι</w> <w lemma="τίκτω"><supplied reason="lost" cert="low">τέξεται</supplied></w>,</l> 
+                    <l n="16">
+                        <lb n="19"/><seg real="++|-+|++|-"><w lemma="ἐάν">ἂν</w> μὴ <w lemma="ἐπινεύω">ἐπινεύσω</w> <w lemma="πᾶς">πάντ<supplied reason="lost">α</supplied></w></seg> 
+                        <seg met="+|-+|-±"><gap reason="lost" atLeast="10" atMost="12" unit="character"/></seg></l> 
+                    <l n="17">
+                        <lb n="20"/><seg real="-+|-+|-+|-"><w lemma="τίς">τίς</w> <w lemma="ἄν">ἂν</w> <w lemma="δύναμαι">δύναιτο</w> <w lemma="ἐμός">τἀμ<supplied reason="lost">ὰ</supplied></w></seg> 
+                        <seg met="+|-+|-±"><gap reason="lost" atLeast="11" atMost="13" unit="character"/></seg> </l>
+                    <l n="18">
+                        <lb n="21"/><seg real="++|-+|+">ἢ <w lemma="τίς">τίς</w> <w lemma="μαραίνω">μαρᾶναι</w></seg> 
+                        <seg met="+|-+|-+|-±"><unclear>τ</unclear><gap reason="lost" atLeast="14" atMost="17" unit="character"/></seg></l> 
+                    <l n="19">
+                        <lb n="22"/><seg real="-+|-+|">τὰ μὲν <w lemma="βίος"><subst><del><unclear>ν</unclear></del><add place="overstrike">βί</add></subst>ου</w></seg> 
+                        <seg met="-+|-+|-+|-±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                    <l n="20">
+                        <lb n="23"/><seg real="-+|">τὸ <w lemma="πᾶς">πᾶν</w></seg> <seg met="-+|-+|-+|-+|-±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                    </lg>
+                
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#oliverio1927b">Ἀγαθὴ Τύχη</lem>
+                    <rdg resp="#SEG">Ἀγαθῇ Τύχῃ</rdg>
+                </app>
+                <app loc="6"><lem resp="#peek1930">ἐπι<choice><corr>κρατῶ</corr><sic>βλέπω</sic></choice></lem>
+                    <rdg resp="#oliverio1927b">ἐπιβλέπω <note>clear on the stone</note></rdg>
+                </app>
+                <app loc="18"><lem resp="#peek1930"><supplied reason="lost" cert="low">τέξεται</supplied></lem>
+                    <rdg resp="#oliverio1927b"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>
+                <app loc="19"><lem><gap reason="lost" atLeast="10" atMost="12" unit="character"/></lem>
+                    <rdg resp="#oliverio1927b"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    <rdg resp="#peek1930"><supplied reason="lost" cert="low">τ' αὐξήσω καλῶς</supplied></rdg>
+                </app>
+                <app loc="20"><lem>τἀμὰ<gap reason="lost" atLeast="11" atMost="13" unit="character"/></lem>
+                    <rdg resp="#oliverio1927b">τα<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    <rdg resp="#peek1930">τἀμ<supplied reason="lost" cert="low">ὰ καταβαλεῖν κράτη</supplied></rdg>
+                </app>
+                <app loc="21"><lem><unclear>τ</unclear><gap reason="lost" atLeast="14" atMost="17" unit="character"/></lem>
+                <rdg resp="#oliverio1927b"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                <rdg resp="#peek1930"><supplied reason="lost" cert="low">τῶν ἐμῶν ἔργων σθένος</supplied>;</rdg>
+                </app>
+                <app loc="22"><lem><subst><del><unclear>ν</unclear></del><add place="overstrike">βί</add></subst>ου</lem>
+                <rdg resp="#oliverio1927b">τὰ μὲν βίος</rdg></app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Bonne fortune. L'an 133. Agathos Daimôn néocore à consacré à Isis et Sérapis.</p>
+                <p>Moi Isis <supplied reason="subaudible">je suis</supplied> la seule maîtresse du temps.</p>
+                <p>Je surveille les limites de la mer et de la terre</p>
+                <p>et moi seule, sceptre en main, exerce sur eux ma puissance.</p>
+                <p>Tous de fait me nomment déesse suprême,</p>
+                <p>la plus grande de tous les dieux du ciel.</p>
+                <p>Car j'ai moi-même découvert toutes choses et j'en ai assumé la peine.</p>
+                <p>(10) L'écriture, claire sur les sceaux, le prouvera,</p>
+                <p>montrant à tous mes inventions,</p>
+                <p>que j'ai révélées aux mortels aussi bien que les fruits de la vie.</p>
+                <p>J'ai fortifié les cités par des enceintes vénérables</p>
+                <p>et aux mortels j'ai assigné de connaître ces savoirs distinctement.</p>
+                <p>Sans moi, rien jamais n'exista:</p>
+                <p>ni les astres ne se meuvent sur le même parcours,</p>
+                <p>s'ils n'ont pas <supplied reason="lost">d'abord</supplied> reçu l'ordre de moi,</p>
+                <p>ni la terre au printemps ne risque de <supplied reason="lost">porter</supplied> des fruits,</p>
+                <p>si je n'ai pas approuvé tous les <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(20) Qui serait capable de <gap reason="lost" extent="unknown" unit="character"/> mes <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>ou d'épuiser <gap reason="lost" extent="unknown" unit="character"/>?</p>
+                <p>Les <gap reason="lost" extent="unknown" unit="character"/> de la vie <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p><gap reason="lost" extent="unknown" unit="character"/></p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en" source="#alvar2008">
+                <p>Good fortune. Year 133. Agathos Daimon <foreign rend="italic">neocoros</foreign> dedicated to Isis and Serapis.</p>
+                <p>I Isis <supplied reason="subaudible">am</supplied> the only ruler of time,</p>
+                <p>sole inspector of the limits of the sea and the land,</p>
+                <p>and, with sceptre in hand, their sole master.</p>
+                <p>In fact all name me supreme goddess,</p>
+                <p>the greatest of all gods in heaven.</p>
+                <p>For I myself have discovered everything and took on the toil.</p>
+                <p>(10) The writing, clear on the seals, will prove it,</p>
+                <p>revealing to all my inventions,</p>
+                <p>which I disclosed to mortals as well as the fruits of life.</p>
+                <p>I have fortified the cities with reverend walls</p>
+                <p>and to the mortals I have allotted to know those skills distinctly.</p>
+                <p>Without me, nothing has ever come to existence:</p>
+                <p>neither do the stars move on the same journey,</p>
+                <p>without having <supplied reason="lost">first</supplied> received from me the instructions,</p>
+                <p>nor will the earth <supplied reason="lost">bear</supplied> fruit in spring</p>
+                <p>if I did not not approve all the <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(20) Who would be able to <gap reason="lost" extent="unknown" unit="character"/> my <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>or to exhaust <gap reason="lost" extent="unknown" unit="character"/>?</p>
+                <p>The <gap reason="lost" extent="unknown" unit="character"/> of life <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p><gap reason="lost" extent="unknown" unit="character"/></p> <note>J. Alvar's translation with some changes</note>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Buona Fortuna. Anno 133. Agathos Daimon <foreign rend="italic">neokoros</foreign> ha dedicato a Iside e Serapide.</p>
+                <p>Io Iside <supplied reason="subaudible">sono</supplied> la sola padrona del tempo,</p>
+                <p>sorveglio i confini del mare e della terra,</p>
+                <p>e io sola, scettro alla mano, esercito su di essi il mio potere.</p>
+                <p>In effetti mi chiamano dea suprema,</p>
+                <p>la più grande di tutti gli dèi del cielo.</p>
+                <p>Io stessa infatti ho scoperto tutte le cose e mi sono sobbarcata la fatica.</p>
+                <p>(10) La scrittura, chiara sui sigilli, lo proverà,</p>
+                <p>mostrando a tutti le mie invenzioni,</p>
+                <p>che ho rivelato ai mortali, come pure i frutti della vita.</p>
+                <p>Ho fortificato le città di cinte venerabili</p>
+                <p>e ai mortali ho assegnato di conoscere questi saperi distintamente.</p>
+                <p>Senza di me nulla è mai esistito:</p>
+                <p>né gli astri si muoverebbero sulla stessa traiettoria,</p>
+                <p>se non avessero <supplied reason="lost">prima</supplied> ricevuto l'ordine da me,</p>
+                <p>né la terra in primavera <supplied reason="lost">porterebbe</supplied> frutti,</p>
+                <p>se io non avessi approvato tutti i <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(20) Chi sarà capace di <gap reason="lost" extent="unknown" unit="character"/> miei <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>o di distruggere <gap reason="lost" extent="unknown" unit="character"/>?</p>
+                <p>I <gap reason="lost" extent="unknown" unit="character"/> della vita <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p><gap reason="lost" extent="unknown" unit="character"/></p>
+            </div><div type="commentary">
+                
+                <p>This poem offers the topics of a hymn and praises the goddess Isis for her virtues in the same way as aretalogies (for those see <bibl><ptr target="#peek1930"/></bibl> 
+                    and <bibl><ptr target="#vidman1969"/></bibl>). Like the one from Kyme, it offers the formulation of self-speaking ('self-predication', cf. <bibl><ptr target="#alvar2008"/>, p. <citedRange>186, footnote 121</citedRange></bibl>, who improperly mentions this text as a 'prayer'). 
+                    The one from Andros is also a verse-composition of dactylic rhythm, as hymns are in general. This is the only one in iambic rhythm, nearer to ordinary talk, as stressed by 
+                    Peek. The reason might be that the offering was more important than the hymn in the dedicant's mind. See more about <ref type="inscription" source="#GVCyr2">GVCyr025</ref>.</p>
+                <p>Isis is here presented as the creator of everything and as the author of all inventions, an idea developed by the Evemerists. Peek's restorations for ll. 20-21 convey plausible ideas, 
+                but it has seemed too hazardous to fix them in the text. Conversely, his supposition that the end of l. 6 was erroneously modelled on that of l. 5 seems convincing,
+                as the repetition would be very awkward. Other commentators did not follow him on this point.</p>
+                <p>The dedicant evidently made the offering after some favour received from the goddess (cf. <bibl><ptr target="#grandjean1975"/>, p. <citedRange>6</citedRange></bibl>). 
+                He acts during year 102/103 (133 Actian era) as a <foreign rend="italic">neocoros</foreign> and might be identified with a priest mentioned in another dedication to Isis 
+                    (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.153.html">IRCyr2020 C.153</ref>), which should thus be slightly later.</p>
+                <p>We take l. 4 as a sentence with the subaudible verb 'to be' and l. 5 as another sentence. Some translators adopted another construction, taking the whole 
+                as one sentence, but this does not fit well with the particles of line 5.</p>
+                <p>Two occurrences of iotacism are <foreign xml:lang="grc">Εἶσις</foreign> (4) and <foreign xml:lang="grc">σφραγεῖσι</foreign> (10).</p>                
+                <p>Metrical analysis: the iambic trimeters are regularly composed. Only one occurrence of a dactyl for <foreign xml:lang="grc">-μνοῖς περι-</foreign> (4th foot, 13)                   
+                and one of an anapaest for <foreign xml:lang="grc">-τ καὶ εἱ-</foreign> (3d foot, 9), both substituted for a iamb.</p>
+                <p>For the sake of rhythm, we have <foreign xml:lang="grc">γείνετο</foreign> instead of <foreign xml:lang="grc">γένετο</foreign> (15). As to hiatus, the result of contraction 
+                is written in the crasis <foreign xml:lang="grc">τἀμά</foreign> (11, 20), whereas synizesis should  be admitted for <foreign xml:lang="grc">μὴ ἐξ</foreign> (17) and 
+                <foreign xml:lang="grc">μὴ ἐπι-</foreign> (19).</p>
+            </div></body>
+    </text>
+</TEI>

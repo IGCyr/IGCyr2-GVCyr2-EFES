@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr087300</idno>
+                <idno type="number" subtype="second-edition">087300</idno>
+                <idno type="TM">738424</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr087300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr087300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr087300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">no inv. number</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>base</objectType> with plain mouldings at top and bottom on three sides, 
+                                        (with mouldings<dimensions>
+                                            <width>0.51</width>
+                                            <height>0.26</height>
+                                            <depth>0.36</depth>
+                                        </dimensions>); a channel for attachment was cut into the upper side.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face (<dimensions>
+                                            <width>0.465</width>
+                                            <height>0.14</height>
+                                            <depth>0.325</depth>
+                                        </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>; light serifs, phi with flattened loop, sigma with parallel outer strokes, omega slightly smaller than the other letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0250" notAfter="-0201" precision="medium">Second half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1995">
+                                    <p>Found before 1995 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        plausibly <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs> (see commentary).
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1997" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1997 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-06" who="CDL">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-19" who="Alice">checked</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-06-09" who="cdl">lemma, bibliography, translations</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-15" who="HB">text</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+         </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77251/3/igcyr087300-face.tiff.jpg" corresp="igcyr087300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77251">Face of igcyr087300 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr1997"/>, p. 38 n. <citedRange>13</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2189</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>087300</citedRange></bibl>.
+                Cf. <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>266</citedRange></bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.38</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Φιλωνίδας">Φιλωνίδας</name>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Ἀντίφιλος" type="patronymic">Ἀντιφίλω</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Philônidas fils d'Antiphilos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Philonidas son of Antiphilos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Philonidas figlio di Antiphilos.</p>
+         </div><div type="commentary">
+                
+                <p>The findspot was reported by <bibl><ptr target="#mohamed-jmr1997"/>, p. 38 n. <citedRange>13</citedRange></bibl> as follows: «beside a tomb on the old Cyrene-Balagrae (Shahat-Beida) road, about 1 km west of the extra-mural sanctuary 
+                    of Demeter, still carrying a three-quarter figure of a mourning woman» (also repeated by the Thorns: <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>266</citedRange></bibl>). It must be remembered that at the time the only known part of the extra-mural sanctuary 
+                    was the area excavated by the American mission (so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>), which is the Western part of the <rs type="monuList" ref="https://www.slsgazetteer.org/1473">Southern Extra-Mural Sacred Zone</rs> 
+                    as known since 2000. '1 km west' of it would be in the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>. So 'west' should be a mistake for 'east' and, as the Necropolis does not begin in correspondance with the sanctuary, the findspot 
+                    should be sought more to the south, beside the road.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

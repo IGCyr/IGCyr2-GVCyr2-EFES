@@ -3,6 +3,7 @@
                 version="2.0"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:fn="http://www.w3.org/2005/xpath-functions"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a TEI document into a Solr index
@@ -16,7 +17,7 @@
   </xsl:variable>
 
   <xsl:variable name="free-text">
-    <xsl:apply-templates mode="free-text" select="/*/tei:text" />
+    <xsl:apply-templates mode="free-text" select="/*" /> <!-- /*/tei:text -->
   </xsl:variable>
 
   <xsl:template match="/">
@@ -85,13 +86,47 @@
       <xsl:value-of select="$year" />
     </field>
   </xsl:template>
-
-  <!-- If @notBefore is specified, @notAfter is assumed to be
-       specified, and vice versa. -->
-  <xsl:template match="tei:origDate[@notBefore]" mode="document-metadata">
+  
+  <xsl:template match="tei:origDate[@notBefore][@notAfter]" mode="document-metadata">
     <xsl:variable name="start-year">
       <xsl:call-template name="get-year-from-date">
         <xsl:with-param name="date" select="@notBefore" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="end-year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="@notAfter" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:for-each select="($start-year to $end-year)">
+      <field name="origin_date">
+        <xsl:value-of select="." />
+      </field>
+    </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template match="tei:origDate[@notBefore][not(@notAfter)]" mode="document-metadata">
+    <xsl:variable name="start-year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="@notBefore" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="end-year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="'0700'" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:for-each select="($start-year to $end-year)">
+      <field name="origin_date">
+        <xsl:value-of select="." />
+      </field>
+    </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template match="tei:origDate[@notAfter][not(@notBefore)]" mode="document-metadata">
+    <xsl:variable name="start-year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="'-0800'" />
       </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="end-year">
@@ -157,36 +192,61 @@
   </xsl:template>
 
   <xsl:template match="tei:repository[@ref]" mode="facet_source_repository">
+    <xsl:variable name="id" select="substring-after(@ref,'#')"/>
+    <xsl:variable name="institutions-al" select="'../../../content/xml/authority/institution.xml'"/>  
     <field name="source_repository">
-      <xsl:value-of select="@ref"/>
+      <xsl:choose>
+        <xsl:when test="doc-available($institutions-al) = fn:true() and document($institutions-al)//tei:place[@xml:id=$id]//tei:placeName">
+          <xsl:value-of select="document($institutions-al)//tei:place[@xml:id=$id]//tei:placeName"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$id"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:material[@ref]" mode="facet_support_material">
+  <xsl:template match="tei:material" mode="facet_support_material">
     <field name="support_material">
-      <xsl:value-of select="@ref" />
+      <xsl:choose>
+        <xsl:when test="text()">
+      <xsl:value-of select="upper-case(substring(., 1, 1))" />
+      <xsl:value-of select="substring(., 2)" />
+        </xsl:when>
+        <xsl:otherwise><xsl:text>-</xsl:text></xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:origPlace[@ref]" mode="facet_origin_place">
-    <!-- This does nothing to prevent duplicate instances of the same
-         @ref value being recorded. -->
+  <xsl:template match="tei:origPlace" mode="facet_origin_place">
     <field name="origin_place">
-      <xsl:value-of select="@ref" />
+      <xsl:choose>
+        <xsl:when test="tei:placeName">
+          <xsl:value-of select="tei:placeName" />
+        </xsl:when>
+        <xsl:when test="not(tei:placeName) and text()!=''">
+          <xsl:value-of select="translate(., '.', '')" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>Unknown</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   
   <xsl:template match="tei:origDate[@evidence]" mode="facet_origin_date_evidence">
     <xsl:for-each select="tokenize(@evidence, '\s+')">
       <field name="origin_date_evidence">
-        <xsl:value-of select="." />
+        <xsl:value-of select="upper-case(substring(normalize-space(.), 1, 1))" />
+        <xsl:value-of select="substring(normalize-space(translate(., '-', ' ')), 2)" />
       </field>
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="tei:objectType[@ref]" mode="facet_support_object_type">
+  <xsl:template match="tei:objectType" mode="facet_support_object_type">
     <field name="support_object_type">
-      <xsl:value-of select="@ref" />
+      <xsl:value-of select="upper-case(substring(normalize-space(.), 1, 1))" />
+      <xsl:value-of select="substring(normalize-space(.), 2)" />
     </field>
   </xsl:template>
 
@@ -198,9 +258,14 @@
 
   <xsl:template match="text()" mode="facet_mentioned_people" />
 
-  <xsl:template match="tei:placeName[@ref]" mode="facet_found_provenance">
+  <xsl:template match="tei:provenance[@type='found']//tei:placeName[@type='ancientFindspot'][1]" mode="facet_found_provenance">
     <field name="found_provenance">
-      <xsl:value-of select="@ref" />
+      <xsl:value-of select="." />
+      <!-- added for IGCyr2 on 19.10.2023 -->
+      <xsl:if test="following-sibling::tei:*[@type='monuList']">
+        <xsl:text>, </xsl:text>
+        <xsl:value-of select="following-sibling::tei:*[@type='monuList'][1]"/>
+      </xsl:if>
     </field>
   </xsl:template>
 
@@ -239,7 +304,7 @@
   </xsl:template>
 
   <xsl:template name="field_found_provenance">
-    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type='found']" />
+    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type='found']//tei:placeName[@type='ancientFindspot'][1]" />
   </xsl:template>
 
   <xsl:template name="field_lemmatised_text">
@@ -257,15 +322,15 @@
   </xsl:template>
 
   <xsl:template name="field_origin_place">
-    <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace[@ref]" />
+    <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace" />
   </xsl:template>
 
   <xsl:template name="field_source_repository">
-    <xsl:apply-templates mode="facet_source_repository" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:repository[@ref]"/>
+    <xsl:apply-templates mode="facet_source_repository" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:repository"/>
   </xsl:template>
 
   <xsl:template name="field_support_material">
-    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:material[@ref]" />
+    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:material" />
   </xsl:template>
   
   <xsl:template name="field_origin_date_evidence">
@@ -273,7 +338,7 @@
   </xsl:template>
 
   <xsl:template name="field_support_object_type">
-    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:objectType[@ref]" />
+    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:objectType" />
   </xsl:template>
 
   <xsl:template name="field_text">

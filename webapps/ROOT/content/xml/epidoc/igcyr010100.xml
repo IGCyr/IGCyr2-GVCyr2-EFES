@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tomb protection</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr010100</idno>
+                <idno type="number" subtype="second-edition">010100</idno>
+                <idno type="TM">105910</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr010100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr010100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr010100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>stele</objectType> closing a niche in a rock-cut tomb
+                                        (<dimensions>
+                                            <width>0.54</width>
+                                            <height>0.84</height>
+                                            <depth>0.22</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> 0.175 from top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.07" atMost="0.11">0.07-0.11</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0400" notAfter="-0201">Fourth to third centuries BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1911">
+                                    <p>Found in 1911, Norton expedition, at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, Cassel's tomb N22 ('tomb 8' of the Norton expedition).
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-03" who="CDL">lemma, text markup, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76776/3/igcyr010100-face.tiff.jpg" corresp="igcyr010100" decls="#photograph"><desc resp="Mott, L." source="Norton Archive, Museum of Fine Arts, Boston" n="1911"><ref target="http://hdl.handle.net/20.500.14008/76776">Face of igcyr010100 Tomb protection</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#robinson1913"/>, n. <citedRange>41</citedRange>, fig. 30</bibl>, whence 
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5887</citedRange></bibl>; 
+                    <bibl><ptr target="#DGE"/> <citedRange>231,9</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>010100</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#santucci-uhlenbrock2013"/>, p. <citedRange>12</citedRange> (identification of the tomb)</bibl>;
+                    <bibl><ptr target="#cdl2013"/>, p. <citedRange>186</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/>μὴ <w lemma="ἀνοίγω">ἀν<lb n="2" break="no"/>οίγεν</w>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Ne pas ouvrir.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Do not open.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Non aprire.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>لا تفتح (تحذير).</p>
+         </div><div type="commentary">
+                
+                <p>The ending <foreign xml:lang="grc">-εν</foreign> for active infinitive is a regular feature in the local dialect.</p>
+                <p>This formula aims at protecting the recess in this chamber-tomb, which can be identified after <bibl><ptr target="#santucci-uhlenbrock2013"/></bibl>
+                    from the long delated publication of Norton's final report.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

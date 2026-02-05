@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr101000</idno>
+                <idno type="number" subtype="second-edition">101000</idno>
+                <idno type="TM">738522</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr101000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr101000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr101000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">183</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings on top and below and two round 
+                                        dowel holes on top; colored in red by the earth and broken off at left and right ends, beginning at both dowel holes
+                                        (<dimensions>
+                                            <width>0.395</width>
+                                            <height>0.16</height>
+                                            <depth>0.14</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face 
+                                    (<dimensions>
+                                        <width>0.33</width>
+                                        <height>0.07</height>
+                                    </dimensions>).
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height>; slight thickening at end of strokes rather than real serifs; slanting sigma, phi with oval loop, open omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0325" notAfter="-0275">End of fourth or beginning of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: plausibly from a
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1993" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-24" who="CDL">overall check; changed text, apparatus and commentary; Ital. translation</change>
+            <change when="2103-11-22" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+         </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77377/3/igcyr101000-1-squeeze.tiff.jpg" corresp="igcyr101000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77377">Squeeze of igcyr101000 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77378/3/igcyr101000-2-drawing.tiff.jpg" corresp="igcyr101000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77378">Drawing of igcyr101000 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77379/3/igcyr101000-3-drawingtop.tiff.jpg" corresp="igcyr101000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77379">Drawing of top of igcyr101000 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>174</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>101000</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.107</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="Καλλώι"><name nymRef="#Καλλώι"><unclear>Κ</unclear>αλλὼ<unclear>ι</unclear></name>                    
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66131"><name type="patronymic" nymRef="Φωκίων">Φωκίωνος</name></persName></persName>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                  <app loc="1">
+                      <lem><unclear>Κ</unclear>αλλώ<unclear>ι</unclear></lem>
+                      <rdg cert="low"><note>or</note> <unclear>Κ</unclear>αλλώ<unclear>ν</unclear><note>?</note></rdg>
+                  <rdg resp="#SECir"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64084"><name><supplied reason="lost">Θ</supplied>αλλὼ</name></persName></rdg></app>  
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Kallô fille de Phôkiôn.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Kallo daughter of Phokion.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Kallò figlia di Phokion.</p>
+            </div><div type="commentary">
+                
+                <p>Nothing is known about the provenance of this base. However the circular dowel holes do not correspond to a satue base erected for private honours, but may 
+                be found in some funerary bases which supported half statues of the funerary goddess (so for instance <ref type="inscription" source="#IGCyr2">IGCyr084900</ref>).
+                As to the date of the find, the inventory number is a plausible clue for a discovery before World War II. However, Pugliese Carratelli does not mention any trace 
+                of it from Oliverio's papers.</p>
+                <p>At the beginning of line 1 the lower oblique bar of a kappa is clear; at the end of the line, there is only the very short lower part of 
+                    a vertical stroke, so that either a nu or an iota may be read, giving viz. a masculine name <foreign xml:lang="grc">Κάλλων</foreign> or 
+                    a feminine <foreign xml:lang="grc">Καλλώι</foreign>; the latter is already attested at Cyrene, the former hitherto not attested but quite plausible.
+                    On behalf of the space available, inferred from the position of the final sigma of line 2, we eventually prefer to restore an iota, although 
+                    this might be discussed.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr138400</idno>
+                <idno type="number" subtype="second-edition">138400</idno>
+                <idno type="TM">997646</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr138400</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository><idno type="invNo">1812</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a white <material>marble</material> <objectType>panel</objectType> broken off at right, probably re-cut at left and bottom and slightly chipped off on those edges  
+                                    (preserved dimensions <dimensions>
+                                        <width>0.09</width>
+                                    <height>0.10</height>
+                                    <depth>0.03</depth></dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face, beginning at <dim type="distance">0.017</dim> from the upper edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Very carefully and not very deeply cut letters (<height>0.015</height>, interline space 0.007) with light serifs; alpha with rather low bar, some sigmas still slightly slanting.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0249" notAfter="-0200" precision="low">Probably second half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found plausibly after World War II at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>,
+                                        exact findspot not registered.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="2001" resp="CDL">
+                            <p>Seen in 2001 by Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-04-26" who="CDL">completed commentary</change>                  
+            <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-02-12" who="Alice">checked</change>
+                <change when="2023-09-15" who="CDL">file updated</change>
+         <change when="2022-06-18" who="CDL">File created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80527/3/igcyr138400-1-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80527">Face of igcyr138400 Names</ref></desc></graphic></facsimile>
+    <!--photo 01/II digitalised; squeeze CD478  <facsimile/>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#Ἄστυλλος" type="patronymic">Ἀστύλλ<supplied reason="lost">ω</supplied></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name><persName type="attested" key=""><name nymRef="#-ύστρατος" type="patronymic"><gap reason="lost" atLeast="1" atMost="3" unit="character"/><seg part="F"><unclear>υ</unclear>στράτ<unclear>ω</unclear></seg></name></persName></persName>
+                    <lb n="3"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name><persName type="attested" key=""><name nymRef="#-είδας" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">είδα</seg></name></persName></persName>
+                    <lb n="4"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#Ἁνίοχος" type="patronymic"><supplied reason="lost">Ἁ</supplied>νιόχ<unclear>ω</unclear></name></persName></persName>
+                    <lb n="5"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#Ἀνδρόνικος" type="patronymic"><supplied reason="lost">Ἀνδ</supplied><unclear>ρ</unclear>ονί<unclear>κ</unclear><supplied reason="lost">ω</supplied></name></persName></persName>
+                    <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="2" type="alternative">
+                    <lem><gap reason="lost" atLeast="1" atMost="3" unit="character"/><unclear>υ</unclear>στράτ<unclear>ω</unclear></lem>
+                    <rdg><supplied reason="lost">Ε</supplied><unclear>ὐ</unclear>στράτ<unclear>ω</unclear> or <supplied reason="lost">Λεβ</supplied><unclear>υ</unclear>στράτ<unclear>ω</unclear></rdg>
+                </app></p>
+                
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Un tel</supplied> <supplied reason="subaudible">fils d'</supplied>Astyllos, <supplied reason="lost">Un tel</supplied> <supplied reason="subaudible">fils de</supplied> <gap reason="lost" extent="unknown" unit="character"/>ystratos, <supplied reason="lost">Un tel</supplied> <supplied reason="subaudible">fils de</supplied> <gap reason="lost" extent="unknown" unit="character"/>eidas, <supplied reason="lost">Un tel</supplied> <supplied reason="subaudible">fils d'</supplied>Haniokhos, <supplied reason="lost">Un tel</supplied> <supplied reason="subaudible">fils d'</supplied>Andronikos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So and so</supplied> <supplied reason="subaudible">son of</supplied> Astyllos, <supplied reason="lost">So and so</supplied> <supplied reason="subaudible">son of</supplied> <gap reason="lost" extent="unknown" unit="character"/>ystratos, <supplied reason="lost">So and so</supplied> <supplied reason="subaudible">son of</supplied> <gap reason="lost" extent="unknown" unit="character"/>eidas, <supplied reason="lost">So and so</supplied> <supplied reason="subaudible">son of</supplied> Haniochos, <supplied reason="lost">So and so</supplied> <supplied reason="subaudible">son of</supplied> Andronikos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale</supplied> <supplied reason="subaudible">figlio di</supplied> Astyllos, <supplied reason="lost">Il tale</supplied> <supplied reason="subaudible">figlio di</supplied> <gap reason="lost" extent="unknown" unit="character"/>ystratos, <supplied reason="lost">Il tale</supplied> <supplied reason="subaudible">figlio di</supplied> <gap reason="lost" extent="unknown" unit="character"/>eidas, <supplied reason="lost">Il tale</supplied> <supplied reason="subaudible">figlio di</supplied> Haniochos, <supplied reason="lost">Il tale</supplied> <supplied reason="subaudible">figlio di</supplied> Andronikos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>This very carefully cut inscription lists names at the genitive case, thus fathers' names. Amongst them, Haniochos is very common and typical of Cyrenaica. Astyllos is already 
+                 attested only once (<ref type="inscription" source="#IGCyr2">IGCyr065200</ref> a.i.54), with a lost father's name, at the beginning of the same century. For the name at line 2, amongst the possible restorations, three are favourite: <foreign xml:lang="grc">Εὔστρατος</foreign>, which is the name of a military 
+                 officer about 335 BC (<ref type="inscription" source="#IGCyr2">IGCyr084000</ref> b.1.88); <foreign xml:lang="grc">Πολύστρατος</foreign>, of which the short form <foreign xml:lang="grc">Πόλυστρις</foreign> is a priest's name in <ref
+                      type="inscription" source="#IGCyr2">IGCyr115000</ref> i.36, in the second half of the third century BC; or <foreign xml:lang="grc">Λι/εβύστρατος</foreign>, a local name attested on coins and also attested twice in a lost context dated into the fourth century BC (<ref type="inscription" source="#IGCyr2">IGCyr080300</ref> a.2 and 
+                 <ref type="inscription" source="#IGCyr2">IGCyr097100</ref> a.27). As for Andronikos, it is attested only once at the end of the second century BC (<ref type="inscription" source="#IGCyr2">IGCyr115000</ref> ii.25). We can only conclude that the men listed here belonged to the upper class of the Hellenistic Cyrene.</p>
+            </div></body>
+    </text>
+</TEI>

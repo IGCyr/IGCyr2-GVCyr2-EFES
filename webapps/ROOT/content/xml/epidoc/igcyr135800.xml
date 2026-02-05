@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">List of names</rs> with mention of ephori (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135800</idno>
+                <idno type="number" subtype="second-edition">135800</idno>
+                <idno type="TM">997620</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135800</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <objectType>block</objectType> of local <material>limestone</material>, broken off at left, at right and below; the upper edge, although damaged, might 
+                                    be the original one; a vacat at the bottom of the front face might show that the right and lower edges are the original ones, only chipped off; the dimensions are unkown.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the front face with at least 6 lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>height unknown</height>; deeply cut letters without serifs; mu with oblique hastae, dissymmetrical nu, slantering sigma with short arms, upsilon with 
+                            short tail and slightly curved arms.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0350" precision="low">Perhaps first half of fourth century BC.</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1930">
+                                    <p>Found before 1930, possibly at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1181" key="http://pleiades.stoa.org/places/373750">Barka</placeName> or 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>, exact findspot unknown. 
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1930">
+                                <p>Photographed in 1930 at <placeName type="modernSpot" key="http://pleiades.stoa.org/places/88902">Al Marj</placeName>: in front of the <rs type="monuList" ref="https://www.slsgazetteer.org/1288">Barce Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1946">
+                                    <p>copied by Etherington in 1946 at the same place.</p>
+                                </provenance>
+                        
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/places.88902" key="www.slsgazetteer.org/1181">Al Marj</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription and edition from photograph (H. Berthelot).</creation></profileDesc>
+        <revisionDesc>
+            
+            <change when="2024-04-26" who="CDL">some changes in commentary</change>
+            <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change> 
+            <change when="2024-01-26" who="CDL">small change in commentary</change>  
+            <change when="2023-10-29" who="CDL">updated file</change>    
+            <change when="2023-09-14" who="CDL">file updated</change>
+         <change when="2023-08-18" who="CDL">file created</change>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80486/3/igcyr135800-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80486">View of igcyr135800</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                <head>Bibliography</head>
+                <p>Never published before <bibl><ptr target="#IGCyr2"/></bibl>;
+                    mentioned without image by <bibl><ptr target="#jmr1999"/></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                <head>Text</head>
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>, <orig>πο</orig><gap reason="lost" atLeast="7" atMost="8" unit="character"/>
+,                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>, <persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#Ἀρίμμας"><supplied reason="lost" cert="low">Ἀρίμ</supplied>μα</name></persName></persName>, 
+                        <persName type="attested" key=""><name nymRef="#Κα_"><seg part="I">Κ<choice><unclear>λ</unclear><unclear>α</unclear></choice></seg><gap reason="lost" atLeast="6" atMost="7" unit="character"/></name>
+                    <lb n="4"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    <persName type="attested" key=""><name nymRef="#_ν"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>ν</unclear></seg></name> <persName type="attested" key=""><name type="patronymic" nymRef="#Κλευγένης">Κλευγένευ<supplied reason="lost">ς</supplied></name></persName></persName>, 
+                    <persName type="attested" key=""><name nymRef="#_ης"><gap reason="lost" quantity="2" unit="character" precision="low"/><lb n="5" break="no"/><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ης</seg></name> <persName type="attested" key=""><name type="patronymic" nymRef="#Ἰάσων">Ἰάσονος</name></persName></persName>, 
+                    <persName type="attested" key=""><name nymRef="#Μ_"><seg part="I">Μ</seg><gap reason="lost" quantity="3" unit="character" precision="low"/><lb n="6" break="no"/><gap reason="lost" extent="unknown" unit="character"/></name>
+                    <persName type="attested" key=""><name type="patronymic" nymRef="#Στρουθίων"><supplied reason="lost">Στρ</supplied>ο̣υθίονος</name></persName></persName>, 
+                    <persName type="attested" key=""><name nymRef="#Ἇγις">Ἇγις <space atLeast="1" atMost="2" unit="character"/></name>
+                    <lb n="7"/><persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>, 
+                    <gap reason="lost" extent="unknown" unit="character"/> <rs type="office" key="ephoros"><w lemma="ἔφορος"><unclear>ἔ</unclear>φοροι</w></rs>· <persName type="attested" key=""><name nymRef="Εὐτελίω">Εὐτελίων<lb n="8" break="no"/><supplied reason="lost" cert="low">ν</supplied></name></persName>
+                    <rs type="office" key="gropheus"><w lemma="γράφω"><supplied reason="lost" cert="low">ἔγραφε</supplied></w></rs> <space quantity="12" unit="character" precision="low"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost"/>po<gap reason="lost"/> <supplied reason="lost"> Untel fils d'Arim</supplied>mas,
+            Kl/Ka<gap reason="lost"/> <supplied reason="lost">fils d'Untel</supplied>, <gap reason="lost"/>n fils de Kleugénès, (5) <gap reason="lost"/>ès fils de Iasôn, M<gap reason="lost"/> 
+                <supplied reason="lost"> fils de</supplied> Strouthiôn, Hagis <supplied reason="lost">fils d'Untel</supplied>, éphores. 
+                Eutéliô<supplied reason="lost" cert="low">n</supplied> <supplied reason="lost" cert="low">était secrétaire</supplied>.</p>
+                   
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+           <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost"/>po<gap reason="lost"/> <supplied reason="lost"> So-and-so son of Arim</supplied>mas,
+               Kl/Ka<gap reason="lost"/> <supplied reason="lost">son of So-and-so</supplied>, <gap reason="lost"/>n son of Kleugenes, (5) <gap reason="lost"/>es son of Iason, M<gap reason="lost"/>
+               <supplied reason="lost">son of</supplied> Strouthion, Hagis <supplied reason="lost">son of So-and-so</supplied>, ephori. 
+                Eutelio<supplied reason="lost" cert="low">n</supplied> <supplied reason="lost" cert="low">was secretary</supplied>.</p>
+             
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost"/>po<gap reason="lost"/> <supplied reason="lost">Il tale figlio di Arim</supplied>mas,
+            Kl/Ka<gap reason="lost"/> <supplied reason="lost">figlio del tale</supplied>, <gap reason="lost"/>n figlio di Kleugenes, (5) <gap reason="lost"/>es figlio di Iason, M<gap reason="lost"/> 
+                <supplied reason="lost">figlio di</supplied> Strouthion, Hagis <supplied reason="lost">figlio del tale</supplied>, efori. 
+                Eutelio<supplied reason="lost" cert="low">n</supplied> <supplied reason="lost" cert="low">era segretario</supplied>.</p>
+             
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                <head>Commentary</head>
+             <p>The origin and meaning of this inscription raise many questions. It is known to us only from a photograph preserved in the late J.M. Reynolds' archive and showing also <ref type="inscription">IRCyr2020 M.109</ref>. 
+                 She mentioned it briefly at a conference held in Paris in 1999, where she intended to trace the very few inscriptions known from ancient Barka. This photograph, known to us from the IRCyr archive, 
+                 was shot in front of the ancient lapidary storeroom of Al Marj, the modern city continuing ancient Barka, which was destroyed by an earthquake in 1963; the new Al Marj al Qadim 
+                was rebuilt since, at a short distance to the West. That so-called Barce Museum had been closed some time after 1946 and the transfer of the items kept there remains obscure, as well as their link with 
+                such and such origin (see for instance <ref type="inscription" source="#IGCyr2">IGCyr123800</ref>). The photograph, dated 1930 and bearing number E1403 was identified by J. Reynolds in the years 1990 
+                 in the archive of the Department of Antiquities at Cyrene, where photos of the whole region were kept, as the Department in pre-war time had its head office there. She identified this stone with a 
+                 copy which had been handed out to her by M.N. Tod, who received it from the British officer Etherington, on duty in Cyrenaica in 1946.</p>
+             <p>What seems sure is that the stone was kept at Al Marj between 1930 and 1946 in a storeroom where items found either at Barka, at Ptolemais or in the neighbourhood were kept. Depending of its date, this inscription 
+                 might belong to Barka or to the coastal site, either when the latter was still Barka's harbour or when it was already an autonomous city, Ptolemais. There are good arguments for dating the inscription 
+                 to the first half of the fourth century. During that very period, Barka lost its influence and Ptolemais took advantage. Allocating the inscription to Barka is thus only hypothetical.</p>
+             <p>The organisation of the text is no less obscure. A series of personal names, some of which partly lost, lead to restore at least seven mentions with name and father's name, but further names 
+                 might have been lost. At line 2, the segment <foreign xml:lang="grc">-ΠΟ-</foreign> might belong to a compound in <foreign xml:lang="grc">-ιππος</foreign>, but necessarily at the 
+                 nominative and this would lead to a different restoration with up to twelve names. This syllable appearing also at the beginning or at the middle of some names, it seems more cautious to leave it unrestored.   
+                 After the names, the word <foreign xml:lang="grc">ἔφοροι</foreign> appears in a surprising place: in other documents from Cyrenaica, this title precedes the list of names (see <ref type="inscription" source="#IGCyr2">IGCyr010800.82</ref>,
+                 <ref type="inscription" source="#IGCyr2">IGCyr063800</ref>, with discussion about their number). If really from Barka, this inscription would add this city to those where ephori are attested, namely 
+             Cyrene, Euesperides and Arsinoe-Taucheira. H. Berthelot will publish a more thorough study of this inscription.</p> 
+                 <p>If we admit that this list ends with the title 'ephori', what should we do with <foreign xml:lang="grc">ΕΥΤΕΛΙΩ</foreign>? There is no letter cut at the end of this line and below it there is a space as large as 
+                     the preserved width of the block. The most evident reading would be to restore a nu at the beginning of the following line, producing the name <foreign xml:lang="grc">Εὐτελίων</foreign>, well attested in other regions. 
+                     This would preferably be followed by a father's name or perhaps only by a mention of his office, secretary as hypothetically suggested here.</p>
+             <p>Amongst the personal names, we find a newcomer, <foreign xml:lang="grc">Στρουθίων</foreign>, derived from the noun <foreign xml:lang="grc">στρουθός</foreign> meaning both 'sparrow' and 'ostrich'.
+             At line 2, the genitive ending <foreign xml:lang="grc">-μα</foreign> leads very probably to the typically Cyrenaican name <foreign xml:lang="grc">Ἀρίμμας</foreign>. The only other candidate 
+             from the regional stock is <foreign xml:lang="grc">Λυκόμμας</foreign> (<ref type="inscription" source="#IGCyr2">IGCyr 124100</ref>). A man named Kleugenes (son of Epinikos) is mentioned on a base from Ptolemais
+                 (<ref type="inscription" source="#IGCyr2">IGCyr106630</ref>); it is the only other mention of that name in Western Cyrenaica, whereas we have a series of occurrences at Cyrene. For the end of line 3, the name 
+             might begin with <foreign xml:lang="grc">Κλ</foreign> or <foreign xml:lang="grc">Κα</foreign>, both initial syllables being known for various names attested in Cyrenaica.</p>
+         </div></body>    </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmentary <rs type="textType">list of ephebes</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr137500</idno>
+                <idno type="number" subtype="second-edition">137500</idno>
+                <idno type="TM">997637</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr137500</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository><idno type="invNo">341</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small fragment of a white <material>marble</material> <objectType>block</objectType>, broken off on all sides
+                                    (preserved dimensions <dimensions>
+                                        <width>0.115</width>
+                                        <height>0.075</height>
+                                        <depth>0.02</depth>
+                                    </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face with a large space at each line, giving the impression of two columns.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letters (<height>0.008</height>) not much pressed together, with small serifs; alpha with straight bar.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Perhaps findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0199" notAfter="-0001" precision="low">Perhaps second or first century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found">
+                            <p>Plausibly found before World War II at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>,
+                                exact findspot not registered.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="1979" resp="CDL">
+                            <p>Seen in 1979 by Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>            
+            <change when="2024-02-12" who="Alice">checked</change>
+            <change when="2024-01-29" who="CDL">Changes in commentary</change> 
+                <change when="2023-01-23" who="CDL">file updated</change>
+         <change when="2022-06-14" who="CDL">File created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80515/3/igcyr137500-1-squeeze.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80515">Squeeze of igcyr137500 Fragmentary list of ephebs</ref></desc></graphic></facsimile>
+    <!-- Squeeze CD358  <facsimile/>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="̄#-ας"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>α</unclear>ν</seg></name> <space quantity="4" unit="cm"/> <persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#_ος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ον</seg></name> <space quantity="4" unit="cm"/> <persName type="attested" key=""><name><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    <lb n="3"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <space quantity="4" unit="cm"/> <persName type="attested" key=""><name nymRef="#Α-"><seg part="I">Α<choice><unclear>ρ</unclear><unclear>γ</unclear></choice></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>                    
+                    <lb n="4"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <space quantity="4" unit="cm"/> <persName type="atttested" key=""><name nymRef="#Ἡλιόδωρος" type="patronymic">Ἡλι<supplied reason="lost">οδώρω</supplied></name></persName></persName>
+                    <lb n="5"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <space quantity="4" unit="cm"/> <persName type="attested" key=""><name nymRef="#Ἀντι-"><seg part="I">Ἀντ<unclear>ι</unclear></seg></name><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
+                    <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>(Liste de noms et patronymes).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>(A list of names and fathers' names).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>(Lista di nomi e patronimici).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>This very poor fragment may be considered part of an ephebic list because it provides, in a kind of columnar display, ends of names at the accusative and beginnings of other names, which should be their fathers' names. This type of documents 
+                is known from the second century BC on and difficult to dispatch between the Hellenistic and the Roman period (see <bibl><ptr target="#cdl2016"/>, p. <citedRange>240</citedRange></bibl>). Joining this small fragment to a larger document 
+                 is a tempting task. In spite of some similarities (e.g. the letters height), the comparison between the stones and the squeezes shows that it cannot belong to <ref type="inscription" source="#IGCyr2">IGCyr104000</ref>, the stones being different and the width of the 
+                 <foreign rend="italics">vacat</foreign> unknown. On the other hand, it resembles <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.431.html">IRCyr2020 C.431</ref>, with an identical space between the name. However, our fragment cannot be placed into its gaps. 
+               A very faint argument for a later (thus Roman) date would be the name Heliodoros, which seems here an unescapable restoration and is hitherto not attested in Cyrenaica for the Hellenistic period.
+            </p>
+            </div></body>
+    </text>
+</TEI>

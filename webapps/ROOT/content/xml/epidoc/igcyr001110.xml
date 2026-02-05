@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr001110</idno>
+                <idno type="number" subtype="second-edition">001110</idno>
+                <idno type="TM">738109</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr001110</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr001110</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr001110</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the Italian missions</repository> <idno type="invNo">A58 I4</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of <objectType>cup</objectType> of <material>Attic black-glazed ware</material> of the "Minor Masters" style
+                                        (width 0.023).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on the outer wall.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="monument-type" notBefore="-0540" notAfter="-0525" precision="medium">Between 540 and 525 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1958">
+                                    <p>Found in 1958 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, in a sounding beneath the future
+
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1483">Augusteum</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Editor's transcription.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2013-03-26" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-19" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Pandolfi in <ptr target="#stucchi1965"/>, p. <citedRange>83</citedRange>, ph. pl. XVII, 6b</bibl>;
+                    <bibl><ptr target="#gasperini1967a"/>, n. <citedRange>8</citedRange>, ph. fig. 8</bibl>
+                    (=<bibl><ptr target="#gasperini2008"/>, pp. <citedRange>78-79</citedRange></bibl>);
+                    <bibl><ptr target="#cdl1970"/>, p. 251, <citedRange>a)</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>001110</citedRange></bibl>.</p> 
+            
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>κ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Intraduisible.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Not usefully translatable.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Intraducibile.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمه</p>
+         </div><div type="commentary">
+                
+                <p/>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

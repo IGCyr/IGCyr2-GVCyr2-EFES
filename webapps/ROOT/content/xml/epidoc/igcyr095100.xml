@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Perhaps a <rs type="textType">list of ephebes</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr095100</idno>
+                <idno type="number" subtype="second-edition">095100</idno>
+                <idno type="TM">738458</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr095100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr095100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr095100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="https://www.slsgazetteer.org/933">Cyrene Museum</repository> <idno type="invNo">299</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of white <material>marble</material> <objectType>block</objectType> broken on all sides except probably at back
+                                        (<dimensions>
+                                            <width>0.105</width>
+                                            <height>0.16</height>
+                                            <depth>0.11</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>; finely cut, with serifs, pi with wide upper bar, open upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0120" notAfter="-0081" precision="medium">End of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935">
+                                    <p>Found before 1935 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1976 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-26" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2017-01-16" who="CDL">overall check; added to bibliography and amended tagging and apparatus</change>
+            <change when="2013-10-07" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77281/3/igcyr095100-squeeze.tiff.jpg" corresp="igcyr095100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77281">Squeeze of igcyr095100 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/> <citedRange>XI.7</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>19</citedRange> </bibl>(no image); 
+                    <bibl><ptr target="#cdl2003a"/>, pp. <citedRange>216-218</citedRange></bibl> (photo), whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2047</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>095100</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cdl2016"/>, p. <citedRange>254</citedRange> (ph.)</bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>75</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><choice><unclear>ι</unclear><unclear>μ</unclear><unclear>ν</unclear></choice>αν</orig><gap reason="lost" extent="unknown" unit="character"/>                    
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <persName type="attested" key=""><name nymRef="#Ἐπικ_"><seg part="I">Ἐπικ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>                    
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <persName type="attested" key=""><name nymRef="#Πραξι_"><seg part="I">Πραξι</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64506"><name nymRef="#Κάλλιππος"><supplied reason="lost">Κ</supplied>αλλί<unclear>π</unclear><supplied reason="lost">που</supplied></name></persName> 
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="#_λος"><seg part="F">λου</seg></name></persName>                     
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <persName type="attested"><name nymRef="#Ποσειδ_"><seg part="I"><unclear>Π</unclear>οσει<supplied reason="lost">δ</supplied></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#cdl2003a"><gap reason="lost" extent="unknown" unit="character"/><orig><choice><unclear>ι</unclear><unclear>μ</unclear><unclear>ν</unclear></choice>αν</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SECir">Ἀν<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>Ἐπικ<gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#cdl2003a">Ἐπικ<choice><unclear>υ</unclear><unclear>ρ</unclear><unclear>τ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SECir"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63712"><name>Ἐπικ<unclear>ύ</unclear><supplied reason="lost">δης</supplied></name></persName></rdg>
+                    </app>
+                    <app loc="3">
+                        <rdg resp="#cdl2003a">Πραξι<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SECir">Πραξ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="4">
+                        <rdg resp="#cdl2003a"><supplied reason="lost">Κ</supplied>αλλί<unclear>π</unclear><supplied reason="lost">που</supplied></rdg>
+                        <rdg resp="#SECir"><supplied reason="lost">Κ</supplied>άλλιπ<supplied reason="lost">πος</supplied></rdg>
+                    </app>
+                    <app loc="5">
+                        <rdg resp="#cdl2003a"><gap reason="lost" extent="unknown" unit="character"/>λου<space extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SECir"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65197"><name><supplied reason="lost">Ξ</supplied>οῦθ<supplied reason="lost">ος</supplied></name></persName></rdg>
+                    </app>
+                    <app loc="6">
+                        <rdg resp="#cdl2003a"><unclear>Π</unclear>οσει<supplied reason="lost">δ</supplied><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SECir"><supplied reason="lost">Π</supplied>οσει<supplied reason="lost">δ</supplied><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> <note>Liste de bribes de noms au génitif, intraduisible</note></p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> <note>A list of parts of names at the genitive case, not usefully translatable</note></p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> <note>Una lista di parti di nomi al genitivo, intraducibile</note></p>
+         </div><div type="commentary">
+                
+             <p>The script is very similar to that of <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.294.html">IRCyr2020 C.294</ref>, although both fragments do not match together. Therefore, this one should be
+                one of the latest inscriptions presumably dating of the Hellenistic period and it might explain the use of koine at least in some names.</p>
+                <p>Both for reasons of layout and because at l. 5 there is a gap after the upsilon, it is impossible to admit with Oliverio that the preserved names were at the 
+                    nominative case. They should be at the genitive as fathers' names.</p>
+                <p>According to <bibl><ptr target="#cdl2016"/>, p. <citedRange>254</citedRange></bibl>, this might be a list of ephebes, but too fragmentary to allow any confidence.</p>
+            </div></body>
+    </text>
+</TEI>

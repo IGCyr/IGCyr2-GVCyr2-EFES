@@ -29,9 +29,9 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
-          <p>There are some <a href="{kiln:url-for-match('local-indices-type-display', ($language, 'epidoc'), 0)}">indices of various facets of inscription data</a> available.</p>
+          <p><i>IGCyr</i> and <i>GVCyr</i> can be explored following two principal ways. It is possible to browse the contents (<a href="">Inscriptions</a> and <a href="../search/" target="_blank">Search</a>) or to refer to the indices (<a href="../indices/epidoc/" target="_blank">Indices</a>). The Inscriptions table of contents offers the inscriptions arranged by number and title, whereas through the Search interface they can be browsed according to a variety of search filters or queried via textual searches. Indices display three main groups of entries attested in the texts of the inscriptions: words, names, other characters and features.</p>
 
-          <p>The source EpiDoc XML for all of the listed inscriptions are available in a <a href="{kiln:url-for-match('local-epidoc-zip', ($language), 0)}">ZIP archive</a>.</p>
+          <p>Complete data dump available at: <a target="_blank" href="https://doi.org/10.6092/unibo/amsacta/7796">https://doi.org/10.6092/unibo/amsacta/7796</a>.</p> 
 
           <xsl:apply-templates mode="text-index"
                                select="/aggregation/response" />

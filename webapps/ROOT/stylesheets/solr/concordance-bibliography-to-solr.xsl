@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0"
-  xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:fn="http://www.w3.org/2005/xpath-functions">
-  
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:fn="http://www.w3.org/2005/xpath-functions">
+
   <!-- Index references to bibliographic items. -->
-  
+
   <xsl:param name="file-path" />
-  
+
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
     <xsl:variable name="bibliography-al" select="concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/authority/bibliography.xml')"/>
@@ -111,7 +111,7 @@
               <xsl:value-of select="@xml:id" />
             </field>
             <field name="concordance_bibliography_date"> 
-              <xsl:value-of select="descendant::tei:date[1]" />
+                <xsl:value-of select="descendant::tei:date[1]" />
             </field>
             <field name="concordance_bibliography_type">
               <xsl:choose>
@@ -120,9 +120,9 @@
               </xsl:choose>
             </field>
             <!-- the concordance_bibliography_listed field is used to display just one entry for each bibliographic reference in the bibl. list -->
-            <field name="concordance_bibliography_listed">
-              <xsl:text>yes</xsl:text>
-            </field>
+              <field name="concordance_bibliography_listed">
+                <xsl:text>yes</xsl:text>
+              </field>
             <!-- the concordance_bibliography_short field is used for sorting the bib. references in the bibl. list -->
             <field name="concordance_bibliography_short">
               <xsl:variable name="abbreviation">
@@ -151,12 +151,12 @@
             </field>
             <xsl:apply-templates select="current-group()" />
           </doc>
-        </xsl:for-each-group>
+      </xsl:for-each-group>
       </xsl:if>
       
     </add>
   </xsl:template>
-  
+
   <xsl:template match="tei:citedRange">
     <field name="concordance_bibliography_item">
       <xsl:variable name="filename" select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']"/>
@@ -171,5 +171,5 @@
       
     </field>
   </xsl:template>
-  
+
 </xsl:stylesheet>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs> on occasion of <foreign rend="italic">telesphoria</foreign></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr104600</idno>
+                <idno type="number" subtype="second-edition">104600</idno>
+                <idno type="TM">738568</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr104600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr104600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr104600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>block</objectType> with on top several holes for accomodation of statues and dowel holes 
+                                        for adjoining another block to the left; the preserved block is broken off at right end of front face and at both ends of lower edge
+                                        (<dimensions>
+                                            <width>0.96</width>
+                                            <height>0.24</height>
+                                            <depth>0.77</depth>
+                                        </dimensions>). If a similar block is lost at left, the whole monumental base would have measured nearly <dimensions><width>2</width></dimensions> metres.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in five columns (of which only c, d, e survive) of two lines each in correspondance with the statues, 
+                                    forming textpart i). Below is texpart ii) in one line running on the whole width.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height> at lines 1-2 of c, e; <height>0.035</height> at lines 1-2 of d; <height>0.03</height> at line 3; finely cut letters, with various spacing so as to
+                            have the same width at both lines of each column; slight serifs, broad eta, slightly smaller omicron, more or less slanting sigma, flattened loop of phi.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0220" notAfter="-0200" precision="medium">End of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1933">
+                                    <p>Found in 1933 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, East of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek Theatre</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960">
+                                    <p>Seen by D. Morelli in 1960 inside the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1983 and again 2001 between  <rs type="monuList" ref="https://www.slsgazetteer.org/1360">Nicodamos' wall</rs> and the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek theatre</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="2010" resp="ER">
+                            <p>Seen by E. Rosamilia in 2010 at the same place.</p>
+                        </provenance>
+                                    
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">checked</change>
+            <change when="2017-01-27" who="CDL">overall check; tagged w and lemma</change>
+            <change when="2013-12-11" who="cdl">lemma, text, apparatus, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77432/3/igcyr104600-1-face.tiff.jpg" corresp="igcyr104600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77432">Face of igcyr104600 Tithe and telesphoria</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77433/3/igcyr104600-2-drawing.tiff.jpg" corresp="igcyr104600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77433">Drawing of igcyr104600 Tithe and telesphoria</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>252</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>104600</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>196-197</citedRange> (typology), pp. <citedRange>375-376</citedRange>, number 103 (text)</bibl>.</p>
+            <p>Cf. <bibl><ptr target="#cdl-maffre2018"/></bibl>, whence 
+            <bibl><ptr target="#SEG"/> <citedRange>68.1746</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="section" n="i">
+                    <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="2"/><persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                    <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name><supplied reason="lost" cert="low">Χαριείδης</supplied></name>
+                        <lb n="2"/><persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                    <div type="textpart" subtype="column" n="c">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἀριστοξήνα"><supplied reason="lost" cert="low">Ἀριστοξ</supplied>ήνα</name>
+                        <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Χαριείδης"><supplied reason="lost" cert="low">Χαριείδε</supplied>υς</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="d">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63135"><name nymRef="#Ἀριστοβώλα">Ἀριστοβώλα</name>
+                        <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65626"><name type="patronymic" nymRef="#Στᾶσις">Στάσιος</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="e">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἁγησίδαμος">Ἁγησί<unclear>δ</unclear><supplied reason="lost">αμος</supplied></name>
+                        <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Χαριείδης">Χαριεί<unclear>δ</unclear><supplied reason="lost">ευς</supplied></name></persName></persName>
+                    </ab>
+                </div></div>
+                <div type="textpart" subtype="section" n="ii">
+                    <ab>
+                <lb n="1"/><persName type="attested" key=""><name nymRef="#Χαριείδης"><supplied reason="lost" cert="low"/>Χαριείδης</name> <persName type="attested" key=""><name type="patronymic"><gap reason="lost" atLeast="7" atMost="9" unit="character"/></name></persName></persName> 
+                        <name type="festival" nymRef="#-ια"><gap reason="lost" atLeast="5" atMost="7"/><supplied reason="lost">ια</supplied></name> 
+                        <w lemma="τελεσφορέω"><supplied reason="lost">τελε</supplied>σφορήσας</w> <w lemma="δεκάτα">δε<supplied reason="lost">κάταν</supplied></w> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθηκε</supplied></w>       
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="i.a.1-2"><lem resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/> <lb/><gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#SECir #IGCyr"><note>column not restored</note></rdg>
+                    </app>
+                    <app loc="i.b.1-2"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">Χαριείδης</supplied> <lb/><gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#SECir #IGCyr"><note>column not restored</note></rdg></app>
+                    
+                    <app loc="i.c.1"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">Ἀριστοξ</supplied>ήνα</lem>
+                            <rdg><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ξ</supplied>ήνα</rdg>
+                            <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/>ηνα</rdg>
+                        </app>
+                    <app loc="i.c.2"><lem resp="#IGCyr #rosamilia2023"><supplied reason="lost" cert="low">Χαριείδε</supplied>υς</lem>
+                            <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>υς</rdg>
+                    </app>
+                        <app loc="i.e.2">
+                            <lem resp="#IGCyr #rosamilia2023">Χαριεί<unclear>δ</unclear><supplied reason="lost">ευς</supplied></lem>
+                            <rdg resp="#SECir">Χαριει<choice><unclear>δ</unclear><unclear>λ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="ii"><lem><supplied reason="lost" cert="low">Χαριείδης</supplied> <gap reason="lost" atLeast="7" atMost="9" unit="character"/> <gap reason="lost" atLeast="5" atMost="7"/><supplied reason="lost">ια</supplied></lem>
+                    <rdg resp="#rosamilia2023"><supplied reason="lost" cert="low">Χαριείδης</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Καρνεῖα</supplied></rdg>
+                    <rdg type="alternative" resp="#rosamilia2023"><supplied reason="lost" cert="low">Χαριείδης</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ἀρταμίτια</supplied></rdg>
+                        <rdg resp="#SECir #IGCyr"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Untel, fils d'Un tel</supplied>.</p>
+            <p><supplied reason="lost" cert="low">Kharieidès</supplied> <supplied reason="lost">fils d'Un tel</supplied>.</p>
+            <p><supplied reason="lost" cert="low">Aristo</supplied>xèna fille de <supplied reason="lost">Kharieid</supplied>ès.</p>
+            <p>Aristobôla fille de Stasis.</p>            
+            <p>Hagèsidamos fils de Kharieidès.</p>
+            <p><supplied reason="lost">Kharieidès, fils d'Un tel</supplied>, après avoir accompli la télesphorie <supplied reason="lost">des Karneia/ des Artamitia</supplied>, <supplied reason="lost">a consacré</supplied> 
+                    <supplied reason="subaudible">ce monument</supplied> au titre de la dîme.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so, son of So-and-so</supplied>.</p>
+            <p><supplied reason="lost" cert="low">Charieides</supplied> <supplied reason="lost">son of So-and-so</supplied>.</p>
+             <p><supplied reason="lost" cert="low">Aristo</supplied>xena daughter of <supplied reason="lost">Charieid</supplied>es.</p>
+            <p>Aristobola daughter of Stasis.</p>
+            <p>Hagesidamos daughter of Charieides.</p>            
+            <p><supplied reason="lost" cert="low">Charieides, son of So-and-so</supplied>, after having achieved the <foreign rend="italic">telesphoria</foreign> <supplied reason="lost">of the Karneia/Artamitia</supplied>, <supplied reason="lost">dedicated</supplied> 
+                    <supplied reason="subaudible">this monument</supplied> as a tithe.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale, figlio d'il tale</supplied>.</p>
+            <p><supplied reason="lost" cert="low">Charieides</supplied> <supplied reason="lost">figlio d'il tale</supplied>.</p>
+             <p><supplied reason="lost" cert="low">Aristo</supplied>xena figlia di <supplied reason="lost">Charieid</supplied>es.</p>
+            <p>Aristobola figlia di Stasis.</p>
+            <p>Hagesidamos figlia di Charieides.</p>            
+            <p><supplied reason="lost" cert="low">Charieides, figlio d'il tale</supplied>, dopo aver concluso la <foreign rend="italic">telesphoria</foreign> <supplied reason="lost">delle Karneia/Artamitia</supplied>, <supplied reason="lost">ha dedicato</supplied> 
+                    <supplied reason="subaudible">questo monumento</supplied> come decima.</p>
+         </div><div type="commentary">
+                
+                <p>There is something unclear in Morelli's explanations about the provenance. He writes that the stone was found East of the Greek Theatre and
+                had been brought in 1960 inside the Sanctuary of Apollo. However it stood in 1983 (and still en 2001) East of the Greek theatre in vicinity of 
+                   <ref type="inscription" source="#IGCyr2">IGCyr097900</ref>.</p>
+                <p>The inscription on this base is made of two parts: textpart i) is a series of captions corresponding to the statues standing above and providing their names 
+                    at the nominative; textpart ii) is the dedication formula. Insisting on the lost block at left, <bibl><ptr target="#rosamilia2023"/></bibl> completes the 
+                overview of the monument that was described at <bibl><ptr target="#IGCyr"/></bibl>.</p>
+                <p>The name of the woman at column b) is highlighted by the larger dimension of the letters and its central position. In correspondance with the multiple holes
+    	       on top, it is very plausible that her statue stood in the middle and that smaller statues stood at both sides, the mention at left being cut across the two blocks.
+                Symmetrically, a man's statue whould have stood in the middle of the left block and the statue of another child at far left.</p>
+                <p>The damaged names may be fully or partly restituted: the father's name at column b) is easy to complete as <foreign xml:lang="">Χαριείδης</foreign>
+                    and the ending of the father's name at column a) was probably the same. If so, the mother would have been surrounded by her two children, while her husband
+                    would be the dedicant. For the daughter's name (c) Rosamilia's Aristoxena is very plausible, both for the number of letters and for the relation with the mother's name.
+                The reverse name <foreign xml:lang="grc">Ξεναρίστα</foreign> is known from <ref type="inscription" source="#IGCyr2">IGCyr024200</ref>.</p>
+    	   	<p>Stasis, the father's name of Aristobola, is also well represented in <ref type="inscription" source="#IGCyr2">IGCyr097900</ref> and shows probably some relation between the 
+    	   	    two families. It is a similar base, placed in the vicinity and offering the same use of the nominative case of the persons featured upon it, followed by a full sentence 
+    	   	    mentioning the dedicant. However, only this one is dedicated as a tithe and on behalf of <foreign rend="italic">telesphoria</foreign>. Being somewhat later than the other and somewhat less spectacular, the present base was probably modelled on the former.</p>
+            </div></body>
+    </text>
+</TEI>

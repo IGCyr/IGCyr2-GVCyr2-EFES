@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:id="team_doc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Team</title>
+                <title xml:lang="it">Team</title>
+                <title xml:lang="fr">Équipe</title>
+                <title xml:lang="ar">الفريق</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>...</authority>
+                <idno type="filename">Credits and contacts</idno>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename, as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="text" xml:id="team">
+                <div xml:id="authors">
+        <head> 
+            <seg xml:lang="en">The authors</seg>
+            <seg xml:lang="it">Gli autori</seg>
+            <seg xml:lang="fr">Les auteurs</seg>
+            <seg xml:lang="ar">المؤلفون</seg>
+        </head>
+        <p xml:lang="en"><emph>Catherine Dobias-Lalou</emph>, Professeur émérite of the Université de Bourgogne, member of the French archaeological mission in Libya (Antiquity), studies Greek epigraphy, ancient Greek linguistics, Greek dialectology. Project manager for <title>IGCyr</title> and <title>GVCyr</title> and lead epigraphy researcher, she is in charge of the inscriptions' critical edition for the two corpora: she established lemma, Greek text and apparatus; she wrote the commentary and translated Greek text of inscriptions into French and English; she encoded inscriptions following the EpiDoc standard; she prepared the iconography. She did the same for <title>IGCyr<hi rend="superscript">2</hi></title>-<title>GVCyr<hi rend="superscript">2</hi></title>.</p>
+        <p xml:lang="en"><emph>Alice Bencivenni</emph>, Professoressa associata at Alma Mater Studiorum Università di Bologna, studies Greek epigraphy and Hellenistic institutions. Epigraphy researcher for <title>IGCyr</title> e <title>GVCyr</title> and in charge of the co-ordination with CRR-MM, Università di Bologna, she founded the digital Laboratory Hellas Unibo to curate drafting and editing stages for the publication. For the two corpora she contributed to the inscriptions' critical edition, in particular to the establishment of Greek text and commentary; she translated Greek text of inscriptions into Italian, checking also English translations; she checked digital EpiDoc encoding. She did the same for <title>IGCyr<hi rend="superscript">2</hi></title>-<title>GVCyr<hi rend="superscript">2</hi></title>, being in charge of the co-ordination with AlmaDL, Università di Bologna.</p>
+        <p xml:lang="en"><emph>Hugues Berthelot</emph>, Maître de conférences at Université d’Angers, member of U.M.R. 8167 Orient et Méditerranée and of the French archaeological mission in Libya (Antiquity), studies Greek epigraphy, Greek Cyrene, Greek colonial world. Epigraphy researcher for <title>IGCyr</title>, he contributed to the inscriptions' critical editions, in particular to the establishment of Greek text and apparatus; he took part into digital EpiDoc encoding.</p>
+        <p xml:lang="en"><emph>Simona Antolini</emph>, Professoressa associata of Roman history at Università di Macerata, studies municipal Latin epigraphy, rock-cut epigraphy, Greek and Latin epigraphy of Cyrenaica. Epigraphy researcher for <title>IGCyr</title>, she contributed to iconography.</p>
+        <p xml:lang="en"><emph>Silvia M. Marengo</emph>, Professoressa ordinaria of Roman History at Università di Macerata, studies Greek and Latin epigraphy of Cyrenaica (she is author of a <title>Lessico delle iscrizioni greche della Cirenaica</title>) and Roman history of Marche. Epigraphy researcher for <title>IGCyr</title>, she contributed to iconography.</p>
+        <p xml:lang="en"><emph>Emilio Rosamilia</emph>, Ricercatore at Università degli Studi di Perugia, member of the Italian archaeological mission at Cyrene - Università di Urbino, studies Greek history and epigraphy, especially of classical and hellenistic Cyrene. As an epigraphy researcher, he contributed to <title>IGCyr<hi rend="superscript">2</hi></title> on a much larger scale than for <title>IGCyr</title> through his published and unpublished research with critical edition, historical interpretation and iconography.</p>
+        <p xml:lang="en"><emph>Joyce M. Reynolds</emph> †, Honorary Fellow of Newnham College, Cambridge, Fellow of the British Academy, studied Greek and Latin epigraphy of Aphrodisias, Tripolitania and Cyrenaica. For <title>GVCyr</title> she provided her epigraphic archives.</p>
+        <p xml:lang="en"><emph>Charlotte Roueché</emph>, Emeritus Professor in Digital Hellenic Studies, King's College, London, studies prosopography of the Byzantine world and Byzantine and Arabic medicine and edits on-line epigraphic corpora and gazetteers. Head of the project <title>Inscriptions of Roman Cyrenaica</title> and coordinator of the portal <title>Inscriptions of Libya</title>, she studied for <title>GVCyr</title> the epigraphic archives of J.M. Reynolds and shared the iconographic and topographic resources of the London team.</p>
+        
+        
+        <p xml:lang="it"><emph>Catherine Dobias-Lalou</emph>, Professeur émérite all'Université de Bourgogne, membro della missione archeologica francese in Libia (Antichità), si occupa di epigrafia greca, linguistica del greco antico, dialettologia greca. Capo progetto per <title>IGCyr</title> e <title>GVCyr</title> ed epigrafista principale, è responsabile per i due corpora dell'edizione critica delle iscrizioni: ha fissato il lemma, la lettura del testo greco e l'apparato critico; ha redatto il commento e le traduzioni in francese e in inglese dei testi delle iscrizioni; ha effettuato la marcatura digitale in EpiDoc; ha preparato l'iconografia delle epigrafi. Ha svolto il medesimo lavoro per <title>IGCyr<hi rend="superscript">2</hi></title>-<title>GVCyr<hi rend="superscript">2</hi></title>.</p>
+        <p xml:lang="it"><emph>Alice Bencivenni</emph>, Professoressa associata presso l’Alma Mater Studiorum Università di Bologna, si occupa di epigrafia greca e di istituzioni dell'età ellenistica. Epigrafista per <title>IGCyr</title> e <title>GVCyr</title> e responsabile del coordinamento con il CRR-MM dell'Università di Bologna, ha istituito il Laboratorio digitale Hellas Unibo per seguire tutte le fasi di redazione e di pubblicazione, ha collaborato per i due corpora all'edizione critica delle iscrizioni, contribuendo alla lettura del testo greco e al commento; ha redatto le traduzioni in italiano dei testi delle iscrizioni, revisionando quelle in inglese; ha verificato la marcatura digitale in EpiDoc. Ha svolto il medesimo lavoro per <title>IGCyr<hi rend="superscript">2</hi></title>-<title>GVCyr<hi rend="superscript">2</hi></title>, essendo responsabile del coordinamento con AlmaDL, Università di Bologna.</p>
+<p xml:lang="it"><emph>Hugues Berthelot</emph>, Maître de conférences à l’Université d’Angers, membro dell'U.M.R. 8167 Orient et Méditerranée e della Missione archeologica francese in Libia (Antichità), si occupa di epigrafia greca, di Cirene greca, del mondo greco coloniale. Epigrafista per <title>IGCyr</title>, ha collaborato all'edizione critica delle iscrizioni, contribuendo alla lettura del testo greco e all'apparato critico; ha preso parte alla marcatura digitale in EpiDoc.</p>
+        <p xml:lang="it"><emph>Simona Antolini</emph>, Professoressa associata di Storia romana all'Università di Macerata, si occupa di epigrafia latina dell'ambito municipale, di epigrafia rupestre e di epigrafia greca e latina della Cirenaica. Epigrafista per <title>IGCyr</title>, ha collaborato alle ricerche iconografiche.</p>
+        <p xml:lang="it"><emph>Silvia M. Marengo</emph>, Professoressa ordinaria di Storia romana all'Università di Macerata, si occupa di epigrafia greca e latina della Cirenaica (è autrice del Lessico delle iscrizioni greche della Cirenaica) e di storia romana delle Marche. Epigrafista per <title>IGCyr</title>, ha collaborato alle ricerche iconografiche.</p>
+        <p xml:lang="it"><emph>Emilio Rosamilia</emph>, Ricercatore all’Università degli Studi di Perugia, membro della Missione Archeologica Italiana a Cirene - Università di Urbino, si occupa di storia ed epigrafia greca, in particolare di Cirene classica ed ellenistica. Come epigrafista, ha contribuito a <title>IGCyr<hi rend="superscript">2</hi></title> più ampiamente che a <title>IGCyr</title>, a partire dalle sue ricerche pubblicate e inedite,  all'edizione critica delle iscrizioni, all’interpretazione storica e all’iconografia.</p>
+        <p xml:lang="it"><emph>Joyce M. Reynolds</emph> †, Honorary Fellow del Newnham College, Cambridge, Fellow della British Academy, si occupa di epigrafia greca e latina di Afrodisia, Tripolitania e Cirenaica. Per <title>GVCyr</title> ha messo a disposizione i suoi archivi epigrafici.</p>
+        <p xml:lang="it"><emph>Charlotte Roueché</emph>, Emeritus Professor in Digital Hellenic Studies, King's College, London, si occupa di prosopografia del mondo bizantino, di medicina bizantina e araba, della pubblicazione on-line di corpora e gazetteers epigrafici. Capo progetto per Inscriptions of Roman Cyrenaica e coordinatore del portale Inscriptions of Libya, per <title>GVCyr</title> ha studiato gli archivi epigrafici di J.M. Reynolds e ha condiviso le risorse iconografiche e topografiche del gruppo di ricerca di Londra.</p>
+        
+        
+        <p xml:lang="fr"><emph>Catherine Dobias-Lalou</emph>, Professeur émérite à l'Université de Bourgogne, membre de la Mission archéologique française en Libye pour l'Antiquité, consacre ses recherches à l'épigraphie grecque, la linguistique du grec ancien et la dialectologie grecque. Chef de projet pour <title>IGCyr</title> et <title>GVCyr</title> et épigraphiste principale, elle est responsable de l'édition critique des inscriptions des deux corpus : elle a établi le lemme, le texte et l'apparat critique; elle a rédigé le commentaire et traduit en français et en anglais les textes des inscriptions ; elle a effectué l'encodage informatique des inscriptions dans le système EpiDoc; elle a préparé l'iconographie. Elle a effectué le même travail pour <title>IGCyr<hi rend="superscript">2</hi></title>-<title>GVCyr<hi rend="superscript">2</hi></title>.</p>
+        <p xml:lang="fr"><emph>Alice Bencivenni</emph>, Professoressa associata à l'Alma Mater Studiorum Università di Bologna, consacre ses recherches à l'épigraphie grecque et aux institutions de la période hellénistique. Épigraphiste pour <title>IGCyr</title> et <title>GVCyr</title> et responsable de la coordination avec le CRR-MM de l'Université de Bologna, elle a créé le Laboratorio digitale Hellas Unibo pour accompagner toutes les phases de rédaction et de publication, a collaboré pour les deux corpus à l'édition critique des inscriptions, en contribuant à la lecture du texte grec et au commentaire ; elle a rédigé les traductions italiennes des textes, tout en révisant les traductions anglaises ; elle a contrôlé la codification Epidoc. Elle a effectué le même travail pour <title>IGCyr<hi rend="superscript">2</hi></title>-<title>GVCyr<hi rend="superscript">2</hi></title>, en étant responsable de la coordination avec AlmaDL, Università di Bologna.</p>
+        <p xml:lang="fr"><emph>Hugues Berthelot</emph>, Maître de conférences à l’Université d’Angers, membre de l'U.M.R. 8167 Orient et Méditerranée et de la Mission archéologique française en Libye pour l'Antiquité, consacre ses recherches à l'épigraphie grecque, à Cyrène grecque et au monde colonial. Épigraphiste pour <title>IGCyr</title>, il a collaboré à l'édition critique des inscriptions, en contribuant à l'établissement du texte grec et à l'apparat critique; il a participé à la codification Epidoc.</p>
+        <p xml:lang="fr"><emph>Simona Antolini</emph>, Professoressa associata d'histoire romaine à l'Università de Macerata, consacre ses recherches à l'épigraphie latine de la sphère municipale, à l'épigraphie rupestre et à l'épigraphie grecque et latine de la Cyrénaïque. Épigraphiste pour <title>IGCyr</title>, elle a collaboré aux recherches iconographiques.</p>
+        <p xml:lang="fr"><emph>Silvia M. Marengo</emph>, Professoressa ordinaria d'histoire romaine à l'Università de Macerata, consacre ses recherches à l'épigraphie grecque et latine de la Cyrénaïque (elle est l'auteur d'un Lessico delle iscrizioni greche della Cirenaica) et à l'histoire romaine des Marches. Épigraphiste pour <title>IGCyr</title>, elle a collaboré aux recherches iconographiques.</p>
+        <p xml:lang="fr"><emph>Emilio Rosamilia</emph>, Ricercatore à l’Università degli Studi de Pérouse, membre de la Missione Archeologica Italiana a Cirene - Università di Urbino, consacre ses recherches à l'histoire et à l'épigraphie grecque, en particulier à Cyrène classique et hellénistique. Comme épigraphiste, il a contribué à <title>IGCyr<hi rend="superscript">2</hi></title> beaucoup plus largement qu’à <title>IGCyr</title>, à partir de ses recherches publiées et inédites, à l’édition critique, l’interprétation historique et l’iconographie.</p>
+        <p xml:lang="fr"><emph>Joyce M. Reynolds</emph> †, Honorary Fellow du Newnham College, Cambridge, Fellow de la British Academy, a consacré ses recherches à l'épigraphie grecque et latine d'Aphrodisias, de Tripolitaine et de Cyrénaïque. Pour <title>GVCyr</title> elle a libéralement fourni ses archives épigraphiques.</p>
+        <p xml:lang="fr"><emph>Charlotte Roueché</emph>, Emeritus Professor en Digital Hellenic Studies au King's College de Londres, consacre ses recherches à la prosopographie du monde byzantin, à la médecine byzantine et arabe et à la publication en ligne de corpus et de répertoires épigraphiques. Responsable du projet Inscriptions of Roman Cyrenaica et de la coordination du portail Inscriptions of Libya, elle a dépouillé pour <title>GVCyr</title> les archives épigraphiques de J.M. Reynolds et a partagé les ressources iconographiques et topographiques de l'équipe londonienne.</p>
+        
+        
+        <p xml:lang="ar">كاثرين دوبياس لالو <emph>Catherine Dobias-Lalou</emph> أستاذة فخرية بجامعة بورغون Université de Bourgogne وعضوة البعثة الأثرية الفرنسية في ليبيا (العصور القديمة)، تدرس النقوش الإغريقية واللسانيات واللهجة الإغريقية القديمة. مديرة مشروع IGCyr وGVCyr وباحثة رئيسية في علم النقوش، وهي مسؤولة عن الطبعة النقدية للنقوش للمجموعتين: أسست lemma، النص الإغريقي والتحليل؛ كتبت التعليق وترجمت النص الإغريقي للنقوش إلى الفرنسية والإنجليزية؛ قامت بتشفير النقوش باتباع معيار EpiDoc؛ وتولت الإعداد الأيقوني.</p>
+       <p xml:lang="ar"> وقامت بنفس العمل للنسخة الثانية من مشروع IGCyr2-GVCyr2</p>
+                    
+                    <p xml:lang="ar">أليس بينسيفيني <emph>Alice Bencivenni</emph> أستـاذة المساعدة في جـامعة ألـما مـاتر سـتوديوروم دي بـولـونيا Alma Mater Studiorum Università di Bologna تدرس النقوش الإغريقية والمؤسسات الهلنستية، وباحثة في علم النقوش في IGCyr  و  GVCyr والمسؤولة عن التنسيق مع CRR-MM، جامعة بولونيا، أسست المختبر الرقمي Hellas Unibo لتنظيم مراحل الصياغة والتحرير للنشر. بالنسبة للمجموعتين، ساهمت في الطبعة النقدية للنقوش، ولا سيما في إنشاء النص والتعليق الإغريقي؛ وقامت بترجمة نص النقوش الإغؤيقية إلى الإيطالية، والتحقق أيضًا من الترجمات الإنجليزية؛ وفحصت ترميز EpiDoc الرقمي.</p>
+        <p xml:lang="ar">
+ وقامت بنفس العمل للنسخة الثانية من مشروع (IGCyr2-GVCyr2) بصفتها مسؤولة عن التنسيق مع مكتبة ألما الرقمية AlmaDL, Università di Bologna بجامعة بولونيا  
+</p>
+                    <p xml:lang="ar">هوغ بيرثيلوت <emph>Hugues Berthelot</emph> ، أستاذ بجامعة أنجيه Université d’Angers ، وعضو U.M.R. 8167 المشرق والبحر الأبيض المتوسط والبعثة الأثرية الفرنسية في ليبيا (العصور القديمة)، يدرس النقوش الإغريقية، الكيرينية الإغريقية، العالم الاستعماري الإغريقي. باحث في علم النقوش في IGCyr، وقد أسهم في الإصدارات النقدية للنقوش، ولا سيما في إنشاء النص والتحليلات الإغريقية؛ شارك في تشفير EpiDoc الرقمي.</p>
+        <p xml:lang="ar">سيمونا أنتوليني <emph>Simona Antolini</emph> ، أستاذة مشاركة في التاريخ الروماني في جامعة ماشيراتا Università di Macerata، تدرس النقوش اللاتينية المحلية، والنقوش الصخرية، والإغريقية واللاتينية في كيرينايكي. باحثة في علم النقوش في IGCyr، وأسهمت في وضع الأيقونات.</p>
+        <p xml:lang="ar">سيـلفيــا م. مـارينجو <emph>Silvia M. Marengo</emph> ، أسـتـاذة التـاريخ الـروماني في جـامـعة مـاشـيراتا Università di Macerata، تدرس النقوش الإغريقية واللاتينية في كيرينايكي (وهي مؤلفة معجم النقوش الإغريقية في كيرينايكي) والتاريخ الروماني في ماركي Marche. باحثة في علم النقوش في IGCyr، وأسهمت في وضع الأيقونات.</p>
+        <p xml:lang="ar">إميليو روزاميليا <emph>Emilio Rosamilia</emph>، باحث في جامعة ديجلي ستودي دي بيروجيا Università degli Studi di Perugia وعضو البعثة الأثرية الإيطالية في قورينا - جامعة أوربينو Università di Urbino، يدرس التاريخ الإغريقي والنقوش، وخاصة الكيرينايكية الكلاسيكية والهيلينستية، وقد ساهم بصفته باحثًا في علم النقوش في IGCyr² على نطاق أكبر من IGCyr من خلال أبحاثه المنشورة وغير المنشورة مع الإصدارات النقدية والتفسير التاريخي والأيقونات.</p>
+        <p xml:lang="ar">جويس م. رينولدز <emph>Joyce M. Reynolds</emph> †، زميلة فخرية في كلية نيونهام Newnham College، كامبريدج، وزميلة الأكاديمية البريطانية، درست النقوش الإغريقية واللاتينية من أفروديسياس، وإقليم طرابلس وكيرينايكي. بالنسبة إلى GVCyr قدمت أرشيفاتها المتعلقة بالنقوش.</p>
+        <p xml:lang="ar">شارلوت روشيه <emph>Charlotte Roueché</emph>، أستاذة فخرية في الدراسات الهيلينية الرقمية، كلية كينجز، لندن،    Digital Hellenic Studies, King's College تدرس علم تقويم العالم البيزنطي والطب البيزنطي والعربي وتقوم بتحرير نصوص النقوش والمعاجم الجغرافية على الإنترنت. رئيسة مشروع نقوش كيرينايكي الرومانية ومنسقة بوابة نقوش ليبيا، درست لصالح GVCyr أراشيف النقوش لجويس رينولدز وشاركت الموارد الأيقونية والطبوغرافية لفريق لندن.</p>
+    </div>
+                
+                <div>
+                    <head>InsLib</head>
+                    <div>
+                        <head type="subheading">
+                            <seg xml:lang="en">Principal researchers</seg>
+                            <seg xml:lang="it">Responsabili scientifici</seg>
+                            <seg xml:lang="fr">Responsables scientifiques</seg>
+                            <seg xml:lang="ar">الباحثون الرئيسيون</seg>
+                            </head>
+                        <list>
+                        <item><emph><ref target="mailto:charlotte.roueche@kcl.ac.uk">Charlotte Roueché</ref></emph> 
+                            <seg xml:lang="en">(King's College London): Project manager</seg>
+                            <seg xml:lang="it">(King's College London): Capo progetto</seg>
+                            <seg xml:lang="fr">(King's College London): Chef de projet</seg>
+                            <seg xml:lang="ar"> شارلوت روشيه (كينجز كوليدج لندن King's College London): مديرة المشروع</seg>
+                        </item>
+                        <item><emph><ref target="mailto:gabriel.bodard@kcl.ac.uk">Gabriel Bodard</ref></emph>
+                            <seg xml:lang="en"> (King's College London): Project manager</seg>
+                            <seg xml:lang="it"> (King's College London): Capo progetto</seg>
+                            <seg xml:lang="fr"> (King's College London): Chef de projet</seg>
+                            <seg xml:lang="ar"> غابرييل بودارد   (كينجز كوليدج لندن King's College London): مدير المشروع</seg>
+                        </item>
+                        <item><emph><ref target="mailto:lucia.criscuolo@unibo.it">Lucia Criscuolo</ref></emph>
+                            <seg xml:lang="en">(Alma Mater Studiorum Università di Bologna): Project manager</seg>
+                            <seg xml:lang="it">(Alma Mater Studiorum Università di Bologna): Capo progetto</seg>
+                            <seg xml:lang="fr">(Alma Mater Studiorum Università di Bologna): Chef de projet</seg>
+                            <seg xml:lang="ar">لوسيا كريسكولو   جامعة بولونيا (Alma Mater Studiorum Università di Bologna):    مديرة المشروع</seg>
+                        </item>
+                        <item><emph><ref target="mailto:catherine.dobias@free.fr">Catherine Dobias-Lalou</ref></emph>
+                            <seg xml:lang="en">(Université de Dijon and French archaeological mission in Libya): Project manager</seg>
+                            <seg xml:lang="it">(Université de Dijon e Missione archeologica francese in Libia): Capo progetto</seg>
+                            <seg xml:lang="fr">(Université de Dijon et Mission archéologique française en Libye): Chef de projet</seg>
+                            <seg xml:lang="ar">كاثرين دوبياس لالو  (جامعة ديجون Université de Dijon والبعثة الأثرية الفرنسية في ليبيا): مديرة المشروع,</seg>
+                        </item>
+                        </list>
+                    </div>
+                </div>
+                
+                <div>
+                    <head>IGCyr<hi rend="superscript">2</hi> | GVCyr<hi rend="superscript">2</hi></head>
+                    <div>
+                        <head type="subheading">
+                            <seg xml:lang="en">Scientific Committee</seg>
+                            <seg xml:lang="it">Comitato scientifico</seg>
+                            <seg xml:lang="fr">Responsables scientifiques</seg>
+                            <seg xml:lang="ar">اللجنة العلمية</seg>
+                        </head>
+                        <list xml:lang="en">
+                            <item><emph>Catherine Dobias-Lalou</emph> (Université de Dijon and French archaeological mission in Libya): Project manager, Lead epigraphy researcher</item>
+                           <item><emph>Hugues Berthelot</emph> (Université d’Angers): Epigraphy researcher</item>
+                           <item><emph>Lucia Criscuolo</emph> (Alma Mater Studiorum Università di Bologna): Project manager</item>
+                           <item><emph><ref target="mailto:alice.bencivenni2@unibo.it">Alice Bencivenni</ref></emph> (Alma Mater Studiorum Università di Bologna): Epigraphy researcher, Co-ordination with CRR-MM, Co-ordination with AlmaDL</item>
+                           <item><emph>Silvia Maria Marengo</emph> (Università di Macerata): Epigraphy researcher</item>
+                           <item><emph>Gianfranco Paci</emph> (Università di Macerata): Epigraphy researcher</item>
+                           <item><emph>Simona Antolini</emph> (Università di Macerata): Epigraphy researcher</item>
+                           <item><emph>Charlotte Roueché</emph> (King's College London): Co-ordination with InsLib</item>
+                           <item><emph>Emilio Rosamilia</emph> (Università degli Studi di Perugia): Epigraphy researcher</item>
+                        </list>
+                        <list xml:lang="it">
+                            <item><emph>Catherine Dobias-Lalou</emph> (Université de Dijon e Missione archeologica francese in Libia): Capo progetto, Epigrafista principale</item>
+                            <item><emph>Hugues Berthelot</emph> (Université d’Angers): Epigrafista</item>
+                            <item><emph>Lucia Criscuolo</emph> (Alma Mater Studiorum Università di Bologna): Capo progetto</item>
+                            <item><emph><ref target="mailto:alice.bencivenni2@unibo.it">Alice Bencivenni</ref></emph> (Alma Mater Studiorum Università di Bologna): Epigrafista, Coordinamento con CRR-MM, Coordinamento con AlmaDL</item>
+                            <item><emph>Silvia Maria Marengo</emph> (Università di Macerata): Epigrafista</item>
+                            <item><emph>Gianfranco Paci</emph> (Università di Macerata): Epigrafista</item>
+                            <item><emph>Simona Antolini</emph> (Università di Macerata): Epigrafista</item>
+                            <item><emph>Charlotte Roueché</emph> (King's College London): Coordinazione con InsLib</item>
+                            <item><emph>Emilio Rosamilia</emph> (Università degli Studi di Perugia): Epigrafista</item>
+                        </list>
+                        <list xml:lang="fr">
+                            <item><emph>Catherine Dobias-Lalou</emph> (Université de Dijon and French archaeological mission in Libya): Chef de projet, épigraphiste principale</item>
+                            <item><emph>Hugues Berthelot</emph> (Université d’Angers): épigraphiste</item>
+                            <item><emph>Lucia Criscuolo</emph> (Alma Mater Studiorum Università di Bologna): Chef de projet</item>
+                            <item><emph><ref target="mailto:alice.bencivenni2@unibo.it">Alice Bencivenni</ref></emph> (Alma Mater Studiorum Università di Bologna): épigraphiste, coordination avec CRR-MM, coordination avec AlmaDL</item>
+                            <item><emph>Silvia Maria Marengo</emph> (Università di Macerata): épigraphiste</item>
+                            <item><emph>Gianfranco Paci</emph> (Università di Macerata): épigraphiste</item>
+                            <item><emph>Simona Antolini</emph> (Università di Macerata): épigraphiste</item>
+                            <item><emph>Charlotte Roueché</emph> (King's College London): coordination avec InsLib</item>
+                            <item><emph>Emilio Rosamilia</emph> (Università degli Studi di Perugia): épigraphiste</item>
+                        </list>
+                        <list xml:lang="ar">
+                            <item> كاثرين دوبياس لالو <emph>Catherine Dobias-Lalou</emph> (جامعة ديجون Université de Dijon والبعثة الأثرية الفرنسية في ليبيا): مديرة المشروع، باحثة رئيسية في علم النقوش.</item>
+                            <item> هوغ بيرثيلوت <emph>Hugues Berthelot</emph> (جامعة أنجيه Université d’Angers): باحث في علم النقوش.</item>
+                            <item>لوسيا كريسكولو <emph>Lucia Criscuolo</emph> جامعة بولونيا (Alma Mater Studiorum Università di Bologna):    مديرة المشروع.</item>
+                            <item>
+أليس بينسيفيني <emph>Alice Bencivenni</emph> جامعة بولونيا (Alma Mater Studiorum Università di Bologna) باحثة في علم النقوش ومنسقة مع CRR-MM ومع مكتبة ألما الرقمية  AlmaDL
+</item>
+                            <item> سيلفيا ماريا مارينجو <emph>Silvia M. Marengo</emph> جامعة ماشيراتا Università di Macerata، باحثة في علم النقوش.</item>
+                            <item>جيانفرانكو باتشي <emph>Gianfranco Paci</emph> جامعة ماشيراتا  Università Macerata، باحثة في علم النقوش. </item>
+                            <item> سيمونا أنتوليني <emph>Simona Antolini Paci</emph> جامعة ماشيراتا  Università Macerata، باحثة في علم النقوش. </item>
+                            <item> شارلوت روشيه <emph>Charlotte Roueché</emph> (كينجز كوليدج لندن King's College London) منسقة مع نقوش ليبيا InsLib .</item>
+                            <item> أميليو روزاميليا <emph>Emilio Rosamilia</emph>  جامعة بيروجيا Università degli Studi di Perugia، باحث في علم النقوش.</item>
+                        </list>
+                    </div>
+                    
+                    <div>
+                        <head type="subheading">
+                            <seg xml:lang="en">Project team</seg>
+                            <seg xml:lang="it">Collaboratori</seg>
+                            <seg xml:lang="fr">Collaborateurs</seg>
+                            <seg xml:lang="ar">فريق المشروع</seg>
+                        </head>                
+                        <list>
+                            <item><emph>Ljuba Merlina Bortolani</emph> 
+                                <seg xml:lang="en">(Universität Heidelberg): Epidoc trainer</seg>
+                                <seg xml:lang="it">(Universität Heidelberg): Epidoc trainer</seg>
+                                <seg xml:lang="fr">(Universität Heidelberg): Moniteur Epidoc</seg>
+                                <seg xml:lang="ar">ليوبا ميرلينا بورتولاني  (جامعة هايدلبرج  Universität Heidelberg)، مدربة إيبيدوك Epidoc. </seg>
+                            </item>
+                        <item><emph>Pietro Maria Liuzzo</emph> 
+                            <seg xml:lang="en">(Bibliotheca Hertziana): XML analyst, EpiDoc trainer, Technical advisor</seg>
+                            <seg xml:lang="it">(Bibliotheca Hertziana): Analista di XML, EpiDoc trainer, Supporto tecnico</seg>
+                            <seg xml:lang="fr">(Bibliotheca Hertziana): Analyste XML, moniteur EpiDoc, support technique</seg>
+                            <seg xml:lang="ar"> بيترو ماريا ليوزو   (مكتبة هيرتزيانا Bibliotheca Hertziana)، محلل لغة XML، ومدرب إيبيدوك EpiDoc، ومستشار.</seg>
+                        </item>
+                        <item><emph>Gabriel Bodard</emph> 
+                            <seg xml:lang="en">(King's College London): EpiDoc co-ordination, EFES</seg>
+                            <seg xml:lang="it">(King's College London): Coordinazione EpiDoc, EFES</seg>
+                            <seg xml:lang="fr">(King's College London): Coordination EpiDoc, EFES</seg>
+                            <seg xml:lang="ar">غابرييل بودارد  (كينجز كوليدج لندن King's College London)، منسق إيبيدوك EpiDoc، EFES.</seg>
+                        </item>
+                        <item><emph>Muna Abdelhamed</emph>
+                            <seg xml:lang="en">(Madani Schools Federation, Leicester): Arabic Translations</seg>
+                            <seg xml:lang="it">(Madani Schools Federation, Leicester): Traduzioni arabe</seg>
+                            <seg xml:lang="fr">(Madani Schools Federation, Leicester): Traductions arabes</seg>
+                            <seg xml:lang="ar">منى عبد الحميد (اتحاد مدارس مدني)، الترجمة العربية.</seg>
+                        </item>
+                         <item><emph>Irene Vagionakis</emph>
+                            <seg xml:lang="en">(Pagina GmbH Publikationstechnologien): XML analyst, EpiDoc trainer, technical advisor, design of EFES interface</seg>
+                            <seg xml:lang="it">(Pagina GmbH Publikationstechnologien): Analista XML, EpiDoc trainer, supporto tecnico, progettazione dell’interfaccia EFES</seg>
+                            <seg xml:lang="fr">(Pagina GmbH Publikationstechnologien): Analyste XML, moniteur EpiDoc, support technique, conception de l’interface EFES</seg>
+                            <seg xml:lang="ar"> إيرين فاجيوناكيس  ، محللة XML، ومدربة إيبيدوك EpiDoc، ومستشارة، وتصميم واجهة EFES.</seg>
+                        </item>
+                        <item><emph>Marta Fogagnolo</emph>
+                            <seg xml:lang="en">(Alma Mater Studiorum Università di Bologna): EpiDoc trainer</seg>
+                            <seg xml:lang="it">(Alma Mater Studiorum Università di Bologna): EpiDoc trainer</seg>
+                            <seg xml:lang="fr">(Alma Mater Studiorum Università di Bologna): Moniteur EpiDoc</seg>
+                            <seg xml:lang="ar"> مارتا فوجانيولو  (جامعة ألما ماتر ستوديوروم في بولونيا Alma Mater Studiorum Università di Bologna)، مدربة إيبيدوك EpiDoc.</seg>
+                        </item>
+                        </list>
+                    </div>
+                </div>
+                
+                
+                
+                <div>
+                    <head>
+                            <seg xml:lang="en">Prosopographia Cyrenaica</seg>
+                            <seg xml:lang="it">Prosopographia Cyrenaica</seg>
+                            <seg xml:lang="fr">Prosopographia Cyrenaica</seg>
+                            <seg xml:lang="ar">برسوبوغرافيا كيرينايكي</seg>
+                    </head>
+                    <div>
+                        <list>
+                            <item><emph>André Laronde †</emph>
+                                <seg xml:lang="en">(Université de Paris-Sorbonne et Mission Archéologique Française en Libye): Lead epigraphy researcher</seg>
+                                <seg xml:lang="it">(Université de Paris-Sorbonne et Mission Archéologique Française en Libye): epigrafista principale</seg>
+                                <seg xml:lang="fr">(Université de Paris-Sorbonne et Mission Archéologique Française en Libye): épigraphiste principal</seg>
+                                <seg xml:lang="ar"> أندريه لاروند  (جامعة باريس السوربون Université de Paris-Sorbonne والبعثة الأثرية الفرنسية في ليبيا)، باحث رئيسي في علم النقوش.</seg>
+                            </item>
+                            <item><emph>François Chevrollier</emph>
+                                <seg xml:lang="en">(Musée du Louvre-Abu Dhabi): Epigraphy researcher</seg>
+                                <seg xml:lang="it">(Musée du Louvre-Abu Dhabi): epigrafista</seg>
+                                <seg xml:lang="fr">(Musée du Louvre-Abu Dhabi): épigraphiste</seg>
+                                <seg xml:lang="ar"> فرانسوا شيفولييه  (متحف اللوفر- أبوظبي Musée du Louvre-Abu Dhabi)، باحث في علم النقوش.</seg>
+                            </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head type="subheading">
+                            <seg xml:lang="en">Participating institutions</seg>
+                            <seg xml:lang="it">Istituzioni</seg>
+                            <seg xml:lang="fr">Institutions</seg>
+                            <seg xml:lang="ar">المؤسسات المشاركة</seg>
+                        </head>
+                        <list>
+                            <item>
+                                <seg xml:lang="en"><emph>Sorbonne-Université Lettres</emph>, Centre de recherche sur la Libye antique</seg>
+                                <seg xml:lang="it"><emph>Sorbonne-Université Lettres</emph>, Centre de recherche sur la Libye antique</seg>
+                                <seg xml:lang="fr"><emph>Sorbonne-Université Lettres</emph>, Centre de recherche sur la Libye antique</seg>
+                                <seg xml:lang="ar"> جامعة السوربون للآداب	<emph>Sorbonne-Université Lettres</emph> ، مركز أبحاث ليبيا القديمة Centre de recherche sur la Libye antique</seg>
+                            </item>
+                            <item>
+                                <seg xml:lang="en"><emph>Alma Mater Studiorum Università di Bologna</emph>, Dipartimento di Storia Culture Civiltà and AlmaDL, Alma Digital Library, Area Patrimonio Culturale</seg>
+                                <seg xml:lang="it"><emph>Alma Mater Studiorum Università di Bologna</emph>, Dipartimento di Storia Culture Civiltà et AlmaDL, Alma Digital Library, Area Patrimonio Culturale</seg>
+                                <seg xml:lang="fr"><emph>Alma Mater Studiorum Università di Bologna</emph>, Dipartimento di Storia Culture Civiltà e AlmaDL, Alma Digital Library, Area Patrimonio Culturale</seg>
+                                <seg xml:lang="ar"><emph>Alma Mater Studiorum</emph> جامعة بولونيا، قسم التاريخ والثقافات والحضارات ومركز موارد CRR-MM لأبحاث الوسائط المتعددة والمكتبات ومنطقة خدمات الدراسات.</seg>
+                           <seg xml:lang="ar">
+<emph>Alma Mater Studiorum Università di Bologna</emph>  جامعة بولونيا، قسم التاريخ والثقافات والحضارات ومكتبة ألما Alma  الرقمية، منطقة التراث الثقافي.
+
+</seg> </item>
+                            <item>
+                                <seg xml:lang="en"><emph>Università di Macerata</emph>, Dipartimento di Studi umanistici</seg>
+                                <seg xml:lang="it"><emph>Università di Macerata</emph>, Dipartimento di Studi umanistici</seg>
+                                <seg xml:lang="fr"><emph>Università di Macerata</emph>, Dipartimento di Studi umanistici</seg>
+                                <seg xml:lang="ar">جامعة ماشيراتا <emph>Università di Macerata</emph> ، قسم الدراسات الإنسانية Dipartimento di Studi umanistici</seg>
+                            </item>
+                            <item>
+                                <seg xml:lang="en"><emph>King's College London</emph>, Centre for Hellenic Studies et Department of Digital Humanities</seg>
+                                <seg xml:lang="it"><emph>King's College London</emph>, Centre for Hellenic Studies et Department of Digital Humanities</seg>
+                                <seg xml:lang="fr"><emph>King's College London</emph>, Centre for Hellenic Studies et Department of Digital Humanities</seg>
+                                <seg xml:lang="ar">كينجز كوليدج لندن <emph>King's College London</emph> ، مركز الدراسات الهيلينية وقسم العلوم الإنسانية الرقمية.</seg>
+                            </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head type="subheading">
+                            <seg xml:lang="en">Website developed and maintained by</seg>
+                            <seg xml:lang="it">Progettazione e realizzazione sito web</seg>
+                            <seg xml:lang="fr">Projet et réalisation du site web</seg>
+                            <seg xml:lang="ar">تم تطوير اموقع الشبكة العنكبوتية وصيانته بواسطة</seg>
+                        </head>
+                        <list>
+                            <item><emph>Irene Vagionakis</emph> 
+                                <seg xml:lang="en">(Pagina GmbH Publikationstechnologien)</seg>
+                                <seg xml:lang="it">(Pagina GmbH Publikationstechnologien)</seg>
+                                <seg xml:lang="fr">(Pagina GmbH Publikationstechnologien)</seg>
+                                <seg xml:lang="ar">إيرين فاجيوناكيس (شركة Pagina GmbH لتقنيات النشر)</seg>
+                            </item>
+                        </list>
+                    </div>
+                </div>
+                
+                <div xml:id="acknowledgements">
+                    <head>
+                        <seg xml:lang="en">Acknowledgements</seg>
+                        <seg xml:lang="it">Ringraziamenti</seg>
+                        <seg xml:lang="fr">Remerciements</seg>
+                        <seg xml:lang="ar">شكر وتقدير</seg>
+                    </head>
+                    <p xml:lang="en">We received moral support and documental resources from the following institutions:</p>
+                    <p xml:lang="it">Abbiamo beneficiato dell'appoggio morale e delle risorse documentarie delle istituzioni seguenti:</p>
+                    <p xml:lang="fr">Nous avons bénéficié de l'appui moral et des ressources documentaires des institutions suivantes:</p>
+                    <p xml:lang="ar">حصلنا على الدعم المعنوي والموارد الوثائقية من المؤسسات التالية:</p>
+                    <list xml:lang="en">
+                        <item>Department of Antiquities, Tripoli, Shahat, Susa, Tolmeita, Tokra, Benghasi (Libya)</item>
+                        <item>Missione Archeologica a Cirene, Università di Urbino (†M. Luni, O. Mei, E. Rosamilia)</item>
+                        <item>Missione archeologica dell'Università di Chieti (O. Menozzi, S. Struffolino)</item>
+                        <item>Università degli Studi di Pisa, Archivio Breccia</item>
+                        <item>Polish archaeological mission at Ptolemais (P. Jaworski, A. Łajtar)</item>
+                        <item>American archaeological mission at Cyrene (D. White †, S. Kane, J. Uhlenbrock)</item>
+                        <item>Society for Libyan Studies, now British Institute for Libyan and Northern African Studies (Ph. Kenrick, V. Leitch)</item>
+                        <item><title>Inscriptiones Graecae</title>, Nachlass Peek, Berlin (Kl. Hallof)</item>
+                        <item>Archives François Chamoux, Paris</item>
+                        <item>Archives André Laronde, Paris</item>
+                        <item>Centre de recherche sur la Libye Antique (Fr. Lefèvre, V. Michel, Fr. Chevrollier, M. Belzic)</item>
+                        <item>Musée du Louvre, Département des Antiquités grecques et romaines</item>
+                        <item>British Museum, London</item>
+                    </list>
+                    <list xml:lang="it">
+                        <item>Department of Antiquities, Tripoli, Shahat, Susa, Tolmeita, Tokra, Benghasi (Libya)</item>
+                        <item>Missione Archeologica a Cirene, Università di Urbino (†M. Luni, O. Mei, E. Rosamilia)</item>
+                        <item>Missione archeologica dell'Università di Chieti (O. Menozzi, S. Struffolino)</item>
+                        <item>Università degli Studi di Pisa, Archivio Breccia</item>
+                        <item>Polish archaeological mission at Ptolemais (P. Jaworski, A. Łajtar)</item>
+                        <item>American archaeological mission at Cyrene (D. White †, S. Kane, J. Uhlenbrock)</item>
+                        <item>Society for Libyan Studies, ora British Institute for Libyan and Northern African Studies (Ph. Kenrick, V. Leitch)</item>
+                        <item><title>Inscriptiones Graecae</title>, Nachlass Peek, Berlin (Kl. Hallof)</item>
+                        <item>Archives François Chamoux, Paris</item>
+                        <item>Archives André Laronde, Paris</item>
+                        <item>Centre de recherche sur la Libye Antique (Fr. Lefèvre, V. Michel, Fr. Chevrollier, M. Belzic)</item>
+                        <item>Musée du Louvre, Département des Antiquités grecques et romaines</item>
+                        <item>British Museum, London</item>
+                    </list>
+                    <list xml:lang="fr">
+                        <item>Department of Antiquities, Tripoli, Shahat, Susa, Tolmeita, Tokra, Benghasi (Libya)</item>
+                        <item>Missione Archeologica a Cirene, Università di Urbino (†M. Luni, O. Mei, E. Rosamilia)</item>
+                        <item>Missione archeologica dell'Università di Chieti (O. Menozzi, S. Struffolino)</item>
+                        <item>Università degli Studi di Pisa, Archivio Breccia</item>
+                        <item>Polish archaeological mission at Ptolemais (P. Jaworski, A. Łajtar)</item>
+                        <item>American archaeological mission at Cyrene (D. White †, S. Kane, J. Uhlenbrock)</item>
+                        <item>Society for Libyan Studies, désormais British Institute for Libyan and Northern African Studies (Ph. Kenrick, V. Leitch)</item>
+                        <item><title>Inscriptiones Graecae</title>, Nachlass Peek, Berlin (Kl. Hallof)</item>
+                        <item>Archives François Chamoux, Paris</item>
+                        <item>Archives André Laronde, Paris</item>
+                        <item>Centre de recherche sur la Libye Antique (Fr. Lefèvre, V. Michel, Fr. Chevrollier, M. Belzic)</item>
+                        <item>Musée du Louvre, Département des Antiquités grecques et romaines</item>
+                        <item>British Museum, London</item>
+                    </list>
+                        <list xml:lang="ar">
+                            <item><p xml:lang="ar">مصلحة الآثار، طرابلس، شحات، سوسة، طلميثة، توكرة، بنغازي (ليبيا).</p></item>
+                            <item><p xml:lang="ar">البعثة الأثرية في كيريني، جامعة أوربينو (M. Luni ماريو لوني† O. Meiأوسكار مي , إميليو روزاميليا Emilio Rosamilia).</p></item>
+                            <item><p xml:lang="ar">البعثة الأثرية لجامعة كييتي ( O. Menozzi أوليفا مينوتزي ، S. Struffolino س. ستروفولينو).</p></item>
+                            <item><p xml:lang="ar">جامعة بيزا Università degli Studi di Pisa، أرشيف بريشيا Breccia.</p></item>
+                            <item><p xml:lang="ar">البعثة الأثرية البولندية في بطلميثة (P. Jaworski، A. Łajtar).</p></item>
+                            <item><p xml:lang="ar">البعثة الأثرية الأمريكية في كيريني (د. وايت †D. White سوزان كين S. Kane ج. أولنبروك J. Uhlenbrock).</p></item>
+                            <item><p xml:lang="ar">جمعية الدراسات الليبية (فيليب كينريك Ph. Kenrick فيكتوريا ليتش V. Leitch).</p></item>
+                            <item><p xml:lang="ar">Inscriptiones Graecae، Nachlass Peek، برلين (Kl. Hallof)</p></item>
+                            <item><p xml:lang="ar"> أرشيف فرانسوا شامو  François Chamoux باريس. </p></item>
+                            <item><p xml:lang="ar"> أرشيف أندريه لاروند  André Laronde باريس.</p></item>
+                            <item><p xml:lang="ar">مركز أبحاث ليبيا القديمة (فر لوفيفر Fr. Lefèvre ف. ميشيل V. Michel فر شيفولييه Fr. Chevrollier م. بلزيتش M. Belzic).</p></item>
+                            <item><p xml:lang="ar">متحف اللوفرMusée du Louvre، قسم الآثار اليونانية والرومانية.</p></item>
+                            <item><p xml:lang="ar">المتحف البريطاني British Museum، لندن.</p></item>
+                        </list>
+                    <p xml:lang="en">Special thanks to the students and PhD students who participated in the Hellas Unibo digital laboratory (2013-2016).</p>
+                    <p xml:lang="it">Un ringraziamento particolare agli studenti e ai dottorandi che hanno partecipato dal 2013 al 2016 al Laboratorio Hellas Unibo.</p>
+                    <p xml:lang="fr">Des remerciements particuliers aux étudiants et doctorants qui ont participé au Laboratorio Hellas Unibo (2013-2016).</p>
+                    <p xml:lang="ar">شكر خاص لطلبة الدكتوراة والطلبة الذين شاركوا في مختبر Hellas Unibo الرقمي (2013-2016).</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

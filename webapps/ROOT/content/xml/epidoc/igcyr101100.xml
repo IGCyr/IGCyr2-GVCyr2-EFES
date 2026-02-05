@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Athena</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr101100</idno>
+                <idno type="number" subtype="second-edition">101100</idno>
+                <idno type="TM">738523</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr101100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr101100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr101100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">3372</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings on top and below on three sides, reddish from earth;
+                                        probably re-used upside down later on, whence a dowel hole in the lower face;  the front face is broken off below
+                                         (<dimensions>
+                                            <width>0.53</width>
+                                            <height>0.30</height>
+                                            <depth>0.32</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in three lines on front face 
+                                    (<dimensions>
+                                        <width>0.49</width>
+                                        <height>0.105</height>
+                                    </dimensions>).
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; no serifs, dotted theta, large circular letters, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" precision="medium">Fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1938" resp="Oliverio">
+                                    <p>Found by G. Oliverio not after 1938 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs> (so-called '<foreign xml:lang="it">Piazzale</foreign>' Oliverio).
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1982" when-iso="1997" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1982 and again 1997 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         
+            <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2013-11-23" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77380/3/igcyr101100-face.tiff.jpg" corresp="igcyr101100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/77380">Face of igcyr101100 Dedication to Athena</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/> <citedRange>XV.54</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>175</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>101100</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#chevrollier2018-2019"/>, p. <citedRange>80</citedRange></bibl>, whence 
+                <bibl><ptr target="#SEG"/> <citedRange>68.1742</citedRange></bibl>; 
+                <bibl><ptr target="#cdl2021"/>, pp. <citedRange>262-263</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64159"><name nymRef="Θεύδωρος">Θεύδωρος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64040"><name type="patronymic" nymRef="Ἡράκλειτος">Ἡρακλείτω</name></persName></persName>
+                    <lb n="3"/><space quantity="1" unit="character"/><persName type="divine" ref="#Athanaia"><name nymRef="Ἀθαναία"><supplied reason="lost">Ἀ</supplied><unclear>θ</unclear>αν<supplied reason="lost">αί</supplied><unclear>αι</unclear></name></persName>
+                         <supplied reason="lost"><space quantity="1" unit="character"/></supplied>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2">
+                        <lem>Ἡρακλείτω</lem>
+                    <rdg resp="#SECir">Ἡρακλείτου</rdg>
+                    </app>
+                    <app loc="3">
+                        <lem><supplied reason="lost">Ἀ</supplied><unclear>θ</unclear>αν<supplied reason="lost">αί</supplied><unclear>αι</unclear></lem>
+                    <rdg resp="#SECir"><unclear>Ἀθ</unclear>αν<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="3a"><note>after line 3, <bibl><ptr target="#SECir"/>, <citedRange>175</citedRange></bibl> has a lost line that is not confirmed by observation of the stone</note></app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Theudôros fils d'Hèrakleitos <supplied reason="subaudible">a consacré ce monument</supplied> à Athèna.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Theudoros son of Herakleitos <supplied reason="subaudible">dedicated this monument</supplied> to Athena.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Theudoros figlio di Herakleitos <supplied reason="subaudible">ha dedicato questo monumento</supplied> ad Atena.</p>
+         </div><div type="commentary">
+                
+                <p>This inscription was known to Pugliese Carratelli only through a drawing of Oliverio's, not provided in the publication.</p>
+                <p>The condition of the stone, observed again in 1997 by C. Dobias-Lalou, was worse than in 1982, so that line 3 is now completely lost. But the photograph 
+                    and squeeze made in 1982 allow a better reading at that line. The name of the dedicant has a dialectal form, as well as the ending of his father's name. 
+                    This would be surprising if he was an Athenian. Moreover, the faint traces of alpha and iota at the end of the line and the space at left before the 
+                    first letter make much more plausible a shorter restoration, namely the name of the goddess Athena: the base was a dedication and was placed where she was worshipped inside Apollo's sanctuary.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr009420</idno>
+                <idno type="number" subtype="second-edition">009420</idno>
+                <idno type="TM">738197</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr009420</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr009420</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr009420</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary <material>marble</material> <objectType>panel</objectType>
+                                        (<dimensions>
+                                            <width/>
+                                            <height>0.10</height>
+                                            <depth>0.025</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: presumably
+                            from the <rs type="monuList" ref="https://www.slsgazetteer.org/1009" cert="low">agora</rs>.</origPlace>
+                            <origDate notBefore="-0300" notAfter="-0271" precision="medium" evidence="lettering context" cert="low" resp="rosamilia">Possibly beginning of the third century BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="1911-03-15">
+                                    <p>Found on March 15th, 1911 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1016">Acropolis</rs>, central room of  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1019">Apse building</rs>, 4.5 m. below surface.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Probably lost.</p>
+                                </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked; Italian translation</change>
+            <change when="2013-11-27" who="HellasLabUnibo">checked and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-15" who="CDL">translations</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2013-01-10" who="CDL">lemma, apparatus, commentary</change>
+            <change when="2012-07-09" who="HB">text edited</change>
+            <change when="2012-06-19" who="Ljuba">added from CATALOGO</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, p. 162, n. <citedRange>12</citedRange></bibl>, and 
+                    <bibl><ptr target="#marengo1991a"/>, pp. <citedRange>490-491, footnote 1</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>41.1690</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>009420</citedRange></bibl>
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>171-174</citedRange> (date, content), p. <citedRange>308</citedRange>, number 50 (text)</bibl>.</p>
+                    <p>For a general bibliography on accounts of damiergoi see at <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.</p>                
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <ab>
+                            <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                            <lb n="1"/><persName type="attested"><name nymRef="#_ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ς</seg></name></persName> 
+                            <g type="punct">:</g>  <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><unclear>Ἀ</unclear><supplied reason="lost">πόλ</supplied><supplied reason="lost">λωνο</supplied>ς</name></persName> <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱαρι<lb n="2" break="no"/>τεύοντος</supplied></w></rs> <g type="punct">:</g> <persName type="attested" key=""><name nymRef="#Ἱαροκλῆς">Ἱαρ<supplied reason="lost" cert="low">οκλεῦς</supplied></name></persName> <gap reason="lost" quantity="8" precision="low" unit="character"/>·
+                            <lb n="3"/><w lemma="καρπός"><supplied reason="lost">Καρποὶ</supplied></w> <w lemma="τιμάω"><unclear>ἐ</unclear>τιμ<supplied reason="lost">άθεν</supplied></w> <supplied reason="lost"> <g type="punct">:</g></supplied> <num type="ordinal" value="1"><w lemma="πρᾶτος"><supplied reason="lost">πράταν</supplied></w></num> <w lemma="ἑξάμηνος"><supplied reason="lost">ἑξά<lb n="4" break="no"/>μηνον</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <w lemma="σπυρός"><supplied reason="lost">σ</supplied><unclear>π</unclear>υρ<supplied reason="lost">οὶ</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <num type="total"><measure type="currency" unit="drachma"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></measure></num> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" quantity="6" precision="low"/>
+                            <lb n="4a"/><gap reason="lost" extent="unknown" unit="line"/>                             
+	              </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1-2"><lem resp="#rosamilia2023">τῶ <unclear>Ἀ</unclear><supplied reason="lost">πόλ</supplied><supplied reason="lost">λωνο</supplied>ς <supplied reason="lost">ἱαρι<lb n="2" break="no"/>τεύοντος</supplied> <g type="punct">:</g> Ἱαρ<supplied reason="lost" cert="low">οκλεῦς</supplied> <gap reason="lost" quantity="8" precision="low" unit="character"/></lem>                        
+                        <rdg resp="#marengo1991a #IGCyr">τῶ <unclear>Ἀ</unclear><supplied reason="lost">πόλ<lb n="2" break="no"/>λωνο</supplied>ς <g type="punct">:</g> ἱαρ<supplied reason="lost">ιτεύοντος</supplied></rdg>
+                        <rdg resp="#robinson1913"><gap reason="lost" extent="unknown" unit="character"/>ς <g type="punct">:</g> τῶ <orig>δ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                    <app loc="3-4"><lem resp="#rosamilia2023"><supplied reason="lost">Καρποὶ</supplied> <unclear>ἐ</unclear>τιμ<supplied reason="lost">άθεν <g type="punct">:</g> πράταν ἑξά<lb n="4" break="no"/>μηνον</supplied></lem>
+                        <rdg resp="#marengo1991a #IGCyr"><supplied reason="lost">Καρπὸς</supplied> <unclear>ἐ</unclear>τιμ<supplied reason="lost">άθη <lb n="4"/> κριθαὶ ἀν</supplied> <gap reason="lost" atLeast="1" atMost="2" unit="character"/>  </rdg> 
+                        <rdg resp="#robinson1913">ἐτίμ<supplied reason="lost">ησεν</supplied></rdg></app>
+                    <app loc="4"><lem resp="#marengo1991a #IGCyr"><supplied reason="lost">σ</supplied><unclear>π</unclear>υρ<supplied reason="lost">οὶ</supplied></lem> 
+                        <rdg resp="#robinson1913">Πυρ<gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                </p>                     
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>, étant prêtre d'Apollon Hiaro<supplied reason="lost" cert="low">klès fils d'Untel</supplied>. <supplied reason="lost">Les récoltes</supplied> ont été estimées. 
+                <supplied reason="lost">Premier semestre</supplied>: <supplied reason="lost">fro</supplied>ment, <supplied reason="lost">la mesure, tant</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>, being priest of Apollo Hiaro<supplied reason="lost">kles son of So-and-so</supplied>. <supplied reason="lost">The crops</supplied> have been estimated. 
+                <supplied reason="lost">First semester</supplied>: <supplied reason="lost">whe</supplied>at, <supplied reason="lost">per unit, so much</supplied>;
+                <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>, essendo sacerdote di Apollo Hiaro<supplied reason="lost">kles figlio d'il tale</supplied>. <supplied reason="lost">I raccolto</supplied> sono stati valutati. 
+                <supplied reason="lost">Primo semestre</supplied>: <supplied reason="lost">gra</supplied>no, <supplied reason="lost">a tanto</supplied>;
+                <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>
+س [---]، بصفته كاهن أبوللو، هيرو[كليوس بن فلان]. [المحاصيل] تم تقديرها كالتالي: [الفصل الأول]: [قم]ح، [قيمة ما للمقدار الواحد؛ [---]</p>
+         </div><div type="commentary">
+                
+                <p>Among the accounts of damiergoi (see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>), this one was the very first to be found. Therefore, Robinson was not 
+                able to interpret this tiny fragment. Marengo rightly stressed the word-parts of ll. 3 and 4 and the characteristical punctuation.</p>
+                <p><bibl><ptr target="#rosamilia2023"/></bibl> proposed a different display of the heading, which entails longer lines, whence the first semester being mentioned and wheat preceding 
+                barley in the list of products. Therefore, he attributes this account to his second group. Although hypothetical because of the very poor documentation, his restoration seems more convincing 
+                than the one presented at <bibl><ptr target="#IGCyr"/></bibl>. He gets thus the name of an eponymous priest,plausibly restored as Hiarokles.</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

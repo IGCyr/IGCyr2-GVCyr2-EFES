@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> and <rs>dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr097900</idno>
+                <idno type="number" subtype="second-edition">097900</idno>
+                <idno type="TM">738496</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr097900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr097900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr097900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Grey <material>marble</material> <objectType>base</objectType> with attachment holes for four statues on top, two larger ones at both ends, 
+                                        two smaller ones in the middle, and also for attachment of other objects
+                                        (<dimensions>
+                                            <width>2.15</width>
+                                            <height>0.435</height>
+                                            <depth>0.61</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in four columns of two lines each and one more line on the full width; in each column, the space between letters
+                                    fluctuates so that both lines have the same length; the four columns are not equally dispatched on the width of the face, 
+                                    but correspond to the placement of the statues, whereas line 9 stretches at equal distance of both ends</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> col. a and d <height>0.03</height>, col. b and c and l. 9 <height>0.025</height>; carefully cut, slightly slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: East of the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek Theatre</rs>, originally placed on top of the  
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1469">Pyramidal Monument looking like a stairway</rs>.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0270" notAfter="-0260" precision="medium" resp="rosamilia">Between ca. 270 and 260 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1932" resp="Oliverio">
+                                    <p>Found in 1932 by G. Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: East of 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek Theatre</rs>.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" when="1960" resp="gpc">
+                            <p>Seen by G. Pugliese Caratelli in 1960 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                'in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>'.</p>
+                        </provenance>        
+                        <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 2001 at the findspot.</p>
+                                </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>Seen by E. Rosamilia in 2012 at the findspot.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-13" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-20" who="CDL">overall check; tagged w + lemma and rs; added Ital. translation</change>
+            <change when="2013-11-03" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>      
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77326/3/igcyr097900-1-drawing.tiff.jpg" corresp="igcyr097900" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="2007"><ref target="http://hdl.handle.net/20.500.14008/77326">Drawing of igcyr097900 Private honours and dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77327/3/igcyr097900-2-face.tiff.jpg" corresp="igcyr097900" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77327">Face of igcyr097900 Private honours and dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>126</citedRange> (ph.)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>097900</citedRange></bibl>
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>103</citedRange> (prosopography, date), , p. <citedRange>368</citedRange>, number 93 (text)</bibl>. 
+                    Cf. <bibl><ptr target="#ensoli2010"/>, p. <citedRange>132</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64671"><name nymRef="#Κλεύθεμις">Κλεύθεμις</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65624"><name type="patronymic" nymRef="#Στᾶσις">Στάσιος</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64670"><name nymRef="Κλεύθεμις">Κλεύθ<supplied reason="undefined" evidence="previouseditor">εμις</supplied></name>
+                    <lb n="4"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65903"><name type="patronymic" nymRef="#Φιλέγγυος">Φιλεγγύω</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="c">
+                    <ab>
+                    <lb n="5"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63498"><name nymRef="#Δάμων">Δάμων</name>
+                    <lb n="6"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66169"><name type="patronymic" nymRef="#Χαρτάδας">Χαρτάδα</name></persName></persName>                
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="d">
+                    <ab>
+                    <lb n="7"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65625"><name nymRef="#Στᾶσις">Στᾶσις</name>
+                    <lb n="8"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64671"><name type="patronymic" nymRef="#Κλεύθεμις">Κλευθέμιος</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="text">
+                    <ab>
+                    <lb n="9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64671"><name nymRef="#Κλεύθεμις">Κλεύθεμις</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65624"><name type="patronymic" nymRef="#Στᾶσις">Στάσιος</name></persName></persName> 
+                        <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύων</w></rs> <w lemma="ἀνατίθημι">ἀνέθηκε</w>.
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="3">
+                        <lem>Κλεύθ<supplied reason="undefined" evidence="previouseditor">εμις</supplied></lem>
+                        <rdg resp="#SECir">Κλεύθεμις <note>the surface has been chipped off since 1932, date of the find and photograph</note></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Kleuthémis fils de Stasis. Kleuthémis fils de Philengyos. Damôn fils de Khartadas. Stasis fils de Kleuthémis.</p>
+            <p>Kleuthémis fils de Stasis a consacré <supplied reason="subaudible">ce monument</supplied> durant sa prêtrise.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Kleuthemis son of Stasis. Kleuthemis son of Philengyos. Damon son of Chartadas. Stasis son of  Kleuthemis.</p>
+            <p>Kleuthemis fils de Stasis dedicated <supplied reason="subaudible">this monument</supplied> while being priest.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Kleuthemis figlio di Stasis. Kleuthemis figlio di Philengyos. Damon figlio di Chartadas. Stasis figlio di Kleuthemis.</p>
+            <p>Kleuthemis figlio di Stasis ha dedicato <supplied reason="subaudible">questo monumento</supplied> quando era sacerdote.</p>
+         </div><div type="commentary">
+                
+                <p>About the monument looking like a stairway, adjacent to East side of the theatre, on which this base stood, see <bibl><ptr target="#ensoli2010"/></bibl>.</p>  
+                <p>The relation between the four names in the four columns is not clear at first sight. The first mentioned was probably the dedicant himself. As he is priest, his adult son 
+                    should be the fourth one, with inverted name and father's name. The central figures being smaller, the second and third persons should be children or young men. Only the second one 
+                    bears the name of the priest, whith a different father's name. The third one offers no relation through his nomenclature. <bibl><ptr target="#rosamilia2023"/></bibl> convincingly suggests 
+                    that they are two grand-sons of the priest, sons of two daughters of his.</p>
+	     <p>For a probable relation with a base near this one, see at <ref type="inscription" source="#IGCyr2">IGCyr104600</ref>.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honorary inscription</rs> for Aristoteles on occasion of the <foreign>telesphoria</foreign></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr016100</idno>
+                <idno type="number" subtype="second-edition">016100</idno>
+                <idno type="TM">5996</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr016100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr016100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr016100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Part of a fine-grained <material>limestone</material> <objectType>exedra</objectType>, broken at right
+                                        (preserved block: arc 0.9; height 0.22; radius 0.54).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the concave front face: arc 0.68; height 0.17.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>; carefully inscribed letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" precision="medium">Third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1926">
+                                    <p>Found in 1926 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, 
+                                        in front of <rs type="monuList" ref="https://www.slsgazetteer.org/1363">Fountain of Philothales</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1983" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1983 at the same place, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">amended obs place</change>    
+            <change when="2023-08-26" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-26" who="Alice">checked</change>
+            <change when="2015-09-04" who="CDL+Alice">changed translations telesphoria</change>
+            <change when="2014-02-01" who="cdl">translations and commentary</change>
+            <change when="2014-01-29" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-01" who="CDL+HB">lemma</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76864/3/igcyr016100-face.tiff.jpg" corresp="igcyr016100" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1926"><ref target="http://hdl.handle.net/20.500.14008/76864">Face of igcyr016100 Honorary inscription for Aristoteles</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1929"/>, p. 153, n. <citedRange>21</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.65</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>016100</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>199</citedRange> (typology)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63178"><name nymRef="#Ἀριστοτέλης">Ἀριστοτέλη</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63177"><name nymRef="#Ἀριστοτέλης" type="patronymic">Ἀριστ<supplied reason="lost" cert="low">οτέλους</supplied></name></persName></persName>
+                    <lb n="2"/><name type="festival" key="Karneia" nymRef="#Καρνεῖα">Καρνεῖα</name> <w lemma="τελεσφορέω">τελεσφορήσα<supplied reason="lost">ντα</supplied></w>                    
+                    <lb n="3"/><persName type="attested"><name nymRef="#_α"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">α</seg></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63270"><name nymRef="#Ἄρχετος" type="patronymic">Ἀρχέτω</name></persName></persName>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr"> 
+            <p><supplied reason="subaudible">La statue d'</supplied> Aristotélès fils d'Arist<supplied reason="lost" cert="low">otélès</supplied>, après qu'il eut accompli la <foreign rend="italic">telesphoria</foreign> des Karneia,
+                <supplied reason="subaudible">a été consacrée par</supplied> <supplied reason="lost">Une-telle</supplied> fille d'Arkhétos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en"> 
+            <p><supplied reason="subaudible">The statue of</supplied> Aristoteles son of Arist<supplied reason="lost" cert="low">oteles</supplied>, after his accomplishing the <foreign rend="italic">telesphoria</foreign> of Karneia,
+                <supplied reason="subaudible">was dedicated by</supplied> <supplied reason="lost">So-and-so</supplied> daughter of Archetos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it"> 
+            <p><supplied reason="subaudible">La statua di</supplied> Aristoteles figlio di Arist<supplied reason="lost" cert="low">oteles</supplied>, dopo che aveva completato la <foreign rend="italic">telesphoria</foreign> delle Karneia,
+                <supplied reason="subaudible">è stata dedicata dalla</supplied> <supplied reason="lost">tale</supplied> figlia di Archetos.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تمثال) أريستوتيليس بن أريست [وتيليس؟]، بعد إتمامه للتيليسفوريا الكارنيا، (أُهدي من قبل) [فلانة] ابنة أرخيتوس.</p>
+            </div>
+            <div type="commentary">
+                
+                <p>In term of space, the incomplete participle at line 2 might also be restored <foreign xml:lang="grc">τελεσφορήσαισα</foreign>, referring to
+                the dedicant. But there is no instance of a priestess celebrating the Karneia.</p>
+	      <p>It is a plausible guess that the dedicant, daughter of Archetos, was the spouse of Aristoteles.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

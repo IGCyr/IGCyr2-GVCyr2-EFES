@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honorary inscription</rs> for Ptolemy IX Soter II, Cleopatra Selene and their son</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr080900</idno>
+                <idno type="number" subtype="second-edition">080900</idno>
+                <idno type="TM">738381</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr080900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr080900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr080900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Large <material>limestone</material> <objectType>block</objectType>, chipped off at all angles but the right lower one;
+                                        three holes for attachment of a statue on top; with two similar blocks missing, one on the right (a) and one on the left (c), 
+                                        this block (b) belonged to a larger monument 
+                                        (reconstructed dimensions of the whole base <dimensions>
+                                            <width precision="medium">2</width>
+                                            <height>0.298</height>
+                                            <depth>0.893</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in five lines on the face of the only preserved block b 
+                                    (<dimensions><width>0.643</width>
+                                    <height>0.298</height>
+                                    <depth>0.893</depth></dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>At l. 1 <height>0.026</height>, at l. 2 <height>0.027</height>, at ll. 4-5 <height>0.029</height>, whereas l. 3 and beginning of l. 4 were 
+                                erased; letters with slight serifs, omicron slightly smaller, non-slanting sigma.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0108" notAfter="-0107" evidence="reign" precision="high">Between the beginning of 108 and the end of 107 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1919">
+                                    <p>Found in 1919 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, behind the rear wall of the cella of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1005">Temple of Zeus on the agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1981" resp="Paci">
+                                    <p>Studied by G. Paci in 1981 at the findspot, behind the <rs type="monuList" ref="https://www.slsgazetteer.org/1005">Temple of Zeus on the agora</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-05" who="Alice">checked</change>
+            <change when="2017-01-07" who="CDL">filled some lacks in text and apparatus; completed commentary</change>            
+            <change when="2016-05-24" who="HellasLabUnibo">checked and in case corrected</change>
+            <change when="2016-05-17" who="HellasLabUnibo">checked and in case corrected</change>
+            <change when="2015-02-10" who="CDL">lemma, bibliography, texte amended, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77169/3/igcyr080900-1-face.tiff.jpg" corresp="igcyr080900" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1919"><ref target="http://hdl.handle.net/20.500.14008/77169">Face of igcyr080900 Honours for Ptolemy IX and family</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77170/3/igcyr080900-2-drawing.tiff.jpg" corresp="igcyr080900" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="1987"><ref target="http://hdl.handle.net/20.500.14008/77170">Drawing of igcyr080900 restored Honours for Ptolemy IX and family</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#paci1989"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>39.1718</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>080900</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#zimmermann1999"/>, p. <citedRange>163</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>49.2504</citedRange></bibl>;
+                    <bibl><ptr target="#savallilestrade2009"/>, pp. <citedRange>144, 156</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>59.1958</citedRange></bibl>.
+                    </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><milestone unit="block" n="a"/><persName type="ruler" key="Ptolemy IX and Cleopatra Selene"><w lemma="βασιλεύς"><supplied reason="lost">Βασιλέα</supplied></w> <persName type="ruler" key="Ptolemy IX"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτολεμαῖον</supplied></name></persName> 
+                        <milestone unit="block" n="b"/><supplied reason="lost">κ</supplied>αὶ <w lemma="βασίλισσα">βασίλισσαν</w> <persName type="ruler" key="Cleopatra Selene"><name nymRef="#Κλεοπάτρα">Κλεοπ<supplied reason="lost">
+                        <milestone unit="block" n="c"/>άτραν</supplied></name> <supplied reason="lost">τὴν</supplied> <w lemma="ἀδελφή"><supplied reason="lost">ἀδελφὴν</supplied></w></persName> <rs type="epithet" key="Theoi Soteres"><w lemma="θεός"><supplied reason="lost">Θε</supplied><lb n="2" break="no"/><milestone unit="block" n="a"/><supplied reason="lost">οὺς</supplied></w> <w lemma="σωτήρ"><supplied reason="lost">Σωτῆρας</supplied></w></rs></persName> <supplied reason="lost">καὶ τὸν</supplied> <w lemma="υἱός"><supplied reason="lost">υἱ</supplied>
+                        <milestone unit="block" n="b"/>ὸν</w> <w lemma="αὐτός">αὐτῶν</w> 
+                    <persName type="ruler" key="Ptolemy son of Ptolemy IX and Cleopatra Selene"><name nymRef="#Πτολεμαῖος">Πτολεμαῖον</name></persName> 
+                        <milestone unit="block" n="c"/><gap reason="lost" quantity="17" unit="character" precision="low"/>
+                    <lb n="3"/><milestone unit="block" n="a"/><gap reason="lost" quantity="17" unit="character" precision="low"/>
+                        <milestone unit="block" n="b"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                        <milestone unit="block" n="c"/><gap reason="lost" quantity="17" unit="character" precision="low"/>
+                    <lb n="4"/><milestone unit="block" n="a"/><gap reason="lost" quantity="4" unit="character" precision="low"/> <supplied reason="lost">τῶν</supplied> 
+                    <w lemma="τόπος"><supplied reason="lost">τόπων</supplied></w> <supplied reason="lost">τῶν</supplied> <w lemma="κατά"><supplied reason="lost">κ</supplied><milestone unit="block" n="b"/><unclear>α</unclear>τὰ</w> <placeName type="country" nymRef="#Λιβύη">Λιβύην</placeName> αἵ τε <w lemma="πόλις"><unclear>π</unclear><milestone unit="block" n="c"/><supplied reason="lost" cert="low">όλεις</supplied></w> <gap reason="lost" quantity="12" unit="character" precision="low"/>
+                    <lb n="5"/><milestone unit="block" n="a"/><gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost"><w lemma="ἀρετή">ἀρετῆς</w> <w lemma="ἕνεκα">ἕνεκ<milestone unit="block" n="b"/>α</w> κ</supplied>αὶ <w lemma="εὐεργεσία">εὐεργεσίας</w> τ<unclear>ῆ</unclear><supplied reason="lost">ς</supplied>
+                        <milestone unit="block" n="c"/><w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w> <w lemma="ἑαυτοῦ"><supplied reason="lost">αὑτοὺς</supplied></w> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθηκαν</supplied></w>.
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="3-4"><lem><milestone unit="block" n="c"/><gap reason="lost" quantity="17" unit="character" precision="low"/><lb/><milestone unit="block" n="a"/><gap reason="lost" quantity="4" unit="character" precision="low"/> <supplied reason="lost">τῶν τόπων τῶν κ</supplied><unclear>α</unclear>τὰ</lem>
+                    <rdg resp="#paci1989"><gap reason="lost" extent="unknown" unit="character"/><lb/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied><unclear>α</unclear>τὰ</rdg>
+                    <rdg resp="#paci1989"><note>perhaps</note> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">στρατηγὸς τῶν τόπων τῶν κ</supplied><unclear>α</unclear>τὰ</rdg>
+                </app>
+                </p>
+                
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> <supplied reason="subaudible">Les statues</supplied> <supplied reason="lost">du roi Ptolémée</supplied>, de la reine
+                Cléopatre <supplied reason="lost"> sa soeur, Dieux Sôtères, et de leur</supplied> fils Ptolémée <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ont été érigées</supplied> <del rend="erasure">par  <gap reason="lost" extent="unknown" unit="character"/>, 
+                fils de <gap reason="lost" extent="unknown" unit="character"/>, exerçant la charge de <gap reason="lost" extent="unknown" unit="character"/></del> <supplied reason="lost" cert="low">dans
+                    les régions</supplied> du côté de la Libye et par les <supplied reason="lost" cert="low">cités</supplied><gap reason="lost" extent="unknown" unit="character"/>                
+                <supplied reason="lost">en raison de leur valeur</supplied> et de la générosité <supplied reason="subaudible">qu'ils
+                    ont montrée</supplied> <supplied reason="lost">à leur égard</supplied>.
+           </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> <supplied reason="subaudible">The statues</supplied> <supplied reason="lost">of king Ptolemy</supplied>, of queen Cleopatra <supplied reason="lost">
+                his sister, Gods Soteres, and of their</supplied> son Ptolemy <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">have been erected</supplied> <del rend="erasure">by <gap reason="lost" extent="unknown" unit="character"/>, 
+                son of <gap reason="lost" extent="unknown" unit="character"/>, holding the office of <gap reason="lost" extent="unknown" unit="character"/></del> <supplied reason="lost" cert="low">in the
+                    places</supplied> throughout Libya and by the <supplied reason="lost" cert="low">cities</supplied><gap reason="lost" extent="unknown" unit="character"/>                
+                <supplied reason="lost">on behalf of their virtue</supplied> and of the kindness <supplied reason="subaudible">they
+                    have shown</supplied> <supplied reason="lost">towards themselves</supplied>.
+           </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> <supplied reason="subaudible">Le statue</supplied> <supplied reason="lost">del re Tolemeo</supplied>, della regina
+                Cleopatra <supplied reason="lost">sua sorella, Dèi Soteri, e del loro</supplied> figlio Tolemeo <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">sono state erette</supplied> <del rend="erasure">da <gap reason="lost" extent="unknown" unit="character"/>, 
+                figlio di <gap reason="lost" extent="unknown" unit="character"/>, quando ricopriva l'incarico di <gap reason="lost" extent="unknown" unit="character"/></del> <supplied reason="lost" cert="low">nelle regioni</supplied> 
+                della Libia e dalle <supplied reason="lost" cert="low">città</supplied><gap reason="lost" extent="unknown" unit="character"/>                
+                <supplied reason="lost">in considerazione della virtù</supplied> e della generosità <supplied reason="subaudible">che
+                    hanno mostrato</supplied> <supplied reason="lost">verso di essi</supplied>.
+           </p>
+            </div><div type="commentary">
+                
+                <p>Paci, having discussed the three occasions when a king Ptolemy and a queen Cleopatra with a son Ptolemy might have been mentioned as rulers of Cyrenaica, 
+                    was able to choose the last one, during a short period of Ptolemy IX Soter II's reign. For a similar titulature, see at <ref type="inscription" source="#IGCyr2">IGCyr011100</ref>.</p>                    
+                <p>The erasure of the whole line 3 and of the beginning of line 4 shows that the main dedicator was an officer of higher rank at the court, who was no longer <foreign rend="italic">persona 
+                    grata</foreign> after the end of the reign. The idea that the erasure was due to the man who was replaced by Stolos son of Theon (see <ref type="inscription" source="#IGCyr2">IGCyr016900</ref> and 
+                    <ref type="inscription" source="#IGCyr2">IGCyr102500</ref>) or even to Stolos himself if he changed obedience after the king's flight has been presented as mere possibilities 
+                    among others by Paci. Savalli-Lestrade is less cautious on that point.</p>
+    	    <p>About the administration of a region called <foreign xml:lang="grc">τῶν κατὰ Λιβύην τόπων</foreign>, see also <ref type="inscription" source="#IGCyr2">IGCyr033900</ref>. If really parallel,
+    	    the missing office would be <foreign xml:lang="grc">στρατηγός</foreign>. However, this word would be divided in two parts by the line-break, whereas the 
+    	        layout of the rest seems to be very carefully organised. Another office is not excluded.</p>
+            </div></body>
+    </text>
+</TEI>

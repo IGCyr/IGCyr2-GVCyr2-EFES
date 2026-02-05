@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr095300</idno>
+                <idno type="number" subtype="second-edition">095300</idno>
+                <idno type="TM">738462</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr095300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr095300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr095300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Right upper part of a small <material>marble</material> <objectType>base</objectType> broken off at left and below, formerly supporting an ex-voto
+                                        (<dimensions>
+                                            <width>0.30</width>
+                                            <height>0.11</height>
+                                            <depth>0.29</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.25</height>; slight serifs, small omicron, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" precision="medium" notBefore="-0220" notAfter="-0170">End of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935">
+                                    <p>Found before 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                       exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Seems to be lost since 1960 at the latest.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-21" who="Alice">chaecked</change>
+            <change when="2017-01-16" who="CDL">completed commentary; added ital. translation</change>
+            <change when="2013-10-08" who="cdl">lemma, text, apparatus, Fr. and engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+         </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77286/3/igcyr095300-face.tiff.jpg" corresp="igcyr095300" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77286">Face of igcyr095300 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>XI.10</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>32</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>095300</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>106</citedRange></bibl></p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <persName type="attested" key=""><name nymRef="#_φανης"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">φ</supplied><unclear>ά</unclear>νευς</seg></name></persName>
+                    <lb n="2"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱαριτεύ</supplied>ων</w></rs> <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName>
+                    <lb n="3"/><w lemma="ἀνατίθημι"><supplied reason="lost">ἀν</supplied><unclear>έθηκε</unclear></w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φ</supplied><unclear>ά</unclear>νευς</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ώνευς</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">    
+            <p><supplied reason="subaudible">Un tel fils de</supplied> <gap reason="lost" extent="unknown" unit="character"/>phanès a consacré 
+                <supplied reason="subaudible">ce monument</supplied> à Apollon pendant sa prêtrise.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">    
+            <p><supplied reason="subaudible">So-and-so son of</supplied> <gap reason="lost" extent="unknown" unit="character"/>phanes dedicated
+                <supplied reason="subaudible">this monument</supplied> to Apollo while being priest.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Un tale figlio di</supplied> <gap reason="lost" extent="unknown" unit="character"/>phanes ha dedicato
+                <supplied reason="subaudible">questo monumento</supplied> ad Apollo quando era sacerdote.</p>
+         </div><div type="commentary">
+                
+                <p>The stone is known only from a photograph and transcription in Oliverio's papers; judging from the photograph, the remains of epsilon and omega at l. 1
+                were so little that an alpha is also possible for the latter, while the former is invisible.</p>
+                <p>There seems to exist no name ending in <foreign xml:lang="grc">-εώνης</foreign> or <foreign xml:lang="grc">-ώνης</foreign>, whereas a compound in 
+                    <foreign xml:lang="grc">-φάνης</foreign> is quite common and more plausible, among which <foreign xml:lang="grc">Ἀντιφάνης</foreign> and 
+                    <foreign xml:lang="grc">Ἀριστοφάνης</foreign> are known in Cyrenaica.</p>	
+	           <p>Oliverio's assertion that the block originally supported an ex-voto is probably related to some vestige of attachment on the upper face, which 
+	               it is no longer possible to check.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
-      xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-  <menu label="Inscriptions" match="local-epidoc-index-display"
-        i18n:key="menu-inscriptions" />
-  <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
-    <item label="Abbreviations" match="local-index-display-html" params="epidoc abbreviation" i18n:key="menu-index-abbreviation"/>
-    <item label="Fragments" match="local-index-display-html" params="epidoc fragment" i18n:key="menu-index-fragment"/>
-    <item label="Lemmata" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-lemma"/>
-    <item label="Numerals" match="local-index-display-html" params="epidoc numeral" i18n:key="menu-index-numeral"/>
-    <item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>
-     <item label="Persons" match="local-index-display-html" params="epidoc persons" i18n:key="menu-index-persons"/> 
-    <item label="Divinities" match="local-index-display-html" params="epidoc divine" i18n:key="menu-index-divinities"/>
-    <item label="Places" match="local-index-display-html" params="epidoc mentioned_places" i18n:key="menu-index-mentioned_places"/>
-     <item label="Institutions" match="local-index-display-html" params="epidoc institutions" i18n:key="menu-index-institutions"/> 
-    <item label="Symbols" match="local-index-display-html" params="epidoc symbol" i18n:key="menu-index-symbol"/>
-    <item label="Words" match="local-index-display-html" params="epidoc word" i18n:key="menu-index-word"/>
+  xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+
+  <menu label="Home"  i18n:key="home" match="local-home-page">
+    <item label="About" i18n:key="menu-about" match="local-tei-display-html" params="about"/>
+    <item label="Preface" i18n:key="menu-preface" match="local-tei-display-html" params="preface"/>
+    <item label="Team" i18n:key="menu-team" match="local-tei-display-html" params="team"/>
   </menu>
-  <menu label="Bibliographic concordances" i18n:key="menu-concordance-bibliography" match="local-concordance-bibliography"/>
-  <menu label="Search" match="local-search" i18n:key="menu-search" />
-  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
+  <menu label="Inscriptions" match="local-epidoc-index-display" i18n:key="menu-inscriptions" />
+  <menu i18n:key="menu-search" label="Search" match="local-search" />
+  <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices-epidoc">
+    <item label="Words" match="local-index-display-html" params="epidoc lemma" i18n:key="menu-index-word"/>
+    <menu label="Names" match="local-indices-type-display" params="epidoc" i18n:key="menu-index-names">
+      <item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>
+      <item label="People" match="local-index-display-html" params="epidoc persons" i18n:key="menu-index-persons"/>
+      <item label="Names and epithets of rulers" match="local-index-display-html" params="epidoc rulers" i18n:key="menu-index-rulers"/> 
+      <!--<item label="Emperors and Imperial family" match="local-index-display-html" params="epidoc emperors" i18n:key="menu-index-emperors"/>-->
+      <item label="Names and epithets of divine" match="local-index-display-html" params="epidoc divine" i18n:key="menu-index-divinities"/>
+      <item label="Place names and ethnics" match="local-index-display-html" params="epidoc mentioned_places" i18n:key="menu-index-places"/>
+      <item label="Findspots" match="local-index-display-html" params="epidoc findspot" i18n:key="menu-index-findspots"/>
+      <item label="Months" match="local-index-display-html" params="epidoc months" i18n:key="menu-index-months"/>
+       <item label="Festivals" match="local-index-display-html" params="epidoc festivals" i18n:key="menu-index-festivals"/> 
+    </menu>
+    <menu label="Other characters and features" match="local-indices-type-display" params="epidoc" i18n:key="menu-other">
+      <item label="Numerals" match="local-index-display-html" params="epidoc numeral" i18n:key="menu-index-numeral"/>
+      <item label="Symbols" match="local-index-display-html" params="epidoc symbol" i18n:key="menu-index-symbol"/>
+      <item label="Abbreviations" match="local-index-display-html" params="epidoc abbreviation" i18n:key="menu-index-abbreviation"/>
+      <item label="Offices and aulic titulature" match="local-index-display-html" params="epidoc offices" i18n:key="menu-index-offices"/>
+      <item label="Dates" match="local-index-display-html" params="epidoc dates" i18n:key="menu-index-dates"/>
+      <item label="Measures" match="local-index-display-html" params="epidoc measures" i18n:key="menu-index-measures"/>
+      <item label="Currency - Cyrenean system" match="local-index-display-html" params="epidoc currency" i18n:key="menu-index-currency"/>
+      <item label="Erasures" match="local-index-display-html" params="epidoc erasures" i18n:key="menu-index-erasures"/>
+      <item label="Fragments of text" match="local-index-display-html" params="epidoc fragment" i18n:key="menu-index-fragment"/>
+    </menu>
+    <!--<item label="Age at death" match="local-index-display-html" params="epidoc death" i18n:key="menu-index-death"/>-->
+    <!--<item label="Military terms" match="local-index-display-html" params="epidoc military" i18n:key="menu-index-military"/>-->
+  </menu>
+  <menu label="Maps" i18n:key="menu-maps">
+    <item label="Map" i18n:key="menu-map" match="local-tei-display-html" params="map"/>
+    <item label="Archaeological maps" i18n:key="menu-archaeological_maps" match="local-tei-display-html" params="archaeological_maps"/>
+  </menu>
+  <menu label="Bibliography" i18n:key="menu-bibliography" match="local-concordance-bibliography" params="bibliography"/>
+  <menu label="Language">
+    <item label="it" language="it" match="local-language-home-page"/>
+    <item label="en" language="en" match="local-language-home-page"/>
+    <item label="fr" language="fr" match="local-language-home-page"/>
+    <item label="ar" language="ar" match="local-language-home-page"/>
+  </menu>
+  <!--<menu i18n:key="menu-admin" label="Admin" language="" match="local-admin-home-page" />-->
+  
 </root>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">List of names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr131500</idno>
+                <idno type="number" subtype="second-edition">131500</idno>
+                <idno type="TM">738862</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr131500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr131500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr131500</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">3004</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <material>limestone</material> <objectType>block</objectType>, broken off below and chipped on all edges and especially 
+                                        at right, with the face much damaged by strokes and even circular holes which might appear as circular letters on the images                            
+                                        (<dimensions>
+                                            <width atLeast="0.315">0.315</width>
+                                            <height atLeast="0.13">0.13</height>
+                                            <depth>0.175</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in lines beginning all at the left edge.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.018</height>; regularly cut without serifs; dotted theta, small omicron, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0330" notAfter="-0301" precision="medium">Last third of fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1982">
+                                    <p>Found before 1982 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1982" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1982 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-29" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-05" who="Alice"/>
+            <change when="2017-02-14" who="CDL">overall check</change>
+            <change when="2016-03-19" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77730/3/igcyr131500-squeeze.tiff.jpg" corresp="igcyr131500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/77730">Squeeze of igcyr131500 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>131500</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/> <citedRange>67.1487</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name nymRef="#Πρῶρος"><supplied reason="lost">Πρ</supplied>ῶρος</name> 
+                            <persName type="attested" key=""><name nymRef="#Ἀρ_" type="patronymic"><seg part="I">Ἀρ</seg><gap reason="lost" atMost="7" unit="character"/></name></persName></persName>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_μαχος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">μ</supplied>άχ<supplied reason="lost">ω</supplied></seg></name></persName></persName>                    
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#Ἀμύντας">Ἀ<supplied reason="lost">μ</supplied>ύν<unclear>τ</unclear><supplied reason="lost">ας</supplied></name> 
+                        <persName type="attested"><name type="patronymic"><seg part="F"><gap reason="lost" atLeast="4" atMost="5" unit="character"/>ος</seg></name></persName></persName>
+                    <lb n="4"/><persName type="attested" key=""><name nymRef="#Βαρθυβας">Βαρθυβας</name> <persName type="attested" key=""><name nymRef="#Μελανι_" type="patronymic"><seg part="I">Μελανι</seg><gap reason="lost" atLeast="2" atMost="3" unit="character"/></name></persName></persName>
+                    <lb n="5"/><persName type="attested" key=""><name nymRef="#Πρόλοχος">Πρόλοχο<supplied reason="lost">ς</supplied></name>
+                            <persName type="attested" key=""><name type="patronymic" nymRef="#Ἰάσων"><supplied reason="lost">Ἰά</supplied>σονος</name></persName></persName>                    
+                    <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="4"><lem>Μελανι<gap reason="lost" atLeast="2" atMost="3" unit="character"/></lem>
+                        <rdg>Μελάνι<supplied reason="lost">ος</supplied></rdg>
+                        <rdg><note>or</note> Μελανί<supplied reason="lost">ππω</supplied></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Prôros fils d'Ar<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>makhos, Amyntas fils de <gap reason="lost" extent="unknown" unit="character"/>,
+            Barthybas fils de Mélani<gap reason="lost" extent="unknown" unit="character"/>, Prolokhos fils d'Iasôn, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Proros son of Ar<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>machos, Amyntas son of <gap reason="lost" extent="unknown" unit="character"/>,
+            Barthybas son of Melani<gap reason="lost" extent="unknown" unit="character"/>, Prolochos son of Iason, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Proros figlio di Ar<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>machos, Amyntas figlio di <gap reason="lost" extent="unknown" unit="character"/>,
+            Barthybas figlio di Melani<gap reason="lost" extent="unknown" unit="character"/>, Prolochos figlio di Iason, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+               <p>The present condition of the stone makes the reading extremely difficult. The lettering is very similar to that of the lists of military officers
+               <ref type="inscription" source="#IGCyr2">IGCyr014800</ref> and <ref type="inscription" source="#IGCyr2">IGCyr015100</ref> and of some 
+               accounts of the damiergoi, all dated in the second half of the fourth century BC. The name Barthybas, often considered Jewish, is certainly neither Jewish 
+               nor Greek, but probably Libyan, as it is known up to now only in Cyrenaican contexts (see <bibl><ptr target="#gl-jmr1983"/>, p. <citedRange>20</citedRange></bibl>
+                   commenting on <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.130.html">IRCyr2020 C.130</ref>).</p>
+               <p>The personal name Prolochos is new for Cyrenaica, but not unknown in Greece. The father's name at line 4 might be either the common Melanippos or 
+               the shorter Melanis, hitherto unattested in the region, but perhaps preferable for reasons of space. In fact, we do not know how much of the right 
+               edge is lost.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

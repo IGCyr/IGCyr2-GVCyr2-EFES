@@ -15,35 +15,78 @@
   </kiln:parent>
 
   <kiln:child>
+    
     <kiln:block name="title">
       <kiln:super />
-      <i18n:text i18n:key="menu-concordance-bibliography">Bibliographic Concordance</i18n:text>
+      <i18n:text i18n:key="menu-bibliography">Bibliography</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-heading">
       <kiln:super />
-      <i18n:text i18n:key="menu-concordance-bibliography">Bibliographic Concordance</i18n:text>
+      <i18n:text i18n:key="menu-bibliography">Bibliography</i18n:text>
     </kiln:block>
 
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
+          
+          <div type="bibliography" id="biblio_toc">
+            <!-- the following text can be edited in the 'messages_XX.xml' files that are in webapps/ROOT/assets/translations -->
+            <p><i18n:text i18n:key="biblio-toc">This section displays a complete and up to date bibliography concerning inscriptions and history of Greek Cyrenaica, preceded by concordance with SEG and SECir. The catalogue is split in two parts, each of them arranged in alphabetical order:</i18n:text></p>
+            <p>- <a href="#series_collections"><i18n:text i18n:key="biblio-series">Series and Collections</i18n:text></a>. <i18n:text i18n:key="biblio-series-desc">This part includes both the epigraphic corpora relevant for the inscriptions of Greek Cyrenaica and epigraphic research tools such as the <i>Supplementum Epigraphicum</i> Graecum and the <i>Bulletin épigraphique</i></i18n:text>.</p>
+            <p>- <a href="#authored_editions"><i18n:text i18n:key="biblio-auth-editions">Authored Editions, Articles and Monographs</i18n:text></a>. <i18n:text i18n:key="biblio-auth-editions-desc">This part includes, without any further distinction, authored editions, articles and monographs relevant for the study of Greek Cyrenaica inscriptions and history</i18n:text>.</p>
+          </div>
+          
+          <h2 id="seg_secir"><i18n:text i18n:key="biblio-seg-secir">Concordance with SEG and SECir</i18n:text></h2>
           <table class="tablesorter">
             <thead>
               <tr>
-            <th scope="col">Date</th>
-          <th scope="col">Bibliographic reference</th>
+                <th scope="col">Date</th>
+                <th scope="col">Bibliographic reference</th>
               </tr>
-        </thead>
+            </thead>
             <tbody>
-            <xsl:apply-templates mode="bibl-list" select="/aggregation/response/result/doc">
-              <xsl:sort select="str[@name='concordance_bibliography_short']"/>
+              <xsl:apply-templates mode="bibl-list"
+              select="/aggregation/response/result/doc[str[@name='concordance_bibliography_ref']=('SEG', 'SECir')]">
+              <xsl:sort select="str[@name='concordance_bibliography_short']" order="descending"/>
             </xsl:apply-templates>
             </tbody>
           </table>
+          
+          <h2 id="series_collections"><i18n:text i18n:key="biblio-series">Series and Collections</i18n:text></h2>
+          <table class="tablesorter">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Bibliographic reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <xsl:apply-templates mode="bibl-list"  select="/aggregation/response/result/doc[str[@name='concordance_bibliography_type']='series_collections']">
+                <xsl:sort select="str[@name='concordance_bibliography_short']"/>
+              </xsl:apply-templates>
+            </tbody>
+          </table>
+          
+          <h2 id="authored_editions"><i18n:text i18n:key="biblio-auth-editions">Authored Editions, Articles and Monographs</i18n:text></h2>
+          <table class="tablesorter">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Bibliographic reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <xsl:apply-templates mode="bibl-list" select="/aggregation/response/result/doc[str[@name='concordance_bibliography_type']='authored_editions']">
+                <xsl:sort select="str[@name='concordance_bibliography_short']"/>
+              </xsl:apply-templates>
+            </tbody>
+          </table>
+          
         </div>
       </div>
     </kiln:block>
+    
   </kiln:child>
 
 </kiln:root>

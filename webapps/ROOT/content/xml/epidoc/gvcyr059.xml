@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary</rs> verse-inscription for Phileso</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr059</idno>
+                <idno type="number" subtype="second-edition">059</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr059</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Wall of the main hall of a <material>rock</material>-cut <objectType>tomb</objectType>, beside a loculus.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Lightly <rs type="execution" key="pictura">painted</rs> with charcoal.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/> Average height not registered; small capitals, irregular in shape and height, with clear spaces between them; lunate epsilon and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0050" notAfter="0100" precision="low">Second half of first century BC or first century AD (?)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="2006">
+                                    <p>Found in 2006 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, "Carboncini Tomb" (Tomb S147), betwen fourth and fifth loculus of right side in corridor AB.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="2006" resp="cinalli">
+                            <p>Studied in 2006 by A. Cinalli during the survey of the Archaeological Mission in Cyrenaica of the University “G. D’Annunzio” of Chieti in
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>, at the mentioned place of <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from first editor and photographs (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              
+            <change when="2024-01-26" who="CDL">amended Fr. transl. and comm.</change>
+            <change when="2024-01-26" who="Alice">checked; It. translation</change>
+            <change when="2024-01-17" who="CDL">added textType</change> 
+                <change when="2023-08-25" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2021-09-17" who="Marta">File created.</change>
+            <change when="2021-09-20" who="CDL">some changes in fileDescription</change>
+            <change when="2022-01-15" who="CDL">corrected accent and expansion of L; added French translation</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+            <p>New in <bibl><ptr target="#GVCyr2"/></bibl>.</p>
+                <p><bibl><ptr target="#cinalli2016"/>, pp. <citedRange>202-203</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2023</citedRange></bibl>; <bibl><ptr target="#cinalli2018"/> (ph.)<citedRange/></bibl>; 
+                    <bibl><ptr target="#favi2019"/><citedRange/></bibl>; <bibl><ptr target="#cdlBE"/> <citedRange>2019.557</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="verse">
+                <ab>
+                    <lg met="iambic">
+                     <l n="1" real="--+ | -+ |-">
+                         <lb n="1"/><w lemma="νεκρός">Νεκρὸς</w> <w lemma="εἰμι">ἠμὶ</w> <w lemma="κόπρος">κόπρος</w></l> 
+                    <l n="2" real="-+ | -+ | ++ | --+">
+                        <lb n="2"/><w lemma="κόπρος">κόπρος</w> δὲ <w lemma="γῆ"><choice><corr>γ</corr><sic>β</sic></choice>ῆ</w>· <w lemma="γῆ">Γῆ</w>
+                        <lb n="3"/>δ' <w lemma="εἰμι">ἐστὶ</w> <w lemma="θεός">θεός</w>·</l> 
+                     <l n="3" real="+ | --+ | ++">
+                         <w lemma="εἰ"><choice><reg>εἴ</reg><orig><unclear>ἠ</unclear></orig></choice></w> <w lemma="τις"><unclear>τι</unclear></w>
+                        <lb n="4"/><w lemma="θεός">θε<unclear>όν</unclear></w> <w lemma="γῆ">Γῆ</w>, κα<supplied reason="lost">ὶ</supplied></l>
+                     <l n="4" real="-+ | --+ | -">
+                         <w lemma="θεός">θεὸς</w> δ' <w lemma="εἰμι">ἐστὶ</w>
+                        <lb n="5"/><w lemma="νεκρός">νεκρός</w>.</l></lg>
+                    </ab></div>
+                <div type="textpart" subtype="text">
+                    <ab><w lemma="χαίρω"><supplied reason="lost">χαῖρ</supplied>ε</w> <persName type="attested" key=""><name nymRef="#Φιλησώ">Φιλησὼ</name> <persName type="attested" key=""><name nymRef="Ἰλαρίων">Ἰλ<lb n="6" break="no"/><unclear>α</unclear>ρίωνος</name></persName></persName> <expan><abbr><am><g type="year">𐅹</g></am></abbr><ex>ἐτῶν</ex></expan> <num value="7"><g type="alphabetic">ζ</g></num>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>
+                </ab></div>
+            </div>
+                
+                <div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><lem resp="#cdlBE">δὲ <choice><corr>γ</corr><sic>κ</sic></choice>ῆ. Γῆ</lem> <note>from photograph</note>
+                        <rdg resp="#favi2019">δὲ <choice><corr>γ</corr><sic>β</sic></choice>ῆ. Γῆ</rdg>
+                        <rdg resp="#cinalli2016">δ' ἔβη γῆ<supplied reason="omitted">ν</supplied></rdg> 
+                         </app>
+                    <app loc="3"><lem resp="#favi2019 #cdlBE"><choice><reg>εἴ</reg><orig><unclear>ἠ</unclear></orig></choice></lem>
+                        <rdg resp="#cinalli2018">ἤ</rdg>
+                    </app>
+                    <app loc="5"><lem resp="#cinalli2018">Χαῖρε</lem> <note>or</note>
+                        <rdg resp="#cinalli2018" type="alternative"><supplied reason="lost">ὑγίαιν</supplied>ε</rdg>
+                    </app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Moi, le cadavre, je suis poussière. Mais poussière est la terre. Mais la terre est déesse. Si la Terre est quelque chose de divin, alors un cadavre est divin aussi.</p>
+                   <p>Adieu Philesô, fille d'Hilarion, âgée de sept ans.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en" resp="F. Favi">
+            <p>I, a corpse, am dirt. But dirt is earth. But earth is god. If Earth is something divine, then a corpse is god too. (transl. F. Favi).</p>
+             <p>Farewell Phileso, daughter of Ilarion, aged seven.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Io, un cadavere, sono sudiciume. Ma sudiciume è la terra. E la Terra è dio. Se la Terra è qualcosa di divino, allora anche un cadavere è divino.</p>
+             <p>Addio Philesò, figlia di Ilarion, di sette anni.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+             
+                <p>The epitaph for Phileso, Ilarions’ daughter, reproduces a quotation of a well-known epigram presented as a syllogism by Pseudo-Epicharmus
+                 (fr. 297 K.-A. <foreign xml:lang="grc">εἰμὶ νεκρός· | νεκρὸς δὲ κόπρος, γῆ δ’ ἡ κόπρος ἐστίν· | εἰ δὴ γῆ θεός ἐστ’, οὐ νεκρός, ἀλλὰ θεός</foreign>). The same text is attested in four other inscriptions 
+                    (<ref type="inscription" subtype="no-link">GV 1126</ref> from Eretria, 3rd/2nd century BC; <ref type="inscription" subtype="no-link">GV 1941</ref> from Thisbe 2nd/3rd century AD; <ref type="inscription" subtype="no-link">CIL VI 29609</ref> from Rome, 1st century AD; <ref type="inscription" subtype="no-link">CIL VI 35887</ref> from Rome 
+                 2nd/3rd century AD). According to <bibl><ptr target="#cinalli2018"/>, p. <citedRange>86</citedRange></bibl>, the inscription from Cyrene adheres most closely to the literary model, since the crudity of <foreign xml:lang="grc">κόπρος</foreign> is preferred to <foreign xml:lang="grc">κόνις</foreign>/<foreign xml:lang="la">cinis</foreign>, 
+                 present in the other epigraphic parallels. Favi persuasively improved the text: he intended <foreign xml:lang="grc">νεκρός</foreign> as a substantive referred to Phileso 
+                 and emended the otherwise too poetic construction <foreign xml:lang="grc">βαίνω</foreign> with accusative of the l. 2, restoring the correct order of the third sentence with <foreign xml:lang="grc">δέ</foreign> in second position. 
+                 At l. 4 he restored the syllogism by interpreting <foreign xml:lang="grc">ἠ</foreign> as a conditional particle, instead of a disjunctive conjunction, suggesting that <foreign xml:lang="grc">ἤ</foreign> might be 
+                 a dialectal form of <foreign xml:lang="grc">εἰ</foreign>. Dobias-Lalou (<bibl><ptr target="#cdlBE"/> <citedRange>2019.557</citedRange></bibl> thinks that it is more simply due to hypercorrection.</p>
+                <p>At line 5, the surviving <foreign xml:lang="grc">ε</foreign> is the end of an imperative: <foreign xml:lang="grc">χαῖρε</foreign> fits better the space available than <foreign xml:lang="grc">ὑγίαινε</foreign>, although the latter is very frequent in this tomb and in other ones.</p>
+             <p>The name Phileso is attested in Egypt (<ref type="inscription" subtype="no-link">I.Syringes 641</ref>; <ref type="inscription" subtype="no-link">SEG 2.855</ref>), whereas the name Ilarion has occurrences only in Central and Northern Greece, Asia Minor, and Italy.</p> 
+                 <p>In view of the lettering, the suggested date (late Hellenismus) should be lowered, according to Dobias-Lalou.</p>
+             <p>Metrical commentary: the rythm should be based upon iambic dipodies, like in the original. However, there are many irregularities, which forbid to draw a regular schema. The cutting out proposed above is very tentative.</p>
+            </div></body>
+    </text>
+</TEI>

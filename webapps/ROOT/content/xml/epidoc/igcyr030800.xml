@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Road signpost ?</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr030800</idno>
+                <idno type="number" subtype="second-edition">030800</idno>
+                <idno type="TM">738300</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr030800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr030800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr030800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>block</objectType>, pertaining to a (probably ancient) wall
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Deeply cut, height unknown.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0200" notAfter="-0101" cert="low">Perhaps second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: on the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1269">Road: Cyrene to Apollonia</rs>, after leaving the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-04-18" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2015-02-16" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-15" who="HB">text edited</change>
+            <change when="2012-01-11" who="cdl">lemma, apparatus, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77004/3/igcyr030800-view.tiff.jpg" corresp="igcyr030800" decls="#photograph"><desc resp="from Oliverio DAI2, pl.XXV" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77004">View of igcyr030800 Road signpost</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI2"/>, pp. 110-111, n. <citedRange>82</citedRange>, tab. XXV, fig. 38</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.324</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>030800</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2013"/>, pp. <citedRange>169-171</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2010</citedRange></bibl>;
+                    <bibl><ptr target="#criscuolo2015"/>, p. <citedRange>87</citedRange></bibl>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w>ἱππικ<lb n="2" break="no"/>ός</w>. 
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#oliverioDAI2">ἱππικός</rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible" cert="low">Route autorisée</supplied>, pour chevaux.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible" cert="low">Road allowed</supplied> for horses.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible" cert="low">Strada</supplied> per cavalli.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>(ربما تعني ضمنياً:  شوارع مسموح بها (؟)) للخيول</p>
+         </div><div type="commentary">
+                
+                <p>The photograph shows clearly that the inscription runs on two lines, <foreign xml:lang="la">pace</foreign> Oliverio.</p>
+                <p>Oliverio gives dimensions for the letters, that seem incredible unless the wall («<foreign xml:lang="it">antichissimo</foreign>») was made of really huge blocks.</p>
+                <p>Another similar mention has been registered on the road from Cyrene to Balagrae, see <ref type="inscription" source="#IGCyr2">IGCyr107350</ref>. Since the publication of the other 
+                 inscription, it has been admitted that the word <foreign xml:lang="grc">δρόμος</foreign> should be supplied, indicating a road allowed for horses and carriages, 
+                    not a racecourse as Oliverio thought. Criscuolo now prefers a subaudible <foreign xml:lang="grc">τόπος</foreign>, i.e. a place where horses might stay (and Chandezon, 
+                    per litteras, even suggested a grazing place). However those interesting ideas would not fit the place well.</p>
+	<p>Additional note 2023: After the first edition of this corpus, where we proposed only the road interpretation, we discovered an occurrence of <foreign xml:lang="grc">Ἱππικός</foreign> as a personal name at Taucheira: new reading of 
+	    <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/T.680.html">IRCyr2020 T.680</ref>, probably in the first century CE. It is thus not impossible that we have also a man's name here and at <ref type="inscription" source="#IGCyr2">IGCyr107350</ref>.</p>
+            </div></body>
+    </text>
+</TEI>

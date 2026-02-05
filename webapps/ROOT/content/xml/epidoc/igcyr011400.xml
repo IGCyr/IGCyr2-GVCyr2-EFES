@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr011400</idno>
+                <idno type="number" subtype="second-edition">011400</idno>
+                <idno type="TM">738201</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr011400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr011400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr011400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Front of a rectangular white <material>marble</material> <objectType>block</objectType>, inscribed on three sides, 
+                                        bearing also <ref type="inscription" source="#IGCyr2">IGCyr011500</ref>, <ref type="inscription" source="#IGCyr2">IGCyr011600</ref>, <ref type="inscription" source="#IGCyr2">IGCyr011700</ref>, 
+                                        <ref type="inscription" source="#IGCyr2">IGCyr011800</ref> 
+                                        (<dimensions>
+                                            <width>0.59</width>
+                                            <height>0.775</height>
+                                            <depth>0.565</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Carefully <rs type="execution" key="scalpro">inscribed</rs> on higher part of front side; 
+                                    regular margin 0.1 broad at left, less regular (ca. 0.105) at right, exceeding letters in some lines at 
+                                    syllable end; generally resembling stoichedon style.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.013" max="0.018">0.013-0.018</height>; very careful letters, nearly stoichedon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" precision="medium" when="-0335">ca 335 BC (Laronde, Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1915">
+                                    <p>Found in 1915 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, in the area of the
+                                       <rs type="monuList" ref="https://www.slsgazetteer.org/1326">Temple of Apollo Archegetes</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1982-06-01" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou on June 1st, 1982, stored inside <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" notBefore="2019" notAfter="2022" resp="rosamilia">
+                            <p>E. Rosamilia studied between 2019 and 2022 an ancient plaster moulding of the block kept in <placeName type="modernFindspot" ref="http://www.geonames.org/3169070" key="Rome">Rome</placeName>:
+                                Università degli Studi</p>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-11-13" who="CDL">updated bibl, date of discovery and commentary</change>
+            <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-29" who="Alice">checked</change>
+            <change when="2015-05-11" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2015-04-12" who="CDL">English translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-05-18" who="CDL+HB">lemma, finished markup except specific numeral, translation</change>
+            <change when="2011-12-21" who="Emilio">text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76791/3/igcyr011400-face.tiff.jpg" corresp="igcyr011400" decls="#photograph"><desc resp="from Oliverio DAI1, pl. IX" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76791">Face of igcyr011400 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, pp. <citedRange>86-87</citedRange> (ph.)</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.11</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>011400</citedRange></bibl>.</p>
+                    <p> Cf. about all accounts of damiergoi <bibl><ptr target="#guarducci1969"/>, pp. <citedRange>298-302</citedRange></bibl>;
+                    <bibl><ptr target="#murakawa1957"/><citedRange/></bibl>, whence
+                   <bibl><ptr target="#SEG"/>, <citedRange>18.741</citedRange></bibl>;
+                    <bibl><ptr target="#gasperini1986"/><citedRange/></bibl> (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>217-226</citedRange>)</bibl>;
+                    <bibl><ptr target="#chamoux1988"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1875</citedRange></bibl>; 
+                    <bibl><ptr target="#cdl1993"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>43.1186</citedRange></bibl>; 
+                    <bibl><ptr target="#foraboschi1996"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2195</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1996a"/>, esp. pp. <citedRange>524-526</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2196</citedRange></bibl>; 
+                    <bibl><ptr target="#garcia1998"/><citedRange/></bibl>, and <bibl><ptr target="#garcia1998a"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>48.2054</citedRange></bibl>; 
+                    <bibl><ptr target="#cdl2000"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>50.1637</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2016"/><citedRange/></bibl>;
+                    <bibl><ptr target="#rosamilia2017"/><citedRange/></bibl>;
+                    <bibl><ptr target="#cdl2017b"/>, pp. <citedRange>191-198</citedRange></bibl>;
+                    <bibl><ptr target="#harounabdelhamed2017"/></bibl>, whence 
+                        <bibl><ptr target="#SEG"/> <citedRange>68.1749</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>140-146</citedRange> (local numbers and currency), pp. <citedRange>152-158</citedRange> (general study), pp. <citedRange>185-192 (accountancy)</citedRange></bibl>.</p>
+            <p>First mention of the discovery by <bibl><ptr target="#ferri1923a"/>, pp. <citedRange>181-182</citedRange></bibl>.</p>
+                <p>About this account only <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>159-161</citedRange> (date), pp. <citedRange>285-286</citedRange> number 27 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="θεός">Θεοί</w>.
+                    <lb n="2"/><rs type="office" key="damiergos"><w lemma="δαμιεργέω">Δαμιεργέντων</w></rs> <g type="punct">:</g> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65176"><name nymRef="#Νικόστρατος">Νικοστράτω</name> 
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65754"><name type="patronymic" nymRef="#Ταβαλβις">Ταβαλβιος</name></persName></persName> <g type="punct">:</g>, 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66011"><name nymRef="#Φιλόκωμος">Φιλοκώμω</name> <g type="punct">:</g> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62775"><name type="patronymic" nymRef="#Ἀλκαμένης">Ἀλκα<lb n="4" break="no"/>μένευς</name></persName></persName> <g type="punct">:</g>, <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62939"><name nymRef="#Ἀντίπατρος">Ἀντιπάτρω</name> 
+                                <g type="punct">:</g> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65684"><name type="patronymic" nymRef="#Σώνυμος">Σωνύμω</name></persName></persName>,
+                    <lb n="5"/>τῶ <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνος</name></persName> <g type="punct">:</g> <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύοντος</w></rs> 
+                    <lb n="6"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65979"><name nymRef="#Φιλοθάλης">Φιλοθάλευς</name> <g type="punct">:</g> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64317"><name type="patronymic" nymRef="#Ἰάσων">Ἰάσονος</name></persName></persName> <g type="punct">:</g>. 
+                        <w lemma="καρπός">Καρπὸς</w> <g type="punct">:</g> <w lemma="τιμάω">ἐτι<lb n="7" break="no"/>μάθη</w>· <g type="punct">:</g> <w lemma="κριθά">κριθαὶ</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="1.2"><measure type="currency" unit="drachma">
+                                <num value="1"><g type="cyrnum">Ζ</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num> <g type="punct">:</g>, 
+                    <w lemma="σπυρός">σπυροὶ</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="2"><measure type="currency" unit="drachma">
+                                <num value="2"><g type="cyrnum">𐅝</g></num></measure></num> <g type="punct">:</g>,<w lemma="ὄσπριον">ὄ<lb n="8" break="no"/>σπρια</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="1.6"><measure type="currency" unit="drachma">
+                                <num value="1"><g type="cyrnum">Ζ</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num> <g type="punct">:</g> 
+                    <w>κύμινον</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="2"><measure type="currency" unit="drachma">
+                                <num value="2"><g type="cyrnum">𐅝</g></num></measure></num> <g type="punct">:</g>, <w lemma="κάρφος">κάρ<lb n="9" break="no"/>φη</w> <g type="punct">:</g> <w lemma="ἥμερος">ἥμερα</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="10"><measure type="currency" unit="drachma">
+                                <num value="4"><g type="cyrnum">𐅠</g></num>
+                                <num value="4"><g type="cyrnum">𐅠</g></num>
+                                <num value="2"><g type="cyrnum">𐅝</g></num></measure></num> <g type="punct">:</g>, 
+                    <w lemma="ἄγριος">ἄγρια</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="8"><measure type="currency" unit="drachma">
+                                <num value="4"><g type="cyrnum">𐅠</g></num>
+                                <num value="4"><g type="cyrnum">𐅠</g></num></measure></num> <g type="punct">:</g>, <w lemma="ἄχυρον">ἀχύ<lb n="10" break="no"/>ρων</w> <g type="punct">:</g> <w lemma="ῥῖπος">ῥῖπος</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="8"><measure type="currency" unit="drachma">
+                                <num value="4"><g type="cyrnum">𐅠</g></num>
+                                <num value="4"><g type="cyrnum">𐅠</g></num></measure></num> <g type="punct">:</g>, 
+                    <w lemma="σταφυλά">σταφυλὰ</w> <g type="punct">:</g> <w lemma="ψύθιος">ψυθία</w> <g type="punct">:</g> 
+                    <lb n="11"/> <w>ἔνδος</w> τᾶς <w lemma="προκλησία">προκλησίας</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="3"><measure type="currency" unit="drachma">
+                                <num value="2"><g type="cyrnum">𐅝</g></num>
+                                <num value="1"><g type="cyrnum">Ζ</g></num></measure></num> <g type="punct">:</g>, <w lemma="μέλας">μέ<lb n="12" break="no"/>λαινα</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="2.5"><measure type="currency" unit="drachma">
+                                <num value="2"><g type="cyrnum">𐅝</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                <num value="0.1"><g type="cyrnum">–</g></num></measure></num> <g type="punct">:</g>, 
+                    <w>ἔξος</w> τᾶς <w lemma="προκλησία">προκλησί<lb n="13" break="no"/>ας</w> <g type="punct">:</g> <w lemma="ψύθιος"><unclear>ψ</unclear>υθία</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="2.5"><measure type="currency" unit="drachma">
+                                <num value="2.5"><num value="2"><g type="cyrnum">𐅝</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                <num value="0.1"><g type="cyrnum">–</g></num></num></measure></num> <g type="punct">:</g>, 
+                    <w lemma="μέλας">μέλαινα</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="2"><measure type="currency" unit="drachma">
+                                <num value="2"><g type="cyrnum">𐅝</g></num></measure></num>, 
+                    <lb n="14"/><w lemma="σῦκον">σ<supplied reason="lost">ῦ</supplied><unclear>κ</unclear>α</w> <g type="punct">:</g> <w lemma="ἀν">ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="1"><measure type="currency" unit="drachma">
+                                <num value="1"><g type="cyrnum">Ζ</g></num></measure></num> <g type="punct">:</g>, 
+                    <w lemma="σταφίς">σταφὶς</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="1"><measure type="currency" unit="drachma">
+                                <num value="1"><g type="cyrnum">Ζ</g></num></measure></num> <g type="punct">:</g>, 
+                    <w lemma="ἐλαία">ἐλαῖαι </w>
+                    <lb n="15"/><w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="1.2"><measure type="currency" unit="drachma">
+                                <num value="1"><g type="cyrnum">Ζ</g></num>
+                                <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num> <g type="punct">:</g>, 
+                    <w>ἔλαιον</w> <g type="punct">:</g> <w>ἀν</w> <g type="punct">:</g> 
+                        <num type="total" value="10"><measure type="currency" unit="drachma">
+                                <num value="4"><g type="cyrnum">𐅠</g></num>
+                                <num value="4"><g type="cyrnum">𐅠</g></num>
+                                <num value="2"><g type="cyrnum">𐅝</g></num></measure></num> <g type="punct">:</g>.
+                    Τὸ <w lemma="πᾶς">πὰν</w> <g type="punct">:</g> <w lemma="ἔσειμι">ἐ<lb n="16" break="no"/>σιὸν</w> <g type="punct">:</g> τῶ <w lemma="ἐνιαυτός">ἐνιαυτῶ</w> <g type="punct">:</g> 
+                    <num type="total" value="37293.6"><measure type="currency" unit="drachma">
+                            <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></w> <g type="punct">:</g>
+                            <num type="total" value="372"><measure type="currency" unit="mna">
+                                    <num value="200"><g type="cyrnum">𐅠</g></num>
+                                    <num value="100"><g type="cyrnum">𐅝</g></num>
+                                    <num value="50"><g type="cyrnum">Ζ</g></num>
+                                    <num value="10"><g type="cyrnum">&gt;</g></num>
+                                    <num value="10"><g type="cyrnum">&gt;</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num></measure></num>
+                            <num type="total" value="93.6"><measure type="currency" unit="drachma">
+                                    <num value="20"><g type="cyrnum">Χ</g></num>
+                                    <num value="20"><g type="cyrnum">Χ</g></num>
+                                    <num value="20"><g type="cyrnum">Χ</g></num>
+                                    <num value="20"><g type="cyrnum">Χ</g></num><lb n="17" break="no"/>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="1"><g type="cyrnum">Ζ</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num></measure></num>. <g type="punct">:</g>, 
+                    <w lemma="ἔξειμι">ἐξιὸν</w> <g type="punct">:</g> <w lemma="βουθυσία">βουθυσιᾶν</w> <w lemma="εἰμι">ἠσσᾶν</w> <g type="punct">:</g>
+                    <num type="total" value="15531.86"><measure type="currency" unit="drachma">
+                            <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></w>
+                   <lb n="18"/>
+                            <num type="total" value="155"><measure type="currency" unit="mna">
+                                    <num value="100"><g type="cyrnum">𐅝</g></num>
+                                    <num value="50"><g type="cyrnum">Ζ</g></num>
+                                    <num value="5"><unclear><g type="cyrnum">𐅃</g></unclear></num></measure></num>
+                            <num type="total" value="31.86"><measure type="currency" unit="drachma">
+                                    <num value="20"><g type="cyrnum">Χ</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="2"><g type="cyrnum">𐅝</g></num>
+                                    <num value="1"><g type="cyrnum">Ζ</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.02"><g type="cyrnum">Δ</g></num>
+                                    <num value="0.02"><g type="cyrnum">Δ</g></num>
+                                    <num value="0.02"><g type="cyrnum">Δ</g></num></measure></num></measure></num>, 
+                    <w lemma="λοιπός">λοιπὸν</w> <g type="punct">:</g>
+                    <num type="total" value="21935.82"><measure type="currency" unit="drachma">
+                            <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></w> <g type="punct">:</g>
+                            <num type="total" value="219"><measure type="currency" unit="mna">
+                                    <num value="200"><g type="cyrnum">𐅠</g></num>
+                                    <num value="10"><g type="cyrnum">&gt;</g></num>
+                                    <num value="5"><g type="cyrnum">𐅃</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num></measure></num>
+                            <num type="total" value="35.82"><measure type="currency" unit="drachma">
+                                    <num value="20"><g type="cyrnum">Χ</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="2"><g type="cyrnum">𐅝</g></num>
+                                    <num value="1"><g type="cyrnum">Ζ</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.02"><g type="cyrnum">Δ</g></num></measure></num></measure></num> <g type="punct">:</g>. <w lemma="παρόρεγμα">Παρό<lb n="19" break="no"/>ρεγμ<supplied reason="lost">α</supplied></w> <g type="punct">:</g> <rs type="office" key="damiergos"><w lemma="δαμιεργός">δαμιεργοῖς</w></rs> <g type="punct">:</g>
+                          <num type="total" value="300"><measure type="currency" unit="drachma">
+                            <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></w> <g type="punct">:</g>
+                            <num type="total" value="3"><measure type="currency" unit="mna">
+                                    <num value="1"><g type="cyrnum">–</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num>
+                                    <num value="1"><g type="cyrnum">–</g></num></measure></num></measure></num>
+	</ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p> Dieux. Etant démiurges Nikostratos fils de Tabalbis, Philokomos fils d'Alkaménès, Antipatros fils de Sônymos, étant prêtre d'Apollon Philothalès fils d'Iasôn, la récolte a été estimée: 
+            orge, la mesure, 1 drachme 1 obole; froment, la mesure, 2 drachmes; légumineuses, la mesure, 1 drachme 3 oboles; cumin, la mesure, 2 drachmes; foin cultivé, la mesure, 10 drachmes;
+            sauvage, la mesure, 8 drachmes; paille, le filet, 8 drachmes; raisin hâtif sous garantie, la mesure, 3 drachmes; noir, la mesure 2 drachmes 2 oboles 1/2; hors garantie, hâtif, la mesure 2 drachmes 2 oboles 1/2;
+            noir, la mesure, 2 drachmes; figues, la mesure, 1 drachme; raisins secs, la mesure, 1 drachme; olives, la mesure, 1 drachme 1 obole; huile, la mesure 10 drachmes. 
+            Total : recettes de l'année 372 mines 93 drachmes 3 oboles; dépenses, sacrifices de bovins compris, 155 mines 31 drachmes 4 oboles 3/10; reste 219 mines 35 drachmes 4 oboles 1/10; 
+            indemnité pour les démiurges 3 mines.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p> Gods. Being damiergoi Nikostratos son of Tabalbis, Philokomos son of Alkamenes, Antipatros son of Sonymos, being priest of Apollo Philothales son of Iason, the crops were estimated: 
+            barley, per unit, 1 drachma 1 obol; wheat, per unit, 2 drachmas; pulse, per unit, 1 drachma 3 obols; cumin, per unit, 2 drachmas; cultivated hay, per unit, 10 drachmas;
+            wild, per unit, 8 drachmas; straw, per net, 8 drachmas; grapes: early, under guarantee, per unit, 3 drachmas; black, per unit 2 drachmas 2 obols 1/2; without guarantee, early, per unit 2 drachmas 2 obols 1/2;
+            black, per unit, 2 drachmas; figs, per unit, 1 drachma; raisins, per unit, 1 drachma;  olives, per unit, 2 drachmas; oil, per unit, 10 drachmas. 
+            Summary: income of the year 372 mines 93 drachmas 3 obols; expense, sacrifices of oxen included, 155 mines 31 drachmas 4 obols 3/10; remainder 219 mines 35 drachmas 4 obols 1/10; 
+            allowance for the damiergoi 3 mines.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p> Dèi. Essendo damiurghi Nikostratos figlio di Tabalbis, Philokomos figlio di Alkamenes, Antipatros figlio di Sonymos, essendo sacerdote di Apollo Philothales figlio di Iason, il raccolto è stato valutato: 
+            orzo a 1 dracma e 1 obolo; frumento a 2 dracme; legumi a 1 dracma e 3 oboli; cumino a 2 dracme; fieno coltivato a 10 dracme;
+            selvatico a 8 dracme; paglia, la rete, a 8 dracme; uva primaticcia scelta a 3 dracme; nera a 2 dracme e 2 oboli e 1/2; non scelta primaticcia a 2 dracme e 2 oboli e 1/2;
+            nera a 2 dracme; fichi a 1 dracma; uva passa a 1 dracma;  olive a 2 dracme; olio a 10 dracme. 
+            Totale: entrate dell'anno 372 mine, 93 dracme e 3 oboli; uscite, sacrifici di buoi compresi, 155 mine, 31 dracme, 4 oboli e 3/10; resto 219 mine, 35 dracme, 4 oboli e 1/10; 
+            retribuzione per i damiurghi 3 mine.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>الآلهة. في فترة كل من الداميرجوي نيكوستراتوس بن تابالبيس وفيلوكوموس بن الكمينس وأنتيباتروس بن سونيموس وكاهن أبولو فيلوثاليس بن إياسون، المحاصيل تم تقديرها كالتالي: الشعير، 1 دراخما و1 أوبول للمقدار الواحد ؛  القمح، 2 دراخما للمقدار الواحد؛  البقوليات، 1 دراخما و3 أوبول للمقدار الواحد؛ الكمون، 2 دراخما للمقدار الواحد؛ التبن المزروع، 10 دراخما للمقدار الواحد؛ التبن البري، 8 دراخما للمقدار الواحد؛ القش (الناتج عن درس الحبوب)، 8 دراخما للشبكة؛ العنب: (عنب مباع بعقد مسبق) المبكر، 3 دراخما للمقدار الواحد؛ الأسود، 2 دراخما و2 أوبول ونصف للمقدار الواحد؛ (عنب غير مباع بعقد مسبق) المبكر، 2 دراخما و2 أوبول ونصف للمقدار الواحد؛ الأسود، 2 دراخما للمقدار الواحد؛ التين، 1 دراخما للمقدار الواحد؛ الزبيب، 1 دراخما للمقدار الواحد؛ الزيتون، 2 دراخما للمقدار الواحد؛ الزيت، 10 دراخما للمقدار الواحد. الملخص: الدخل السنوي يكون 372 ميناي و93 دراخما و3 أوبول. المصروفات متضمنة الاضاحي من الثيران تكون 155 ميناي و31 دراخما و4.3 أوبول؛ المتبقي 219 ميناي و35 دراخما و4.1 أوبول؛ و3 ميناي تُعطى للداميورجوي.</p>
+         </div><div type="commentary">
+                
+                <p>This account and the four others cut on the same stone are the most complete of a series that also includes <ref type="inscription" source="#IGCyr2">IGCyr012000</ref> to <ref type="inscription" source="#IGCyr2">IGCyr013800</ref>, <ref type="inscription" source="#IGCyr2">IGCyr014000</ref> to <ref type="inscription" source="#IGCyr2">IGCyr014600</ref>,
+                <ref type="inscription" source="#IGCyr2">IGCyr063900</ref>, <ref type="inscription" source="#IGCyr2">IGCyr088100</ref> to <ref type="inscription" source="#IGCyr2">IGCyr088300</ref>, <ref type="inscription" source="#IGCyr2">IGCyr094200</ref>, <ref type="inscription" source="#IGCyr2">IGCyr107150</ref>.</p>
+             <p>We kept for <bibl><ptr target="#IGCyr"/></bibl> the order of the inscriptions as published by Oliverio. <bibl><ptr target="#rosamilia2023"/></bibl> has convincingly shown that this order 
+             does not correspond to the successive uses of the block. However, we do not change the numbers for <bibl><ptr target="#IGCyr2"/></bibl>. This account was the second one cut on the block, after 
+             <ref type="inscription" source="#IGCyr2">IGCyr011700</ref> and before <ref type="inscription" source="#IGCyr2">IGCyr011800</ref>.</p>
+                <p>See also <ref type="inscription" source="#IGCyr2">IGCyr062810</ref> and followings for a possible status of those fields under the Ptolemies.</p>
+	<p>The priest on duty in this list is also responsible for the building of the monumental fountain to the south of Apollo's temple (<ref type="inscription" source="#IGCyr2">IGCyr110000</ref>) and mentioned in a fragmentary list of priests (<ref type="inscription" source="#IGCyr2">IGCyr094800</ref>).</p>
+            </div></body>
+    </text>
+</TEI>

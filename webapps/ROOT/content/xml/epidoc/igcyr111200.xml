@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Owner's mark</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr111200</idno>
+                <idno type="number" subtype="second-edition">111200</idno>
+                <idno type="TM">738642</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr111200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr111200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr111200</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Benghazi Museum (Sidi Khrebish excavations)</repository> <idno type="invNo">H387</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Bronze</material> <objectType>arrow head</objectType> 
+                                        (<dimensions>
+                                            <width precision="medium">0.06</width>
+                                            <height>0.015</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="signaculo">Stamped</rs> on one face, to be read with the tip at right hand.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>; monogram: common vertical stroke for both beta and epsilon, the loops of beta inserted between
+                            the bars of epsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="reign" notBefore="-0246" notAfter="-0222" cert="low">If really from Berenice II, between 246 and 222 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1973" notAfter="1975">
+                                    <p>Found during the excavations (1973-1975) conducted by J. Lloyd at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/910" key="http://pleiades.stoa.org/places/373757">Berenike</placeName>:                                         
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1463">Hellenistic city walls</rs> (North area).
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-25" who="Alice">checked</change>
+            <change when="2017-02-06" who="CDL">overall check</change>
+            <change when="2014-01-22" who="cdl">lemma, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-01" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77518/3/igcyr111200-drawing.tiff.jpg" corresp="igcyr111200" decls="#photograph"><desc resp="-" source="Society for Libyan Studies" n="1973-1975"><ref target="http://hdl.handle.net/20.500.14008/77518">Drawing of igcyr111200 Owner's mark</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr2010a"/>, pp. <citedRange>225-226</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>60.1832</citedRange></bibl>;
+                    <bibl><ptr target="#lloyd-kenrick2014"/>, p. <citedRange>137</citedRange>, fig. 16</bibl>;
+                    <bibl><ptr target="#jmr-kenrick2015"/>, pp. <citedRange>75-76</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>65.2020</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>111200</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="ruler" key="Berenice II"><name nymRef="#Βερενίκη"><expan><abbr><hi rend="ligature">Βε</hi></abbr><ex>ρενίκη</ex></expan></name></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Bérénice.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Berenice.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Berenice.</p>
+            </div><div type="commentary">
+                
+                <p>A similar item found in Cyrenaica is <ref type="inscription" source="#IGCyr2">IGCyr111250</ref> and others were found in Crete and Egypt. They should not refer to the city of 
+                    Berenike, but more plausibly to Berenice II queen of Egypt and the arrows would have belonged to her bodyguard. It is not impossible that Callimachus in 
+                    Epigram 37 alludes to such events.</p>
+                <p>For the historical background, siege and desertion of Euesperides and foundation of Berenike, see <bibl><ptr target="#laronde1987"/>, pp. <citedRange>390-396</citedRange>
+                </bibl> and <bibl><ptr target="#wilson2003a"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

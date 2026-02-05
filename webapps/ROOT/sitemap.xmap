@@ -156,6 +156,8 @@
       <map:transformer logger="sitemap.transformer.jx" name="jx" pool-max="${jx-transformer.pool-max}"
         src="org.apache.cocoon.transformation.JXTemplateTransformer" />
       <map:transformer logger="sitemap.transformer.paginate" name="paginate" src="org.apache.cocoon.transformation.pagination.Paginator" />
+
+
       <map:transformer logger="sitemap.transformer.extractor" name="extractor" src="org.apache.cocoon.transformation.FragmentExtractorTransformer" />
     </map:transformers>
 

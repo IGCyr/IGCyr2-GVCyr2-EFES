@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr095110</idno>
+                <idno type="number" subtype="second-edition">095110</idno>
+                <idno type="TM">738459</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr095110</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr095110</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr095110</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of small <material>marble</material> <objectType>block</objectType>
+                                        (<dimensions>
+                                            <width>0.1</width>
+                                            <height>0.14</height>
+                                            <depth>0.06</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>; no information about the lettering.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0300" notAfter="-0101" precision="medium" cert="low">Admittedly Hellenistic</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935">
+                                    <p>Found before 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Seems to be lost since 1960 at the latest.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2017-03-16" who="CDL">translations</change>
+            <change when="2013-10-07" who="cdl">lemma, text, apparatus, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>22</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>095110</citedRange></bibl>.</p>          
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ι</orig> 
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="#_κρατ_"><seg part="M"><supplied reason="lost">κ</supplied>ρατ</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/> 
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key=""><name nymRef="#_σθενης"><seg part="F"><supplied reason="lost">σ</supplied>θεν<unclear>ῆ</unclear></seg></name></persName>  
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w part="F" cert="low">δόσιος</w>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key=""><name nymRef="#_μήτριος" type="patronymic"><seg part="F"><supplied reason="lost">μ</supplied>ητρίου</seg></name></persName> 
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key=""><name nymRef="#_ιππος" type="patronymic"><seg part="F">ίππου</seg></name></persName>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                 <p>
+                     <app loc="2">
+                         <lem><supplied reason="lost">κ</supplied>ρατ<gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir"><supplied reason="lost">κ</supplied>ράτ<supplied reason="lost">ευς</supplied></rdg>
+                     </app>
+                     <app loc="3">
+                         <lem><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">σ</supplied>θεν<unclear>ῆ</unclear></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/>θεν<unclear>ῆ</unclear></rdg>
+                     </app>
+                    <app loc="4"> <note>perhaps <supplied reason="lost" cert="low">ἐξ ἐπι</supplied>δόσιος</note></app></p>
+                          
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>kratès <gap reason="lost" extent="unknown" unit="character"/>sthenès, <gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">Untel</supplied> 
+            fils de Dèmètrios, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>ippos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>krates <gap reason="lost" extent="unknown" unit="character"/>sthenes, <gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">So-and-so</supplied> 
+            son of Demetrios, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>ippos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>krates <gap reason="lost" extent="unknown" unit="character"/>sthenes, <gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">il tale</supplied> 
+            figlio di Demetrios, <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>ippos.</p>
+         </div><div type="commentary">
+                
+                <p>This fragment has been published from Oliverio's papers with neither image nor description of the stone, which seems to be lost.</p>
+                <p>There are apparently men's names at the genitive case at ll. 5 and 6, perhaps also at l. 4; the name at l. 3 might be at the accusative, but it is also possible to restore a nominative;
+                the same applies to l. 2, where any case is possible. If it were that ll. 2 and 3 have an accusative, they might stand for persons honored by others, whose we would have only the
+                fathers' names. The dedication of their statues might have been made <foreign xml:lang="grc">ἐξ ἐπιδόσιος</foreign> (l. 4?). All that is very uncertain.</p>
+            </div></body>
+    </text>
+</TEI>

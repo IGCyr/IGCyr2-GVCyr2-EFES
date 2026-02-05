@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">List of priests</rs>, possibly of Dionysos</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr081800</idno>
+                <idno type="number" subtype="second-edition">081800</idno>
+                <idno type="TM">738386</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr081800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr081800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr081800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">3480</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Large <material>marble</material> <objectType>block</objectType>, probably re-cut from a large pillar and twice re-used later on,
+                                        upper left angle of present block broken off
+                                        (present dimensions corresponding to the first use <dimensions>
+                                            <width>0.35</width>
+                                            <height>0.23</height>
+                                            <depth>0.97</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> at different periods on three different faces with <ref type="inscription" source="#IGCyr2">IGCyr081800</ref>, 
+                                    <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.455.html">IRCyr2020 C.455</ref> and <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.456.html">IRCyr2020 C.456</ref>; when <ref type="inscription" source="#IGCyr2">IGCyr081800</ref> was inscribed,
+                                the left hand edge was probably already damaged, so that ll. 6 and 7 had to be inset.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.014" max="0.018">0.014-0.018</height>; each line is cut in a different hand or at least on a different occasion; 
+                                sigma with parallel outer strokes, alpha with straight bar, slight serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, possibly at the very findspot (see commentary).</origPlace>
+                            <origDate evidence="prosopography" notBefore="-0200" notAfter="-0151" precision="medium">First half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1987" notAfter="1988">
+                                    <p>Found in winter 1987-1988 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        after heavy rains in the lower levels of the Western part of the <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team for the first edition.</p>
+                                </provenance>
+                        <provenance type="observed" when="2010" resp="rosamilia">
+                            <p>Seen by E. Rosamilia in 2010 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monulist" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>, epigraphic storeroom.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-01" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-06" who="Alice">checked</change>
+            <change when="2016-06-13" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-27" who="cdl">lemma, bibliography, apparatus, translations, commentary</change>
+            <change when="2013-02-08" who="GB Ljuba">Reorganized support and layout</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77180/3/igcyr081800-face.tiff.jpg" corresp="igcyr081800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1988"><ref target="http://hdl.handle.net/20.500.14008/77180">Face of igcyr081800 List of names (priests?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr1994"/>, pp. <citedRange>213-214</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>44.1537</citedRange></bibl>; 
+                    <bibl><ptr target="#habicht1996"/><citedRange/></bibl> and  
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>1997.706</citedRange></bibl>), whence  
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2201</citedRange></bibl>; again 
+                    <bibl><ptr target="#jmr2012"/>, pp. 197-198 n. <citedRange>A.28/1</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>081800</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>118-122</citedRange> (content, date), pp. <citedRange>255-256</citedRange>, number 11 (text)</bibl>.
+                    Cf. <bibl><ptr target="#cdl2016"/>, p. <citedRange>251</citedRange>, whence
+                        <bibl><ptr target="#SEG"/>, <citedRange>66.2318</citedRange></bibl>.</bibl>
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Καρνήδας"><supplied reason="lost">Καρν</supplied>ήδας</name> 
+                        <persName type="attested" key=""><name nymRef="#Αἰγλάνωρ" type="patronymic">Αἰγλάνορος</name></persName></persName>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Ἁνίοχος"><supplied reason="lost">Ἁν</supplied>ίοχος</name> 
+                        <space quantity="1" unit="character"/> 
+                        <persName type="attested" key=""><name nymRef="#Ἀρχέδαμος" type="patronymic">Ἀρχεδάμω</name></persName></persName>
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#Αἰγλάνωρ"><supplied reason="lost">Α</supplied>ἰγλάνωρ</name> 
+                        <persName type="attested" key=""><name nymRef="#Βακαλ" type="patronymic">Βακαλος</name></persName></persName>                    
+                    <lb n="4"/><persName type="attested" key=""><name nymRef="#Πολιάνθης"><supplied reason="lost">Π</supplied>ολιάνθης</name> 
+                        <persName type="attested" key=""><name nymRef="Καρτισθένης" type="patronymic">Καρτισθένευς</name></persName></persName>
+                    <lb n="4a"/><space quantity="2" unit="line"/>
+                    <lb n="5"/><persName type="attested" key=""><name nymRef="#Καλλίμαχος"><unclear>Κ</unclear>αλλίμαχος</name> 
+                        <persName type="attested" key=""><name nymRef="#Ποσειδώνιος" type="patronymic">Ποσειδωνίω</name></persName></persName>
+                    <lb n="6"/><space quantity="2" unit="character"/> <persName type="attested" key=""><name nymRef="#Μνάσαρχος">Μνάσαρχος</name> 
+                        <persName type="attested" key=""><name nymRef="#Εὐφράνωρ" type="patronymic">Εὐφράνορος</name></persName></persName>
+                    <lb n="7"/><space quantity="2" unit="character"/> <persName type="attested" key=""><name nymRef="#Ἐτέαρχος">Ἐτέαρχος</name> 
+                        <persName type="attested" key=""><name nymRef="#Κλέων" type="patronymic">Κλέωνος</name></persName></persName>                    
+                    <lb n="7a"/><space quantity="1" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><supplied reason="lost">Καρν</supplied>ήδας</lem>
+                        <rdg resp="#mohamed-jmr1994"><supplied reason="lost" cert="low">Καρν</supplied>ήδας</rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="2">
+                        <lem><supplied reason="lost">Ἁν</supplied>ίοχος</lem>
+                        <rdg resp="#mohamed-jmr1994"><supplied reason="lost" cert="low">Ἁν</supplied>ίοχος</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Karn</supplied>èdas fils d'Aiglanôr, <supplied reason="lost">Han</supplied>iokhos fils d'Arkhedamos, <supplied reason="lost">A</supplied>iglanôr fils de Bakal, <supplied reason="lost">P</supplied>olianthès fils de Kartisthénès, Kallimakhos fils de Poseidônios,
+                    Mnasarkhos fils d'Euphranôr, Etearkhos fils de Kléôn.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">Karn</supplied>edas son of Aiglanor, <supplied reason="lost">Han</supplied>iochos son of Archedamos, <supplied reason="lost">A</supplied>iglanor son of Bakal, <supplied reason="lost">P</supplied>olianthes son of Kartisthenes, Kallimachos son of Poseidonios,
+                    Mnasarchos son of Euphranor, Etearchos son of Kleon.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Karn</supplied>edas figlio di Aiglanor, <supplied reason="lost">Han</supplied>iochos figlio di Archedamos, <supplied reason="lost">A</supplied>iglanor figlio di Bakal, <supplied reason="lost">P</supplied>olianthes figlio di Kartisthenes, Kallimachos figlio di Poseidonios,
+                    Mnasarchos figlio di Euphranor, Etearchos figlio di Kleon.</p>
+         </div><div type="commentary">
+                
+                <p>Names at ll. 1 and 2 may be restored with certainty, because they are the only ones from the onomastic record fitting the space available and are both typical Cyrenaican names.</p>
+             <p>This list of names is very similar to the bulk of lists of eponymous priests, which, although less numerous than in the Roman period, existed already in the Hellenistic era (see 
+                 <bibl><ptr target="#cdl2016a"/></bibl>). Dobias-Lalou for <bibl><ptr target="#IGCyr"/></bibl> thought that this list was one of them, as did the first editors, who suggested that the 
+                 stone had been brought from the agora to the sanctuary of Demeter on occasion of its first reuse. However, <bibl><ptr target="#rosamilia2023"/></bibl>, having shown that 
+             <ref type="inscription" source="#IGCyr2">IGCyr006800</ref>, found in that extra-mural sanctuary, might be a list of priests of Dionysos, thinks that the present list might be another one.</p>
+                <p>All names here are very common in high-rank families of Cyrene. <bibl><ptr target="#habicht1996"/></bibl> has convincingly pointed out that Carnedas
+                    son of Aiglanor (line 1) is plausibly the <foreign rend="italic">proxenos</foreign> of Sparta mentioned in
+                <bibl><ptr target="#IG"/>, <citedRange>VI.1.5</citedRange></bibl> (about 188 BC). Whereas the Callimachos son of Poseidonios 
+                    (line 5) whom he thinks might be a <foreign rend="italic">thearodochos</foreign> of Delphi mentioned 
+                in <bibl><ptr target="#plassart1921"/>, p. 21, <citedRange>IV, l. 21</citedRange></bibl>, the identification remains uncertain,
+                    as his father's name is not mentioned there and his own name is a very common one at Cyrene.</p>
+                <p>The stone having been obviously re-cut, it seemed dubious whether lines 1 and 7 were respectively the beginning or the end of the list. And for <bibl><ptr target="#IGCyr"/></bibl>, 
+                    Dobias-Lalou thought that the photograph might show some traces of erased letters below line 7. Thanks to Rosamilia's direct examination of the stone, that idea was proven false: the 
+                blank is really a blank.</p>
+             <p>One further thought: when studying <ref type="inscription" source="#IGCyr2">IGCyr006800</ref>, Rosamilia was inclined to look for non-eponymous priests because of the paucity of prosopographical relations 
+             that might be established in that list, whereas it is proven that eponymous priests of Apollo were members of the high-rank families of Cyrene. It is not the case in the present list.
+             However, Rosamilia's demonstration remains attractive on behalf of the localisation of the find and is adopted here.</p>
+            </div></body>
+    </text>
+</TEI>

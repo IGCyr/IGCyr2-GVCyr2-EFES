@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Heading of an <rs type="textType">official document</rs>, possibly a <rs type="textType">letter</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr097600</idno>
+                <idno type="number" subtype="second-edition">097600</idno>
+                <idno type="TM">738493</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr097600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr097600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr097600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">91</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Top left angle of a <material>marble</material> <objectType>pillar</objectType> with a projecting moulding on top, broken off on all sides
+                                        except at left
+                                        (<dimensions>
+                                            <width>0.11</width>
+                                            <height>0.095</height>
+                                            <depth>0.185</depth>
+                                        </dimensions>), plausibly belonging to the support of <ref type="inscription" source="#IGCyr2">IGCyr062810</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062820</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062830</ref>, 
+                                        <ref type="inscription" source="#IGCyr2">IGCyr062840</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062850</ref> and perhaps also <ref type="inscription" source="#IGCyr2">IGCyr097150</ref>.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face under the moulding 
+                                    (<dimensions>
+                                        <width>0.08</width>
+                                        <height>0.095</height>
+                                    </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.007</height>; small serifs, large omicron, non slanting sigma, phi with flattened loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0139" notAfter="-0132" evidence="lettering prosopography" resp="rosamilia">Between 139 and 132 BC (Rosamilia, who prefers this date to 124-116 BCxs)</origDate>
+                        </origin>
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:                                        
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="1979" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1979 at the same place.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">checked</change>
+            <change when="2017-01-20" who="CDL">overall check; tagged w and lemma, rs; added Ital. translation; improved commentary</change>
+            <change when="2013-11-03" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77324/3/igcyr097600-1-face.tiff.jpg" corresp="igcyr097600" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77324">Face of igcyr097600 Official document</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77325/3/igcyr097600-2-squeeze.tiff.jpg" corresp="igcyr097600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77325">Squeeze of igcyr097600 Official document</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>121</citedRange> (photo)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>097600</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>107-108</citedRange> (date), pp. <citedRange>240-243</citedRange>, number 4, document I (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><rs type="office" key="eponymous priest"><w lemma="ἱαρεύς">Ἱαρεὺς</w></rs> Α<gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="2"/><date calendar="cyrenaean"><num type="ordinal" value="8"><w lemma="ὄγδοος">ὀγδόαι</w></num> <w lemma="φθίνω">φθ<supplied reason="lost">ίνοντος</supplied></w> <gap reason="lost" extent="unknown" unit="character"/></date>                    
+                    <lb n="3"/><space atLeast="5" atMost="6" unit="character"/> <w lemma="ἐπιστολά"/>Ἐπ<supplied reason="lost" cert="low">ιστολὰ</supplied> <gap reason="lost" extent="unknown" unit="character"/>                    
+                    <lb n="4"/><supplied reason="lost">Ἀ</supplied><unclear>ρ</unclear>ατομ<subst><del rend="corrected">η</del><add place="overstrike">ε</add></subst><supplied reason="lost" cert="low">νης</supplied> <gap reason="lost" extent="unknown" unit="character"/>                    
+                    <lb n="4a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="3"><lem resp="#rosamilia2023"> Ἐπ<supplied reason="lost" cert="low">ιστολὰ</supplied></lem>
+                        <rdg resp="#IGCyr">Επ<supplied reason="lost" cert="low">ιφι</supplied></rdg>
+                        <rdg resp="#SECir"><orig>επ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="4"><lem resp="#rosamilia2023"><supplied reason="lost">Ἀ</supplied><unclear>ρ</unclear>ατομ<subst><del rend="corrected">η</del><add place="overstrike">ε</add></subst><supplied reason="lost" cert="low">νης</supplied></lem>
+                    <rdg resp="#SECir #IGCyr"><supplied reason="lost">π</supplied><unclear>ρ</unclear>ατομ<subst><del rend="corrected">ε</del><add place="overstrike">η</add></subst><supplied reason="lost" cert="low">νία</supplied></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Prêtre <supplied reason="lost">Untel fils d'un tel</supplied>, le huitième jour du mois <gap reason="lost" extent="unknown" unit="character"/> déclinant.</p>
+            <p>Lettre <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>Aratomé<supplied reason="lost">nès</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Priest <supplied reason="subaudible">So-and-so son of So-and-so</supplied>, the 8th of the waning month <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>Letter <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>Aratome<supplied reason="lost">nes</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Sacerdote <supplied reason="lost">il tale figlio d'il tale</supplied>, l'ottavo giorno del mese <gap reason="lost" extent="unknown" unit="character"/> declinante.</p>
+            <p>Lettera <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>Aratome<supplied reason="lost">nes</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>On behalf of the type of marble and dimensions Dobias-Lalou had already suspected at <bibl><ptr target="#IGCyr"/></bibl> that this fragment might be the upper left part of the block bearing <ref type="inscription" source="#IGCyr2">IGCyr062800</ref>, 
+                    <ref type="inscription" source="#IGCyr2">IGCyr062810</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062820</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062830</ref>, 
+                    <ref type="inscription" source="#IGCyr2">IGCyr062840</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062850</ref>; the letter-size and lettering seemed to match well the poor rests belonging to 
+                    <ref type="inscription" source="#IGCyr2">IGCyr062800</ref> and would give the heading of the whole dossier. We now follow <bibl><ptr target="#rosamilia2023"/></bibl>, who deserves credit for turning down the supposed threefold 
+                    dating (in Cyreanean mode and in the two systems of the Lagid administration). He reads at line 4 the name of a well-known high-rank officer of Ptolemy VIII, Aratomenes son of 
+                    Ptolemaios, from Alexandria, who might act here as <foreign xml:lang="grc">στρατηγός</foreign> responsible in Cyrenaica. His name would stay here as the first word of the letter in a formula such as 'Aratomenes <supplied reason="lost">to the Cyrenaeans</supplied>', whereas line 3 would be the heading of the 
+                    letter, such as 'Letter <supplied reason="lost">of Aratomenes the strategos</supplied>'.</p>
+                 <p>As this convincing reconstruction could not be checked on the stones, we choose to keep the number and place of this fragment in the collection.</p>   
+            </div></body>
+    </text>
+</TEI>

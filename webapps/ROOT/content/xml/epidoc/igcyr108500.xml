@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> on occasion of a <foreign rend="italic">telesphoria</foreign></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr108500</idno>
+                <idno type="number" subtype="second-edition">108500</idno>
+                <idno type="TM">738615</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr108500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr108500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr108500</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two non adjacent fragments of a white <material>marble</material> sculpted panel depicting an architrave surmounted by a Doric frieze 
+                                        with antefixes, possibly part of a <objectType>naiskos</objectType>; the left and right ends are lost; what remains is as follows:
+                                        fragment a, broken off at left, right and below, has part of the metope number ii
+                                        (<dimensions>
+                                            <width>0.17</width>
+                                            <height>0.135</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>); 
+                                        fragment b, broken off at right, has part of the frieze from metope iv to metope vii and the corresponding architrave, with a part missing
+                                        at right
+                                        (<dimensions>
+                                            <width>0.44</width>
+                                            <height>0.19</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>);
+                                        estimated width of the complete panel at least 0.95.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one broken line within the metopes and in presumably four columns of 
+                                    two lines each on the architrave below.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>; no serifs, broad alpha, slanting mu and sigma, slightly dissymmetrical nu, smaller circular letters, open omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: exact place 
+                                unknown.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0325" notAfter="-0275" precision="medium">Late fourth or early third century BC</origDate> 
+                        </origin>
+                                  
+                                  <provenance type="found" notAfter="1993">
+                                      <p>Found before 1993 in a votive depot South of
+                                          <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the area of 
+                                          the <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.
+                                      </p>
+                                    </provenance>
+                                <provenance type="observed" when="1993" resp="cdl">
+                                    <p>Seen in 1993 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-03" who="CDL">overall check</change>
+            <change when="2014-01-13" who="cdl">lemma, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-20" who="Ljuba">added from CATALOGO </change>  
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77479/3/igcyr108500-1-face-fgtb.tiff.jpg" corresp="igcyr108500" decls="#photograph"><desc resp="Reynolds, J.M." source="IRCyr project" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77479">Face fragment b of igcyr108500 Dedication with telesphoria</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77480/3/igcyr108500-2-squeezes.tiff.jpg" corresp="igcyr108500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77480">Squeezes of all fragments of igcyr108500 Dedication with telesphoria</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr-cdl2007"/>, pp. 35-37, n. <citedRange>3</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2005</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>108500</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>125</citedRange> (findspot), pp. <citedRange>196-197</citedRange> (typology), pp. <citedRange>374-375</citedRange>, number 101 (text)</bibl>.</p>
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="text">
+                    <ab>
+                        <lb n="1"/><milestone unit="block" n="i"/><w lemma="τελεσφορέω"><supplied reason="lost">Τε</supplied><milestone unit="block" n="ii"/>λεσ<milestone unit="block" n="iii"/><supplied reason="lost">φο</supplied><milestone unit="block" n="iv"/><supplied reason="lost">ρέ</supplied>ν<milestone unit="block" n="v"/>τες</w> <milestone unit="block" n="vi"/>τῶι 
+                        <milestone unit="block" n="vii"/><persName type="divine" ref="#A_"><name nymRef="#Ἀ_"><seg part="I">Ἀ</seg><gap reason="lost" atLeast="1" atMost="2" unit="character"/><milestone unit="block" n="viii"/><gap reason="lost" atLeast="2" atMost="3" unit="character"/><milestone unit="block" n="ix"/><supplied reason="lost">νι</supplied></name></persName>                    
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="i">
+                    <ab>
+                        <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="3"/><persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="ii">
+                    <ab>
+                        <lb n="4"/><persName type="attested" key=""><name nymRef="#Ἰάσων">Ἰάσων</name>
+                        <lb n="5"/><persName type="attested" key=""><name nymRef="#Χαρίτιμος" type="patronymic">Χαριτίμω</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="iii">
+                    <ab>
+                        <lb n="6"/><persName type="attested" key=""><name nymRef="#Πρατομήδης">Πρατομ<supplied reason="lost">ήδης</supplied></name>
+                        <lb n="7"/><persName type="attested" key=""><name nymRef="#Λυσ_" type="patronymic"><seg part="I">Λυσ</seg><gap reason="lost" atMost="6" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="iv">
+                    <ab>
+                        <lb n="8"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="9"/><persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#mohamed-jmr-cdl2007 #rosamilia2023"><milestone unit="block" n="vii"/>Ἀ<gap reason="lost" atLeast="1" atMost="2" unit="character"/><milestone unit="block" n="viii"/><gap reason="lost" atLeast="2" atMost="3" unit="character"/><milestone unit="block" n="ix"/><supplied reason="lost">νι</supplied></lem>
+                <rdg resp="#IGCyr"><milestone unit="block" n="vii"/>Ἀ<supplied reason="lost">πό</supplied><milestone unit="block" n="viii"/><supplied reason="lost">λλω</supplied><milestone unit="block" n="ix"/><supplied reason="lost">νι</supplied></rdg>
+                </app></p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Au cours de leur télesphorie <supplied reason="subaudible">ce monument a été consacré</supplied> à A<gap reason="lost"/>n, par <supplied reason="lost">Untel fils d'Untel</supplied>,
+            Iasôn fils de Kharitimos, Pratomèdès fils de Lys<gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">Untel fils d'Untel</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>During their <foreign rend="italic">telesphoria</foreign> <supplied reason="subaudible">this monument was dedicated</supplied> to A<gap reason="lost"/>n by <supplied reason="lost">So-and-so son of So-and-so</supplied>,
+            Iason son of Charitimos, Pratomedes son of Lys<gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">So-and-so son of So-and-so</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Durante la loro <foreign rend="italic">telesphoria</foreign> <supplied reason="subaudible">questo monumento è stato dedicato</supplied> ad A<gap reason="lost"/>n
+                <supplied reason="lost">dal tale figlio del tale</supplied>, da Iason figlio di Charitimos, da Pratomedes figlio di Lys<gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">dal tale figlio del tale</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>The layout of this monument looks like the dedication of the Strategeion (see <ref type="inscription" source="#IGCyr2">IGCyr098500</ref>) in reduced size and with inverted 
+                    order of the parts of text inscribed on the metopes and the architrave.</p>
+             <p>If the model of the Strategeion was followed completely, one more metope, not inscribed, might have stood at each end. However, contra <bibl><ptr target="#mohamed-jmr-cdl2007"/></bibl>, followed at 
+                 <bibl><ptr target="#IGCyr"/></bibl>, this would not allow two more columns of names to stay at ll. 2 and 3. On the whole, there were four (or six) dedicators for this monument. <bibl><ptr target="#rosamilia2023"/></bibl> argues that the number of dedicants should be uneven, i.e. five, seven or nine, because the mention of Iason son of Charitimos begins under the metope corresponding to the 
+                 centre of line 1. There seems to be a bias in his argument.</p>
+             <p>The god's name is far from complete and offers a difficult dilemna since the <foreign rend="italic">editio princeps</foreign>. Either <foreign xml:lang="grc">Ἀπό|λλω|νι</foreign> or 
+                 <foreign xml:lang="grc">Ἄμ|μω|νι</foreign> are possible. Apollo was eventually preferred by the first editors and again for <bibl><ptr target="#IGCyr"/></bibl> by C. Dobias-Lalou, because this seemed more 
+                 plausible within the framework of a <foreign rend="italic">telesphoria</foreign>.   In fact, the other dedications related to the <foreign rend="italic">telesphoria</foreign> do not mention 
+                 Apollo as a recipient, except for <ref type="inscription" source="#IGCyr2">IGCyr126800</ref>, but their findspot and Callimachus'mention of the <foreign rend="italic">telesphoria</foreign> induce 
+                 to suppose that it was especially dedicated to him. In addition, some dedications by <foreign rend="italic">telesphoroi</foreign> mention the festivals of Karneia or Artamitia, which are related 
+                 to the sanctuary of Apollo and to the two civic deities.</p> 
+             <p>As a matter of fact, the votive depot of the Wadi El Aish clearly contains objects from various provenances and namely a series of items related to Ammon.The alternative possibility of that god had also 
+                 been discussed and dropped by edd. prr. Now <bibl><ptr target="#rosamilia2023"/></bibl>, in relation with <ref type="inscription" source="#IGCyr2">IGCyr109300</ref>, has new arguments for the 
+                presence of Ammon in the area. Therefore he would accept the idea of <foreign rend="italic">telesphorentes</foreign> offering a dedication to Ammon.</p>
+            </div></body>
+    </text>
+</TEI>

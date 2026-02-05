@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs> for Timagoras</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr033</idno>
+                <idno type="number" subtype="second-edition">033</idno>
+                <idno type="TM">738926</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr033</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr033</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr033</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">535</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p> Fragmented white <material>marble</material> <objectType>panel</objectType>, thicker at left than at right, with a moulding (now lost) above;
+                                        six fragments are joining, forming fragment a (<dimensions> <width>0.387</width> <height>0.49</height> <depth max="0.025" min="0.015">0.025 
+                                        at left, 0.015 at right</depth></dimensions>) on which this inscription is followed by <ref type="inscription" source="#IGCyr2">IGCyr097100</ref>.
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in six lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.005" max="0.009">0.005 to 0.009</height>; dissymmetrical nu, slanting mu and sigma, middle-size omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography textual-context" notBefore="-0320" notAfter="-0311" resp="rosamilia">Between 320 and 310 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1929">
+                            <p>Found by G. Oliverio in 1929 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, in the
+                                so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs>.</p>    
+                        </provenance>
+                        <provenance type="observed" when="1976" when-iso="2010" resp="cdl">
+                            <p>Seen in 1976 and again in 2010 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>. For the history of observation, see at <ref type="inscription" source="#IGCyr2">IGCyr097100</ref>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-06-30" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-11" who="Alice">It. translation; checked</change>
+            <change when="2017-03-03" who="CDL">overall check</change>
+            <change when="2016-05-27" who="CDL">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2016-05-25" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76620/3/gvcyr033-face.tiff.jpg" corresp="gvcyr033" decls="#photograph"><desc resp="Davesne, A." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/76620">Face of gvcyr033 Honours for Timagoras</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>103</citedRange></bibl> (photo), and 
+                    <bibl><ptr target="#daux1963"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.716</citedRange></bibl>;
+                    <bibl><ptr target="#gallavotti1963"/>, p. <citedRange>455</citedRange></bibl>;
+                    <bibl><ptr target="#peek1972"/>, n. <citedRange>3</citedRange></bibl>;
+                    <bibl><ptr target="#bravo1980"/>, p. <citedRange>921</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>30.1783</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>149-152</citedRange></bibl>;
+                    <bibl><ptr target="#CEG"/> <citedRange>II.850</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>033</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2003"/><citedRange/></bibl>;
+                    <bibl><ptr target="#laronde-lefevre2009"/><citedRange/></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>203-205</citedRange> (date), pp. <citedRange>248-251</citedRange>, number 7, ll. 1-6 (text)</bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg met="elegiac couplets">
+                        <l n="1" met="hexameter">
+                            <lb n="1"/><seg met="+--|+--|+--|+--|+"><gap reason="lost" extent="unknown" unit="character"/></seg>
+                            <seg met="--|++"><w lemma="ἀναδέω"><supplied reason="lost">ἀν</supplied><unclear>α</unclear>δήσας</w></seg></l>
+                        <l n="2" met="pentameter">
+                            <lb n="2"/><seg met="+--|+--|+|+--|+"><gap reason="lost" extent="unknown" unit="character"/></seg>
+                            <seg met="--|±"><w lemma="πατρίς"><supplied reason="lost" cert="low">πατρί</supplied>δος</w></seg></l>
+                        <l n="3" met="hexameter">
+                            <lb n="3"/><seg met="+--|+--|+--|+"><gap reason="lost" quantity="22" precision="low" unit="character"/></seg> <seg met="--|+--|+±"><w lemma="ἐν"><supplied reason="lost">ἐνὶ</supplied></w> <w lemma="δῶμα"><supplied reason="lost">δ</supplied>ώμασιν</w> <w lemma="ἵππος">ἵππον</w></seg></l>
+                        <l n="4" met="pentameter">
+                            <lb n="4"/><seg met="+--|+--|+"><gap reason="lost" quantity="18" precision="low" unit="character"/></seg>. <seg met="+--|+--|+"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65798">
+                            <name nymRef="#Τιμαγόρας"><supplied reason="lost">Τ</supplied>ιμαγόρας</name></persName> δὲ <w lemma="ἀρετή">ἀρετῆι</w></seg></l>
+                        <l n="5" met="hexameter">
+                            <lb n="5"/><seg met="+--|+--|+"><gap reason="lost" quantity="18" precision="low" unit="character"/></seg> <seg met="+|+--|+--|++"><w lemma="λυπρῶς">
+                            <supplied reason="lost">λ</supplied>υπρ<unclear>ῶ</unclear>ς</w> <w lemma="ὅδε">τάδ'</w> <w lemma="ὁράω">ὁρᾶι</w> καὶ <w lemma="ἀκούω">ἀκούει</w></seg></l>
+                        <l n="6" met="pentameter">
+                            <lb n="6"/><seg met="+--|+--|+"><gap reason="lost" quantity="17" precision="low" unit="character"/></seg>
+                            <seg met="+--|+--|±"><w lemma="μέγας"><supplied reason="lost">μ</supplied>είζονα</w> <w lemma="ὅδε">τήνδε</w> <w lemma="πόλις">πόλιν</w></seg>.</l>
+                    </lg>
+                <ab><lb n="7"/><note>Here begins <ref type="inscription" source="#IGCyr2">IGCyr097100</ref></note></ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#gallavotti1963 #CEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἀν</supplied><unclear>α</unclear>δήσας</lem>
+                <rdg resp="#SECir #laronde1987"><gap reason="lost" extent="unknown" unit="character"/>αδήσας</rdg>
+                <rdg resp="#peek1972"><supplied reason="lost">πολλάκις ἄλλος μὲν κεφαλὴν στεφάνοις ἀν</supplied>αδήσας</rdg>
+                    <rdg resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">κατ</supplied><unclear>α</unclear>δήσας</rdg>
+                </app>
+                    <app loc="2"><lem resp="#CEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">πατρί</supplied>δος</lem>
+                    <rdg resp="#SECir #laronde1987 #rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><orig>δος</orig></rdg>
+                    <rdg resp="#peek1972"><supplied reason="lost">νίκαις ηὔξησεν κῦδος ἑῆς πατρί</supplied>δος</rdg>
+                    </app>
+                    <app loc="3"><lem resp="#GVCyr #rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἐνὶ δ</supplied>ώμασιν ἵππον</lem>
+                        <rdg type="alternative" resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">σ</supplied>ώμασιν ἵππον</rdg>
+                        <rdg resp="#SECir #laronde1987 #CEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">δ</supplied>ώμασιν ἵππον</rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">ἅρματα καλά τ' ἔχων θρέψας τ'ἐνὶ δ</supplied>ώμασιν ἵππον</rdg>
+                    </app>
+                    <app loc="4"><lem resp="#SECir #laronde1987 #CEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Τ</supplied>ιμαγόρας δὲ ἀρετῆι</lem>
+                        <rdg resp="#peek1972"><supplied reason="lost">ὠκυδρόμον, σφετέρηι Τ</supplied>ιμαγόρας δὲ ἀρετῆι·</rdg>
+                    </app>
+                    <app loc="5"><lem resp="#gallavotti1963 #bravo1980 #CEG #laronde-lefevre2009 #GVCyr #rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">λ</supplied>υπρ<unclear>ῶ</unclear>ς τάδ' ὁρᾶι</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ο</supplied>ὐ πρ<supplied reason="lost">ό</supplied>στα δρᾶι</rdg>
+                        <rdg resp="#daux1963"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ο</supplied>ὐ πρ<choice><corr>ό</corr><sic>ώ</sic></choice>στα δ' <supplied reason="lost">ὁ</supplied>ρᾶι</rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">ὃς δὴ τοῦτο μαθὼν ε</supplied>ὖ πρὸς τάδ' ὁρᾶι</rdg>                        
+                        <rdg resp="#laronde1987"><gap reason="lost" extent="unknown" unit="character"/><orig>υ</orig> πρ<supplied reason="lost">ώ</supplied>ς τάδ' ὁρᾶι</rdg>
+                    </app>
+                    <app loc="6"><lem resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">μ</supplied>είζονα τήνδε πόλιν</lem>
+                        <rdg resp="#peek1972"><supplied reason="lost">αὐτὸς ἕλοιτο τιθεῖν με</supplied>ίζονα  τήνδε πόλιν</rdg>
+                        <rdg resp="#CEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">μ</supplied>είζονα τήνδε πόλιν; <note>from Bravo's interpretation</note></rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><gap reason="lost" extent="unknown" unit="character"/> ayant couronné <gap reason="lost" extent="unknown" unit="character"/> de la patrie <gap reason="lost" extent="unknown" unit="character"/> dans sa/leur demeure un cheval <gap reason="lost" extent="unknown" unit="character"/>.
+                    Mais Timagoras par sa valeur <gap reason="lost" extent="unknown" unit="character"/> il s'afflige de ce spectacle et de cette rumeur <gap reason="lost" extent="unknown" unit="character"/> accroît le prestige de notre cité.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><gap reason="lost" extent="unknown" unit="character"/> having crowned <gap reason="lost" extent="unknown" unit="character"/> of the mother-city <gap reason="lost" extent="unknown" unit="character"/> in his/their house a horse <gap reason="lost" extent="unknown" unit="character"/>.
+                But Timagoras with his valour <gap reason="lost" extent="unknown" unit="character"/> is distressed when seeing and hearing that <gap reason="lost" extent="unknown" unit="character"/> enhances the prestige of our city.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/> avendo incoronato <gap reason="lost" extent="unknown" unit="character"/> della patria <gap reason="lost" extent="unknown" unit="character"/> nella sua/loro casa un cavallo <gap reason="lost" extent="unknown" unit="character"/>.
+                Ma Timagoras per il suo valore <gap reason="lost" extent="unknown" unit="character"/> tristemente vede e ascolta questo <gap reason="lost" extent="unknown" unit="character"/> più grande questa città.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>[---] بعد أن توج [---] من المدينة الأم [---] في منزله أو منازلهم  حصاناً [---]. لكن تيماجوراس بشجاعته [---] يشعر بالأحباط عند رؤية وسماع ذلك [---] يعزز مكانة مدينتنا.</p>
+         </div><div type="commentary">
+                
+                <p>About the history of that stone, the publication of which has been long delayed, see commentary at <ref type="inscription" source="#IGCyr2">IGCyr097100</ref>. Unfortunately 
+                the only information we have from Oliverio, who found the stone complete in that part is the following: «<foreign xml:lang="it">Dopo un'introduzione laudativa 
+                in versi, esaltanti le gesta di un cittadino illustre, Timagoras, che ha reso celebre la città…</foreign>». This does not help much to understand the role 
+                of Timagoras in the affairs related below, where he is not mentioned again. Did he only give money to the city or did he act directly as an ambassador?</p>
+                <p>Peeks rightly stresses that <foreign xml:lang="grc">δέ</foreign> after the name of Timagoras shows a new sentence and a new focus. He thus imagined  
+                 two themes: 1) Many people illustrated the city with their victories in chariot or horse races; 2) Timagoras for his part did it with virtue. If the idea is good,
+                 its restoration is akward, with a badly placed <foreign xml:lang="grc">δέ</foreign> and a second theme too short. For Peek developes a third theme at 
+                 ll. 5-6 and so nobody would learn what Timagoras has done. Bravo adopted this organisation, only changing Peek's optative formulation into a rhetoric question.</p>
+                <p>It seems more plausible that the second theme was developed from l. 4 on to the end, explaining that Timagoras was moved when seeing his city in a 
+                  difficult position and acted so as to restore her lost prestige. Whether the first theme (ll. 1-4) was his ancestors' or other citizens' action cannot be decided. 
+                  On the whole, it seems cautious to drop most of Peek's restorations.</p>
+             <p><bibl><ptr target="#rosamilia2023"/></bibl> agrees with two themes and suggests that the first one should relate to the events having lead to the establishement of seizure rights against 
+             the Cyrenaeans. However, his translation of line 1 with a passive verbe is erroneous and at line 3 the relation between 'bodies' and 'horse' is far from clear.</p>
+                <p>Although only few of the original text is preserved, the language seems to be poetic and no dialectal feature appears in it, contrasting with the following
+                    part in prose.</p>
+                <p>Metrical analysis: in spite of the important lacunae, there is no doubt that we have here three elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

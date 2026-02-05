@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably a <rs type="textType" cert="medium">list of priests</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr130900</idno>
+                <idno type="number" subtype="second-edition">130900</idno>
+                <idno type="TM">738856</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr130900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr130900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr130900</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">573</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two non adjacent fragments of a white <material>marble</material> <objectType>block</objectType>, both broken off everywhere;
+                                        it cannot even be decided whether they belong to the same face (see commentary) 
+                                        (fragment a <dimensions>
+                                            <width atLeast="0.10">0.10</width>
+                                            <height atLeast="0.11">0.11</height>
+                                            <depth atLeast="0.08">0.08</depth>
+                                        </dimensions> fragment b <dimensions>
+                                            <width atLeast="0.14">0.14</width>
+                                            <height atLeast="0.11">0.11</height>
+                                            <depth atLeast="0.08">0.08</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face(s?) (fragment a <dimensions><width>0.085</width><height>0.065</height>
+                                </dimensions>; fragment b <dimensions><width>0.10</width><height>0.09</height></dimensions>) by different hands.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="m1">Hand 1: <height>0.018</height>, small serifs; smaller and broad delta, calice-shaped upsilon.</handNote> 
+                            <handNote xml:id="m2">Hand 2: <height>0.02</height>, small serifs; very slightly slanting sigma, horseshoe shaped omega.</handNote> 
+                            <handNote xml:id="m3">Hand 3: <height>0.02</height>, no serifs; large omicron, non-slanting sigma.</handNote> 
+                            <handNote xml:id="m4">Hand 4: <height>0.015</height>, very small serifs; epsilon with very long external bars, slightly slanting mu, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0200" notAfter="-0101" precision="medium" cert="low">Perhaps second century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1977">
+                                    <p>Found before 1977 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-26" who="CDL">slight change in bibl</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-05-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-05" who="Alice">checked</change> 
+            <change when="2017-02-14" who="CDL">overall check</change>
+            <change when="2016-03-17" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77719/3/igcyr130900-1-fragment%20a.tiff.jpg" corresp="igcyr130900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77719">Fragment a of igcyr130900 List of priests (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77720/3/igcyr130900-2-squeeze%20a.tiff.jpg" corresp="igcyr130900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77720">Squeeze of igcyr130900 fragment a List of priests (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77721/3/igcyr130900-3-squeeze%20b.tiff.jpg" corresp="igcyr130900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77721">Squeeze of igcyr130900 fragment b List of priests (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>130900</citedRange></bibl>;
+                <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>132</citedRange> (mention) and pp. <citedRange>265-266</citedRange>, number 16 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><handShift new="#m1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><handShift new="#m2"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><persName type="attested" key=""><name nymRef="#Θευδ_"><seg part="I"><supplied reason="lost">Θ</supplied>ευδ</seg><gap reason="lost" atLeast="3" atMost="4" unit="character"/></name></persName><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιοσ</orig><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                        <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+	               </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><handShift new="#m3"/><persName type="attested" key=""><name nymRef="#_στος"><gap reason="lost" atLeast="6" atMost="7" unit="character"/><seg part="F"><unclear>στ</unclear>ος</seg></name></persName>
+                            <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                        <lb n="2"/><handShift new="#m4"/><persName type="attested" key=""><name nymRef="#-ένης"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><seg part="F">ένης</seg></name> 
+                            <persName type="attested" key=""><name nymRef="#Α_" type="patronymic"><seg part="I">Α</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="3"/><persName type="attested" key=""><name><gap reason="lost" quantity="6" unit="character" precision="low"/></name> <persName type="attested" key=""><name nymRef="#Τιμο_" type="patronymic"><seg part="I">Τιμο<choice><unclear>ν</unclear><unclear>μ</unclear><unclear>κ</unclear></choice></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+	               </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="b.1"><lem resp="#rosamilia2023"><gap reason="lost" atLeast="6" atMost="7" unit="character"/><unclear>στ</unclear>ος</lem>
+                <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/>ιος</rdg>
+                </app>
+                    <app loc="b.2"><lem resp="#rosamilia2023"><gap reason="lost" atLeast="5" atMost="6" unit="character"/></lem>
+                <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>
+                    <app loc="b.3"><lem resp="#rosamilia2023"><gap reason="lost" quantity="6" unit="character" precision="low"/></lem>
+                <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Intraduisible (voir le commentaire).</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Not usefully translatable (see commentary).</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Intraducibile (vedi commento).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمة بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>The similar material of both fragments and their unique inventory number have been taken as a proof that they come from one and the same block.
+                The few preserved segments show that we have a list of names written successively in different hands. The lettering of fragment a seems somewhat earlier than
+                that of fragment b. Both fragments may either come from one and the same face or from two contiguous faces of a large stele, like on other such lists 
+                (description of this type of lists at <bibl><ptr target="#cdl2016"/></bibl>). <bibl><ptr target="#rosamilia2023"/></bibl> argued that we are sure that name and father's name stood 
+                on one and the same line only on fragment b, whereas fragment a might as well belong to a lateral and narrower side with name and father's name on two subsequent lines. Therefore, he, perhaps rightly, 
+                presented both fragments in the reverse order. However, the order choosen for <bibl><ptr target="#IGCyr"/></bibl> has not been changed here for reasons of clarity.</p>
+	      <p>At a.1, the name should be either <foreign xml:lang="grc">Θεύδωρος</foreign> or <foreign xml:lang="grc">Θεύδοτος</foreign>. We cannot know whether it 
+	           is a name or a father's name, as the ending at line 2 might be either a nominative or a genitive.</p>
+                <p>At b.1 <bibl><ptr target="#rosamilia2023"/></bibl> rightly suggests unclear sigma and tau, which leads to a name at the nominative. Moreover, he observes that all attested names in the region 
+                    with that ending have 6 to 7 letters at the beginning. That allows him to estimate the lacunae at the beginning of the following lines. At b.2, there is a small space before the last preserved letter and this 
+                    confirms that we have on one line name and father's name. The first name might be a compound in <foreign xml:lang="grc">-γένης</foreign> or <foreign xml:lang="grc">-σθένης</foreign>. At line 3, we have the beginning of 
+	          the father's name, which was a compound in <foreign xml:lang="grc">Τιμο-</foreign> the second member of which began with an unclear letter. In fact, the best attested names corresponding to those vestiges would be 
+                    on one part <foreign xml:lang="grc">Τιμοκλῆς</foreign>, on the other <foreign xml:lang="grc">Τιμόνοθος</foreign>. The latter has in local inscriptions several instances earlier than the present one, but we know also of 
+                    a man bearing that name with a fragmentary father's name <foreign xml:lang="grc">Ἀριστ-</foreign>, mentioned as a Cyrenaean <foreign rend="italic">thearodokos</foreign> at Delphi (<bibl><ptr target="#plassart1921"/>, <citedRange>iv.15</citedRange></bibl>)
+                    about the date of our list.</p>
+            </div></body>
+    </text>
+</TEI>

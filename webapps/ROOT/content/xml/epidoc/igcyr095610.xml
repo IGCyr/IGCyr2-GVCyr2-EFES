@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr095610</idno>
+                <idno type="number" subtype="second-edition">095610</idno>
+                <idno type="TM">738466</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr095610</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr095610</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr095610</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material>
+                                        <objectType>base</objectType>, chipped in the middle of the upper edge, with holes for two feet on the upper face (<dimensions>
+                                            <width>0.64</width>
+                                            <height>0.2</height>
+                                            <depth>0.69</depth>
+                                        </dimensions>); the surface of the front face damaged and covered with concretions.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> twice with the same text on front face, this one in two lines beneath <ref type="inscription" source="#IGCyr2">IGCyr095600</ref>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>; lettering more carefully cut, larger and with slightly later ductus than <ref type="inscription" source="#IGCyr2">IGCyr095600</ref>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace> 
+                            <origDate notBefore="-0375" notAfter="-0351" precision="medium">Second quarter of fourth century BC</origDate>
+                        </origin>
+
+
+                        <provenance type="found" when="1925" resp="Oliverio">
+                            <p>Found by G. Oliverio in 1925 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>. </p>
+                        </provenance>
+                        <provenance type="observed" when="1960" resp="gpc">
+                            <p>Seen in 1960 by Pugliese Carratelli at the same place.</p>
+                        </provenance>
+                        <provenance type="observed" when="2001" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 2001 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, namely West of the <rs type="monuList" ref="https://www.slsgazetteer.org/1051">Temple of Artemis</rs>.</p>
+                        </provenance>
+
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation>
+        </profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-21" who="Alice">checked</change>
+            <change when="2017-01-16" who="CDL">tagged w and lemma, added Ital. tanslation</change>
+            <change when="2013-10-11" who="cdl">lemma, text, Fr. and Engl. translations</change>
+            <change when="2013-10-11" who="cdl+hb">file created</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77295/3/igcyr095610-face.tiff.jpg" corresp="igcyr095610" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77295">Face of igcyr095610 Tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1927"/>, p. <citedRange>157</citedRange></bibl> (mention of find); 
+                    <bibl><ptr target="#oliverioTacc"/>, <citedRange>XI.57</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SECir"/>, <citedRange>38</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>095610</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                     <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65124"><name nymRef="#Νίκανδρος">Νίκανδρος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63261"><name type="patronymic" nymRef="#Ἀρτυμίων">Ἀρτυμ<lb n="2" break="no"/>ίωνος</name></persName></persName> <w lemma="δεκάτα">δεκάταν</w>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Nikandros fils d'Artymiôn <supplied reason="subaudible">a consacré ce monument</supplied> comme dîme.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Nikandros son of Artymion <supplied reason="subaudible">dedicated this monument</supplied> as a tithe.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Nikandros figlio di Artymion <supplied reason="subaudible">ha dedicato questo monumento</supplied> come decima.</p>
+         </div><div type="commentary">
+                
+                <p>The second inscription on the same block was probably aimed at being more clearly seen.</p>
+                <p/>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

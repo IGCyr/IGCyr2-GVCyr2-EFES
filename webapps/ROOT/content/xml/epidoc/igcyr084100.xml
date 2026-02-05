@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs>s</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr084100</idno>
+                <idno type="number" subtype="second-edition">084100</idno>
+                <idno type="TM">738395</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr084100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr084100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr084100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>On the front of two <material>rock</material>-cut <objectType>tomb</objectType>s 
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> above and between the entrances (ca. 3 m above ground).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Rather irregular letters (height <height>unknown</height>), without clear alignment; slanting mu and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context" notBefore="-0350" notAfter="-0301" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1996">
+                                    <p>Found in 1996 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1086">Necropolis</rs> to the North of the city wall, in front of 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1465">area L</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-07" who="Alice">checked</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-31" who="cdl">lemma, text, apparatus, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#buzaian-lloyd1996"/>, p. <citedRange>142</citedRange> (dr.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2191</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>084100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                 <ab>
+                     <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἀλεξίδαμος">Ἀλεξ<unclear>ί</unclear><lb n="2" break="no"/><supplied reason="lost" cert="low">δ</supplied><unclear>α</unclear>μος</name></persName>
+                 </ab>
+                </div>
+                <div type="textpart" n="b">
+                 <ab>
+                    <lb n="1"/><g type="punct">⋮</g> <persName type="attested" key=""><name nymRef="#Ἀριστ_"><seg part="I"><abbr>Ἀριστ</abbr></seg></name></persName>     
+	      </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>A</p>
+                <p>
+                    <app loc="1">
+                        <rdg resp="#buzaian-lloyd1996"><abbr>ΑΛΕΞ<unclear>Ι</unclear></abbr> <space extent="unknown" unit="character"/>, <abbr>ΑΡΙΣΤ</abbr></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="2">
+                        <rdg resp="#buzaian-lloyd1996"><abbr><supplied reason="lost">Δ</supplied><unclear>Α</unclear>ΜΟΣ</abbr></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> a) Alexidamos. b) <abbr>Arist</abbr>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> a) Alexidamos. b) <abbr>Arist</abbr>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> a) Alexidamos. b) <abbr>Arist</abbr>.</p>
+         </div><div type="commentary">
+                
+                <p>It is not easy to interpret those inscriptions which are, as Buzaian and Lloyd say, roughly cut and heavily weathered. They speak of abbreviated personal names
+                    and seem to consider that those are three in number. However, to judge from the drawing, the bad alignment between <foreign xml:lang="grc">ΑΛΕΞΙ</foreign> and 
+                    <foreign xml:lang="grc">ΑΡΙΣΤ</foreign> and the placement of <foreign xml:lang="grc">ΑΜΟΣ</foreign> are in favour of Pleket's assumption (SEG) that <foreign xml:lang="grc">Ἀλεξίδαμος</foreign> should be read on two lines at left, presumably corresponding to the left hand tomb (L83), whereas <foreign xml:lang="grc">ΑΡΙΣΤ</foreign>
+                    would be related to the right hand tomb (L87). However, the punctuation before the latter is rather puzzling: is it an awkawrdly placed separation between two areas or might they rather be some holes for fixation?</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

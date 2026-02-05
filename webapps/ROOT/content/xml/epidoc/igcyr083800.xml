@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr083800</idno>
+                <idno type="number" subtype="second-edition">083800</idno>
+                <idno type="TM">738392</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr083800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr083800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr083800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a <material>limestone</material> rectangular <objectType>altar</objectType> with mouldings below and above and at least one compartment in the upper face
+                                        (dimensions of base <dimensions>
+                                            <width>1.5</width>
+                                            <depth>0.8</depth>
+                                        </dimensions>; restored width of inscribed area 1.02.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on two opposite sides of the upper moulding (a and b).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Side a: <height>0.046</height>, one letter plus space <width>0.9</width>; 
+                                side b: <height>0.045</height>, one letter plus space <width>0.145</width>;
+                            slantering sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering archaeological-context" notBefore="-0260" notAfter="-0250" precision="low" resp="rosamilia">Probably between 260 and 250 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1916">
+                                    <p>Found in 1916 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, South of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1380">Temple of Demeter and Kore</rs>. 
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" notAfter="1995" resp="GP">
+                            <p>Studied by G. Paci before 1995 in situ, on the <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.</p>
+                        </provenance>        
+                        <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">obs place amended</change>    
+            <change when="2023-08-01" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-06" who="Alice">checked</change>
+            <change when="2016-06-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-30" who="cdl">lemma, bibliography, text changed, apparatus, translation, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text partially edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77207/3/igcyr083800-1-side%20a.tiff.jpg" corresp="igcyr083800" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77207">Side a of igcyr083800 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77208/3/igcyr083800-2-side%20b.tiff.jpg" corresp="igcyr083800" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77208">Side b of igcyr083800 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#bacchielli1995"/>, pp. <citedRange>130-132</citedRange> (ph.)</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>45.2169</citedRange></bibl>;
+                    <bibl><ptr target="#bacchielli1995b"/>, pp. <citedRange>243-244</citedRange>
+                        (= <bibl><ptr target="#bacchielli2002a"/>, pp. <citedRange>123-124</citedRange>, pl. XXX, 2</bibl>)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>083800</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>326</citedRange>, number 67 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Eunomia"><name nymRef="#Εὐνομία">Εὐνο<unclear>μ</unclear><supplied reason="lost">ίας</supplied></name></persName> 
+                    <persName type="divine" ref="#Dika"><name nymRef="#Δίκα"><supplied reason="lost" cert="low">Δίκας</supplied></name></persName>
+                    
+	      </ab>
+                </div>
+                <div type="textpart" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="divine" ref="#_a"><name nymRef="#_ας"><gap reason="lost" quantity="6" unit="character" precision="low"/><seg part="F">ας</seg></name></persName>
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="b.1"><lem><gap reason="lost" quantity="6" unit="character" precision="low"/>ας</lem>
+                        <rdg resp="#rosamilia2023"><supplied reason="lost" cert="low">Εἰράν</supplied>ας</rdg>
+                       <rdg resp="#bacchielli1995"><supplied reason="lost" cert="low">Εἰρήν</supplied>ας</rdg>
+                    </app>
+              </p>
+                
+     </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>a) <supplied reason="subaudible">Autel</supplied> d'Eunomia <supplied reason="lost" cert="low">et de Dika</supplied>.</p> 
+            <p>b) <supplied reason="subaudible">Autel</supplied> de <gap reason="lost" quantity="6" unit="character" precision="low"/>a.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+           <p>a) <supplied reason="subaudible">Altar</supplied> of Eunomia <supplied reason="lost" cert="low">and of Dika</supplied>.</p> 
+           <p>b) <supplied reason="subaudible">Altar</supplied> of <gap reason="lost" quantity="6" unit="character" precision="low"/>a.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>a) <supplied reason="subaudible">Altare</supplied> d'Eunomia <supplied reason="lost" cert="low">e di Dika</supplied>.</p> 
+            <p>b) <supplied reason="subaudible">Altare</supplied> di <gap reason="lost" quantity="6" unit="character" precision="low"/>a.</p>
+         </div><div type="commentary">
+                
+                <p>The altar was first mentioned by <bibl><ptr target="#oliverio1931"/>, p. <citedRange>21</citedRange></bibl>, who spoke of «<foreign xml:lang="it">altari (uno dedicato alla Benevolenza)</foreign>»; 
+                <bibl><ptr target="#stucchi1984"/>, p. <citedRange>854</citedRange></bibl> followed Oliverio's implicit restoration when speaking of «<foreign xml:lang="it">l'ara di Eunoia</foreign>». However Bacchielli 
+                gave for the first time photographs and added an epigraphic analysis by G. Paci. The latter argued that what remains of the last preserved letter, being slightly 
+                oblique, is no iota but a mu. Hence the restored name of Eunomia.</p>
+	   <p>The lettering may be dated widely in the third century BC; the archaeological context for the displacement of the Demeter and Kore sanctuary of the agora
+	       from the Western side towards the middle of the piazza dates of the middle of the century. Bacchielli links it more precisely with the marriage of Berenice with Ptolemy III
+	   and argues that after the troubles following Magas' death this event was the occasion of developing the cult of Demeter as the marriage goddess and jointly that
+	   of Eunomia ('Good Order') with possibly Dike and/or Eirene, all three daughters of Themis. <bibl><ptr target="#rosamilia2023"/></bibl> suggests a slightly earlier date because the date of Magas' death is now 
+	       placed about 260 BC. The placement of two names on one side and one name on the opposite side is linked to the dimensions of the missing part and to the different spacing of the letters on both sides. 
+	       In spite of some good arguments, we prefer to leave the third name open, as it would be fully restored. </p>
+	   <p>Anyhow the altar seems to have been shared by three goddesses, a fact that is paralleled at Cyrene, but for the fact that in the other known examples all the names are written 
+	       on one and the same side of the altars, which rest against another building. The difference here would be due to the place of the altar, that was to be seen from either of its two long sides.</p>
+            </div></body>
+    </text>
+</TEI>

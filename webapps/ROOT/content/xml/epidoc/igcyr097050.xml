@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr097050</idno>
+                <idno type="number" subtype="second-edition">097050</idno>
+                <idno type="TM">738484</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr097050</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr097050</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr097050</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <objectType>base</objectType> of reddish <material>marble</material> 
+                                    with a rectangular hollow (<dimensions><depth>0.03</depth></dimensions>) on top
+                                        (<dimensions>
+                                           <width>0.41</width>
+                                            <height>0.25</height>
+                                            <depth>0.40</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height>; careful letters symmetrically spaced.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0320" notAfter="-0280" precision="medium">End of fourth or beginning of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1926" resp="Guidi"> 
+                                    <p>Found by G. Guidi in 1926 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, from the enclosure of tomb N 1Cassels.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" notAfter="1997" resp="JMR">
+                                    <p>Seen by J.M. Reynolds before 1997 at the same place.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-04" who="cdl">bibl updated</change>    
+            <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-19" who="CDL">overall check: added Ital. translation</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-03" who="CDL">lemma, text markup, metadata, Fr. and Engl. translations , commentary</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>
+                    </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>X.43, XII.92</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>94</citedRange>, and fig. 73</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>097050</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#beschi1970"/>, p. <citedRange>204</citedRange> (date of base)</bibl>; 
+                    <bibl><ptr target="#santucci2003"/>, p. <citedRange>199</citedRange></bibl> (history of the tomb);
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.2</citedRange></bibl>;
+                    <bibl><ptr target="#ensoli2022"/></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                            <ab>
+                                <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66126"><name nymRef="#Φράσων">Φράσων</name> 
+                                <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65271"><name nymRef="#Παρμενίων" type="patronymic">Παρμενίωνος</name></persName></persName>
+                          </ab></div><div type="apparatus" xml:space="preserve">
+            
+                 <p/>
+               </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Phrason fils de Parmenion.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Phrason son of Parmenion.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Phrason figlio di Parmenion.</p>
+         </div><div type="commentary">
+                
+                <p>The date based on the lettering is not contradictory with some of the funerary material found inside the underground chamber of the rectangular tomb which anteceded 
+                    the prestigious tomb N 1 (so-called Windmill Tomb) and might belong to that first stage. <bibl><ptr target="#ensoli2022"/></bibl> insisting on that point, dissociates the inscribed base and 
+                     circular tomb which, in her view, was that of a wealthy person, namely king Magas.</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

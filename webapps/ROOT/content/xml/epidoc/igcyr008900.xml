@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of an exedra as a <rs type="textType">tithe</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr008900</idno>
+                <idno type="number" subtype="second-edition">008900</idno>
+                <idno type="TM">738192</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr008900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr008900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr008900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two out of six blocks of greyish <material>marble</material>, forming together a <objectType>semi-circular exedra</objectType>, with holes and footprints 
+                                        on upper sides: A is the leftmost block and was in 1983 still attached to the adjacent block (not inscribed) on the right; B is a loose angle, prepared for 
+                                        attachment to another block on its right and broken off at left and bottom;
+                                        grey <material>marble</material>
+                                        (A: <dimensions n="A">
+                                            <width>0.74</width>
+                                            <height>0.325</height>
+                                            <depth>0.57</depth>
+                                            <dim type="arc" max="0.75">-0.75</dim>
+                                        </dimensions> B:
+                                            <dimensions n="B">
+                                                <dim type="chord">0.36</dim>
+                                                <height atLeast="0.29">0.29</height>
+                                                <depth atLeast="0.45">0.45</depth>  
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs>: A on loose side, looking to the lane; B on concave side, facing the visitor.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>A: <height n="A">0.04</height>; B: <height n="B">0.033</height>; homogenous hand, careful lettering.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0201" precision="medium">Fourth to third centuries BC</origDate>
+                        </origin>
+                        
+                        <provenance xml:id="copy-smith-porcher" type="found" when="1860">
+                                    <p>Fragment A copied by R.M. Smith and E.A. Porcher in 1860;</p>
+                        </provenance> 
+                        <provenance type="found" resp="Oliverio" when="1925">
+                            <p>fragment B found by G. Oliverio probably in 1925 at
+                            <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, to the West of the so called 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1356">Myrtle Bower</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="1983-05-22" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou on May 22nd, 1983 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stones (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2022-04-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2012-03-28" who="CDL">lemma, text, apparatus, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76758/3/igcyr008900-1-fgta.tiff.jpg" corresp="igcyr008900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/76758">Fragment a of igcyr008900 Dedication of tithe</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76759/3/igcyr008900-2-fgta.tiff.jpg" corresp="igcyr008900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76759">Fragment a of igcyr008900 Dedication of tithe</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76760/3/igcyr008900-3-fgtb.tiff.jpg" corresp="igcyr008900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/76760">Fragment b of igcyr008900 Dedication of tithe</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76761/3/igcyr008900-4-fgtb.tiff.jpg" corresp="igcyr008900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2004"><ref target="http://hdl.handle.net/20.500.14008/76761">Fragment b of igcyr008900 Dedication of tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#smith-porcher1864"/>, n. <citedRange>2</citedRange></bibl>, whence 
+                    <bibl>Blass, <ptr target="#SGDI"/> <citedRange>4839</citedRange></bibl> (fragment A);
+                    <bibl><ptr target="#oliverioTacc"/>, <citedRange>XI.48, XII.12</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>35</citedRange>, fig. 33 (fragment A)</bibl>;
+                    <bibl><ptr target="#oliverioTacc"/>, <citedRange>XI.57</citedRange></bibl>, whence
+                    <bibl> <ptr target="#SECir"/>, <citedRange>185</citedRange> (fragment B, 
+                        without illustration, with reference to fragment A)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>008900</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                   
+                <div type="textpart" subtype="block" n="A">
+                   <ab>   
+                       <lb n="1"/><persName type="attested"><name nymRef="#_ης"><gap reason="lost" quantity="6" unit="character"/><seg part="F"><unclear>η</unclear>ς</seg></name> 
+                           <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64407"><name nymRef="#Ἱπποκλῆς" type="patronymic">Ἱππoκλεῦς</name></persName></persName>
+                       <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62538"><name nymRef="#Ἀγασικλῆς">Ἀγασικλῆς</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65992"><name nymRef="#Φιλοκλῆς" type="patronymic">Φιλοκλεῦς</name></persName></persName>
+                       <lb n="3"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName> <w lemma="δεκάτα">δεκάταν</w>
+                    </ab>
+                </div>
+                
+                <div type="textpart" subtype="block" n="B">
+                    <ab>
+                        <lb n="1"/><space extent="unknown" unit="character"/> <persName type="attested" key=""><name nymRef="#Τιμα_"><seg part="I">Τιμ<unclear>α</unclear></seg></name><gap reason="lost" extent="unknown" unit="character"/> 
+                        <lb n="2"/><space extent="unknown" unit="character"/> <persName type="attested" key=""><name nymRef="#Ἀγα_" type="patronymic"><seg part="I">Ἀγα<choice><unclear>μ</unclear><unclear>ν</unclear><unclear>κ</unclear></choice></seg></name><gap reason="lost" extent="unknown" unit="character"/></persName></persName>
+                    </ab>
+                 </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="A.1"><lem><gap reason="lost" quantity="6" unit="character"/><unclear>η</unclear>ς</lem> 
+                    <rdg resp="#SECir"><supplied reason="lost">Τιμασικλῆ</supplied>ς</rdg>
+                </app>
+                    <app loc="B.1"><lem>Τιμ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir">Τιμ<unclear>α</unclear><supplied reason="lost">σικλῆς <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64407"><name>Ἱπποκλεῦς</name></persName></supplied></rdg>
+                    </app>
+                    <app loc="B.2"><lem>Ἀγα<choice><unclear>μ</unclear><unclear>ν</unclear><unclear>κ</unclear></choice>
+                                <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62538"><name>Ἀγα<unclear>σ</unclear><supplied reason="lost">ικλῆς</supplied></name></persName> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65992"><name><supplied reason="lost">Φιλοκλεῦς</supplied></name></persName></rdg>
+                    </app>
+                </p>
+                
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p>A. <supplied reason="lost">Untel</supplied> fils d'Hippoklès et Agasiklès fils de Philoklès ont consacré à Apollon comme dîme.</p>
+                <p>B. Tim<gap reason="lost" extent="unknown" unit="character"/> fils d'Aga<gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p>A. <supplied reason="lost">So-and-so</supplied> son of Hippokles and Agasikles son of Philokles dedicated to Apollo as a tithe.</p>
+                <p>B. Tim<gap reason="lost" extent="unknown" unit="character"/> son of Aga<gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>A. <supplied reason="lost">Il tale</supplied> figlio di Hippokles e Agasikles figlio di Philokles hanno dedicato ad Apollo come decima.</p>
+                <p>B. Tim<gap reason="lost" extent="unknown" unit="character"/> figlio di Aga<gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>Pugliese Carratelli was right in attributing both blocks to the same exedra, but his restorations are not cautious enough.</p>
+                <p>At A.1 the space is not sufficient for the 8 letters he supposes.</p>
+                <p>B has not the whole formula of dedication, but probably bears on two lines the name and patronym of the person whose statue stood above. 
+                    The 4th letter of the patronym is surely no <foreign xml:lang="grc">Σ</foreign>, but might be <foreign xml:lang="grc">Μ, Ν</foreign> or 
+                    <foreign xml:lang="grc">Κ</foreign>, rather than <foreign xml:lang="grc">I</foreign>.</p> 
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="medium">List of priests</rs> of Zeus Soter (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr107000</idno>
+                <idno type="number" subtype="second-edition">107000</idno>
+                <idno type="TM">738596</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr107000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr107000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr107000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two non adjacent fragments of a white <material>marble</material> <objectType>panel</objectType>; fragment a is broken off above, below and at left 
+                                        and its right margin is preserved (<dimensions>
+                                            <width>0.175</width>
+                                            <height>0.200</height>
+                                            <depth>0.105</depth>
+                                        </dimensions>); fragment b is broken off obliquely from upper left to lower right with both margins preserved on some extent (<dimensions>
+                                            <width>0.43</width>
+                                            <height>0.165</height>
+                                            <depth>0.095</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face with spaces between letters and between names varying at each line.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="m1">Hand 1: <height>0.018</height>, serifs; slightly slanting sigma.</handNote>
+                            <handNote xml:id="m2">Hand 2: <height>0.024</height>, serifs; smaller omicron, slightly slanting sigma.</handNote>
+                            <handNote xml:id="m3">Hand 3: <height>0.019</height>, serifs; xi with central vertical bar, slightly projecting upper bar of pi.</handNote>
+                            <handNote xml:id="m4">Hand 4: <height>0.019</height>, serifs; non-slanting sigma; smaller omega.</handNote>
+                            <handNote xml:id="m5">Hand 5: <height>0.02</height>, serifs; smaller circular letters.</handNote>
+                            <handNote xml:id="m6">Hand 6: <height>0.02</height>, serifs.</handNote>
+                            <handNote xml:id="m7">Hand 7: <height>0.019</height>, serifs; non-slanting sigma.</handNote>
+                            <handNote xml:id="m8">Hand 8: <height>0.02</height>, serifs; xi with central vertical bar, non-slanting sigma.</handNote>
+                            <handNote xml:id="m9">Hand 9: <height min="0.02" max="0.026">0.02-0.26</height>, serifs; non-slanting sigma, phi with low and oval loop.</handNote>
+                            <handNote xml:id="m10">Hand 10: <height>0.017</height>, serifs; rho with small loop, non-slanting sigma, calice-shaped upsilon.</handNote>
+                            <handNote xml:id="m11">Hand 11: <height min="0.016" max="0.019">0.016-0.019</height>, serifs; beta with larger and nearly triangular lower loop, pi with projecting upper bar, non-slanting sigma.</handNote>
+                            <handNote xml:id="m12">Hand 12: <height>0.016</height>, serifs; non-slanting sigma.</handNote>
+                            <handNote xml:id="m13">Hand 13: <height>0.019</height>, serifs; rho with small loop, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering office" notBefore="-0150" notAfter="-0101" precision="medium">Plausibly second half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1958">
+                                    <p>Both fragments found together in 1958 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1011">Agora North-West corner</rs>, in a pit digged in antiquity along the Western side of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1483">Augusteum</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" notBefore="1960" notAfter="1961" resp="Gasperini">
+                                    <p>Seen by L. Gasperini in 1960 or 1961 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1484">Storeroom of the Italian missions</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" notBefore="2010" notAfter="2012" resp="Rosamilia">
+                            <p>Lower part of fragment b seen by E. Rosamilia in 2012-2012 at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-22" who="CDL">small change in bibl</change>
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-06" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">checked</change>
+            <change when="2017-01-30" who="CDL">merged 107000 and 107100: 107100 is now frgt a of 107000; 107000 is now fgt b of 107000; the ancient file 107100 is now in the folder 
+            'deleted'. Then addition to bibliography; changed commentary; Ital. translation; changed handNote and added handShift</change>
+            <change when="2014-01-09" who="cdl">Fr. and Engl. translations</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2013-01-21" who="CDL">from SMM, lemma, text, apparatus, commentary</change> 
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77466/3/igcyr107000-1-fgta.jpeg.jpg" corresp="igcyr107000" decls="#photograph"><desc resp="-" source="Università degli Studi, Macerata" n="1959"><ref target="http://hdl.handle.net/20.500.14008/77466">Fragment a of igcyr107000 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77467/3/igcyr107000-2-fgtb.jpeg.jpg" corresp="igcyr107000" decls="#photograph"><desc resp="-" source="Università degli Studi, Macerata" n="1959"><ref target="http://hdl.handle.net/20.500.14008/77467">Fragment b of igcyr107000 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77851/3/igcyr107000-3-fgta.tiff.jpg" corresp="igcyr107000" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77851">Fragment a of igcyr107000 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77852/3/igcyr107000-4-fgtb.tiff.jpg" corresp="igcyr107000" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77852">Fragment b of igcyr107000 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1965"/>, pp. <citedRange>249-250</citedRange>, and pl. XLI, 1</bibl> 
+                    (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>33-35</citedRange></bibl>); 
+                    <bibl><ptr target="#gasperini1967a"/>, p. 169, nn. <citedRange>18-19</citedRange>, and fig. 203</bibl> 
+                    (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>82-83</citedRange></bibl>);
+                    <bibl><ptr target="#cdl2016"/>, pp. 254-257, n. <citedRange>27</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>66.2328</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>107000</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>129-130</citedRange> and pp. <citedRange>263-264</citedRange>, number 14 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><handShift new="#m1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                    <persName type="attested" key=""><name nymRef="#_καρτης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">κάρ<unclear>τ</unclear>ευς</seg></name></persName></persName>
+                    <lb n="2"/><handShift new="#m2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                    <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64885"><name nymRef="#Λῦσις" type="patronymic"><unclear>Λ</unclear>ύσιος</name></persName></persName>
+                    <lb n="3"/><handShift new="#m3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62847"><name nymRef="#Ἀνάξιππος" type="patronymic"><supplied reason="lost">Ἀ</supplied><unclear>ν</unclear>αξίππω</name></persName></persName>
+                    <lb n="4"/><handShift new="#m4"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65741"><name nymRef="#Σώστρατος" type="patronymic"><supplied reason="lost">Σ</supplied>ωστράτω</name></persName></persName>
+                    <lb n="5"/><handShift new="#m5"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62931"><name nymRef="#Ἀντίοχος" type="patronymic"><supplied reason="lost">Ἀ</supplied>ντιόχω</name></persName></persName>
+                    <lb n="6"/><handShift new="#m6"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62615"><name nymRef="#Ἄδμητος" type="patronymic"><unclear>Ἀ</unclear>δμήτω</name></persName></persName>
+                    <lb n="7"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                    <persName type="attested" key=""><name nymRef="#_π_" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="M"><orig>π</orig></seg><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/></name></persName></persName>
+                    <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> 
+                    <lb n="1"/><handShift new="#m7"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64886"><name nymRef="#Λῦσις"><supplied reason="lost">Λ</supplied><unclear>ῦ</unclear>σις</name> 
+                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                    <lb n="2"/><handShift new="#m8"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66156"><name nymRef="#Χαρίξενος">Χαρίξενος</name>
+                        <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> 
+                    <lb n="3"/><handShift new="#m9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64887"><name nymRef="#Λῦσις">Λῦσις</name> 
+                        <persName type="attested" key=""><name nymRef="#Φιλω_" type="patronymic"><seg part="I">Φιλω</seg><gap reason="lost" atLeast="2" atMost="3" unit="character"/></name></persName></persName>  
+                    <lb n="4"/><handShift new="#m10"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64223"><name nymRef="#Θεύχρηστος">Θεύχρηστος</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64700"><name nymRef="Κλητόμαχος" type="patronymic">Κλητομά<supplied reason="lost">χω</supplied></name></persName></persName> 
+                    <lb n="5"/><handShift new="#m11"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63379"><name nymRef="#Βαρκαῖος">Βαρκαῖος</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65243"><name nymRef="Πάππος" type="patronymic">Πάππω</name></persName></persName>  
+                    <lb n="6"/><handShift new="#m12"/><persName type="attested" key=""><name nymRef="#Φιλοθάλης"><supplied reason="lost" cert="low">Φιλοθά</supplied><unclear>λ</unclear>ης</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65731"><name nymRef="#Σωσίστρατος" type="patronymic">Σωσιστράτω</name></persName></persName> 
+                    <lb n="7"/><handShift new="#m13"/><persName type="attested"><name nymRef="#_ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ς</seg></name>
+                    <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62560"><name nymRef="#Ἁγήσαρχος" type="patronymic">Ἁγησάρχω</name></persName></persName> 
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>                    
+                    <lb n="8a"/><gap reason="lost" quantity="1" unit="line"/>
+                </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="a.1">
+                        <lem resp="#gasperini1967a"><gap reason="lost" extent="unknown" unit="character"/>κάρ<unclear>τ</unclear>ευς</lem>
+                        <rdg resp="#gasperini1965"><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>κ</unclear>αριευς</orig></rdg>
+                    </app>
+                    <app loc="b.3">
+                        <lem>Φιλω<gap reason="lost" atLeast="2" atMost="3" unit="character"/></lem>
+                        <rdg resp="#gasperini1965 #gasperini1967a"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66069"><name>Φίλω<supplied reason="lost">νος</supplied></name></persName></rdg>
+                        <rdg resp="#rosamilia2023">Φίλω<supplied reason="lost" cert="low">νος</supplied></rdg>
+                    </app>
+                    <app loc="b.6"><lem><supplied reason="lost" cert="low">Φιλοθά</supplied><unclear>λ</unclear>ης</lem>
+                        <rdg resp="#gasperini1967a"><gap reason="lost" extent="unknown" unit="character"/>ης</rdg>
+                        <rdg resp="#gasperini1965"><gap reason="lost" extent="unknown" unit="character"/><unclear>η</unclear>ς</rdg>
+                    </app>
+                   <app loc="b.7"><lem><gap reason="lost" extent="unknown" unit="character"/>ς</lem>
+                       <rdg resp="#gasperini1967a"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">οἱ ἐ</supplied><unclear>π</unclear>' Ἁγησάρχω</rdg>
+                       <rdg resp="#gasperini1965"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">Ἐ</supplied><unclear>πα</unclear>γησάρχω</rdg>
+                   </app>
+              </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>(a) <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>kartès, <supplied reason="lost">Untel</supplied> fils de Lysis,
+            <supplied reason="lost">Untel</supplied> fils d'Anaxippos, <supplied reason="lost">Untel</supplied> fils de Sôstratos, <supplied reason="lost">Untel</supplied>
+            fils d'Antiokhos, <supplied reason="lost">Untel</supplied> fils d'Admètos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(b)<gap reason="lost" extent="unknown" unit="character"/>, Lysis <supplied reason="lost">fils d'Untel</supplied>, Kharixenos <supplied reason="lost">fils d'Untel</supplied>, 
+                Lysis fils de Philô<gap reason="lost" extent="unknown" unit="character"/>, Theukhrestos fils de Klètomakhos, Barkaios fils de Pappos, <supplied reason="lost">Philothal</supplied>ès 
+                fils de Sôsistratos, <gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>s fils d'Hagèsarkhos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>(a) <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>kartes, <supplied reason="lost">So-and-so</supplied> son of Lysis,
+                <supplied reason="lost">So-and-so</supplied> son of Anaxippos, <supplied reason="lost">So-and-so</supplied> son of Sostratos, <supplied reason="lost">So-and-so</supplied> 
+                 son of Antiochos, <supplied reason="lost">So-and-so</supplied> son of Admetos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(b) <gap reason="lost" extent="unknown" unit="character"/>, Lysis <supplied reason="lost">son of So-and-so</supplied>, Charixenos <supplied reason="lost">son of So-and-so</supplied>, 
+                Lysis son of Philo<gap reason="lost" extent="unknown" unit="character"/>, Theuchrestos son of Kletomachos, Barkaios son of Pappos, <supplied reason="lost">Philothal</supplied>es son 
+                of Sosistratos, <gap reason="lost" extent="unknown" unit="character"/>s son of Hagesarchos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>(a) <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>kartes, <supplied reason="lost">il tale</supplied> figlio di Lysis,
+                <supplied reason="lost">il tale</supplied> figlio di Anaxippos, <supplied reason="lost">il tale</supplied> figlio di Sostratos, <supplied reason="lost">il tale</supplied> 
+                 figlio di Antiochos, <supplied reason="lost">il tale</supplied> figlio di Admetos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(b) <gap reason="lost" extent="unknown" unit="character"/>, Lysis <supplied reason="lost">figlio del tale</supplied>, Charixenos <supplied reason="lost">figlio del tale</supplied>, 
+                Lysis figlio di Philo<gap reason="lost" extent="unknown" unit="character"/>, Theuchrestos figlio di Kletomachos, Barkaios figlio di Pappos, <supplied reason="lost">Philothal</supplied>es 
+                figlio di Sosistratos, <gap reason="lost" extent="unknown" unit="character"/>s figlio di Hagesarchos, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>Gasperini already suspected that both fragments might belong to the same list and suggested that fragment a (<bibl><ptr target="#gasperini1965"/>, n. <citedRange>2</citedRange></bibl>; 
+                    <bibl><ptr target="#gasperini1967a"/>, n. <citedRange>18</citedRange></bibl>) might have been inscribed some years earlier than fragment b
+                    (<bibl><ptr target="#gasperini1965"/>, n. <citedRange>1</citedRange></bibl>; <bibl><ptr target="#gasperini1967a"/>, n. <citedRange>19</citedRange></bibl>). In 1965 
+                    he had supposed that this might be a list of priests, but in 1967 he changed his mind because of what seemed to him the formula of a date through an 
+                    eponymous priest at b.7. C. Dobias-Lalou, helped by the excellent photographs, suggested at <bibl><ptr target="#IGCyr"/></bibl> a new reading of that line. The hypothesis of a unique list 
+                    of priests with names cut successively at different times was thus reinforced and both fragments were presented together.</p>
+                <p><bibl><ptr target="#rosamilia2023"/></bibl> infers from the findspot on the agora that the priests might be those of Zeus Soter, for whose cult see <ref type="inscription" source="#IGCyr2">IGCyr100000</ref> and <ref type="inscription" source="#IGCyr2">IGCyr064500</ref>.
+                    Moreover, he suggests that this first cult to Zeus on the agora was later associated with the cult of Augustus.</p>
+                 <p>About the date, Gasperini had some inconsistency (perhaps due to a misprint). At <bibl><ptr target="#gasperini1965"/></bibl> he gave III century BC, 
+                        whereas  at <bibl><ptr target="#gasperini1967a"/></bibl> he gave II-I BC. C. Dobias-Lalou agrees with J.M. Reynolds who, advising
+                     <bibl><ptr target="#fraser-matthews1987"/></bibl> about the different names, proposed II BC. <bibl><ptr target="#rosamilia2023"/></bibl> limited the period on behalf of both the lettering and the content.</p>
+                <p>At b.3 both <foreign xml:lang="grc">Φίλω<supplied reason="lost">νος</supplied></foreign> and <foreign xml:lang="grc">Φιλώ<supplied reason="lost">τα</supplied></foreign> 
+                    are plausible restorations.</p>
+                <p>At b.6, from the photograph, C. Dobias-Lalou sees the summit of the apex of a lambda, which allows for a compound in <foreign xml:lang="grc">-θάλης</foreign>. A 
+                    common name in Cyrenaica is <foreign xml:lang="grc"><supplied reason="lost">Φιλοθά</supplied><unclear>λ</unclear>ης</foreign> which would fit the gap perfectly.</p>
+                
+            </div></body>
+    </text>
+</TEI>

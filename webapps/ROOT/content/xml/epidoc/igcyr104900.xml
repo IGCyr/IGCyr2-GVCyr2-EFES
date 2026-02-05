@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> for Charitimos</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr104900</idno>
+                <idno type="number" subtype="second-edition">104900</idno>
+                <idno type="TM">738572</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr104900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr104900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr104900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">371</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three adjacent fragments of a white <material>marble</material> <objectType>panel</objectType>, broken off at left, right and below 
+                                        (<dimensions>
+                                            <width>0.415</width>
+                                            <height>0.17</height>
+                                            <depth>0.045</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in three lines centered along vertical axis, beginning at
+                                <dim type="distance">0.03</dim> from the upper edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; thickening ends of letters, non-slanting mu, symmetrical nu, large omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0300" notAfter="-0280" precision="medium">Beginning of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935" resp="oliverio">
+                                    <p>Found by G. Oliverio before 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        Eastern side of <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, North of the later 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1321">Temple of Asklepios</rs> (also called 'Temple of the Octagonal bases').
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="cdl">
+                                    <p>Seen in 1977 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-28" who="CDL">overall check; Ital. translation</change>
+            <change when="2013-12-12" who="cdl">lemma, text, apparatus, FR. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77438/3/igcyr104900-squeeze.tiff.jpg" corresp="igcyr104900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77438">Squeeze of igcyr104900 Private honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/> <citedRange>VI.8</citedRange></bibl>, whence
+                    <bibl>Morelli in <ptr target="#SECir"/>, <citedRange>258</citedRange> (no image)</bibl>, and 
+                    <bibl><ptr target="#cdl2003a"/>, pp. <citedRange>220-221</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2050</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>104900</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66162"><name nymRef="#Χαρίτιμος"><supplied reason="lost">Χαρ</supplied>ίτιμον</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64701"><name type="patronymic" nymRef="#Κλητόμαχος">Κλητο<supplied reason="lost">μάχω</supplied></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64705"><name nymRef="#Κλητόμαχος"><supplied reason="lost">Κλ</supplied><unclear>η</unclear>τόμ<supplied reason="lost">α</supplied>χος</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66162"><name type="patronymic" nymRef="#Χαρίτιμος">Χαριτ<supplied reason="lost">ίμω</supplied></name></persName></persName>
+                    <lb n="3"/><space quantity="6" unit="character"/> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέ</supplied><unclear>θη</unclear><supplied reason="lost">κε</supplied></w>
+                            <supplied reason="lost"><space quantity="7" unit="character"/></supplied>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2">
+                        <lem resp="#SECir #cdl2003a">Χαριτ<supplied reason="lost">ίμω</supplied></lem>
+                        <rdg resp="#SEG">Χαροτ<supplied reason="lost">ίμω</supplied></rdg>
+                    </app>
+                    <app loc="3">
+                        <lem resp="#cdl2003a"><supplied reason="lost">ἀνέ</supplied><unclear>θη</unclear><supplied reason="lost">κε</supplied></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ρ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Statue de</supplied> Kharitimos fils de Klètomakhos consacrée par Klètomakhos fils de Kharitimos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">Statue of</supplied> Charitimos son of Kletomachos dedicated by Kletomachos son of Charitimos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Statua di</supplied> Charitimos figlio di Kletomachos dedicata da Kletomachos figlio di Charitimos.</p>
+         </div><div type="commentary">
+                
+                <p>The date and spot of find are indicated from the sketchbook of Oliverio, who had found two out of three fragments. The three of them
+                are now in the Museum, where Morelli observed and published them, unfortunately without photograph.</p>
+	<p>The dedicant, who is most probably the son of the man honoured by a statue, might also be a man who subscribed ca. 280 BC (<ref type="inscription" source="#IGCyr2">IGCyr065210</ref>, i.151).</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

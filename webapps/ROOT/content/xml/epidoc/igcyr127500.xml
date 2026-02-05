@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr127500</idno>
+                <idno type="number" subtype="second-edition">127500</idno>
+                <idno type="TM">738822</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr127500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr127500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr127500</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">230</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>block</objectType>, broken off at right and left, also lacking the 
+                                        upper surface  
+                                        (<dimensions>
+                                            <width atLeast="0.21">0.21</width>
+                                            <height atLeast="0.25">0.25</height>
+                                            <depth>0.08</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.02" max="0.025">0.02-0.025</height>; very carefully cut with serifs; still slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0247" notAfter="-0235" precision="low" resp="rosamilia">Between 247 and 235 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1979">
+                                    <p>Found before 1979 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: plausibly from the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-18" who="CDL">file updated</change>
+            <change when="2023-08-18" who="Alice">changed Italian translation</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-01" who="Alice">checked</change>
+            <change when="2017-03-05" who="Alice">checked</change>
+            <change when="2017-02-11" who="CDL">overall check</change>
+            <change when="2016-03-01" who="CDL">file created, lemma, text, translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77668/3/igcyr127500-1-face.tiff.jpg" corresp="igcyr127500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77668">Face of igcyr127500 Dedication to Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77669/3/igcyr127500-2-squeeze.tiff.jpg" corresp="igcyr127500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77669">Squeeze of igcyr127500 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/><citedRange>127500</citedRange> </bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>104-105</citedRange> (date), pp. <citedRange>195-196</citedRange> (content), pp. <citedRange>358-359</citedRange>, number 82 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><space atLeast="1" unit="line"/>
+                    <lb n="1"/><w lemma="ἐπί"><supplied reason="lost" cert="low">Ἐπὶ</supplied></w> <persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#Ζωΐλος"><supplied reason="lost">Ζ</supplied>ωΐλω</name></persName></persName>
+                    <lb n="2"/><w lemma="ἀπό"><supplied reason="lost">ἀπ᾿</supplied></w> <w lemma="ὄρνις"><supplied reason="lost">ὀρνίχων</supplied></w> <supplied reason="lost">κ</supplied><unclear>α</unclear>ὶ <w lemma="σκυλάκιον">σκυλ<supplied reason="lost">ακίων</supplied></w>
+                    <lb n="3"/><w lemma="ἀνατίθημι"><supplied reason="lost" cert="low">ἀνετέθη</supplied></w> <supplied reason="lost">τῶι</supplied> <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλ<supplied reason="lost">ωνι</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><gap reason="lost" atLeast="5" atMost="6" unit="character"/> <w lemma="σταθμός"><supplied reason="lost">σταθμὸν</supplied></w> <w lemma="ἄγω"><supplied reason="lost">ἄ</supplied>γει</w> <w lemma="ἑκατόν">ἑκ<unclear>α</unclear><supplied reason="lost">τὸν</supplied></w> 
+                    <lb n="5"/><w lemma="δραχμά"><supplied reason="lost" cert="low">δραχμὰς</supplied></w> <w lemma="Ἀλεξάνδρειος"><supplied reason="lost">Ἀλεξa</supplied>νδρείο<supplied reason="lost">ς</supplied></w>.
+                    <lb n="5a"/><space quantity="2" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">Ἐπὶ</supplied> <gap reason="lost" quantity="9" unit="character" precision="low"/> <supplied reason="lost">Ζ</supplied>ωΐλω</lem>
+                    <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ζ</supplied>ωΐλω</rdg>
+                </app>
+                    <app loc="2"><lem resp="#rosamilia2023"><supplied reason="lost">ἀπ᾿ ὀρνίχων κ</supplied><unclear>α</unclear>ὶ σκυλ<supplied reason="lost">ακίων</supplied></lem>
+                <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Κάλ</supplied><unclear>λ</unclear>ις Κυλ<supplied reason="lost">ία</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>
+                    <app loc="3"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">ἀνετέθη</supplied> <supplied reason="lost">τῶι</supplied></lem>
+                    <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="4"><lem resp="#rosamilia2023"><gap reason="lost" atLeast="5" atMost="6" unit="character"/> <supplied reason="lost">σταθμὸν ἄ</supplied>γει ἑκ<unclear>α</unclear><supplied reason="lost">τὸν</supplied></lem>
+                        <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/><orig>γει</orig> ἐκ <unclear>χ</unclear><supplied reason="lost" cert="low">ιλίων</supplied> </rdg>
+                </app>
+                    <app loc="5"><lem resp="#rosamilia2023"><supplied reason="lost">δραχμὰς Ἀλεξa</supplied>νδρείο<supplied reason="lost">ς</supplied></lem>
+                    <rdg resp="#IGCyr"><supplied reason="lost">δραχμῶν Ἀλεξα</supplied>νδρείο<supplied reason="lost">υ ἀργυρίου</supplied></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="lost">Untel</supplied> fils de Zôilos <supplied reason="lost">étant prêtre, sur les revenus des oiseaux</supplied> et des chiots <supplied reason="lost" cert="low">a été consacré</supplied> 
+                à Apollon <supplied reason="lost" cert="low">cet objet, qui</supplied> pèse cent <supplied reason="lost">drachmes</supplied> d'Alexandre.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="lost">So-and-so</supplied> son of Zoilos <supplied reason="lost">being priest, from the revenues of the birds</supplied> and puppies <supplied reason="lost" cert="low">was dedicated</supplied> 
+                to Apollo <supplied reason="lost" cert="low">this object, which</supplied> weighs hundred <supplied reason="lost">drachmas</supplied> of Alexander.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="lost">Essendo sacerdote il tale</supplied> figlio di Zoilos, <supplied reason="lost">grazie ai proventi degli uccelli</supplied> e dei cuccioli di cane <supplied reason="lost" cert="low">fu dedicato</supplied> 
+                ad Apollo <supplied reason="lost" cert="low">questo oggetto, che</supplied> pesa cento <supplied reason="lost">dracme </supplied> di Alessandro.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>[فلان] بن زويلوس و[كونه كاهنًا، من عائئدات بيع الطيور] والجراء ، [أهدوا] لأبولو [هذا الغرض، الذي] يزن  أويعادل قيمة 100 [دراخما] من عملة الإسكندر (الفضية).</p>
+            </div><div type="commentary">
+                
+             <p>This fragmentary inscription was first published in <bibl><ptr target="#IGCyr"/></bibl> as a dedication to Apollo with the mention of a value in Alexander's silver currency. The vestiges of 
+             lines 1-2 were thought to belong to the names of several dedicants. <bibl><ptr target="#rosamilia2023"/></bibl> now provides a much more convincing reading, parallel with 
+             <ref type="inscription" source="#IGCyr2">IGCyr125600</ref>, which is near in date and has the same developed formulation, whereas two more ancient inscriptions, <ref type="inscription" source="#IGCyr2">IGCyr020800</ref>
+              and <ref type="inscription" source="#IGCyr2">IGCyr020900</ref>, with the same subject, are shorter. In them the priest is not acting as a dedicant and is mentioned as eponymous, providing a date.</p>
+             <p>This priest might be Karnedas son of Zoilos, a subscriber at <ref type="inscription" source="#IGCyr2">IGCyr065210</ref> i.70 or a relative.</p>
+             <p>Alexander's silver, both currency and weight, is mentioned at <ref type="inscription" source="#IGCyr2">IGCyr125600</ref> and in Ptolemaios' diagramma (<ref type="inscription" source="#IGCyr2">IGCyr010800</ref> l. 8), where the 
+                 adjective has the form <foreign xml:lang="grc">Ἀλεξάνδρειος</foreign> also with a feminine noun.</p>
+             <p>The metal object placed above and dedicated should have been mentioned in the lacuna at the beginning of line 4 and might be, as Rosamilia suggests, <foreign xml:lang="grc">φιάλαν</foreign>. As this word should be followed by 
+                 a relative pronoun, introducing the verb <foreign xml:lang="grc">ἅγει</foreign>, the space available is perhpas too short. Alternatively, there was a stop and no relative pronoun.</p>
+            </div></body>
+    </text>
+</TEI>

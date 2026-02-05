@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of a wall to Apollo and Artemis</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr031</idno>
+                <idno type="number" subtype="second-edition">031</idno>
+                <idno type="TM">738924</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr031</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr031</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr031</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <objectType>block</objectType> of local <material>limestone</material>, belonging to a wall now partly rebuilt  
+                                        (<dimensions>
+                                            <width>0.83</width>
+                                            <height>0.37</height>
+                                            <depth>0.685</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face of this block and originally extending on a lost one on its right.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.055</height>, traces of guide-lines; lunate epsilon and sigma, cursive mu.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering context" notBefore="0150" notAfter="0200" precision="medium">Second half of second century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1933">
+                            <p>Found in 1933 at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>,
+                                amongst the collapsed blocks of the <rs type="monuList" ref="https://www.slsgazetteer.org/1360">Wall of Nicodamos</rs> and placed on the top of the restored wall in 1934.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1983" resp="CDL">
+                            <p>Studied by C. Dobias-Lalou in 1983 in situ at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>, in the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1360">Wall of Nicodamos</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-06" who="CDL">updated bibl</change>
+            <change when="2023-08-29" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-11" who="Alice">It. translation; checked</change>
+            <change when="2017-03-03" who="CDL">overall check</change>
+            <change when="2016-05-21" who="CDL">lemma, text, Fr. and Engl. translations, commentary</change>
+            <change when="2016-05-20" who="CDL">file created</change>    
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76618/3/gvcyr031-face.tiff.jpg" corresp="gvcyr031" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/76618">Face of gvcyr031 Dedication of a wall</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before <bibl><ptr target="#GVCyr"/> <citedRange>031</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>67.1493</citedRange></bibl> and 
+                    <bibl><ptr target="#AE"/> <citedRange>2017.1657</citedRange></bibl>.
+                    Cf. mentions by <bibl><ptr target="#rgg1971"/>, p. <citedRange>125</citedRange> and fig. 67</bibl>;
+                    <bibl><ptr target="#jmr1976-1977"/>, p. <citedRange>374</citedRange></bibl>;                    
+                    <bibl><ptr target="#ensoli2010"/>, p. <citedRange>139</citedRange>, footnote 135</bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg met=" dactylic hexameter">
+                      <l n="1" real="++|+--|+--|++|+--|++"> 
+                          <lb n="1"/><w lemma="ἁγνεία">Ἁγνείης</w> <w lemma="ἀνάθημα">ἀνάθημα</w> <w lemma="μέλω">μέλον</w> <persName type="divine" ref="#Phoibos"><name nymRef="#Φοῖβος">Φοί</name><supplied reason="lost">βῳ</supplied></persName> 
+                          <supplied reason="lost">καὶ</supplied> <w lemma="ἀδελφή"><supplied reason="lost">ἀδελφῇ</supplied></w></l>
+                    <l n="2" real="++|+--|+--|+--|+--|+±">
+                        <lb n="2"/><rs type="office" key="eponymous priest"><w lemma="ἀρητήρ">ἀρητήρ</w></rs> <persName type="attested" key=""><name nymRef="#Νικόδαμος">Νεικόδαμος</name></persName> <w lemma="δέμω">ἔδειμ<unclear>α</unclear></w>
+                        <w lemma="πρός"><supplied reason="lost">πρὸς</supplied></w> <w lemma="ἀμφιθέατρον"><supplied reason="lost">ἀμφιθεάτρῳ</supplied></w></l>
+                    <l n="3" real="+--|++|++|+--|+--|+±">
+                        <lb n="3"/><w lemma="τεῖχος">τεῖχος</w> <w lemma="ἀνίστημι">ἀναστήσας</w> <w lemma="ἱερός">ἱροῖς</w> <w lemma="κτέαρ">κτ<supplied reason="lost">εάτεσσι</supplied></w> 
+                        <seg met="-|+±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                    <l n="4" real="+--|+--|+--|++|+--|+±">
+                        <lb n="4"/><w lemma="μονομάχος">μουνομάχοιο</w> <w lemma="θέα">θέης</w> <w lemma="ἀποκλείω">ἀποκ<supplied reason="lost">λείσας</supplied></w> 
+                        <w lemma="ἄλσος"><supplied reason="lost">ἄλσεα</supplied></w> <w lemma="θεῖος"><supplied reason="lost">θεῖα</supplied></w></l>
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>C'est une offrande visant à la pureté que, pour Phoibos <supplied reason="lost">et sa soeur</supplied>,</p>
+                <p>moi le prêtre Nikodamos, j'ai fait construire <supplied reason="lost">contre l'amphithéâtre</supplied>,</p>
+                <p>en érigeant un mur <gap reason="lost" extent="unknown" unit="character"/> pour les <supplied reason="lost">propriétés</supplied> sacrées</p>
+                <p>isolant ainsi du spectacle des gladiateurs <supplied reason="lost">les bosquets divins</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>An offering aiming at purity for Phoibos <supplied reason="lost">and his sister</supplied>,</p>
+                <p>I, priest Nikodamos, built <supplied reason="lost">close to the amphitheatre</supplied>,</p>
+                <p>erecting a wall <gap reason="lost" extent="unknown" unit="character"/> for the sacred <supplied reason="lost">estates</supplied>,</p>
+                <p>shuting out of the view of gladiators <supplied reason="lost">the divine bushes</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Un'offerta che aspira alla purezza per Febo <supplied reason="lost">e sua sorella</supplied></p>
+                <p>io, il sacerdote Nikodamos, ho fatto costruire, <supplied reason="lost">vicino all'anfiteatro</supplied></p>
+                <p>erigendo un muro <gap reason="lost" extent="unknown" unit="character"/> per le <supplied reason="lost">proprietà</supplied> sacre</p>
+                <p>che esclude dalla vista dei gladiatori <supplied reason="lost">i boschi divini</supplied>.</p>
+            </div><div type="commentary">
+                
+                <p>On basis of the lettering alone, the inscription might be dated, in J.M. Reynolds' opinion, from the second or third century. However, given the 
+                precise explanation provided by the epigram about the purpose of building the wall, it is possible to connect it with the transformation of 
+                the ancient Greek theatre into an amphitheatre. The latter is dated on archaeological grounds to the second half of the second century AD.</p>
+                <p>The priest Nikodamos here mentioned is probably the grand-father of Anaxo daughter of Euphranor, priestess of Artemis about 180 AD 
+                    (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.221.html">IRCyr2020 C.221</ref>, l. 24). She is also mentioned with father's and grandfather's name in a dedication found in the 
+                    Market Theatre, but possibly moved from elsewhere (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.210.html">IRCyr2020 C.210</ref>, in the original publication of which J.M. Reynolds, 
+                 through a slip of the pen mentioned Nikodamos as her father, an error later reproduced by Ensoli).</p>
+                <p>This inscription, which remained hitherto unpublished, has been long since in sight for visitors. Those who mentioned it unanimously guessed its 
+                main meaning. We do not hazard in restoring the last word of line 3, which should be a noun or an adjectif appended to <foreign xml:lang="grc">τεῖχος</foreign> and connected with <foreign xml:lang="grc">ἱροῖς κτεάτεσσι</foreign>; however this phrase may also be related directly to 
+                <foreign xml:lang="grc">ἀναστήσας</foreign>. We restore as a climax of the epigram the adjective <foreign xml:lang="grc">θεῖος</foreign>
+                in assonance with <foreign xml:lang="grc">θεῆς</foreign> at the caesura.</p>   
+                <p>Metrical analysis: in spite of the missing parts, we can hold for sure that there was a series of four hexameters, a composition that is a little less 
+                 common than two elegiac couplets. Two poetic licences appear in the first distichon of line 2: 1) <foreign xml:lang="grc">ἀρητήρ</foreign> has a long 
+                first syllable, a lenghthening that is common since the Homeric poetry; 2) the rhythm of the personal name <foreign xml:lang="grc">Νικόδαμος</foreign> 
+                    (written <foreign xml:lang="grc">Νεικ-</foreign> through iotacism) is ametric (+-+-); the first syllable may thus be taken as short.</p>
+            </div></body>
+    </text>
+</TEI>

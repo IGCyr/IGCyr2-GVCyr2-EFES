@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo of his re-built temple</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr030</idno>
+                <idno type="number" subtype="second-edition">030</idno>
+                <idno type="TM">738923</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr030</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr030</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr030</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p> Damaged white <material>marble</material> <objectType>pillar</objectType> consisting of a pair of orthostates, standing on a base inscribed with 
+                                        <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.222.html">IRCyr2020 C.222</ref>, moulded on three sides; this inscription on the main (Eastern) face of the shaft below <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.223.html">IRCyr2020 C.223</ref>; 
+                                        (together <dimensions>
+                                            <width>0.82</width>
+                                            <height>1.06</height>
+                                            <depth>0.69</depth></dimensions>); <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.222.html">IRCyr2020 C.222</ref> is on the left face.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in four lines on the lower part of the face; an incised palm branch and an ivy leaf 
+                                    precede the beginning of l. 1; the same may have been lost at the end of l. 4.; the other lines are aligned at left and begin near the edge, implying that a large margin was left at right if the block was complete at the time of engraving.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; very carefully cut lettering, letters pressed together; alpha with dropped bar, alpha, delta and lambda with projecting apex; 
+                                rho with very small loop, square sigma, once in l. 1 and twice in l. 4, only in ligature with eta, four strokes sigma elsewhere, upsilon with a small
+                                bar below the oblique strokes, omega very classical in shape; large omicron, but in <foreign xml:lang="grc">δωμήσατο</foreign>  and <foreign xml:lang="grc">νηόν</foreign>, 
+                                where they are written very small; nu at l. 3 also very small in <foreign xml:lang="grc">Ἀπόλλωνι</foreign>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="http://pleiades.stoa.org/places//373778">Cyrene</placeName>: 
+                                pillar of the doorway from the cella to the adyton of the <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>.</origPlace>
+                            <origDate evidence="prosopography" notBefore="0181" precision="high">Soon after 181 AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1922">
+                            <p>Found  in 1922 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>, re-used as a paving stone. </p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1977" when-iso="1997" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1977 and again in 1997, replaced in the pronaos of the <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>,
+                                beside the entrance to the cella, on the left side.</p> 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2021-12-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-11" who="Alice">It. translation; checked</change>
+            <change when="2017-03-03" who="CDL">overall check</change>
+            <change when="2016-05-18" who="CDL">file created</change>
+            <change when="2016-05-19" who="CDL">lemma, text, Fr. and Engl. translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76616/3/gvcyr030-1-view.tiff.jpg" corresp="gvcyr030" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/76616">View of gvcyr030 Dedication to Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76617/3/gvcyr030-2-face.tiff.jpg" corresp="gvcyr030" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76617">Face of gvcyr030 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p> <bibl><ptr target="#ferri1923"/>, n. <citedRange>5</citedRange> and drawing fig. 2</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.189</citedRange></bibl>;
+                   <bibl><ptr target="#SECir"/>, <citedRange>9b</citedRange> and photo fig. 11</bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>030</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#pernier1935"/>, pp. <citedRange>89-95</citedRange> (support)</bibl>;
+                    <bibl><ptr target="#chevrollier2019"/>, p. <citedRange>195</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg met="elegiac couplets">
+                        <l met="hexameter" real="+--|++|+--|++|+--|+±">
+                            <lb n="1"/>Καὶ <w lemma="πρότερος">πρότερόν</w> <w lemma="σύ">σοι</w> <persName type="divine" ref="#Phoibos"><name nymRef="#Φοῖβος">Φοῖβε</name>
+                            </persName> <w lemma="σός">τεὸν</w> <w lemma="δωμάω">δωμήσατο</w> <w lemma="ναός">νηὸν</w></l>
+                        <l met="pentameter" real="++|++|+|+--|+--|+">
+                            <lb n="2"/><placeName type="city" nymRef="#Θήρα">Θήρης</placeName> <w lemma="ἐκπέμπω">ἐκπεμφθεὶς</w> <persName type="attested" key=""><name type="surname" nymRef="#Βάττος">Βάττος</name> <name type="firstname" nymRef="#Ἀριστοτέλης">Ἀριστοτέλης</name></persName></l>
+                        
+                        <l met="hexameter" real="++|+--|+--|+--|++|+±">
+                            <lb n="3"/>καὶ <w lemma="νῦν">νῦν</w> <w lemma="ἐκ">ἐκ</w> <w lemma="πόλεμος">πολέμοιο</w> <w lemma="χαμαιριφής">χαμαιριφῆ</w> 
+                            <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName></l>
+                        <l met="pentameter" real="+--|+--|+|+--|+--|+">
+                            <lb n="4"/><w lemma="ἵστημι">στῆσεν</w> <w lemma="ὑπό">ὑπ</w>' <w lemma="εὐσέβεια">εὐσεβίης</w> <w lemma="ναός">νηὸν</w> 
+                            <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63174"><name nymRef="#Ἀριστοτέλης">Ἀριστοτέλης</name></persName>.</l>
+                        
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Une première fois pour toi, Phoibos, un temple fut construit</p>
+                <p>par Battos Aristotélès, envoyé de Thèra.</p>
+                <p>De même aujourd'hui, quand il eut été abattu par la guerre, pour Apollon</p>
+                <p>un temple a été érigé sous l'effet de la piété par un Aristotélès.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>A first time, for you, Phoibos, a temple was built</p>
+                <p>by Battos Aristoteles, who had been sent from Thera.</p>
+                <p>In the same way now, as it has been thrown to the ground because of the war, for Apollo</p>
+                <p>a temple has been erected as a result of piety by an Aristoteles.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Una prima volta per te, Febo, costruì il tuo tempio</p>
+                <p>Battos Aristoteles, inviato da Tera.</p>
+                <p>Così ora, poiché è stato abbattuto dalla guerra, per Apollo</p>
+                <p>eresse un tempio, in virtù della sua pietà, un Aristoteles.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>في المرة الأولى ، يا فوبس، كان قد بُني لك معبداً من قبل باتوس أريستوتيليس، الذي كان قد أرسل من ثيرا. والآن بنفس الطريقة، ، كما أسقطت على الأرض بسبب الحرب ، لأجل أبولو، أعيد بناء المعبد بسبب الإيمان القوي بأريستوتيليس (باتوس).</p>
+         </div><div type="commentary">
+                
+                <p>This epigram takes place at the end of a list of eponymous priests, of which the last mentioned one is explicitely dated to 178/9 AD. We know from another list 
+                    (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.250.html">IRCyr2020 C.250</ref>) that a Dekimos Kaskellios Aristoteles was priest in 181/2 and deserved the epithet <foreign xml:lang="grc">καλλιέτης</foreign>
+                because his year was a successfull one. Instead of having only his name on the present stone, we have an epigram playing on the similarity of his name with that of 
+                the Founder. The latter is better known through his surname Battos 'Stammerer', but his first name Aristoteles is also mentioned by some authors. It is commonly admitted that 
+                the 'war' mentioned here is the Jewish Revolt of 115-117. Unlike some public buildings quickly repaired under Hadrian, the temples of Zeus and Apollo had to wait
+                for a thorough transformation (see <bibl><ptr target="#stucchi1961"/>, pp. <citedRange>71-75</citedRange></bibl> and <bibl><ptr target="#laronde1988"/>,
+                    pp. <citedRange>1052-1053</citedRange></bibl>). As shown by <bibl><ptr target="#chevrollier2019"/></bibl>, the word <foreign xml:lang="grc">χαμαιριφῆ</foreign> is echoed in 
+                    the queer layout of the verse-lines, showing that they were cut on a block broken during the revolt. The priest Aristoteles was surely not the only benefactor who made this possible, but more probably the work 
+                was finished under his priesthood.</p>
+                <p>Metrical analysis: two regular elegiac couplets. At l. 3, the name of Apollo has the usual lengthening of the initial <foreign xml:lang="grc">α</foreign> for metrical purpose and therefore
+                    the hexameter is spondaic.</p>
+            </div></body>
+    </text>
+</TEI>

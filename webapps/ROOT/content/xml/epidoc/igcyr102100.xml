@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr102100</idno>
+                <idno type="number" subtype="second-edition">102100</idno>
+                <idno type="TM">738531</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr102100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr102100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr102100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a white <material>marble</material> <objectType>base</objectType> with two holes for attachment
+                                        of a statue on top; recut at left, so that the hole for the right foot of the statue is partly lost; also recut at back on the right with a large notch;
+                                        chipped off at right of upper edge and more severely below in the middle                                         
+                                        (fragment a 
+                                        <dimensions>
+                                            <width>0.28</width>
+                                            <height>0.28</height>
+                                            <depth>0.61</depth>
+                                        </dimensions>; 
+                                        fragment b 
+                                        <dimensions>
+                                            <width>0.242</width>
+                                            <height>0.283</height>
+                                            <depth>0.64</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> carefully on the front face
+                                    in two lines and a third one, smaller, below, all of them centred along vertical axis.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>ll. 1-2: <height>0.035</height>;  l. 3: <height>0.012</height>; slight serifs, slanting sigma, widely open upper part of upsilon, rather
+                                widely open omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" when="-0250" precision="low">Ca. 250 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1958">
+                                    <p>Fragment b was found in 1958 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, reused in the substructures of the fence of the 
+                                        Audience Hall (Praetorium) that in the fourth century AD replaced the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1483">Augusteum</rs>; no provenance is known for fragment a, which was registered in Oliverio's papers,
+                                        whence found before 1937. 
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" when-iso="2010" resp="CDL">
+                                    <p>Studied by C. Dobias-Lalou in 2001 and again in 2010 in
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="er">
+                                    <p>Studied by E. Rosamilia in 2010 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL and ER).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-25" who="CDL">overall check; Ital. translation</change>
+            <change when="2013-11-25" who="cdl">revision of lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-26" who="SMM"> lemma, text, apparatus, commentary, bibliography</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+       </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77390/3/igcyr102100-1-face.tiff.jpg" corresp="igcyr102100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77390">Face of igcyr102100 Honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77391/3/igcyr102100-2-face.tiff.jpg" corresp="igcyr102100" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77391">Face of igcyr102100 Honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Fragment a :<bibl><ptr target="#oliverioTacc"/>, <citedRange>II.64</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>187</citedRange>, fig. 138</bibl>; 
+                    both fragments: <bibl><ptr target="#gasperini1965"/>, p. <citedRange>316</citedRange>, pl. LVII.3  
+                        (= <bibl><ptr target="#gasperini2008"/>, p. <citedRange>44</citedRange>, fig. 18,3 </bibl>)</bibl>, and again
+                    <bibl><ptr target="#gasperini1967a"/>, pp. 168-169, n. <citedRange>16</citedRange>, fig. 200   
+                        (= <bibl><ptr target="#gasperini2008"/>, p. 82, n. <citedRange>16</citedRange>, fig. 16</bibl>)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>58.1890</citedRange></bibl>;
+                    <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>537 and 542</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>102100</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>6</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2012</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64891"><name nymRef="#Λῦσις"><supplied reason="lost">Λ</supplied>ῦσις</name> 
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65362"><name type="patronymic" nymRef="#Πολύβωλος"><supplied reason="lost">Πο</supplied>λυβώλω</name></persName></persName>.
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-60886"><name nymRef="#Θεύμανδρος"><add place="overstrike">Θεύμαν<unclear>δ</unclear></add><supplied reason="lost">ρος</supplied></name></persName> <w lemma="ποιέω"><supplied reason="lost">ἐπ</supplied><unclear>οίησε</unclear>ν</w>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="3"><lem resp="#rosamilia2014"><add place="overstrike">Θεύμαν<unclear>δ</unclear></add><supplied reason="lost">ρος</supplied></lem>
+                        <rdg resp="#gasperini2008">Θεύμαν<unclear>δ</unclear><supplied reason="lost">ρος</supplied></rdg>
+                        <rdg resp="#SECir #gasperini1965"><gap reason="lost" extent="unknown" unit="character"/> Θευμάν<unclear>δ</unclear><supplied reason="lost">ρω</supplied></rdg>
+                    </app>
+                </p>
+
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Lysis fils de Polybôlos. Oeuvre de Theumandros.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Lysis son of Polybolos. Theumandros was the artist.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Lysis figlio di Polybolos. Opera di Theumandros.</p>
+         </div><div type="commentary">
+                
+                <p>A link with the priest of the lists of subscribers (<ref type="inscription" source="#IGCyr2">IGCyr065200</ref> and <ref type="inscription" source="#IGCyr2">IGCyr065210</ref>), also mentioned at
+                  <ref type="inscription" source="#IGCyr2">IGCyr020000</ref>), suggested by Gasperini, is now irrelevant, as his name is now completely known as <foreign xml:lang="grc">Νικόβωλος</foreign>.</p>
+          	     <p>Rosamilia rightly points that the artist's name is cut in a shallow depression, although it is not possible to guess whether a former inscription was erased
+          	         because of a change of sculptor or because of a mere mistake of the stone-cutter.</p>
+            </div></body>
+    </text>
+</TEI>

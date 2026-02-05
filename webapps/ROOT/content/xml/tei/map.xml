@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Map of Cyrenaica</title>
+                <title xml:lang="it">Mappa della Cirenaica</title>
+                <title xml:lang="fr">Carte de la Cyrenaïque</title>
+                <title xml:lang="ar">Map of Cyrenaica</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>...</authority>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename, as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="text">
+                <p xml:lang="en"><!-- check -->This map, taken from OpenStreetMap, gives an insight of whole Cyrenaica with the main settlements and the findspots of inscriptions with their respective number (but for inscriptions found in places not precisely located: for a complete survey, see at Indices > <ref target="../indices/epidoc/findspot.html">Findspots</ref>). Extracts of the map with OpenStreetMap location and DARE (Digital Atlas of the Roman Empire) location taken from Pleiades may be seen at the page of each inscription, where more precise locations are provided through links to the website ‘<ref target="http://www.slsgazetteer.org/">Heritage Gazetteer of Libya</ref>’, developed by the Society for Libyan Studies (now British Institute for Libyan and Northern African Studies), which itself includes informations about single cities and monumental sites gathered from <ref target="https://pleiades.stoa.org/">Pleiades</ref>, Barrington Atlas, Ph. Kenrick’s Cyrenaica. Libya Archaeological Guides and other resources.</p>
+                <p xml:lang="it"><!-- check -->Questa mappa, costruita su OpenStreetMap, mostra una visione d’insieme dell’intera Cirenaica con i principali insediamenti e i luoghi di ritrovamento delle iscrizioni con il loro numero corrispettivo (sono escluse le iscrizioni provenienti da un luogo non precisabile della regione: per un quadro dettagliato vedi Indici > <ref target="../indices/epidoc/findspot.html">Luoghi di ritrovamento</ref>). Estratti di essa, con OpenStreetMap location e DARE (Digital Atlas of the Roman Empire) location estratti da Pleiades, si trovano nelle singole pagine dedicate alle iscrizioni, dove più precise localizzazioni sono fornite grazie ai collegamenti che rimandano al sito ‘<ref target="http://www.slsgazetteer.org/">Heritage Gazetteer of Libya</ref>’, sviluppato dalla Society for Libyan Studies (ora British Institute for Libyan and Northern African Studies) di Londra, che include informazioni riguardanti città e siti monumentali raccolti da <ref target="https://pleiades.stoa.org/">Pleiades</ref>, dal Barrington Atlas, da Cyrenaica. Libya Archaeological Guides di Ph. Kenrick e da altre risorse.</p>
+                <p xml:lang="fr"><!-- check -->Cette carte, empruntée à OpenStreetMap, donne une vue générale de la Cyrénaïque avec les implantations principales et les lieux de découverte des inscriptions avec leur nombre respectif (sauf le cas d’inscriptions provenant de lieux imprécis de la région : pour des données complètes, on se reportera à Indexés > <ref target="../indices/epidoc/findspot.html">Lieux de découverte</ref>). Des extraits de la carte avec OpenStreetMap location et DARE (Digital Atlas of the Roman Empire) location, extraites de Pleiades sont visibles sur la page de chaque inscription, où sont donnés en outre des repères plus précis, fournis grâce à des liens renvoyant au site ‘<ref target="http://www.slsgazetteer.org/">Heritage Gazetteer of Libya</ref>’, développé par la Society for Libyan Studies (désormais British Institute for Libyan and Northern African Studies), qui lui-même contient des informations sur les cités et les monuments, regroupées à partir de <ref target="https://pleiades.stoa.org/">Pleiades</ref>, du Barrington Atlas, de Cyrenaica. Libya Archaeological Guides de Ph. Kenrick et d’autres sources.</p>
+                <p xml:lang="ar"><!-- check -->This map, taken from OpenStreetMap, gives an insight of whole Cyrenaica with the main settlements and the findspots of inscriptions with their respective number (but for inscriptions found in places not precisely located: for a complete survey, see at Indices > <ref target="../indices/epidoc/findspot.html">Findspots</ref>). Extracts of the map with OpenStreetMap location and DARE (Digital Atlas of the Roman Empire) location taken from Pleiades may be seen at the page of each inscription, where more precise locations are provided through links to the website ‘<ref target="http://www.slsgazetteer.org/">Heritage Gazetteer of Libya</ref>’, developed by the Society for Libyan Studies (now British Institute for Libyan and Northern African Studies), which itself includes informations about single cities and monumental sites gathered from <ref target="https://pleiades.stoa.org/">Pleiades</ref>, Barrington Atlas, Ph. Kenrick’s Cyrenaica. Libya Archaeological Guides and other resources.</p>
+                <div xml:id="all_places"></div>
+            </div>
+        </body>
+    </text>
+</TEI>

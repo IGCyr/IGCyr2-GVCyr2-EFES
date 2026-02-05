@@ -11,33 +11,33 @@
      }
      
 *[lang="la"] {
-    font-family: "GentiumAlt", "Gentium","Palatino Linotype", "Palatino", "Times New Roman", "Times", "Arial Unicode MS", serif;
+    font-family: "New Athena Unicode", "Lucida Grande", "Palatino", "Gentium", "Palatino Linotype", "GentiumAlt", "Times New Roman", "Times", "Arial Unicode MS", serif;
 }
 
 *[lang="grc"] {
-    font-family: "Lucida Grande", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", 
-    "Palatino Linotype", "Titus Cyberbit Basic", "Cardo", "Vusillus Old Face", "Alphabetum", "Galatia SIL", 
+    font-family: "New Athena Unicode", "Lucida Grande", "Palatino Linotype", "Arial Unicode MS","Galilee Unicode Gk", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Cardo", "Vusillus Old Face", "Alphabetum", "Galatia SIL", 
     "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", 
     "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", 
     "Verdana", "Tahoma";
    }
    
 .textpart {
-    left: 6em;
+    left: 5em;
     line-height: 1.4;
     margin-top: 8px;
     margin-bottom: 8px;
     position: relative;
-    padding-right: 2em;
+    padding-right: 4em;
 }
 
 .textpartnumber {
-    padding-right: 0.2em;
+    padding-left: 0.5em;
     position: absolute;
+    display: block;
     }
     
 .linenumber {
-    left: -4em;
+    left: -3em;
     padding-right: 0.2em;
     position: absolute;
     }
@@ -48,7 +48,23 @@
     position: absolute;
     color: red ;
     text-decoration: blink ;
-    }
+}
+
+/* span.texpart is used for <lg> in inslib  */
+span.textpart {
+    padding-right: unset;
+}
+span.textpart .linenumber {
+    float: left !important;
+    left: -3em;
+    margin-right: -20px;
+    position: relative;
+}
+@-moz-document url-prefix() {
+  span.textpart .linenumber {
+    left: 2em;
+  }
+}
     
 .petraeligature {
     text-decoration: underline;
@@ -68,9 +84,9 @@
     font-style: italic;
     }
 
-.rtl, .rtl * {
-    direction: rtl;
-    text-align-last: right;
+.rtl, .rtl *, .ar, .ar * {
+    direction: rtl !important;
+    text-align-last: right !important;
 }
 
 h4.slimmer {

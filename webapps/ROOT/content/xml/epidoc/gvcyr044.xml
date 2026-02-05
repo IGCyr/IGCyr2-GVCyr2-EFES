@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmentary <rs type="textType" cert="low">epitaph</rs> (?)</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr044</idno>
+                <idno type="number" subtype="second-edition">044</idno>
+                <idno type="TM">105894</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr044</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr044</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr044</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small fragment of a <material>marble</material> <objectType>block</objectType> broken off everywhere but on the right edge 
+                                        (<dimensions>
+                                            <width atLeast="0.125">0.125</width>
+                                            <height atLeast="0.145">0.145</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the front surface, which was much weathered at the time of discovery.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote resp="#robinson1913">Average <height>0.012</height>, deeply and fairly well cut.</handNote>
+                            <handNote resp="#CDL">Irregular height of letters; alpha with dropped bar, flattened delta, lunate epsilon, sigma and omega, pi with equal hastae.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Possibly <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                            exact findspot unrecorded.</origPlace>
+                            <origDate notBefore="0101" notAfter="0200" precision="medium" evidence="lettering" cert="low" resp="JMR">Perhaps second century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1911">
+                            <p>Bought by the Norton mission from an Arab on February 16th, 1911 at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                exact findspot unknown.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" notBefore="1911-02-16" notAfter="1911-03-11" resp="DeCou">
+                           <p>Seen by H. De Cou between the date of purchase and his own death on March 11st, 1911 at 
+                               <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>.</p> 
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Seems to be lost.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from previous editor (JMR and CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-02-26" who="CDL">TM  added</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-16" who="Alice">It. translation; checked</change>
+            <change when="2017-03-07" who="CDL">overall check</change>
+            <change when="2016-10-04" who="CDL">file created; support, bibliography, text, apparatus, Fr. and Engl. translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76639/3/gvcyr044-face.tiff.jpg" corresp="gvcyr044" decls="#photograph"><desc resp="Mott, L." source="Norton Archive, Museum of Fine Arts, Boston" n="1911"><ref target="http://hdl.handle.net/20.500.14008/76639">Face of gvcyr044 Epitaph of Antiocheia?</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, n. <citedRange>9</citedRange> with fig. 8</bibl>, whence 
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5872</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>044</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>δηπ</orig><gap reason="illegible" quantity="1" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><seg met="foot" real="++"><w lemma="μήπως"><unclear>μ</unclear>ήπως</w></seg>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <seg met="dimeter" real="+--|+±"><persName type="attested" key=""><name nymRef="#Ἀντιόχεια">Ἀντιόχεια</name></persName></seg>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><seg met="dimeter" real="+--|++"><gap reason="lost" extent="unknown" unit="character"/> 
+                            <w lemma="θυγάτηρ"><supplied reason="lost" cert="low">θύγ</supplied>ατρας</w></seg> 
+                            <w part="I">τα</w>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <seg met="foot" real="+--"><w lemma="δύσμορος"><supplied reason="lost" cert="low">δύσ</supplied>μορος</w></seg>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>μα</orig>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem><orig>δηπ</orig><gap reason="illegible" quantity="1" unit="character"/></lem>
+                    <rdg resp="#robinson1913"><orig>δηπι</orig></rdg>
+                  </app>
+                    <app loc="2"><lem><unclear>μ</unclear>ήπως</lem>
+                    <rdg resp="#robinson1913"><orig>νηπωσ</orig></rdg>
+                </app>
+                <app loc="4"><lem><supplied reason="lost" cert="low">θύγ</supplied>ατρας τα</lem>
+                    <rdg resp="#robinson1913"><orig>ατραστα</orig></rdg>
+                </app>
+                <app loc="5"><lem><supplied reason="lost" cert="low">δύσ</supplied>μορος <note>J.M. Reynolds' suggestion</note></lem>
+                    <rdg resp="#robinson1913"><gap reason="lost" extent="unknown" unit="character"/><w part="F">μορος</w></rdg>
+                </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><gap reason="lost" extent="unknown" unit="character"/> pas encore <gap reason="lost" extent="unknown" unit="character"/> Antiokheia <gap reason="lost" extent="unknown" unit="character"/> les filles <gap reason="lost" extent="unknown" unit="character"/> infortuné(e) <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><gap reason="lost" extent="unknown" unit="character"/> not yet <gap reason="lost" extent="unknown" unit="character"/> Antiocheia <gap reason="lost" extent="unknown" unit="character"/> the daughters <gap reason="lost" extent="unknown" unit="character"/> ill-fated <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/> non ancora <gap reason="lost" extent="unknown" unit="character"/> Antiocheia <gap reason="lost" extent="unknown" unit="character"/> le figlie <gap reason="lost" extent="unknown" unit="character"/> sventurata/o <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>We follow J.M. Reynolds for the suggested date.</p>
+                <p>This very fragmentary inscription has been included into the verse collection on behalf of only two tiny hints: the plausible <foreign xml:lang="grc">δύσμορος</foreign> 
+                at line 5 (or another compound with the same second stem) and the probable word for 'daughter' in its epic form of acc. pl. <foreign xml:lang="grc">θύγατρας</foreign>.
+                This form, attested only three times in Homer, is always at the end of the verse, as all other forms in <foreign xml:lang="grc">θυγατρ-</foreign>. This allows to 
+                determine here the end of a verse.</p> 
+                <p> Another problematic aspect is the name <foreign xml:lang="grc">Ἀντιόχεια</foreign>. It may as well be the name of the city as such or used as a woman's personal 
+                    name. We choose arbitrarily the second option. Anyway, the mention of women is statistically more frequent in funerary inscriptions and the good rhythmical conformity 
+                    of the name makes the guess of a metrical epitaph a little more plausible.</p>
+                <p>Metrical analysis: dactylic fragments which it is impossible to connect with a specific verse or place in the verse, but for one case mentioned above. At least, it is 
+                    clear that the layout of lines on the stone was not consistent with the ends of verses.</p>
+            </div></body>
+    </text>
+</TEI>

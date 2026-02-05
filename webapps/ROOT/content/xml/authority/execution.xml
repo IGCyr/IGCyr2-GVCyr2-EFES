@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled Vocabulary of the Inscriptions of Greek Cyrenaica and Greek Verse inscriptions of Cyrenaica: Execution Techniques / Writing</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>IGCyr Project</authority>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename, as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>InsLib Partnership</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="Alice" when="2017-06-25">checked for IGCyr-GVCyr publication</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <list>
+                    <item xml:id="graffito">
+                        <term type="prefLabel">graffito</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/9</idno>
+                        <idno type="getty">http://vocab.getty.edu/page/aat/300015613</idno>
+                    </item>
+                    <item xml:id="pictura">
+                        <term type="prefLabel">pictura</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/10</idno>
+                        <idno type="getty">http://vocab.getty.edu/page/aat/300265015</idno>
+                    </item>
+                    <item xml:id="scalpro">
+                        <term type="prefLabel">scalpro</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/1</idno>
+                        <idno type="getty">http://vocab.getty.edu/page/aat/300053149</idno>
+                    </item>
+                    <item xml:id="signaculo">
+                        <term type="prefLabel">signaculo</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/13</idno>
+                        <idno type="getty">http://vocab.getty.edu/page/aat/300233405</idno>
+                        <idno type="getty">http://vocab.getty.edu/page/aat/300239001</idno>
+                    </item>
+                    <item xml:id="tessellis">
+                        <term type="prefLabel">tessellis</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/16</idno>
+                        <idno type="getty">http://vocab.getty.edu/page/aat/300138684</idno>
+                    </item>
+                
+                    <!-- Other values used in InsLib -->
+                    <!-- <item xml:id="litteris_alveolatis">
+                        <term xml:lang="la">Litteris alveolatis</term>
+                        <term xml:lang="en">Channelled</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/36</idno>
+                    </item>
+                    <item xml:id="litteris_eminentibus">
+                        <term xml:lang="la">Litteris eminentibus</term>
+                        <term xml:lang="en">Relief</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/7</idno>
+                    </item>
+                    <item xml:id="litteris_scariphatis"> equal to 'graffito'
+                        <term xml:lang="la">Litteris scariphatis</term>
+                        <term xml:lang="en">Scratched/graffito</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/9</idno>
+                    </item>
+                    <item xml:id="litteris_ex_forma">
+                        <term xml:lang="la">Litteris ex forma</term>
+                        <term xml:lang="en">Stamped, raised</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/8</idno>
+                    </item>
+                    <item xml:id="stilo">
+                        <term xml:lang="la">Stilo</term>
+                        <term xml:lang="en">Inscribed on a soft surface</term>
+                        <idno type="eagle">https://www.eagle-network.eu/voc/writing/lod/14</idno>
+                    </item>-->
+            </list>
+        </body>
+    </text>
+</TEI>

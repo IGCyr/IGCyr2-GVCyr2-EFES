@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr027800</idno>
+                <idno type="number" subtype="second-edition">027800</idno>
+                <idno type="TM">738282</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr027800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr027800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr027800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Marble</material> <objectType>base</objectType> with mouldings of eggs and darts above and below                                        (<dimensions>
+                                            <width>0.72</width>
+                                            <height>0.42</height>
+                                            <depth>0.40</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.04</height>; very slight serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0225" notAfter="-0175" precision="medium">End of third or beginning of second century BC</origDate>                        </origin>
+                        
+                                <provenance type="found">
+                                    <p>Found at an unknown date at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, tomb N 173, to the right of the entrance.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-04" who="cdl">updated bibl</change>
+            <change when="2022-02-08" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2015-01-21" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2011-03-09" who="CDL+HB">lemma, text edited, translation</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76987/3/igcyr027800-face.tiff.jpg" corresp="igcyr027800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76987">Face of igcyr027800 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#oliverioDAI2"/>, p. 118, n. <citedRange>122</citedRange>, fig. 78a</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.234</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>027800</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cassels1955"/>, p. <citedRange>21</citedRange></bibl>;
+                    <bibl><ptr target="#beschi1970"/>, pp. <citedRange>199, 204</citedRange> (date of the base)</bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>69</citedRange></bibl> (Cassels' notebook);
+                    <bibl><ptr target="#santucci2010"/>, pp. <citedRange>279-280</citedRange> and fig. 4a</bibl> (location);
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.11</citedRange></bibl> (corresponding half-statue).</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65566"><name nymRef="#Σάτυρος">Σάτυρος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65506"><name type="patronymic" nymRef="#Πρώταρχος">Πρωτάρχου</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Satyros fils de Protarkhos.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Satyros son of Protarchos.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Satyros figlio di Protarchos.</p>
+         </div><div type="commentary">
+                
+                <p>Satyros son of Protarchos should have been the first to be buried in that tomb. The original funerary half-figure was later substituted 
+                    by a stele for a deceased veteran (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.573.html">IRCyr2020 C.573</ref>).</p>
+	           <p>The name Satyros has here its only occurrence in Cyrenaica. The father's name is non-dialectal, both for the ending of genitive in <foreign xml:lang="grc">-ου</foreign> 
+	           and for the first member of the compound <foreign xml:lang="grc">Πρωτ(ο)-</foreign> instead of dialectal <foreign xml:lang="grc">Πρατ(ο)-</foreign>. As no ethnic is given, he might have been a Cyrenaen 
+	           with foreign connections.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

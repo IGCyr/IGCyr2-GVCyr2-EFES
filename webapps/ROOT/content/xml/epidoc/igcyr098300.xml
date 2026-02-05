@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr098300</idno>
+                <idno type="number" subtype="second-edition">098300</idno>
+                <idno type="TM">738500</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr098300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr098300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr098300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Plain rectangular <objectType>base</objectType> of <material>tufa</material>, broken off on all sides except at left and back, with two holes
+                                        for attachment of a satue on top
+                                        (<dimensions>
+                                            <width>0.915</width>
+                                            <height>0.46</height>
+                                            <depth>0.67</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> near upper edge of front face, which is much broken 
+                                    (<dimensions>
+                                        <width atLeast="0.595">0.595</width>
+                                        <height atLeast="0.41">0.41</height>
+                                    </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.04</height>; slight serifs, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" when="-0200" cert="low" precision="low" resp="rosamilia">Perhaps about 200 BC (Rosamilia)</origDate>
+                        </origin>
+                                <provenance type="found" when="1928" resp="Oliverio">
+                                    <p>Found by G. Oliverio in 1928 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2004" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 2004 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, in front of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1010">West Stoa</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="rosamilia">
+                                    <p>Studied by E. Rosamilia in 2010 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">checked</change>
+            <change when="2017-01-21" who="CDL">overall check; improved commentary; tagged w and lemma</change>
+            <change when="2013-11-05" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77331/3/igcyr098300-1-face.tiff.jpg" corresp="igcyr098300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77331">Face of igcyr098300 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77332/3/igcyr098300-2-drawing.tiff.jpg" corresp="igcyr098300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77332">Drawing of igcyr098300 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>XIV.9</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>130</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>098300</citedRange></bibl>
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>106</citedRange> and footnotes 109, 110</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#_ντω_"><gap reason="lost" quantity="3" unit="character" precision="low"/><seg part="M">ν<unclear>τω</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+              <persName><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύσας</w></rs> <w lemma="ἀνατίθημι"><unclear>ἀ</unclear><supplied reason="lost">νέθηκε</supplied></w>.	 
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem resp="#rosamilia2023"><gap reason="lost" quantity="3" unit="character" precision="low"/>ν<unclear>τω</unclear><gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#IGCyr"><gap reason="lost" quantity="4" unit="character" precision="low"/>ν <unclear>Τ</unclear><gap reason="lost" quantity="11" unit="character" precision="low"/></rdg>
+                        <rdg resp="#SECir"><gap reason="lost" quantity="3" unit="character"/><orig>ν<unclear>τω</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></rdg> 
+                </app>
+                    <app loc="2">
+                        <lem>ἱαριτεύσας <unclear>ἀ</unclear><supplied reason="lost">νέθηκε</supplied></lem>
+                        <rdg resp="#SECir">ἱαριτεύσας <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/>ntô<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fils d'Un tel a consacré</supplied> <supplied reason="subaudible">ce monument</supplied> après sa prêtrise.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/>nto<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">son of So-and-so dedicated</supplied> <supplied reason="subaudible">this monument</supplied> after having been priest.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/>nto<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">figlio d'Un taleha dedicato</supplied> <supplied reason="subaudible">questo monumento</supplied> dopo il suo sacerdozio.</p>
+            </div><div type="commentary">
+                
+                <p>Pugliese Carratelli at <bibl><ptr target="#SECir"/></bibl>, published the inscription, which he did not find, from a drawing (not given) in Oliverio's papers.
+                From the number of Oliverio's notebook we infer the date of 1928 for the find, which should have been fortuitous, as systematic excavations on the Agora began only in 
+                1929. Although the findspot was not mentioned in <bibl><ptr target="#SECir"/></bibl>, it is obvious that the stone was not moved from the area where it lies nowadays with the usual 
+                    appearance of stones left outside for a long time.</p>
+	       <p>Rosamilia was able to check Oliverio's reading at line 1 against Dobias-Lalou's reading. Further on, Rosamilia looked for a name containing the three letters. The mentioned 
+	       <foreign xml:lang="grc">Φρώντων</foreign>, being a Latin name (<foreign xml:lang="lat">Fronto</foreign>) is impossible in Hellenistic Cyrenaica. Amongst the three other Greek names 
+	           mentioned by Rosamilia, the most plausible would be <foreign xml:lang="grc">Ἀμύντωρ</foreign>, related with <foreign xml:lang="grc">Ἀμύντας</foreign>, which was used in Cyrenaica.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

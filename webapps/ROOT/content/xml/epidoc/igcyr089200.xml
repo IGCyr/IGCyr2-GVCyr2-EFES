@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Dedication</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr089200</idno>
+                <idno type="number" subtype="second-edition">089200</idno>
+                <idno type="TM">738440</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr089200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr089200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr089200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bottom of the foot of a near-complete Attic <material>black-glazed ware</material> <objectType>kantharos</objectType>
+                                        (dimensions taken from photograph: height 0.056; diameter 0.056).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> in a circle (at least for part of the text) under the foot (diameter 0.047), 
+                                    to be read mostly from the centre.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.009" max="0.025">0.009-0.025</height>, very uneven letters</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context" notBefore="-0375" notAfter="-0350" precision="medium">375-350 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1999">
+                                    <p>Found in 1999 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1466">area P</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2017-01-13" who="CDL">overall check, translations, amended commentary</change>
+            <change when="2013-06-18" who="CDL+HB">lemma, commentary, apparatus</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>E. Zimi in <ptr target="#wilson1999"/>, pp. <citedRange>161-163</citedRange></bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2000.743</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>49.2353 b</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>089200</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/> <orig>κ</orig> <w lemma="ἱαρός">ἱαρά</w> 
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#wilson1999"><expan><abbr>κ</abbr><ex>άνθαρος</ex></expan> ἱαρά</rdg>
+                        <rdg resp="#cdlBE"><expan cert="low"><abbr>κ</abbr><ex>ύλιξ</ex></expan> ἱαρά</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> consacré(e).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> sacred.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/> sacra(i).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>مقدس</p>
+         </div><div type="commentary">
+                
+                <p>If we follow Zimi's idea that the kappa is the abbreviation of the vase name, <foreign xml:lang="grc">κύλιξ</foreign> being feminine would fit better with 
+                    the adjective <foreign xml:lang="grc">ἱαρά</foreign> thant the proposed <foreign xml:lang="grc">κάνθαρος</foreign>; however the relationship between <foreign xml:lang="grc">ἱαρά</foreign> written in full and the huge kappa 
+                    is unclear. Furthermore, it cannot even be decided whether <foreign xml:lang="grc">ἱαρά</foreign> is the feminine singular or the neutral plural of the adjective. Any way, it 
+                seems to mean that the vase belonged to a god or goddess.</p>
+                <p>What we provisionally read as an illegible character was described by her as 'a trade symbol (a circle cut by two lines)'. We rather think of an accidental scratch..</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

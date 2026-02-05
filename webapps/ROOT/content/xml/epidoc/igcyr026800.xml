@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr026800</idno>
+                <idno type="number" subtype="second-edition">026800</idno>
+                <idno type="TM">738276</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr026800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr026800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr026800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings above and below, 
+                                        the upper one badly chipped; left side broken off
+                                        (<dimensions>
+                                            <width atLeast="0.59">0.59</width>
+                                            <height>0.35</height>
+                                            <depth>0.65</depth>
+                                        </dimensions>).
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution">Inscribed</rs> on the face between the mouldings (<dimensions>
+                                        <width atLeast="0.575">0.575</width>
+                                        <height>0.16</height>
+                                        <depth>0.40</depth>
+                                    </dimensions>),
+                                    with each line well centered, the letters pressed together in the middle, with large margins on both sides.</layout>
+                            </layoutDesc>
+                           
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.05</height>; carefully cut and apicated letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0125" notAfter="-0075" precision="medium">End of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at an unknown date at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>, probably 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs> (Thorn).
+                                   </p>
+                                </provenance> 
+                        <provenance type="observed" when="1979" when-iso="1997" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in front of the ancient <rs type="monuList" ref="https://www.slsgazetteer.org/934">Sculpture Museum</rs>
+                                and again in 1997 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-12-15" who="HellasLabUnibo">checked, updated and in case corrected </change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-05-17" who="CDL">lemma, text markup, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76977/3/igcyr026800-1-face.tiff.jpg" corresp="igcyr026800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/76977">Face of igcyr026800 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76978/3/igcyr026800-2-squeeze.tiff.jpg" corresp="igcyr026800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/76978">Squeeze of igcyr026800 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76979/3/igcyr026800-3-face.tiff.jpg" corresp="igcyr026800" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76979">Face of igcyr026800 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI2"/>, p. 116, n. <citedRange>112</citedRange>, fig. 68</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.224</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>026800</citedRange></bibl>.
+                    Cf.<bibl><ptr target="#beschi1970"/>, p. <citedRange>200</citedRange> and fig. 55 (discovery), p. <citedRange>204</citedRange> (date of the base)</bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>138</citedRange> (probable provenance)</bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.91</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66179"><name nymRef="#Ψαφώι">Ψαφὼι</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63585"><name type="patronymic" nymRef="#Διονύσιος">Διονυσίω</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Psaphô fille de Dionysios.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Psapho daughter of Dionysios.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Psaphò figlia di Dionysios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>بسافو بنة ديونيسيوس</p>
+         </div><div type="commentary">
+                
+                <p>Beschi dates the base of 2nd half of III or beginning of II BC. However the script is clearly lower (so also <bibl><ptr target="#fraser-matthews1987"/>,
+                pp. <citedRange>137, 488</citedRange></bibl>, following J.M. Reynolds' opinion).</p>
+                <p>Beschi shows an archive photograph proving that the base was found in the same undefined tomb as <ref type="inscription" source="#IGCyr2">IGCyr025900</ref> together with the mourning 
+                    half-figure n. 7 of his catalogue, although the latter matches none of the bases.</p>
+                <p>As the Thorns put it, the only Necropolis where the Italians made some excavations before World War II is the Northern one.</p>
+            </div></body>
+    </text>
+</TEI>

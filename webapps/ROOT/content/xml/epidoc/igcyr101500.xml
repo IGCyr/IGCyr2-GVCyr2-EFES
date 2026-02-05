@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType">dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr101500</idno>
+                <idno type="number" subtype="second-edition">101500</idno>
+                <idno type="TM">738527</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr101500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr101500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr101500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Grey <material>marble</material> <objectType>block</objectType>, broken off at left upper angle, with right face
+                                        prepared (anathyrosis) for a block adjacent to the right, which was joined through a dowel hole (above it, a <rs type="textType">mason's mark</rs>   
+                                        <foreign xml:lang="grc">Ω</foreign>)
+                                        (<dimensions>
+                                            <width>0.945</width>
+                                            <height>0.355</height>
+                                            <depth>0.395</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> very low on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.028</height>; very small circular letters, rho with small loop, slightly slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0250" notAfter="-0201" precision="medium">Second half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1935 by Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                
+                            <provenance type="observed" when="1960" resp="gpc">
+                                <p>Seen by Pugliese Carratelli in 1960 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                            </provenance>
+                            <provenance type="not-observed">
+                                    <p>Not found by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>    
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-24" who="CDL">overall check; developed commentary; Ital. translation</change>
+            <change when="2013-11-24" who="cdl">lemma, text, FR. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>  
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77386/3/igcyr101500-face.tiff.jpg" corresp="igcyr101500" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77386">Face of igcyr101500 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>181</citedRange> (photo)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>101500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64179"><name nymRef="Θεύδωρος">Θεύδωρος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63121"><name type="patronymic" nymRef="#Ἄριστις">Ἀρίστιος</name></persName></persName> <gap reason="lost" extent="unknown" unit="character"/> 
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Theudôros fils d'Aristis <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Theudoros son of Aristis <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Theudoros figlio di Aristis <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>This block, belonging to a larger monument and found in the sanctuary of Apollo should not have been moved very far away from its
+                original place.</p>
+                <p>A space is left before the beginning of the first name, whereas the father's name ends exactly on the right edge of the block, showing that the 
+                    text went on on the next block. The inscribed line is placed very low on the face. No traces for the attachment of a statue are mentioned. All those 
+                    facts are clues for a dedication and not for a honorific statue of the mentioned man.</p> 
+                <p>The name and father's name of the dedicant may be found in the reverse order in two inscriptions (<ref type="inscription" source="#IGCyr2">IGCyr021000</ref> for an eponymous priest 
+                    about 250 BC and <ref type="inscription" source="#IGCyr2">IGCyr065210</ref> for a contributor about 280 BC). Although both names are frequent at Cyrene, the lettering induces 
+                    to establish a link between all three mentions: the priest and contributor would be the father of the present dedicant. Discussed again by <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>105</citedRange></bibl>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

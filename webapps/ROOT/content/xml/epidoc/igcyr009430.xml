@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr009430</idno>
+                <idno type="number" subtype="second-edition">009430</idno>
+                <idno type="TM">105896</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr009430</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr009430</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr009430</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three fragments apparently belonging to the same <material>marble</material> <objectType>panel</objectType>: 
+                                           fragment a. from left upper part                                           
+                                           (<dimensions>
+                                            <width>0.062</width>
+                                            <height>0.09</height>
+                                            <depth>0.022</depth>
+                                                </dimensions>);
+                                            fragment b. from left rim
+                                                (<dimensions>
+                                                <width>0.06</width>
+                                                <height>0.055</height>
+                                                <depth>0.022</depth></dimensions>);
+                                            fragment c. broken on all sides
+                                            (<dimensions>
+                                                <width>0.055</width>
+                                                <height>0.09</height> 
+                                            </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>; slight serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0200" notAfter="-0101" precision="medium" cert="low">Perhaps, second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1911" resp="De Cou">
+                                    <p>Found in 1911 by H.F. De Cou at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1016">Acropolis</rs>, central room of  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1019">Apse Building</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Seems to be now lost.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-10" who="ΗΒ">text edited</change>
+            <change when="2012-06-19" who="Ljuba">added from CATALOGO</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76769/3/igcyr009430-1-fgta.tiff.jpg" corresp="igcyr009430" decls="#photograph"><desc resp="Mott, L." source="-" n="1911"><ref target="http://hdl.handle.net/20.500.14008/76769">Fragment a of igcyr009430 Unclear</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76770/3/igcyr009430-2-fgtb-drawing.tiff.jpg" corresp="igcyr009430" decls="#photograph"><desc resp="Dobias-Lalou, C." source="-" n="2017"><ref target="http://hdl.handle.net/20.500.14008/76770">Drawing of fragment b of igcyr009430 Unclear</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, pp. 163-164, nn. <citedRange>14, 15, 16</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>009430</citedRange></bibl>.</p>           
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        
+                <div type="textpart" subtype="fragment" n="a">
+                            <ab>
+                                <lb n="0"/><space quantity="2" unit="line"/>
+                                <lb n="1"/><w lemma="ἐν">᾿Εν</w> τᾶι <w part="I">ξ</w><gap reason="lost" extent="unknown" unit="character"/> 
+                                <lb n="2"/><orig>ηραιδα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                                <lb n="3"/><orig><unclear>π</unclear>ισσεγ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                                <lb n="4"/><w part="I">καλλυ</w><gap reason="lost" extent="unknown" unit="character"/>
+                            </ab></div>
+                
+                <div type="textpart" subtype="fragment" n="b">
+                            <ab>
+                                <lb n="1"/><orig>ιτα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                                <lb n="2"/><w lemma="κοιλία">κοιλίαν</w> <gap reason="lost" extent="unknown" unit="character"/> 
+                                <lb n="3"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/><orig>υτ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                            </ab></div>
+                
+                <div type="textpart" subtype="fragment" n="c">
+                            <ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><orig>κι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                                   <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>γαζη</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                                   <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>νξεν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                                   <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>γγιον</orig><gap reason="lost" extent="unknown" unit="character"/>
+                                   <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>π</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            </ab></div>                                      
+	              </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="a.1"><lem>᾿Εν τᾶι ξ<gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#robinson1913">᾿Εν τᾷ ξ<supplied reason="lost">ενίᾳ</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>
+                     <app loc="a.2"><lem><orig>ηραιδα</orig><gap reason="lost" extent="unknown" unit="character"/></lem>
+                         <rdg resp="#robinson1913">῾Ηραιδα <supplied reason="lost">ὁ</supplied>
+                    <note>from photograph a last letter that could be Σ</note></rdg></app>
+                <app loc="a.3"><lem><orig><unclear>π</unclear>ισσεγ</orig><gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#robinson1913">πισ<space quantity="1" unit="character"/>σεγ <note>from photograph the first letter might also be T; the last letter might also be a Π</note></rdg></app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisible.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمه بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>Desperate disjuncted fragments, which resemble none of the formulaic series known at Cyrene. Robinson (from De Cou) informed that the left side was «slightly 
+                bevelled» and that «the first letter of each line is on the bevel, as though the marble had served some other purpose before being inscribed». From the photograph
+                one may catch the two upper ends of a letter which might be sigma or chi. Therefore the bevel should be subsequent to the inscription and the stone was re-cut for 
+                a new use.</p>
+                <p>Some sequences are ambiguous, such as at l. 1 <foreign xml:lang="grc">ἐν τᾶι</foreign> or <foreign xml:lang="grc">[τ]ένται</foreign>.</p>
+                <p>For line 2, the feminine name <foreign xml:lang="grc">Ἡραίς</foreign> was accepted by J.M. Reynolds for <bibl><ptr target="#fraser-matthews1987"/>, p. 
+                <citedRange>202</citedRange></bibl> and is also attested for a Cyrenaean woman in Egypt. Besides a variant <foreign xml:lang="grc">Ἡραιίς</foreign> is known at 
+                    Cyrene in a clearer context (<ref type="inscription" source="#IGCyr2">IGCyr122200</ref>). For the present inscription an interesting possibility would be 
+                <foreign xml:lang="grc">[Θ]ηραίδας</foreign>, which is attested at Thera. However it does not match the small vestiges of sigma or chi mentioned above.
+                Eventually the name of goddess Hera might also stay here at the dative.</p>
+                <p>Some other sequences might perhaps be interpreted with Greek words of poetic flavour. However this impression is not enough supported by facts, so that 
+                we did not include this item into GVCyr.</p>            
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of a Cretan</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr133000</idno>
+                <idno type="number" subtype="second-edition">133000</idno>
+                <idno type="TM">738877</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr133000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr133000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr133000</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Apollonia Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Plain <objectType>stele</objectType> of white <material>marble</material>, slightly slantering, chipped off at left lower angle
+                                        (<dimensions>
+                                            <width min="0.305" max="0.355">0.305 to 0.355</width>
+                                            <height>1.01</height>
+                                            <depth min="0.215" max="0.24">0.215 to 0.24</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> at <dim type="distance">0.11</dim> from the upper edge in 
+                                three lines with spaces between letters varying so that they cover the whole width of the stele.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.015" max="0.021">0.015 to 0.021</height>; very careful lettering; alpha with rather low bar, epsilon with shorter middle 
+                            bar, dotted theta, slightly dissymmetrical nu, smaller omicron and omega, slantering sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" precision="medium" cert="low">Probably third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notBefore="2001" notAfter="2004">
+                                    <p>Found between 2001 and 2004 in the
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>: probably from the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/931">West Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" when-iso="2004" resp="CDL AL">
+                                    <p>Seen by C. Dobias-Lalou and A. Laronde in 1977 and many times again up to 2004 at <placeName type="modernSpot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>: 
+                                    in the courtyard of the ancient <rs type="monuList" ref="https://www.slsgazetteer.org/932">Apollonia Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="2008" resp="JMR HW">
+                            <p>Seen by J.M. Reynolds and photographed by H. Walda in 2008 at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernSpot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         
+            <change when="2023-08-30" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-02-15" who="CDL">overall check</change>
+            <change when="2016-10-05" who="CDL">file created; support, text, Fr. and Engl. translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77748/3/igcyr133000-face.tiff.jpg" corresp="igcyr133000" decls="#photograph"><desc resp="Walda, H." source="IRCyr project" n="2008"><ref target="http://hdl.handle.net/20.500.14008/77748">Face of igcyr133000 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>133000</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>67.1496</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ζωΐλος">Ζωΐλος</name></persName>                    
+                    <lb n="2"/><placeName type="ethnic" nymRef="#Κρής">Κρὴς</placeName>                    
+                    <lb n="3"/><placeName type="ethnic" nymRef="#Ἐλευθερναῖος">Ἐλευθερναῖος</placeName> 
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Zôilos, crétois d'Eleutherna.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Zoilos, a Cretan from Eleutherna.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Zoilos, cretese da Eleutherna.</p>
+         </div><div type="commentary">
+                
+               <p>The absence of a father's name is puzzling. However, as the ethnic of Eleutherna is mentioned, there is no reason to suppose that the dead was no citizen. It not by chance 
+               that a Cretan man died in the Port of Cyrene, where he probably came for business.</p>
+	           <p>The stele was found during building works West of the ancient city in a tomb that was destroyed on the occasion, like so many others which lie under the modern village, now 
+	               a town.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

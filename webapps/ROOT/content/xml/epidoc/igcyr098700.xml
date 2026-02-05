@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr098700</idno>
+                <idno type="number" subtype="second-edition">098700</idno>
+                <idno type="TM">738505</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr098700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr098700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr098700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> broken off at right, with a large circular hole on top
+                                        (<dimensions>
+                                            <width>0.31</width>
+                                            <height>0.214</height>
+                                            <depth>0.455</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>; careful letters without serifs, symmetrical nu slightly thickened at end of strokes, delta slightly smaller.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0251" precision="medium">Second half of fourth or first half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, West of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" when="1960" resp="gpc">
+                            <p>Seen in 1960 by Pugliese Carratelli at findspot.</p>
+                        </provenance>        
+                        <provenance type="observed" when="1977" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1977 at findspot, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2023-08-27" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-21" who="CDL">overall check; Ital. translation; improved commentary</change>
+            <change when="2013-11-07" who="cdl">lemma, text, apparatus, FR; and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77343/3/igcyr098700-squeeze.tiff.jpg" corresp="igcyr098700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77343">Squeeze of igcyr098700 Tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>137</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>098700</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Νικα-"><seg part="I">Νικα<choice><unclear>γ</unclear><unclear>ι</unclear><unclear>ν</unclear></choice></seg><gap reason="lost" quantity="8" unit="character"/></name></persName>
+                    <lb n="2"/><w lemma="δεκάτα">δεκά<supplied reason="lost">ταν</supplied></w> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθηκε</supplied></w>
+                    <lb n="2a"/><space quantity="3" unit="line"/>                
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app>
+                        <lem>Νικα<choice><unclear>γ</unclear><unclear>ι</unclear><unclear>ν</unclear></choice><gap reason="lost" quantity="8" unit="character"/></lem>
+                        <rdg resp="#SECir">Νικα<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>δεκά<supplied reason="lost">ταν ἀνέθηκε</supplied></lem>
+                        <rdg resp="#SECir">δεκά<supplied reason="lost">ταν</supplied></rdg>
+                 </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Nika<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">a consacré</supplied> <supplied reason="subaudible">ce monument</supplied> au titre de la dîme.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Nica<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">dedicated</supplied> <supplied reason="subaudible">this monument</supplied> as a tithe.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Nika<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ha dedicato</supplied> <supplied reason="subaudible">questo monumento</supplied> come decima.</p>
+         </div><div type="commentary">
+                
+                <p>A reduced formula <foreign xml:lang="grc">τῶ δεῖνος δεκάτα</foreign> would be conceivable, but is never attested. With the nominative we only have the type <foreign xml:lang="grc">δεκάτα τὠπόλλωνος</foreign> scratched on sherds. So it is preferable, on a support like this one, to restore a formula with verb + accusative,
+                which furthermore provides space for name and father's name at line 1. From it, before the break, there remains only a tiny lower part of a hasta. There are a lot of possibilities for the restoration of the first name with the three possible letters 
+                    that we have selected amongst more numerous ones which would have given no plausible result.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr113700</idno>
+                <idno type="number" subtype="second-edition">113700</idno>
+                <idno type="TM">738689</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr113700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr113700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr113700</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                    <repository>Cyrene Museum, Storeroom of the Italian missions</repository>
+                    <idno type="invNo">C99 E2 51</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of foot and bottom of an <material>Attic black-glazed ware</material> <objectType>bowl</objectType>
+                                        (<dimensions>
+                                            <width>0.055</width>
+                                            <height>0.037</height>
+                                        </dimensions>; diameter 0.087).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on the outside of the bottom.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.005</height>; see commentary.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0350" notAfter="-0301" precision="medium">Second half of the fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1999">
+                                    <p>Found in 1999 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the Hellenistic Gymnasium,
+                                        later <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" notBefore="1999" notAfter="2005" resp="Leone">
+                                    <p>Observed by R. Leone between 1999 and 2005 in
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/1484">Storeroom of the Italian missions</rs>.</p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Editor's transcription from photograph.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-25" who="Alice">checked</change>
+            <change when="2017-01-27" who="CDL">overall check</change>
+            <change when="2014-01-27" who="cdl">overall check and minor changes</change>
+            <change when="2013-11-17" who="Giuditta HellasLabUnibo">minor changes in the tagging of lemma, bibliography and text; added commentary</change>
+            <change when="2013-08-22" who="S.M.Marengo">Lemma, text finished and commentary.</change> 
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-01" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77834/3/igcyr113700-face.tiff.jpg" corresp="igcyr113700" decls="#photograph"><desc resp="Leone, R." source="Missione archeologica a Cirene, Università di Urbino" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77834">Face of igcyr113700 Unclear</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#marengo2010a"/>, p. 156, n. <citedRange>36</citedRange> fig. 7,36</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>113700</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><orig><choice><unclear>ζ</unclear><unclear>η</unclear></choice></orig> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+                </ab></div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><choice><orig>ζ</orig><orig>η</orig></choice> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap></lem>
+                        <rdg resp="#marengo2010a"><gap reason="lost" extent="unknown" unit="character"/><orig>ζ</orig></rdg>
+                    </app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisible.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Intraducibile.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمة بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>This fragmentary letter might be the left half of a zeta or the lower half of an eta, depending on the orientation.</p>
+                <p>This letter, standing by itself or followed by others, may be the beginning of a name or a trademark, perhaps with the numerical value of 7. 
+                Nothing may be decided.</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

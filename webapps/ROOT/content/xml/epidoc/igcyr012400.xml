@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr012400</idno>
+                <idno type="number" subtype="second-edition">012400</idno>
+                <idno type="TM">738211</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr012400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr012400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr012400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Upper part of a white <material>marble</material> <objectType>stele</objectType> with cymatium
+                                        (<dimensions>
+                                            <width>0.22</width>
+                                            <height>0.29</height>
+                                            <depth>0.06</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on face, beginning under the cymatium.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>; slanting mu and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" precision="medium" notBefore="-0350" notAfter="-0341">Probably 350/340 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1929">
+                                    <p>Found at the latest in 1929 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found. Might be lost.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-21" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-29" who="Alice">checked; Italian translation</change>
+            <change when="2016-08-01" who="CDL">added w and lemma into text</change>
+            <change when="2015-04-19" who="CDL">English translation and emendation in apparatus</change>
+            <change when="2013-05-30" who="Ljuba">added patronymic and word tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-10-06" who="CDL">French translation</change>
+            <change when="2012-06-24" who="CDL">lemma, apparatus</change>
+            <change when="2011-12-21" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76803/3/igcyr012400-face.tiff.jpg" corresp="igcyr012400" decls="#photograph"><desc resp="from Oliverio DAI1, pl. XIV" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76803">Face of igcyr012400 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, p. 93, n. <citedRange>21</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.22</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>012400</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>164</citedRange> (date), pp. <citedRange>297-298</citedRange>, number 38 (text)</bibl>.</p> 
+                    <p>Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>103-104 and 117</citedRange></bibl>.</p>
+                    <p>For a general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="θεός">Θεοί</w>
+                    <lb n="2"/><rs type="office" key="damiergos"><w lemma="δαμιεργέω">Δαμιεργέντων</w></rs>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66135"><name nymRef="#Χαιράδας">Χαιράδα</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62664"><name nymRef="#Αἰσχίνας" type="patronymic">Αἰσχίνα</name></persName></persName>,
+                    <lb n="4"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62591"><name nymRef="#Ἇγις"><supplied reason="lost">Ἅ</supplied>γιος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63520"><name nymRef="#Δεξίδαμος" type="patronymic">Δεξιδάμω</name></persName></persName>,
+                    <lb n="5"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65407"><name nymRef="#Πόλων"><supplied reason="lost">Π</supplied>όλωνος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63926"><name nymRef="#Εὐφράνωρ" type="patronymic">Εὐφράνο<lb n="6" break="no"/><supplied reason="lost">ρ</supplied>ος</name></persName></persName>, τῶ <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνος</name></persName>
+                    <lb n="7"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱ</supplied>αριτεύοντος</w></rs> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64963"><name nymRef="#Μελάνιππος">Μελα<lb n="8" break="no"/><supplied reason="lost">ν</supplied>ίππω</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63059"><name nymRef="#Ἀρίστανδρος" type="patronymic">Ἀριστάνδρω</name></persName></persName>.
+                    <lb n="9"/><w lemma="καρπός"><supplied reason="lost">Καρ</supplied>πὸς</w> <w lemma="τιμάω">ἐτιμάθη</w>· <w lemma="κριθά">κ<lb n="10" break="no"/><supplied reason="lost">ρι</supplied>θαὶ</w> <w>ἀν</w> <measure type="currency" unit="drachma">
+                        <num value="1.6"><g type="cyrnum">Ζ</g>
+                        <supplied reason="lost"><g type="cyrnum">&gt;</g>
+                        <g type="cyrnum">&gt;</g>
+                        </supplied></num></measure>,
+                   <w lemma="σπυρός">σπυ<supplied reason="lost">ροὶ</supplied></w>
+                    <lb n="10a"/><gap reason="lost" extent="unknown" unit="line"/>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="5"><lem resp="#fraser-matthews1987 #IGCyr #rosamilia2023"><supplied reason="lost">Π</supplied>όλωνος <note>Reynolds' reading; also Laronde in his unpublished 
+                prosopography</note></lem>
+                    <rdg resp="#oliverioDAI1"><supplied reason="lost" cert="low">Μ</supplied>όλωνος</rdg>
+                    <rdg type="alternative" resp="#oliverioDAI1"><supplied reason="lost" cert="low">Σ</supplied>όλωνος</rdg>
+                </app>
+                    <app loc="9-10"><lem resp="#rosamilia2023">κ<supplied reason="lost"><lb break="no"/>ρι</supplied>θαὶ</lem>
+                    <rdg resp="#oliverioDAI1 #IGCyr">κ<supplied reason="lost">ρι</supplied><lb break="no"/>θαὶ</rdg>
+                 </app>
+                    <app loc="10"><lem resp="#rosamilia2023"><g type="cyrnum">Ζ</g><supplied reason="lost"><g type="cyrnum">&gt;</g><g type="cyrnum">&gt;</g></supplied></lem>
+                        <rdg resp="#oliverioDAI1 #IGCyr"><g type="cyrnum">Ζ</g><supplied reason="lost"><g type="cyrnum">&gt;</g><g type="cyrnum">&gt;</g><g type="cyrnum">&gt;</g></supplied></rdg> 
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Dieux. Etant démiurges Khairadas fils d'Aiskhinas, Hagis fils de Dexidamos, Polôn fils d'Euphranôr, étant prêtre d'Apollon
+            Melanippos fils d'Aristandros, la récolte a été estimée:
+            orge, la mesure, 1 drachme 2 oboles; froment, <supplied reason="lost">la mesure, tant</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Gods. Being damiergoi Chairadas son of Aischinas, Hagis son of Dexidamos, Polon son of Euphranor, being priest of Apollo
+            Melanippos son of Aristandros, the crops were estimated:
+            barley, per unit, 1 drachma 2 obols; wheat, <supplied reason="lost">per unit, so much</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Dèi. Essendo damiurghi Chairadas figlio di Aischinas, Hagis figlio di Dexidamos, Polon figlio di Euphranor, essendo sacerdote di Apollo
+            Melanippos figlio di Aristandros, il raccolto è stato valutato:
+            orzo a 1 dracma 2 oboli; grano <supplied reason="lost">a tanto</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>الآلهة. في فترة كل من الداميرجوي خاريداس بن ايسخيناس وهاجيس بن ديكسيداموس وبولون بن يوفرانور وكاهن أبولو ميلانيبوس بن أريستاندروس، تم تقدير المحاصيل كالتالي: الشعير، 1 دراخما 2 أوبول للمقدار الواحد؛ القمح، [قيمة ما للمقدار الواحد]؛ [---].</p>
+         </div><div type="commentary">
+                
+	<p><bibl><ptr target="#rosamilia2023"/></bibl> points out that the stonecutter of this account was very probably also responsible for <ref type="inscription" source="#IGCyr2">IGCyr012600</ref> and for 
+	<ref type="inscription" source="#IGCyr2">IGCyr011500</ref>, although the supports are quite different, the former having much longer lines, the latter being cut on a wholly preserved block.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

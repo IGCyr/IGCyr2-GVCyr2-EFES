@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of an <rs type="textType">official document</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr062800</idno>
+                <idno type="number" subtype="second-edition">062800</idno>
+                <idno type="TM">738331</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr062800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr062800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr062800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">572</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a white <material>marble</material> <objectType>pillar</objectType> broken on all sides except at right, probably surmounted by <ref type="inscription" source="#IGCyr2">IGCyr097600</ref> and bearing also <ref type="inscription" source="#IGCyr2">IGCyr062810</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062820</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062830</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062840</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062850</ref>, and less surely <ref type="inscription" source="#IGCyr2">IGCyr097150</ref>                               
+                                        (<dimensions>
+                                            <width>0.045</width>
+                                            <height>0.035</height>
+                                            <depth>0.08</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed </rs> on one side above <ref type="inscription" source="#IGCyr2">IGCyr062810</ref>, whereas <ref type="inscription" source="#IGCyr2">IGCyr062820</ref> 
+                                    and <ref type="inscription" source="#IGCyr2">IGCyr062830</ref> are on the right side of the same fragment; <ref type="inscription" source="#IGCyr2">IGCyr097600</ref> is probably the upper part of the pillar;
+                                    <ref type="inscription" source="#IGCyr2">IGCyr097150</ref> might also belong to the collection.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.007</height>; small serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0139" notAfter="-0132" evidence="lettering reign" resp="rosamilia">Between 139 and 132 BC (Rosamilia, who prefers this date to 124-116 BC)</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" when="1929" resp="Pernier">
+                            <p> Found by L. Pernier on August 9th 1932 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek Theatre</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-06-29" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-01" who="Alice">checked</change>
+            <change when="2016-12-28" who="CDL">slight change in commentary</change>
+            <change when="2015-06-08" who="HellasLabunibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-05" who="CDL+HB">lemma, text, commentary, bibliography</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77061/3/igcyr062800-1-drawing.tiff.jpg" corresp="igcyr062800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1999"><ref target="http://hdl.handle.net/20.500.14008/77061">Drawing of igcyr062800 public document (with 062810 below)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77062/3/igcyr062800-2-squeeze.tiff.jpg" corresp="igcyr062800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77062">Squeeze of igcyr062800 Public document</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#cdl2000a"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>50.1639</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>062800</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>240-243</citedRange>, number 4, document II (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>σε</unclear></orig><gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ε</unclear></orig> δὲ <w part="I">α<unclear>ὐ</unclear><lb n="3" break="no"/><supplied reason="lost">τ</supplied></w><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>κ</unclear>εν</orig>
+                    <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Intraduisible.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Not usefully translatable.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Intraducibile.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمة بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>An unclear fragment of a public document engraved amongst a dossier (see <bibl><ptr target="#cdl2000a"/></bibl>). The inventory numbers show that
+                    at least some parts of the stone were already in the epigraphic collection at the time of the reorganization of the Cyrenaean antiquities 
+                    after World War II care of Goodchild (from 1956 on) and before Fraser observed one of them. In fact for this fragment we now know the circumstances 
+                    of the find, see at <ref type="inscription" source="#IGCyr2">IGCyr062830</ref>.</p>
+	      <p><ref type="inscription" source="#IGCyr2">IGCyr097600</ref> might be the upper left part of this block: see the commentary there.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

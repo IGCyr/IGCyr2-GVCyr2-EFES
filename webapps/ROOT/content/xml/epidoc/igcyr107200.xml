@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="texType" cert="low">Private honours</rs> (?) and <rs type="textType" cert="low">tithe</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr107200</idno>
+                <idno type="number" subtype="second-edition">107200</idno>
+                <idno type="TM">738599</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr107200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr107200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr107200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the Italian missions</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a white <material>marble</material> <objectType>block</objectType>, broken off at left
+                                        (<dimensions>
+                                            <width>0.510</width>
+                                            <height>0.210</height>
+                                            <depth>0.585</depth>
+                                        </dimensions>); there are two holes for attachment (long 0.14) on the upper side, near the right edge.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in three lines of different dimensions
+                                and width; axial layout at least for ll. 2 and 3.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height> at l. 1 and probably also at l. 3, taller at l. 2 (estimated from photograph); careful script, serifs slightly engraved at l. 3, small omicron and theta,
+                                slanting sigma, calice-shaped upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: presumably from the
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0320" notAfter="-0280">Late fourth or early third century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" notBefore="1958" notAfter="1961">
+                            <p>Found by S. Stucchi between 1958 and 1961 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1011">Agora North-West corner</rs>, reused in the fence of the Audience Hall that superseded the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1483">Augusteum</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="1961" resp="Gasperini">
+                            <p>Observed by L. Gasperini in 1961 at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1484">Storeroom of the Italian missions</rs>.</p>
+                        </provenance>        
+                        <provenance type="observed" when="1979" resp="CDL">
+                            <p>Fragment b only seen by C. Dobias-Lalou in 1979 in front of the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1492">Casa Parisi</rs>; fragment a was missing.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from part of stone (CDL) and from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-01" who="CDL">overall check; Ital. translation; improved commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-04" who="SMM">lemma, text, apparatus, commentary, bibliography</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77469/3/igcyr107200-fgt.tiff.jpg" corresp="igcyr107200" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77469">Fragment of igcyr107200 Private honours and tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1965"/>, pp. <citedRange>315-316</citedRange>, and pl. LVII, 3 
+                    (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>42-44</citedRange></bibl>)</bibl>; 
+                    <bibl><ptr target="#gasperini1967a"/>, p. 168, n. <citedRange>15</citedRange>, and fig. 199
+                    (= <bibl><ptr target="#gasperini2008"/>, p. <citedRange>81</citedRange></bibl>)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>107200</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>160</citedRange> with footnote</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65395"><name nymRef="#Πολύτιμος">Πολύτιμος</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63066"><name type="patronymic" nymRef="#Ἀρίσταρχος">Ἀριστάρχω</name></persName></persName>
+                    <lb n="2"/><supplied reason="lost"><space extent="unknown" unit="character"/></supplied> 
+                        <w lemma="δεκάτα"><supplied reason="lost">δεκάτ</supplied>αν</w> <space extent="unknown" unit="character"/>
+                    <lb n="3"/><supplied reason="lost"><space extent="unknown" unit="character"/></supplied> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέ</supplied>θηκε</w> <space extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2">
+                        <lem><supplied reason="lost">δεκάτ</supplied>αν</lem>
+                        <rdg resp="#gasperini1965"><supplied reason="lost" cert="low">δεκάτ</supplied>αν</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> a été consacré par Polytimos fils d'Aristarkhos au titre de <supplied reason="lost" cert="low">la dîme</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> was dedicated by Polytimos son of Aristarchos as a <supplied reason="lost" cert="low">tithe</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/> è stata dedicata da Polytimos figlio di Aristarchos come <supplied reason="lost" cert="low">decima</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>Monuments offered as tithes usually stood in the sanctuary of Apollo and not on the Agora. It is however not impossible that it has been brought up from there 
+                    on the occasion of its re-use during the fourth century AD.</p> 
+                <p>The dedication of a man's statue as a tithe is not so common, but <ref type="inscription" source="#IGCyr2">IGCyr067000</ref> provides another instance. However the layout remains 
+                    puzzling: if a statue stood at the right end, it would be in correspondence with the dedicant's name and not with the name of the honoured person, which would be 
+                    inscribed at left. The object fixed upon the base might be no statue, but a portrait within a frame. Moreover the holes might also be related to the re-use.</p> 
+                   <p>Any way, the verb being at the singular, it is not possible to suppose another dedicant mentioned at the nominative in the gap. In spite of all this obscurities, 
+                       we stick to the idea that the word at line 2 was 'tithe', while prefering to leave the question of the missing part of line 1 open.</p>
+                <p>Additional commentary for <bibl><ptr target="#IGCyr2"/></bibl>: we get two improvements from <bibl><ptr target="#rosamilia2023"/></bibl>: first, he reminds that 
+                the father of this dedicant was a damiergos in <ref type="inscription" source="#IGCyr2">IGCyr011800</ref>, as already suggested by Gasperini and missed in <ref type="inscription" source="#IGCyr">IGCyr</ref>;
+                second, he interprets the holes on top of the block as corresponding to a rider's statue (he will develope this point in a study still to be published with L. Vasta).</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

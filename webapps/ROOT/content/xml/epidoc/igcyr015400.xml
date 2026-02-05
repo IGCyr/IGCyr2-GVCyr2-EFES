@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honorary inscription</rs> for Cleopatra III and another member of the royal family</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr015400</idno>
+                <idno type="number" subtype="second-edition">015400</idno>
+                <idno type="TM">5992</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr015400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr015400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr015400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a white <material>marble</material> <objectType>block</objectType>, 
+                                        recut on both lateral sides; a second block of the same size is missing at right
+                                        (<dimensions> 
+                                            <width atLeast="0.67">0.67-</width>
+                                            <height>0.225</height>
+                                            <depth>0.565</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on back of base <ref type="inscription" source="#IGCyr2">IGCyr016400</ref>; two lines are inscribed at top left of present block, 
+                                    another line has only one half and proves the existence of a similar block to the right. It may thus be inferred
+                                    that on the whole monument another item was written in a second column, whereas the lower line laid in the centre, across both blocks.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015-0.02</height> at ll. 1-4; <height>0.025</height> at line 5; serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="reign" notBefore="-0128" notAfter="-0116">128-116 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1930">
+                                    <p>Found before 1930 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 2001 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, in front of <rs type="monuList" ref="https://www.slsgazetteer.org/1010">West Stoa</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-02-07" who="Alice">checked</change>
+            <change when="2016-08-09" who="CDL">Italian translation</change>
+            <change when="2015-09-01" who="CDL">English translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-11-08" who="CD">lemma, changes in text, Fr. translation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76858/3/igcyr015400-1-face.tiff.jpg" corresp="igcyr015400" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76858">Face of igcyr015400 Honorary inscription for Cleopatra III</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76859/3/igcyr015400-2-drawing.tiff.jpg" corresp="igcyr015400" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="1972"><ref target="http://hdl.handle.net/20.500.14008/76859">Drawing of igcyr015400 Honoray inscription for Cleopatra III</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, p. 70, n. <citedRange>7</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.53</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>015400</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#wilcken1932"/>, p. <citedRange>329</citedRange>, footnote 2</bibl>.
+                    
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+              
+                    <div type="textpart" subtype="column" n="a">
+                   <ab> 
+                       <lb n="1"/><w lemma="βασίλισσα">Βασίλισσαν</w> <persName type="ruler" key="Cleopatra III"><name nymRef="#Κλευπάτρα">Κλευπάτραν</name>
+                       <lb n="2"/><rs type="epithet" key="Thea Euergetis"><w lemma="θεά">Θεὰν</w> <w lemma="εὐεργέτις">Εὐεργέτιν</w></rs></persName>
+                   </ab>
+                     </div>
+              
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="3"/><persName type="ruler"><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="4"/><gap reason="lost" quantity="1" unit="line"/></persName>
+                    </ab>
+                </div> 
+                
+                <div type="textpart" subtype="text">
+                    <ab>
+                        <lb n="5"/><placeName type="ethnic" nymRef="#Κυραναῖος">Κυρα<supplied reason="lost">ναῖοι</supplied></placeName>
+                    </ab></div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">Les statues</supplied> de la reine Cléopatre, Déesse Evergète et de <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">ont été consacrées par</supplied> les Cyrénéens.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">The statues</supplied> of queen Cleopatra, Goddess Evergetis and of <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">were dedicated by</supplied> the Cyrenaeans.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">Le statue</supplied> della regina Cleopatra, Dea Evergete e di <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">sono state dedicate</supplied> dai Cirenei.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تماثيل) الملكة كليوباترا والمؤلَّهة إفيريغيتس و [---] (كُرِسَت من قبل) الكيرينيين.</p>
+            </div><div type="commentary">
+                
+                <p>The missing block to the right should have been inscribed with another name of the royal family and the monument should have born two statues. Wilcken rightly assigned 
+                    the monument to Clepatra III and one of her sons, <foreign xml:lang="la">contra</foreign> Oliverio who suggested Cleopatra II.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

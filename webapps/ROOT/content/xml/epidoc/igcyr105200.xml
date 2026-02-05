@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr105200</idno>
+                <idno type="number" subtype="second-edition">105200</idno>
+                <idno type="TM">738576</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr105200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr105200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr105200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings on top and below on three sides, 
+                                        broken off at upper left angle
+                                        (<dimensions>
+                                            <width>0.71</width>
+                                            <height>0.28</height>
+                                            <depth>0.52</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one line on front face 
+                                    (<dimensions>
+                                        <width>0.63</width>
+                                        <height>0.125</height>
+                                        <depth>0.46</depth>
+                                    </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; slanting sigma, rho with small loop, epsilon with short middle bar, no serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably one
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs> (see commentary).</origPlace>
+                            <origDate notBefore="-0300" notAfter="-0251" evidence="lettering" precision="medium">First half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1935">
+                                    <p>Found in 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, 
+                                        inside the Hellenistic Gymnasium (later
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>), between the Western portico and the central temple of Roman date.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="Morelli">
+                                    <p>Seen by D. Morelli in 1960 'in the neighbourhood of the entrance to Proculus' Forum' (i.e. 
+                                    <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>).</p>
+                                </provenance>
+                                 <provenance type="observed" when="1969-08-23" resp="gasperini">
+                                    <p>Seen and drawn on August 23rd, 1969 by L. Gasperini at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, 
+                                    outside the Hellenistic Gymnasium (later
+                                    <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>), placed on the wall opposite the Eastern porch.</p>
+                                </provenance>
+                                <provenance type="observed" when="1985" when-iso="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1985 and again in 2001 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription form stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>    
+            <change when="2022-02-08" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-28" who="CDL">overall check</change>
+            <change when="2013-12-13" who="CDL+HB">lemma, text, apparatus, commentary, translations</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change> 
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77443/3/igcyr105200-1-face.tiff.jpg" corresp="igcyr105200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1985"><ref target="http://hdl.handle.net/20.500.14008/77443">Face of igcyr105200 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77444/3/igcyr105200-2-drawing.tiff.jpg" corresp="igcyr105200" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="1969"><ref target="http://hdl.handle.net/20.500.14008/77444">Drawing of igcyr105200 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>265</citedRange> (no image)</bibl>; 
+                    <bibl><ptr target="#gasperini1971"/>, pp. <citedRange>4-5</citedRange> and fig. 2</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>105200</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cdl2016a"/>, p. <citedRange>45</citedRange></bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.94</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63727"><name nymRef="#Ἔρασις">Ἔρασις</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63693"><name type="patronymic" nymRef="#Ἐπικλῆς">Ἐπικλεῦς</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Erasis fils d'Épiklès.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Erasis son of Epikles.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Erasis figlio di Epikles.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>إيراسيس بن إبيكليس</p>
+         </div><div type="commentary">
+                
+	<p>Gasperini supposed the base to be votive, which would not be incompatible with the Gymnasium which anteceded the Caesareum. However, the lack of footprints 
+	    on the upper face and the mouldings cut only on three sides are clear clues for the type of bases that supported half-statues of funerary goddesses in Cyrenaean 
+	    tombs. Moreover, there is no trace of the ephebic graffiti which were added on many monuments standing in the gymnasium. For those reasons, C. Dobias-Lalou suggests that it was brought from one near Necropolis, either Southern or Eastern.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

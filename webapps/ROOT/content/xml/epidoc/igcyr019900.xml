@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to the gods of the agora</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr019900</idno>
+                <idno type="number" subtype="second-edition">019900</idno>
+                <idno type="TM">6008</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr019900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr019900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr019900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Grey <material>marble</material> <objectType>base</objectType> with two footprints on top, broken at the upper right angle, chipped off at the left edge
+                                        (<dimensions>
+                                            <width>0.82</width>
+                                            <height>0.67</height>
+                                            <depth>0.695</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs>: l. 2 is not well centred.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.022</height> ll. 1-2; <height>0.02</height> l. 3.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0250" notAfter="-0201" precision="medium">Second half of third century BC</origDate>
+                        </origin>
+                            
+                                <provenance type="found" notAfter="1924">
+                                    <p>Found before 1924 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>,  reused in a late wall, N-W of the <rs type="monuList" ref="https://www.slsgazetteer.org/1380">Temple of Demeter and Kore</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1977 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, before <rs type="monuList" ref="https://www.slsgazetteer.org/1010">West portico</rs>.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-07" who="HellasLabUnibo">checked, updated and in case corrected tagging</change>
+            <change when="2013-02-06" who="cdl">lemma, bibliography, translations, commentary</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76912/3/igcyr019900-face.tiff.jpg" corresp="igcyr019900" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76912">Face of igcyr019900 Dedication to the gods of the agora</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ghislanzoni1925"/>, pp. <citedRange>410-411</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.111</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>397, 427</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2003"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2029</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>019900</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65449"><name nymRef="#Πραξιτέλης">Πραξιτέλης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64442"><name type="patronymic" nymRef="#Ἰσχέμαχος">Ἰσχεμά<supplied reason="lost">χω</supplied></name></persName></persName>
+                    <lb n="2"/><name type="festival" key="Nemea" nymRef="#Νέμεα">Νέμεα</name>
+                    <lb n="3"/><supplied reason="lost">τ</supplied>οῖς <w lemma="θεός">θεοῖς</w> τοῖς <w>ἐν</w> τᾶι <w lemma="ἀγορά">ἀγορᾶι</w> <w lemma="ἀνατίθημι">ἀνέθηκ<supplied reason="lost">ε</supplied></w>.
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Praxitélès fils d'Iskhémakhos, <supplied reason="subaudible">vainqueur aux</supplied> jeux Néméens, a consacré <supplied reason="subaudible">ce monument</supplied> aux dieux de l'agora.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Praxiteles son of Ischemachos, <supplied reason="subaudible">winner at the</supplied> Nemean games, dedicated <supplied reason="subaudible">this monument</supplied> to the gods of the agora.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Praxiteles figlio di Ischemachos, <supplied reason="subaudible">vincitore ai</supplied> giochi di Nemea, ha dedicato <supplied reason="subaudible">questo monumento</supplied> agli dèi dell'agora.</p>
+         </div><div type="commentary">
+                
+                <p>For the historical context, see <bibl><ptr target="#laronde1987"/></bibl>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

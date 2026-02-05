@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honorary inscription</rs> for queen Cleopatra III</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr015800</idno>
+                <idno type="number" subtype="second-edition">015800</idno>
+                <idno type="TM">5994</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr015800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr015800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr015800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">606</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> much worn out; 
+                                        reused on left side for <ref type="inscription" source="#IGCyr2">IGCyr015900</ref> 
+                                        (<dimensions>
+                                            <width>0.92</width>
+                                            <height>0.25</height>
+                                            <depth>0.76</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height precision="low">0.025</height>; serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0128" notAfter="-0116" evidence="reign">Between 128 and 116 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1916">
+                                    <p>Found in 1916 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: on the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1993" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1993 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs> (this side of the stone not seen).</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2022-01-18" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-02-07" who="Alice">checked; Italian translation</change>
+            <change when="2016-08-10" who="CDL">completed tagging of w and lemma</change>
+            <change when="2015-09-01" who="CDL">Engl. translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-14" who="Ljuba">checked everything, plus w tagging</change>
+            <change when="2013-02-15" who="cdl">lemma, bibliography, Fr. translation</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+             <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76862/3/igcyr015800-face.tiff.jpg" corresp="igcyr015800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1916"><ref target="http://hdl.handle.net/20.500.14008/76862">Face of igcyr015800 Honours for Cleopatra III</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, pp. 70-71, n. <citedRange>8</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.61</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>015800</citedRange></bibl>.
+                Cf. <bibl><ptr target="#robert1960"/>, p. <citedRange>105 footnote 3</citedRange></bibl>;
+                <bibl><ptr target="#laronde1987"/>, p. <citedRange>453, footnote 228</citedRange></bibl>;
+                <bibl><ptr target="#criscuolo2011"/>, p. <citedRange>137, footnote 22</citedRange></bibl>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="βασίλισσα"><supplied reason="lost">Βα</supplied>σίλισσαν</w> <persName type="ruler" key="Cleopatra III"><name nymRef="#Κλεοπάτρα">Κλεοπάτραν</name></persName>, τὴν <w lemma="βασιλεύς">βασιλ<supplied reason="lost">έως</supplied></w> <persName type="ruler" key="Ptolemy VIII"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτο</supplied>λεμαίου</name> <rs type="epithet" key="Theos Euergetes"><w lemma="θεός">θεοῦ</w>
+                    <lb n="2"/><w lemma="εὐεργέτης">Εὐεργέτου</w></rs></persName> <w lemma="γυνή">γυναῖκα</w>, <rs type="office" key="hegemon epi tes therapeias">οἱ <w lemma="ἡγεμών">ἡγεμόνες</w> <supplied reason="lost"><w lemma="ἐπί">ἐπὶ</w></supplied> <supplied reason="lost">τῆ</supplied>ς <w lemma="θεραπεία">θεραπείας</w></rs>
+                    <lb n="3"/><w lemma="εὐεργεσία">εὐεργεσίας</w> <w>ἕνεκεν</w> τῆς <w>εἰς</w> <w lemma="ἑαυτοῦ">ἑαυτούς</w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">Statue de</supplied> la reine Cléopatre, épouse du roi Ptolémée, Dieu Evergète, 
+                <supplied reason="subaudible">érigée</supplied> par les commandants de la garde en raison des bienfaits qu'elle leur a prodigués.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">Statue of</supplied> queen Cleopatra, wife of king Ptolemy, God Euergetes, 
+                <supplied reason="subaudible">erected</supplied> by the chiefs of the guard on behalf of the benefactions provided to themselves.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">Statua della</supplied> regina Cleopatra, moglie del re Tolemeo, Dio Evergete,
+                <supplied reason="subaudible">eretta</supplied> dai comandanti della guardia in considerazione dei benefici loro concessi.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تمثال) الملكة كليوباترا، زوجة الملك بتوليميوس (بطليموس)، المُؤلَّه إفيريغيتس، (نُصِبَ) من قبل رؤساء الحرس مقابل العطايا المقدمة لهم.</p>
+            </div>
+            <div type="commentary">
+                
+                <p>For the re-use of the stone by Stolos, see commentary at <ref type="inscription" source="#IGCyr2">IGCyr015900</ref>. </p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr075600</idno>
+                <idno type="number" subtype="second-edition">075600</idno>
+                <idno type="TM">738359</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr075600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr075600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr075600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lid of Attic <material>black-glazed ware</material> <objectType>vase</objectType>; 
+                                        (width 0.16).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Graffito</rs> inscribed on the rim.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/910" key="http://pleiades.stoa.org/places/373757">Berenike</placeName>.</origPlace>
+                            <origDate evidence="lettering context" notBefore="-0250" notAfter="-0150" precision="medium">Second half of third or first half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1971" notAfter="1975">
+                                    <p>Found between 1971 and 1975 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/910" key="http://pleiades.stoa.org/places/373757">Berenike</placeName>: 
+                                         area B1, South-West of <rs type="monuList" ref="https://www.slsgazetteer.org/1463">Hellenistic city walls</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-05" who="Alice">checked</change>
+            <change when="2016-04-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2011-03-09" who="CDL+HB">lemma, text edited, translation</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77144/3/igcyr075600-view.tiff.jpg" corresp="igcyr075600" decls="#photograph"><desc resp="Kenrick, P." source="Department of Antiquities, Benghazi" n="1974"><ref target="http://hdl.handle.net/20.500.14008/77144">View of igcyr075600 Name</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#kenrick1985"/>, p. 33 n. <citedRange>Β 22</citedRange> = 415 n. 1 (r.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>35.1698</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>075600</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#jmr-kenrick2015"/>, p. <citedRange>82</citedRange>, fig. 4</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="#_νιππος"><seg part="F">νίππου</seg></name></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#kenrick1985"><supplied reason="lost">Με</supplied>νίππου</rdg>
+                        <rdg resp="#jmr-kenrick2015"><supplied reason="lost">Με</supplied>νίππου</rdg>
+                        <rdg resp="#jmr-kenrick2015"><supplied reason="lost">Μελα</supplied>νίππου</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>De <gap reason="lost" extent="unknown" unit="character"/>nippos.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Of <gap reason="lost" extent="unknown" unit="character"/>nippos.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Di <gap reason="lost" extent="unknown" unit="character"/>nippos.</p>
+         </div><div type="commentary">
+                
+                <p>Numerous names ending with <foreign xml:lang="grc">-νιππος</foreign> might be restored, so that it seems better not to fill the gap.</p>
+                <p/>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

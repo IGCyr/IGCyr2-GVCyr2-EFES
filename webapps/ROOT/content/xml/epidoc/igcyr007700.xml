@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr007700</idno>
+                <idno type="number" subtype="second-edition">007700</idno>
+                <idno type="TM">738183</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr007700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr007700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr007700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Casa Parisi</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with double mouldings of eggs and darts, partly broken off at upper right angle
+                                        (<dimensions>
+                                            <width>0.91</width>
+                                            <height>0.5</height>
+                                            <depth>0.57</depth></dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face between the mouldings 
+                                    (<dimensions><width>0.78</width>
+                                    <height>0.22</height>
+                                    <depth>0.525</depth>
+                                </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.05</height>; careful and regular letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1825" resp="copy-pacho">
+                                    <p>Copied by J.-R. Pacho in 1825 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs> in an undefined tomb.
+                                   </p>
+                                </provenance>
+                                
+                                <provenance type="observed" when="1960" resp="Morelli">
+                                    <p>Seen by D. Morelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        in front of the <rs type="monuList" ref="https://www.slsgazetteer.org/1492">Casa Parisi</rs>, which is part of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1979-06-05" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou on June 5th, 1979 at the same place.</p>
+                                </provenance>
+                                <provenance type="observed" notAfter="2013" resp="MAUC">
+                                    <p>Seen and photographed by the Missione Archeologica Università di Chieti before 2013 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>    
+            <change when="2021-10-21" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2012-03-26" who="CDL">lemma, translation, commentary</change>
+            <change when="2011-12-20" who="Emilio">inscription mark-up</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76746/3/igcyr007700-1-face.tiff.jpg" corresp="igcyr007700" decls="#photograph"><desc resp="-" source="Missione archeologica dell'Università di Chieti" n="1997-2013"><ref target="http://hdl.handle.net/20.500.14008/76746">Face of igcyr007700 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76747/3/igcyr007700-2-drawing.tiff.jpg" corresp="igcyr007700" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="1969"><ref target="http://hdl.handle.net/20.500.14008/76747">Drawing of igcyr007700 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                 
+                <p><bibl><ptr target="#CIG"/> <citedRange>5160</citedRange> (Franz)</bibl>, from 
+                    <bibl><ptr target="#pacho1827"/>, pl. <citedRange>65, 4</citedRange></bibl>; 
+                    <bibl><ptr target="#SGDI"/> <citedRange>4864</citedRange> (Blass)</bibl>; 
+                    <bibl>Morelli in <ptr target="#SECir"/>, <citedRange>267</citedRange></bibl>, as unpublished;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>007700</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#cdl2020c"/>, p. <citedRange>321</citedRange>, n. 10 and fig. 11</bibl>;
+                <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.71</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64560"><name nymRef="#Καρνήδας">Καρνήδας</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64321"><name type="patronymic" nymRef="#Ἰάσων">Ἰάσονος</name></persName></persName>
+	  </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Karnèdas fils d'Iasôn.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Karnedas son of Iason.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Karnedas figlio di Iason.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>كارنيداس بن ايسونوس</p>
+         </div><div type="commentary">
+                
+                <p>When publishing the base seen in front of Casa Parisi, Morelli was not aware of the correspondance with <bibl><ptr target="#CIG"/></bibl>. 
+                    It is admitted by Laronde in his hitherto unpublished Prosopographia and implicitely 
+                    by <bibl><ptr target="#fraser-matthews1987"/>, p. <citedRange>252</citedRange></bibl>, who omit the reference to <bibl><ptr target="#CIG"/></bibl>, that it was one and the same stone twice published 
+                    and it is probably so. At least, it is obvious that the stone in front of Casa Parisi has been exposed to air and rain for a long time and is no recent find.</p>
+                <p>However, Pacho's drawing shows plain mouldings and sigmas with parallel exterior strokes, which does not exactly fit the base seen by Morelli and Dobias-Lalou. So the identity 
+                    is not absolutely sure.</p>
+                <p>As Karnedas and Iason are very frequent names, it is not impossible that this onomastic formula was applied to two different persons, one in IV/III, the other in III/II BC.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -35,24 +35,46 @@
   </xsl:template>
 
   <xsl:template match="result/doc">
-    <tr>
-      <xsl:apply-templates select="str[@name='index_item_name']" />
+    <tr id="{substring-after(str[@name='index_external_resource'], 'http://www.slsgazetteer.org/')}">
+      <xsl:apply-templates select="str[@name='index_item_name']"/>
       <xsl:apply-templates select="str[@name='index_abbreviation_expansion']"/>
       <xsl:apply-templates select="str[@name='index_numeral_value']"/>
-      <xsl:apply-templates select="arr[@name='language_code']"/>
+      <!--<xsl:apply-templates select="arr[@name='language_code']"/>-->
+      <xsl:if test="not(ancestor::aggregation/index_metadata/tei:div[@xml:id=('mentioned_places')])"><xsl:apply-templates select="str[@name='index_attested_form']" /></xsl:if>
+      <xsl:apply-templates select="arr[@name='index_epithet']" />
       <xsl:apply-templates select="str[@name='index_item_type']" />
       <xsl:apply-templates select="str[@name='index_item_role']" />
+      <xsl:apply-templates select="str[@name='index_external_resource']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
   </xsl:template>
 
-  <xsl:template match="response/result">
-    <table class="index tablesorter">
-      <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
-      <tbody>
-        <xsl:apply-templates select="doc"><xsl:sort select="translate(normalize-unicode(lower-case(.),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/></xsl:apply-templates>
-      </tbody>
-    </table>
+  <xsl:template match="response/result">  
+    <div>
+      <p>
+        <a class="toggle_all" onclick="$('.expander').prevUntil('li:nth-child(-n+8):not(:visible)').show(); $('.expander').text($('.expander').prev().is(':visible') ? 'Show less' : 'Show more');">Expand all references lists</a>
+        <xsl:text> - </xsl:text>
+        <a class="toggle_all" onclick="$('.expander').prevUntil('li:nth-child(-n+8):visible').hide(); $('.expander').text($('.expander').prev().is(':visible') ? 'Show less' : 'Show more');">Collapse all references lists</a>
+      </p>
+    </div>
+    
+        <table class="index tablesorter">
+          <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
+          <tbody class="top_align">
+            <xsl:apply-templates select="doc">
+              <xsl:sort>
+                <xsl:variable name="sort">
+                  <xsl:choose>
+                    <xsl:when test="str[@name='index_item_sort_name']"><xsl:value-of select="str[@name='index_item_sort_name']"/></xsl:when>
+                    <xsl:when test="str[@name='index_item_name']"><xsl:value-of select="str[@name='index_item_name']"/></xsl:when>
+                    <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+                  </xsl:choose>
+                </xsl:variable>
+                <xsl:value-of select="translate(normalize-unicode(lower-case(translate($sort, 'ᵓᶜ', '!,')),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/>
+              </xsl:sort>
+            </xsl:apply-templates>
+          </tbody>
+        </table>
   </xsl:template>
 
   <xsl:template match="str[@name='index_abbreviation_expansion']">
@@ -75,11 +97,12 @@
       </xsl:choose>
     </th>
   </xsl:template>
-
+  
   <xsl:template match="arr[@name='index_instance_location']">
     <td>
       <ul class="index-instances inline-list">
         <xsl:apply-templates select="str" />
+        <xsl:if test="str[9]"><a class="expander" onclick="$(this).prevUntil('li:nth-child(-n+8)').toggle(); $(this).text($(this).prev().is(':visible') ? 'Show less' : 'Show more');">Show more</a></xsl:if>
       </ul>
     </td>
   </xsl:template>
@@ -95,7 +118,55 @@
       <xsl:value-of select="."/>
     </td>
   </xsl:template>
+  
+  <xsl:template match="str[@name='index_item_sort_name']">
+    <th scope="row">
+      <xsl:variable name="rdf-name" select="/aggregation/index_names/rdf:RDF/rdf:Description[@rdf:about=current()][1]/*[@xml:lang=$language][1]" />
+        <xsl:choose>
+        <xsl:when test="normalize-space($rdf-name)">
+          <xsl:value-of select="lower-case(translate(normalize-unicode($rdf-name,'NFD'),'&#x0301;&#x0313;&#x0314;&#x0342;',''))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </th>
+  </xsl:template>
 
+  <xsl:template match="str[@name='index_attested_form']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="arr[@name='index_epithet']">
+    <td>
+      <xsl:variable name="epithets">
+        <xsl:for-each select="str">
+          <xsl:value-of select="."/>
+          <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+        </xsl:for-each>
+      </xsl:variable>
+      <xsl:value-of select="string-join(distinct-values(tokenize($epithets, ', ')), ', ')"/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_external_resource']">
+    <td>
+      <xsl:choose>
+        <xsl:when test="contains(., 'http')">
+          <xsl:for-each select="tokenize(., ' ')">
+            <a target="_blank" href="{.}"><xsl:value-of select="."/></a>
+            <xsl:text> </xsl:text>
+          </xsl:for-each>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </td>
+  </xsl:template>
+  
   <xsl:template match="str[@name='index_numeral_value']">
     <td>
       <xsl:value-of select="."/>
@@ -109,10 +180,17 @@
       </ul>
     </td>
   </xsl:template>
-
+  
   <xsl:template match="arr[@name='language_code']/str">
     <li>
-      <xsl:value-of select="."/>
+      <xsl:choose>
+        <xsl:when test=".='la'">Latin</xsl:when>
+        <xsl:when test=".='grc'">Greek</xsl:when>
+        <xsl:when test=".='grc-Latn'">Transliterated Greek</xsl:when>
+        <xsl:when test=".='ber-Latn'">Latino-Punic</xsl:when>
+        <xsl:when test=".='xpu' or .='xpu-Latn'">Neo-Punic</xsl:when>  
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
     </li>
   </xsl:template>
 

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of Dionysis</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr013</idno>
+                <idno type="number" subtype="second-edition">013</idno>
+                <idno type="TM">105905</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr013</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr013</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr013</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> tapering <objectType>stele</objectType>, with a moulding above on three sides
+                                        (<dimensions>
+                                            <width>0.41</width>
+                                            <height>0.96</height>
+                                            <depth>0.29</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face under the moulding  
+                                    (<dimensions>
+                                        <width min="0.365" max="0.39">0.365-0.39</width>
+                                        <height>0.86</height>
+                                        <depth min="0.25" max="0.275">0.25-0.275</depth>
+                                    </dimensions>), in 10 lines grouped by pairs.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; triangular letters with projecting right stroke, lunate epsilon and sigma, slanting mu, sometimes smaller omicron,
+                            'upside-down M'-shaped omega</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="0201" notAfter="0300" cert="low" precision="medium">Perhaps third century AD</origDate>
+                        </origin>
+  
+                        <provenance type="found" when="1910">
+                            <p>Found in November 1910 by the Norton mission at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                in the <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, in the area East of tomb N270 Cassels.</p>    
+                        </provenance>
+                        <provenance type="observed" when="1982" when-iso="2004" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1982 and again 2004 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in a row displayed on the 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1487">Terrace of the Office of the Department of Antiquities</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2023-08-18" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-09" who="Alice">It. translation; checked</change>
+            <change when="2017-02-28" who="CDL">tagged w and lemma; overall check</change>
+            <change when="2014-04-11" who="CDL+HB">file created, lemma, text, apparatus, commentary, translations</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76585/3/gvcyr013-1-view.tiff.jpg" corresp="gvcyr013" decls="#photograph"><desc resp="Walda, H." source="IRCyr project" n="2008"><ref target="http://hdl.handle.net/20.500.14008/76585">View of gvcyr013 Epitaph of Dionysis</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76586/3/gvcyr013-2-face.tiff.jpg" corresp="gvcyr013" decls="#photograph"><desc resp="Mott, L." source="Norton Archive, Museum of Fine Arts, Boston" n="1911"><ref target="http://hdl.handle.net/20.500.14008/76586">Face of gvcyr013 Epitaph of Dionysis</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, n. <citedRange>35</citedRange> and fig. 25, also p. <citedRange>504</citedRange></bibl>;
+                    <bibl><ptr target="#peek1955"/>, n. <citedRange>1102</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>013</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#santucci-uhlenbrock2013"/>, pp. <citedRange>11-13</citedRange> (area of discovery)</bibl>;
+                    <bibl><ptr target="#cdl2014a"/>, pp. <citedRange>327-328</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2009</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                       <lg met="hexameter">
+                           <l n="1"><seg real="+--|+--|+--|+--|++|++">
+                            <lb n="1"/><w lemma="ὄνομα">Οὔνομα</w> μὲν <persName type="attested" key=""><name nymRef="#Διονύσις">Διονύσις</name></persName>
+                            <lb n="2"/><w lemma="φύω">ἔφυ</w> δὲ <w lemma="πατρίς">πατρὶς</w> <placeName type="city" nymRef="#Κυράνα">Κυράνα</placeName></seg>
+                            <lb n="2a"/><space quantity="1" unit="line"/></l>        
+                </lg>                
+                <lg met="elegiac couplet">
+                        <l n="2" met="hexameter"><seg real="++|+--|++|++|+--|+-">
+                            <lb n="3"/>καὶ <w lemma="παῖς">παῖδ<choice><corr>α</corr><sic>ε</sic></choice>ς</w> <w lemma="γίγνομαι">γενόμαν</w> καὶ
+                            <lb n="4"/><w lemma="παῖς">παίδων</w> <w lemma="παῖς">παῖδας</w> <w lemma="εἰσοράω">ἐσεῖδον</w></seg><lb n="4a"/><space quantity="1" unit="line"/></l> 
+                        <l n="3" met="pentameter"><seg real="+--|+--|+|+--|+--|-">
+                            <lb n="5"/>καὶ <w lemma="βιοτά">βιοτᾶς</w> <w lemma="λαγχάνω">λαχόμαν</w> <num type="total" value="98" xml:id="age"><w lemma="πλήν">πλὴν</w>
+                            <lb n="6"/><num type="cardinal" value="2"><w lemma="δύο">δύ'</w></num></num> <w lemma="ἔτος">ἐτῶν</w> <num sameAs="#age"><num type="cardinal" value="100"><w lemma="ἑκατόν">ἑκατόν</w></num></num>·</seg>
+                        <lb n="6a"/><space quantity="1" unit="line"/></l>
+                </lg>
+                <lg met="elegiac couplet">
+                        <l n="4" met="hexameter"><seg real="++|++|+--|++|+--|++">
+                            <lb n="7"/><w lemma="θνήσκω">θνήσκω</w> δ' οὐ <w lemma="νόσος">νούσοισι</w>                            
+                            <lb n="8"/><w lemma="δάμνημι">δαμεὶς</w>, <w lemma="εὕδω">εὕδων</w> δ' <w lemma="ἐν">ἐνὶ</w> <w lemma="κοίτη">κοίτῃ</w>·</seg><lb n="8a"/><space quantity="1" unit="line"/></l>
+                        <l n="5" met="pentameter"><seg real="+--|++|+|+--|+--|+">
+                            <lb n="9"/><w lemma="οὗτος">τοῦτον</w> <w lemma="ἔχω">ἔχω</w> <w lemma="μισθός">μισθὸν</w> <w lemma="λοίσθιος">λύ<lb n="10" break="no"/>σθιον</w> <w lemma="εὐσεβίη">εὐσεβίης</w>.</seg></l>
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="9-10">
+                        <lem>λύ<lb break="no"/>σθιον</lem>
+                            <rdg resp="#robinson1913"><unclear>δ</unclear>ύ<lb break="no"/>σθιον</rdg>
+                            <rdg resp="#robinson1913"><choice><corr>λ</corr><sic>δ</sic></choice>ύ<lb break="no"/>σθιον <note>von Gaertringen's suggestion per epistulam, corrigenda p. 504</note></rdg>
+                        
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr" source="#cdl2014a">
+                <p>Dionysis est mon nom et Cyrène, ma patrie ;</p>
+                <p>j'ai engendré des fils et connu les fils de mes fils</p>
+                <p>et le sort m'a donné une vie où deux ans manquaient pour faire cent.</p> 
+                <p>Je meurs non parce que la maladie m'a dompté, mais en plein sommeil dans mon lit;</p>
+                <p>je trouve là l'ultime contrepartie de ma piété.</p> <note>trad. C. Dobias-Lalou at <bibl><ptr target="#cdl2014a"/></bibl>, légèrement modifiée</note>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>My name is Dionysis, my homeland Cyrene;</p>
+                <p>I fathered sons and saw the sons of my sons;</p>
+                <p>the fate granted me with a life of hundred years but two.</p>
+                <p>I do not die subdued by any illness, but while sleeping in my bed,</p>
+                <p>getting thus the last reward of my piety.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Il mio nome è Dionysis, la mia patria Cirene;</p>
+                <p>ho generato figli e visto i figli dei miei figli;</p>
+                <p>la sorte mi ha concesso una vita di cento anni meno due.</p>
+                <p>Muoio non vittima di una malattia, ma mentre dormo nel mio letto.</p>
+                <p>Questo è il premio ultimo per la mia pietà.</p>
+            </div><div type="commentary">
+                
+                <p>At line 1, the personal name <foreign xml:lang="grc">Διονύσιος</foreign> has its ending reduced to <foreign xml:lang="grc">-ις</foreign>, a fact
+                which is well attested from first century AD onwards.</p>
+                <p>At line 3, <foreign xml:lang="grc">παῖδες</foreign> is plausibly a mistake. However some confusions do happen elsewhere between nominative and accusative plural.</p>
+                <p>At line 3, <foreign xml:lang="grc">γενόμαν</foreign> is used for the transitive verb <foreign xml:lang="grc">ἐγεινάμην</foreign>, 
+                    a choice that might be explained by the metrical requirement; as for Peek, he suggests that the intended verb was <foreign xml:lang="grc">τεκόμαν</foreign>.</p>
+                <p>At lines 9-10, <foreign xml:lang="grc">λύσθιον</foreign> has <foreign xml:lang="grc">υ</foreign> for <foreign xml:lang="grc">οι</foreign>, a 
+                    well attested change for the Imperial period.</p>
+                <p>Metrical analysis: one dactylic hexameter and two elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

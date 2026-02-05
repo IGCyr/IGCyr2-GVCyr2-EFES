@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Sacred law</rs></title> 
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr109200</idno>
+                <idno type="number" subtype="second-edition">109200</idno>
+                <idno type="TM">738621</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr109200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr109200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr109200</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository> <idno type="invNo">603 (fragm a), 850 (fragm. b)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Large <objectType>stele</objectType> of white <material>marble</material>, broken in two pieces found separately, later re-used
+                                        for <ref type="inscription" source="#IGCyr2">IGCyr109300</ref>; fragment a broken off at top and upper left edge and below, with a circular hole at
+                                        <dim type="distance">0.21</dim> from bottom
+                                        (<dimensions>
+                                            <width>0.16</width>
+                                            <height>0.89</height>
+                                            <depth>0.605</depth>
+                                        </dimensions>); 
+                                        fragment b broken off above and at lower right angle, with edges better preserved than in fragment a 
+                                         (<dimensions>
+                                            <width>0.16</width>
+                                            <height>0.63</height>
+                                            <depth>0.65</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in the middle of one narrow side, in 11 lines, beginning at <dim type="distance">0.12</dim>
+                                    above bottom of fragment a and ending at <dim type="distance">0.06</dim> below top of fragment b.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.01" max="0.012">0.01 to 0.012</height>, no serifs; dotted theta, slanting sigma, circular letters moderately smaller.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>                           
+                            <origDate evidence="lettering material-context" notBefore="-0300" notAfter="-0251" precision="medium">First half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" notAfter="1960">
+                            <p>Fragment a:
+                                found not after 1960 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</p>
+                        </provenance>
+                            <provenance type="found" notAfter="1992">
+                                <p>Fragment b:
+                                    found not after 1992 in a votive depot South of 
+                                    <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the area of 
+                                     <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.
+                            </p>
+                        </provenance>
+                        
+                        <provenance type="observed" when="2001" resp="cdl">
+                            <p>Observed in 1993 and again in 1997 and 2001 by C. Dobias-Lalou in
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.
+                            </p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-06" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">It. transl.; checked</change>
+            <change when="2017-02-03" who="CDL">overall check; tagged w, lemma, rs, names</change>
+            <change when="2104-01-16" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-22" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77490/3/igcyr109200-1-squeezes.tiff.jpg" corresp="igcyr109200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77490">Squeezes of igcyr109200 Sacred law</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77491/3/igcyr109200-2-fgtb.tiff.jpg" corresp="igcyr109200" decls="#photograph"><desc resp="Reynolds, J.M." source="IRCyr project" n="1996"><ref target="http://hdl.handle.net/20.500.14008/77491">Fragment b of igcyr109200 Sacred law</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>114</citedRange></bibl> and
+                    <bibl><ptr target="#mohamed-jmr-cdl2007"/>, pp. 30-34, n. <citedRange>2 a</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2010</citedRange></bibl>, joined by
+                    <bibl><ptr target="#cdl2003"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2029</citedRange></bibl> and again
+                    <bibl><ptr target="#cdl-dubois2007"/>, pp. <citedRange>147-148</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2010</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>109200</citedRange></bibl>. </p>
+                <p>Cf. <bibl><ptr target="#brunel1984"/>, pp. <citedRange>38-40</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>34.1645</citedRange></bibl>; 
+                    <bibl><ptr target="#gpc1987"/>, pp. <citedRange>28-29, 32</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>37.1669 and 1670</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1996"/>, pp. <citedRange>74-75</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2199</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, p. <citedRange>233</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>274-275</citedRange>, number 20 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><milestone unit="fragment" n="a"/><name type="festival" key="Akamantia" nymRef="#Ἀκαμαντιάς">Ἀκαμαντιάδες</name>
+                    <lb n="2"/><date calendar="cyrenaean"><rs type="month" nymRef="#Ἡραῖος" key="Heraios"><unclear>Ἡ</unclear>ραίω</rs> <space quantity="8" unit="character" precision="low"/> 
+                    <lb n="3"/><num type="ordinal" value="5"><w lemma="πέμπτος"><supplied reason="lost">πέμ</supplied><unclear>π</unclear>τα</w></num> <w lemma="φθίνω">φθίνοντος</w></date> 
+                    <lb n="4"/><date calendar="cyrenaean"><rs type="month" nymRef="#Καρνῆιος" key="Karneios"><supplied reason="lost">Καρ</supplied>νήιω</rs> <space quantity="8" unit="character" precision="low"/>
+                    <lb n="5"/><num type="ordinal" value="12"><w lemma="δυοδεκάς"><supplied reason="lost">δυο</supplied><unclear>δ</unclear>εκὰς</w></num></date> <space quantity="4" precision="low"/>
+                    <lb n="6"/><date calendar="cyrenaean"><rs type="month" nymRef="#Δῖος" key="Dios"><supplied reason="lost">Δί</supplied><unclear>ω</unclear></rs> <space quantity="8" unit="character" precision="low"/>
+                    <lb n="7"/><gap reason="lost" quantity="1" unit="line"/></date>
+                    <lb n="8"/><milestone unit="fragment" n="b"/><unclear>κ</unclear>αὶ <w>ἧ</w> <w>κα</w> τοὶ <rs type="office" key="tamias"><w lemma="ταμίας">ταμία<supplied reason="lost">ι</supplied></w></rs> 
+                    <lb n="9"/><name type="festival" key="Prothearia" nymRef="#Προθεάρια">Προθεάρια</name> <space quantity="6" unit="character" precision="low"/> 
+                    <lb n="10"/>τῶι <persName type="divine" ref="#Archagetas"><name nymRef="#Ἀρχαγέτας">Ἀρχαγέται</name></persName> <space quantity="2" unit="character" precision="low"/>
+                    <lb n="11"/><w lemma="θύω">θύωντι</w>.
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2">
+                        <lem><unclear>Ἡ</unclear>ραίω</lem>
+                        <rdg resp="#brunel1984"><supplied reason="lost">Ἡ</supplied>ραίω</rdg>
+                        <rdg resp="#SECir"><gap reason="lost" quantity="1" unit="character"/>ραίω</rdg>
+                    </app>
+                    <app loc="3">
+                        <lem><supplied reason="lost">πέμ</supplied><unclear>π</unclear>τα φθίνοντος</lem>
+                        <rdg resp="#cdl1996"><supplied reason="lost">πρ</supplied>άτα φθίνοντος</rdg>
+                        <rdg resp="#SECir"><supplied reason="lost">κ</supplied><unclear>α</unclear>ταφθίνοντος</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem resp="#cdl1996"><supplied reason="lost">Καρ</supplied>νήιω</lem>
+                        <rdg resp="#gpc1987"><gap reason="lost" extent="unknown" unit="character"/>ηιω <note>suggesting a month name</note></rdg>
+                        <rdg resp="#brunel1984">Δίω</rdg>
+                        <rdg resp="#SECir"><gap reason="illegible" quantity="1" unit="character"/><orig>ιω</orig></rdg>
+                    </app>
+                    <app loc="5">
+                        <lem><supplied reason="lost">δυο</supplied><unclear>δ</unclear>εκὰς</lem>
+                        <rdg resp="#cdl2003"><gap reason="lost" quantity="3" unit="character"/><unclear>δ</unclear>εκὰς</rdg>
+                        <rdg resp="#brunel1984"><unclear>δ</unclear>εκὰς</rdg>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>εκας</orig></rdg>
+                    </app>
+                    <app loc="6">
+                        <lem resp="#cdl1996"><supplied reason="lost">Δί</supplied><unclear>ω</unclear></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="line"/></rdg>
+                    </app>
+                    <app loc="11"><note>after this word and on the same line begins line 34 of side ii of <ref type="inscription" source="#IGCyr2">IGCyr109300</ref></note></app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Jours d'Akamantia: le 26 Hèraios, le 12 Karneios, le <supplied reason="lost">tantième</supplied> Dios et chaque fois que
+            les trésoriers procèdent au sacrifice des <foreign rend="italic">prothearia</foreign> pour l'Arkhègète.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Days of Akamantia: the 26th of Heraios, the 12th of Karneios, the <supplied reason="lost">number</supplied>th of Dios and every time
+            the treasurers offer the sacrifice of <foreign rend="italic">prothearia</foreign> to the Archegetes.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Giorni degli Akamantia: il 26 Heraios, il 12 Karneios, il <supplied reason="lost">tale giorno</supplied> di Dios e ogni volta che i 
+                tesorieri offrono il sacrificio dei <foreign rend="italic">prothearia</foreign> all'Archegetes.</p>
+            </div><div type="commentary">
+                
+                <p>The lettering as well as the display of side b of the stone (in <ref type="inscription" source="#IGCyr2">IGCyr109300</ref>) show that the latter resulted of a re-use. Why 
+                    the former inscription was cut in the middle of the narrow side of the stele might be explained at least partly by the hole surmounting those few lines. 
+                    The broader sides were perhaps not accessible for writing and/or reading if something was attached to the narrow side approximately at middle height.</p>
+                <p>We keep here the wider and traditional title 'sacred law'. In fact, this is more precisely a calendar of sacrifices.</p>
+                <p>The link between <foreign xml:lang="grc">Ἀκαμαντιάδες</foreign> and <foreign xml:lang="grc">Ἀκαμάντια</foreign> (<ref type="inscription" source="#IGCyr2">IGCyr016700</ref>, l. 21) was explained by 
+                <bibl><ptr target="#brunel1984"/></bibl>, approved by <bibl><ptr target="#gpc1987"/></bibl>.</p>
+                <p>Since both fragments have been brought together, some readings proposed before 2003 for the months and dates are no longer valid. 
+                What is now clear is that the name of the month at the genitive case was followed by the mention of the day inside it.</p>
+                <p>About the treasurers' role and the sacrifice called <foreign rend="italic">prothearia</foreign>, see at <bibl><ptr target="#mohamed-jmr-cdl2007"/>,  
+                p. <citedRange>32</citedRange></bibl>. We should add that <ref type="inscription" source="#IGCyr2">IGCyr064100</ref>, being a dedication by 
+                <foreign rend="italic">thearoi</foreign> about to sail to Delphi, is probably related to that ceremony, which would logically have taken place
+                 at the port of Cyrene.</p>
+                <p>Additional comment for <bibl><ptr target="#IGCyr2"/></bibl>: the list of names cut on both sides of the stele later than those regulations has been 
+                identified by <bibl><ptr target="#rosamilia2023"/></bibl> as priests plausibly of Ammon. The question now remains: what relation between Ammon's cult and the 
+                Akamantia? We know nearly nothing about the supposed sanctuary of Ammon were fragment b was discovered. The stele may have been brought from elsewhere on purpose of 
+                its re-use.</p>
+               </div></body>
+    </text>
+</TEI>

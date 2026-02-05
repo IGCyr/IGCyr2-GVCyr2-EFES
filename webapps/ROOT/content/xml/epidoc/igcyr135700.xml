@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135700</idno>
+                <idno type="number" subtype="second-edition">135700</idno>
+                <idno type="TM">997619</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135700</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <objectType>base</objectType>, probably of <material>marble</material>, dimensions unkown.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/>No precision on the lettering.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context" notBefore="-0400" notAfter="-0101" precision="low">Possibly third or second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1920" notAfter="1921" resp="Ferri">
+                                    <p>Seen by Ferri in 1920 or 1921 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places//373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, tomb S178 Cassels.
+                                    </p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Never seen after Ferri.
+                            <placeName type="modernSpot" key=""/></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/" key=""/>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Editor's transcription from first mention (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change> 
+            <change when="2024-01-17" who="CDL">added textType</change> 
+                <change when="2023-01-23" who="CDL">file updated</change>
+         <change when="2022-03-21" who="CDL">File created and filled.</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Not included into <bibl><ptr target="#IGCyr"/></bibl>. </p> 
+            <p>Mentioned by <bibl><ptr target="#ferri1929a"/>, p. <citedRange>8</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name>Αἰγλάνωρ</name><persName type="attested" key=""><name nymRef="#Τείσανδρος">Τεισάνδρω</name></persName></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem>Τεισάνδρω</lem>
+                <rdg resp="#ferri1929a">Τερσάνδρω</rdg>
+                </app></p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Aiglanor fils de Teisandros.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Aiglanor son of Teisandros.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Aiglanor figlio di Teisandros.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>Ferri mentioned this base as seen by him 'in the sanctuary of Hawa Tunsiya', which he thought was a Mithraeum. In fact, the so-called sanctuary is situated inside 
+             a lateral room of the courtyard of tomb S178 and is not related to the funerary use of the main part (see <bibl><ptr target="#marini2018"/>, pp. <citedRange>221-222</citedRange></bibl>).
+             Ferri provided neither description nor image of the base. He only said that he saw it near a half-statue to which it was related. This shows that both items had fallen from the top of the tomb 
+             façade into the courtyard and were not related to the possibly later lateral sanctuary.</p>
+             <p>The name read by Ferri is not plausible in Greek. He probably misread rho for iota.  Names in <foreign xml:lang="grc">Τεισ(ι)-</foreign> are attested at Cyrene, although this one is not up to now,
+                 but has many occurrences elsewhere.</p>
+            </div></body>
+    </text>
+</TEI>

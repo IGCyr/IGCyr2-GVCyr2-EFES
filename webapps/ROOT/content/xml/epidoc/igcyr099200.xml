@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> on occasion of a <foreign rend="italic">telesphoria</foreign></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr099200</idno>
+                <idno type="number" subtype="second-edition">099200</idno>
+                <idno type="TM">738510</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr099200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr099200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr099200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">502</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary white <material>marble</material> <objectType>block</objectType> with projecting moulding on top, broken off at left, right and below
+                                        (<dimensions>
+                                            <width>0.31</width>
+                                            <height>0.145</height>
+                                            <depth>0.11</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face under the moulding
+                                    (<dimensions><width>0.30</width><height>0.095</height><depth>0.095</depth></dimensions>) in 6 columns of two lines each, followed by one or more lines on the whole width.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.018</height> at lines 1 to 12, <height>0.022</height> at line 13; tall beta with rather large loops, small theta and omicron,
+                                slanting sigma, upsilon with tall vertical stroke and largely open bars.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0320" notAfter="-0280" precision="medium">End of fourth or beginning of third century BC</origDate>
+                        </origin>
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                       exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" when="1960" resp="gpc">
+                            <p>Seen in 1960 by Pugliese Carratelli in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>         
+                        <provenance type="observed" when="1977" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1977 at the same place.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-09-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">It. translation; checked</change>
+            <change when="2017-01-22" who="CDL">overall check</change>
+            <change when="2013-11-08" who="CDL+HB">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>  
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77349/3/igcyr099200-squeeze.tiff.jpg" corresp="igcyr099200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77349">Squeeze of igcyr099200 Dedication with telesphoria</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>144</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>099200</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>196-197</citedRange> (typology)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="2"/><persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="4"/><persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="c">
+                    <ab>
+                        <lb n="5"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="6"/><persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="d">
+                    <ab>
+                        <lb n="7"/><persName type="attested" key=""><name nymRef="#_ρος"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><seg part="F">ρος</seg></name>
+                        <lb n="8"/><persName type="attested" key=""><name nymRef="#_κράτης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">κρ</supplied>άτευς</seg></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="e">
+                    <ab>
+                        <lb n="9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63355"><name nymRef="#Βαῖος">Βαῖος</name>
+                        <lb n="10"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64856"><name type="patronymic" nymRef="#Λυσανίας">Λυσανία</name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="f">
+                    <ab>
+                        <lb n="11"/><persName type="attested" key=""><name><seg part="I"><choice><unclear>Γ</unclear><unclear>Π</unclear></choice></seg><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="12"/><persName type="attested" key=""><name nymRef="#Θ_" type="patronymic"><seg part="I">Θ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="text">
+                    <ab>
+                        <lb n="13"/><w lemma="τελεσφορέω"><supplied reason="lost">τελεσφο</supplied>ρέντε<supplied reason="lost">ς</supplied></w>
+                        <lb n="13a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="8">
+                        <lem><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">κρ</supplied>άτευς</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/>άτευς</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Untel fils d'Untel</supplied>, <supplied reason="subaudible">Untel fils d'Untel</supplied>, <supplied reason="subaudible">Untel fils d'Untel</supplied>,
+            <gap reason="lost" extent="unknown" unit="character"/>ros fils de <gap reason="lost" extent="unknown" unit="character"/>kratès, Baios fils de Lysanias, <supplied reason="subaudible">Untel</supplied> fils de Th<gap reason="lost" extent="unknown" unit="character"/>, à l'occasion de 
+            la <foreign rend="italic">telesphoria</foreign> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">So-and-so son of So-and-so</supplied>, <supplied reason="subaudible">So-and-so son of So-and-so</supplied>, <supplied reason="subaudible">So-and-so son of So-and-so</supplied>,
+            <gap reason="lost" extent="unknown" unit="character"/>ros son of <gap reason="lost" extent="unknown" unit="character"/>krates, Baios son of Lysanias, <supplied reason="subaudible">So-and-so</supplied> son of Th<gap reason="lost" extent="unknown" unit="character"/>,
+                while celebrating the <foreign rend="italic">telesphoria</foreign> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="subaudible">Il tale figlio del tale</supplied>, <supplied reason="subaudible">il tale figlio del tale</supplied>, <supplied reason="subaudible">il tale figlio del tale</supplied>,
+            <gap reason="lost" extent="unknown" unit="character"/>ros figlio di <gap reason="lost" extent="unknown" unit="character"/>krates, Baios figlio di Lysanias, <supplied reason="subaudible">il tale</supplied> figlio di Th<gap reason="lost" extent="unknown" unit="character"/>,
+                in occasione della <foreign rend="italic">telesphoria</foreign> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>From the layout of letters at line 3, we are able to deduce the dimensions of the missing parts; hence three columns mentioning three other men are lost at left; 
+                as for the following line, the formula might be more or less complete. Pugliese Carratelli thought that the stone was complete below and mentioned it as a base. C. Dobias-Lalou for 
+                <bibl><ptr target="#IGCyr"/></bibl> was not convinced, because the proeminent moulding and also because a base would also have a moulding below. <bibl><ptr target="#rosamilia2023"/></bibl> 
+                suggests that it might be the lintel of a naiskos, which seems a good idea.</p>
+                <p/>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

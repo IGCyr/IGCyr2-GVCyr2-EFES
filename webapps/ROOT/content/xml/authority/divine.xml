@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Authority list of divine names and epithets in IOSPE</title>
+                <title>Authority list of divine names and epithets in IGCyr2</title>
             </titleStmt>
             <publicationStmt><ab/></publicationStmt>
             <sourceDesc><ab/></sourceDesc>
@@ -14,280 +14,379 @@
         <body>
             <div type="commentary">
                 <listPerson type="divinities">
-                    <head xml:lang="en">Divine and mythological figures</head>
-                    <head xml:lang="ru">RU: Divine and mythological figures</head>
-                    <person xml:id="adam">
-                        <persName xml:lang="en">Adam</persName>
-                        <persName xml:lang="ru">Адам</persName>
-                        <persName xml:lang="grc">Ἀδάμ</persName>
+                    <person xml:id="Agathe_Tyche">
+                        <persName xml:lang="en">Agathe Tyche</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/63</idno>
                     </person>
-                    <person xml:id="theos">
-                        <persName xml:lang="en">God</persName>
-                        <persName xml:lang="ru">Бог</persName>
-                        <persName xml:lang="grc">Θεός</persName>
-                        <persName xml:lang="grc">Κύριος</persName>
-                        <persName xml:lang="grc">Σαβαώθ</persName>
+                    <person xml:id="Aglaokarpos-Demeter">
+                        <persName xml:lang="en">Aglaokarpos/Demeter</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1413</idno>
                     </person>
-                    <person xml:id="maria">
-                        <persName xml:lang="en">Virgin Mary</persName>
-                        <persName xml:lang="ru">Богородица</persName>
-                        <persName xml:lang="grc">Θεοτόκος</persName>
-                   </person>
-                    <person xml:id="iesous">
-                        <persName xml:lang="en">Jesus Christ</persName>
-                        <persName xml:lang="ru">Иисус Христос</persName>
-                        <persName xml:lang="grc">Ἰησοῦς Χριστός</persName>
+                    <person xml:id="Ammon">
+                        <persName xml:lang="en">Ammon</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/104</idno>
                     </person>
-                    <person sameAs="#theos">
-                        <persName xml:lang="en">Kyrios</persName>
-                        <persName xml:lang="ru">Господь</persName>
-                        <persName xml:lang="grc">Κύριος</persName>
+                    <person xml:id="Anax">
+                        <persName xml:lang="en">Anax</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/185</idno>
                     </person>
-                    <person sameAs="#theos">
-                        <persName xml:lang="en">Sabaoth</persName>
-                        <persName xml:lang="ru">Саваоф</persName>
-                        <persName xml:lang="grc">Σαβαώθ</persName>
+                    <person xml:id="Anemoi">
+                        <persName xml:lang="en">Anemoi</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/2752</idno>
                     </person>
-                    <person sameAs="#iesous">
-                        <persName xml:lang="en">Christ</persName>
-                        <persName xml:lang="ru">Христос</persName>
-                        <persName xml:lang="grc">Χριστός</persName>
-                    </person>
-                    <person xml:id="sarapis">
-                        <persName xml:lang="grc">Σάραπις</persName>
-                        <persName xml:lang="ru">Сарапис</persName>
-                        <persName xml:lang="en">Sarapis</persName>
-                    </person>
-                    <person xml:id="isis">
-                        <persName xml:lang="grc">Ἴσις</persName>
-                        <persName xml:lang="ru">Исида</persName>
-                        <persName xml:lang="en">Isis</persName>
-                    </person>
-                    <person xml:id="anubis">
-                        <persName xml:lang="grc">Ἄνουβις</persName>
-                        <persName xml:lang="ru">Анубис</persName>
-                        <persName xml:lang="en">Anubis</persName>
-                    </person>
-                    <person xml:id="parthenos">
-                        <persName xml:lang="grc">Παρθένος</persName>
-                        <persName xml:lang="ru">Дева</persName>
-                        <persName xml:lang="en">Parthenos</persName>
-                    </person>
-                    <person xml:id="olympians">
-                        <persName xml:lang="grc">θεοί Ὀλύμπιοι</persName>
-                        <persName xml:lang="ru">Олимпийцы</persName>
-                        <persName xml:lang="en">Olympian gods</persName>
-                    </person>
-                    <person xml:id="zeus">
-                        <persName xml:lang="grc">Ζεύς</persName>
-                        <persName xml:lang="ru">Зевс</persName>
-                        <persName xml:lang="en">Zeus</persName>
-                    </person>
-                    <person xml:id="demeter">
-                        <persName xml:lang="grc">Δημήτηρ</persName>
-                        <persName xml:lang="ru">Деметра</persName>
-                        <persName xml:lang="en">Demeter</persName>
-                    </person>
-                    <person xml:id="apollo">
-                        <persName xml:lang="grc">Απόλλων</persName>
-                        <persName xml:lang="ru">Аполлон</persName>
-                        <persName xml:lang="en">Apollo</persName>
-                    </person>
-                    <person sameAs="#apollo">
-                        <persName xml:lang="grc">Φοῖβος</persName>
-                        <persName xml:lang="ru">Феб</persName>
-                        <persName xml:lang="en">Phoebos</persName>
-                    </person>
-                    <person xml:id="artemis">
-                        <persName xml:lang="grc">Ἄρτεμις</persName>
-                        <persName xml:lang="ru">Артемида</persName>
-                        <persName xml:lang="en">Artemis</persName>
-                    </person>
-                    <person xml:id="dionysus">
-                        <persName xml:lang="grc">Διόνυσος</persName>
-                        <persName xml:lang="ru">Дионис</persName>
-                        <persName xml:lang="en">Dionysus</persName>
-                    </person>
-                    <person xml:id="hermes">
-                        <persName xml:lang="grc">Ἑρμῆς</persName>
-                        <persName xml:lang="ru">Гермес</persName>
-                        <persName xml:lang="en">Hermes</persName>
-                    </person>
-                    <person xml:id="aphrodite">
-                        <persName xml:lang="grc">Ἀφροδίτη</persName>
-                        <persName xml:lang="ru">Афродита</persName>
+                    <person xml:id="Aphrodite">
                         <persName xml:lang="en">Aphrodite</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/3</idno>
                     </person>
-                    <person xml:id="ares">
-                        <persName xml:lang="grc">Ἄρης</persName>
-                        <persName xml:lang="ru">Арес</persName>
+                    <person xml:id="Apollo">
+                        <persName xml:lang="en">Apollo</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1</idno>
+                    </person>
+                    <person xml:id="Apollo_Apotropaios">
+                        <persName xml:lang="en">Apollo Apotropaios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/29</idno>
+                    </person>
+                    <person xml:id="Apollo_Archagetas">
+                        <persName xml:lang="en">Apollo Archagetas</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/136</idno>
+                    </person>
+                    <person xml:id="Apollo_Archegetes">
+                        <persName xml:lang="en">Apollo Archegetes</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/136</idno>
+                    </person>
+                    <person xml:id="Apollo_Korax">
+                        <persName xml:lang="en">Apollo Korax</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1348</idno>
+                    </person>
+                    <person xml:id="Apollo_Myrtoios">
+                        <persName xml:lang="en">Apollo Myrtoios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1352</idno>
+                    </person>
+                    <person xml:id="Apollo_Nomios">
+                        <persName xml:lang="en">Apollo Nomios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1403</idno>
+                    </person>
+                    <person xml:id="Apollo_Nymphagetas">
+                        <persName xml:lang="en">Apollo Nymphagetas</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/182</idno>
+                    </person>
+                    <person xml:id="Apollo_Pythios">
+                        <persName xml:lang="en">Apollo Pythios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/75</idno>
+                    </person>
+                    <person xml:id="Apollo_Soter">
+                        <persName xml:lang="en">Apollo Soter</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/27</idno>
+                    </person>
+                    <person xml:id="Archagetas">
+                        <persName xml:lang="en">Archagetas</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/136</idno>
+                    </person>
+                    <person xml:id="Ares">
                         <persName xml:lang="en">Ares</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/546</idno>
                     </person>
-                    <person xml:id="athena">
-                        <persName xml:lang="grc">Ἀθηνᾶ</persName>
-                        <persName xml:lang="ru">Афина</persName>
-                        <persName xml:lang="en">Athena</persName>
+                    <person xml:id="Artemis">
+                        <persName xml:lang="en">Artemis</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/9</idno>
                     </person>
-                    <person xml:id="ge">
-                        <persName xml:lang="grc">Γαῖα</persName>
-                        <persName xml:lang="ru">Гея</persName>
-                        <persName xml:lang="en">Ge</persName>
+                    <person xml:id="Artemis_Agrotera">
+                        <persName xml:lang="en">Artemis Agrotera</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/20</idno>
                     </person>
-                    <person xml:id="helios">
-                        <persName xml:lang="grc">Ἥλιος</persName>
-                        <persName xml:lang="ru">Гелиос</persName>
-                        <persName xml:lang="en">Helios</persName>
+                    <person xml:id="Artemis_Katagogis">
+                        <persName xml:lang="en">Artemis Katagogis</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1360</idno>
                     </person>
-                    <person xml:id="metertheon">
-                        <persName xml:lang="grc">Μήτηρ θεῶν</persName>
-                        <persName xml:lang="ru">Матер богов</persName>
-                        <persName xml:lang="en">Mother of gods</persName>
-                    </person>
-                    <person xml:id="nemesis">
-                        <persName xml:lang="grc">Νέμεσις</persName>
-                        <persName xml:lang="ru">Немесида</persName>
-                        <persName xml:lang="en">Nemesis</persName>
-                    </person>
-                    <person xml:id="pythia">
-                        <persName xml:lang="grc">Πυθία</persName>
-                        <persName xml:lang="ru">Пифия</persName>
-                        <persName xml:lang="en">Pythia</persName>
-                    </person>
-                    <person sameAs="pythia">
-                        <persName xml:lang="grc">Πυθώ</persName>
-                        <persName xml:lang="ru">Пито</persName>
-                        <persName xml:lang="en">Pytho</persName>
-                    </person>
-                    <person xml:id="hades">
-                        <persName xml:lang="grc">ᾍδης</persName>
-                        <persName xml:lang="ru">Аид</persName>
-                        <persName xml:lang="en">Hades</persName>
-                    </person>
-                    <person sameAs="#hades">
-                        <persName xml:lang="grc">Πλούτων</persName>
-                        <persName xml:lang="ru">Плутон</persName>
-                        <persName xml:lang="en">Pluto</persName>
-                    </person>
-                    <person xml:id="hekate">
-                        <persName xml:lang="grc">Ἑκάτη</persName>
-                        <persName xml:lang="ru">Геката</persName>
-                        <persName xml:lang="en">Hekate</persName>
-                    </person>
-                    <person xml:id="eileithyia">
-                        <persName xml:lang="grc">Εἰλείθυια</persName>
-                        <persName xml:lang="ru">Илифия</persName>
-                        <persName xml:lang="en">Eileithyia</persName>
-                    </person>
-                    <person xml:id="asklepios">
-                        <persName xml:lang="grc">Ἀσκληπιός</persName>
-                        <persName xml:lang="ru">Асклепий</persName>
+                    <person xml:id="Asklepios">
                         <persName xml:lang="en">Asklepios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/14</idno>
                     </person>
-                    <person xml:id="muses">
-                        <persName xml:lang="grc">Μοῦσαι</persName>
-                        <persName xml:lang="ru">Музы</persName>
-                        <persName xml:lang="en">Muses</persName>
+                    <person xml:id="Athanaia">
+                        <persName xml:lang="en">Athanaia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/15</idno>
                     </person>
-                    <person xml:id="moirai">
-                        <persName xml:lang="grc">Μοῖραι</persName>
-                        <persName xml:lang="ru">Мойры</persName>
-                        <persName xml:lang="en">Moirai</persName>
+                    <person xml:id="Athanaia_Hypellaia">
+                        <persName xml:lang="en">Athanaia Hypellaia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1384</idno>
                     </person>
-                    <person xml:id="rhodos">
-                        <persName xml:lang="grc">Ῥόδος</persName>
-                        <persName xml:lang="ru">Родос</persName>
-                        <persName xml:lang="en">Rhodos</persName>
+                    <person xml:id="Athanaia_Pantheia">
+                        <persName xml:lang="en">Athanaia Pantheia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1028</idno>
                     </person>
-                    <person xml:id="heros">
-                        <persName xml:lang="grc">ἥρως</persName>
-                        <persName xml:lang="ru">герой</persName>
-                        <persName xml:lang="en">heros</persName>
+                    <person xml:id="Athena_Apotropaia">
+                        <persName xml:lang="en">Athena Apotropaia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/29</idno>
                     </person>
-                    <person xml:id="achilles">
-                        <persName xml:lang="grc">Ἀχιλλεύς</persName>
-                        <persName xml:lang="ru">Ахилл</persName>
-                        <persName xml:lang="en">Achilles</persName>
+                    <person xml:id="Augeas">
+                        <persName xml:lang="en">Augeas</persName>
                     </person>
-                </listPerson>
-                
-                <listPerson type="saints">
-                    <head xml:lang="en">Saints</head>
-                    <head xml:lang="ru">RU: Saints</head>
-                    <person xml:id="stgeorge">
-                        <persName xml:lang="en">St George</persName>
-                        <persName xml:lang="ru">Св. Георгий</persName>
-                        <persName xml:lang="grc">Ἅγιος Γεώργιος</persName>
+                    <person xml:id="Charites">
+                        <persName xml:lang="en">Charites</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/363</idno>
                     </person>
-                    <person xml:id="stDemetrius">
-                        <persName xml:lang="en">St Demetrius</persName>
-                        <persName xml:lang="ru">Св. Димитрий</persName>
-                        <persName xml:lang="grc">Ἅγιος Δημήτριος</persName>
+                    <person xml:id="Curete">
+                        <persName xml:lang="en">Curete</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1364</idno>
                     </person>
-                    <person xml:id="sthelen">
-                        <persName xml:lang="en">St Helen</persName>
-                        <persName xml:lang="ru">Св. Елена</persName>
-                        <persName xml:lang="grc">ἁγία ἔνδοξος θεόστεπτος μεγάλη βασιλίσσα καὶ εἰσαπόστολος Ἑλένη</persName>
+                    <person xml:id="Demeter">
+                        <persName xml:lang="en">Demeter</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/16</idno>
                     </person>
-                    <person xml:id="sttheodore">
-                        <persName xml:lang="en">St Theodore</persName>
-                        <persName xml:lang="ru">Св. Феодор</persName>
-                        <persName xml:lang="grc">Ἅγιος Θεόδωρος</persName>
+                    <person xml:id="Dika">
+                        <persName xml:lang="en">Dika</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/2035</idno>
                     </person>
-                    <person xml:id="stjohn">
-                        <persName xml:lang="en">St John</persName>
-                        <persName xml:lang="ru">Св. Иоанн</persName>
-                        <persName xml:lang="grc">Ἅγιος Ἰωάννης</persName>
+                    <person xml:id="Dionysos">
+                        <persName xml:lang="en">Dionysos</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/13</idno>
                     </person>
-                    <person xml:id="stjohnbaptist">
-                        <persName xml:lang="en">St John the Baptist</persName>
-                        <persName xml:lang="ru">Св. Иоанн Предтеча</persName>
-                        <persName xml:lang="grc">Ἅγιος Ἰωάννης ὁ Πρόδρομος</persName>
+                    <person xml:id="Dioscuri">
+                        <persName xml:lang="en">Dioscuri</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/324</idno>
                     </person>
-                    <person xml:id="stjohnarchbishop">
-                        <persName xml:lang="en">St John of Gothia</persName>
-                        <persName xml:lang="ru">Св. Иоанн Готский</persName>
-                        <persName xml:lang="grc">ὁ ἐν ἁγ̣ίοι̣ς πατήρ ἡμῶν καὶ ἀρχιεπίσκοπος πόλεως Θεοδώρους καὶ πάσης Γοτθίας Ἰωάννης 
-                            ὁ ὁμολογητής</persName>
+                    <person xml:id="Eirene">
+                        <persName xml:lang="en">Eirene</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/762</idno>
                     </person>
-                    <person xml:id="stjohntheologos">
-                        <persName xml:lang="en">St John Theologos</persName>
-                        <persName xml:lang="ru">Св. Иоанн Богослов</persName>
-                        <persName xml:lang="grc">Ἰωάννης Θεολὀγος</persName>
+                    <person xml:id="Enyalios">
+                        <persName xml:lang="en">Enyalios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/545</idno>
                     </person>
-                    <person xml:id="stcapiton">
-                        <persName xml:lang="en">St Capiton</persName>
-                        <persName xml:lang="ru">Св. Капитон</persName>
-                        <persName xml:lang="grc">Ἅγιος Καπίτων</persName>
+                    <person xml:id="Eumenis">
+                        <persName xml:lang="en">Eumenis</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1166</idno>
                     </person>
-                    <person xml:id="stconstantine">
-                        <persName xml:lang="en">St Constantine</persName>
-                        <persName xml:lang="ru">Св. Константин</persName>
-                        <persName xml:lang="grc">ἅγιος ἔνδοξος θεόστεπτος μέγας βασιλεύς καὶ εἰσαπόστολος Κωνσταντῖνος</persName>
+                    <person xml:id="Eunomia">
+                        <persName xml:lang="en">Eunomia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/527</idno>
                     </person>
-                    <person xml:id="stnicolas">
-                        <persName xml:lang="en">St Nicholas</persName>
-                        <persName xml:lang="ru">Св. Николай</persName>
-                        <persName xml:lang="grc">Νικόλαος μιτροπολίτης Μ̣υρῶν</persName>
+                    <person xml:id="Eurypylos">
+                        <persName xml:lang="en">Eurypylos</persName>
                     </person>
-                    <person xml:id="stpanteleimon">
-                        <persName xml:lang="en">St Panteleimon</persName>
-                        <persName xml:lang="ru">Св. Пантелеимон</persName>
-                        <persName xml:lang="grc">ὁ ἅγιος μεγαλομάρτυς καὶ ἀνάργυρος Παντελεήμων</persName>
+                    <person xml:id="Eutimia">
+                        <persName xml:lang="en">Eutimia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1389</idno>
                     </person>
-                    <person xml:id="stpaul">
-                        <persName xml:lang="en">St Paul</persName>
-                        <persName xml:lang="ru">Св. Павел</persName>
-                        <persName xml:lang="grc">ὁ ἅγιος ἔνδοξος, πανεύφημος καὶ πρωτοκορυφαῖος ἀπόστολος Παῦλος</persName>
+                    <person xml:id="Hades">
+                        <persName xml:lang="en">Hades</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/709</idno>
                     </person>
-                    <person xml:id="stpeter">
-                        <persName xml:lang="en">St Peter</persName>
-                        <persName xml:lang="ru">Св. Петр</persName>
-                        <persName xml:lang="grc">ὁ ἅγιος ἔνδοξος, πανεύφημος καὶ πρωτοκορυφαῖος ἀπόστολος Πέτρος</persName> 
+                    <person xml:id="Hekate">
+                        <persName xml:lang="en">Hekate</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/83</idno>
                     </person>
-                    <person xml:id="ststephen">
-                        <persName xml:lang="en">St Stephen</persName>
-                        <persName xml:lang="ru">Св. Стефан</persName>
-                        <persName xml:lang="grc">Ἅγιος Στέφανος</persName>
+                    <person xml:id="Helios">
+                        <persName xml:lang="en">Helios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/25</idno>
+                    </person>
+                    <person xml:id="Heracles">
+                        <persName xml:lang="en">Heracles</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/17</idno>
+                    </person>
+                    <person xml:id="Hermes">
+                        <persName xml:lang="en">Hermes</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/11</idno>
+                    </person>
+                    <person xml:id="Hermes_Dolios">
+                        <persName xml:lang="en">Hermes Dolios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1350</idno>
+                    </person>
+                    <person xml:id="Heroes">
+                        <persName xml:lang="en">Heroes</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/137</idno>
+                    </person>
+                    <person xml:id="Hestia">
+                        <persName xml:lang="en">Hestia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/21</idno>
+                    </person>
+                    <person xml:id="Horai">
+                        <persName xml:lang="en">Horai</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/667</idno>
+                    </person>
+                    <person xml:id="Hygieia">
+                        <persName xml:lang="en">Hygieia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/22</idno>
+                    </person>
+                    <person xml:id="Hymenaios">
+                        <persName xml:lang="en">Hymenaios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/2966</idno>
+                    </person>
+                    <person xml:id="Iatros">
+                        <persName xml:lang="en">Iatros</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/663</idno>
+                    </person>
+                    <person xml:id="Isis">
+                        <persName xml:lang="en">Isis</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/95</idno>
+                    </person>
+                    <person xml:id="Kallikrateia">
+                        <persName xml:lang="en">Kallikrateia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1370</idno>
+                    </person>
+                    <person xml:id="Karneios">
+                        <persName xml:lang="en">Karneios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/699</idno>
+                    </person>
+                    <person xml:id="Kore">
+                        <persName xml:lang="en">Kore</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/309</idno>
+                    </person>
+                    <person xml:id="Koronis">
+                        <persName xml:lang="en">Koronis</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/913</idno>
+                    </person>
+                    <person xml:id="Kyrana">
+                        <persName xml:lang="en">Kyrana</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1404</idno>
+                    </person>
+                    <person xml:id="Letoides-Apollo">
+                        <persName xml:lang="en">Letoides/Apollo</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/884</idno>
+                    </person>
+                    <person xml:id="Libya">
+                        <persName xml:lang="en">Libya</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/4392</idno>
+                    </person>
+                    <person xml:id="Megaloi_Theoi">
+                        <persName xml:lang="en">Megaloi Theoi</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/93</idno>
+                    </person>
+                    <person xml:id="Melichios">
+                        <persName xml:lang="en">Melichios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/91</idno>
+                    </person>
+                    <person xml:id="Mousae">
+                        <persName xml:lang="en">Mousae</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/178</idno>
+                    </person>
+                    <person xml:id="Nika">
+                        <persName xml:lang="en">Nika</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/219</idno>
+                    </person>
+                    <person xml:id="Nymphae">
+                        <persName xml:lang="en">Nymphae</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/180</idno>
+                    </person>
+                    <person xml:id="Nymphae_Acheloides">
+                        <persName xml:lang="en">Nymphae Acheloides</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/4696</idno>
+                    </person>
+                    <person xml:id="Opheles">
+                        <persName xml:lang="en">Opheles</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1351</idno>
+                    </person>
+                    <person xml:id="Ouranides">
+                        <persName xml:lang="en">Ouranides</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1406</idno>
+                    </person>
+                    <person xml:id="Paean">
+                        <persName xml:lang="en">Paean</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/174</idno>
+                    </person>
+                    <person xml:id="Panakeia">
+                        <persName xml:lang="en">Panakeia</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/925</idno>
+                    </person>
+                    <person xml:id="Persephone">
+                        <persName xml:lang="en">Persephone</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/393</idno>
+                    </person>
+                    <person xml:id="Phoibos">
+                        <persName xml:lang="en">Phoibos</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/431</idno>
+                    </person>
+                    <person xml:id="Praxidika-Persephone">
+                        <persName xml:lang="en">Praxidika/Persephone</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1411</idno>
+                    </person>
+                    <person xml:id="Serapis">
+                        <persName xml:lang="en">Serapis</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/147</idno>
+                    </person>
+                    <person xml:id="Telessai">
+                        <persName xml:lang="en">Telessai</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1383</idno>
+                    </person>
+                    <person xml:id="Thanatos">
+                        <persName xml:lang="en">Thanatos</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1488</idno>
+                    </person>
+                    <person xml:id="Thea">
+                        <persName xml:lang="en">Thea</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/28</idno>
+                    </person>
+                    <person xml:id="Theos">
+                        <persName xml:lang="en">Theos</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/28</idno>
+                    </person>
+                    <person xml:id="Tritopatores">
+                        <persName xml:lang="en">Tritopatores</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1168</idno>
+                    </person>
+                    <person xml:id="Tyche">
+                        <persName xml:lang="en">Tyche</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/64</idno>
+                    </person>
+                    <person xml:id="Zeus">
+                        <persName xml:lang="en">Zeus</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/4</idno>
+                    </person>
+                    <person xml:id="Zeus_Apotropaios">
+                        <persName xml:lang="en">Zeus Apotropaios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/29</idno>
+                    </person>
+                    <person xml:id="Zeus_Erinymenos">
+                        <persName xml:lang="en">Zeus Erinymenos</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1349</idno>
+                    </person>
+                    <person xml:id="Zeus_Hypellaios">
+                        <persName xml:lang="en">Zeus Hypellaios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1384</idno>
+                    </person>
+                    <person xml:id="Zeus_Hyperphoreus">
+                        <persName xml:lang="en">Zeus Hyperphoreus</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1382</idno>
+                    </person>
+                    <person xml:id="Zeus_Kapetolios">
+                        <persName xml:lang="en">Zeus Kapetolios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/286</idno>
+                    </person>
+                    <person xml:id="Zeus_Lykaios">
+                        <persName xml:lang="en">Zeus Lykaios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1380</idno>
+                    </person>
+                    <person xml:id="Zeus_Melichios">
+                        <persName xml:lang="en">Zeus Melichios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/91</idno>
+                    </person>
+                    <person xml:id="Zeus_Olympios">
+                        <persName xml:lang="en">Zeus Olympios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/8</idno>
+                    </person>
+                    <person xml:id="Zeus_Pantheios">
+                        <persName xml:lang="en">Zeus Pantheios</persName>
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/1028</idno>
+                    </person>
+                    <person xml:id="Zeus_Soter"> 
+                        <persName xml:lang="en">Zeus Soter</persName> 
+                        <idno type="map">https://base-map-polytheisms.huma-num.fr/element/27</idno> 
+                    </person>
+                    
+                    <person xml:id="unknown"> 
+                        <persName xml:lang="en">[---]</persName> 
+                    </person>
+                    <person xml:id="_a"> 
+                        <persName xml:lang="en">[---]a</persName> 
+                    </person>
+                    <person xml:id="_na">
+                        <persName xml:lang="en">[---]na</persName>
+                    </person>
+                    <person xml:id="_os">
+                        <persName xml:lang="en">[---]os</persName>
+                    </person>
+                    <person xml:id="A_">
+                        <persName xml:lang="en">A-</persName>
                     </person>
                 </listPerson>
             </div>

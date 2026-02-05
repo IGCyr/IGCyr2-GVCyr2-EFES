@@ -12,7 +12,7 @@
 
   <xsl:template match="/">
     <axsl:stylesheet exclude-result-prefixes="#all" version="2.0"
-                     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <!-- Ensure that all of the namespaces declared on the kiln:root
            are declared in the generated stylesheet. It is possible to
            have references to namespaced variables or functions,

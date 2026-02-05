@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of an image of Apollo Nomios by the nomophylakes</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr026</idno>
+                <idno type="number" subtype="second-edition">026</idno>
+                <idno type="TM">738919</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr026</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr026</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr026</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">444</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Right side of a white <material>marble</material> slantering <objectType>panel</objectType>, 
+                                        broken off at left and at the lower right angle,
+                                        reconstructed from four adjacent fragments of which the upper one (a) is now lost, as well as a small part of the first line below  
+                                        (the three remaining measure together
+                                        <dimensions> 
+                                            <width>0.16</width>
+                                            <height>0.245</height>
+                                            <depth min="0.025" max="0.035">0.025 to 0.035</depth>
+                                        </dimensions>). There is a hole for an attachment in the right side.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face which is blackened by soot; ll. 1-3 now lost; l. 1 cut in rasura.</layout>  
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Ll. 1-11 <height min="0.011" max="0.014">0.011-0.014</height> with developed serifs and spaces between letters varying at each 
+                                line, following the number of characters; ll. 12-13 <height>0.005</height>: theta with short bar, slightly smaller theta and omicron,
+                                wide nu, non-slanting sigma, upsilon with short hasta and widely open upper part.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0031" notAfter="0100" precision="medium" evidence="lettering" resp="JMR">Augustan or whole first century AD</origDate>
+                        </origin>
+                        
+  
+                        <provenance type="found" when="1925">
+                            <p>Photographed in 1925 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                as from the <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, probably from the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1006">Nomophylakeion</rs>.</p>
+                        </provenance>
+                        <provenance type="observed" notAfter="1964" resp="JMR">
+                            <p>Seen by J.M. Reynolds before 1964.</p>
+                        </provenance>
+                        <provenance type="observed" when="1977" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1977 in <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>,
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-10" who="Alice">checked</change>
+            <change when="2017-03-02" who="CDL">Ital. translation; overall check</change>
+            <change when="2016-05-09" who="CDL">file created</change>
+            <change when="2016-05-10" who="CDL">lemma, text, 2 translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76609/3/gvcyr026-1-face.tiff.jpg" corresp="gvcyr026" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1925"><ref target="http://hdl.handle.net/20.500.14008/76609">Face of gvcyr026 Dedication by the nomophylakes</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76610/3/gvcyr026-2-squeeze.tiff.jpg" corresp="gvcyr026" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/76610">Squeeze of gvcyr026 Dedication by the nomophylakes</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gpc1961"/>, n. <citedRange>3</citedRange> (ll. 3-13)</bibl> and 
+                    <bibl><ptr target="#SECir"/>, p. <citedRange>368</citedRange> (ll. 1-4)</bibl>;
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.736</citedRange></bibl>;
+                    <bibl><ptr target="#peek1972"/>, n. <citedRange>6</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>026</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                    <lb n="1"/><w lemma="ἐπί"><supplied reason="lost">Ἐφ᾿</supplied></w> <rs type="office" key="eponymous priest"><w lemma="ἱαρεύς"><supplied reason="lost">ἱαρεῦς</supplied></w></rs> <persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name><persName type="attested" key=""><name nymRef="#_ιος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><add place="overstrike">ίω</add></seg></name></persName></persName>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_χος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">χω</seg></name></persName></persName>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_ων" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">ω</supplied>νος</seg></name></persName></persName>
+                    <lb n="4"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_δωρος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">δώρω</seg></name></persName></persName>
+                    <lb n="5"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_ων" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">ω</supplied>νος</seg></name></persName></persName>
+                    <lb n="6"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_λος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">λω</seg></name></persName></persName>
+                    <lb n="7"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_κλῆς" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">κλεῦς</seg></name></persName></persName>
+                    <lb n="8"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#Χαιράδας" type="patronymic"><supplied reason="lost">Χαι</supplied><unclear>ρ</unclear>άδα</name></persName></persName>
+                    <lb n="9"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62508"><name type="patronymic" nymRef="#Ἀγάθαρχος"><supplied reason="lost">Ἀγ</supplied>αθάρχω</name></persName></persName>
+                    <lb n="10"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64060"><name type="patronymic" nymRef="#Ἡφαιστίων"><supplied reason="lost">Ἡφ</supplied>αιστίωνος</name></persName></persName>
+                    <lb n="11"/><persName type="divine" ref="#Apollo_Nomios"><name nymRef="#Ἀπόλλων"><supplied reason="lost">Ἀπόλλωνα</supplied></name> <rs type="epithet" key="Nomios"><w lemma="νόμιος">Νόμιον</w></rs></persName>
+                 </ab>       
+                 <lg met="elegiac couplet">
+                    <l n="1" met="dactylic hexameter" real="+--|+--|+--|+--|+--|+±">
+                        <lb n="12"/><seg met="+--|+--|+--|+"><gap reason="lost" extent="unknown" unit="character"/></seg> 
+                        <w lemma="περικαλλής"><supplied reason="lost">περικα</supplied><unclear>λλὲ</unclear>ς</w> <w lemma="ἄγαλμα">ἄγαλμ<supplied reason="lost">α</supplied></w></l>
+                    <l n="2" met="dactylic pentameter" real="+--|+--|±|+--|+--|±">
+                        <lb n="13"/><seg met="+--|+--|±|+-"><gap reason="lost" extent="unknown" unit="character"/></seg>
+                        <w lemma="νόμος"><supplied reason="lost">νό</supplied>μων</w> <w part="I" lemma="φύλαξ">φύλα<unclear>κ</unclear><gap reason="lost" quantity="2" unit="character"/></w></l>
+                 </lg>
+                
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem><supplied reason="lost">Ἐφ᾿ ἱαρεῦς</supplied></lem>
+                        <rdg resp="#gpc1961 #SEG"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="1"><lem resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><add place="overstrike">ίω</add></lem>
+                        <rdg resp="#SEG"><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure">ω</del> <note>J.M. Reynolds' reading</note></rdg>
+                    </app>
+                    <app loc="3"><lem resp="#SEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ω</supplied>νος</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>νος</rdg>
+                    </app>
+                    <app loc="4"><lem resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>δώρω</lem>
+                        <rdg resp="#SEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ο</supplied>δώρω</rdg>
+                    </app>
+                     <app loc="5"><lem resp="#SEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ω</supplied>νος</lem>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>νος</rdg>
+                    </app>
+                    <app loc="8"><lem><supplied reason="lost">Χαι</supplied><unclear>ρ</unclear>άδα</lem>
+                    <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>άδα</rdg>
+                    </app>
+                    <app loc="10"><lem resp="#SEG"><supplied reason="lost">Ἡφ</supplied>αιστίωνος <note>J.M. Reynolds' reading</note></lem>
+                    <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>α<unclear>γ</unclear>τίωνος</rdg>
+                    <rdg resp="#SECir">Ἀ<unclear>π</unclear>ίωνος <note>Pugliese Carratelli hesitantly from <foreign xml:lang="grc">ΑΤΤΙΩΝΟΣ</foreign> on Oliverio's copy</note></rdg>
+                    </app>
+                    <app loc="12"><lem resp="#gpc1961 SEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">περικα</supplied><unclear>λλὲ</unclear>ς <note>Pugliese Carratelli's suggestion</note></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἄ</supplied>δαες <note>Oliverio's suggestion</note></rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">Φοίβου Ἀπόλλωνος Νομίου περικ</supplied><unclear>καλλὲ</unclear>ς </rdg>
+                    </app>
+                    <app loc="13"><lem resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">νό</supplied>μων φύλα<unclear>κ</unclear><gap reason="lost" quantity="2" unit="character"/></lem>
+                        <rdg resp="#SEG"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">νό</supplied>μων φύλα<unclear>κ</unclear><supplied reason="lost">ες</supplied></rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">ἄνθεσαν εὐξάμενοι τῆιδε νό</supplied>μων φύλα<unclear>κ</unclear><supplied reason="lost">ες</supplied></rdg>
+                    </app>
+                </p>
+                
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><supplied reason="lost">Sous le prêtre Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>ios, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>khos,
+                   <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>ôn, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>dôros,
+                    <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>ôn, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>los,
+                    <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>klès, <supplied reason="lost">Untel</supplied> fils de Khairadas, 
+                    <supplied reason="lost">Untel</supplied> fils d'Agatharkhos, <supplied reason="lost">Untel</supplied> fils d'Ephaistiôn <supplied reason="subaudible">ont consacré l'image</supplied> <supplied reason="lost">d'Apollon</supplied> Nomios.</p>
+                <p><gap reason="lost" extent="unknown" unit="character"/> la magnifique statue <gap reason="lost" extent="unknown" unit="character"/> les gardiens des lois.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><supplied reason="lost">Under priest So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>ios, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>chos,
+                   <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>on, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>doros,
+                    <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>on, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>los,
+                    <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>kles, <supplied reason="lost">So-and-so</supplied> son of Chairadas, 
+                    <supplied reason="lost">So-and-so</supplied> son of Agatharchos, <supplied reason="lost">So-and-so</supplied> son of Ephaistion <supplied reason="subaudible">dedicated the image</supplied> <supplied reason="lost">of Apollo</supplied> Nomios.</p>
+                <p><gap reason="lost" extent="unknown" unit="character"/> the very beautiful statue <gap reason="lost" extent="unknown" unit="character"/> the guardians of the laws.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="lost">Nel sacerdozio del tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>ios, <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>chos,
+                   <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>on, <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>doros,
+                    <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>on, <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>los,
+                    <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>kles, <supplied reason="lost">il tale</supplied> figlio di Chairadas, 
+                    <supplied reason="lost">il tale</supplied> figlio di Agatharchos, <supplied reason="lost">il tale</supplied> figlio di Ephaistion <supplied reason="subaudible">hanno dedicato l'immagine</supplied> <supplied reason="lost">di Apollo</supplied> Nomios.</p>
+                <p><gap reason="lost" extent="unknown" unit="character"/> la magnifica statua <gap reason="lost" extent="unknown" unit="character"/> i custodi delle leggi.</p>
+
+            </div><div type="commentary">
+                
+                <p>The first publication was given in 1961 from †Oliverio's ready-to-publish manuscript by Pugliese Carratelli, who a few months later added lines 1-3 after 
+                examination of Oliverio's copy. This addition was ignored by J.M. Reynolds, who provided to the editor of SEG the additional lines from her own autopsy of the stone.
+                The date is also her suggestion.</p>
+                <p>For other dedications of divine images made by the <foreign rend="italic">nomophylakes</foreign> in their own building, see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.93.html">IRCyr2020 C.93</ref>,
+                    <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.94.html">IRCyr2020 C.94</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.95.html">IRCyr2020 C.95</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.96.html">IRCyr2020 C.96</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.97.html">IRCyr2020 C.97</ref>                
+                    and <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.98.html">IRCyr2020 C.98</ref>. This is the only one in the series with a verse appendix, which makes certain that the dedication was made by the <foreign rend="italic">nomophylakes</foreign>, whose title is in fact lost. Another one (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.93.html">IRCyr2020 C.93</ref>) is also the dedication of an image of Apollo Nomios, 
+                explicitely intended in relation with the office of 'guardian of the laws' of the dedicant. It should be stressed that Callimachus (Ap. 47-54) does mention the same 
+                epithet for Apollo, but in the quite different context and meaning, as a pastoral god (a <foreign xml:lang="grc">νομεύς</foreign>). More at <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.93.html">IRCyr2020 C.93</ref> 
+                and <bibl><ptr target="#cdl2000"/>, p. <citedRange>217</citedRange></bibl>.</p>
+                <p>One of the points is the restoration of the heading. As it seems from the photograph, the now lost fragment had the top of the panel. We should thus exclude a formulation
+                strictly analogous with that of most other items beginning with 'The <foreign rend="italic">nomophylakes</foreign> under priest So-and-so', which takes 
+                two lines and does not allow for the actual ending of our l. 1. The most plausible seems that the word <foreign rend="italic">nomophylakes</foreign> was absent from
+                a shorter heading, explicited in the verse as its climax. The stone-cutter might have begun with the traditional formulation and changed his mind, which would explain the 
+                rasura at line 1. If we allow this only line for the mention of the eponymous priest, we should have then nine <foreign rend="italic">nomophylakes</foreign>
+                (anyway not ten, as Peek wrote). Nine is the exact amount prescribed in Ptolemy's <foreign rend="italic">diagramma</foreign> (<ref type="inscription" source="#IGCyr2">IGCyr010800</ref>, l. 32),
+                    and they actually amount to nine in <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.95.html">IRCyr2020 C.95</ref>, whereas in other dedications only six or seven are mentioned. Analogous changes occurred with the 
+                <foreign rend="italic">ephori</foreign> during the late Hellenistic and early Roman times.</p>
+                <p>This panel, quite similar to the others of the series, was intented for insertion on a wall under an image, either painted or sculpted, or on a statue base.
+                At l. 12 the word <foreign xml:lang="grc">ἄγαλμα</foreign> in the traditional formula with <foreign xml:lang="grc">περικαλλές</foreign> closing a verse-line 
+                should have the traditional Homeric meaning 'pleasant gift'. However it has probably also the later and more restricted meaning of 'statue of a divinity'. 
+                In the above text, the mention of a 'statue' was certainly subaudible, as in most dedications.</p>
+                <p>Although Peek's restorations surely reflect the general meaning, we do not consider them as the only possibility. In that view, we leave open the case of the last word,
+                 which might also be for example at the genitive.</p>
+                <p>The two names at ll. 9-10 were erroneously registered as from the fourth century BC in <bibl><ptr target="#fraser-matthews1987"/>, pp. <citedRange>2, 207</citedRange></bibl>.</p>
+                <p>Metrical analysis: two hexametric endings belonging respectively to the hexameter and the pentameter of an elegiac couplet.</p>
+            </div></body>
+    </text>
+</TEI>

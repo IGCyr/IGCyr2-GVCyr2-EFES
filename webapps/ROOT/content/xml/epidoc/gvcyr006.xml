@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of a dog</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr006</idno>
+                <idno type="number" subtype="second-edition">006</idno>
+                <idno type="TM">738902</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr006</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr006</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr006</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">1631</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Miniature <objectType>pillar</objectType> of smooth <material>limestone</material> with moulding and cornice at the top on three sides  
+                                        (<dimensions>
+                                            <width>0.25</width>
+                                            <height>0.085</height>
+                                            <depth>0.10</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face of the slightly tapering shaft 
+                                    (<dimensions>
+                                        <width min="0.065" max="0.07">0.065 to 0.07</width>
+                                        <height>0.21</height>
+                                        <depth min="0.073" max="0.082">0.073 to 0.082</depth>
+                                    </dimensions>), a) inside a cartouche just under the moulding (<dimensions><width>0.055</width><height>0.005</height></dimensions>),
+                                    b) lower, beneath the figure, superficially carved, of a hunting dog with no visible ears and a tall and slender tail, sitting,
+                                    looking leftwards.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.004</height>; dotted theta, smaller omicron, rho with very small loop, slanting sigma, open omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0101" precision="medium" cert="low">Probably third or second century BC</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1969">
+                            <p>Found in 1969 in the area of 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1428" key="http://pleiades.stoa.org/places/373788">Faidia</placeName>.</p>   
+                        </provenance>
+                        <provenance type="observed" when="1977" when-iso="1982" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1977 and 1982 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89039" key="Al Fā’idīyah">Al Fā’idīyah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2021-12-02" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-07" who="Alice">It. translation; checked</change>
+            <change when="2017-02-26" who="CDL">tagged w and lemma; overall check</change>
+            <change when="2014-04-07" who="cdl">tagged metrics</change>
+            <change when="2014-02-22" who="CDL+HB">lemma, text, apparatus, biblio, commentary, translation</change>
+            <change when="2014-03-21" who="CDL+HB">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76574/3/gvcyr006-1-face.tiff.jpg" corresp="gvcyr006" decls="#photograph"><desc resp="Hassuna, A." source="Department of Antiquities, Shahat" n="1993"><ref target="http://hdl.handle.net/20.500.14008/76574">Face of gvcyr006 Epitaph of a dog</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76575/3/gvcyr006-2-drawing.tiff.jpg" corresp="gvcyr006" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/76575">Drawing of gvcyr006 Epitaph of a dog</ref></desc></graphic>
+        <graphic url="https://historica.unibo.it/bitstream/20.500.14008/80436/3/gvcyr006-3-view.tiff.jpg" corresp="gvcyr006" decls="#photograph"><desc><ref target="http://hdl.handle.net/20.500.14008/80436">View of gvcyr006 Epitaph of a dog</ref></desc></graphic>
+    </facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#cdl-gwaider1997"/>, n. <citedRange>5</citedRange>, pl. II.b-c</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2176</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>006</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#chamoux2001"/>, pp. <citedRange>1308-1310</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>51.2207</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <div type="textpart" subtype="text">
+                    <ab>
+                        <lb n="1"/><name type="animal" nymRef="#Τύραννος">Τύραννος</name> <w lemma="κύων">κύων</w>
+                    </ab>
+                    </div> 
+                
+                   <div type="textpart" subtype="verse">
+                       <lg>
+                           <l met="dactylic heptameter" real="+--|++|+--|++|+--|+--|++">
+                        <lb n="2"/><w lemma="ἐνθάδε">Ἐνθάδε</w> δὴ <w lemma="κεῖμαι">κεῖμαι</w>
+                        <lb n="3"/><w lemma="ὑπό"><unclear>ὑπ</unclear><supplied reason="lost">ὸ</supplied></w> <w lemma="γαῖα">γ<unclear>αί</unclear>ης</w>, <w lemma="δεσπότης">δέσπο<lb n="4" break="no"/>τ<unclear>α</unclear></w>, <w lemma="πολύς">πολλὰ</w> <w lemma="πονέω">πονή<lb n="5" break="no"/>σας</w></l>
+                       </lg>
+                   </div>
+               
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Le chien Tyrannos.</p>
+                <p>Ici je gis sous la terre, mon maître, après bien des fatigues.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>The dog Tyrannos.</p>
+                <p>Here I lay under the earth, dear master, having endured much toil.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Tyrannos, il cane.</p>
+                <p>Qui giaccio sotto terra, padrone, dopo tante fatiche.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>الكلب تيرانوس. أنا أرقد هنا تحت الأرض، سيدي العزيز، بعد تحمل الكثير من التعب (أو القيام بالعمل الشاق).</p>
+            </div>
+            <div type="commentary">
+                
+                <p>The findspot is situated about 17 km from Cyrene southwards. The dog, who from the image seems to have been a hunting-dog,
+                    was probably buried in a country-estate near which his master used to go hunting.</p>
+                <p>For dogs' epitaphs, see bibliography at <bibl><ptr target="#chamoux2001"/></bibl> and also <bibl><ptr target="#mendezdosuna2007"/></bibl>.</p>
+                <p>Metrical analysis of b): we have here a dactylic heptameter, probably produced by adjunction of <foreign xml:lang="grc">δέσποτα</foreign>
+                inside a regular hexameter, with trihemimeric and bucolic caesurae.</p>
+            </div></body>
+    </text>
+</TEI>

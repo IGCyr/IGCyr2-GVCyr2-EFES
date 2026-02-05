@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo, probably with epithet Soter</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr064100</idno>
+                <idno type="number" subtype="second-edition">064100</idno>
+                <idno type="TM">6186</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr064100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr064100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr064100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, cut off on left side for re-use as an ambon step and partly broken off at the same side 
+                                        (<dimensions>
+                                            <width atLeast="0.54">0.54-</width>
+                                            <height>0.58</height>
+                                            <depth>0.80</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face with space between letters varying at each line.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height> at ll. 1-2 and 8-10, <height>0.04</height> at ll. 3-7.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>.</origPlace>
+                            <origDate evidence="lettering" precision="low" when="-0345">Ca. 345 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1929">
+                                    <p>Found in 1929 in the
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>:
+                                        re-used in baptistery of <rs type="monuList" ref="https://www.slsgazetteer.org/914">East Church</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 in
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: outside the ancient <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-26" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2017-02-10" who="Alice">checked</change>
+            <change when="2015-12-09" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-25" who="cdl">lemma, some changes in text, apparatus, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-17" who="HB">minor modifications</change>
+            <change when="2012-03-31" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77097/3/igcyr064100-1-face.tiff.jpg" corresp="igcyr064100" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1929"><ref target="http://hdl.handle.net/20.500.14008/77097">Face of igcyr064100 Dedication by the thearoi</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77098/3/igcyr064100-2-side-recut.tiff.jpg" corresp="igcyr064100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77098">Recut side of igcyr064100 Dedication by the thearoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gpc1961"/>, p. 40, n. <citedRange>20</citedRange> (from †Oliverio's papers), ph. 42 fig. 35</bibl>, and 
+                    <bibl><ptr target="#robertBE"/>, <citedRange>1962.368</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.707</citedRange></bibl>;
+                    <bibl><ptr target="#jmr1976"/>, n. <citedRange>5</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>27.1125bis</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>064100</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>99, 106-107, 118, 121</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1877</citedRange></bibl>; 
+                    <bibl><ptr target="#cdl2003"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2029</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>160-161</citedRange> (prosopography, date), pp. <citedRange>361-362</citedRange>, number 85 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><rs type="office" key="thearos"><w lemma="θεαρός"><supplied reason="lost">Θεα</supplied><unclear>ρο</unclear>ὶ</w></rs>
+                    <lb n="2"/><w><supplied reason="lost">ἐς</supplied></w> <placeName type="ethnic" nymRef="#Δελφός"><unclear>Δ</unclear>ελφὸς</placeName>
+                    <lb n="3"/><persName type="attested"><name nymRef="#_ς"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><seg part="F"><unclear>ς</unclear></seg></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65257"><name type="patronymic" nymRef="#Παραιβάτας">Παραιβάτα</name></persName></persName>                    
+                    <lb n="4"/><persName type="attested"><name nymRef="#_ν"><gap reason="lost" atLeast="6" atMost="7"/><seg part="F"><unclear>ν</unclear></seg></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65675"><name type="patronymic" nymRef="#Σωγένης">Σωγένε<supplied reason="lost">υ</supplied>ς</name></persName></persName>
+                    <lb n="5"/><persName type="attested"><name nymRef="#_τος"><gap reason="lost" atLeast="6" atMost="7" unit="character"/><seg part="F">τος</seg></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62654"><name type="patronymic" nymRef="#Αἰγλάνωρ">Αἰγλάνορο<supplied reason="lost">ς</supplied></name></persName></persName>
+                    <lb n="6"/><persName type="attested"><name nymRef="#_ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ς</seg></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63891"><name type="patronymic" nymRef="#Εὐρυπτόλεμος">Εὐρυπτολέμω</name></persName></persName>
+                    <lb n="7"/><persName type="attested"><name nymRef="#_νης"><gap reason="lost" quantity="4" unit="character" precision="low"/><seg part="F"><supplied reason="undefined" evidence="previouseditor">νης</supplied></seg></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66022"><name type="patronymic" nymRef="#Φιλόκωμος">Φιλοκώμω</name></persName></persName>
+                    <lb n="8"/><supplied reason="lost">τῶι</supplied> <persName type="divine" ref="#Apollo_Soter"><name nymRef="#Ἀπόλλων"><unclear>Ἀ</unclear>πόλλωνι</name>
+                    <lb n="9"/><supplied reason="lost" cert="low">τῶι</supplied> <rs type="epithet" key="Soter"><w lemma="σωτήρ"><supplied reason="lost">Σω</supplied>τῆρι</w></rs></persName>
+                    <lb n="10"/><w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθη</supplied><unclear>κ</unclear>αν</w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#IGCyr #rosamilia2023"><supplied reason="lost">Θεα</supplied><unclear>ρο</unclear>ὶ</lem>
+                        <rdg resp="#jmr1976"><supplied reason="lost">θεαρ</supplied><unclear>οί</unclear></rdg>
+                        <rdg resp="#gpc1961"><supplied reason="lost">θεαρο</supplied>ὶ</rdg>      
+                    </app>
+                    <app loc="3">
+                        <lem resp="#jmr1976 #IGCyr"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><unclear>ς</unclear></lem>
+                        <rdg resp="#rosamilia2023"><supplied reason="lost">Χαῖνυ</supplied><unclear>ς</unclear></rdg>
+                        <rdg resp="#laronde1987"><supplied reason="lost">Εύκλείδα</supplied>ς</rdg>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear></rdg>
+                    </app>
+                   <app loc="4"><lem><gap reason="lost" atLeast="6" atMost="7"/><unclear>ν</unclear></lem>
+                       <rdg resp="#rosamilia2023"><gap reason="lost" atLeast="6" atMost="7"/><unclear>η</unclear>ς</rdg>
+                       <rdg resp="#IGCyr"><gap reason="lost" atLeast="7" atMost="8" unit="character"/></rdg>
+                       <rdg resp="#jmr1976"><gap reason="lost" quantity="10" unit="character" cert="low"/></rdg>
+                       <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/></rdg> 
+                   </app> 
+                 <app loc="5"><lem resp="#rosamilia2023"><gap reason="lost" atLeast="6" atMost="7" unit="character"/>τος</lem>
+                        <rdg resp="#laronde1987"><supplied reason="lost">Κάλλι</supplied><unclear>ππ</unclear>oς</rdg>
+                        <rdg resp="#jmr1976"><gap reason="lost" atLeast="6" atMost="7" unit="character"/><unclear>τ</unclear>ος</rdg>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ος</rdg>    
+                    </app>
+                    <app loc="6"><lem resp="#gpc1961 #jmr1976"><gap reason="lost" extent="unknown" unit="character"/>ς</lem>
+                        <rdg resp="#rosamilia2023"><supplied reason="lost">Εὔανδρο</supplied>ς</rdg>
+                        <rdg resp="#IGCyr"><gap reason="lost" atLeast="5" atMost="6" unit="character"/></rdg>
+                    </app>
+                     <app loc="7"><lem resp="#jmr1976"><gap reason="lost" quantity="5" unit="character"/><unclear>νη</unclear>ς</lem>
+                         <rdg resp="#rosamilia2023"><supplied reason="lost">Ἀλκαμέ</supplied>νης</rdg>
+                        <rdg resp="#IGCyr"><gap reason="lost" quantity="4" unit="character" precision="low"/><supplied reason="undefined" evidence="previouseditor">νης</supplied></rdg>
+                        <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/>νης</rdg>
+                    </app>
+                    <app loc="8">
+                        <lem><supplied reason="lost">τῶι</supplied> <unclear>Ἀ</unclear>πόλλωνι</lem>
+                        <rdg resp="#gpc1961"><unclear>Ἀ</unclear>πόλλωνι</rdg>
+                        <rdg resp="#jmr1976"><space extent="unknown" unit="character"/><supplied reason="lost">Ἀ</supplied>πόλλωνι</rdg>
+                    </app>
+                    <app loc="9">
+                        <lem><supplied reason="lost" cert="low">τῶι</supplied> <supplied reason="lost">Σω</supplied>τῆρι</lem>
+                        <rdg resp="#gpc1961"><supplied reason="lost">Σω</supplied>τῆρι</rdg>
+                        <rdg resp="#jmr1976"><space extent="unknown" unit="character"/><unclear>Σ</unclear><supplied reason="lost">ω</supplied>τῆρι</rdg>
+                    </app>
+                </p>  
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Les théores envoyés à Delphes, <gap reason="lost" extent="unknown" unit="character"/>s fils de Paraibatas, <gap reason="lost" extent="unknown" unit="character"/>n fils de Sôgénès, <gap reason="lost" extent="unknown" unit="character"/>tos fils d'Aiglanôr, <gap reason="lost" extent="unknown" unit="character"/>s fils d'Euryptolémos, <gap reason="lost" quantity="4" unit="character" precision="low"/>nès fils de Philokômos, ont consacré <supplied reason="subaudible">ce monument</supplied> à Apollon <supplied reason="lost" cert="low">Sô</supplied>tèr.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>The <foreign rend="italic">theoroi</foreign> sent to Delphi, <gap reason="lost" extent="unknown" unit="character"/>s son of Paraibatas, <gap reason="lost" extent="unknown" unit="character"/>n son of Sogenes, <gap reason="lost" extent="unknown" unit="character"/>tos son of Aiglanor, <gap reason="lost" extent="unknown" unit="character"/>s son of Euryptolemos, <gap reason="lost" quantity="4" unit="character" precision="low"/>nes son of Philokomos, dedicated <supplied reason="subaudible">this monument</supplied> to Apollo <supplied cert="low" reason="lost">So</supplied>ter.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>I <foreign rend="italic">theoroi</foreign> inviati a Delfi, <gap reason="lost" extent="unknown" unit="character"/>s figlio di Paraibatas, <gap reason="lost" extent="unknown" unit="character"/>n figlio di Sogenes, <gap reason="lost" extent="unknown" unit="character"/>tos figlio di Aiglanor, <gap reason="lost" extent="unknown" unit="character"/>s figlio di Euryptolemos, <gap reason="lost" quantity="4" unit="character" precision="low"/>nes figlio di Philokomos, hanno dedicato <supplied reason="subaudible">questo monumento</supplied> ad Apollo <supplied cert="low" reason="lost">So</supplied>tere.</p>
+         </div><div type="commentary">
+                
+                <p>Only the patronymics of all five <foreign rend="italic">thearoi</foreign> are preserved. <bibl><ptr target="#laronde1987"/></bibl>, proposed to 
+                    identify the son of Paraibatas at l. 3 with a man elsewhere known as priest of Apollo, but the restitution seems to long for the space available. 
+                    <bibl><ptr target="#rosamilia2023"/></bibl> in turn suggests to identify him as the son of a commander at <ref type="inscription" source="#IGCyr2">IGCyr015100</ref>. Given the frequency of 
+                the name Paraibatas, both hypotheses seem far-fetched.</p>
+             <p>At l. 4, before the initial sigma of the father's name <foreign xml:lang="grc">Σωγἐνευς</foreign> there is only part of a vertical hasta, hence a name ending with <foreign xml:lang="grc">Ν</foreign>.</p>
+                <p>At l. 5, <bibl><ptr target="#rosamilia2023"/></bibl> is right in turning down the proposal of <bibl><ptr target="#laronde1987"/>, p. <citedRange>99</citedRange></bibl>, who thought that traces of two pis were discernable.
+                Conversely, we cannot follow Rosamilia for lines 6 and 7 because of the very poor vestiges of the names, although he suggests to identify here sons of two damiergoi.</p>
+	      <p>At l. 8, there is space for an article before the name of Apollo; at l. 9, the epithet Soter is surprising for Apollo in Cyrenaica,
+	          but may be related to his protection against sea dangers; the space available would be filled by the article.</p>
+                <p>Alternatively, the dedication might have been made to two gods, the second being the well known Zeus Soter,
+                    but the space would only allow for <foreign xml:lang="grc"><supplied reason="lost">Ζηνὶ Σω</supplied>τῆρι</foreign> and
+                    this would not fit well with the article <foreign xml:lang="grc">τῶι</foreign> at l. 8.</p>
+                <p>This dedication by the <foreign rend="italic">thearoi</foreign> sent to Delphi probably occurred during the ceremony known as <foreign rend="italic">prothearia</foreign> at <ref type="inscription" source="#IGCyr2">IGCyr109200</ref>.</p>
+            </div></body>
+    </text>
+</TEI>

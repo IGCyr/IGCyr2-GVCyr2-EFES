@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pederastic <rs type="textType">acclamation</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr116100</idno>
+                <idno type="number" subtype="second-edition">116100</idno>
+                <idno type="TM">738712</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr116100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr116100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr116100</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Rock</material>-cut <objectType>row of seats</objectType> (fourteenth from below) of the theatre
+                                        (height 0.30).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on the front face in an ascending line
+                                (width 0.65).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.125" max="0.14">0.125 (omicron) to 0.14 (alpha)</height>, letters scratched and irregular, gamma not clear, epsilon 
+                                with slightly descending bars.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0500" notAfter="-0501" precision="medium">Probably fifth century BC</origDate> 
+                        </origin>
+                            
+                                <provenance type="found" notBefore="2003" notAfter="2005">
+                                    <p>Found by M. Luni between 2003 and 2005 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1473">Southern Extra-Mural Sacred zone</rs>,
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1382">Theatre 5</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="Inglese">
+                                    <p>Observed by A. Inglese in 2010 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1473">Southern Extra-Mural Sacred zone</rs>.</p>
+                                </provenance>        
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2014-02-18" who="cdl">lemma, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2013-01-15" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#inglese2011"/>, pp. <citedRange>273-281</citedRange> and fig. 15</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>61.1556</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>116100</citedRange></bibl>.
+                Cf. <bibl><ptr target="#inglese2013"/>, pp. <citedRange>238-239</citedRange> and fig. 18 p. <citedRange>436</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>63.1718</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>49</citedRange>, footnote 27</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἁγήτωρ">Ἁγέ̄τōρ</name></persName> <w>καλός</w>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Hagètôr <supplied reason="subaudible">est</supplied> beau !</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Hagetor <supplied reason="subaudible">is</supplied> fine!</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Hagetor <supplied reason="subaudible">è</supplied> bello!</p>
+         </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>أغيتور (يكون) فاضلًا (جيدًا أونبيلًا).</p>
+            </div>
+            <div type="commentary">
+                
+                <p>This is an acclamation of a type more often preserved on vases than on monuments. However, the lettering leaves no doubt that it is a
+                graffito and no official mention.</p>
+                <p>The name <foreign xml:lang="grc">Ἁγήτωρ</foreign> is attested for a military officer about 335 BC (<ref type="inscription" source="#IGCyr2">IGCyr084000</ref>), who
+                might be a grand-son or another related person.</p>
+                <p><bibl><ptr target="#rosamilia2023"/></bibl> was right in suggesting that the date is plausibly more ancient than the 'end of the fifth or very first years of the fourth century BC' proposed by 
+                <bibl><ptr target="#inglese2013"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

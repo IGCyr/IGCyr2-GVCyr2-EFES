@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> and <rs type="textType">artist's signature</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr021000</idno>
+                <idno type="number" subtype="second-edition">021000</idno>
+                <idno type="TM">6011</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr021000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr021000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr021000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>block</objectType> re-used in a late wall                                      
+                                    (<dimensions>
+                                            <width>0.875</width>
+                                            <height>0.27</height>
+                                            <depth precision="low">0.65</depth>
+                                        </dimensions>). The anathyrosis at the left-hand side shows that another block was adjacent at left.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the front face of this block and the next one, now lost, to the left;
+                                laid out in two columns of two lines each (i.a and i.b), then one line on the whole width and a fourth line in smaller characters below (ii).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height> for b and c, thus also for a, <height>0.015</height> for d; smaller dotted theta, nearly non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0246" notAfter="-0235" precision="low" resp="rosamilia">Between ca. 246 and 235 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1926">
+                                    <p>Found in 1926 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, West of the <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>, reused in a Roman House.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 2001 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2012" resp="ER">
+                                    <p>Seen by Rosamilia in 2012 in situ.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL + Rosamilia).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2023-08-13" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-06-01" who="cdl">changed edition following Rosamilia 2014</change>
+            <change when="2014-03-26" who="HellasLabUnibo">checked, updated and in case corrected tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-11" who="cdl">lemma, bibliography, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc> 
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76947/3/igcyr021000-face.tiff.jpg" corresp="igcyr021000" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1926"><ref target="http://hdl.handle.net/20.500.14008/76947">Face of igcyr021000 Private honours and artist's signature</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1928"/>, p. 329, n. <citedRange>10</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.125</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>8</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2012</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>021000</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>105</citedRange> (prosopography), pp. <citedRange>368-369</citedRange>, number 94 (text)</bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#chamoux1946"/>, p. 68, n. <citedRange>1</citedRange></bibl>;
+                    <bibl><ptr target="#ensoli1992"/>, pp. <citedRange>187-188</citedRange></bibl>, with ph., whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>42.1664</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, p. <citedRange>21</citedRange></bibl>.
+                    </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+               <div type="textpart" subtype="section" n="i"> 
+                   <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                                <persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>                        
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63105"><name nymRef="#Ἄριστις">Ἄριστις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64179"><name type="patronymic" nymRef="#Θεύδωρος">Θευδώρω</name></persName></persName>
+                    <lb n="4"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύων</w></rs></ab>
+                </div>
+               
+                    <div type="textpart" subtype="text" n="c">
+                        <ab><lb n="1"/><persName type="attested" key=""><name><gap reason="lost" quantity="6" precision="medium" unit="character"/></name>
+                            <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64179"><name nymRef="#Θεύδωρος"><supplied reason="lost">Θευδ</supplied>ώρω</name></persName></persName> 
+                            <w lemma="ἀνατίθημι">ἀνέθηκε</w>.
+                    </ab>
+                    </div></div>
+                <div type="textpart" subtype="section" n="ii">
+                    <ab><lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62530"><name nymRef="#Ἀγάθων">Ἀγάθω<supplied reason="lost">ν</supplied></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62523"><name type="patronymic" nymRef="#Ἀγαθοκλῆς"><supplied reason="lost" cert="low">Ἀγα</supplied><unclear>θο</unclear>κλεῦς</name></persName></persName> 
+                        <w lemma="ποιέω">ἐπόησε<unclear>ν</unclear></w>.
+                    </ab>                
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="i.a.1-2">
+                        <note>not restored before Rosamilia</note>
+                    </app>
+                    <app loc="i.c"><lem resp="#rosamilia2014 #IGCyr"><supplied reason="lost">Θευδ</supplied>ώρω</lem>
+                    <rdg resp="#oliverio1928">Ὥρῳ <note>not suspecting any lacuna at left</note></rdg>                        
+                    </app>
+                </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p>i. <supplied reason="lost">Un tel fils d'Un tel</supplied> <gap reason="lost" extent="unknown" unit="character"/>,</p>
+                <p>Aristis fils de Theudôros, prêtre.</p>
+                <p><supplied reason="lost">Un tel fils de Theu</supplied>dôros a consacré <supplied reason="subaudible">le monument</supplied>.</p>
+                <p>ii. Oeuvre d'Agathôn fils d'<supplied reason="lost" cert="low">Aga</supplied>thoklès.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p>i. <supplied reason="lost">So-and-so son of So-and-so</supplied> <gap reason="lost" extent="unknown" unit="character"/>,</p>
+                <p>Aristis son of Theudoros, priest.</p>
+                <p><supplied reason="lost">So-and-so son of Theu</supplied>doros dedicated <supplied reason="subaudible">the monument</supplied>.</p>
+                <p>ii. Made by Agathon son of<supplied reason="lost" cert="low">Aga</supplied>thocles.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>i. <supplied reason="lost">Il tale figlio del tale</supplied> <gap reason="lost" extent="unknown" unit="character"/>,</p>
+                <p>Aristis figlio di Theudoros, sacerdote.</p>
+                <p><supplied reason="lost">Il tale figlio di Theu</supplied>doros dedicò <supplied reason="subaudible">il monumento</supplied>.</p>
+                <p>ii. Opera di Agathon figlio di<supplied reason="lost" cert="low">Aga</supplied>thokles.</p>
+         </div><div type="commentary">
+                
+                <p>This inscription has been originally considered a dedication to the god Horus, with a dative ending without iota that was inconsistent with the 
+                    chronology. Rosamilia's interpretation is much more convincing. The layout with the names of the persons portrayed above at the nominative case
+                    and below a full sentence giving the name of the person among them who was responsible for the dedication has an exact parallel in 
+                    <ref type="inscription" source="#IGCyr2">IGCyr097900</ref>. At line 2 of the lost column a, there should have been an indication about an office held by the other dedicant.</p>
+                <p>Although both name and father's name of the priest who made the present dedication are frequently used in Cyrenaica, the very similar script 
+                    of <ref type="inscription" source="#IGCyr2">IGCyr101500</ref> allows to infer that the latter might be a dedication by the son of the priest; if of the same family,
+                    the Aristis son of Theudoros who subscribed about 280 BC (<ref type="inscription" source="#IGCyr2">IGCyr065210</ref>, col. a, l. 147) might be the priest's grandfather (so <bibl><ptr target="#rosamilia2023"/></bibl>, who 
+                    amended the higher date suggested in <bibl><ptr target="#IGCyr"/></bibl>).</p>
+                <p>For the artist's signature, Oliverio's restoration seems good, for <foreign xml:lang="grc">Ἀγαθοκλῆς</foreign> is rather common in Cyrenaica and gives echoing names for father and son. 
+                    <bibl><ptr target="#chamoux1946"/>, p. 68, n. <citedRange>1</citedRange></bibl> had checked the extent of the gap and C. Dobias-Lalou (<bibl><ptr target="#IGCyr"/></bibl>) added that theta is the only possible letter before the incomplete omicron.
+                Chamoux and Rosamilia think that Agathon was a Cyrenaean. See discussion at <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>8</citedRange></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

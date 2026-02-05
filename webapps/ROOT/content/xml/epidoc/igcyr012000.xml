@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr012000</idno>
+                <idno type="number" subtype="second-edition">012000</idno>
+                <idno type="TM">738207</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr012000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr012000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr012000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary white <material>marble</material> <objectType>panel</objectType> broken on top, right and below
+                                        (<dimensions>
+                                            <width>0.09</width>
+                                            <height>0.14</height>
+                                            <depth>0.025</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>; deeply cut, slanting mu and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering textual-context" cert="low" notBefore="-0350" notAfter="-0335" resp="rosamilia">Probably between 350 and 335 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1929">
+                                    <p>Found not later than 1929 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-09-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-29" who="Alice">checked; Italian translation</change>
+            <change when="2016-07-31" who="CDL">added w and lemma into text</change>
+            <change when="2015-04-18" who="CDL">English translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-10-04" who="CDL">French translation</change>
+            <change when="2012-06-22" who="CDL+HB">text edited, lemma</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76797/3/igcyr012000-face.tiff.jpg" corresp="igcyr012000" decls="#photograph"><desc resp="from Oliverio DAI1, pl. XII" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76797">Face of igcyr012000 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, p. 91, n.  <citedRange>16</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.17</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>012000</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>301-302</citedRange>, number 42 (text)</bibl>.</p>
+                    <p>For a general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
+                    <lb n="1"/>
+                        <num type="total" atLeast="3">
+                            <measure type="currency" unit="drachma">
+                                <num value="2">
+                                        <g type="cyrnum">𐅝</g>
+                                </num>
+                                <num value="1">
+                                    <g type="cyrnum">Ζ</g>
+                                </num>
+                            </measure>
+                        </num> 
+                    <g type="punct">⋮</g> τὸ <w lemma="πᾶς"><supplied reason="lost">πὰν</supplied></w> <w lemma="ἔσειμι"><supplied reason="lost">ἐσιὸν</supplied></w> 
+                    <supplied reason="lost">τῶ</supplied> <w lemma="ἐνιαυτός"><supplied reason="lost">ἐνιαυτῶ</supplied></w> 
+                        <w lemma="μνᾶ"><supplied reason="lost"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></supplied></w>
+                            <num type="total" atLeast="6240">
+                                <measure type="currency" unit="drachma">
+                                    <num type="total" atLeast="62">
+                                        <measure type="currency" unit="mna"> <gap reason="lost" quantity="3" unit="character"/><lb n="2" break="no"/><space quantity="1" unit="character"/>
+                                        <num value="50">
+                                            <g type="cyrnum">Ζ</g>
+                                        </num>
+                                        <num value="10">
+                                            <g type="cyrnum">&gt;</g>
+                                        </num>
+                                        <num value="1">
+                                            <g type="cyrnum">–</g>
+                                        </num>
+                                        <num value="1">
+                                            <g type="cyrnum">–</g>
+                                        </num>
+                                    </measure>
+                                </num>
+                                <num type="total" atLeast="40">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="20">
+                                            <g type="cyrnum">Χ</g>
+                                        </num>
+                                        <num value="20">
+                                            <unclear><g type="cyrnum">Χ</g></unclear>
+                                        </num>
+                                        <gap reason="lost" extent="unknown" unit="character"/>
+                                    </measure>
+                                </num>
+                            </measure>
+                        </num>
+                    <gap reason="lost" extent="unknown" unit="character"/> ·
+                    <w lemma="ἔξειμι"><supplied reason="lost">ἐξιὸν</supplied></w> <supplied reason="lost">τῶ</supplied> <w lemma="ἐνιαυτός"><supplied reason="lost">ἐνιαυ</supplied><lb n="3" break="no"/>τῶ</w> <g type="punct">⋮</g> 
+                        <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></w>
+                        <num type="total" atLeast="50000">
+                            <measure type="currency" unit="drachma">
+                                <num type="total" atLeast="500">
+                                    <measure type="currency" unit="mna">
+                                        <num value="200">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="200">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="100">
+                                            <unclear><g type="cyrnum">𐅝</g></unclear>
+                                        </num>
+                                    </measure>
+                                </num>
+                            </measure>
+                        </num>
+                        <gap reason="lost" extent="unknown" unit="character"/> <w lemma="βουθυσία"><supplied reason="lost">βο</supplied><lb n="4" break="no"/>υθυσίας</w> <w lemma="εἰμι"><unclear>ἤ</unclear><supplied reason="lost">σσας</supplied></w> <space extent="unknown" unit="character"/>
+                   <lb n="5"/><w lemma="λοιπός">λοιπὸν</w> <g type="punct">⋮</g> 
+                        <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></w>
+                                        <gap reason="lost" extent="unknown" unit="character"/>
+                                    <lb n="6" break="no"/><gap reason="lost" quantity="3" unit="character"/>
+                                        <measure type="currency" unit="drachma">
+                                            <num type="total" value="0.03">
+                                            <num value="0.02">
+                                                <g type="cyrnum">Δ</g>
+                                            </num><num value="0.01">
+                                                <g type="cyrnum">Ι</g></num>
+                                        </num></measure>
+                        <g type="punct">⋮</g><g type="punct">⋮</g> <w lemma="παρόρεγμα">Πα<unclear>ρ</unclear><supplied reason="lost">όρεγμα</supplied></w> 
+                        <rs type="office" key="damiergos"><w lemma="δαμιεργός"><supplied reason="lost">δαμιεργοῖς</supplied></w></rs>
+                    <lb n="7"/> <w lemma="μνᾶ"><supplied reason="lost"><expan><abbr>μ</abbr><ex>ναῖ</ex></expan></supplied></w>
+                        <supplied reason="lost"><num type="total" value="300">
+                        <measure type="currency" unit="drachma">
+                            <num type="total" value="3">
+                                <measure type="currency" unit="mna">
+                                    <num value="1">
+                                        <g type="cyrnum">–</g>
+                                    </num>
+                                    <num value="1">
+                                        <g type="cyrnum">–</g>
+                                    </num>
+                                    <num value="1">
+                                        <g type="cyrnum">–</g>
+                                    </num>
+                                </measure>
+                            </num>
+                        </measure>
+                    </num></supplied>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="0-1"><lem resp="#IGCyr"><gap reason="lost" extent="unknown" unit="line"/> <lb/> 𐅝Ζ ⋮ τὸ <supplied reason="lost">πὰν ἐσιὸν τῶ ἐνιαυτῶ Μ</supplied><note>from Oliverio's very clear photograph</note></lem>
+                    <rdg resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="line"/> <lb/> 𐅝Ζ ⋮ <orig>το</orig><gap reason="lost" atLeast="20" atMost="23" unit="character"/></rdg>
+                    <rdg resp="#oliverioDAI1"><supplied reason="lost">τὸ πὰν</supplied> <lb/> ἐσιὸ<supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="2"><note>at the beginning of the line, a hole where no letter seems to have been lost</note>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> 3 drachmes.
+            <supplied reason="lost">Total des recettes de l'année:</supplied> <gap reason="lost" extent="unknown" unit="character"/> 62 mines 40 drachmes <gap reason="lost" extent="unknown" unit="character"/>.
+            <supplied reason="lost">Dépenses de l'</supplied>année : 500 mines <gap reason="lost" extent="unknown" unit="character"/>, sacrifices de bovins inclus.
+            Reste: <gap reason="lost" extent="unknown" unit="character"/> mines <gap reason="lost" extent="unknown" unit="character"/> 0.03 drachme.
+            Indemnité <supplied reason="lost">pour les démiurges: 3 mines</supplied>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> 3 drachmas.
+            <supplied reason="lost">Total income of the year:</supplied> <gap reason="lost" extent="unknown" unit="character"/> 62 mines 40 drachmas <gap reason="lost" extent="unknown" unit="character"/>.
+            <supplied reason="lost">Expense of the</supplied> year: 500 mines <gap reason="lost" extent="unknown" unit="character"/>, sacrifices of oxen included.
+            Remainder: <gap reason="lost" extent="unknown" unit="character"/> mines <gap reason="lost" extent="unknown" unit="character"/> 0.03 drachma.
+            Allowance <supplied reason="lost">for the damiergoi: 3 mines</supplied>.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> 3 dracme.
+            <supplied reason="lost">Totale: entrate dell'anno</supplied> <gap reason="lost" extent="unknown" unit="character"/> 62 mine 40 dracme <gap reason="lost" extent="unknown" unit="character"/>.
+            <supplied reason="lost">Uscite dell'</supplied> anno: 500 mine <gap reason="lost" extent="unknown" unit="character"/>, sacrifici dei buoi inclusi.
+            Resto: <gap reason="lost" extent="unknown" unit="character"/> mine <gap reason="lost" extent="unknown" unit="character"/> 0.03 dracma.
+            Retribuzione <supplied reason="lost">per i damiurghi: 3 mine</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>[---]... 3 دراخما. [إجمالي دخل السنة: ---] 62 ميناي و40 دراخما [---]. [نفقات] السنة: 500 ميناي [---] متضمنة الأضحيات من الثيران. المتبقي: [---] ميناي [---] و 0.03 دراخما. وتُخصص [للداميرجوي: 3 ميناي]s
+
+</p>
+         </div><div type="commentary">
+                
+                <p>L. 6 The use of <foreign xml:lang="grc"><orig>ι</orig></foreign> as the last glyph in the class of drachmas is unique; Oliverio
+                    proposed that it could stand for the usual <foreign xml:lang="grc"><num><g type="cyrnum">-</g></num></foreign> (1/10 drachma or 1/2 obol) and have been erroneously displaced after <foreign xml:lang="grc"><num><g type="cyrnum">Δ</g></num></foreign>;
+                    <bibl><ptr target="#cdl2017b"/>, p. <citedRange>197</citedRange>, footnote 43</bibl> preferred another explanation: it should stand for a smaller unit than <foreign xml:lang="grc"><num><g type="cyrnum">Δ</g></num></foreign>, which might be the acronym of 
+                    <foreign xml:lang="grc">δίχαλκον</foreign>, i.e. 2 chalkoi. <foreign xml:lang="grc">Ι</foreign> would thus be for 1 chalkous. See now more insights into the relation between currency and 
+                glyphs by <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>141-144</citedRange></bibl>.</p>
+                <p>Although very fragmentary, the minimum amount of expenses being 500 mines, the totals are here much higher than in <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>,
+                    <ref type="inscription" source="#IGCyr2">IGCyr011500</ref>, <ref type="inscription" source="#IGCyr2">IGCyr011600</ref>, <ref type="inscription" source="#IGCyr2">IGCyr011700</ref>, <ref type="inscription" source="#IGCyr2">IGCyr011800</ref>.</p>
+                <p>This high amount would match a year of especially numerous festivals. It might be a good argument for <bibl><ptr target="#rosamilia2023"/></bibl>'s idea that line 1 has probably 
+                the partial total of expenses, rather than the total income of the year.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

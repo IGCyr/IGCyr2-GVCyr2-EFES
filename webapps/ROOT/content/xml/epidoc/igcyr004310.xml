@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pederastic <rs type="textType">acclamation</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr004310</idno>
+                <idno type="number" subtype="second-edition">004310</idno>
+                <idno type="TM">738148</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr004310</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr004310</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr004310</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary <material>black-glazed ware</material> <objectType>dish</objectType> decorated with palmettes
+                                        (diameter maximum 0.14).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> a) on upper right; b) at left; c) beneath, at break.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0350" notAfter="-0320" evidence="monument-type" precision="medium">350-320 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1963">
+                                    <p>Found in 1963 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName> strewn on the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1118">archaic votive deposit</rs>.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="1965" resp="Boardman">
+                            <p>Seen by J. Boardman in 1965 at <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>.</p>
+                        </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-20" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-12-18" who="CDL">complement to text, commentary, translation</change>
+            <change when="2012-07-09" who="HB">text edited</change>
+            <change when="2012-06-19" who="Ljuba">added from CATALOGO</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76712/3/igcyr004310-1-view.tiff.jpg" corresp="igcyr004310" decls="#photograph"><desc resp="Boardman, J." source="Department of Antiquities, Tukrah" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76712">View of igcyr004310 Pederastic acclamation</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76713/3/igcyr004310-2-drawing.tiff.jpg" corresp="igcyr004310" decls="#photograph"><desc resp="Boardman, J." source="Department of Antiquities, Tukrah" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76713">Drawing of igcyr004310 Pederastic acclamation</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#boardman-hayes1973"/>, pp. <citedRange>102-103</citedRange>, n. <citedRange>2360</citedRange> (dr.)</bibl>;
+                    <bibl><ptr target="#cdl2015a"/>, p. <citedRange>68</citedRange> with footnote 42</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>004310</citedRange></bibl>.</p>        
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                
+                <div type="textpart" subtype="section" n="a">
+                        <ab><lb n="1"/><persName type="attested" key=""><name nymRef="#Σίταρχος">Σίτ<choice><corr>αρ</corr><sic>ρα</sic></choice>χ<surplus><hi rend="superscript">σ</hi></surplus>ος</name></persName> 
+                            <w lemma="κύσθος">κύσθος</w>, <w lemma="ψωλά">ψωλά</w>
+	              </ab></div>
+                
+                <div type="textpart" subtype="section" n="b">
+                        <ab><lb n="1"/><orig>αρ</orig>
+                            <lb n="2"/><orig>α</orig>
+	              </ab></div>
+                
+                <div type="textpart" subtype="section" n="c">
+                        <ab><lb n="1"/><orig><unclear>αρ</unclear></orig>
+	              </ab></div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="a.1"><lem resp="#cdl2015a">Σίτ<choice><corr>αρ</corr><sic>ρα</sic></choice>χ<surplus><hi rend="superscript">σ</hi></surplus>ος</lem> 
+                    <rdg resp="#boardman-hayes1973"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-60768"><name>Σιτραχος</name></persName></rdg>
+                    <rdg resp="#boardman-hayes1973"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-60768"><name>Σιτραξος</name></persName></rdg> <note>Boardman</note></app>
+               </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>a) Sitarkhos, un vagin, une verge.</p>
+                <p>b) et c) intraduisibles.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p>a) Sitarchos, a vagina, a penis.</p>
+                <p>b) and c) not usefully translatable.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>a) Sitarchos, una vagina, un pene.</p>
+                <p>b) e c) intraducibili.</p>
+            </div><div type="commentary">
+                
+                <p>Boardman rightly interpreted a) as a pederastic graffito, although puzzled by the proper name at the beginning.
+                    As for its reading, a sigma is written above chi and was probably intended to replace the other one, written at end of the name, but conflicting with the kappa of <foreign xml:lang="grc">κύσθος</foreign>.
+                    Evidently, a lettering <foreign xml:lang="grc">ΧΣ</foreign> for <foreign xml:lang="grc">ξ</foreign> should be anachronistic, both in consideration of the date
+                    of the ceramics and beside a psi.</p>                 
+                <p>If inverting two letters, we get the personal name <foreign xml:lang="grc">Σίταρχος</foreign>, which is already attested at Eretria.</p>
+            </div></body>
+    </text>
+</TEI>

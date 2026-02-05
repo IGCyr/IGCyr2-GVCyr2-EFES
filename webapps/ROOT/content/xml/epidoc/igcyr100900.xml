@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr100900</idno>
+                <idno type="number" subtype="second-edition">100900</idno>
+                <idno type="TM">738521</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr100900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr100900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr100900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a <material>nummulitic limestone</material> <objectType>base</objectType>, widely mutilated on the left; the blocks are 
+                                        finished on all sides; there is a hole on the upper side. On the front face of the left fragments there is a quadrangular recess for the insertion of a panel, perhaps 
+                                        resulting from a subsequent reuse.
+                                        (overall dimensions <dimensions>
+                                            <width>1.51</width>
+                                            <height>0.645</height>
+                                            <depth>0.53</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> along the upper edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.035" max="0.043">0.035-0.043</height>; carefully cut letters without serifs; slightly smaller dotted theta, slanting mu, open omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1916-11-25" resp="Oliverio">
+                                    <p>Found by G. Oliverio on November 25th, 1916 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, reused in the wall of a Byzantine house, at the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1011">North-West corner</rs> of the agora (house XIII Stucchi, in the Western side of the portico).
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" when="1977" resp="cdl">
+                            <p>Observed by C. Dobias-Lalou in 1977 standing in the area where it was found on the <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>    
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">checked</change>
+            <change when="2017-01-24" who="CDL">overall check; Ital. translation</change>
+            <change when="2013-11-19" who="cdl">slight changes in lemma, bibliography and commentary; Fr. and Engl. translations</change>
+            <change when="2013-11-06" who="RiccardoHellasLabUnibo">minor changes in tagging of lemma, bibliography and text; added commentary and apparatus</change>
+            <change when="2013-07-16" who="S.M.Marengo">lemma, text finished and commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77376/3/igcyr100900-face.tiff.jpg" corresp="igcyr100900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77376">Face of igcyr100900 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>VIII.56</citedRange></bibl> and                   
+                    <bibl><ptr target="#antiTacc"/>, <citedRange>A VI 10</citedRange></bibl>, whence                    
+                    <bibl><ptr target="#SECir"/>, <citedRange>169</citedRange> (no image)</bibl>; 
+                    <bibl><ptr target="#gasperini1965"/>, p. 329, n. <citedRange>1</citedRange>, pl. LXIV, 6
+                        (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>46-47</citedRange>, fig. 20,1</bibl>)</bibl>; 
+                    <bibl><ptr target="#gasperini1967a"/>, p. 168, n. <citedRange>14</citedRange>, fig. 198 
+                        (= <bibl><ptr target="#gasperini2008"/>, p. 81, n. <citedRange>14</citedRange>, fig. 14</bibl>)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>100900</citedRange></bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#stucchi1975"/>, p. <citedRange>91</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>103, 117</citedRange></bibl>;
+                        <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>100</citedRange> with footnote</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                    <persName type="attested" key=""><name nymRef="#_τος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">τω</seg></name> 
+                        τῶ <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64968"><name type="papponymic" nymRef="#Μελάνιππος">Μελανίππω</name></persName></persName></persName> 
+                    <w lemma="ἀνατίθημι">ἀ<supplied reason="lost">ν</supplied>έθηκε</w>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><gap reason="lost" extent="unknown" unit="character"/>τω</lem>
+                            <rdg resp="#gasperini1965 #gasperini1967a"><supplied reason="lost">ὁ δεῖνα τῶ δεῖνος θεῶι ἐπὶ ἱερέως</supplied><gap reason="lost" extent="unknown" unit="character"/>τω</rdg>  
+                            <rdg resp="#gasperini1965 #gasperini1967a"><supplied reason="lost">ὁ δεῖνα τῶ δεῖνος θεοῖς ἐπὶ ἱερέως</supplied><gap reason="lost" extent="unknown" unit="character"/>τω</rdg>
+                        <rdg resp="#SECir"><supplied reason="lost">ὁ δεῖνα</supplied><gap reason="lost" extent="unknown" unit="character"/>τω</rdg>
+                    </app>
+                </p>
+                   
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><supplied reason="lost">Untel fils de</supplied> <gap reason="lost" extent="unknown" unit="character"/>tos et petit-fils de Melanippos a consacré <supplied reason="subaudible">ce monument</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so son of</supplied> <gap reason="lost" extent="unknown" unit="character"/>tos and grand-son of Melanippos dedicated <supplied reason="subaudible">this monument</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="lost">Il tale figlio di </supplied> <gap reason="lost" extent="unknown" unit="character"/>tos e nipote di Melanippos ha dedicato <supplied reason="subaudible">questo monumento</supplied>.</p>
+            </div><div type="commentary">
+                
+                <p>Pugliese Carratelli did not find the stone in 1960 and edited the inscription from Oliverio's notebook. After Stucchi's excavations on the agora, which began in 1957, the 
+                stone has become clearly visible to all visitors.</p>
+                <p>As no personal name ending with -<foreign xml:lang="grc">τωτος</foreign> is known, the only justification for a segment <foreign xml:lang="grc"><orig>ΤΩΤΩ</orig></foreign> is 
+                    that there stood a personal name, followed by a father's name ending with <foreign xml:lang="grc">τος</foreign>, itself followed by the article and the grandfather's name, who 
+                    was Melanippos.</p>                
+                <p>As Gasperini rightly pointed out, the lost part at left is of undeterminable dimension, perhaps extending on other blocks, so that before the personal names the gap would
+                    allow for the name of one or several deities to whom the dedication was made, although such a mention is not compulsory. His idea that the name of the eponym priest also 
+                    stood there is less convincing.</p>                
+                <p>The prosopographical relation proposed by <bibl><ptr target="#stucchi1975"/>, p. <citedRange>91</citedRange></bibl> may seem hypothetical; however,
+                    the fact that the grandfather is mentioned allows to suspect with <bibl><ptr target="#laronde1987"/>, pp. <citedRange>103, 117</citedRange></bibl> that he belonged to an important family.
+                More on this point by <bibl><ptr target="#rosamilia2023"/></bibl>.</p>
+                <p>For the excavations of the time in that area see now <bibl><ptr target="#luni2014a"/>, pp. <citedRange>51-52</citedRange></bibl>.</p>
+                
+            </div></body>
+    </text>
+</TEI>

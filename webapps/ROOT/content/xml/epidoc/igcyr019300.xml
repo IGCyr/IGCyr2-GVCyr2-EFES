@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs> for the priestess Aristokleia</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr019300</idno>
+                <idno type="number" subtype="second-edition">019300</idno>
+                <idno type="TM">6004</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr019300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr019300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr019300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository>
+                        <idno type="invNo">56</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Left half of white <material>marble</material> <objectType>panel</objectType> broken off at right, with a hole for attachment in the left margin
+                                        (<dimensions>
+                                            <width>0.13</width>
+                                            <height>0.11</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face: each line centered.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015</height>; letters with serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0200" notAfter="-0101" precision="medium">Second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1914" notAfter="1915">
+                                    <p>Found between 1914 and 1915 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen in 1979 by C. Dobias-Lalou in 
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-09-18" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2013-09-14" who="cdl">bibliography, apparatus, commentary completed</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-13" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-02-04" who="cdl">lemma, text finished, apparatus, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76903/3/igcyr019300-squeeze.tiff.jpg" corresp="igcyr019300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/76903">Squeeze of igcyr019300 Honours for priestess Aristokleia</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ghislanzoni1915"/>, p. <citedRange>218</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.104</citedRange></bibl>; 
+                    <bibl><ptr target="#marengo1991a"/>, pp. <citedRange>497-498</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>41.1697</citedRange></bibl>;
+                    <bibl><ptr target="#jmr2012"/>, p. 206 n. <citedRange>B.1</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>62.1796</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>019300</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="Ἀριστόκλεια">Ἀριστόκλε<supplied reason="lost">ιαν</supplied></name> 
+                        <persName type="attested"><name type="patronymic"><gap reason="lost" quantity="9" precision="low" unit="character"/></name></persName></persName>
+                    <lb n="2"/><rs type="office" key="priestess"><w lemma="ἱαριτεύω">ἱαριτε<supplied reason="lost">ύοισαν</supplied></w></rs>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63428"><name nymRef="#Γαλέστας">Γαλέστας</name>
+                        <persName type="attested"><name type="patronymic"><gap reason="lost" quantity="9" precision="low" unit="character"/></name></persName></persName>
+                    <lb n="4"/><w lemma="ἀνατίθημι">ἀνέ<supplied reason="lost">θηκε</supplied></w>.
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem>Ἀριστόκλε<supplied reason="lost">ιαν</supplied></lem>
+                        <rdg resp="#ghislanzoni1915">Ἀριστοκλε<supplied reason="lost">ῦς</supplied></rdg>
+                        <rdg resp="#marengo1991a">Ἀριστόκλε<supplied reason="lost">αν</supplied></rdg>
+                        <rdg resp="#jmr2012">Ἀριστόκλε<supplied reason="lost">α</supplied></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="2">
+                        <rdg resp="#ghislanzoni1915">ἱαριτε<supplied reason="lost">ύοντος</supplied></rdg>
+                        <rdg resp="#jmr2012">ἱαριτε<supplied reason="lost">ύοντα</supplied></rdg>
+
+                    </app>
+                    </p>
+                    <p>
+                    <app loc="3">
+                        <lem>Γαλέστας</lem>
+                        <rdg resp="#jmr2012">Γαλέσιας <note>(obviously a misprint)</note></rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">La statue d'</supplied>Aristokleia <supplied reason="lost">fille d'un tel</supplied>, qui exerçait la prêtrise, a été consacrée 
+                par Galestas <supplied reason="lost">fils d'un tel</supplied>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">The statue of</supplied>Aristokleia <supplied reason="lost">daughter of So and so</supplied>, who was priestess, was dedicated 
+                by Galestas <supplied reason="lost">son of So and so</supplied>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">La statua di</supplied>Aristokleia <supplied reason="lost">figlia del tale</supplied>, che era sacerdotessa, fu dedicata 
+                da Galestas <supplied reason="lost">figlio del tale</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>Marengo rightly objected to Ghislanzoni's restorations and proposed to have a woman's name at l. 1 rather than a man's name and to see in her the <foreign rend="italic">honoranda</foreign>.</p>
+	      <p>As the stone was found in Demeter and Kore's sanctuary, the most natural solution is to link the participle at l. 2 with the woman's name, without the deities being explicitly mentioned.</p>
+        	      <p><bibl><ptr target="#jmr2012"/></bibl>, who does not know <bibl><ptr target="#marengo1991a"/></bibl>, takes the name at l. 2 for the masculine Aristokles at the accusative case, leading to a highly 
+        	          improbable priest of Demeter.</p>
+                <p>For the name <foreign xml:lang="grc">Γαλέστας</foreign> see <bibl><ptr target="#minon2005"/></bibl>.</p> 
+            </div></body>
+    </text>
+</TEI>

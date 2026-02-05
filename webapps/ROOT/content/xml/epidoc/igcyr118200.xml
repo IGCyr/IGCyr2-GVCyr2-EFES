@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr118200</idno>
+                <idno type="number" subtype="second-edition">118200</idno>
+                <idno type="TM">738730</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr118200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr118200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr118200</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p> Rectangular <objectType>block</objectType> of <material>limestone</material>, re-used in a later building and partly hidden 
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face, at least on one line near the lower edge; other lines may have been 
+                                    cut on the hidden part.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Dimensions of letters <height>unknown</height>; very careful letters, not deeply cut, closely to one another; no serifs; 
+                                epsilon with unequal bars, nu probably symmetrical.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>,
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate evidence="lettering" precision="medium" cert="low" notBefore="-0300" notAfter="-0251">Perhaps first half of third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notBefore="2000" notAfter="2002" resp="parisipresicce">
+                                    <p>Found by C. Parisi Presicce between 2000 and 2002 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: re-used in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, immediately West of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>, in the so-called
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2015-03-31" who="CDL">file created; lemma, bibliography, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#parisipresicce2007b"/>, pp. <citedRange>199-200</citedRange> and fig. 7</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>118200</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><space quantity="1" unit="character"/> <w lemma="δεκάτα">Δεκάταν</w> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem><space quantity="1" unit="character"/> Δεκάταν <note>from photograph</note></lem>
+                    <rdg resp="#parisipresicce2007b"><gap reason="lost" extent="unknown" unit="character"/> δεκάταν</rdg>
+                </app></p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Dîme <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Tithe <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>.</p>
+         </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Decima <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>.</p>
+         </div><div type="commentary">
+                
+               <p>It is impossible to restore the ancient display only from the quick description of Parisi Presicce. However, the good photograph allows to suspect a 
+               large monumental dedication, either made of several blocks or later re-cut. The verb <foreign>ἀνέθηκε/αν</foreign> might remain subaudible, but at least 
+               a personal name as subject would have stood in the hidden (or lost?) part. The date proposed here seems a plausible guess.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

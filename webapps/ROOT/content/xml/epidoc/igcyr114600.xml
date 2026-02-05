@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr114600</idno>
+                <idno type="number" subtype="second-edition">114600</idno>
+                <idno type="TM">738698</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr114600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr114600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr114600</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>panel</objectType> closing a rock-cut tomb
+                                        (<dimensions>
+                                            <width>0.51</width>
+                                            <height>1.5</height>
+                                            <depth>0.22</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the outer face at ca. <dim type="distance" precision="low">0.35</dim> 
+                                    from top, within guide-lines.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Line 1 <height min="0.029" max="0.039">0.029 to 0.039</height>, line 2 <height>0.03</height>; not very carefully cut letters with small serifs in form of dots, 
+                                alpha with dropped bar, kappa with short oblique bars, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0125" notAfter="-0096" precision="medium">End of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="2006" resp="Abd el-Karim">
+                                    <p>Found by F. Abd el-Karim in 2006 near
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>: in the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1482">South-West Necropolis</rs>, not far from <rs type="monuList" ref="https://www.slsgazetteer.org/937">Tokra Gate</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-28" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">checked</change>
+            <change when="2017-02-08" who="CDL">overall check</change>
+            <change when="2014-02-13" who="cdl">lemma, bibliography, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-01" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#łajtar-abdel-karim2008"/><citedRange/></bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2012.504</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>58.1841</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>114600</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2013"/>, pp. <citedRange>186-187</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2014</citedRange></bibl>;
+                <bibl><ptr target="#cdl2013-2014"/>, p. <citedRange>187</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Αιαλαν">Αιαλαντος</name></persName>· 
+                    <lb n="2"/><w>ἀκίνητος</w>
+                </ab></div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Tombe</supplied> d'Aialan; à ne pas déplacer.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">Tomb</supplied> of Aialan; not to be moved.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="subaudible">Tomba</supplied> di Aialan; non spostare.</p>
+            </div><div type="commentary">
+                
+                <p>This rare use of the adjective <foreign xml:lang="grc">ἀκίνητος</foreign> is one of the many formulas preventing the tomb to be opened, robbed or
+                    re-used. A similar mention is to be found at Amphissa (see <bibl><ptr target="#SEG"/>, <citedRange>56.566</citedRange></bibl>).</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Dedication</rs> by a king Ptolemy probably to Zeus Soter</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr064500</idno>
+                <idno type="number" subtype="second-edition">064500</idno>
+                <idno type="TM">738337</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr064500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr064500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr064500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository>
+                        <idno type="invNo">301 (a) and 189 (b)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two fragments of a white <material>marble</material> <objectType>panel</objectType>, later re-used on the reverse after a quarter turn for
+                                        <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.153.html">IRCyr2020 C.153</ref>; in their present condition, fragment a (inv. 301) is the upper right angle (<dimensions>
+                                            <width>0.15</width>
+                                            <height>0.14</height>
+                                            <depth>0.06</depth>
+                                        </dimensions>); fragment b (inv. 189) is broken off at left and right and above
+                                        (<dimensions>
+                                            <width>0.15</width>
+                                            <height>0.115</height>
+                                            <depth>0.06</depth>
+                                        </dimensions>) and has a dowel hole full of metal where the lower edge is broken off at right. The tiny joint between both
+                                    fragments is made sure by the inscription cut on the reverse.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face, beginning at <dim>0.075</dim> from the upper edge and 
+                                    ending at <dim>0.04</dim> from the bottom. The spacement of letters varies at each line. There might be a <foreign rend="italic">vacat</foreign> before the last word at line 3.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.028" max="0.03">0.028-0.03</height> carefully cut, with serifs; especially broad eta, kappa with long oblique bars, large omikron, 
+                                non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0116" notAfter="-0107" cert="low">Probably between 116 and 107 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1938">
+                                    <p>Found before 1938 (at least for fragment a) at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot of both fragments unrecorded and anyhow related to the re-use.</p>
+                                </provenance>
+                                <provenance type="observed" when="1976" when-iso="1979" resp="CDL">
+                                    <p>Fragment a seen by C. Dobias-Lalou in 1976 and fragment b in 1979, both in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-07" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-02-10" who="Alice">checked</change>
+            <change when="2016-06-29" who="CDL">changed text, apparatus, translations and commentary following a new interpretation of IRCyr2020 C.153.</change>
+            <change when="2016-03-16" who="CDL">added fragment b, former IGCyr126300</change>
+            <change when="2016-03-16" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2015-12-16" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-12" who="CDL+HB">lemma, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-17" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77100/3/igcyr064500-2-frgt%20a.tiff.jpg" corresp="igcyr064500" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77100">Fragment a of igcyr064500 Dedication by a Ptolemy</ref></desc></graphic>
+        <graphic url="https://historica.unibo.it/bitstream/20.500.14008/80445/3/igcyr064500-1-reconstitution.tiff.jpg" corresp="igcyr064500"><desc><ref target="http://hdl.handle.net/20.500.14008/80445">Reconstituted face of igcyr064500 Dedication by a Ptolemy</ref></desc></graphic>
+    </facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Fragment a: <bibl><ptr target="#gpc1961"/>, p. 30, n. <citedRange>10</citedRange> (from †Oliverio's papers), fig. 19</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.721, a</citedRange></bibl>;
+                    fragment b: not published before <bibl><ptr target="#IGCyr"/> <citedRange>064500</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>129-130</citedRange>.</bibl></p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+              
+                   <ab>
+                    <lb n="1"/><w lemma="βασιλεύς"><supplied reason="lost">Βασιλεὺς</supplied></w> <persName type="ruler" key="Ptolemy IX Soter II"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτολε</supplied><milestone unit="fragment" n="a"/><unclear>μ</unclear>αῖος</name>
+                    <lb n="2"/><rs type="epithet" key="Soter"><supplied reason="lost" cert="medium">Σωτὴρ</supplied></rs></persName> <persName type="divine" ref="#Zeus_Soter"><name nymRef="Ζεύς"><supplied reason="lost" cert="low">Ζη</supplied><milestone unit="fragment" n="b"/>νὶ</name> 
+                            <rs type="epithet" key="Soter"><w lemma="σωτήρ"><unclear>Σ</unclear><supplied reason="lost">ω</supplied><milestone unit="fragment" n="a"/><unclear>τ</unclear>ῆρ<unclear>ι</unclear></w></rs></persName>                                
+                     <lb n="3"/><supplied reason="lost" cert="low"><space quantity="4" unit="character" precision="medium"/> τὸν</supplied> <milestone unit="fragment" n="a"/><space quantity="1" unit="character"/> οἶκ<supplied reason="lost">ον <space quantity="4" unit="character" precision="medium"/></supplied>
+	       </ab>
+               
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem><supplied reason="lost">Βασιλεὺς</supplied></lem>
+                    <rdg resp="#gpc1961"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="2"><lem resp="#rosamilia2023"><supplied reason="lost" cert="medium">Σωτὴρ</supplied></lem>
+                    <rdg resp="#IGCyr"><gap reason="lost" quantity="7" unit="character" precision="low" cert="low"/></rdg></app>
+                    <app loc="2"><lem><supplied reason="lost">Ζη</supplied>νὶ <unclear>Σ</unclear><supplied reason="lost">ω</supplied><unclear>τ</unclear>ῆρ<unclear>ι</unclear></lem>
+                    <rdg resp="#gpc1961"><supplied reason="lost">Σω</supplied><unclear>τῆρι</unclear></rdg>
+                    </app>
+                    <app loc="3"><lem resp="#rosamilia2023"> <supplied reason="lost" cert="low"><space quantity="4" unit="character" precision="medium"/> τὸν</supplied> <space quantity="1" unit="character"/> οἶκ<supplied reason="lost">ον <space quantity="4" unit="character" precision="medium"/></supplied></lem>
+                    <rdg resp="#IGCyr"><gap reason="lost" quantity="9" unit="character" precision="medium"/><space quantity="1" unit="character"/> οἰκ<gap reason="lost" atMost="5" unit="character"/></rdg></app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Le roi</supplied> Ptolémée <supplied reason="lost" cert="low">Sôtèr</supplied> <supplied reason="subaudible">a consacré</supplied> à <supplied reason="lost" cert="low">Zeus</supplied> Sôtèr <supplied reason="lost">cet</supplied> édifice.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">King</supplied> Ptolemy <supplied reason="lost" cert="low">Soter</supplied> <supplied reason="subaudible">dedicated</supplied> to <supplied reason="lost" cert="low">Zeus</supplied> Soter <supplied reason="lost" cert="low">this</supplied> building.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il re</supplied> Tolemeo <supplied reason="lost" cert="low">Sotere</supplied> <supplied reason="subaudible">ha dedicato</supplied> a <supplied reason="lost" cert="low">Zeus</supplied> Sotere <supplied reason="lost" cert="low">questo</supplied> edificio.</p>
+         </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>[الملك] بطليموس [سوتر؟] (ربما كلمة:خَصَّصَ) لِـ [زيوس؟] سوتر [هذا؟] المبنى</p>
+            </div>
+            <div type="commentary">
+                
+                <p>In spite of the addition of a new fragment, this inscription remains fragmentary and its restoration remains hypothetical. However, <bibl><ptr target="#rosamilia2023"/></bibl> offered a convincing 
+                    improvement to the former reading.</p>
+                <p> At line 2, the dative ending in -<foreign xml:lang="grc">νι</foreign> allows to retain a divine epithet rather than a royal title for <foreign rend="italic">Soter</foreign>. 
+                    As a divine epithet, this is known for two deities in the Hellenistic period at Cyrene: 1) Zeus Soter became the patron of the dynasty in relation with Ptolemy Soter and 
+                    his immediate followers; he was namely the leader of the <foreign rend="italic">theoi Soteres</foreign> to whom a monumental altar was dedicated on the agora (<ref type="inscription" source="#IGCyr2">IGCyr100000</ref>); 2) Apollo is said Soter in the quite different context of the dedication made earlier in the port of Cyrene by <foreign rend="italic">thearoi</foreign> travelling to Delphi (<ref type="inscription" source="#IGCyr2">IGCyr064100</ref>). Both divine names having the same ending at the dative, we choose Zeus
+                    on behalf of the mention of a Ptolemy. However the junction gained from the reverse in <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.153.html">IRCyr2020 C.153</ref> leaves a limited space for the royal 
+                    titulature. The one which would fit best would be that of Ptolemy Philadelphus if it was <foreign xml:lang="grc">Πτολεμαῖος Σωτήρων</foreign> 'Ptolemy son of the Soteres',
+                    as at <ref type="inscription" source="#IGCyr2">IGCyr062900</ref>. However his reign seems too early on  behalf of the script. As we put it in the 2017 edition, a more convincing possibility would be a short formulation of Ptolemy 
+                    IX Soter II's titulature with only <foreign xml:lang="grc">θεὸς Σωτήρ</foreign> (shorter than at <ref type="inscription" source="#IGCyr2">IGCyr015900</ref> and <ref type="inscription" source="#IGCyr2">IGCyr063000</ref>). This would fit perfectly the presumable date of the lettering. Rosamilia now suggests that <foreign xml:lang="grc">θεός</foreign> is not necessary. He also argues that 
+                    that it was not necessary for the king to be present at Cyrene when offering a cult-place to his divine protector, which would be the meaning of <foreign xml:lang="grc">οἶκος</foreign> at line 3.</p>
+	      <p>The provenance of the stone is not documented. It was probably found in the excavations of the sanctuary of Isis and Serapis of the acropolis, where 
+	           it would have been brought for re-use from the neighbouring agora. In that area, there is indeed a Zeus' temple on the South side of Battos' street, which was rebuilt after the Jewish revolt of the second century AD. The supposed building offered at the end of 
+	      the second century BC would have been its first stage.</p>
+            </div></body>
+    </text>
+</TEI>

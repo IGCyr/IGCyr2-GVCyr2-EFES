@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Aphrodite, Cyrene and the Curete</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr019800</idno>
+                <idno type="number" subtype="second-edition">019800</idno>
+                <idno type="TM">106100</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr019800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr019800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr019800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>altar</objectType> with two compartments, inscribed on the fore-rim of each
+                                        (total <dimensions>
+                                            <width>1.32</width>
+                                            <height>1.22</height>
+                                            <depth>0.78</depth>
+                                        </dimensions>; inscribed zone
+                                        <dimensions>
+                                            <width>0.89</width>
+                                            <height>0.085</height>    
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs>, each inscription corresponding to a compartment.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>: 
+                            so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs>.
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0250" precision="medium">Second half of fourth to first half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1923">
+                                    <p>Found before 1923 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        under the vestibule of the <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1982" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1982 in the vesistuble of the <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-10-23" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-07" who="HellasLabUnibo">checked, updated and in case corrected tagging</change>
+            <change when="2013-02-05" who="cdl">lemma, text edited, translations, commentary</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76909/3/igcyr019800-1-view.tiff.jpg" corresp="igcyr019800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76909">View of igcyr019800 Dedication to Aphrodite, Cyrene and Curete</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76910/3/igcyr019800-2-squeeze-a.tiff.jpg" corresp="igcyr019800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/76910">Squeeze of igcyr019800-a Dedication to Aphrodite, (Cyrene and Curete)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76911/3/igcyr019800-3-squeeze-b.tiff.jpg" corresp="igcyr019800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/76911">Squeeze of igcyr019800-b Dedication to (Aphrodite), Cyrene and Curete</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ferri1923"/>, n. <citedRange>8e</citedRange></bibl>;
+                    <bibl><ptr target="#oliverioDAI1"/>, pp. 165-166, n. <citedRange>44-45</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.110</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>019800</citedRange></bibl>. 
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="section" n="a">
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Aphrodite"><name nymRef="#Ἀφροδίτα">Ἀφροδίτας</name></persName>
+                </ab>
+                    </div>
+                    <div type="textpart" subtype="section" n="b">
+	           <ab>
+	               <lb n="1"/><persName type="divine" ref="#Kyrana"><name nymRef="#Κυράνα"><expan><abbr>Κυράν</abbr><ex>ας</ex></expan></name></persName>, τῶ 
+	               <persName type="divine" ref="#Curete"><name nymRef="#Κωρής">Κωρῆτος</name></persName>.
+	           </ab>
+            </div></div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <div type="textpart" subtype="section" n="a">
+                <p><supplied reason="subaudible">Autel d'</supplied>Aphrodite.</p>
+                </div>
+                <div type="textpart" subtype="section" n="b">
+                <p><supplied reason="subaudible">Autel de</supplied> Cyrène, du Kourète.</p>
+                </div>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <div type="textpart" subtype="section" n="a">
+                <p><supplied reason="subaudible">Altar of</supplied> Aphrodite.</p>
+                </div>
+                <div type="textpart" subtype="section" n="b">
+                <p><supplied reason="subaudible">Altar of</supplied> Cyrene, of the Curete.</p>
+                </div>
+             <div type="translation" xml:lang="it" xml:space="preserve">
+                <div type="textpart" subtype="section" n="a">
+                <p><supplied reason="subaudible">Altare di</supplied> Afrodite.</p>
+                </div>
+                <div type="textpart" subtype="section" n="b">
+                <p><supplied reason="subaudible">Altare di</supplied> Cirene, del Curete.</p>
+                </div>
+                </div>
+         </div><div type="commentary">
+                
+                <p>The left compartment was intended only for Aphrodite, whereas the right one was used both for Cyrene and for the Curete.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

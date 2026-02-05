@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Perhaps <rs type="textType" cert="low">list of ephebes</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr094600</idno>
+                <idno type="number" subtype="second-edition">094600</idno>
+                <idno type="TM">738454</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr094600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr094600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr094600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository ref="https://www.slsgazetteer.org/933">Cyrene Museum</repository> <idno type="invNo">309</idno></msIdentifier>                 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three fragments pasted together of a white <material>marble</material> <objectType>panel</objectType> broken all around and probably recut at back
+                                        (<dimensions>
+                                            <width>0.17</width>
+                                            <height>0.155</height>
+                                            <depth min="0.015" max="0.03">0.015 at left to 0.03 at right</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.01" max="0.013">0.01 to 0.013</height>; varying intervals following number of letters in one name; well marked serifs; pi with wide upper bar, rho with small loop,
+                            sigma with parallel outer bars.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0120" notAfter="-0081" precision="medium">End of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1938">
+                                    <p>Found before 1938 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="1977" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1977 in the same museum.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-26" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2017-03-16" who="CDL">translations</change>
+            <change when="2013-10-06" who="cdl">lemma, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-23" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+</revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77276/3/igcyr094600-face.tiff.jpg" corresp="igcyr094600" decls="#photograph"><desc resp="Hassuna, H." source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77276">Face of igcyr094600 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>15</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>094600</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2016"/>, p. <citedRange>253</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>75</citedRange></bibl>. 
+                  </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key=""><name type="patronymic" nymRef="#Πρᾶτις">Πράτ<unclear>ι</unclear><supplied reason="lost">ος</supplied></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#_ς"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ς</seg></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62806"><name type="patronymic" nymRef="#Ἀμμώνιος">Ἀμμω<supplied reason="lost">νίω</supplied></name></persName></persName>         
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#_ν"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ν</seg></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66189"><name type="patronymic" nymRef="#Ὠρίων">Ὠρίω<supplied reason="lost">νος</supplied></name></persName></persName>
+                    <lb n="4"/><persName type="attested" key=""><name nymRef="#_ν"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ν</seg></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66189"><name type="patronymic" nymRef="#Ὠρίων">Ὠρίω<supplied reason="lost">νος</supplied></name></persName></persName>                    
+                    <lb n="5"/><persName type="attested" key=""><name nymRef="#_ος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ος</seg></name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65532"><name type="patronymic" nymRef="#Πτολεμαῖος">Πτολ<supplied reason="lost">εμαίω</supplied></name></persName></persName>
+                    <lb n="6"/><persName type="attested" key=""><name nymRef="#_ος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ος</seg></name> 
+                        <persName type="attested" key=""><name type="patronymic" nymRef="#Θεύχρηστος">Θευ<unclear>χ</unclear><supplied reason="lost">ήστω</supplied></name></persName></persName>
+                    <lb n="7"/><persName type="attested" key=""><name nymRef="#_ν"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ν</seg></name> 
+                        <persName type="attested" key=""><name nymRef="#Θευ_" type="patronymic"><seg part="I">Θε<unclear>υ</unclear><gap reason="lost" extent="unknown" unit="character"/></seg></name></persName></persName>
+                    <lb n="8"/><persName type="attested" key=""><name nymRef="#_ος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>ο</unclear>ς</seg></name> 
+                        <persName type="attested" key=""><name nymRef="#Πο_" type="patronymic"><seg part="I">Π<unclear>ο</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    <lb n="8a"/><gap reason="lost" quantity="1" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem>Πράτ<unclear>ι</unclear><supplied reason="lost">ος</supplied></lem>
+                        <rdg resp="#SECir">Πρα<unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="5">
+                        <lem>Πτολ<supplied reason="lost">εμαίω</supplied></lem>
+                        <rdg resp="#SECir">Πτολ<unclear>ε</unclear><supplied reason="lost">μαίω</supplied></rdg>
+                    </app>
+                    <app loc="6">
+                        <lem>Θευ<unclear>χ</unclear><supplied reason="lost">ήστω</supplied></lem>
+                        <rdg resp="#SECir">Θευ<unclear>δ</unclear><supplied reason="lost">ώρω</supplied></rdg>
+                    </app>
+                    <app loc="8">
+                        <lem><unclear>ο</unclear>ς Π<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir">ν Π<gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">Un tel</supplied> fils de Pratis, <gap reason="lost" extent="unknown" unit="character"/>s fils d'Ammônios, <gap reason="lost" extent="unknown" unit="character"/>n fils d'Oriôn, 
+                (5) <gap reason="lost" extent="unknown" unit="character"/>n fils d'Oriôn, <gap reason="lost" extent="unknown" unit="character"/>os fils de Ptolémaios, <gap reason="lost" extent="unknown" unit="character"/>os fils de Theukhrestos, <gap reason="lost" extent="unknown" unit="character"/>n 
+                <supplied reason="lost">fils d'Untel</supplied>, <gap reason="lost" extent="unknown" unit="character"/>os fils de Po<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">So-and-so</supplied> son of Pratis, <gap reason="lost" extent="unknown" unit="character"/>s son of Ammonios, <gap reason="lost" extent="unknown" unit="character"/>n son of Orion, 
+                (5) <gap reason="lost" extent="unknown" unit="character"/>n son of Orion, <gap reason="lost" extent="unknown" unit="character"/>os son of Ptolemaios, <gap reason="lost" extent="unknown" unit="character"/>os son of Theuchrestos, <gap reason="lost" extent="unknown" unit="character"/>n 
+                <supplied reason="lost">son of So-and-so</supplied>, <gap reason="lost" extent="unknown" unit="character"/>os son of Po<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">il tale</supplied> figlio di Pratis, <gap reason="lost" extent="unknown" unit="character"/>s figlio di Ammonios, <gap reason="lost" extent="unknown" unit="character"/>n figlio di Orion, 
+                (5) <gap reason="lost" extent="unknown" unit="character"/>n figlio di, <gap reason="lost" extent="unknown" unit="character"/>os figlio di Ptolemaios, <gap reason="lost" extent="unknown" unit="character"/>os figlio di Theuchrestos, <gap reason="lost" extent="unknown" unit="character"/>n 
+                <supplied reason="lost">figlio del tale</supplied>, <gap reason="lost" extent="unknown" unit="character"/>os figlio di Po<gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>In this list of names (of which only the end survives) each followed by the father's name (of which only the beginning survives), 
+                the first letters of all father's names are carefully aligned, so that they are visualized as two columns. Given the surviving width, is is very plausible that 
+                another similar list was cut besides, either to the left or to the right, forming two columns on the stone with the same layout as at <ref type="inscription" source="#IGCyr2">IGCyr015200</ref>.</p>
+                <p>This list is very much alike <ref type="inscription" source="#IGCyr2">IGCyr103800</ref>, the support of which is thicker. As the present stone seems to have been recut,
+                it is impossible to push the hypothesis forward. At least, both inscriptions seem to come from the same workshop.</p>
+         	      <p>Pugliese Carratelli, who published this stone from Oliverio's papers, thought that <ref type="inscription" source="#IGCyr2">IGCyr094700</ref> might belong to the same 
+    	       stone. C. Dobias-Lalou does not agree and thinks that the scripts are different and the latter inscription earlier.</p>
+	<p>This list might belong to the group of dedications by ephebes, as cautiously suggested by <bibl><ptr target="#cdl2016a"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

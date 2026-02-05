@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of Hermaios son of Agonis</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr081500</idno>
+                <idno type="number" subtype="second-edition">081500</idno>
+                <idno type="TM">738385</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr081500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr081500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr081500</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">3504</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small <objectType>stele</objectType> of local <material>limestone</material>, reddish from earth, broken off at all four angles (<dimensions>
+                                            <width>0.265</width>
+                                            <height atLeast="0.38">0.38</height>
+                                            <depth>0.006</depth>
+                                        </dimensions>); below, there are some traces of a circular feature, probably a wreath or rosette; the back is not very regularly cut.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in three lines, the end of line 2 leaning toward bottom.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> average <height>0.01</height>, irregularly but rather carefully cut; alpha with low bar, epsilon with three equal bars, 
+                                (h)eta with both values, slanting mu, nu and sigma, the latter very tall, rho with nearly no tail, + as chi.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0450" notAfter="-0401" precision="medium" cert="low">Probably second half of fifth century BC</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" notAfter="1991">
+                            <p>Found before 1991 at Shtail, in the vicinity of 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1618" key="http://pleiades.stoa.org/places/373864/">Qasr Libya</placeName>; 
+                                possibly from <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1930" key="http://pleiades.stoa.org/places/373833">Kainopolis</placeName>.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1997" when-iso="2001" resp="CDL">
+                            <p> Seen by C. Dobias-Lalou in 1997 and again in 2001 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/83984" key="Qaşr al ‘Uqlah">Qaşr al ‘Uqlah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-06-30" who="CDL">emended commentary and lemma</change>
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-06" who="Alice">checked</change>
+            <change when="2016-06-07" who="HellasLabUnibo">checked and in case corrected</change>
+            <change when="2015-03-30" who="CDL">file created; lemma, bibliography, text, apparatus, translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77849/3/igcyr081500-1.jpeg.jpg" corresp="igcyr081500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77849">Face of igcyr081500 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77850/3/igcyr081500-2.jpeg.jpg" corresp="igcyr081500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77850">Drawing of igcyr081500 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#cdl2015a"/>, pp. <citedRange>77-80</citedRange> and fig. 10</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>65.2017</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>081500</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#mohamed-jmr1992"/>, p. <citedRange>115</citedRange> (quick mention)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>42.1661</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name nymRef="#Ἑρμαῖος">Ηερμαίō</name> τō <persName type="attested"><name nymRef="#Ἄγωνις">Ἀγό̄νιιο<supplied reason="lost">ς</supplied></name></persName></persName>
+                        <lb n="2"/><w lemma="ὅδε">τόδε</w> <w lemma="σαμῆιον">σαμ<surplus>ει</surplus>ε͂ιον</w> <w lemma="ἁλιεύς">ἁλιῆο<unclear>ς</unclear></w>
+                        <lb n="3"/><persName type="attested"><name nymRef="#Χαίρων">Χαίρōν</name></persName>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem>Ἀγό̄νιιο<supplied reason="lost">ς</supplied></lem>
+                    <rdg resp="#SEG"><note>mentioned as Ἄγώνιππος</note></rdg>
+                    <rdg resp="#mohamed-jmr1992"><note>mentioned as Agonippos</note></rdg></app></p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>La tombe que voici est celle d'Hermaios fils d'Agônis, pêcheur, <supplied reason="subaudible">édifiée par</supplied> Khairôn.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>This is the tomb of Hermaios son of Agonis, a fischerman, <supplied reason="subaudible">built by</supplied> Chairon.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Questa è la tomba di Hermaios figlio di Agonis, pescatore, <supplied reason="subaudible">eretta da</supplied> Chairon.</p>
+            </div><div type="commentary">
+                
+                <p>The spellings <foreign xml:lang="grc">Ηερμαίō</foreign> on one side, <foreign xml:lang="grc">ἀλιῆος</foreign> and <foreign xml:lang="grc">σαμε͂ιον</foreign> (once the erroneous duplication corrected) show a confused use of E and H,
+                    probably belonging to a time when the new value of eta was progressively coming into use. In fact, as psilosis happened early in Cyrenaican, the letter as spiritus asper was plausibly 
+                dropped earlier in the vocabulary than in a personal name; but its use in the new value of <foreign xml:lang="italic">e</foreign> cannot be assigned to a date 
+                earlier than the middle of the fifth century. Conversely, omicron is still used here for all qualities of the vowel <foreign xml:lang="italic">o</foreign>.</p>
+                <p>As noted by Mohamed and Reynolds, the provenance of the stone was a surprise, for Qasr Libya is mainly known for its Byzantine churches and no inscription 
+                was known up to now from that countryside. Dobias-Lalou supposes that the dead Hermaios, being a fisherman, lived probably in a place somewhat nearer to the see 
+                than Qasr Libya, perhaps in the <foreign rend="italic">kome</foreign> of Kainopolis (see <bibl><ptr target="#laronde1983a"/></bibl>). Anyway, both places belonged at the time to the territory of Barce.</p>
+                <p>Although several metrical segments are perceivable, we decided eventually not to include this item into the verse-inscriptions corpus. See for instance 
+                <foreign xml:lang="grc">Ἑρμαίω τῶ Ἀγώνιος</foreign>, which might be spelled as three dactyls if it was not followed by a consonant, and <foreign xml:lang="grc">-ος τόδε σαμεῖον</foreign>, which might be spelled as the second hemistich of a hexameter after a hephthemimer caesura. 
+                    Another fact that provides a poetic touch to this inscription is the mention of Hermaios' occupation, a fact that usually does not occur in prose epitaphs.</p>
+            </div></body>
+    </text>
+</TEI>

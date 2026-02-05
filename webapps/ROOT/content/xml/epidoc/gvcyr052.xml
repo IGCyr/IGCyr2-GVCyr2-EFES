@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Asklepios (and others?)</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr052</idno>
+                <idno type="number" subtype="second-edition">052</idno>
+                <idno type="TM">738941</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr052</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr052</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr052</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Apollonia Museum, Storeroom of the French Mission</repository> <idno type="invNo">not registered</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p> Two non-adjacent fragments of a white <material>marble</material> <objectType>panel</objectType>: 
+                                        fragm. a, broken off at top, at right and below (<dimensions>
+                                            <width atLeast="0.21">0.21</width>
+                                            <height atLeast="0.24">0.24</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>); fragm. b,  broken off at top, at left and below (<dimensions>
+                                            <width atLeast="0.045">0.045</width>
+                                            <height atLeast="0.16">0.16</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>); the back of fragm. a is regularly smoothened but for a vertical strip of <dim type="width">0.045</dim> about the supposed middle of the panel,
+                                        which is protruding, as if intended for attachment.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face (fragm. a <dimensions><width>0.165</width> <height>0.20</height></dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.008</height>; carefully cut with small serifs; broken-bar alpha, beta with loops that are not perfectly circular and 
+                            look like a variation from kappa, oval omicron, pi with shorter right hasta, rho with very small loop, widely open upsilon, 
+                            theta and omega smaller than omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Probably findspot of fragment b.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0250" notAfter="-0201" precision="medium" cert="low">Probably second half of third century BC</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1998" when-iso="2003">
+                            <p>Found by the French mission at the
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>: 
+                                fragment a in 1998 as a surface find and fragment b in 2003 in excavations,
+                                below the so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1400">Kallikrateia Rock</rs>.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="2004" when-iso="2010" resp="CDL">
+                            <p> Observed by C. Dobias-Lalou in 2004 and again in 2011 at <placeName type="modernSpot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1486">Apollonia Museum, Storeroom of the French Mission</rs></p>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-02-05" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-18" who="Alice">It. translation; checked</change>
+            <change when="2017-03-08" who="CDL">overall check</change>
+            <change when="2016-11-05" who="CDL">commentary, Fr. and Engl. tranlsations, tagged metric and w+lemma</change>
+            <change when="2016-10-28" who="CDL">support, text, apparatus</change>
+            <change when="2016-10-26">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76647/3/gvcyr052-1-face.tiff.jpg" corresp="gvcyr052" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76647">Face of gvcyr052 Dedication to Asklepios</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76648/3/gvcyr052-2-squeeze.tiff.jpg" corresp="gvcyr052" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76648">Squeeze of gvcyr052 Dedication to Asklepios</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#cdl2012a"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>62.1789</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>052</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <div type="textpart" subtype="fragment" n="a">
+                        <lg met="dactylic">
+                            <l n="1">
+                                <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
+                                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><seg real="-|+±"><w lemma="βαρύς">βαρεια</w></seg><gap reason="lost" quantity="2" unit="character"/><orig>αιε</orig><gap reason="lost" extent="unknown" unit="character"/></l> 
+                            <l n="2">
+                                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><seg real="-|+--|+-"><w part="F">τος</w> <w lemma="κλάζω">ἔκλαγεν</w>· οἱ δ<supplied reason="lost">ὲ</supplied></seg> <gap reason="lost" extent="unknown" unit="character"/></l>
+                            <l n="3">
+                                <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><seg real="-|+--|+--"><placeName type="ethnic" nymRef="#Λίβυς">Λίβυν</placeName> <w lemma="διά">διὰ</w> <w lemma="πόντος">πόντον</w> <orig>ε</orig></seg> <gap reason="lost" extent="unknown" unit="character"/></l> 
+                            <l n="4">
+                                <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><seg real="-|+--|+--"><w lemma="ξένος">ξένοι</w> δέ <w lemma="τις">τινες</w> <w part="I">πολυ</w></seg><gap reason="lost" extent="unknown" unit="character"/></l> 
+                            <l n="5" met="hexameter">
+                                <lb n="5"/><seg met="+--|+"><gap reason="lost" extent="unknown" unit="character"/></seg> <seg real="+|+--|+--|+--|++"><w lemma="δίς">δίς</w> <w lemma="σύ">σοι</w> <w lemma="θέλω">θ<supplied reason="lost">έ</supplied>λον</w> <w lemma="ἐν">ἐμ</w> 
+                                <w lemma="πολυΐχθυς">πολυΐ<supplied reason="lost">χθυϊ</supplied></w> <w lemma="πόντος"><supplied reason="lost">πόντωι</supplied></w></seg></l>
+                            <l n="6" met="hexameter">
+                                <lb n="6"/><seg real="++|++|+±"><w lemma="κέλλω"><unclear>κ</unclear>έλσαι</w> <w lemma="ποτί">π<supplied reason="lost">ο</supplied>θ</w> <w lemma="θεός">θεοὺς</w> <w lemma="ὅσσος">ὅσ<supplied reason="lost" cert="low">σοι</supplied></w></seg> <seg met="+--|+--|+±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                            <l n="7" met="hexameter">
+                                <lb n="7"/><seg met="+--|+--|+"><gap reason="lost" extent="unknown" unit="character"/></seg> <seg real="+|+--|+--|++">ὦ <w lemma="δαίμων">δαῖμον</w>, <w lemma="ὅς1" type="relative">ὃν</w> ἢ <w lemma="κατά">κατὰ</w> <w lemma="γαῖα">γαῖα<unclear>ν</unclear></w></seg></l> 
+                            <l n="8" met="hexameter">
+                                <supplied reason="lost">ἢ</supplied> <w lemma="κατά"><supplied reason="lost">κατὰ</supplied></w> <w lemma="πόντος"><supplied reason="lost">πόντον</supplied></w> 
+                                <w lemma="τίκτω"><supplied reason="lost">ἔτικτε</supplied></w>
+                                <lb n="8"/><persName type="divine" ref="#Koronis"><name nymRef="#Κορωνίς"><supplied reason="lost">Κ</supplied>ορωνὶς</name></persName> <w lemma="ἐπαρκής">ἐπαρκέα</w> <w lemma="θνητός">θνητοῖ<unclear>ς</unclear></w></l> 
+                            <l n="9"> 
+                                <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <seg real="+--|+--|+"><w lemma="οὗτος">τοῦτο</w> γ' <w lemma="ἐπί">ἐ<subst><del rend="corrected">ι</del><add place="overstrike">φ'</add></subst></w> 
+                                    <w lemma="ἵππος"><subst><del>π</del><add place="overstrike">ἵ</add></subst>π<del rend="corrected">νε</del><add place="overstrike">πο</add>ν</w> <w lemma="ἐμός">ἐμὴ<supplied reason="lost">ν</supplied></w></seg><gap reason="lost" extent="unknown" unit="character"/></l> 
+                            <l n="10">
+                                <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><seg real="+--|+--|++"><choice><unclear>χ</unclear><unclear>θ</unclear></choice>αι <w lemma="δέμας">δέμας</w>, ὦ <w lemma="ἄναξ">ἄνα</w>, 
+                                    <w lemma="κεῖνος">κεῖναι</w></seg> <gap reason="lost" extent="unknown" unit="character"/></l>
+                            <l n="11">
+                                <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ταο</w> καὶ <w lemma="τίσις">τίσιν</w> <w lemma="τήκω">τήκω<unclear>ν</unclear></w> <gap reason="lost" extent="unknown" unit="character"/></l>
+                            <l n="12">
+                                <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <seg real="+--|++"><w lemma="σύμπλοος"><supplied reason="lost">σ</supplied>ύμπλοος</w> <w lemma="ἥκω">ἥξε<supplied reason="lost">ις</supplied></w></seg> <gap reason="lost" extent="unknown" unit="character"/></l>
+                            <l n="13">
+                                <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <seg real="--|++|++"><w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθ</supplied>ηκαν</w> 
+                                    <w part="I" lemma="κίνδυνος">κι<supplied reason="lost" cert="low">νδυν</supplied></w></seg><gap reason="lost" extent="unknown" unit="character"/></l> 
+                            <l n="14">
+                                <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><orig>υπ</orig><gap reason="lost" extent="unknown" unit="character"/></l> 
+                            <l n="14a">
+                                <lb n="14 a"/><gap reason="lost" extent="unknown" unit="line"/></l></lg>
+                    
+                    </div> 
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="0"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig> 
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>κι</orig> 
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">πι</w> <space quantity="1" unit="character"/> 
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιρε</orig>	
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig> 
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>ωνα</orig> 
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><placeName type="country" nymRef="#Ἑλλάς" key="Hellas"><supplied reason="lost" cert="low">Ἑλλά</supplied>δος</placeName>                    
+                        <lb n="7a"/><space extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="a.5"><lem resp="#cdl2012a">δίς σοι</lem>
+                        <rdg>δίσσοι <note>also possible</note></rdg>
+                    </app>
+                    <app loc="a.5"><lem>πολυΐ<supplied reason="lost">χθυϊ πόντωι</supplied></lem>
+                        <rdg><note>or</note> πολυΐ<supplied reason="lost">χθυϊ κύματι</supplied></rdg>
+                        <rdg resp="#cdl2012a">πολυ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.8"><lem><supplied reason="lost">Κ</supplied>ορωνὶς</lem>
+                    <rdg resp="#cdl2012a"><supplied reason="lost">Κο</supplied>ρωνὶς</rdg>
+                    </app>
+                    <app loc="a.9"><lem>γ' ἐ<subst><del rend="corrected">ιπ</del><add place="overstrike">φ' ἵ</add></subst>π<del rend="corrected">νε</del>
+                            <add place="overstrike">πο</add>ν ἐμὴ<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#cdl2012a"><orig>γεπιπμονεμη</orig></rdg>
+                    </app>
+                    <app loc="a.11"><lem>τήκω<unclear>ν</unclear></lem>
+                    <rdg resp="#cdl2012a">τήκω<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="13"><lem><supplied reason="lost">ἀνέθ</supplied>ηκαν κι</lem>
+                    <rdg resp="#cdl2012a"><gap reason="lost" extent="unknown" unit="character"/><orig>ηκλωκι</orig></rdg>
+                    </app>
+                    <app loc="13"><lem>κι<supplied reason="lost" cert="low">νδυν</supplied><gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#cdl2012a">κι<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="b.7"><lem><supplied reason="lost" cert="low">Ἑλλά</supplied>δος</lem>
+                    <rdg resp="#cdl2012a"><gap reason="lost" extent="unknown" unit="character"/>δος</rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>a) <gap reason="lost" extent="unknown" unit="character"/> pesante <gap reason="lost" extent="unknown" unit="character"/> a grondé; et les <gap reason="lost" extent="unknown" unit="character"/> à travers la mer de Libye <gap reason="lost" extent="unknown" unit="character"/>; et des étrangers 
+                    aux nombreux <gap reason="lost" extent="unknown" unit="character"/> deux fois ils ont voulu te <gap reason="lost" extent="unknown" unit="character"/> dans la <supplied reason="lost">mer</supplied> peuplée de <supplied reason="lost">poissons</supplied> <gap reason="lost" extent="unknown" unit="character"/> aborder chez les dieux qui <gap reason="lost" extent="unknown" unit="character"/>; dieu, que Korônis enfanta secourable aux mortels sur terre et 
+                    sur mer, <gap reason="lost" extent="unknown" unit="character"/>, quant à cela, sur ma cavale, <gap reason="lost" extent="unknown" unit="character"/>; elles <supplied reason="subaudible">sont</supplied> <gap reason="lost" extent="unknown" unit="character"/> de stature, seigneur, celles-là;
+                     <gap reason="lost" extent="unknown" unit="character"/> et dissolvant le châtiment <gap reason="lost" extent="unknown" unit="character"/> tu viendras en auxiliaire de notre traversée <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">
+                     ont dé</supplied>dié <gap reason="lost" extent="unknown" unit="character"/> aux dangers <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>b) <gap reason="lost" extent="unknown" unit="character"/> de la Grèce <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><gap reason="lost" extent="unknown" unit="character"/> heavy <gap reason="lost" extent="unknown" unit="character"/> roared; and the <gap reason="lost" extent="unknown" unit="character"/> through the Libyan sea <gap reason="lost" extent="unknown" unit="character"/>; and foreigners with many 
+                    <gap reason="lost" extent="unknown" unit="character"/> twice they wanted to you <gap reason="lost" extent="unknown" unit="character"/> in the <supplied reason="lost">sea</supplied> with many <supplied reason="lost">fishes</supplied> 
+                    <gap reason="lost" extent="unknown" unit="character"/> to land at the gods' place who <gap reason="lost" extent="unknown" unit="character"/>; oh god, whom Koronis brought forth helpful for the mortals on land and sea, 
+                    <gap reason="lost" extent="unknown" unit="character"/>, as to this, upon my mare, <gap reason="lost" extent="unknown" unit="character"/>; they <supplied reason="subaudible">are</supplied> <gap reason="lost" extent="unknown" unit="character"/> in stature, lord, those; 
+                    <gap reason="lost" extent="unknown" unit="character"/> and dissolving the retribution <gap reason="lost" extent="unknown" unit="character"/> you will come as auxiliary of our sailing <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">dedi</supplied>cated 
+                    <gap reason="lost" extent="unknown" unit="character"/> the dangers <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>b) <gap reason="lost" extent="unknown" unit="character"/> of Greece <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>a)<gap reason="lost" extent="unknown" unit="character"/> pesante <gap reason="lost" extent="unknown" unit="character"/> mugghiò; e i <gap reason="lost" extent="unknown" unit="character"/> attraverso il mare della Libia <gap reason="lost" extent="unknown" unit="character"/>; e stranieri con molti 
+                    <gap reason="lost" extent="unknown" unit="character"/> due volte vollero per te <gap reason="lost" extent="unknown" unit="character"/> nel <supplied reason="lost">mare</supplied> dai molti <supplied reason="lost">pesci</supplied> 
+                    <gap reason="lost" extent="unknown" unit="character"/> per approdare presso gli dèi che <gap reason="lost" extent="unknown" unit="character"/>; dio, soccorso per i mortali sulla terra e per mare, che Koronis generò, <gap reason="lost" extent="unknown" unit="character"/>, 
+                    quanto a questo, sulla mia cavalla, <gap reason="lost" extent="unknown" unit="character"/>; <supplied reason="subaudible">sono</supplied> <gap reason="lost" extent="unknown" unit="character"/> per statura, o signore, quelle; 
+                    <gap reason="lost" extent="unknown" unit="character"/> e sciogliendo la pena <gap reason="lost" extent="unknown" unit="character"/> tu verrai in aiuto alla nostra navigazione <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">hanno dedi</supplied>cato 
+                    <gap reason="lost" extent="unknown" unit="character"/> i pericoli <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>b) <gap reason="lost" extent="unknown" unit="character"/> dell'Ellade <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>If the vertical strip at the back was intended for fixing the stone, it can be guessed from its plausible shape that the whole panel was about <dimensions><width>0.31</width></dimensions> 
+                    wide and thus that at least one half of each line is lost. The rhythm is clearly dactylic, but no text line on fragment a may be the beginning of a verse line. Such a layout does 
+                    not help to restore the lost parts.</p>
+                <p>At line 1, the adjective 'heavy' may be at any feminine case, so we leave it open.</p>
+                <p>At lines 7-8, with restorations that seem cautious enough, the son of the nymph Koronis, i.e. Asklepios, is mentioned as a saviour of humans on earth and sea. 
+                The latter role is surprising and may be related to the fact that the poem was exposed in the harbour of the city. In fact, dangers related to sailing are stressed in the 
+                preceding verses, with the mention of the Libyan sea, of the loudly roaring sea, of foreigners and of someone landing.</p>
+                <p>Both fragments were found at both ends of an area where multiple saviour gods were worshipped. The Western end, on and below Kallikrateia's rock is better known thanks to 
+                    excavations made there, while no excavations took place on the acropolis. Between those points, a lot of rock-cut altars testify of cultic activities. This might explain the phrase 'landing at the gods' place'.</p>
+                <p>At l. 11, the letters are easily read, but their interpretation offers some difficulties. An ending <foreign xml:lang="grc">-ταο</foreign>  occurs in epic language for 
+                the genitive of masculine nouns of the 1st declination. In <foreign xml:lang="grc">τισιν</foreign>, the first syllable should be metrically long. The dative 
+                plural of the indefinite pronoun being excluded, the accusative of the noun <foreign xml:lang="grc">τίσις</foreign> is more acceptable, the original short syllable 
+                being taken as long, either through a metrical lengthening and/or by confusion with <foreign xml:lang="grc">τίνω</foreign>, which has a long both in epic language
+                and in the dialect. Even if so, the exact meaning of the phrase <foreign xml:lang="grc">τίσιν τήκων</foreign> is rather odd.</p>
+                <p>At l. 12, the god is called for help also by boarding people who implored his help for sailing. This recalls the dedication to Apollo Soter in 
+                <ref type="inscription" source="#IGCyr2">IGCyr064100</ref> by <foreign rend="italic">thearoi</foreign> travelling to Delphi, which was also found in the Port of Cyrene. Here one 
+                    traveller seems bound to take part into games with a horse (l. 9) but the dedicants of the ex-voto are multiple (l. 14).</p>
+                <p>Metrical analysis: many short dactylic segments are preserved and lines 7-8 have a full hexameter preceded by a segment that cannot belong to a pentameter. 
+                    The whole poem was thus probably made of hexameters only. At line 6 it is necessary to take <foreign xml:lang="grc">θεούς</foreign> as one syllable, 
+                a synizesis that is not uncommon in epic poetry and later.</p>
+            </div></body>
+    </text>
+</TEI>

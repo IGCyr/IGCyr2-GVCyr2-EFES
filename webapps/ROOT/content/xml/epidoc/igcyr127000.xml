@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr127000</idno>
+                <idno type="number" subtype="second-edition">127000</idno>
+                <idno type="TM">738817</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr127000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr127000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr127000</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">202 (fragm. a) + 206 (fragm. b)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two non adjacent fragments of a white <material>marble</material> <objectType>block</objectType>: fragment a broken on 
+                                        all sides   
+                                        (<dimensions>
+                                            <width atLeast="0.02">0.02</width>
+                                            <height atLeast="0.065">0.065</height>
+                                            <depth atLeast="0.065">0.065</depth>
+                                        </dimensions>); fragment b broken on all sides but the left edge
+                                        (<dimensions>
+                                            <width atLeast="0.095">0.095</width>
+                                            <height atLeast="0.14">0.14</height>
+                                            <depth atLeast="0.037">0.037</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face (fragment a high 0.055; fragment b wide 0.10).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>, no serifs; slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" precision="medium" cert="low">Perhaps third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1979">
+                                    <p>Found before 1979 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-01" who="Alice">checked</change>
+            <change when="2017-02-11" who="CDL">overall check</change>
+            <change when="2016-02-29" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77659/3/igcyr127000-squeezes.tiff.jpg" corresp="igcyr127000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77659">Squeezes of igcyr127000 Names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>127000</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>οι</orig> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <orig>υ</orig> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <orig>α</orig> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+	               </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><persName type="attested" key=""><name nymRef="#Τέλων">Τέλ<unclear>ω</unclear><supplied reason="lost">ν</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><persName type="attested" key=""><name nymRef="#Καλλισθένης">Καλλισ<unclear>θ</unclear><supplied reason="lost">ένης</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><persName type="attested" key=""><name nymRef="#_σαρχος"><gap reason="lost" quantity="3" unit="character"/><seg part="F">σαρχ<unclear>ο</unclear><supplied reason="lost">ς</supplied></seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><persName type="attested" key=""><name nymRef="#_κράτης"><gap reason="lost" quantity="3" unit="character"/><seg part="F"><supplied reason="lost">κρ</supplied><unclear>ά</unclear>της</seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><persName type="attested" key=""><name nymRef="#_δας"><gap reason="lost" quantity="6" unit="character" precision="low"/><seg part="F">δ<unclear>α</unclear><supplied reason="lost">ς</supplied></seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+	               </ab>
+                 </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>a) Intraduisible.</p>
+            <p>b) Télôn <gap reason="lost" extent="unknown" unit="character"/>, Kallisthénès <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>sarkhos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>kratès
+                <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>das <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>a) Not usefully translatable.</p>
+            <p>b) Telon <gap reason="lost" extent="unknown" unit="character"/>, Kallisthenes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>sarchos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>krates
+                <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>das <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>a) Intraducibile.</p>
+            <p>b) Telon <gap reason="lost" extent="unknown" unit="character"/>, Kallisthenes <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>sarchos <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>krates
+                <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/>das <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمة بشكل جيد</p>
+         </div><div type="commentary">
+                
+               <p>Fragment a seems to belong to the same inscription, but its reading is desperate. Fragment b, keeping part of the left edge, allows different observations.
+               The lines began with personal names, amongst which one at line 4 was at the nominative. We choose to restore each of them at the same case, assuming that they 
+               were followed by fathers' names, which are wholly lost, at each line. However, if the face was originally straight, there was also the possibility that lines 1, 
+               3 and 5 had the individual names at the nominative and lines 2, 4 the fathers' names at the genitive. Along the break there are faint traces of letters, helping 
+               to decide that the name at line 1 was <foreign xml:lang="grc">Τέλων</foreign> rather than a name in <foreign xml:lang="grc">Τελεσ-</foreign> and that at line 2 
+                   we have the compound <foreign xml:lang="grc">Καλλισθένης</foreign> rather than a short name <foreign xml:lang="grc">Κάλλις</foreign>.</p>
+	           <p>At line 3, the space available would allow to restore one of two very common names, either <foreign xml:lang="grc">Ἁγήσαρχος</foreign> or <foreign xml:lang="grc">
+	               Μνάσαρχος</foreign>. The question should remain open.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -56,12 +56,9 @@
                 <xsl:text> Search lemmatised text</xsl:text>
               </label>
             </xsl:if>
-            
-            <label>
-              <p>
-                <a href="#" onclick="toggle_visibility('keyboard_box');">Greek keyboard</a> <xsl:text> | </xsl:text> <!-- comment this line out if you do not want the Greek keyboard -->
+            <label id="search_options">
+              <a href="#" onclick="toggle_visibility('keyboard_box');">Greek keyboard</a> <xsl:text> | </xsl:text> <!-- comment this line out if you do not want the Greek keyboard -->
               <a href="{kiln:url-for-match('local-search', ($language), 0)}"><xsl:text>Reset search</xsl:text></a>
-              </p>
             </label>
             
             <!-- comment the following div out if you do not want to display the Greek keyboard -->
@@ -180,9 +177,8 @@
                 <li class="delete">⇐</li>
               </ul>
             </div>
-            
-            <h4>Date <span id="date-slider-label"></span></h4>
-            <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-200" data-value-max="1400" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
+            <h3>Date <span id="date-slider-label"></span></h3>
+            <div id="date-slider-widget" data-range-min="-700" data-range-max="700" data-value-min="-700" data-value-max="700" data-step="25" data-label-prefix="" data-label-suffix="BC/AD" data-field-name="origin_date" />
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of the Propylaeum</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr098200</idno>
+                <idno type="number" subtype="second-edition">098200</idno>
+                <idno type="TM">738499</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr098200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr098200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr098200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository><idno type="invNo">342+359</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent white marble <objectType>panel</objectType>s recomposed from numerous fragments, the left one (a) nearly complete,
+                                    (<dimensions>
+                                            <width>0.705</width>
+                                            <height>0.30</height>
+                                            <depth>0.065</depth>
+                                        </dimensions>); the right one (b) having lost about one half at right 
+                                         (width 0.34).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.10</height>; xi with vertical central stroke, slanting sigma, calice-shaped upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="prosopography" notBefore="-0325" notAfter="-0290" precision="low">Between ca. 325 BC (Laronde) and ca. 290 BC (Rosamilia).</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1932" resp="Oliverio">
+                                    <p>Found by G. Oliverio in 1932 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, 
+                                       <rs type="monuList" ref="https://www.slsgazetteer.org/1350">Greek Propylaeum</rs>.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" when="1960" resp="gpc">
+                            <p>Seen by Pugliese Carratelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>        
+                        <provenance type="observed" when="1976" resp="cdl">
+                                    <p>Stones seen by C. Dobias-Lalou in 1976 in the Museum. A cast has been placed in the South architrave of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1350">Greek Propylaeum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-22" who="CDL">change in bibliography</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-13" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-21" who="CDL">overall check; complements to bibliography and commentary; added Ital. translation</change>
+            <change when="2013-11-03" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+         </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77330/3/igcyr098200-face.tiff.jpg" corresp="igcyr098200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77330">Face of igcyr098200 Dedication of the Propylaeum</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>129</citedRange></bibl>, and 
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>106-107, 118, 190-191</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1893</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>098200</citedRange></bibl>.
+                    Cf. Ensoli in <bibl><ptr target="#bonacasa-ensoli2000"/>, p. <citedRange>128</citedRange>
+                    with further bibliography at p. <citedRange>218</citedRange></bibl>;
+                    <bibl><ptr target="#luni2014b"/>, pp. <citedRange>135-141</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>102</citedRange> (date), pp. <citedRange>366-367</citedRange>, number 91 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65427"><name nymRef="#Πραξιάδας">Πραξιάδας</name> 
+                        <persName type="attested" key=""><name type="patronymic" nymRef="#Εὐκλείδας">Εὐ<supplied reason="lost">κλείδα</supplied></name></persName></persName>
+                    <lb n="2"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύων</w></rs> <w lemma="ἀνατίθημι">ἀν<supplied reason="lost">έθηκε</supplied></w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app>
+                        <lem resp="#laronde1987">Εὐ<supplied reason="lost">κλείδα</supplied></lem>
+                        <rdg resp="#rosamilia2023">Εὐ<unclear>κ</unclear><supplied reason="lost">λείδα</supplied></rdg>
+                        <rdg resp="#SECir">Εὐ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app></p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Praxiadas fils d'Eukleidas a consacré <supplied reason="subaudible">ce monument</supplied>, pendant sa prêtrise.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Praxiadas son of Eukleidas dedicated <supplied reason="subaudible">this monument</supplied> while being priest.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Praxiadas figlio di Eukleidas ha dedicato <supplied reason="subaudible">questo monumento</supplied> quando era sacerdote.</p>
+         </div><div type="commentary">
+                
+                <p>At <bibl><ptr target="#SECir"/></bibl>, Pugliese Carratelli cited part of the then unpublished 'Report of excavations during summer 1933' in posession of the 
+                    Antiquities Department of Cyrene with the following description: «<foreign xml:lang="it">Tempio di Apollo. Propilei preromani che il sacerdote Praxiade figlio 
+                        di Eu--- offrì ad Apollo (…) Nel mezzo dell' architrave era incastrata la lastra di marmo iscritta, che ricorda Praxiade, rinvenuta in numerosi frammenti</foreign>». 
+                    In fact, before having identified the function of the building, Oliverio had already discovered the fragmentary inscription in 1932, as proven by the the recent publication  
+                    of the ancient annual Reports  (see <bibl><ptr target="#luni2014b"/>, p. <citedRange>135</citedRange> for 1932 and p. <citedRange>141</citedRange> for 1933</bibl>).</p>
+                <p><bibl><ptr target="#laronde1987"/>, pp. <citedRange>107, 191</citedRange></bibl> has convincingly dated the inscription at the beginning of the fourth quarter of the fourth century BC,
+                arguing that his proposed restoration of the father's name fitted exactly the space available at line 1, allowing to place this priest into a well-known family. This restoration has been 
+                generally endorsed (nothing at all survives of the first restored letter, a kappa).</p>
+               <p>A cast of the inscription has been inserted into the Propylaeum, restored in a status dated with archaeological arguments at the beginning of the third century. <bibl><ptr target="#rosamilia2023"/></bibl> 
+               thus dates the priesthood between 300 and 290 BC.</p>
+	     <p>Both opinions are not irreconciliable if we accept the idea that Praxiadas' benefaction did not happen at the ultimate stage of elaboration of the passage
+	     between the Upper Terrace and the Sanctuary proper, the more so that the restored placement of the dedication is too high to let it be easily readable.</p>
+            </div></body>
+    </text>
+</TEI>

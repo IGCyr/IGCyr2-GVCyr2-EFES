@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Dedication</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr004000</idno>
+                <idno type="number" subtype="second-edition">004000</idno>
+                <idno type="TM">738144</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr004000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr004000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr004000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a <objectType>kotyle</objectType> of
+                                        <material>Corinthian ware</material>
+                                        (<dimensions>
+                                            <width atLeast="0.059">0.059-</width>
+                                            <height/>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on belly, on red painted band.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.003</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="monument-type" notBefore="-0500" notAfter="-0451" precision="medium">First half of fifth century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" notBefore="1963" notAfter="1965">
+                            <p>Found between 1963 and 1965 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1118">archaic votive deposit</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1965" resp="Boardman">
+                                    <p>Seen by J. Boardman in 1965 at <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-20" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-11" who="CDL">lemma, text, apparatus, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76707/3/igcyr004000-drawing.tiff.jpg" corresp="igcyr004000" decls="#photograph"><desc resp="Boardman, J." source="Department of Antiquities, Tukrah" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76707">Drawing of igcyr004000 Dedication (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#boardman-hayes1973"/>, n. <citedRange>1899</citedRange> (dr.)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>004000</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ<unclear>ρ</unclear></orig><gap reason="lost" atLeast="1" atMost="2" unit="character"/><orig>αν</orig> <w lemma="δεξιά">δεκσιὰν</w> <orig>τ</orig><gap reason="lost" extent="unknown" unit="character"/>	 
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><rdg resp="#boardman-hayes1973"><supplied reason="lost">Δάμα</supplied>τ<unclear>ρ</unclear><supplied reason="lost">ι τ</supplied>ὰν δεκσιὰν τ<gap reason="lost" extent="unknown" unit="character"/> <note>Boardman</note></rdg></app></p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Intraduisible.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Not usefully translatable.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Intraducibile.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمه بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>Boardman thought that <foreign xml:lang="grc">δεξιά</foreign> stands here for 'pledge'. If so, the following word should be some form of <foreign xml:lang="grc">τείνω</foreign>.
+                    But parallels are lacking for that phrase complemented with a god's name. So we should be cautious with the restoration <foreign xml:lang="grc"><supplied reason="lost">Δάμα</supplied>τ<unclear>ρ</unclear><supplied reason="lost">ι</supplied></foreign>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

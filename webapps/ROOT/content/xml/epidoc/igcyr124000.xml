@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr124000</idno>
+                <idno type="number" subtype="second-edition">124000</idno>
+                <idno type="TM">738789</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr124000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr124000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr124000</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">284</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>stele</objectType> (two fragments pasted together), slighlty tapering,
+                                        recut upside down at back to form a funerary portrait of woman in low relief (Severan age); the inscribed side has been broken 
+                                        off at upper left angle
+                                        (<dimensions>
+                                            <width min="0.39" max="0.41">0.39-0.41</width>
+                                            <height>0.875</height>
+                                            <depth>0.27</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face at <dim>0.26</dim> from top, in two lines.
+                                In spite of the upper left angle missing, all letters are preserved and their absence on images is due to the placement in 
+                                the museum.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>, deeply and carefully cut, without serifs; dissymmetrical nu, slantering mu and sigma, tall rho,
+                            slightly smaller omicron, upsilon with calice-shaped and small upper part.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: presumably
+                                from an undetermined <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1948">
+                                    <p>Found before 1948 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, presumably 
+                                        in a tomb of an undetermined <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>, not necessarily that of the find.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1997" resp="CDL">
+                                    <p>Seen in 1997 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-12-16" resp="CDL">file created, lemma, text, translations, commentary</change>
+            <change when="2015-12-23" resp="CDL">commentary added</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77615/3/igcyr124000-1-face%20and%20back.tiff.jpg" corresp="igcyr124000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77615">Face and back of igcyr124000 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77616/3/igcyr124000-2-squeeze.tiff.jpg" corresp="igcyr124000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77616">Squeeze of igcyr124000 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>124000</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Χαῖνυς">Χαῖνυς</name>
+                    <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Δαμασάνωρ">Δαμασάνορος</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Khainys fils de Damasanôr.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Chainys son of Damasanor.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Chainys figlio di Damasanor.</p>
+         </div><div type="commentary">
+                
+               <p>Both names are already known at Cyrene with few occurrences, which all belong to men of the upper class, either officers in the army or dedicant
+               of the tithe (but for two occurrences of Chainys at Ptolemais in the Roman period).</p>
+	<p>The earlier use of the stone with this funerary mention was not mentioned by E. Rosenbaum, who published the relief (see 
+	    <bibl><ptr target="#rosenbaum1960"/>, n. <citedRange>284</citedRange></bibl>).</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

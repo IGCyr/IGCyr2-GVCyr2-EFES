@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Proxeny <rs type="textType">decree</rs> of the city of Euesperides</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr064000</idno>
+                <idno type="number" subtype="second-edition">064000</idno>
+                <idno type="TM">738336</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr064000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr064000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr064000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">265</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> square <objectType>panel</objectType>
+                                        (<dimensions>
+                                            <width>0.4</width>
+                                            <height>0.4</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015</height>, very carefully cut on the entire surface. </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0320" precision="medium">350-320 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1925">
+                                    <p>Found before 1925 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>.
+                                   </p>
+                                </provenance>    
+                            <provenance type="observed" when="1976" resp="CDL">
+                                <p>Seen by C. Dobias-Lalou in 1976 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="2010" resp="rosamilia">
+                            <p>Seen by E. Rosamilia in 2010 at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-06-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2013-12-09" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2015-10-30" who="cdl">location improved, words tagged</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-12" who="CDL+HB">lemma</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-17" who="HB">minor modifications</change>
+            <change when="2012-04-06" who="CDL+HB">text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77095/3/igcyr064000-1-face.tiff.jpg" corresp="igcyr064000" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1913-1935"><ref target="http://hdl.handle.net/20.500.14008/77095">Face of igcyr064000 Decree of Euesperides</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77096/3/igcyr064000-2-squeeze.tiff.jpg" corresp="igcyr064000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77096">Squeeze of igcyr064000 Decree of Euesperides</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#ferri1925"/>, p. <citedRange>18</citedRange></bibl> (partial mention);
+                    <bibl><ptr target="#fraser1951"/><citedRange/></bibl>, and 
+                    <bibl><ptr target="#fraser1953"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>18.772</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>064000</citedRange></bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#chamoux1953"/>, p. <citedRange>214, footnote 8</citedRange></bibl>
+                    whence <bibl><ptr target="#robertBE"/>, <citedRange>1954.278</citedRange></bibl>; 
+                    <bibl><ptr target="#manganaro1989"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>39.1680</citedRange></bibl>; 
+                    <bibl><ptr target="#manganaro1990"/>, p. 426, n. <citedRange>71</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>40.1594</citedRange></bibl>; 
+                    <bibl><ptr target="#ottone2000"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>50.1629</citedRange></bibl>; 
+                    <bibl><ptr target="#gill2004"/>, p. <citedRange>391</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>54.1778</citedRange></bibl>;
+                        <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>232-233</citedRange>, number 2 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><rs type="office" key="ephoros"><w lemma="ἔφορος">Ἐφόρων</w></rs> καὶ <rs type="office" key="geron"><w lemma="γέρων">γερόντων</w></rs>
+                    <lb n="2"/><w lemma="ἐπάγω">ἐπαγόντων</w>, <w lemma="ἁνδάνω">ἇδε</w> τᾶι <rs type="office" key="boule"><w lemma="βωλά">βωλᾶι</w></rs>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V3a-38549"><name nymRef="#Εὔβιος">Εὔβιον</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V3a-38551"><name type="patronymic" nymRef="#Εὐβίοτος">Εὐβιότω</name></persName></persName>, 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V3a-37093"><name nymRef="Ἁγέστρατος">Ἁγέστ<lb n="4" break="no"/>ρατον</name>
+                            <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V3a-40042"><name type="patronymic" nymRef="#Μοσχίων">Μοσχίωνος</name></persName></persName>, 
+                        <placeName type="ethnic" nymRef="#Συρακόσιος">Συρ<lb n="5" break="no"/>ρακοσίος</placeName>, <placeName type="ethnic" nymRef="#Εὐσπερίτας">Εὐσπεριτᾶν</placeName>
+                    <lb n="6"/><rs type="office" key="proxenos"><w lemma="πρόξενος">πρoξένος</w></rs> <w lemma="εἰμι">ἦμεν</w> <w lemma="αὐτός">αὐτὸς</w>
+                    <lb n="7"/>καὶ <w lemma="ἔκγονος">ἐκγόνος</w>.
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p> Sur proposition des éphores et des <foreign rend="italic">gérontes</foreign>, le conseil a décidé:
+            qu'Eubios fils d'Eubiôtos et Agestratos fils de Moskhiôn, de Syracuse, soient proxènes des Euhespéritains, eux-mêmes et leurs descendants.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p> The <foreign rend="italic">ephoroi</foreign> and the <foreign rend="italic">gerontes</foreign> having proposed, the council decided:
+            that Eubios son of Eubiotos and Agestratos son of Moschion, from Syracusae, would be <foreign rend="italic">proxenoi</foreign> of the Euesperitans, themselves and their offspring.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p> Su proposta degli efori e dei <foreign rend="italic">gerontes</foreign>, il consiglio ha deciso: 
+                che Eubios figlio di Eubiotos e Agestratos figlio di Moschion, di Siracusa, siano prosseni degli Euesperitani, loro e i loro discendenti.</p>
+         </div><div type="commentary">
+                
+                <p>This is the only official document known to us from the city of Euesperides. It gives useful informations about its institutions, with a council and 
+                <foreign rend="italic">ephoroi</foreign> taking part in the decision. It is also the only proxeny mentioned in the Cyrenaican inscriptions, in contrast with a series of 
+                    citizens from various cities in Cyrenaica being granted proxeny by foreing cities.</p>
+	           <p>The stone, originating from Euesperides, was published from a photograph by Fraser, who thought that it was lost. However, C. Dobias-Lalou could see it in 1976 at Cyrene, 
+               	where it was evidently brought as a consequence of the multiple movings of World War II.</p>
+	           <p/>
+            </div></body>
+    </text>
+</TEI>

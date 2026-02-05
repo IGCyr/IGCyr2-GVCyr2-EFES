@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> and <rs type="textType">dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr071100</idno>
+                <idno type="number" subtype="second-edition">071100</idno>
+                <idno type="TM">738358</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr071100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr071100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr071100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Benghazi Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <objectType>base</objectType> of grey-brown <material>limestone</material>, chipped along the edges and pitted on the surface
+                                        (<dimensions>
+                                            <width>0.61</width>
+                                            <height>0.21</height>
+                                            <depth>0.765</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; alpha with dropped bar, smaller circular letters, sigma with four slanting strokes, very slight serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>.</origPlace>
+                            <origDate evidence="lettering" cert="low" notBefore="-0200" notAfter="-0101" precision="medium">Perhaps second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1974" notAfter="1975">
+                                    <p>Found in 1974 or 1975 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/910" key="http://pleiades.stoa.org/places/373757">Berenike</placeName>:                                         
+                                        re-used in a late wall of the <rs type="monuList" ref="https://www.slsgazetteer.org/1087">Church</rs>.
+                                   </p>
+                                </provenance>
+
+                        <provenance type="observed" notAfter="1976" resp="jmr">
+                            <p>Seen by J.M. Reynolds  before 1976 at <placeName type="modernSpot" ref="http://www.geonames.org/88319">Benghazi</placeName>:
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1094">Benghazi Museum</rs>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                        
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-05" who="Alice">checked</change>
+            <change when="2016-04-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2014-05-16" who="cdl">some changes in text and apparatus</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-14" who="cdl">lemma, text, apparatus, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77143/3/igcyr071100-face.tiff.jpg" corresp="igcyr071100" decls="#photograph"><desc resp="-" source="Department of Antiquities, Benghazi" n="1974"><ref target="http://hdl.handle.net/20.500.14008/77143">Face of igcyr071100 Private honours and dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr1978"/>, pp. 233-234, n. <citedRange>2</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>28.1542</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>071100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Χαρμίππα">Χαρμί<supplied reason="lost">ππα</supplied></name> <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                    <lb n="2"/><space quantity="3" unit="character"/> <unclear>τ</unclear><supplied reason="lost">ὸν</supplied> <w lemma="ἑαυτῶ"><supplied reason="lost">ἑαυ</supplied>τᾶς</w> <space quantity="2" unit="character"/> <w lemma="ἀνήρ">ἄνδρα</w> <space quantity="3" unit="character"/>
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#Ἴασις"><unclear>Ἴ</unclear>α<supplied reason="lost">σι</supplied><unclear>ν</unclear></name> 
+                            <persName type="attested" key=""><name nymRef="#Λυσανίας" type="patronymic"><unclear>Λ</unclear>υ<unclear>σ</unclear>ανία</name></persName></persName>
+                            <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem>Χαρμί<supplied reason="lost">ππα</supplied></lem>
+                        <rdg resp="#jmr1978">Χαρ<unclear>μεί</unclear>δ<supplied reason="lost">αν</supplied> <gap reason="lost" quantity="4" unit="character"/><choice><unclear>μ</unclear><unclear>ν</unclear></choice>ι<unclear>ο</unclear>ς</rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="2"><lem><space quantity="3" unit="character"/> <unclear>τ</unclear><supplied reason="lost">ὸν ἑαυ</supplied>τᾶς</lem>
+                        <rdg resp="#jmr1978"><choice><unclear>ι</unclear><unclear>μ</unclear><unclear>ν</unclear></choice><gap reason="lost" quantity="5" unit="character"/>ύτας</rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="3"><lem><unclear>Ἴ</unclear>α<supplied reason="lost">σι</supplied><unclear>ν</unclear> <unclear>Λ</unclear>υ<unclear>σ</unclear>ανία</lem>
+                        <rdg resp="#jmr1978"><unclear>ἱαρ</unclear><supplied reason="lost">ι</supplied><unclear>τ</unclear>εύ<unclear>σ</unclear>αντα</rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Kharmi<supplied reason="lost">ppa</supplied> fille de <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">a consacré la statue de</supplied> son mari Iasis fils de Lysanias à Apollon.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Charmi<supplied reason="lost">ppa</supplied> daughter of <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">dedicated the statue of</supplied> her husband Iasis son of Lysanias to Apollo.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Charmi<supplied reason="lost">ppa</supplied> figlia di <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">ha dedicato la statua di</supplied> suo marito Iasis figlio di Lysanias ad Apollo.</p>
+         </div><div type="commentary">
+                
+                <p>We take Reynolds' dimensions, but share them out differently, according to the proportions given by the photograph.</p>
+	       <p>In Reynolds' restoration, the name of the wife dedicating the statue would be lacking. And some of her readings do not fit the photograph, especially at line 2.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

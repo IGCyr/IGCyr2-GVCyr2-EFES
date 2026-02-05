@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType" cert="low">honours</rs></title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr057</idno>
+                <idno type="number" subtype="second-edition">057</idno>
+                <idno type="TM">738946</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr057</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr057</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr057</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">543 + 570 + 591</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three fragments of a white <material>marble</material> oblong <objectType>block</objectType>:  
+                                        fragment a, broken off on all sides but on the right (<dimensions>
+                                            <width atLeast="0.155">0.155</width>
+                                            <height atLeast="0.10">0.10</height>
+                                            <depth atLeast="0.085">0.085</depth>
+                                        </dimensions>);
+                                        fragment b, broken off on all sides (<dimensions>
+                                            <width atLeast="0.125">0.125</width>
+                                            <height atLeast="0.075">0.075</height>
+                                            <depth atLeast="0.075">0.075</depth>
+                                        </dimensions>);
+                                        fragment c, broken off at right, on top and at left and chipped off below, but preserving probably the original lower face (<dimensions>
+                                            <width atLeast="0.44">0.44</width>
+                                            <height atLeast="0.13">0.13</height>
+                                            <depth atLeast="0.18">0.18</depth>
+                                        </dimensions>). As photographed, fragments b and c seem to have been partly adjacent.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one face in at least three lines  
+                                    (on fragment c the inscribed surface has dimensions <dimensions><width>0.27</width> <height>0.05</height></dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Average <height>0.015</height>, letters well cut and pressed together: alpha with dropped bar, beta with larger lower loop, low 
+                            delta with protruding right stroke, kappa with long oblique bars, pi with equal hastae, non-slanting sigma, phi with very tall hasta, horseshoe omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0101" notAfter="0300" precision="medium">Second to third centuries AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" notAfter="1930">
+                            <p> Found before 1930 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                fragments b and c photographed in 1930 as from the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>; findspot unrecorded 
+                                for fragment a.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1977" resp="CDL">
+                            <p>All three fragments seen by C. Dobias-Lalou in 1977 (and again in 2001 for fragment a) at <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs></p>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL) with help from J.M. Reynolds' copy.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-29" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-18" who="Alice">It. translation; checked</change>
+            <change when="2017-03-08" who="CDL">overall check</change>
+            <change when="2016-11-04" who="CDL">tagged metric and w, Fr. and Engl. translations, commentary</change>
+            <change when="2016-11-03" who="CDL">support, text</change>
+            <change when="2016-10-29" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76653/3/gvcyr057-1-fgta.tiff.jpg" corresp="gvcyr057" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76653">Fragment a of gvcyr057 Honours (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76654/3/gvcyr057-2-fgtb-c.tiff.jpg" corresp="gvcyr057" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76654">Fragments b-c of gvcyr057 Honours (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Not published before <bibl><ptr target="#GVCyr"/><citedRange>057</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>67.1486</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty locus="name" match=".."/></gap>
+                        <lb n="1"/><milestone unit="fragment" n="a"/><seg met="dactylic" real="++|+"><orig>α<unclear>ι</unclear></orig> <w lemma="δίς">δίς</w> <w lemma="σύ">σο<supplied reason="lost">ι</supplied></w></seg> 
+                            <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><milestone unit="fragment" n="a"/><seg met="dactylic" real="+--|+-"><w lemma="στέμμα">στέμμα</w> <w lemma="φέρω">φ<supplied reason="lost" cert="low">έρε</supplied><milestone unit="fragment" n="b"/>ιν</w> <w lemma="ἱερός">ἱερὸν</w> <orig>λο</orig></seg><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><milestone unit="fragment" n="a"/><seg met="dactylic" real="+--"><orig>ωνδεπ<unclear>α</unclear></orig></seg><gap reason="lost" quantity="5" unit="character"/><milestone unit="fragment" n="b"/><seg met="dactylic" real="+±"><w part="F">ρους</w> τε</seg>· <g type="leaf">❧</g> <gap reason="lost" extent="unknown" unit="character"/><certainty locus="name" match=".."/>                       
+                        <l n="x" met="dactylic pentameter">
+                            <lb n="4"/><seg met="+--|+"><gap reason="lost" quantity="9" unit="character" precision="low"/></seg><milestone unit="fragment" n="c"/>, 
+                            <seg real="--|+|+--|+--|+±"><w lemma="λυκάβας">λυκάβας</w> δ' <w lemma="οἶκος">οἶκον</w> <w lemma="ἔπειμι2">ἐπήϊ<unclear>α</unclear></w> 
+                                <w lemma="καλός"><supplied reason="lost" cert="low">καλός</supplied></w></seg></l>.
+                        <lb n="4a"/><space extent="unknown" unit="line"/>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem>δίς σο<supplied reason="lost">ι</supplied></lem>
+                <rdg>δίσσο<supplied reason="lost">ι</supplied></rdg><note>also possible</note>
+                </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><gap reason="lost" extent="unknown" unit="character"/> deux fois pour toi <gap reason="lost" extent="unknown" unit="character"/> porter la couronne sacrée <gap reason="lost" extent="unknown" unit="character"/> et les <gap reason="lost" extent="unknown" unit="character"/>;
+                    <gap reason="lost" extent="unknown" unit="character"/> moi, la bonne année, je suis venue toucher <supplied reason="subaudible" cert="low">ta</supplied> maison.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><gap reason="lost" extent="unknown" unit="character"/> twice for you <gap reason="lost" extent="unknown" unit="character"/> to wear the sacred crown <gap reason="lost" extent="unknown" unit="character"/> and the <gap reason="lost" extent="unknown" unit="character"/>;
+                    <gap reason="lost" extent="unknown" unit="character"/> I, the good year, I came upon <supplied reason="subaudible" cert="low">your</supplied> house.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/> due volte per te <gap reason="lost" extent="unknown" unit="character"/> portare la corona sacra <gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> e <gap reason="lost" extent="unknown" unit="character"/>;
+                    <gap reason="lost" extent="unknown" unit="character"/> io, il buon anno, sono giunto alla <supplied reason="subaudible" cert="low">tua</supplied> casa.</p>
+            </div><div type="commentary">
+                
+                <p>Fragments b and c may be seen joined together on an ancient archive photograph. It is J.M. Reynolds' credit to have suspected that all three fragments, which bear 
+                    different inventory numbers and were observed separately by C. Dobias-Lalou, belong to the same stone.</p>
+                <p>J.M. Reynolds described the larger fragment (c) as from a moulded base. This seems the more puzzling that she also pointed out (as C. Dobias-Lalou did) 
+                that the inscribed face was only roughly dressed. The inscription was thus probably cut on a re-used block of which the opposite side is now lost.</p>
+                <p>The placement of loose fragment a is proposed without certainty on behalf of the <foreign rend="italic">iunctura</foreign> <foreign xml:lang="grc">στέμμα 
+                φέρειν</foreign>, which would be a poetical equivalent of <foreign xml:lang="grc">στεφανοφορέω</foreign>, refering to a magistrate 'wearing a crown', most probably a priest.</p>
+                <p>The word <foreign xml:lang="grc">λυκάβας</foreign> used at the nominative as the subject of a 1st person verb at line 3, puzzling as it is, might develop the 
+                    idea expressed elsewhere through the adjective <foreign xml:lang="grc">καλλιέτης</foreign> for an eponym priest whose year was successfull (see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.222.html">IRCyr2020 C.222</ref> l. 5, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.223.html">IRCyr2020 C.223</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.250.html">IRCyr2020 C.250</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.335.html">IRCyr2020 C.335</ref>). If so, the <foreign xml:lang="grc">οἶκος</foreign> upon which this 'good year' occurred might be either Apollo's temple or a family house, the latter connected possibly with
+                    <foreign xml:lang="grc">δίς σοι</foreign> at line 1: the same family would have produced two priests 'of the good year'. However, the context is so lacunar 
+                that all this remains a pure hypothesis.</p>
+                <p>Line 3 is the most lacunar of all. The segment at the beginning might be read in several different manners. The <foreign xml:lang="grc">τε</foreign> at the 
+                end leads to suppose that another word at the accusative plural followed by another <foreign xml:lang="grc">τε</foreign> preceded the uncomplete word endign with <foreign xml:lang="grc">ρους</foreign>.</p>                
+                <p>Metrical analysis: the small fragments offer a dactylic rhythm. Only at line 4 is a whole verse restorable and it would be a pentameter. However, as there 
+                    is a leaf at the end of the preserved segment of line 3, we cannot know whether this marks the end of a verse or the end of a sentence inside a verse. We thus 
+                    cannot be sure that the whole poem was made of elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

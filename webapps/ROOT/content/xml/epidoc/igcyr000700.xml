@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Alphabet</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr000700</idno>
+                <idno type="number" subtype="second-edition">000700</idno>
+                <idno type="TM">738104</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr000700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr000700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr000700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of <objectType>crater</objectType> of
+                                        <material>local ware</material>
+                                        (<dimensions>
+                                            <width>0.095</width>
+                                            <height>0.03</height>
+                                            <depth>0.014</depth>
+                                        </dimensions>; diameter 0.225-0.253).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on rim.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.003" atMost="0.007">0.003 - 0.007</height>; archaic forms of letters: closed heta, serpentine three-strokes iota.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context" when="-0550" precision="low" cert="low">Probably ca. 550 BC</origDate>
+                        </origin>
+                            
+                                <provenance type="found" when="1968">
+                                    <p>Found in 1968 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: West of
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>,
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1333">House by the Propylaeum</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1972" resp="Gasperini">
+                                    <p>Seen by L. Gasperini in 1972 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2014-10-20" who="cdl">slight additions to bibliography and commentary</change>
+            <change when="2013-03-26" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-02-22" who="CDL+HB">text, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76669/3/igcyr000700-1-drawing.tiff.jpg" corresp="igcyr000700" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="1969"><ref target="http://hdl.handle.net/20.500.14008/76669">Drawing of igcyr000700 Alphabet</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76670/3/igcyr000700-2-drawing.tiff.jpg" corresp="igcyr000700" decls="#photograph"><desc resp="-" source="Università degli Studi, Macerata" n="1972"><ref target="http://hdl.handle.net/20.500.14008/76670">Drawing of igcyr000700 Alphabet</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1973-1974"/>
+                    (=<bibl><ptr target="#gasperini2008"/>, pp. <citedRange>111-118</citedRange> (drawing)</bibl>)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>000700</citedRange></bibl>.
+                   Cf. <bibl><ptr target="#dangelo2010"/>, p. <citedRange>108</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2015a"/>, pp. <citedRange>62-72</citedRange></bibl>;
+                    <bibl><ptr target="#marengo2016"/>, p. <citedRange>163</citedRange>.</bibl>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/>α β γ δ ε ϝ ζ η θ ι κ <unclear>λ</unclear> <supplied reason="lost"> μ ν ο π ϻ ϙ ρ τ υ φ χ</supplied>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Alpha, bêta, gamma, delta, epsilon, digamma, zèta, hèta, thèta, iota, kappa, lambda, <supplied reason="lost">mu, nu, omicron, pi, san,
+            qoppa, rho, tau, upsilon, phi, khi</supplied>. </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Alpha, beta, gamma, delta, epsilon, digamma, zeta, heta, theta, iota, kappa, lambda, <supplied reason="lost">mu, nu, omicron, pi, san,
+            qoppa, rho, tau, upsilon, phi, chi</supplied>. </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Alpha, beta, gamma, delta, epsilon, digamma, zeta, heta, theta, iota, kappa, lambda, <supplied reason="lost">my, ny, omicron, pi, san,
+            qoppa, rho, tau, ypsilon, phi, chi</supplied>. </p>
+         </div><div type="commentary">
+                
+                <p>About the fabric of the vase Gasperini, although inclined to judge it local, followed Stucchi's advice that it was Eastern, perhaps Rhodian ware.
+                    More precise information has been given as to the provenance and type of ceramics by D'Angelo, who dates it about 550 BC. This is somewhat later
+                    than the date proposed from the lettering (first half of the sixth century BC) by Gasperini.</p>
+                <p>The shape of beta, differing from that in use on Thera, confirms the statement that <ref type="inscription" source="#IGCyr2">IGCyr000300</ref> had been written 
+                at Thera or in Cyrenaica by a Theran.</p>
+                <p>The presence of digamma in this alphabet does not imply that it was still used as a character with a phonetic value in words.</p>
+	           <p>As for the eighth letter, its value should be aspirate, so that we translate heta. However, there are some clues of early psilosis in the 
+	           Cyrenaean dialect, see <bibl><ptr target="#cdl2000"/>, pp. <citedRange>10-13</citedRange> and <citedRange>59</citedRange></bibl> and <bibl><ptr target="#cdl2015a"/>, pp. 
+	           <citedRange>74-75</citedRange></bibl>. This letter might thus also be considered a 'dead' one.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

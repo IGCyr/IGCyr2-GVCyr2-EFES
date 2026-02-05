@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Offering</rs> for a deceased person</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr010001</idno>
+                <idno type="number" subtype="second-edition">010001</idno>
+                <idno type="TM">105909</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr010001</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr010001</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr010001</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> broken off at left and back, 
+                                        with an oval hollow on top
+                                        (<dimensions>
+                                            <width>0.283</width>
+                                            <height>0.12</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.022</height>; broad eta, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0150" notAfter="-0075" precision="medium" cert="low">Perhaps, second half or beginning of first centuries BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1911">
+                                    <p>Found in 1911, Norton Expedition, at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1016">Acropolis</rs>, in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1018">Peristyle Building</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Probably lost.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-10" who="HB">text edited, translation</change>
+            <change when="2012-06-19" who="Ljuba">added from CATALOGO</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, n. <citedRange>40</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>010001</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2016b"/>, p. <citedRange>170</citedRange></bibl>.</p>           
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w>ἥρως</w>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">Untel</supplied> héros.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">So-and-so</supplied> heroized.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">Il tale</supplied> eroe.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>فلان جُعل بطلاً.</p>
+         </div><div type="commentary">
+                
+                <p>Inscriptions including the words <foreign rend="italic">heros/heroissa</foreign> are not many in Cyrenaica. Most of them are votive reliefs. For another base, 
+                    see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.397.html">IRCyr2020 C.397</ref> and the reliefs with heroized riders <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.466.html">IRCyr2020 C.466</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.467.html">
+                    IRCyr2020 C.467</ref> and probably <ref type="inscription" source="#IGCyr2">IGCyr118600</ref>.</p>
+                <p/>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

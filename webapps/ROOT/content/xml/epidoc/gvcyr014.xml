@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of L. Sossios</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr014</idno>
+                <idno type="number" subtype="second-edition">014</idno>
+                <idno type="TM">738908</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr014</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr014</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr014</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">605</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>stele</objectType>, damaged above and broken away below
+                                        (<dimensions>
+                                            <width>0.55</width>
+                                            <height>0.79</height>
+                                            <depth>0.32</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face on 5 lines with axial layout and large lettering, followed by at least 
+                                    16 verse-lines, with alternate inset of pentametres and hexametres
+                                    (<dimensions>
+                                        <width>0.55</width>
+                                        <height>0.60</height>
+                                        <depth>0.32</depth>
+                                    </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>L. 1, <height>0.035</height>, ll. 2-3, <height>0.025</height>, ll. 4-5, <height>0.03</height>, 
+                                ll. 6ff., <height>0.015</height>; ll. 1 to 5 have an uncial lettering whereas lines 6 on have a cursive script (lunate epsilon, 
+                                sigma and omega); superscript bars above the praenomen in l. 1 and the figures in l. 5.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0101" notAfter="0200" precision="medium">Second century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1934">
+                            <p>Found in 1934 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, some 500 m. from the marabout of Sidi Mohammed Bu Baggiada (i.e. tomb S.4 Cassels).</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1947" resp="chamoux">
+                            <p>Seen by Fr. Chamoux in 1947 in
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                        <provenance type="observed" when="1993" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1993 in
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in the new
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2023-08-18" who="CDL">file updated</change>
+            <change when="2023-08-19" who="Alice">It. translation changed</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-09" who="Alice">It. translation; checked</change>
+            <change when="2017-02-28" who="CDL">overall check</change>
+            <change when="2014-04-11" who="CDL+HB">lemma, bibliography, text, apparatus, translations, commentary</change>
+            <change when="2014-04-10" who="cdl">file created with help of IRCyr945</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76587/3/gvcyr014-1-face.tiff.jpg" corresp="gvcyr014" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1935-1934"><ref target="http://hdl.handle.net/20.500.14008/76587">Face of gvcyr014 Epitaph of L. Sossius</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76588/3/gvcyr014-2-detail.tiff.jpg" corresp="gvcyr014" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76588">Detail of gvcyr014 Epitaph of L. Sossios</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr-bacchielli1996"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2211</citedRange></bibl> and
+                    <bibl><ptr target="#AE"/> <citedRange>1996, 1669</citedRange> (Laronde)</bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>014</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#burford1972"/>, pp. <citedRange>150-151, 181 and 208</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                   <div type="textpart" subtype="text">
+                   <ab>
+                    <lb n="1"/><persName type="attested" key=""><name type="praenomen" nymRef="#Λούκιος"><expan><abbr>Λ</abbr><ex>ούκιος</ex></expan></name> <name type="nomen" nymRef="#Σόσσιος">Σόσσιος</name>
+                    <lb n="2"/><name type="cognomen" nymRef="#Εὐθυκλῆς">Εὐθυκλῆς</name></persName> 
+                    <lb n="3"/><rs type="office" key="boule"><w lemma="βουλευτής">βουλευτὴς</w></rs>
+                    <lb n="4"/><space quantity="1" unit="character"/> <w lemma="ζῳγράφος">ζῳγράφος</w>
+                    <lb n="5"/><date dur="P41Y"><expan><abbr><am><g type="year">𐅹</g></am></abbr> <ex>ἐτῶν</ex></expan> 
+                        <num type="cardinal" value="41"><g type="alphabetic">μα</g></num></date>
+                    </ab>
+                   </div>
+           <div type="textpart" subtype="verse">
+           <lg met="elegiac couplet">
+              <l n="1" met="hexameter"><seg real="+--|+--|++|+--|+--|+-">
+                 <lb n="6"/><persName type="attested" key=""><name nymRef="#Λούκιος">Λούκιον</name> <persName type="attested" key=""><name type="patronymic" nymRef="#Εὐθυκλῆς">Εὐθυκλέους</name></persName></persName> 
+                 τὸν <w lemma="ζῳγράφος">ζωιγράφον</w>, <w lemma="εἰ">εἴ</w> <w lemma="που">που</w>, <w lemma="ὁδίτης">ὁδεῖτα</w>,</seg></l>
+               
+              <l n="2" met="pentameter"><seg real="+--|++|+|+--|+--|-">
+                  <lb n="7"/><space quantity="3" unit="character"/> <w lemma="κλύω">ἔκλυες</w>, 
+                  <w lemma="ὅς1" type="relative">ὃς</w> <w lemma="τέχνη">τέχνην</w> <w lemma="μέγας">μέζον'</w> <w lemma="ἐπαγλαΐζω">ἐπηγλάϊσα</w> <space quantity="3" unit="character"/></seg></l>
+           </lg>
+           <lg met="elegiac couplet">
+              <l n="3" met="hexameter"><seg real="+--|++|+--|+--|+--|+-">
+                  <lb n="8"/><w lemma="ἦθος">ἤθεσι</w>, <placeName type="city" nymRef="#Κυράνα">Κυρήνηι</placeName> 
+                  <w lemma="βασιλήιος">βασιλήϊον</w> <w lemma="ὅς1" type="relative">ὃς</w>  <w lemma="μέγας">μέγα</w> <w lemma="δῶρον">δῶρον</w></seg></l>
+               
+              <l n="4" met="pentameter"><seg real="+--|+--|+|+--|+--|+"> 
+                  <lb n="9"/><space quantity="3" unit="character"/><w lemma="πατρίς">πατρίδι</w>, 
+                  τὰς <w lemma="μάκαρ">μακάρων</w> <w lemma="εἰκών">εἰκόνας</w>, <w lemma="ἄγω">ἠγαγόμην</w> <space quantity="3" unit="character"/></seg></l>
+           </lg>
+                
+           <lg met="elegiac couplet">
+              <l n="5" met="hexameter"><seg real="++|++|+--|+--|+--|++">
+                  <lb n="10"/><w lemma="ὅς1" type="relative">τῷ</w> καὶ <rs type="office" key="boule"><w lemma="βουλευτής">βουλευτῇσι</w></rs> 
+                  <w lemma="μετατρέπω">μετέπρεπον</w>, <w lemma="ἐνθάδε">ἐνθάδε</w> <w lemma="κεῖμαι">κεῖμαι</w>.</seg></l>
+               
+              <l n="6" met="pentameter"><seg real="+--|+--|+|+--|+--|-">
+                  <lb n="11"/><space quantity="3" unit="character"/><w lemma="λοίσθιος">λοίσθιον</w> οὐ 
+                  <w lemma="τέκος">τεκέεσσ'</w> οὐδ' <w lemma="ἄλοχος">ἀλόχωι</w> <w lemma="δάκρυον">δάκρυον</w>, <space quantity="3" unit="character"/></seg></l>
+           </lg>
+                
+           <lg met="elegiac couplet">
+              <l n="7" met="hexameter"><seg real="++|+--|+--|+--|+--|++">
+                  <lb n="12"/><persName type="attested"><name nymRef="#Εὐθυκλῆς">Εὐθυκλεῖ</name></persName> δὲ <w lemma="φίλος">φίλωι</w> <w lemma="ἐγώ">μοι</w> 
+                      <w lemma="ἀδελφός">ἀδελφεῶι</w> <w lemma="ὅς1" type="relative">ὅς</w> <w lemma="ἐγώ">με</w> <w lemma="γενέθλη">γενέθληι</w></seg></l>
+               
+              <l n="8" met="pentameter"><seg real="++|+--|+|+--|+--|+">
+                  <lb n="13"/><space quantity="3" unit="character"/> <w lemma="πρεσβεύω">πρεσβεύων</w>, τὰ <w lemma="πατήρ">πατρὸς</w> <w lemma="πᾶς">πάντ'</w> <w lemma="μογέω">ἐμόγησ'</w> <w lemma="ἐπί">ἐπ'</w> <w lemma="ἐγώ">ἐμοί</w>,
+                  <space quantity="3" unit="character"/></seg></l>
+           </lg>
+                
+           <lg met="elegiac couplet">
+               <l n="9" met="hexameter"><seg real="++|+--|+--|+--">
+                   <lb n="14"/><w lemma="μόχθος">μόχθων</w> δ' οὐκ <w lemma="ἀπονίνημι">ἀπόνητο</w>·
+                   <w lemma="πρό">πρὸ</w> γὰρ <unclear>βαρ</unclear><supplied reason="lost">υ</supplied></seg>
+                    <seg met="+--|+±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+               
+           <l n="10" met="pentameter">
+               <lb n="15"/><space quantity="3" unit="character"/> <gap quantity="8" unit="character" reason="lost" precision="low"/>
+               <orig><unclear>σ</unclear>ηρ<unclear>ιι</unclear></orig><gap extent="unknown" reason="lost" unit="character"/></l>
+           </lg>
+                
+           <lb n="15a"/><gap reason="lost" extent="unknown" unit="line"/>
+           </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="14">
+                            <lem resp="#jmr-bacchielli1996"><unclear>βαρ</unclear><supplied reason="lost">υ</supplied><gap reason="lost" extent="unknown" unit="character"/></lem>
+                            <rdg resp="#jmr-bacchielli1996"><unclear>βαρ</unclear><supplied reason="lost">υκήδεϊ πότμῳ</supplied> <note>Peek's suggestion per epistulam</note></rdg> 
+                        
+                    </app>
+                    <app loc="15">
+                            <lem resp="#jmr-bacchielli1996"><gap quantity="8" unit="character" reason="lost" precision="low"/><orig><unclear>σ</unclear>ηρ<unclear>ιι</unclear></orig><gap extent="unknown" reason="lost" unit="character"/></lem>
+                            <rdg resp="#jmr-bacchielli1996"><supplied reason="lost">χῶρον ἐ</supplied>ς ἡρώ<supplied reason="lost">ων ἤλυθον</supplied> 
+                                <seg met="+--|±"/> <note>Peek's suggestion per epistulam</note></rdg>
+                        
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Loukios Sossios Euthyklès, membre du conseil, peintre, <supplied reason="subaudible">mort</supplied> à 41 ans.</p>
+                <p>Si jamais, passant, de Loukios fils d'Euthyklès, le peintre,</p>
+                <p>tu as entendu parler, c'est moi qui repose ici: moi qui rehaussai l'éclat de mon art</p>
+                <p>par mon style, moi qui offris un grand cadeau royal à Cyrène,</p>
+                <p>ma patrie –les images des bienheureux,</p>                
+                <p>raison pour laquelle je me distinguais parmi les membres du conseil.</p> 
+                <p>Ni pour des enfants ni même pour une épouse je ne suis cause de larmes,</p>
+                <p>mais je le suis pour Euthyklès, mon frère affectionné, qui, tout en marquant le respect dû à</p>
+                <p>mon âge, accomplit pour moi toutes les obligations d'un père,</p>
+                <p>mais ne jouit pas de la contrepartie de ses peines; car avant <gap reason="lost" extent="unknown" unit="character"/> un lourd <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en" source="#jmr-bacchielli1996">
+                <p>Loukios Sossios Euthykles, city councillor, painter, <supplied reason="subaudible">died</supplied> aged 41 years.</p>
+                <p>Wayfarer, if ever you heard of Loukios son of Euthykles, the painter,</p>
+                <p>I lie here: I who added grace to my skill</p>
+                <p>with my manners, I who brought a kingly great gift to Cyrene,</p>
+                <p>my native city - the images of blessed ones,</p>
+                <p>for which reason I was distinguished among the city councillors.</p>
+                <p>Neither children nor wife have I left in tears,</p>
+                <p>but Euthykles, the brother dear to me, who, while paying honour</p>
+                <p>to my age, undertook all the labours of a father for me,</p>
+                <p>but did not receive the reward of his toils; for before <gap reason="lost" extent="unknown" unit="character"/> a heavy <gap reason="lost" extent="unknown" unit="character"/>.</p><note>J.M. Reynolds' translation with some changes</note>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Loukios Sossios Euthykles, membro del consiglio, pittore, di anni 41.</p>
+                <p>Se in qualche modo, passante, di Loukios figlio di Euthykles, il pittore,</p> 
+                <p>hai sentito parlare, sono io che qui giaccio, io che con il mio stile</p>
+                <p>resi splendida la mia arte, io che un grande dono regale ho portato a Cirene,</p>
+                <p>la patria mia – le immagini dei beati,</p>
+                <p>motivo per cui mi distinguevo tra i membri del consiglio.</p>
+                <p>Lacrime ho lasciato non ai figli né ad una moglie</p>
+                <p>ma a Euthykles, il mio caro fratello, che, mostrando il rispetto dovuto</p>
+                <p>alla mia età, sopportò per me tutte le fatiche di un padre,</p>
+                <p>ma non ha ricevuto la ricompensa delle sue pene; infatti prima <gap reason="lost" extent="unknown" unit="character"/> un pesante <gap reason="lost" extent="unknown" unit="character"/>.
+</p>
+            </div><div type="commentary">
+                
+                <p>The dead Loukios Sossios Euthykles bore as a cognomen the name that was the personal name both of his father and elder brother.
+                As suggested by Reynolds, he should have newly received  the Roman citizenship marked by his nomen <foreign xml:lang="grc">Σόσσιος</foreign> 
+                and praenomen <foreign xml:lang="grc">Λούκιος</foreign>, the origin of which we cannot guess.</p>
+                <p>The elder brother Euthykles, who survived Sossios, had taken care of him after they had prematurely lost their father.</p>                
+                <p>Loukios Sossios was a member of the Council and also a painter who presented his home-city with pictures; in an unpublished 
+                    contribution Chamoux suggested that he might have offered them on occasion of the restorations operated after the Jewish revolt. 
+                    This would fit the date based on the lettering.</p>
+                <p>For <bibl><ptr target="#GVCyr2"/></bibl>, Luca Ruggeri (<foreign xml:lang="lat">per litteras</foreign>) convincingly suggested that <foreign xml:lang="grc">Κυρήνηι</foreign> at l. 8 should be related to the verb <foreign xml:lang="grc">ἠγαγόμην</foreign> and 
+                    associated with <foreign xml:lang="grc">πατρίδι</foreign> rather than with the preceding sentence, as was preferred before. He also corrected a wrong interpretation of <foreign xml:lang="grc">με πρεσβεύων</foreign> at ll. 12-13.
+                 We thank him fot both.</p>
+                <p>The 'pictures of the blessed ones' (l. 9) might be images either of gods or of heroes.</p>
+                <p>The relationship between Sossios' status as a member of the Council and as a painter are discussed by Reynolds and Bacchielli with bibliography;
+                    see also Tybout at <bibl><ptr target="#SEG"/>, <citedRange>46.2211</citedRange></bibl>.</p>
+                <p>Burford, who had knowledge of this inscription long before its publication, misunderstood some points in translation and interpretation.</p>
+                 <p>As there is an iota on the stone at line 6 in the word <foreign xml:lang="grc">ζωιγράφος</foreign>, we choose to transcribe the same word with 
+                     a subscript iota at line 4 for the sake of homogeneity; however both forms with or without iota are attested and anyway at line 6 the iota does 
+                     not correspond to any distinct syllable.</p>
+                <p>Metrical analysis: after name, occupation and age of the deceased, a series of at least 5 elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

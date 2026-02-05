@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr007000</idno>
+                <idno type="number" subtype="second-edition">007000</idno>
+                <idno type="TM">738176</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr007000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr007000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr007000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Funeral chamber of a <material>rock</material>-cut <objectType>tomb</objectType> with three loculi at right and left and two at the rear
+                                        (<dimensions>
+                                            <width precision="low">0.84</width>
+                                            <height precision="low">0.09</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the lintel of the first left-hand loculus.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.035</height>; slight serifs, small omicron high above the line, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate precision="medium" notBefore="-0300" notAfter="-0251">First half of the third century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" when="1825" resp="pacho">
+                            <p>First copied in 1825 by J.-R. Pacho at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, "Red Tomb", in the vicinity of tomb N192.
+                            </p>
+                        </provenance>
+                                <provenance type="observed" when="2004-09-18" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou on September 18th, 2004 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">amended observ place</change>    
+            <change when="2021-09-16" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked; added Italian translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-25" who="CDL">lemma, commentary, translations</change>
+            <change when="2011-12-20" who="Lucia">text, apparatus</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76738/3/igcyr007000-1-view.tiff.jpg" corresp="igcyr007000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2004"><ref target="http://hdl.handle.net/20.500.14008/76738">View of igcyr007000 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76739/3/igcyr007000-2-drawing.tiff.jpg" corresp="igcyr007000" decls="#photograph"><desc resp="Pacho, J.R." source="-" n="1825"><ref target="http://hdl.handle.net/20.500.14008/76739">Drawing of igcyr007000 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76740/3/igcyr007000-3-drawing.tiff.jpg" corresp="igcyr007000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2004"><ref target="http://hdl.handle.net/20.500.14008/76740">Drawing of igcyr007000 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#CIG"/> <citedRange>5152</citedRange></bibl>, from 
+                    <bibl><ptr target="#pacho1827"/>, pl. <citedRange>66, 7</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2013"/>, pp. <citedRange>181-183</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2015</citedRange></bibl>, <bibl><ptr target="#SEG"/>, <citedRange>64.2020</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>007000</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cdl2015b"/>, pp. <citedRange>33-34</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>65.2013</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2020"/>, p. <citedRange>245-248</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="Ἀλκάνωρ">Ἀλκάνορος</name></persName> ἁ <w lemma="ὀπά">ὀπὰ</w> <w lemma="ἴδιος">ἰδία</w>
+                    <lb n="2"/>καὶ <w lemma="τάφος">τά<unclear>φ</unclear>ο<supplied reason="lost">ς</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="σορός">σορός</w>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#cdl2013">Ἀλκάνορος</lem>
+                    <rdg resp="#pacho1827"><orig>ΑΜΚΑΝΟΡΟΣ</orig></rdg>
+                    <rdg resp="#CIG">Ἀ<unclear>λ</unclear>κάνορος</rdg>
+                    </app>
+                    <app loc="1"><lem resp="#cdl2013">ἁ ὀπὰ ἰδία</lem>
+                        <rdg resp="#pacho1827"><orig>αοτιμιδια</orig></rdg>
+                        <rdg resp="#CIG"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="2"><lem resp="#cdl2013">καὶ τά<unclear>φ</unclear>ο<supplied reason="lost">ς καὶ</supplied> σορός</lem>
+                        <rdg resp="#pacho1827"><orig>καιτατο</orig><gap reason="lost" quantity="3" unit="character"/>τ<gap reason="lost" quantity="7" unit="character"/>ος</rdg>
+                    <rdg resp="#CIG">καὶ τὰ <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Ceci est le compartiment personnel d'Alkanor, ainsi que sa tombe et son cercueil.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>This is Alkanor's own recess, his burial place and his casket.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p> Questa è la nicchia personale di Alkanor, la sua tomba e la sua bara.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>هذا هو الركن أو التجويف الخاص بألكانور، مكان دفنه ونعشه.</p>
+         </div><div type="commentary">
+                
+                <p>For this tomb (not seen by Cassels), see <bibl><ptr target="#dthorn2007"/>, p. <citedRange>89</citedRange></bibl>, who described and named it ‘Red Tomb'.</p>
+                <p>The word <foreign xml:lang="grc">ὀπά</foreign> means 'insight, opening'. Besides this example, it is also used in four instances, out of which three clearly mention lintels 
+                    of monumental doors (<ref type="inscription" source="#IGCyr2">IGCyr020700</ref>, <ref type="inscription" source="#IGCyr2">IGCyr022400</ref>, <ref type="inscription" source="#IGCyr2">IGCyr017300</ref>, 
+                    <ref type="inscription" source="#IGCyr2">IGCyr096800</ref>).</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

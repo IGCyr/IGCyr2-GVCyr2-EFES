@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Caption</rs> for statues and <rs type="textType">dedication</rs> by a priest</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr018900</idno>
+                <idno type="number" subtype="second-edition">018900</idno>
+                <idno type="TM">106098</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr018900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr018900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr018900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> oblong <objectType>block</objectType> with a disk in relief on the inscrideb face, broken at left and right
+                                        (<dimensions>
+                                            <width>0.71</width>
+                                            <height>0.29</height>
+                                            <depth>0.20</depth>
+                                        </dimensions>); Laronde also noticed a moulding on the opposite side.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face which was decorated with disks (perhaps symbolizing shields), of which only one is preserved at right. The text was inscribed in the intervals, part A (ll. 1-2) in columns overlapping the disks if necessary, part B (l. 3) with one word in each interval (Rosamilia's suggestion).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.035" max="0.038">0.035-0.038</height>; slight serifs, pi with slightly projecting upper bar, rho with very small loop, non-slanting sigma, horse-shoe omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate evidence="lettering" notBefore="-0150" notAfter="-0101" precision="low">Perhaps second half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1928">
+                                    <p>Found in 1928 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, re-used in the late stairs in front of 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" notAfter="1980" resp="Laronde">
+                            <p>Seen by Laronde for the last time in 1980 placed on the exedra in front of Apollo's temple in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                        </provenance>
+                                <provenance type="observed" resp="Paci">
+                                    <p>Seen at an unknown date by G. Paci, probably at the same place.</p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">amended obs place</change>    
+            <change when="2023-06-09" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-13" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-02-01" who="CDL+HB">commentary, apparatus, lemma</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76901/3/igcyr018900-face.tiff.jpg" corresp="igcyr018900" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76901">Face of igcyr018900 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1930"/>, p. 225, n. <citedRange>43</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.95</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>018900</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#openo-jmr1978-1979"/>, pp. <citedRange>228-229</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>37.1676</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>107</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="section" n="A">
+                    <div type="textpart" subtype="interval" n="a">
+                        <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="interval" n="b">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                   <div type="textpart" subtype="interval" n="c">
+                       <div type="textpart" subtype="column" n="1">
+                       <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64096"><name nymRef="#Θεμίσων"><supplied reason="lost">Θ</supplied>εμίσων</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64504"><name type="patronymic" nymRef="#Κάλλιππος"><supplied reason="lost">Κ</supplied><unclear>α</unclear>λλίππω</name></persName></persName>
+                       </ab></div>
+                    <div type="textpart" subtype="column" n="2">
+                        <ab>
+                            <lb n="1"/><persName type="attested" key=""><name type="patronymic" nymRef="#Ἀριστ_">Ἀρισ<milestone unit="disk"/><supplied reason="lost">τ</supplied><gap reason="lost" extent="unknown" unit="character"/></name> 
+                            <lb n="2"/><persName type="attested" key=""><name nymRef="#Σῶσις">Σώ<milestone unit="disk"/><supplied reason="lost" cert="low">σιος</supplied></name></persName></persName>
+                        </ab></div></div></div>
+                <div type="textpart" subtype="interval" n="d">
+                    <ab>
+                        <lb break="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                            
+                    <div type="textpart" subtype="section" n="B">
+                        <div type="textpart" subtype="interval" n="a">
+                        <ab>
+                            <lb n="3"/><gap reason="lost"/>
+                        </ab></div>
+                            <div type="textpart" subtype="interval" n="b">
+                                <ab>
+                                    <lb n="3"/><gap reason="lost"/>
+                                </ab></div>
+                        <div type="textpart" subtype="interval" n="c">
+                            <ab>
+                                <lb n="3"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱα</supplied>ριτεύων</w></rs>.
+                            </ab></div>
+                        <div type="textpart" subtype="interval" n="d">
+                            <ab>
+                                <lb n="3"/><supplied reason="lost"><w lemma="ἀνατίθημι">ἀνέθηκε</w></supplied>
+                            </ab></div>       
+            </div></div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="A.c.1.1-2"><lem resp="#rosamilia2023"><supplied reason="lost">Θ</supplied>εμίσων | <supplied reason="lost">Κ</supplied><unclear>α</unclear>λλίππω</lem>
+                <rdg resp="#oliverio1930 #SEG #IGCyr"><supplied reason="lost">Θ</supplied>εμίσων | Ἀρίσ<supplied reason="lost">τιος</supplied></rdg>
+                </app>
+                    <app loc="A.c.2.1-2"><lem>Ἀρισ<milestone unit="disk"/><supplied reason="lost">τ</supplied><gap reason="lost" extent="unknown" unit="character"/> | Σώ<supplied reason="lost" cert="low">σιος</supplied></lem>
+                        <rdg resp="#rosamilia2023">Ἄρισ<milestone unit="disk"/><supplied reason="lost" cert="low">τις</supplied> | Σώ<supplied reason="lost" cert="low">σιος</supplied></rdg>
+                    <rdg resp="#oliverio1930 #SEG #IGCyr"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Κ</supplied><unclear>α</unclear>λλίππω, Σω<gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                    </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Untel fils d'Untel</supplied>, Themisôn fils de Kallippos, Arist<gap reason="lost"/> fils de Sô<supplied reason="lost" cert="low">sis</supplied>,
+                <supplied reason="lost">Untel fils d'Untel</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p> 
+            <p> <supplied reason="lost">Untel fils d'Untel</supplied>, durant sa prêtrise, <supplied reason="lost">a consacré</supplied> <supplied reason="subaudible">ce monument</supplied></p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">So-and-so son of So-and-so</supplied>, Themison son of Kallippos, Arist<gap reason="lost"/> son of So<supplied reason="lost" cert="low">sis</supplied>,
+                <supplied reason="lost">So-and-so son of So-and-so</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p> 
+            <p><supplied reason="lost">So-and-so son of So-and-so</supplied>, while being priest, <supplied reason="lost">dedicated</supplied> <supplied reason="subaudible">this monument</supplied></p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Un tale figlio d'Un tale</supplied>, Themison figlio di Kallippos, Arist<gap reason="lost"/> figlio di So<supplied reason="lost" cert="low">sis</supplied>,
+                <supplied reason="lost">Un tale figlio d'Un tale</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p> 
+            <p>B.<supplied reason="lost">Un tale figlio d'Un tale</supplied>, mentre era sacerdote, <supplied reason="lost">ha dedicato</supplied> <supplied reason="subaudible">questo monumento</supplied></p>
+         </div><div type="commentary">
+                
+                <p>The display of this mutilated text has escaped a clear interpretation until <bibl><ptr target="#rosamilia2023"/></bibl> noticed the larger space between line 2 and line 3 and a possible columnar display of the preserved part of lines 1-2.
+                    We should therefore have an inscription similar for instance to <ref type="inscription" source="#IGCyr2">IGCyr130300</ref>, consisting of two units: at lines 1-2, a series of names and father's names displayed in columns and sometimes overlapping the disks, provide the captions of images standing above on the 
+                    monument; at line 3, an independant sentence, cut on the whole width in the intervals between the disks, mentions the dedication.</p>
+             <p>The display now rectified cancels the relationship between names that had been formerly suggested (although with serious doubts by <bibl><ptr target="#marengo1991"/>, p. <citedRange>431</citedRange></bibl>). The only complete mention is that of 
+                 Themison son of Kallippos. For the second one, restitutions are not as easy as Rosamilia suggested. He is right in looking for a short father's name because of its first part indenting and Sosis seems a good candidate. However, Dobias-Lalou finds a little 
+                 hazardous to restore the name as Aristoteles on behalf of two mentioned homonyms <ref type="inscription" source="#IGCyr2">IGCyr065210</ref> i.92 who would be the grandfather (<ref type="inscription" source="#IGCyr2">IGCyr065210</ref> i.92) and the grandson (<ref type="inscription" source="#IGCyr2">IGCyr086400</ref>) of the present 
+                 man. That father's name at the genitive seems rather long for the supposed space in our inscription and names in Arist- are so numerous that the question should rather be left open. Besides, the date inferred by Rosamilia, between 200 and 180, would be rather high on behalf of the lettering.</p>
+            </div></body>
+    </text>
+</TEI>

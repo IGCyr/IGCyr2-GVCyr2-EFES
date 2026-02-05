@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Honours</rs> or <rs type="textType" cert="low">epitaph</rs> (?)</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr003</idno>
+                <idno type="number" subtype="second-edition">003</idno>
+                <idno type="TM">738899</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr003</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr003</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr003</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Probably <material>marble</material> <objectType>panel</objectType>, broken off at right
+                                        (<dimensions>
+                                            <width>0.095</width>
+                                            <height>0.09</height>
+                                            <depth>0.032</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in five lines.
+                                    </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.01" max="0.017">0.01 (ll. 2-5) and 0.017 (l. 1)</height>; alpha with low bar, slightly slanting mu, smaller omicron, much slanting sigma, widely open upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" precision="medium" cert="low">Perhaps fourth century BC</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" notAfter="1935" resp="oliverio">
+                            <p>Found by G. Oliverio before 1935 at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                exact findspot unrecorded.
+                            </p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by GVCyr team.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+               <change when="2023-02-05" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-07" who="Alice">It. translation; checked</change>
+            <change when="2017-02-25" who="CDL">tagged w and names, Fr. and Engl. translations overall check</change>
+            <change when="2014-04-21" who="CDL+HB">lemma, text, apparatus, biblio, commentary, translation</change>
+            <change when="2014-04-05" who="cdl">tagged metrics</change>
+            <change when="2014-02-28" who="CDL+HB">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76571/3/gvcyr003-face.tiff.jpg" corresp="gvcyr003" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76571">Face of gvcyr003 Honours or epitaph (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl> From †Oliverio's papers <ptr target="#gpc1961"/>, n. <citedRange>15</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.746</citedRange></bibl>;
+                    <bibl><ptr target="#SECir"/>, p. <citedRange>369</citedRange></bibl>;
+                    <bibl><ptr target="#peek1972"/>, n. <citedRange>2</citedRange></bibl>;
+                    <bibl><ptr target="#CEG"/>, n. <citedRange>681</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>003</citedRange></bibl>.
+                    
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+               
+                  <div type="textpart" subtype="text">
+                  <ab>
+                   <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἀριστι_"><seg part="I">Ἀριστι</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+                </div>
+                
+                <div type="textpart" subtype="verse">
+                <lg met="elegiac couplet">
+                   <l n="1" met="hexameter">
+                       <lb n="2"/><w lemma="μναμῆιον">μναμῆιον</w> <w part="I">τα</w> <seg met="-|+--|+--|+--|+±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                   <l n="2" met="pentameter">
+                           <lb n="3"/><w lemma="πᾶς">πάσαις</w> <w part="I">νικη</w> <seg met="+"><gap reason="lost" atLeast="1" atMost="4" unit="character"/></seg>
+                            <seg met="+--|+--|±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                   <l n="3" met="hexameter">
+                       <lb n="4"/><w lemma="εἰμι">ἦμεν</w> καὶ <w lemma="ὅδε">τόδ<supplied reason="lost">ε</supplied></w>
+                       <seg met="+--|+--|+--|+±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                   <l n="4" met="pentameter">
+                           <lb n="5"/><w lemma="σαμῆιον">σαμῆιον</w> <w lemma="εὐτυχία">εὐτ<unclear>υ</unclear><supplied reason="lost">χίας</supplied></w> 
+                       <seg met="+--|+--|±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+               </lg></div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2">
+                        <lem resp="#peek1972 #CEG">μναμῆιον</lem>
+                        <rdg resp="#gpc1961">μναμήϊον</rdg>
+                    </app>
+                    <app loc="2">
+                        <lem resp="#gpc1961 #CEG">τα<gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#peek1972">τά<supplied reason="lost">φωι ἀνδρὸς ἐφέστακ', ὅστις ὅτ' ἔζη</supplied></rdg>
+                    </app>
+                    <app loc="3">
+                        <lem resp="#gpc1961">νικη<gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#peek1972">νίκη <supplied reason="lost">πάντας ἑαῖς ἀρεταῖσι πολίτας·</supplied></rdg>
+                        <rdg resp="#CEG">νίκη <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="4">
+                        <lem resp="#SEG #SECir #CEG">ἦμεν</lem>
+                        <rdg resp="#gpc1961">ἷμεν</rdg>
+                        <rdg resp="#peek1972">ἠμὲν</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>τόδ<supplied reason="lost">ε</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#gpc1961"><orig>τοδ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#peek1972">τόδ<supplied reason="lost">ε γνοὺς καὶ κοινὸν χαῖρε προσείπας</supplied></rdg>
+                        <rdg resp="#CEG">τόδ<supplied reason="lost" cert="low">ε</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="5">
+                        <lem resp="#peek1972 #CEG">σαμῆιον</lem>
+                        <rdg resp="#gpc1961">σαμήϊον</rdg>
+                    </app>
+                    <app loc="5">
+                        <lem>εὐτ<unclear>υ</unclear><supplied reason="lost">χίας</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#gpc1961">εὐτ<unclear>υ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#peek1972">εὐτυ<supplied reason="lost">χῶν παρέρπ', ὁδοιπόρε.</supplied></rdg>
+                        <rdg resp="#CEG">Eὐτύ<supplied reason="lost">χ</supplied><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Aristi<gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>Mémorial de <gap reason="lost" extent="unknown" unit="character"/> victoire/ayant vaincu en toutes les <gap reason="lost" extent="unknown" unit="character"/> que ceci soit aussi <gap reason="lost" extent="unknown" unit="character"/> signe 
+                de sa réussite <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Aristi<gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>Memorial of <gap reason="lost" extent="unknown" unit="character"/> victory/having winned in all the <gap reason="lost" extent="unknown" unit="character"/> that this be also <gap reason="lost" extent="unknown" unit="character"/> sign 
+                of his success <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Aristi<gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>Memoriale di <gap reason="lost" extent="unknown" unit="character"/> vittoria/avendo vinto in tutte le <gap reason="lost" extent="unknown" unit="character"/> che questo sia anche <gap reason="lost" extent="unknown" unit="character"/> segno
+                del suo successo <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>أريستى [---]. نصب تذكاري [---]للنصر أو بعد الفوز في جميع ال[---] أن هذا يكون أيضًا [---] علامة على نجاحه [---].</p>
+         </div><div type="commentary">
+                
+                <p>For <foreign xml:lang="grc">μναμῆιον</foreign> and <foreign xml:lang="grc">σαμῆιον</foreign>, at ll. 2 and 5, instead of an epic reading with diaeresis, the reading of
+                    suffixe <foreign xml:lang="grc">ῆιο</foreign> as dissyllabic along with the dialect is more plausible. See <bibl><ptr target="#cdl2000"/>, pp. <citedRange>22-24</citedRange></bibl>.
+                Both words are placed so as to create a meaningful echo. Those words would well appear in a funerary context and Peek's restorations clearly rely on such an interpretation. 
+                However the support of funerary verse is normally a base or a stele. A panel might better fit a honorific monument.</p>
+                <p>At line 4, Hansen's idea in <bibl><ptr target="#CEG"/></bibl> of a personal name indicating the person responsible for the monument is interesting although not proved. 
+                <foreign xml:lang="grc">Εὔτυχος</foreign> is the only name attested for the Greek period of Cyrenaica. Altogether we prefer for metrical reason the abstract noun meaning  
+                    'good luck, success'. Jointly with the idea of 'victory' (either with the name or with the verb), they are connected to the double function of the inscription,
+                both intended to 'remember' and to 'give notice' of the deeds of Aristi[---]. The shape and dimensions might well fit the basis of one of the numerous 
+                reliefs with carriages of four horses that are now displayed in the Cyrene Museum.</p>
+                <p>Anyhow, the uncomplete personal name at line 1 was surely followed by the father's name. This shows that more than one half of each line of script is probably 
+                lost, whence a poem of four verses.</p>
+                <p>Metrical analysis: what we can say about those four lines is that they are all constituted of dactyls. We suppose that lines 3 and 5 were pentameters, but 
+                    hexameters are not impossible. In <foreign xml:lang="grc">σαμῆιον</foreign> the diphthong of the second syllable (see above) is abbreviated in the hiatus. Nothing compels to find a iambic structure for line 5 as did <bibl><ptr target="#peek1972"/></bibl> and differently Hansen 
+                    in <bibl><ptr target="#CEG"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

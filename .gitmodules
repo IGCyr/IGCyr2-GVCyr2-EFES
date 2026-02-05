@@ -1,4 +1,0 @@
-[submodule "webapps/ROOT/kiln/stylesheets/epidoc"]
-	path = webapps/ROOT/kiln/stylesheets/epidoc
-	url = https://github.com/EpiDoc/Stylesheets.git
-	branch = latest

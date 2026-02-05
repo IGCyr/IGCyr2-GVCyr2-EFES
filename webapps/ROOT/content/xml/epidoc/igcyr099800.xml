@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr099800</idno>
+                <idno type="number" subtype="second-edition">099800</idno>
+                <idno type="TM">738516</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr099800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr099800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr099800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">267</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary grey <material>marble</material> <objectType>block</objectType>, broken off at left and back, with front, right and upper faces well smoothed
+                                        (<dimensions>
+                                            <width atLeast="0.105">0.105</width>
+                                            <height>0.065</height>
+                                            <depth atLeast="0.145">0.145</depth>
+                                        </dimensions>); there is a circular hollow on the upper face.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face (a); line 2 extends on right face (b).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.012" max="0.015">0.012 to 0.015</height>; eta, iota, kappa and rho are taller than theta, nu, sigma, whereas omicron is still smaller; 
+                            epsilon with three short bars, dotted theta, nu shorter at right and leaning towards right.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0351" precision="medium">First half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: plausibly from the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by G. Pugliese Carratelli in 1960 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1976" rendition="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1976 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-23" who="CDL">overall check; Ital. translation</change>
+            <change when="2013-11-10" who="cdl">lemma, text, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change> 
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77358/3/igcyr099800-1-front%20face.tiff.jpg" corresp="igcyr099800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77358">Front face of igcyr099800 Dedication to Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77359/3/igcyr099800-2-squeeze.tiff.jpg" corresp="igcyr099800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77359">Squeeze of igcyr099800 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>150</citedRange> (photo)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>099800</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><milestone unit="block" n="a"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key=""><name nymRef="#_ωρ" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ορος</seg></name></persName></persName>
+                        <milestone unit="block" n="b"/><space extent="unknown" unit="character"/>
+                    <lb n="2"/><milestone unit="block" n="a"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><supplied reason="lost">Ἀπόλλω</supplied><unclear>ν</unclear>ι</name></persName> 
+                    <g type="punct">:</g> <w lemma="ἀνατίθημι">ἀνέθ<milestone unit="block" n="b"/>ηκε</w> <space extent="unknown" unit="character"/>	 
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ô</supplied>r a consacré <supplied reason="subaudible">ce monument</supplied>
+                <gap reason="lost" extent="unknown" unit="character"/> à Apollon.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">o</supplied>r dedicated <supplied reason="subaudible">this monument</supplied>         
+                <gap reason="lost" extent="unknown" unit="character"/> to Apollo.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">o</supplied>r ha dedicato <supplied reason="subaudible">questo monumento</supplied>         
+                <gap reason="lost" extent="unknown" unit="character"/> ad Apollo.</p>
+         </div><div type="commentary">
+                
+                <p>The ending -<foreign xml:lang="grc">ορος</foreign> can only be the genitive ending of a name in <foreign xml:lang="grc">ωρ</foreign>,
+                    presumably a compound in <foreign xml:lang="grc">-ανωρ</foreign>, father's name of the wholly lost name of the dedicant.</p>
+                <p>At line 2, the last three letters were cut on the right side, presumably by lack of space; however, for sake of symmetry, the line might perhaps have begun
+                with three letters cut on the lost left side. Anyway, the letters are much more pressed together at line 2 than at line 1, so that the space necessary for
+                the six lost letters of <foreign xml:lang="grc">Ἀπόλλωνι</foreign> would not allow to restore a name and part of a father's name at line 1. Thus
+                something else should have stood at the beginning of l. 2, perhaps naming the dedicated object, which micht be a basin.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

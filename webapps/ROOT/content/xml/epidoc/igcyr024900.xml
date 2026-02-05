@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr024900</idno>
+                <idno type="number" subtype="second-edition">024900</idno>
+                <idno type="TM">105924</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr024900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr024900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr024900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with double plain mouldings; 
+                                        lower right angle missing
+                                        (<dimensions>
+                                            <width>0.80</width>
+                                            <height>0.35</height>
+                                            <depth>0.58</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution">Inscribed</rs> between the mouldings (<dimensions>
+                                    <width>0.77</width>
+                                    <height>0.125</height>
+                                    <depth>0.50</depth>
+                                </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.04</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" precision="medium">Third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1911">
+                                    <p>Found by the Norton mission in 1911 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>, perhaps 
+                                       <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs> (Thorn).
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" resp="CDL" notAfter="1979">
+                            <p>Seen by C. Dobias-Lalou before 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in front of ancient <rs type="monuList" ref="https://www.slsgazetteer.org/934">Sculpture Museum</rs>.</p>
+                        </provenance>
+                                <provenance type="observed" when="2001-09-08" resp="CDL">
+                                    <p>Seen again by C. Dobias-Lalou on September 8th, 2001 in the new  <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-11-19" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-05-17" who="CDL">lemma, text markup, translation, apparatus</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+         </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76954/3/igcyr024900-face.tiff.jpg" corresp="igcyr024900" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76954">Face of igcyr024900 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, pp. 179-180, n. <citedRange>55</citedRange>, fig. 37</bibl>; 
+                    <bibl><ptr target="#oliverioDAI2"/>, p. 113, n. <citedRange>93</citedRange>, fig. 49</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.205</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>024900</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#beschi1970"/>, p. <citedRange>204</citedRange> (date of the base)</bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>138</citedRange> (probable provenance)</bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.64</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63721"><name nymRef="#Ἐπιτέλης">Ἐπιτέλης</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64906"><name nymRef="#Λῦσις" type="patronymic">Λύσιος</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><lem resp="#oliverioDAI2">Λύσιος</lem>
+                        <rdg resp="#robinson1913">Λυσίο<supplied reason="omitted">υ</supplied></rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Epitelès fils de Lysis.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Epiteles son of Lysis.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Epiteles figlio di Lysis.</p>
+            </div><div type="commentary">
+                
+                <p>Robinson had no information about the provenance. This seems to show that the base was found in situ by De Cou in 1911. As the Norton mission does not seem 
+                    to have explored other parts of the necropoleis, the Thorns supposed that the provenance is the North Necropolis and it is probably so.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Zeus Eri(nymenos?) and Hermes Dolios</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr001400</idno>
+                <idno type="number" subtype="second-edition">001400</idno>
+                <idno type="TM">738111</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr001400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr001400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr001400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>altar</objectType> with three compartments
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> below left (a) and central (b) compartments.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/>Eta for aspirate, archaic lambda.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0520" notAfter="-0501" precision="medium">End of the sixth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1935">
+                                    <p>Found in 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, 
+                                         while building the new portion of the <rs type="monuList" ref="https://www.slsgazetteer.org/1269">Road: Cyrene to Apollonia</rs>, just outside 
+                                        the city wall.</p>
+                                </provenance>
+                        
+                                <provenance type="not-observed">
+                                    <p>Not found.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2013-03-26" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2012-03-09" who="CDL+HB">lemma, text edited, translation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76675/3/igcyr001400-face.tiff.jpg" corresp="igcyr001400" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1929"><ref target="http://hdl.handle.net/20.500.14008/76675">Face of igcyr001400 Dedication to Zeus Eri(.) and Hermes</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>154</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1970"/>, pp. 241, 244-245, n. <citedRange>8</citedRange></bibl>, whence
+                 <bibl><ptr target="#SEG"/>, <citedRange>37.1673</citedRange></bibl>;
+                 <bibl><ptr target="#cdl1987a"/>, p. <citedRange>89</citedRange></bibl>;
+                  <bibl><ptr target="#bevilacqua2009"/>, pp. <citedRange>240-244</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>001400</citedRange></bibl>.</p>
+            
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+               
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                    <lb n="1"/>το͂ <persName type="divine" ref="#Zeus_Erinymenos"><name nymRef="#Ζεύς"><expan><abbr>Ζε̄</abbr><ex>νός</ex></expan></name>
+                    <lb n="2"/>το͂ <rs type="epithet" key="Erinymenos"><name nymRef="#Ἐρινύμενος"><expan><abbr>Ἐρι</abbr><ex cert="low">νυμένō</ex></expan></name></rs></persName>
+                    </ab>
+                </div>
+               
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                    <lb n="3"/>το͂ <persName type="divine" ref="#Hermes_Dolios"><name nymRef="#Ἑρμᾶς">hερμᾶ</name>
+                    <lb n="4"/>το͂ <rs type="epithet" key="Dolios"><name nymRef="#Δόλιος">Δολίō</name></rs></persName>
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                    <p><app loc="a.1"><lem resp="#SECir">το͂ <expan><abbr>Ζε̄</abbr><ex>νός</ex></expan></lem> <note>Pugliese</note>
+                        <rdg resp="#SECir"><choice><reg>τόδε</reg><orig>τόζε</orig></choice></rdg>
+                     </app> 
+                    <app loc="a.2"><lem resp="#cdl1987a"><expan><abbr>Ἐρι</abbr><ex>νυμένō</ex></expan></lem>
+                        <rdg resp="#SECir"><expan><abbr>Ἐρι</abbr><ex>ōνίō</ex></expan> <note>Pugliese</note></rdg>
+                    </app>
+                    <app loc="a.1+b.1"><rdg resp="#bevilacqua2009">τόζε το͂  hερμᾶ <note>read horizontally</note></rdg>
+                    </app>
+                    <app loc="a.2+b.2"><rdg resp="#bevilacqua2009">το͂ ἐρι(ουνίō), το͂ δολίō <note>read horizontally</note></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>a: <supplied reason="subaudible">Autel</supplied> de Zeus Éri<ex cert="low">nyménos</ex>.</p>
+            <p>b: <supplied reason="subaudible">Autel</supplied> d'Hermès Dolios.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>a: <supplied reason="subaudible">Altar</supplied> of Zeus Eri<ex cert="low">nymenos</ex>.</p>
+            <p>b: <supplied reason="subaudible">Altar</supplied> of Hermes Dolios.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>a: <supplied reason="subaudible">Altare</supplied> di Zeus Eri<ex cert="low">nymenos</ex>.</p>
+            <p>b: <supplied reason="subaudible">Altare</supplied> di Hermes Dolios.</p>
+            </div><div type="commentary">
+                
+                <p>At a.1 <foreign xml:lang="grc">τόζε</foreign>, supposed by Pugliese Carratelli to be a variant of <foreign xml:lang="grc">τόδε</foreign> does not match the dialect 
+                    (see <bibl><ptr target="#cdl2000"/>, pp. <citedRange>55-58</citedRange></bibl>).</p>
+                <p>At a.2:<foreign xml:lang="grc">Ἐριούνιος</foreign> is known for Hermes but never for Zeus. That is Bevilacqua's main argument for neglecting the
+                    vertical stroke dividing the inscription and to read our lines a.1 and b.1 together. However, this vertical stroke is in exact correspondance with the limit between the
+                    left and the central compartments of the altar. That is why Dobias-Lalou proposed an abbreviation of <foreign xml:lang="grc">Ἐρινύμενος</foreign>, a supposed epithet of 
+                    Zeus passed on with slight corruption into Hesychius' <foreign xml:lang="grc">Ἐλινύμενος· Ζεὺς ἐν Κυρήνῃ</foreign>, which has no etymology.</p>
+            </div></body>
+    </text>
+</TEI>

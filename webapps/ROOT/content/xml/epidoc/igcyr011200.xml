@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Document including a <rs type="textType">will</rs> of Ptolemy VIII Euergetes II</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr011200</idno>
+                <idno type="number" subtype="second-edition">011200</idno>
+                <idno type="TM">5988</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr011200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr011200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr011200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">80</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>stele</objectType> slightly tapering; 
+                                        on top, a triangular pediment with acroteria; below, a plain moulding
+                                        (inscribed face 
+                                        <dimensions>
+                                            <width atLeast="0.34" atMost="0.39">0.34-0.39</width>
+                                            <height>1.33</height>
+                                            <depth atLeast="0.068" atMost="0.102">0.068-0.102</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> between the pediment and the moulding; excellent state of preservation.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.01" atMost="0.013">0.01-0.013</height>; very carefully cut, although with some corrections; slightly apicated, rather later than the historical date.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="internal-date" notBefore="-0155" notAfter="-0154">155 or 154 BC <note>see commentary</note></origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1929-08-24">
+                                    <p>Found on August 24th, 1929 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, on the retaining wall between two terraces, 
+                                        West of <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2010-06-10" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou on June 10th, 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-31" who="CDL">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-26" who="Alice">checked; Italian translation</change>
+            <change when="2016-07-28" who="CDL">added lemmata in words</change>
+            <change when="2015-04-18" who="CDL">French and English translations</change>
+            <change when="2014-04-11" who="Alice">numbering of lines changed and vacat added at ll. 23, 28</change>
+            <change when="2013-12-10" who="HellasLabUnibo">minor changes in tagging of lemma, bibliography, text and commentary</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-06" who="CDL+HB">lemma, text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76790/3/igcyr011200-face.tiff.jpg" corresp="igcyr011200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76790">Face of igcyr011200 Will of Ptolemy VIII</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, pp. <citedRange>11-84</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.7</citedRange></bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#wilcken1932"/><citedRange/></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>440-442</citedRange></bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>38.1883</citedRange></bibl>;
+                    <bibl><ptr target="#sherk1984"/>, pp. 30-31, n. <citedRange>31</citedRange></bibl>, and
+                    <bibl><ptr target="#lampela1998"/>, pp. <citedRange>166-175</citedRange></bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>48.2056</citedRange></bibl>;
+                    <bibl><ptr target="#laronde2002"/><citedRange/></bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>52.1836</citedRange></bibl>;
+                    <bibl><ptr target="#criscuolo2011"/><citedRange/></bibl> and 
+                    <bibl> <ptr target="#cdlBE"/>, <citedRange>2012.503</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>61.1551</citedRange></bibl>;
+                        <bibl><ptr target="#IGCyr"/> <citedRange>011200</citedRange></bibl>;
+                    <bibl><ptr target="#grzybek2017"/>, pp. <citedRange>31-67</citedRange></bibl>, whence 
+                        <bibl><ptr target="#SEG"/> <citedRange>68.1751</citedRange></bibl>.
+               </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><date calendar="cyrenaean" when-iso="-0155"><w lemma="ἔτος">Ἔτους</w> <num type="ordinal" value="15"><w lemma="πεντεκαιδέκατος">πεντεκαιδεκάτου</w></num>, 
+                        <w lemma="μήν">μηνὸς</w> <rs type="month" nymRef="#Λῶιος" key="Loios">Λώιου</rs></date>.
+                    <lb n="2"/><persName type="divine" ref="#Agathe_Tyche"> <rs type="epithet" key="Agathe"><w lemma="ἀγαθός">Ἀγαθῆι</w></rs> <name nymRef="Τύχη">Τύχηι</name></persName>. <w lemma="ὅδε">Τάδε</w> 
+                        <w lemma="διατίθημι">διέθετο</w> <w lemma="βασιλεύς">βασιλεὺς</w>
+                    <lb n="3"/><persName type="ruler" key="Ptolemy VIII"><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name></persName> 
+                    <persName type="ruler" key="Ptolemy V and Cleopatra I"><w lemma="βασιλεύς">βασιλέως</w> <persName type="ruler" key="Ptolemy V"><name type="patronymic" nymRef="#Πτολεμαῖος">Πτολεμαίου</name></persName>
+                    <lb n="4"/>καὶ <w lemma="βασίλισσα">βασιλίσσης</w> <persName type="ruler" key="Cleopatra I"><name type="patronymic" nymRef="#Κλεοπάτρα">Κλεοπάτρας</name></persName>, <rs type="epithet" key="Theoi Epiphaneis"><w lemma="θεός">θεῶν</w>
+                    <lb n="5"/><w lemma="ἐπιφανής">Ἐπιφανῶν</w></rs></persName>, ὁ <w lemma="νέος">νεώτερος</w>, <w lemma="ὅς1" type="relative">ὧν</w> καὶ τὰ <w lemma="ἀντίγραφον">ἀντίγραφα</w>
+                    <lb n="6"/><w>εἰς</w> <placeName type="city" nymRef="#Ῥώμη">Ῥώμην</placeName> <w lemma="ἐξαποστέλλω">ἐξαπέσταλται</w>. <w lemma="εἰμι">Εἴη</w> μέν <w lemma="ἐγώ">μοι</w>
+                    <lb n="7"/><w lemma="μετά">μετὰ</w> τῆς τῶν <w lemma="θεός">θεῶν</w> <w lemma="εὐμένεια">εὐμενείας</w> <w lemma="μετέρχομαι">μετελθεῖν</w>
+                    <lb n="8"/><w>καταξίως</w> τοὺς <w lemma="συνίστημι">συστησαμένους</w> <w lemma="ἐπί">ἐπὶ</w> μὲν
+                    <lb n="9"/>τὴν <w lemma="ἀνόσιος">ἀνόσιον</w> <w lemma="ἐπιβουλή">ἐπιβουλὴν</w> καὶ <w lemma="προαιρέω">προελομένους</w>
+                    <lb n="10"/>μὴ <w>μόνον</w> <del rend="erasure">oν</del> τῆς <w lemma="βασιλεία">βασιλείας</w>, <w lemma="ἀλλά">ἀλλὰ</w> καὶ
+                    <lb n="11"/>τοῦ <w lemma="ζάω">ζῆν</w> <w lemma="στερέω">στερῆσαί</w> <w lemma="ἐγώ">με</w>· <w lemma="ἐάν">ἐὰν</w> δέ <w lemma="τις">τι</w> <w lemma="συμβαίνω">συμβαίνηι</w>
+                    <lb n="12"/>τῶν <w lemma="κατά">κατ’</w> <w lemma="ἄνθρωπος">ἄνθρωπον</w> <w>πρότερον</w> ἢ <w lemma="διάδοχος">διαδόχους</w>
+                    <lb n="13"/><w lemma="ἀπολείπω">ἀπολιπεῖν</w> τῆς <w lemma="βασιλεία">βασιλείας</w>, <space quantity="1" unit="character"/> <w>καταλείπω</w>
+                    <lb n="14"/><placeName type="ethnic" nymRef="#Ῥωμαῖος">Ῥωμαίοις</placeName> τὴν <w lemma="καθήκω">καθήκουσάν</w> <w lemma="ἐγώ">μοι</w> <w lemma="βασιλεία">βασιλείαν</w>,
+                    <lb n="15"/><w lemma="ὅς1" type="relative">οἷς</w> <w lemma="ἀπό">ἀπ’</w> <w lemma="ἀρχή">ἀρχῆς</w> τήν τε <w lemma="φιλία">φιλίαν</w> καὶ τὴν
+                    <lb n="16"/><w lemma="συμμαχία">συμμαχίαν</w> <w>γνησίως</w> <w lemma="συντηρέω">συντετήρηκα</w>·
+                    <lb n="17"/>τοῖς δ’ <w lemma="αὐτός">αὐτοῖς</w> <w lemma="παρακατατίθημι">παρακατατίθεμαι</w> τὰ <w lemma="πρᾶγμα">πράγματα</w>
+                    <lb n="18"/><w lemma="συντηρέω">συντηρεῖν</w>, <w lemma="ἐνεύχομαι">ἐνευχόμενος</w> <w>κατά</w> τε τῶν <w lemma="θεός">θεῶν</w>
+                    <lb n="19"/><w lemma="πᾶς">πάντων</w> καὶ τῆς <w lemma="ἑαυτοῦ">ἑαυτῶν</w> <w lemma="εὐδοξία">εὐδοξίας</w>, <w lemma="ἐάν">ἐάν</w> <w lemma="τις">τινες</w>
+                    <lb n="20"/><w lemma="ἔπειμι2">ἐπίωσιν</w> ἢ ταῖς <w lemma="πόλις">πόλεσιν</w> ἢ τῆι <w lemma="χώρα">χώραι</w>, <w lemma="βοηθέω">βοηθεῖν</w>
+                    <lb n="21"/><w lemma="κατά">κατὰ</w> τὴν <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμμαχία">συμμαχίαν</w> τὴν <w lemma="πρός"><del rend="erasure">πρὸς</del></w>
+                    <lb n="22"/><w lemma="πρός">πρὸς</w> <w lemma="ἀλλήλων">ἀλλήλους</w> <w lemma="ἡμεῖς">ἡμῖν</w> <w lemma="γίγνομαι">γενομένην</w> καὶ τὸ
+                    <lb n="23"/><w lemma="δίκαιος">δίκαιον</w> <w lemma="πᾶς">παντὶ</w> <w lemma="σθένος">σθένει</w>. <space atLeast="6" atMost="8" unit="character"/>
+                    <lb n="24"/><w lemma="μάρτυς">Μάρτυρας</w> δὲ <w lemma="οὗτος">τούτων</w> <w lemma="ποιέω">ποιοῦμαι</w> <persName type="divine" ref="#Zeus_Kapetolios"><name nymRef="#Ζεύς">Δία</name> τε τὸν
+                    <lb n="25"/><rs type="epithet" key="Kapetolios"><name nymRef="#Καπετώλιος">Καπετώλιον</name></rs></persName> καὶ τοὺς <persName type="divine" ref="#Megaloi_Theoi"><w lemma="μέγας">Μεγάλους</w>
+                        <w lemma="θεός">θεοὺς</w></persName>
+                    <lb n="26"/>καὶ τὸν <persName type="divine" ref="#Helios"><name nymRef="#Ἥλιος">Ἥλιον</name></persName> καὶ τὸν <persName type="divine" ref="#Apollo_Archegetes"><rs type="epithet" key="Archegetes"><name nymRef="#Ἀρχηγέτης">Ἀρχηγέτην</name></rs> 
+                        <name nymRef="#Ἀπόλλων">Ἀπόλλωνα</name></persName>,
+                    <lb n="27"/><w lemma="παρά">παρ’</w> <w lemma="ὅς1" type="relative">ὧι</w> καὶ τὰ <w lemma="περί">περὶ</w> <w lemma="οὗτος">τούτων</w> <w lemma="ἀνιερόω">ἀνιέρωται</w> <w lemma="γράμμα">γράμματα</w>.
+                    <lb n="28"/><space quantity="6" unit="character"/> <persName type="divine" ref="#Agathe_Tyche"><name nymRef="#Τύχη">Τύχηι</name> τῆι <rs type="epithet" key="Agathe"><w lemma="ἀγαθός">Ἀγαθῆι</w></rs></persName>. <space quantity="10" unit="character"/>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>L'an quinze, mois Lôios. A la bonne fortune! Voici les dispositions du roi Ptolémée le Jeune, fils du roi Ptolémée et de la reine Cléopatre, Dieux Epiphanes,
+            dispositions dont une copie a été expédiée à Rome. Qu'il me soit donné, avec la faveur divine, de poursuivre ceux qui ont tramé le complot impie contre ma personne et 
+            se sont proposé de me priver (10) non seulement de la royauté, mais aussi de la vie. Toutefois si vient à se produire une des vicissitudes de la condition humaine avant que je 
+            ne laisse des successeurs à la royauté, je lègue le royaume que je possède aux Romains, dont j'ai gagné dès l'origine et préservé avec sincérité l'amitié et l'alliance. 
+            C'est à eux que je lègue le soin de préserver l'Etat, en les conjurant, au nom de tous les dieux et de leur propre gloire: puissent-ils, si (20) les cités ou le territoire
+            viennent à être attaqués, leur porter secours de toutes leurs forces, conformément à l'amitié et à l'alliance établies entre nous et en accord avec la justice.
+            J'en prends à témoins Zeus Capitolin, les Grand Dieux, Hélios et Apollon Archégète, auprès de qui la présente inscription a été consacrée. A la bonne fortune! 
+            </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Year fifteen, month Loios. To the good fortune! This is the will of king Ptolemy the Younger, son of king Ptolemy and of queen Cleopatra, Gods Epiphaneis,
+            of which will a copy has been sent to Rome. Should it be given to me, with divine help, to worthy pursue those who plotted the impious conspiracy and intended to deprive 
+            me (10) not only of kingship but also of life. However, if one of the human vicissitudes should happen before I would leave successors for kingship, I bequeath the 
+            kingdom that I own to the Romans, whose friendship and alliance I gained from the beginning and preserved genuinely. To them I bequeath the duty of preserving the
+            state, while conjuring them in the name of all gods and of their own glory: should they, if (20) the cities or the territory should be assaulted, help them with full might 
+            in observance of the friendship and alliance existing between us and in accordance with justice. Of this I call as witnesses Zeus Capitolinus, the Great Gods, 
+            Helios and Apollo Archegetes, near whom the present inscription has been dedicated. To the good fortune! 
+            </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Anno quindici, mese di Loios. Alla buona fortuna! Così ha fatto testamento il re Tolemeo il Giovane, figlio del re Tolemeo e della regina Cleopatra, Dèi Epifani,
+                la cui copia è stata inviata a Roma. Possa io, con l'aiuto divino, perseguire degnamente quanti hanno tramato il complotto empio contro di me e si sono proposti di privarmi 
+                non solo del regno, ma anche della vita. Se, comunque, si verifica una delle vicissitudini della condizione umana prima che io possa lasciare successori al regno, lascio
+                il regno che possiedo ai Romani, la cui amicizia e alleanza ho guadagnato dall'inizio e conservato con sincerità. 
+                È a loro che lascio il compito di preservare lo Stato, implorandoli, in nome di tutti gli dèi e della loro gloria: se le città o il territorio dovessero essere attaccati, portino soccorso
+                con tutte le loro forze in conformità con l'amicizia e l'alleanza esistente tra noi e in accordo con la giustizia.
+                Testimoni di questo nomino Zeus Capitolino, gli Dèi Grandi, Helios e Apollo Archegetes, presso il quale la presente iscrizione è stata consacrata. Alla buona fortuna!
+                
+               
+            </p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>السنة الخامسة عشرة ، شهر لوس (يوليو). للحظ الجيد! هذه هي وصية الملك بطليموس الأصغر، ابن الملك بطليموس والملكة كليوباترا، الآلهة الظاهرون (المشهورون) ، والتي كانت قد أرسلت نسخة منها إلى روما. أينبغي أن تُمنح لي، بمساعدة إلهية، الجدارة لأُطارد أولئك الذين خططوا لمؤامرة دنيئة وكانوا يعتزمون حرماني ليس فقط من الملكية ولكن أيضًا من الحياة؟ لكن، إذا حدثت إحدى التقلبات البشرية (تغير للأحداث بتدخل من البشر) قبل أن أترك خلفاء للمملكة، فإني أترك المملكة التي أمتلكها للرومان، الذين اكتسبت الصداقة والتحالف معهم منذ البداية وحافظت عليهما بأمانة. أترك إليهم واجب الحفاظ على الدولة،  في الوقت الذي أستحضرهم (أتوسل إليهم) باسم جميع الآلهة (المؤلهين) وباسم أمجادهم الخاصة، أن يساعدوهم بكل ما يملكون، في حال هُجمت المدن أو الإقليم، أخذين بعين الاعتبار الصداقة والتحالف القائم بيننا بموجب للعدالة. وأُشهد زيوس الكابيتولني والآلهة (المؤلهين) العُظمى وهيليوس (إله الشمس) وأبولو آرخيقيتيس على هذه الوصية الذين وضعت إلى جانبهم النقش الحالي. للحظ الجيد!</p>
+            </div>
+            <div type="commentary">
+                
+                <p><bibl><ptr target="#criscuolo2011"/></bibl> shows that the formulation of the will and the titles of the king have not the usual form and suspects this document to have been engraved as a justification 
+                    of Roman power over Cyrenaica. The lettering is not contrary to that hypothesis.</p>
+                <p>Additional commentary for the second edition: <bibl><ptr target="#grzybek2017"/></bibl>, on his part, insists on the inclusion of the will into a political declaration justifying Cyrenaica passing under 
+                Roman power and, taking line 1 as belonging to the will, shows that it is labelled in the Macedonian calender and corresponds to the early spring of 154 BC.</p>
+                <p>Anyhow, it was chosen to maintain this inscription in this collection, as belonging to the Hellenistic period, instead of tranferring it to <ref type="inscription">IRCyr</ref> because of the supposed date of its content.</p>
+                <p>Details about the exact placement against the retaining wall are given by <bibl><ptr target="#parisipresicce2007a"/>, pp. <citedRange>498-500</citedRange></bibl>. </p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

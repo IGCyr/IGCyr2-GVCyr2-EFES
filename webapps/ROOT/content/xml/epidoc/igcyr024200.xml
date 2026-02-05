@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="textType" cert="low">Private honors</rs> or <rs type="textType" cert="low">epitaph</rs></title>
+                <title><rs type="textType" cert="low">Private honours</rs> or <rs type="textType" cert="low">epitaph</rs></title>
                 <editor>Inscriptions of Greek Cyrenaica</editor>
             </titleStmt>
             <publicationStmt>
-                <authority/>
-                <idno type="filename">IGCyr024200</idno>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr024200</idno>
+                <idno type="number" subtype="second-edition">024200</idno>
+                <idno type="TM">738255</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr024200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr024200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr024200</idno>
+
+
                 <availability>
-                    <p><ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="http://doi.org/10.6092/UNIBO/IGCYRGVCYR">http://doi.org/10.6092/UNIBO/IGCYRGVCYR</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -21,25 +27,16 @@
                         <repository>Cyrene Museum</repository>
                         <idno type="invNo">23</idno>
                     </msIdentifier>
-                    <msContents>
-                        <summary corresp="document-search.xml#doc21 document-search.xml#doc2">
-                            <seg>Honorary.</seg>
-                            <seg>Epitaph.</seg>
-                        </summary>
-                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p>White <material ref="material-search.xml#m1">marble</material>
-                                        <objectType ref="monument-search.xml#mon12">base</objectType> 
-                                        with plain mouldings, slightly chipped off; two footprints on top
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings, slightly chipped off; two footprints on top
                                         (dimensions unknown).</p>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face between mouldings
-                                    (<dimensions><height>0.13</height><width>0.33</width></dimensions>).</layout>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face between mouldings (<dimensions><height>0.13</height><width>0.33</width></dimensions>).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -49,17 +46,21 @@
                     <history>
                         <origin>
                             <origPlace>Findspot.</origPlace>
-                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of the fourth century B.C.</origDate>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of the fourth century BC</origDate>
                         </origin>
-                        <provenance type="found">
+                        
+                            
+                                <provenance type="found">
                                     <p>Found at an unknown date at
-                                        <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/373778" key="http://www.slsgazetteer.org/909">Cyrene</placeName>: purported from
-                                        <rs type="monuList" key="http://www.slsgazetteer.org/1074" ref="...">Necropolis</rs> (see commentary).
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: purported from
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs> (see commentary).
                                    </p>
                                 </provenance>
                                 <provenance type="observed" when="1979-04-25" resp="CDL">
-                                    <p>Seen by C. Dobias-Lalou on April 25th, 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/" key="Shahat">Shahat</placeName>: <rs type="monuList" key="http://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                    <p>Seen by C. Dobias-Lalou on April 25th, 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
                                 </provenance>
+                            
+                        
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,12 +100,15 @@
                         <geogName type="modernCountry" key="LY">Libya</geogName>
                     </term>
                     <term>
-                        <placeName type="modernFindspot" ref="http://www.geonames.org/" key="Shahat">Shahat</placeName>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
                     </term>
                 </keywords>
             </textClass>
         <creation>Transcription from stone (CDL).</creation></profileDesc>
         <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
             <change when="2017-03-31" who="Alice">checked</change>
             <change when="2014-11-05" who="HellasLabUnibo">checked, updated and in case corrected</change>
             <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
@@ -113,54 +117,38 @@
             <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <surface>
-            <graphic url="igcyr024200-1.jpg" n="1">
-                <desc>Face of igcyr024200 Epitaph (?). Dobias-Lalou, C. Face of igcyr024200 Epitaph (?), 1979, Mission Archéologique Française.</desc>
-            </graphic>
-            <graphic url="igcyr024200-2.jpg" n="2">
-                <desc>Drawing of igcyr024200 Epitaph (?). Dobias-Lalou, C. Drawing of igcyr024200 Epitaph (?), 1979, Mission Archéologique Française.</desc>
-            </graphic>
-        </surface>
-    </facsimile>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76940/3/igcyr024200-1-face.tiff.jpg" corresp="igcyr024200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/76940">Face of igcyr024200 Epitaph (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76941/3/igcyr024200-2-drawing.tiff.jpg" corresp="igcyr024200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/76941">Drawing of igcyr024200 Epitaph (?)</ref></desc></graphic></facsimile>
     <text>
-        <body>
-           
-            <div type="bibliography">
-                <head>Bibliography</head>
+        <body><div type="bibliography">
+                
                 <p>
-                    <bibl><ptr target="#oliverioDAI2"/>Oliverio in DAI 2,  p. 111, n. <citedRange>86</citedRange>, fig. 42</bibl>, whence 
-                    <bibl><title>SEG</title>, <citedRange>9.198</citedRange></bibl>. 
-                    Cf. <bibl><ptr target="#beschi1970"/>Beshi 1970, p. <citedRange>204</citedRange> (date of the base)</bibl>;
-                    <bibl><ptr target="#dthorn-thorn2009"/>D. &amp; J. Thorn, p. <citedRange>139</citedRange></bibl>.</p>
-            </div>
-           
-            <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <bibl><ptr target="#oliverioDAI2"/>,  p. 111, n. <citedRange>86</citedRange>, fig. 42</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.198</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>024200</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#beschi1970"/>, p. <citedRange>204</citedRange> (date of the base)</bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>139</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
                 <ab>
-                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ξεναρίστα">Ξεναρίστα</name> 
-                            <persName type="attested" key=""><name type="patronymic" nymRef="#Πρατομήδης">Πρατομήδευς</name></persName></persName>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65184"><name nymRef="#Ξεναρίστα">Ξεναρίστα</name> 
+                            <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65483"><name type="patronymic" nymRef="#Πρατομήδης">Πρατομήδευς</name></persName></persName>
 	 </ab>
-            </div>
-            <div type="apparatus" xml:space="preserve">
-            <head>Apparatus</head>
+            </div><div type="apparatus" xml:space="preserve">
+            
                 <p/>
- </div>
-            <div type="translation" xml:lang="fr" xml:space="preserve">
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
             <p>Xenarista fille de Pratomédès.</p>
-            </div>
-            <div type="translation" xml:lang="en" xml:space="preserve">
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
             <p>Xenarista daughter of Pratomedes.</p>
-         </div>
-            <div type="translation" xml:lang="it" xml:space="preserve">
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
             <p>Xenarista figlia di Pratomedes.</p>
-            </div>
-            <div type="commentary">
-                <head>Commentary</head>
+            </div><div type="commentary">
+                
                 <p>Oliverio (followed by Beschi and the Thorns) said that the base came from a necropolis, but the footprints on top are uncommon for a funerary use. 
-                    It might rather be private honors.</p>
+                    It might rather be private honours.</p>
 	<p/>
 	<p/>
-            </div>
-        </body>
+            </div></body>
     </text>
 </TEI>

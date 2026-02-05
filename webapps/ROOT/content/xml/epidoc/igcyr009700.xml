@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr009700</idno>
+                <idno type="number" subtype="second-edition">009700</idno>
+                <idno type="TM">105900</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr009700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr009700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr009700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lid of <material>rock</material>-cut <objectType>sarcophagus</objectType>,
+                                        <material>limestone</material>
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution">Inscribed</rs> on the sloping side of the lid, in a shallow recess: 
+                                    <dimensions>
+                                        <width>1</width>
+                                    <height>0.56</height></dimensions> <note>measured from the photograph</note>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.08</height>, very regularly cut; still slightly slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0101" precision="medium">Third to second centuries BC</origDate>
+                        </origin>
+                        
+                            
+                            <provenance type="found" resp="De Cou" when="1911">
+                                    <p>First seen by H.F. De Cou in 1911 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, on terrace above and west of tomb N 22.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1954" resp="Cassels">
+                                    <p>Seen by J. Cassels in 1954 in situ.</p>
+                                </provenance>
+                            <provenance type="observed" notAfter="2006" resp="Thorn">
+                                <p>Seen before 2006 by the Thorns in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.</p>
+                            </provenance>
+                            <provenance type="not-observed">
+                                <p>Not found by IGCyr team.</p>
+                            </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-10-23" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-02" who="CDL">lemma, text markup, translation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76773/3/igcyr009700-view.tiff.jpg" corresp="igcyr009700" decls="#photograph"><desc resp="Thorn, D." source="IRCyr project" n="1998-2006"><ref target="http://hdl.handle.net/20.500.14008/76773">View of igcyr009700 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, n. <citedRange>23</citedRange>, fig. 16</bibl>, whence 
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5878</citedRange></bibl>; 
+                    <bibl><ptr target="#DGE"/> <citedRange>231,3</citedRange></bibl>;
+                    <bibl><ptr target="#cassels1955"/>, p. <citedRange>10</citedRange></bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>31</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>009700</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Νεῦσσις">Νεῦσσις</name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem>Νεῦσσις</lem>
+                    <rdg resp="#robinson1913"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65089"><name>Νευσσίς</name></persName></rdg>
+                </app></p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Neussis.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Neussis.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Neussis.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>نيوسيس.</p>
+         </div><div type="commentary">
+                
+                <p>The name should be read as a masculine with recessive accent <foreign xml:lang="grc">Νεῦσσις</foreign>. Contra Robinson (with explanation in the 
+                addenda and corrigenda) and <bibl><ptr target="#fraser-matthews1987"/>, p. <citedRange>126</citedRange></bibl>, who thought it to be a women's name.
+                Whereas masculine names are commonly built with a suffix <foreign xml:lang="grc">-ι-</foreign> in Cyrenaica, feminine names in <foreign xml:lang="grc">-ίδ-</foreign>
+                are quite unknown before the end of the Hellenistic period. And this is the more so that <foreign xml:lang="grc">Νεῦσσος</foreign> is usual in the region.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

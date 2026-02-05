@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to all gods and <rs type="textType">honours</rs> for a Cyrenaean citizen</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr033900</idno>
+                <idno type="number" subtype="second-edition">033900</idno>
+                <idno type="TM">47897</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr033900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr033900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr033900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Tulmeita Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with a hole on top; for a later use the base has been recut and the former inscribed side has two footprints for another statue
+                                        (<dimensions>
+                                            <width atLeast="0.58">0.58-</width>
+                                            <height>0.33</height>
+                                            <depth>0.78</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.033</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>.</origPlace>
+                            <origDate evidence="titulature" notBefore="-0150" notAfter="-0101" precision="medium">Second half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1915">
+                                    <p>Found before 1915 in
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>: South of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/983">Fortress of the Dux</rs>, in which it had probably been re-used.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1976 in <placeName type="modernSpot" ref="http://www.geonames.org/89183">Ţulmaythah</placeName>, in front of the <rs type="monuList" ref="https://www.slsgazetteer.org/1096">Tolmeita Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2021-12-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2015-04-13" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-02" who="cdl">lemma, text, apparatus, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77048/3/igcyr033900-view.tiff.jpg" corresp="igcyr033900" decls="#photograph"><desc resp="Laronde, A." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77048">View of igcyr033900 Dedication and private honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ghislanzoni1915"/>, pp. 151-152, n. <citedRange>1</citedRange>, fig. 41</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.359</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>418-419</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1903</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>033900</citedRange></bibl>.</p>                    
+                    <p>Cf. <bibl><ptr target="#PP"/> <citedRange>15090</citedRange></bibl>;
+                    <bibl><ptr target="#bagnall1976"/>, p. <citedRange>34</citedRange></bibl>;
+                    <bibl><ptr target="#moretti1977"/>, p. <citedRange>363</citedRange></bibl>; 
+                    <bibl><ptr target="#paci1989"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>39.1718</citedRange></bibl>; 
+                    <bibl><ptr target="#zimmermann1999"/> esp. p. <citedRange>140</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>49.2504</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="#_νης" type="patronymic"><seg part="F">νους</seg></name></persName> <placeName type="ethnic" nymRef="#Κυρηναῖος">Κυρηναῖον</placeName>,
+                    <lb n="2"/><rs type="aulic" key="syggenes"><w lemma="συγγενής"><supplied reason="lost">συγγενῆ</supplied></w></rs> <supplied reason="lost">καὶ</supplied> 
+                    <rs type="office" key="strategos"><w lemma="στρατηγός"><supplied reason="lost">σ</supplied>τρατηγὸν</w></rs> τῶν <w lemma="κατά">κατὰ</w>
+                    <lb n="3"/><supplied reason="lost" evidence="parallel"><placeName type="country" nymRef="#Λιβύη">Λιβύην</placeName></supplied> <w lemma="τόπος"><supplied reason="lost">τόπω</supplied>ν</w> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-61355"><name nymRef="#Ἵππις">Ἵππις</name> 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-61354"><name type="patronymic" nymRef="#Ἵππις">Ἵππιος</name></persName></persName> τῶν
+                    <lb n="4"/><gap reason="lost" atLeast="8" atMost="9" unit="character"/> <w lemma="θεός"><supplied reason="lost">θε</supplied>οῖς</w> <w lemma="πᾶς"><supplied reason="lost">π</supplied>ᾶσιν</w> <w lemma="ἀνατίθημι">ἀνέθηκεν</w>. 
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><lem><supplied reason="lost">συγγενῆ καὶ σ</supplied>τρατηγὸν</lem>
+                        <rdg resp="#laronde1987"><supplied reason="lost">τὸν συγγενῆ καὶ σ</supplied>τρατηγὸν</rdg>
+                        <rdg resp="#ghislanzoni1915"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">σ</supplied>τρατηγὸν</rdg>  
+                    </app>
+               </p>
+                <p>
+                    <app loc="3">
+                        <lem resp="#paci1989"><supplied reason="lost">Λιβύην τόπω</supplied>ν</lem>
+                        <rdg resp="#moretti1977 #laronde1987"><supplied reason="lost">Κυρήνην τόπω</supplied>ν</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">La statue d'</supplied><supplied reason="lost">un tel fils de</supplied> <gap reason="lost" extent="unknown" unit="character"/>nès, cyrénéen, 
+                <supplied reason="lost">Parent</supplied> <supplied reason="subaudible">du roi</supplied>, général des <supplied reason="lost">zones de toute la Libye</supplied>, a été consacrée
+            à tous les dieux par Hippis fils d'Hippis, membre des <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">The statue of</supplied> <supplied reason="lost">so and so, son of</supplied> <gap reason="lost" extent="unknown" unit="character"/>nes, a Cyrenaean, 
+               <supplied reason="lost">Akin</supplied> <supplied reason="subaudible">to the king</supplied>, general of the <supplied reason="lost">places throughout Libya</supplied>, was dedicated
+               to all the gods by Hippis son of Hippis, a member of the <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">La statua del</supplied> <supplied reason="lost">tale, figlio di</supplied> <gap reason="lost" extent="unknown" unit="character"/>nes, cireneo, 
+               <supplied reason="lost">Parente</supplied> <supplied reason="subaudible">del re</supplied>, stratego dei <supplied reason="lost">luoghi di tutta la Libia</supplied>, è stata dedicata
+               a tutti gli dèi da Hippis figlio di Hippis, membro dei <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تمثال) [فلان بن فلان] [---] نوس، كيريني (أي من كيريني)، [المُقرب منه (له من النفوذ والصلاحيات ما للملك)] (للملك) وجنرال (قائد) لل [أماكن في جميع أنحاء ليبيا]، كُرِس (أي التمثال) لجميع المؤلهين من قبل هيبوس بن هيبوس، عضو في ال[---].</p>
+            </div><div type="commentary">
+                
+                <p>The dimensions of the lost part may be inferred from l. 3, where <foreign xml:lang="grc">Λιβύην</foreign> seems probably better than 
+                    <foreign xml:lang="grc">Κυρήνην</foreign> (see discussion by <bibl><ptr target="#laronde1987"/>, pp. <citedRange>418-419</citedRange></bibl>) and was later on confirmed through <ref type="inscription" source="#IGCyr2">IGCyr080900</ref>.</p>
+                <p>At l. 2, the article would provide too long a restoration, whereas at l. 4 <foreign xml:lang="grc">πρώτων φίλων</foreign>, a title that would seem a 
+                    good suggestion, is undoubtedly too long.</p>
+	<p>For the date, on basis of the lettering, Ghislanzoni proposed the end of the second or beginning of the first century BC. Moretti thought that it was rather the first half 
+	of the second BC. Eventually, the discussion of the aulic titles led Laronde to the second half of that century.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> for several persons</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr096400</idno>
+                <idno type="number" subtype="second-edition">096400</idno>
+                <idno type="TM">738474</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr096400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr096400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr096400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>block</objectType> chiseled on all sides except on front face; 
+                                        either recut at right or forming originally a built monument with another block to the right; probably also recut on top, 
+                                        unless another block was laid over this one 
+                                        (<dimensions>
+                                            <width>1.27</width>
+                                            <height>0.285</height>
+                                            <depth>0.615</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in five groups of letters: column a to the left, column b to the right, a lost column c further right;
+                                    column d was added between a and b at a higher level, so that only its line 2 is now preserved; for the re-use, the second lines of a and b have been erased; so was also 
+                                    another mention (e) placed under b.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>a and b <height>0.033</height>; d <height>0.018</height>; xi with central vertical stroke, moderately slanting sigma, no serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0251" precision="medium">First half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925" resp="Oliverio">
+                                    <p>Found in 1925 by G. Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs> (see commentary). 
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, 'in the temple of Demeter' (see commentary).</p>
+                                </provenance>
+                                <provenance type="observed" when="1983" when-iso="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1983 and again 2001 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        on the North wall of the so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1047">temple of Dioscuri</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-22" who="Alice">checked</change>
+            <change when="2017-01-18" who="CDL">overall check, amended all three translations and commentary.</change>
+            <change when="2013-10-14" who="cdl">lemma, text, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77304/3/igcyr096400-face.tiff.jpg" corresp="igcyr096400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77304">Face of igcyr096400 Private honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>XI.39</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>59</citedRange> (fig. 55)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>096400</citedRange></bibl>.</p>
+                <p>Cf. <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>3</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>102, 107</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="section" n="i">
+                    <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63361"><name nymRef="#Βακαλ">Βακαλ</name> 
+                            <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62641"><name type="patronymic" nymRef="Αἰγλάνωρ">Αἰγλάνορος</name></persName></persName>
+                        <lb n="2"/><persName type="attested"><name><del rend="erasure"><gap reason="lost" quantity="15" unit="character" precision="low"/></del></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                  <ab>
+                      <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62842"><name nymRef="#Ἀναξέας">Ἀναξέας</name> 
+                          <persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                      <lb n="2"/><persName type="attested"><name><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del></name></persName>
+                 </ab> 
+                </div>
+                <div type="textpart" subtype="column" n="c">
+                   <ab>
+                       <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                       <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                   </ab> 
+                </div>
+                <div type="textpart" subtype="column" n="d">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64617"><name nymRef="#Καρτισθένης" type="patronymic">Καρτισθένευς</name></persName></persName>
+                    </ab>
+                </div></div>
+	            <div type="textpart" subtype="section" n="ii">
+	                <ab>
+	                    <lb n="1"/><del rend="erasure"><gap reason="lost" atLeast="4" atMost="6" unit="character" precision="low"/></del><gap reason="lost" extent="unknown" unit="character"/>
+	                </ab>
+	            </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> a) Bakal fils d'Aiglanôr, <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>.</p>
+            <p> b) Anaxéas <supplied reason="subaudible">fils d'Untel</supplied>, <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>.</p>
+            <p> c) <supplied reason="lost">Untel fils d'Untel</supplied>.</p>
+            <p> d) <supplied reason="lost">Untel</supplied> fils de Kartisthénès.</p>
+            <p> e) <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del><gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> a) Bakal son of Aiglanor, <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>.</p>
+            <p> b) Anaxeas <supplied reason="subaudible">son of So-and-so</supplied>, <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>.</p>
+            <p> c) <supplied reason="lost">So-and-so son of So-and-so</supplied>.</p>
+            <p> d) <supplied reason="lost">So-and-so</supplied> son of Kartisthenes.</p>
+            <p> e) <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del><gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> a) Bakal figlio di Aiglanor, <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>.</p>
+            <p> b) Anaxeas <supplied reason="subaudible">figlio del tale</supplied>, <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>.</p>
+            <p> c) <supplied reason="lost">Il tale figlio del tale</supplied>.</p>
+            <p> d) <supplied reason="lost">Il tale</supplied> figlio di Kartisthenes.</p>
+            <p> e) <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del><gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>In Oliverio's papers, no findspot was given. Pugliese-Carratelli, who saw the stone, erroneously wrote in <bibl><ptr target="#SECir"/></bibl> that it was inside a 'Temple of Demeter' 
+                    which is unknown in the Sanctuary of Apollo. In fact, its location in the so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1047">Temple of Dioscuri</rs>, checked again in 2001,
+                    is probably where Pugliese-Carratelli saw it in 1960. Although the stone was re-used, it probably already stood in the sanctuary of Apollo in its initial use.</p>
+	      <p>We infer the date of the find from the number of Oliverio's sketchbook mentioned in <bibl><ptr target="#SECir"/></bibl>.</p>
+	      <p>Given the lettering and the name, rare at Cyrene, although related to numerous names in <foreign xml:lang="grc">Ἀναξι-</foreign>, the man mentioned 
+	          at b.1 was probably the father of the priestess of Artemis mentioned at <ref type="inscription" source="#IGCyr2">IGCyr092000</ref>.</p>
+                <p>This block was clearly part of a monument bearing statues. The lines a.2 and b.2 might have borne either the names of other dedicants or of persons honoured, mentioned at the accusative,
+                    whose statues would have stood on top. If so, the smaller lettering of d) might correspond to a child. The placement and smaller dimensions of the erased line e) 
+                    is an attractive clue for an artist's signature (so also <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>3</citedRange></bibl>).</p>
+                <p><bibl><ptr target="#rosamilia2023"/></bibl> suggests a relation of the supposed child at d) with another obscure person mentioned at <ref type="inscription" source="#IGCyr2">IGCyr097850</ref>, a wholly hypothetical suggestion.</p>
+            </div></body>
+    </text>
+</TEI>

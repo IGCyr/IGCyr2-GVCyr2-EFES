@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr139400</idno>
+                <idno type="number" subtype="second-edition">139400</idno>
+                <idno type="TM">998332</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr139400</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="http://doi.org/10.6092/UNIBO/IGCYRGVCYR">http://doi.org/10.6092/UNIBO/IGCYRGVCYR</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Musée National de la Céramique, Sèvres</repository> <idno type="invNo">9517.1</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>An <objectType>amphora</objectType> of black-glazed yellow <material>clay</material> with gadrooning on the belly
+                                    (dimensions <dimensions>
+                                        <height>0.43</height>
+                                    </dimensions>; <dim type="diameter">0.18</dim> at the mouth). Both twisted handles end on the belly with a bearded man's head.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="Graffito">Scratched</rs> on the shoulder.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Rather carefully cut letters (<height>height not registered</height>); rho with small loop and long tail, slanting sigma, upsilon with long hasta (see also commentary).</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="archaeological-context" notBefore="-0300" notAfter="-0201" precision="low">Third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1893">
+                                    <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/910" key="http://pleiades.stoa.org/places/373757">Berenike</placeName>:
+                                        exact findspot not registered.</p>
+                                </provenance>
+                        <provenance type="observed" notAfter="1935">
+                            <p>Studied by M. Massoul before 1935 at 
+                                <placeName type="modernSpot" ref="http://www.geonames.org/" key="2974678">Sèvres</placeName>: Musée National de la Céramique.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Editor's transcription from photograph and former editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-05-02" who="Alice">facsimile</change>
+         <change when="2024-04-30" who="CDL">small additions to commentary</change>
+            <change when="2024-04-29" who="Alice">checked</change>
+            <change when="2024-04-27" who="CDL">file created and filled</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80986/3/igcyr139400-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80986">View of igcyr139400 Epitaph</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80985/3/igcyr139400-2-detail.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80985">Detail of igcyr139400 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                <head>Bibliography</head>
+                <p><bibl><ptr target="#massoul1935"/>, p. <citedRange>47</citedRange> and pl. 24, 1-3</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+               
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Λυβύστρατος">Λυ<unclear>β</unclear>υστράτου</name></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem>Λυ<unclear>β</unclear>υστράτου</lem>
+                <rdg resp="#massoul1935">Λυρυστράτου</rdg></app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Urne</supplied> de Lybystratos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">Urn</supplied> of Lybystratos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Urna</supplied> di Lybystratos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p></p>
+         </div><div type="commentary">
+                <head>Commentary</head>
+             <p>As suggested by the first editor, we have here the name of a deceased man, whose ashes were kept in the amphora. The third letter, read by her as a rho, produces no 
+                 plausible name. However, that character differs from the regular rho in the second member of this compound name in <foreign xml:lang="grc">-στρατος</foreign>. Its tail is 
+                 not as long as the other one and what would be the loop of rho is not really circular. Moreover, it seems on the photograph that something is protruding above the line. A tantalizing 
+                 reading leads to a by-form of <foreign xml:lang="grc">Λιβύστρατος</foreign>, which is attested on coins from Cyrene in the Hellenistic period (for an occurrence in Egypt, see <bibl><ptr target="#masson1975a"/>, p. <citedRange>236-237</citedRange></bibl>).
+                 This name is also known as <foreign xml:lang="grc">Λεβύστρατος</foreign> in two inscriptions (<ref type="inscription" source="#IGCyr2">IGCyr080300</ref> and <ref type="inscription" source="#IGCyr2">IGCyr097100</ref> a.27), 
+                 from the variant <foreign xml:lang="grc">Λεβύα</foreign> of the country-name (see at <ref type="inscription" source="#IGCyr2">IGCyr016700</ref>, line 3).
+                 We would thus have here a third variant of this name. A new study of the inscription would perhaps help to secure the reading.</p>
+             <p>The only similar document known to us from Berenike is <ref type="inscription" source="#IGCyr2">IGCyr075600</ref>, which shows a comparable lettering. This is in agreement with the supposed date 
+             of the vase.</p>
+            </div></body>
+    </text>
+</TEI>

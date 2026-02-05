@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Public honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr091800</idno>
+                <idno type="number" subtype="second-edition">091800</idno>
+                <idno type="TM">738443</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr091800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr091800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr091800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <objectType>block</objectType> of gray-blue <material>marble</material> bearing on the rear of upper side two half feet-shaped cavities and 
+                                        a canal for pouring melted metal; this block was thus part of an originally deeper block or monument, at least in its later use
+                                        (<dimensions>
+                                            <width>1.02</width>
+                                            <height>0.29</height>
+                                            <depth>0.67</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on face, probably in three lines, out of which lines 1 and 2 were re-cut 
+                                    as <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.62.html">IRCyr2020 C.62</ref> in a shallow rasura. The former lines 1 and 2 seem to have been about as long as the 
+                                    new ones, the whole being centered along vertical axis.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>, with slight apices; small differences with the later script: alpha with lower bar, kappa with larger oblique 
+                            bars, broader nu, omicron as large as the other letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate notBefore="-0125" notAfter="-0075" precision="low" cert="low">Probably end of second century or beginning of first BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="2003" resp="adams">
+                                    <p>First seen by N. Adams in 2003 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        re-used in a wall closing to the North the so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1319">Hall of the Orthostats</rs>,
+                                        when its former facade was incorporated into the IVth century AD tower that blocked the <rs type="monuList" ref="https://www.slsgazetteer.org/1309">Street of Battos</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 2010 at findspot, along the <rs type="monuList" ref="https://www.slsgazetteer.org/1309">Street of Battos</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-04-01" who="CDL">changed title</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2017-02-20" who="CDL">overall check</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2015-03-30" who="CDL">changed lemma, text, added translation and commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77795/3/igcyr091800-1-face.jpg.jpg" corresp="igcyr091800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77795">Face of igcyr091800 Honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77796/3/igcyr091800-2-top.jpg.jpg" corresp="igcyr091800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77796">Top of igcyr091800 Honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#adams2003"/>, pp. 56-57, n. <citedRange>6</citedRange></bibl>
+                    (cf. <bibl><ptr target="#cdlBE"/>, <citedRange>2005.623</citedRange></bibl>), whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2044</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>091800</citedRange></bibl>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="3"/><placeName type="ethnic" nymRef="#Κυραναῖος">Κυραναῖοι</placeName>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1-2"><note>Adams did not see that ll. 1-2 were erased and overstruck for <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.62.html">IRCyr2020 C.62</ref></note></app></p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><del rend="erasure"><supplied reason="lost">Un tel, fils d'un tel a été honoré</supplied></del>, par les Cyrénéens.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><del rend="erasure"><supplied reason="lost">So-and-so son of So-and-so was honored</supplied></del> by the Cyrenaeans.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><del rend="erasure"><supplied reason="lost">Il tale, figlio del tale è stato onorato</supplied></del> dai Cirenei.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>من قبل الكيرينيين  [[تم تكريمهم فلان وفلان ]〛 </p>
+         </div><div type="commentary">
+                
+                <p>The formula ending with <foreign xml:lang="grc">Κυραναῖοι</foreign> is that of a honorific inscription and the style of the monument, presumably 
+                a very large base with a statue, lets us suppose that the <foreign xml:lang="la">honorandus</foreign> was either a Ptolemy or a member of the Ptolemaic 
+                court. The stone was erased and re-cut, probably some decades later, at the very beginning of the Roman domination over Cyrenaica. The style of the lettering 
+                is quite similar to the stele for Aiglanor (<ref type="inscription" source="#IGCyr2">IGCyr065000</ref>).</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

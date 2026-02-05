@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr117700</idno>
+                <idno type="number" subtype="second-edition">117700</idno>
+                <idno type="TM">738725</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr117700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr117700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr117700</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Tapered <material>marble</material> <objectType>stele</objectType> with a much worn out moulding on top 
+                                        (<dimensions>
+                                            <width min="0.18" max="0.20">0.18-0.20</width>
+                                            <height>0.59</height>
+                                            <depth>0.13</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face and reused on opposite side for <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.159.html">IRCyr2020 C.159</ref>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height>; no serifs; smaller omicron, slanting sigma, calice-shaped upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                probably from the <rs type="monuList" ref="https://www.slsgazetteer.org/1069">East Necropolis</rs>.</origPlace>
+                            <origDate notBefore="-0200" notAfter="-0151" cert="low" evidence="lettering">First half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1955" resp="goodchild">
+                                    <p>Found in 1955 by R.G. Goodchild at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        re-used in the <rs type="monuList" ref="https://www.slsgazetteer.org/1226">East Church</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" resp="jmr">
+                                    <p>Last seen by J.M. Reynolds at an unknown date in the <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team; edited from Reynolds' copy and photograph.</p>
+                        </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (J.M. Reynolds).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change> 
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>            
+            <change when="2014-06-24" who="CD+HB">file created, file completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77552/3/igcyr117700-view.tiff.jpg" corresp="igcyr117700" decls="#photograph"><desc resp="Reynolds, J.M." source="IRCyr project" n="-"><ref target="http://hdl.handle.net/20.500.14008/77552">View of igcyr117700 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before <bibl><ptr target="#IGCyr"/></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>117700</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἁγέστρατος">Ἁγέστρατο<supplied reason="lost">ς</supplied></name>                    
+                        <lb n="2"/><persName type="patronymic" key=""><name nymRef="#Εὐφράνωρ">Εὐφράνορο<supplied reason="lost">ς</supplied></name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Hagéstratos fils d'Euphranôr.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Hagestratos son of Euphranor.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Hagestratos figlio di Euphranor.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>هاجيستراتوس بن إفرانور</p>
+         </div><div type="commentary">
+                
+             <p>The stone was probably reused (see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.159.html">IRCyr2020 C.159</ref>) for members of the same family as some names are related.</p>
+                <p>The original location was plausibly the Eastern Necropolis, which is the nearest to the Eastern Church.</p>
+            </div></body>
+    </text>
+</TEI>

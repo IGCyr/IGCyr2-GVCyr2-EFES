@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to the Eumenides and the Heroes</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr031800</idno>
+                <idno type="number" subtype="second-edition">031800</idno>
+                <idno type="TM">738311</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr031800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr031800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr031800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Rock</material>-cut <objectType>niche</objectType> containing a single altar                                        
+                                        (dimensions not registered).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> at three places: a) on rear wall, above the altar; b) on the rock at the right side 
+                                    of the niche; c) on the rock below the niche, under the altar; a) is partly hidden by a bush.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Dimensions of letters <height>not registered</height>; for eta, see commentary.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0351" cert="low" precision="medium">Perhaps first half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1923">
+                                    <p>Found before 1923 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1462">Ain Hofra</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1982" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1982 in situ at <rs type="monuList" ref="https://www.slsgazetteer.org/1462">Ain Hofra</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.slsgazetteer.org/909" key="http://www.geonames.org/places/373778">Cyrene</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-01" who="Alice">checked</change>
+            <change when="2015-03-05" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-29" who="CDL+HB">lemma, translation</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-15" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77022/3/igcyr031800-1-view-b%2bc.tiff.jpg" corresp="igcyr031800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/77022">View of igcyr031800-b+c Dedication to Eumenides and Heroes</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77023/3/igcyr031800-2-drawing.tiff.jpg" corresp="igcyr031800" decls="#photograph"><desc resp="Ferri, S." source="-" n="1923"><ref target="http://hdl.handle.net/20.500.14008/77023">Drawing of igcyr031800 Dedication to Eumenides and Heroes</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ferri1923"/>, n. <citedRange>12</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.334</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>031800</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="divine" ref="#Eumenis"><name nymRef="#Εὐμενίς"><expan><abbr>Εὐ<supplied reason="lost">μ</supplied>ενί</abbr><ex>δων</ex></expan></name></persName>
+                    </ab>
+                </div>                    
+                <div type="textpart" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="divine" ref="#Eumenis"><name nymRef="#Εὐμενίς"><expan><abbr>Εὐ</abbr><ex>μενίδων</ex></expan></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" n="c">
+                    <ab>
+                        <lb n="1"/><persName type="divine" ref="#Heroes"><name nymRef="#Ἥρως">Ἡρώ<supplied reason="lost">ων</supplied></name></persName>.
+	           </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="b.1">
+                        <lem><expan><abbr>Εὐ</abbr><ex>μενίδων</ex></expan></lem>
+                        <rdg resp="#SEG"><expan><abbr>Εὐ</abbr><supplied reason="lost" cert="low">μενί</supplied><ex>δων</ex></expan></rdg>                    
+                    </app>
+                </p>    
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><supplied reason="subaudible">Autel</supplied> des Euménides.</p>
+                <p><supplied reason="subaudible">Autel</supplied> des Euménides.</p> 
+                <p><supplied reason="subaudible">Autel</supplied> des Héros.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">Altar</supplied> of the Eumenides.</p> 
+                <p><supplied reason="subaudible">Altar</supplied> of the Eumenides.</p> 
+                <p><supplied reason="subaudible">Altar</supplied> of the Heroes.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Altare</supplied> delle Eumenidi.</p> 
+                <p><supplied reason="subaudible">Altare</supplied> delle Eumenidi.</p> 
+                <p><supplied reason="subaudible">Altare</supplied> degli Eroi.</p>
+            </div><div type="commentary">
+                
+                <p>Ferri in his drawing gives a 'closed' eta. C. Dobias-Lalou is sceptical about that shape.</p>
+                <p>This is one among the series of altars dedicated to the Eumenides at Ain Hofra and also at other places outside the city walls of Cyrene.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

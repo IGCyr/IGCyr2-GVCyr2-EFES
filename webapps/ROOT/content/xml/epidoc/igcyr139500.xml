@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs> for the Syracusan Kleupatra</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr139500</idno>
+                <idno type="number" subtype="second-edition">139500</idno>
+                <idno type="TM">998333</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr139500</idno>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="http://doi.org/10.6092/UNIBO/IGCYRGVCYR">http://doi.org/10.6092/UNIBO/IGCYRGVCYR</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository></repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A rectangular <objectType>panel</objectType> of white <material>marble</material>, slightly chipped off on its edges and at one angle on the rear 
+                                    (as measured from photograph, dimensions <dimensions>
+                                        <width>0.30</width>
+                                        <height>0.136</height> 
+                                        <depth>0.06</depth>
+                                    </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in seven lines, the right half of the fourth one having been obliterated.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letters carefully cut (estimated height <height>0.013</height>); vestiges of guidelines; straight alpha, pi with upper bar protruding and short right hasta, non-slanting sigma,
+                            phi with flattened loop, horseshoe omega; delicate serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0180" notAfter="-0100" precision="low">Perhaps between 180 and 100 BC (similar with inscriptions of Ptolemy's VIII reign)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="2008">
+                                    <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        perhaps <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="2008">
+                            <p>Photographed in 2008 by Hafed Walda, who accompanied Joyce Reynolds at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, 
+                                as from the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Editor's transcription from photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-05-02" who="Alice">facsimile</change>
+            <change when="2024-04-29" who="Alice">Italian translation; checked</change>
+         <change when="2024-04-28" who="CDL">app, commentary</change>
+            <change when="2024-04-27" who="CDL">file created, support, text, Fr and engl translations</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80987/3/igcyr139500-1-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80987">Face of igcyr139500 Honours for the Syracusan Kleupatra</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                <head>Bibliography</head>
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+               
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Κλευπάτρα"><supplied reason="lost">Κ</supplied>λευπάτραν</name></persName> <placeName type="ethnic" nymRef="#Συρακόσιος">Συρακοσίαν</placeName>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Δημήτριος">Δημήτριος</name> <persName type="attested" key=""><name type="patronymic" nymRef="#Ἀπολλώνιος">Ἀπολλωνίου</name></persName></persName>
+                    <lb n="3"/><w lemma="ἀνατίθημι">ἀνέθηκε</w> <w lemma="εἰμι">οὖσαν</w> <w lemma="ἀδελφή">ἀδελφὴν</w>
+                    <lb n="4"/>καὶ <w lemma="γυνή">γυναῖκα</w> <del rend="erasure"><gap reason="lost" atMost="9" unit="character"/></del> <space extent="unknown" unit="character"/>·
+                    <lb n="5"/><w lemma="ὁμολογέω">ὁμολογεῖται</w> <persName type="attested" key=""><name nymRef="#Δημήτριος">Δημήτριος</name></persName>
+                    <lb n="6"/><w lemma="χράομαι">κέχρησται</w> τὸν <w lemma="τόπος">τόπον</w>                    
+                    <lb n="7"/><w lemma="ὥστε">ὥστε</w> <w lemma="ἐπιτίθημι">ἐπιθεῖναι</w> <space atLeast="2" atMost="4" unit="character"/>.
+                </ab>
+            </div>
+            <div type="apparatus" xml:space="preserve">
+                  <p><app loc="4"><lem><del rend="erasure"><gap reason="lost" atMost="9" unit="character"/></del></lem>
+                    <rdg><supplied reason="lost" cert="low">Διονυσίου</supplied></rdg>
+                <rdg type="alternative"><supplied reason="lost" cert="low">αὐτοῦ</supplied></rdg></app></p>
+               </div>
+            <div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Dèmètrios fils d'Apollonios a consacré <supplied reason="subaudible">la statue</supplied> de Kleupatra, Syracusaine, qui est sa soeur et l'épouse de <del rend="erasure"><gap reason="lost" atMost="9" unit="character"/></del>. 
+            Dèmètrios reconnaît que l'emplacement a été attribué par l'oracle (?) pour ériger <supplied reason="subaudible">le monument</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Demetrios son of Apollonios dedicated <supplied reason="subaudible">the statue</supplied> of Kleupatra, a Syracusan, who is his sister and the spouse of <del rend="erasure"><gap reason="lost" atMost="9" unit="character"/></del>. 
+            Demetrios acknowledges that the place was granted to him by the oracle (?) in order to erect <supplied reason="subaudible">the monument</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Demetrios figlio di Apollonios ha dedicato <supplied reason="subaudible">la statua</supplied> di Kleupatra, siracusana, che è sua sorella e la sposa di <del rend="erasure"><gap reason="lost" atMost="9" unit="character"/></del>. 
+            Demetrios riconosce che il luogo gli è stato attribuito dall'oracolo (?) per erigere <supplied reason="subaudible">il monumento</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p></p>
+         </div><div type="commentary">
+                <head>Commentary</head>
+             <p>The provenance of this stone is up to now unclear. Hafed Walda's photographs, which are our only source, are registered as from Apollo's sanctuary, a normal place for honorific dedications. The erasure at line 4 does not 
+             look like other erasures, made either for a <foreign xml:lang="lat">damnatio memoriae</foreign> or for the partial re-use of an inscription. Irregular strokes have obliterated a section of the line corresponding to 7 characters at line 
+                 3 and 8 characters at line 5, including one iota. A restoration of even 9 characters including two iotas does not seem impossible. The end of the line seems to have been never inscribed. Two restorations occur to mind, which result in very different situations.</p>
+             <p>On one hand, it is tantalizing to identify this Demetrios son of Apollonios with a man bearing same name and father's name who was responsible for a dedication honouring the Cyrenaean 
+                 Dionysios son of Hermias at Leontopolis in the Egyptian Delta about 164 BC (<bibl><ptr target="#CPI"/> 133</bibl>). In that inscription, Demetrios is mentioned as 'cadet among the 
+             bodyguards', a rather low aulic title very similar to that mentioned in <ref type="inscription" source="#IGCyr2">IGCyr097400</ref>, whereas Dionysios holds the office of <foreign xml:lang="italic">strategos</foreign> 
+             and the title of First Friend. He is honoured for his goodwill to the royal family and his beneficence towards the dedicant. The latter ground would be the more conceivable if Dionysios was his brother-in-law. Demetrios,
+             when on duty at Cyrene, would have stressed his relationship with the high-rank officer Dionysios in his native city. If so, the reason why the latter's name was obliterated escapes us.</p>
+             <p>On the other hand, with a shorter restoration, <foreign xml:lang="grc">αὐτοῦ</foreign> would explain the erasure: if Demetrios had married his own sister, imitating some Lagid kings, this might well have 
+             caused disapproval and cancelling.</p>
+             <p>The alteration of <foreign xml:lang="grc">-σθαι</foreign> into <foreign xml:lang="grc">-σται</foreign> (line 6) is known in some Ptolemaic papyri. The only forms allowing a formulation with the passive are related to 
+                 <foreign xml:lang="grc">χράω</foreign> 'to consult an oracle', whence at the perfect 'to be allotted by the oracle' (see at Hdt 2.139). We have only very scanty information about an oracle at Cyrene.</p>
+            </div></body>
+    </text>
+</TEI>

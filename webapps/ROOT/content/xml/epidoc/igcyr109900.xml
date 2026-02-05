@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <rs type="textType">Private honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr109900</idno>
+                <idno type="number" subtype="second-edition">109900</idno>
+                <idno type="TM">738629</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr109900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr109900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr109900</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>base</objectType> made out of two isodomic blocks with mouldings above and below  
+                                        and on top holes for four statues, placed along the back wall of a monumental naiskos
+                                        (<dimensions>
+                                            <width>2.67</width>
+                                            <height>0.29</height>
+                                            <depth>0.595</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro"/>Inscribed on front face (high 0.13) between the mouldings: (a) beginning at
+                                <dim type="distance">0.26</dim> of left end, (b) at <dim type="distance">0.49</dim> of (a), (c) at <dim type="distance">0.24</dim> of (b),
+                                (d) at <dim type="distance">0.21</dim> of (c) and ending at <dim type="distance">0.09</dim> from right end, the whole in correspondance with the four
+                                places for statues.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0330" notAfter="-0301" precision="medium">Last third of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925" when-iso="1934" resp="Pernier">
+                                    <p>Excavated by L. Pernier in 1925 and again 1934 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1468">naiskos of the Carneadae</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen by Dobias-Lalou in 2001 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>    
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-04" who="CDL">overall check</change>
+            <change when="2014-01-20" who="cdl">lemma, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-31" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77507/3/igcyr109900-1-drawing.tiff.jpg" corresp="igcyr109900" decls="#photograph"><desc resp="Pernier, L." source="Fondo Luigi Pernier - Università di Macerata" n="1936"><ref target="http://hdl.handle.net/20.500.14008/77507">Drawing of igcyr109900 Private honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77508/3/igcyr109900-2-face%20d.tiff.jpg" corresp="igcyr109900" decls="#photograph"><desc resp="Catani, E." source="Missione archeologica a Cirene, Università di Urbino" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77508">Face, part d of igcyr109900 Private honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77509/3/igcyr109900-3-squeeze%20a.tiff.jpg" corresp="igcyr109900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77509">Squeeze of part a of igcyr109900 Private honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77510/3/igcyr109900-4-squeeze%20b.tiff.jpg" corresp="igcyr109900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77510">Squeeze of part b of igcyr109900 Private honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77511/3/igcyr109900-5-squeeze%20c.tiff.jpg" corresp="igcyr109900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77511">Squeeze of part c of igcyr109900 Private honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77512/3/igcyr109900-6-squeeze%20d.tiff.jpg" corresp="igcyr109900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77512">Squeeze of part d of igcyr109900 Private honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>From <bibl><ptr target="#pernierTacc"/>, <citedRange>1936, p. 173</citedRange></bibl>,
+                    <bibl><ptr target="#catani2007"/>, pp. <citedRange>106-111</citedRange> (ph.; dr.)</bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2008.604</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2029</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>109900</citedRange></bibl>.</p>
+                    <p>Cf.<bibl><ptr target="#cdl2010"/><citedRange/></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>60.1828</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+              <div type="textpart" subtype="text" n="a">
+                  <ab><lb n="1"/><persName type="attested" key=""><name nymRef="#Καρνήδας">Καρνήδας</name> 
+                          <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Ἴασις">᾿Ιάσιος</name></persName></persName>
+                  </ab></div>
+              <div type="textpart" subtype="text" n="b">
+                   <ab><lb n="1"/> <persName type="attested" key=""><name nymRef="#Ἴασις">Ἴασις</name> 
+                           <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Καρνήδας">Καρνήδα</name></persName></persName>
+                   </ab></div>
+             <div type="textpart" subtype="text" n="c">
+                   <ab><lb n="1"/><persName type="attested" key=""><name nymRef="#Ἴταγος">Ἴταγος</name> 
+                           <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Καρνήδας">Καρνήδα</name></persName></persName>                   
+                    </ab></div>
+             <div type="textpart" subtype="text" n="d">
+                   <ab><lb n="1"/><persName type="attested" key=""><name nymRef="#Κριός">Κριὸς</name> 
+                           <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Καρνήδας">Καρνήδα</name></persName></persName>
+                   </ab></div>
+              </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Karnèdas fils d'Iasis, Iasis fils de Karnèdas, Itagos fils de Karnèdas, Krios fils de Karnèdas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Karnedas son of Iasis, Iasis son of Karnedas, Itagos son of Karnedas, Krios son of Karnedas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Karnedas figlio di Iasis, Iasis figlio di Karnedas, Itagos figlio di Karnedas, Krios figlio di Karnedas.</p>
+         </div><div type="commentary">
+                
+                <p>For this monument, once erroneously called Offertory of the Mnesarchi (e.g. <bibl><ptr target="#rgg1971"/>, p. <citedRange>123</citedRange></bibl>),
+                    see now <bibl><ptr target="#valentini1996"/></bibl>. The inscriptions were published by Catani from Pernier's archive; for other information 
+                from the same provenance, see also <bibl><ptr target="#bartolini2014a"/>, pp. <citedRange>173-174</citedRange></bibl>. On the relation between the sculptures found in situ 
+                    in the holes for statues and the inscriptions, see <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>82</citedRange></bibl>.</p>
+                <p>Since the present inscription contains only four names at the nominative case in correspondance with four statues, the monument is undoubtedly honorific;
+                    standing in the sanctuary, it was dedicated to Apollo and this might have been mentioned in another inscription cut on a lost part of the naiskos.</p>
+                <p>The names Itagos and Krios were explained by <bibl><ptr target="#cdl2010"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

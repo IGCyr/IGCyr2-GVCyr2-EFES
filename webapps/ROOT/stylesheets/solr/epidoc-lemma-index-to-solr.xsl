@@ -21,16 +21,15 @@
          sequence. -->
     <xsl:variable name="lemma-values">
       <xsl:for-each select="//tei:w[@lemma][ancestor::tei:div/@type='edition']/@lemma">
-        <xsl:value-of select="normalize-space(.)" />
+        <xsl:value-of select="normalize-unicode(normalize-space(.))" />
         <xsl:text> </xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="lemmata"
-                  select="distinct-values(tokenize(normalize-space($lemma-values), '\s+'))" />
+    <xsl:variable name="lemmata" select="distinct-values(tokenize(normalize-space($lemma-values), '\s+'))" />
     <add>
       <xsl:for-each select="$lemmata">
-        <xsl:variable name="lemma" select="." />
-        <xsl:variable name="w" select="$root//tei:w[ancestor::tei:div/@type='edition'][contains(concat(' ', @lemma, ' '), $lemma)]" />
+        <xsl:variable name="lemma" select="concat(' ',.,' ')" />
+        <xsl:variable name="w" select="$root//tei:w[ancestor::tei:div/@type='edition'][contains(concat(' ', normalize-unicode(@lemma), ' '), $lemma)]" />
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -40,8 +39,10 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="$lemma" />
-            <xsl:value-of select="count($w)" />
+            <xsl:if test="not($w/@lemma) and $w/@part=('F','M')"><xsl:text>-</xsl:text></xsl:if>
+            <xsl:value-of select="normalize-unicode(.,'NFD')" />
+            <xsl:if test="not($w/@lemma) and $w/@part=('I','M')"><xsl:text>-</xsl:text></xsl:if>
+            <xsl:text> (</xsl:text><xsl:value-of select="count($w)" /><xsl:text>)</xsl:text>
           </field>
           <field name="language_code">
             <xsl:value-of select="$w[1]/ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>

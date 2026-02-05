@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType" cert="low">sacred regulation</rs>s</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr100400</idno>
+                <idno type="number" subtype="second-edition">100400</idno>
+                <idno type="TM">738519</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr100400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr100400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr100400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">47+51</idno></altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two fragments of a white <material>marble</material> <objectType>panel</objectType>, slighlty tapering and also thicker in the middle than on the edges; 
+                                        fragment a: broken off on all sides
+                                        (<dimensions>
+                                            <width>0.20</width>
+                                            <height>0.24</height>
+                                            <depth min="0.037" max="0.05">0.037 at left to 0.05 at right</depth>
+                                        </dimensions>);
+                                        fragment b: keeping right edge of the stone, neatly bevelled, broken off above, at left and below
+                                        (<dimensions>
+                                            <width>0.15</width>
+                                            <height>0.11</height>
+                                            <depth min="0.035" max="0.047">0.035 at right to 0.047 at left</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in stoichedon style on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.014</height>; slanting mu and sigma, dotted theta, phi with symetrical half-lunate-shaped loops.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" resp="Rosamilia" notBefore="-0390" notAfter="-0371" precision="medium">Probably between 390 and 370 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1937">
+                                    <p>Found probably before 1937 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, in the excavations of the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/2079">East staircase leading to the Fountain Terrace</rs> (at least fr. b).
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs></p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="cdl">
+                                    <p>Both fragments seen by C. Dobias-Lalou in 2010 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stones (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">It. translation; checked</change>
+            <change when="2017-01-23" who="CDL">overall check, tagged w and lemma</change>
+            <change when="2013-11-15" who="CDL+HB">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>   
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77371/3/igcyr100400-1-face-fgt%20a.tiff.jpg" corresp="igcyr100400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77371">Face of fragment a of igcyr100400 Sacred regulation</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77372/3/igcyr100400-2-face-fgt%20b.tiff.jpg" corresp="igcyr100400" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77372">Face of fragment b of igcyr100400 Sacred regulation</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77373/3/igcyr100400-3-squeeze-fgt%20a.tiff.jpg" corresp="igcyr100400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77373">Squeeze of fragment a of igcyr100400 Sacred regulation</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77374/3/igcyr100400-4-squeeze-fgt%20b.tiff.jpg" corresp="igcyr100400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77374">Squeeze of fragment b of igcyr100400 Sacred regulation</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>160, 160bis</citedRange> (viz. fragments b and a; photos)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>100400</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>56</citedRange> (date); pp. <citedRange>267-268</citedRange>, number 17 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λλ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ων</w> <orig><unclear>λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ὅστις"><supplied reason="lost">ὅ</supplied> τι</w> ἁ <w part="I">τ</w><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">αἰ</supplied></w> δέ <w lemma="τις">τί</w> <w>κα</w> <orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <orig><supplied reason="lost">ε</supplied><unclear>π</unclear>ιφωραι</orig> <w lemma="παρ">παρ</w> τὰ <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="καθίημι">καθὲς</w> <w lemma="ὅστις">ὅ τι</w> <w part="I" lemma="μέγας">με<unclear>γ</unclear><supplied reason="lost" cert="low">ιστ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πλείων"><supplied reason="lost">π</supplied><unclear>λ</unclear>είονος</w> <w part="I">πεντ</w><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ν· <w lemma="ὅστις">ὅ τι</w> δέ <w>κα</w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>ει <w lemma="ἀποτίνω" part="I">ἀποτει<supplied reason="lost">σ</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><choice><unclear>σ</unclear><unclear>χ</unclear></choice>ίοις</w> <w part="I">πρα</w><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">τ</supplied>ῶν <rs type="office" key="hiaromnamon"><w lemma="ἱαρομνάμων">ἱαρομ<supplied reason="lost">ναμόνων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">σον</w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="12a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ρητ</orig>
+                    <lb n="3" break="no"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐν</supplied> <supplied reason="lost">τῶι</supplied> 
+                        <w lemma="ἱαρόν"><supplied reason="lost">ἱ</supplied>αρῶι</w> <orig>με</orig><lb n="4" break="no"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="office" key="hiaromnamon"><w part="I" lemma="ἱαρομνάμων"><supplied reason="lost">ἱαρ</supplied>ρομναμον<lb n="5" break="no"/><gap reason="lost" quantity="2" unit="character"/></w></rs> <gap reason="lost" extent="unknown" unit="character"/><unclear>κ</unclear>αὶ τὰ <w part="I">ἡμ<lb n="6" break="no"/><supplied reason="lost">ι</supplied></w><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>εσ<unclear>α</unclear></orig>
+                    <lb n="6a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab></div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="a.2">
+                        <lem>ων <unclear>λ</unclear></lem>
+                        <rdg resp="#SECir">ων<gap reason="illegible" quantity="1" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.3">
+                        <lem><supplied reason="lost">ὅ</supplied> τι ἁ τ</lem>
+                        <rdg resp="#rosamilia2023"><orig>τιατ<unclear>ω</unclear></orig></rdg>
+                        <rdg resp="#SECir"><orig>τιαι</orig><gap reason="illegible" unit="character" quantity="1"/></rdg>
+                    </app>
+                    <app loc="a.5">
+                        <lem><orig><supplied reason="lost">ε</supplied><unclear>π</unclear>εφωραι</orig></lem>
+                            <rdg resp="#SECir #IGCyr"><supplied reason="lost">ἐ</supplied><unclear>π</unclear>ὶ φωρᾶι</rdg>
+                            <rdg resp="#SECir #rosamilia2023"><supplied reason="lost">ἐ</supplied><unclear>π</unclear>ιφωρᾶι</rdg>
+                    </app>
+                    <app loc="a.6"><lem>καθὲς ὅ τι με<unclear>γ</unclear><supplied reason="lost" cert="low">ιστ</supplied></lem>
+                        <rdg resp="#IGCyr #rosamilia2023">κα θὲς ὅ τι με<unclear>γ</unclear><supplied reason="lost" cert="low">ιστ</supplied></rdg>
+                        <rdg resp="#SECir"><orig>καθες</orig> ὅτι με<choice><unclear>γ</unclear><unclear>π</unclear></choice></rdg>
+                    </app>
+                    <app loc="a.8">
+                        <lem>ν· ὅ τι δέ κα <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir"><orig>νοτι</orig> δεκα<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.9">
+                        <lem>ἀποτει<supplied reason="lost">σ</supplied><gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir">ἀποτει<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.10">
+                        <lem><choice><unclear>σ</unclear><unclear>χ</unclear></choice>ίοις</lem>
+                        <rdg resp="#SECir"><gap reason="illegible" quantity="1" unit="character"/>ίοις</rdg>
+                    </app>
+                    <app loc="a.11">
+                        <lem><supplied reason="lost">τ</supplied>ῶν ἱαρομ<supplied reason="lost">ναμόνων</supplied></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><unclear>ω</unclear>ν ἱαρομ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.12">
+                        <lem><gap reason="lost" extent="unknown" unit="character"/>σον<gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/><w part="F">σον</w> <space extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>σον<unclear>τα</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>σον</orig><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="b.2">
+                        <lem><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ρητ</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/>ρητ</rdg>
+                    </app>
+                    <app loc="b.3">
+                        <lem><supplied reason="lost">ἐν τῶι ἱ</supplied>αρῶι με</lem>
+                        <rdg resp="#SECir"><gap reason="illegible" quantity="1" unit="character"/><orig>ρωιμε</orig></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> (a) <gap reason="lost" extent="unknown" unit="character"/> ce que la <gap reason="lost" extent="unknown" unit="character"/> et si quelque chose <gap reason="lost" extent="unknown" unit="character"/> [voir le commentaire] à la suite de la découverte vers/selon les <gap reason="lost" extent="unknown" unit="character"/>
+                ayant laissé tomber ce qui est <supplied reason="lost" cert="low">le plus</supplied> grand <gap reason="lost" extent="unknown" unit="character"/>, plus de cinq <gap reason="lost" extent="unknown" unit="character"/> ; et ce que <gap reason="lost" extent="unknown" unit="character"/> il s'en acquittera <gap reason="lost" extent="unknown" unit="character"/> des hiéromnémons <gap reason="lost" extent="unknown" unit="character"/>.</p>
+             <p> (b) <gap reason="lost" extent="unknown" unit="character"/> dans le sanctuaire <gap reason="lost" extent="unknown" unit="character"/> hiéromnémon <gap reason="lost" extent="unknown" unit="character"/> et les demi-<gap reason="lost" extent="unknown" unit="character"/>.
+            </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> (a) <gap reason="lost" extent="unknown" unit="character"/> what the <gap reason="lost" extent="unknown" unit="character"/> and if something <gap reason="lost" extent="unknown" unit="character"/> [see commentary]  towards/against the <gap reason="lost" extent="unknown" unit="character"/>
+                having dropped whatever larg<supplied reason="lost" cert="low">est</supplied> is <gap reason="lost" extent="unknown" unit="character"/> more than five <gap reason="lost" extent="unknown" unit="character"/>; 
+                and whatever <gap reason="lost" extent="unknown" unit="character"/> he shall fulfill <gap reason="lost" extent="unknown" unit="character"/> the <foreign rend="italic">hieromnemones</foreign> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p> (b) <gap reason="lost" extent="unknown" unit="character"/> in the sanctuary <gap reason="lost" extent="unknown" unit="character"/> <foreign rend="italic">hieromnemon</foreign> <gap reason="lost" extent="unknown" unit="character"/> and the half-<gap reason="lost" extent="unknown" unit="character"/>.
+            </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>(a) <gap reason="lost" extent="unknown" unit="character"/> ciò che <gap reason="lost" extent="unknown" unit="character"/> e se qualcosa <gap reason="lost" extent="unknown" unit="character"/> [vedi commento] verso/contro i <gap reason="lost" extent="unknown" unit="character"/>
+               avendo lasciato cadere ciò che è grand<supplied reason="lost" cert="low">issimo</supplied> <gap reason="lost" extent="unknown" unit="character"/>, più di cinque <gap reason="lost" extent="unknown" unit="character"/>; 
+                e ciò che <gap reason="lost" extent="unknown" unit="character"/> ripagherà <gap reason="lost" extent="unknown" unit="character"/> gli <foreign rend="italic">hieromnemones</foreign> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(b) <gap reason="lost" extent="unknown" unit="character"/> nel santuario <gap reason="lost" extent="unknown" unit="character"/> <foreign rend="italic">hieromnemon</foreign> <gap reason="lost" extent="unknown" unit="character"/> e le metà-<gap reason="lost" extent="unknown" unit="character"/>.
+                </p>
+            </div><div type="commentary">
+                
+                <p>The back of the panel had an odd shape, which probably prevented Pugliese Carratelli at <bibl><ptr target="#SECir"/></bibl>  to be sure that both
+                fragments belong to one and the same stone; however, their dimensions measured at different places and the bevelled right edge allow for the shape described above
+                and the material, lettering and content do confirm the similarity. Fragment a belonged to the left half of the panel and fragment b belonged to the right side, probably 
+                lower because of the probable tapering feature. Consequently in our edition the order of the fragments is inverted in comparison with editio princeps and with Rosamilia's edition.
+                We infer the date of discovery from the mentioned findspot of fragment a at <bibl><ptr target="#SECir"/></bibl>, which seems a quotation from Oliverio, although no sketchbook of his is 
+                    mentioned by Pugliese Carratelli.</p>
+        	   <p>This is one of the very few inscriptions in stoichedon style from Cyrenaica.</p>
+                <p>Those very fragmentary rests do not allow to get a clear view of the subject; however the mentions of <foreign rend="italic">hieromnemones</foreign>, of a sanctuary, 
+                    of payment and the hypothetical particle in relative sentences all lead to the view that some forms of religious regulations were mentioned here.</p>
+                <p>At a.3 <bibl><ptr target="#rosamilia2023"/></bibl> noticed a faint horizontal line at the break, only visible from the photo of the squeeze. He read thus a probable omega or else a circular 
+                letter (omicron more plausible here than theta). As no photograph allows to confirm this, we leave the question open.</p>
+                <p>At a.5, the reading is definetely puzzling: as already explained by <bibl><ptr target="#cdl2000"/>, pp. <citedRange>143-144</citedRange></bibl>, the segment <foreign xml:lang="grc">ΕΠΙΦΩΡΑΙ</foreign> might be taken in most dialects 
+                    as the subjunctive of a present stem in <foreign xml:lang="grc">-άω</foreign>  'to discover' and this is Rosamilia's choice, because he relates it to <foreign xml:lang="grc">αἰ δέ τι κα</foreign> at the preceding line.
+                However, in Dorian dialects and especially in Cyrenaean, such present stems are very rare, if not absent, having been joined to the stems in <foreign xml:lang="grc">-έω</foreign>. If we look at 
+                    nouns, we may read either the single <foreign xml:lang="grc">φωρά</foreign> 'theft' preceded by <foreign xml:lang="grc">ἐπί</foreign> or the predictable compound <foreign xml:lang="grc">ἐπιφωρά</foreign> 'discovery'. The lack of 
+                    direct context does not help to choose and we eventually prefer to leave the question open.</p>
+	<p>At a.6, <bibl><ptr target="#rosamilia2023"/></bibl> rightly pointed out the incompatibility of the particle <foreign xml:lang="grc">κα</foreign> with the participle <foreign xml:lang="grc">θές</foreign>, as read for 
+	    <bibl><ptr target="#IGCyr"/></bibl>. We suggest now the aorist participle of <foreign xml:lang="grc">καθίημι</foreign> 'to drop'.</p>
+            <p>At a.12, Rosamilia noticed on the photo of the squeeze a possible tau.However, as evidenced from the stone and from the shape of the squeeze, the rim of the chipped off stone is lowered and 
+                an oblique crack begins at the place of the upper bar of the suspected tau.</p>            
+            </div></body>
+    </text>
+</TEI>

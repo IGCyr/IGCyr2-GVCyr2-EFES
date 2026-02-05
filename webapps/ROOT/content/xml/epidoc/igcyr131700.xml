@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr131700</idno>
+                <idno type="number" subtype="second-edition">131700</idno>
+                <idno type="TM">738864</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr131700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr131700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr131700</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">3464</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>block</objectType>, broken off at left and at upper right  
+                                        (<dimensions>
+                                            <width atLeast="0.48">0.48</width>
+                                            <height>0.30</height>
+                                            <depth>0.075</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in two lines (probably with axial display).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.055</height> very carefully cut, with fine serifs; slightly smaller circular letters, kappa with long oblique strokes, oblique 
+                                strokes of lambda slightly curved, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" cert="low" precision="medium">Probably third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1997">
+                                    <p>Found before 1997 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                            <provenance type="observed" when="1977" resp="AL">
+                                <p>Seen by A. Laronde in 1977 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>, in the Office of 
+                                the Department of Antiquities.</p>
+                            </provenance>
+                                <provenance type="observed" when="1997" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1997 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-21" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-05" who="Alice"/>
+            <change when="2017-02-14" who="CDL">overall check</change>
+            <change when="2016-03-19" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77733/3/igcyr131700-face.tiff.jpg" corresp="igcyr131700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77733">Face of igcyr131700 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>131700</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name nymRef="#-νικος"><gap reason="lost" atLeast="3" atMost="4" unit="character"/><seg part="F"><unclear>ν</unclear>ικος</seg></name> 
+                        <persName type="attested" key=""><name type="patronymic" nymRef="#Νικα-"><seg part="I">Νικ<unclear>α</unclear></seg><gap reason="lost" atLeast="2" atMost="3" unit="character"/></name></persName></persName>
+                    <lb n="2"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><supplied reason="lost">Ἀ</supplied>πόλλωνι</name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem><gap reason="lost" atLeast="2" atMost="3" unit="character"/><unclear>ν</unclear>ικος Νικ<unclear>α</unclear><gap reason="lost" atLeast="2" atMost="3" unit="character"/></lem>
+                    <rdg resp="#IGCyr"><gap reason="lost" atLeast="3" atMost="4" unit="character"/>ιικὸς Νικα<supplied reason="lost">ίω</supplied></rdg>
+                </app></p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>nikos fils de Nika<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">a consacré ce monument</supplied> à Apollon.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>nikos son of Nika<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">dedicated this monument</supplied> to Apollon.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>nikos figlio di Nika<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">ha dedicato questo monumento</supplied> ad Apollo.</p>
+         </div><div type="commentary">
+                
+             <p>Having found a copy made by Laronde we were able to add information about the findspot, to read differently the first preserved letter at line 1 and to improve the layout, as he described the right size to be partially preserved, the edge being only 
+                 chippe off. This leads to a more cautious reading.</p>  
+             <p>The first name is a compound of <foreign xml:lang="grc">-νικος</foreign> and the father's name is also based upon the word 'victory'. For the latter, as there is a space at line 2 after the end of 
+                 the god's name, we may be sure that only 2 to " letters are lacking. Among the names allready attested at Cyrene, only <foreign xml:lang="grc">Νίκαιος</foreign>, <foreign xml:lang="grc">Νίκαθλος</foreign> or 
+                 <foreign xml:lang="grc">Νικάσιος</foreign> would be appropriate. It is impossible to choose between them.</p>
+    	<p>The axial layout of the inscription helps to assess the number of letters lost at left, which amount to 2 or 3. Names already attested at Cyrene and matching the gap would be 
+    	    <foreign xml:lang="grc">Ἐπίνικος</foreign>, <foreign xml:lang="grc">Εὔνικος</foreign> and the more rare <foreign xml:lang="grc">Ἀπόνικος</foreign>.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

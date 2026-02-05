@@ -13,14 +13,10 @@
 
   <map:components>
     <map:selectors>
-      <map:selector logger="sitemap.selector.exception" name="exception"
-                    src="org.apache.cocoon.selection.ExceptionSelector">
-        <exception class="org.apache.cocoon.ResourceNotFoundException"
-                   name="not-found" />
-        <exception class="org.apache.cocoon.components.flow.InvalidContinuationException"
-                   name="invalid-continuation" />
-        <exception class="java.lang.IllegalArgumentException"
-                   name="illegal-argument" />
+      <map:selector logger="sitemap.selector.exception" name="exception" src="org.apache.cocoon.selection.ExceptionSelector">
+        <exception class="org.apache.cocoon.ResourceNotFoundException" name="not-found" />
+        <exception class="org.apache.cocoon.components.flow.InvalidContinuationException" name="invalid-continuation" />
+        <exception class="java.lang.IllegalArgumentException" name="illegal-argument" />
         <!-- The statement below tells the selector to unroll as much
              exceptions as possible -->
         <exception class="java.lang.Throwable" unroll="true" />
@@ -113,7 +109,7 @@
         <!-- Comma-separated names of Solr facet fields that must get
              the label for each facet value from the RDF store rather
              than using the Solr data directly. -->
-        <rdf-facet-lookup-fields>found_provenance,mentioned_people,mentioned_places,origin_place,source_repository,support_material,support_object_type,inscription_type, mentioned_institutions,mentioned_divinities,person_name</rdf-facet-lookup-fields>
+        <rdf-facet-lookup-fields>origin_date_evidence,origin_place,found_provenance,mentioned_people,mentioned_places,source_repository,last_recorded_location,support_material,support_object_type,inscription_type,language,execution_technique,direction_of_the_text,verse_line,previously_unpublished</rdf-facet-lookup-fields>
         <sesame-server>http://localhost:9999/openrdf-sesame/</sesame-server>
         <sesame-server-repository>kiln</sesame-server-repository>
         <solr-server>http://localhost:9999/solr/</solr-server>
@@ -125,13 +121,13 @@
         <!-- Epidoc-related variables. Supported values are documented
              in webapps/ROOT/kiln/stylesheets/epidoc/README.txt. -->
         <epidoc-edition-type>interpretive</epidoc-edition-type>
-        <epidoc-edn-structure>sample</epidoc-edn-structure>
-        <epidoc-external-app-style>iospe</epidoc-external-app-style>
+        <epidoc-edn-structure>inslib</epidoc-edn-structure>
+        <epidoc-external-app-style>inslib</epidoc-external-app-style>
         <epidoc-image-loc>/images/</epidoc-image-loc>
-        <epidoc-internal-app-style>none</epidoc-internal-app-style>
+        <epidoc-internal-app-style>fullex</epidoc-internal-app-style>
         <epidoc-leiden-style>panciera</epidoc-leiden-style>
         <epidoc-line-inc>5</epidoc-line-inc>
-        <epidoc-verse-lines>on</epidoc-verse-lines>
+        <epidoc-verse-lines>off</epidoc-verse-lines>
         <!-- 'concordance-bibliography-file' is the name (without
              ".xml" extension) of the file in content/xml/authority
              that holds the list of bibliographic items referenced in
@@ -146,8 +142,7 @@
       <!-- Mount the main kiln sitemap, which in turn mounts the main
            project sitemap, main.xmap. -->
       <map:match pattern="**">
-        <map:mount check-reload="yes" src="../kiln/sitemaps/main.xmap"
-                   uri-prefix="" />
+        <map:mount check-reload="yes" src="../kiln/sitemaps/main.xmap" uri-prefix="" />
       </map:match>
     </map:pipeline>
 

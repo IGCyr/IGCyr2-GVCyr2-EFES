@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr010400</idno>
+                <idno type="number" subtype="second-edition">010400</idno>
+                <idno type="TM">105919</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr010400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr010400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr010400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with mouldings 
+                                        above and below, worked on three sides
+                                        (<dimensions>
+                                            <width/>
+                                            <height/>
+                                            <depth>0.38</depth></dimensions>).
+                                       </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> between the mouldings 
+                                    (<dimensions>
+                                    <width>0.45</width>
+                                    <height>0.29</height></dimensions>).
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0400" notAfter="-0201" cert="low">Perhaps fourth to third centuries BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1911">
+                                    <p>Found in 1911, Norton Expedition, at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: bought from an Arab,
+                                        exact findspot unknown.
+                                   </p>
+                                </provenance>
+                        <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>    
+            <change when="2022-02-08" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-04" who="CDL">lemma, translation, commentary</change>
+            <change when="2011-12-19" who="Emilio">text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#robinson1913"/>, n. <citedRange>49</citedRange>, without illustration</bibl>, whence 
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5897</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>010400</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.69</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64228"><name nymRef="#Θεύχρηστος"><supplied reason="lost">Θ</supplied>εύχρηστος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65670"><name type="patronymic" nymRef="#Σωγένης">Σωγένευς</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+           
+                
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Theukhrestos fils de Sôgénès.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Theuchrestos son of Sogenes.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Theuchrestos figlio di Sogenes.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>ثيوخريستوس ابن سوجينيس.</p>
+         </div><div type="commentary">
+                
+                <p>From details given by Robinson (from De Cou's papers), such as a roughly worked back and no mention of a hole on top, it is possible to infer that the base 
+                    is rather funerary than dedicatory.</p>
+                <p>The date is proposed e.g., from De Cou's normalized copy.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

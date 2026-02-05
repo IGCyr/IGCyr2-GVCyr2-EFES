@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment of <rs type="textType">official document</rs> from the Ptolemies
+                </title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr062850</idno>
+                <idno type="number" subtype="second-edition">062850</idno>
+                <idno type="TM">738335</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr062850</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr062850</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr062850</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">84 (fragm. a) and 304 (fragm. b)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two non adjacent fragments of a white
+                                            <material>marble</material>
+                                        <objectType>pillar</objectType> bearing also <ref type="inscription" source="#IGCyr2">IGCyr062800</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062810</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062820</ref>, <ref type="inscription" source="#IGCyr2">IGCyr062830</ref>, 
+                                        and <ref type="inscription" source="#IGCyr2">IGCyr062840</ref>; <ref type="inscription" source="#IGCyr2">IGCyr097600</ref> is probably the upper part of the pillar;
+                                        <ref type="inscription" source="#IGCyr2">IGCyr097150</ref> might also belong to the collection.
+                                        fragment a (<dimensions>
+                                            <width>0.04</width>
+                                            <height>0.105</height>
+                                            <depth>0.17</depth>
+                                        </dimensions>), broken on all sides except on the left, is cut on the face next to <ref type="inscription" source="#IGCyr2">IGCyr062810</ref> on its left;
+                                        fragment b (<dimensions>
+                                            <width>0.07</width>
+                                            <height>0.16</height>
+                                            <depth>0.16</depth>
+                                        </dimensions>) is broken on all sides except on the right.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> under <ref type="inscription" source="#IGCyr2">IGCyr062840</ref>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height>; same hand as <ref type="inscription" source="#IGCyr2">IGCyr062830</ref> and <ref type="inscription" source="#IGCyr2">IGCyr062840</ref>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering reign" notBefore="-0139" notAfter="-0132">Between 139 and 132 BC (rather than 124/116, Rosamilia)</origDate>
+                        </origin>
+
+
+                        <provenance type="found" notAfter="1956">
+                            <p>Found before 1956 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: exact findspot unrecorded.</p>
+                        </provenance>
+                        <provenance type="observed" when="1979" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1979 in
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation>
+        </profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-06-29" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2016-12-28" who="CDL">slight change in commentary</change>
+            <change when="2015-09-30" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc,
+                history, and textClass</change>
+            <change when="2013-04-07" who="cdl">lemma, bibliography, text, translations,
+                commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to
+                profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77074/3/igcyr062850-1-drawing.tiff.jpg" corresp="igcyr062850" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1999"><ref target="http://hdl.handle.net/20.500.14008/77074">Drawing of igcyr062850 Decree (with 062820, 062830, 062840 above)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77075/3/igcyr062850-2-squeeze.tiff.jpg" corresp="igcyr062850" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77075">Squeeze of igcyr062850 Decree</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p> Fragment a: <bibl><ptr target="#fraser1958"/>, pp. 101-104, n.
+                            <citedRange>1.B</citedRange></bibl>, whence <bibl><ptr target="#SEG"/>, <citedRange>18.727</citedRange></bibl>; with fragment b (hitherto unpublished): 
+                    <bibl><ptr target="#cdl2000a"/><citedRange/></bibl>, whence <bibl><ptr target="#SEG"/>, <citedRange>50.1639.B.IV</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>062850</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>240-243</citedRange>, number 4, document VII (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><milestone unit="fragment" n="a"/><gap reason="lost" quantity="2" unit="character"/><orig><supplied reason="undefined" evidence="previouseditor">υ</supplied></orig><gap reason="lost" atLeast="23" atMost="27" unit="character"/>
+                    <lb n="2"/><milestone unit="fragment" n="a"/><gap reason="lost" quantity="1" unit="character"/><orig>α<choice><unclear>ι</unclear><unclear>γ</unclear><unclear>π</unclear></choice></orig><gap reason="lost" atLeast="23" atMost="27" unit="character"/> 
+                    <lb n="3"/><milestone unit="fragment" n="a"/><orig><choice><unclear>τ</unclear><unclear>γ</unclear></choice>αγ</orig><gap reason="lost" atLeast="23" atMost="27" unit="character"/>
+                    <lb n="4"/><milestone unit="fragment" n="a"/>ἢ τῶ<supplied reason="lost">ν</supplied> <gap reason="lost" atLeast="22" atMost="26" unit="character"/><milestone unit="fragment" n="b"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><milestone unit="fragment" n="a"/><w>ἄνε<unclear>υ</unclear></w> <gap reason="lost" atLeast="18" atMost="22" unit="character"/><milestone unit="fragment" n="b"/><w part="F">ος</w> <w lemma="κατά">κα<lb n="6" break="no"/><milestone unit="fragment" n="a"/>τὰ</w> τ<gap reason="lost" atLeast="15" atMost="19" unit="character"/> <milestone unit="fragment" n="b"/><w lemma="βουλεύω"><supplied reason="lost">ἐ</supplied>βουλεύ<space quantity="1" unit="character"/><lb n="7" break="no"/><milestone unit="fragment" n="a"/>σα<unclear>ν</unclear><supplied reason="lost">το</supplied></w> <gap reason="lost" atLeast="15" atMost="19" unit="character"/><milestone unit="fragment" n="b"/><orig>ς</orig> <w lemma="οὗτος">ταῦτα</w>
+                    <lb n="8"/><milestone unit="fragment" n="a"/>τ<gap reason="lost" atLeast="18" atMost="22" unit="character"/><milestone unit="fragment" n="b"/><w part="F">μένου</w> <space quantity="1" unit="character"/>
+                    <lb n="9"/><milestone unit="fragment" n="a"/><gap reason="lost" extent="unknown" unit="character"/> <milestone unit="fragment" n="b"/><w lemma="θεός">θεῶν</w> <space quantity="1" unit="character"/>
+                    <lb n="10"/><milestone unit="fragment" n="a"/><gap reason="lost" extent="unknown" unit="character"/><milestone unit="fragment" n="b"/><orig>αι</orig> <space quantity="3" unit="character"/>
+                    <lb n="10a"/><milestone unit="fragment" n="b"/><space extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> sans <gap reason="lost" extent="unknown" unit="character"/> conformément aux <gap reason="lost" extent="unknown" unit="character"/> dont ils ont délibéré <gap reason="lost" extent="unknown" unit="character"/> vers/ en rapport avec cela <gap reason="lost" extent="unknown" unit="character"/>  des dieux <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> without <gap reason="lost" extent="unknown" unit="character"/> following the <gap reason="lost" extent="unknown" unit="character"/> about which they have deliberated <gap reason="lost" extent="unknown" unit="character"/> regarding those matters <gap reason="lost" extent="unknown" unit="character"/>  of the gods <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> senza <gap reason="lost" extent="unknown" unit="character"/> conformemente a <gap reason="lost" extent="unknown" unit="character"/> su cui hanno deliberato <gap reason="lost" extent="unknown" unit="character"/> riguardo queste faccende <gap reason="lost" extent="unknown" unit="character"/> degli dèi <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>Because a part is lost, it cannot be decided whether <ref type="inscription" source="#IGCyr2">IGCyr062840</ref> is the beginning
+                    of the same document or of a different one; anyway this is again a text in koine
+                    and should come from the Ptolemaic authorities.</p>
+                <p>The gods mentioned at l. 9 may be either traditional Greek gods or the divinised
+                    royals.</p>
+                <p>The inventory numbers show that at least some parts of the stone were already in the epigraphic collection at the time of the reorganization of the Cyrenaean antiquities 
+                    after World War II care of Goodchild (from 1956 on) and before Fraser observed one of them. They were perhaps all found during the Italian period, like both fragments of 
+                    <ref type="inscription" source="#IGCyr2">IGCyr062830</ref>.</p>
+            </div></body>
+    </text>
+</TEI>

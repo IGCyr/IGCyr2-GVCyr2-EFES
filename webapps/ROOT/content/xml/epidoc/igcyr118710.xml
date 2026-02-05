@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr118710</idno>
+                <idno type="number" subtype="second-edition">118710</idno>
+                <idno type="TM">738736</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr118710</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr118710</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr118710</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>sarcophagus</objectType> with double slope lid surmounted by a platform for a half-statue
+                                        (wide 1.0; long 2.3).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the Northern part of the Eastern slope of the lid, in two lines.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>Unknown</height>; slantering mu and sigma; upsilon with tall tail.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering context" notBefore="-0400" notAfter="-0301" precision="low" cert="low">Perhaps fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notBefore="1955" notAfter="1957" resp="rowe">
+                                    <p>Found between 1955 and 1957 by A. Rowe at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, sarcophagus N 81.AA.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor and photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-28" who="Alice">checked</change>
+            <change when="2017-04-26" who="CDL">tagged names</change>
+            <change when="2017-04-25" who="CDL">file created, support, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77558/3/igcyr118710-view.tiff.jpg" corresp="igcyr118710" decls="#photograph"><desc resp="Rowe, A." source="Society for Libyan Studies" n="1955-1957"><ref target="http://hdl.handle.net/20.500.14008/77558">View of igcyr118710 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#rowe1959"/>, p. <citedRange>8</citedRange> and pl. 21 (photo)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>118710</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#fraser-matthews1987"/>, p. <citedRange>269</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Λῦσις">Λῦσ<surplus>ισ</surplus>ις</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64889"><name type="patronymic" nymRef="#Λῦσις"><expan><abbr><am><g type="patronymic">/</g></am></abbr> <ex>Λύσιος</ex></expan></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64718"><name nymRef="#Κόμων">Κόμων</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64717"><name type="patronymic" nymRef="#Κόμων"><expan><abbr><am><g type="patronymic">/</g></am></abbr> <ex>Κόμωνος</ex></expan></name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Lysis fils de Lysis. Komôn fils de Komôn.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Lysis son of Lysis. Komon son of Komon.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Lysis figlio di Lysis. Komon figlio di Komon.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>ليسيس بن ليسيس. كومون بن كومون.</p>
+         </div><div type="commentary">
+                
+                <p>Rowe was only able to give a copy in block-letters. Although the reading is not quite easy to check from the photograph, the sequence may be interpreted, 
+                    supposing that <foreign xml:lang="grc">ΙΣ</foreign> was cut twice. Those surplus letters at line 1 and the oblique stroke at the end of each line prevented 
+                    Rowe from offering an interpretation. Whereas the mention of the two Komon at line 2 was registered by <bibl><ptr target="#fraser-matthews1987"/></bibl> 
+                    (obviously on J.M. Reynolds' advice), the two Lysis were not.</p>
+        	   <p>This instance of the oblique stroke for abbreviating a father's name identical with the son's one is probably the most ancient one. For another instance 
+        	   of Hellenistic age, see <ref type="inscription" source="#IGCyr2">IGCyr033100</ref>, a.I.10 and b.161. There are more occurrences in the Roman period</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

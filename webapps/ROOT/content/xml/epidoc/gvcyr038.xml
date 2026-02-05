@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Description</rs> of a building and <rs type="textType">offering</rs> to the Lord</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr038</idno>
+                <idno type="number" subtype="second-edition">038</idno>
+                <idno type="TM">738931</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr038</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr038</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr038</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Plain Northern <objectType>wall</objectType> of a <material>rock</material>-cut <objectType>chamber</objectType>;
+                                        on the West wall <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/M.273.html">IRCyr2020 M.273</ref> and <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/M.273.html">IRCyr2020 M.274</ref>
+                                        were cut above niches (dimensions not registered).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> within a <foreign rend="italic">tabula ansata</foreign>
+                                    (<dimensions>
+                                        <width>1.47</width>
+                                        <height>0.46</height>
+                                    </dimensions>). There are three plain crosses above, and monogram crosses inside both handles.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Average <height min="0.04" max="0.05">0.04 to 0.05</height>; line 1 has mainly taller letters; alpha with oblique bar, square 
+                                epsilon and sigma, phi with losange loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1958">
+                            <p>Found in 1959 1 km South of  
+                                <placeName type="modernFindspot" ref="http://pleiades.stoa.org/places/373759">Bir Tarakanet</placeName>, on the east side of the Wadi Tarakenet.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1959" resp="JMR">
+                            <p>Studied by J.M. Reynolds in 1959 in situ at <placeName type="modernFindspot" ref="http://pleiades.stoa.org/places/373759">Bir Tarakanet</placeName>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                           <p>Not seen by GVCyr team.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88498" key="‘Ayn Mārrah">‘Ayn Mārrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from editors</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-06" who="CDL">updated bibl</change>
+            <change when="2023-02-05" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-13" who="Alice">It. translation; checked</change>
+            <change when="2017-03-06" who="CDL">overall check</change>
+            <change when="2016-09-27" who="CDL">text (with w, lemma and met), apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2016-09-26" who="CDL">file created; support, bibliography</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76627/6/gvcyr038-2-face-detail.tiff.jpg" corresp="gvcyr038" decls="#photograph"><desc resp="Goodchild, R." source="IRCyr project" n="1959"><ref target="http://hdl.handle.net/20.500.14008/76627">Face of gvcyr038 Description of a building</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#rgg-jmr1962"/>, pp. <citedRange>41-46</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.705c</citedRange></bibl>;
+                    <bibl><ptr target="#jmr1988"/>, pp. <citedRange>171-172</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1866</citedRange></bibl>;
+                    <bibl><ptr target="#jbwp-rgg-jmr2003"/>, pp. <citedRange>415-417</citedRange> and fig. 366</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2035</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2012b"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>62.1785</citedRange></bibl> and 
+                    <bibl><ptr target="#AE"/> <citedRange>2012.1794</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>038</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                        <lg met="dactylic">
+                        <l n="1" met="hexameter" real="+--|++|+--|+--|+--|+±">
+                            <lb n="1"/><w lemma="θεσπέσιος">Θεσπέσιον</w> <w lemma="ἔργον">ἔργον</w>, <w lemma="ξένος">ξένε</w>, <w lemma="θαυμάζω">θαύμασον</w>· καὶ γὰρ <w lemma="ἄριστος">ἄριστόν</w></l> 
+                        <l n="2" real="+--|++|+|+--|++|+--|+±">
+                            <lb n="2"/><w lemma="εἰμι">ἐστιν</w> <w lemma="ἔχω">ἔχιν</w>, <w lemma="θαυμαστός">θαυμαστὸν</w> δ’ <w lemma="ἄρα">ἄρ’</w>  <w lemma="ὁράω">ἰδῖν</w> καὶ 
+                            <w lemma="κτίζω">κτίσθεν</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ἀνήρ">ἀνδρὸς</w></l> 
+                        <l n="3">
+                            <lb n="3"/><seg real="++|++|---+|"><w lemma="οὗτος">τούτου</w> <persName type="attested" key=""><name nymRef="#Σαμφουδιων">Σαμφουδιονος</name></persName></seg>· 
+                            <seg met="+|+--|+--|+±"><w lemma="ὅς1" type="relative">ὂς</w> <w lemma="μυρίος">μυρία</w> <w lemma="ἔργον">ἔργα</w> <w lemma="τελέω">ἐτέλεσ<choice><corr>σ</corr><sic>ε</sic></choice><choice><corr>ε</corr><sic>σ</sic></choice>ς <surplus>ΕΣ</surplus></w></seg>,</l>                        
+                        <l n="4" met="hexameter" real="+--|+--|++|+--|+--|++">
+                            <lb n="4"/><w lemma="βέλτερος">βέλτερον</w> <persName type="other"><name nymRef="#Ἀλκίνοος">Ἀλκινόου</name></persName> <w lemma="ἡγέομαι">ἡγησάμενος</w> 
+                            <w lemma="ὅδε">τόδε</w> <w lemma="οἶκος">ὔκου</w>.</l> 
+                        <l n="5" met="hexameter" real="+--|+--|++|++|+--|++">
+                            <lb n="5"/><w lemma="σύ">Σοὶ</w> δὲ <w lemma="θεός">θεός</w> <w lemma="κάματος">καμάτους</w> <w lemma="πολύς">πολλοὺς</w>  <w lemma="παῖς">πησὶ<supplied reason="omitted">ν</supplied></w> <w lemma="κατανεύω">κατανεῦσαι</w></l>
+                        <l n="6" met="hexameter" real="++|++|+--|+--|+--|++">
+                            <lb n="6"/><w lemma="λείπω">λεῖψαι</w>· καὶ γὰρ <w lemma="πᾶς">πᾶσι<surplus>ν</surplus></w> <w lemma="συνεύχομαι">συνευχομένυς</w> <w lemma="ὅδε">τόδ'</w> <w lemma="ἔλδωρ">ἔελδωρ</w>·</l> 
+                        <l n="7" real="---|-+|-+|+--|++|++|+" cert="low">
+                            <lb n="7"/><rs type="office" key="praepositus"><w lemma="πρεποσιτία">πρεποσιδίης</w></rs> γὰρ <w lemma="ἀρχή">ἀρχὴν</w> <w lemma="κατέχω">κατέχων</w> <w lemma="ἐν">ἐν</w> <placeName type="ethnic" nymRef="#Μάρυσος">Μαρύσ<supplied reason="lost" cert="low">οις</supplied></placeName></l> 
+                         <l n="8" met="hexameter" real="++|+--|++|++|+--|++">
+                             <lb n="8"/><w lemma="ἄρχω">ἤρξ<unclear>ω</unclear></w> δ' <w lemma="ἀθάνατος">ἀθάνατον</w> <w lemma="στήλη">στήλην</w> <w lemma="ἐνταῦθα">ἐνταῦθα</w> 
+                                <w lemma="ἀείρω"><supplied reason="omitted">ἀ</supplied><unclear>εί</unclear>ρ<surplus>ρ</surplus>ιν</w>· </l>
+                        <l n="9" met="hexameter" real="++|++|+--|+--|+--|+-">
+                            <lb n="9"/><w lemma="ἐκεῖθεν">κεῖθεν</w> δὲ <rs type="office" key="strategos"><w lemma="στρατηγός">στρατηγὸν</w></rs> <w lemma="χειροτονέω">ἐχιροτόνησε</w> <w lemma="πόλις">πόλις</w> <w lemma="σύ"><unclear>σ</unclear><supplied reason="lost">ε</supplied></w></l> 
+                        <l n="10" met="hexameter" real="++|+--|+--|++|+--|++">
+                            <lb n="10"/>καὶ <w lemma="ὅδε">τήν<supplied reason="lost">δ'</supplied></w> <w lemma="ἐκτελέω"><supplied reason="lost">ἐ</supplied>ξετέλεσσας</w> 
+                            <w lemma="ἅμα">ἅμα</w> <w lemma="ἔργον">ἔργῳ</w> <w lemma="σύ">σὺ</w> <w lemma="ἐφίστημι">ἐφεστώς</w></l>     
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="3"><lem resp="#cdl2012b">ἐτέλεσ<choice><corr>σ</corr><sic>ε</sic></choice><choice><corr>ε</corr><sic>σ</sic></choice>ς<surplus>ΕΣ</surplus></lem>
+                        <rdg resp="#rgg-jmr1962">ἐτέλεσσε ἐς</rdg>
+                    </app>
+                    <app loc="5"><lem>πησὶ<supplied reason="omitted">ν</supplied></lem>
+                        <rdg resp="#cdl2012b">πησὶ <note>clear from the photograph</note></rdg>
+                        <rdg resp="#rgg-jmr1962">πεσί</rdg>
+                    </app>
+                    <app loc="5"><lem resp="#cdl2012b">κατανεύσαι</lem>
+                    <rdg resp="#rgg-jmr1962">κατανεῦσαι</rdg>
+                    </app>
+                    <app loc="6"><lem>πᾶσι<surplus>ν</surplus></lem>
+                        <rdg resp="#rgg-jmr1962">πᾶσιν</rdg>
+                    </app>
+                    <app loc="6"><lem resp="#cdl2012b">τόδ' ἔελδωρ</lem>
+                        <rdg resp="#rgg-jmr1962">τόδε ἔλδωρ</rdg>
+                    </app>
+                    <app loc="7"><lem resp="#SEG #jbwp-rgg-jmr2003">πρεποσιδίης <note>W. Morel's suggestion for
+                        <bibl><ptr target="#SEG"/>, <citedRange>20.705c</citedRange></bibl></note></lem>
+                    <rdg resp="#rgg-jmr1962"><orig>πρεπος</orig> ἰδίης</rdg>
+                    </app>
+                    <app loc="8"><lem>ἤρξ<unclear>ω</unclear> δ'</lem>
+                        <rdg resp="#cdl2012b">ἤρξ<choice><corr>ω</corr><sic>ο</sic></choice> δ'</rdg>
+                    <rdg resp="#rgg-jmr1962">ἦρξ' ὅδ'</rdg>
+                    </app>
+                    <app loc="9"><lem resp="#jbwp-rgg-jmr2003">πόλις <unclear>σ</unclear><supplied reason="lost">ε</supplied></lem>
+                    <rdg resp="#rgg-jmr1962">πόλις <unclear>Ε</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="10"><lem resp="#SEG"><supplied reason="lost">ἐ</supplied>ξετέλεσσας ἄμα <note>Pleket in
+                        <bibl><ptr target="#SEG"/>, <citedRange>38.1866</citedRange></bibl></note></lem>
+                    <rdg resp="#rgg-jmr1962 #jbwp-rgg-jmr2003"><supplied reason="lost">ἐ</supplied>ξετέλεσσα σᾶμα 
+                        <note>with <foreign xml:lang="grc">συ</foreign> for <foreign xml:lang="grc">σοι</foreign></note></rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Admire, étranger, cet ouvrage divin; il est excellent</p>
+                <p>à posséder, étonnant à voir et fondé par un homme,</p>
+                <p>Samphoudion que voici, toi qui as accompli</p>
+                <p>d'innombrables ouvrages, en faisant plus de cas de celui-ci que de la demeure d'Alkinoos.</p>
+                <p>Puisse Dieu t'accorder de laisser à tes enfants le fruit</p>
+                <p>de tant de peines ! Tel est l'espoir de tous ceux qui partagent tes prières ;</p>
+                <p>car tout en détenant la charge de <foreign rend="italic">praepositus</foreign> chez les Maures,</p>
+                <p>tu as commencé à ériger ici un monument immortel ;</p>
+                <p>ensuite, la cité t'a élu stratège</p>
+                <p>et tu as mené à bien cette <supplied reason="subaudible">charge</supplied> en même temps que tu te préposais toi-même à l'ouvrage.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en" source="#jbwp-rgg-jmr2003">
+                <p>Stranger, wonder at this marvellous piece of work; for it is very good</p>
+                <p>to own and wonderful to see, and founded by this man,</p>
+                <p>you Samphoudion, who completed</p>
+                <p>very many works, regarding it as better than the house of Alkinoos.</p>
+                <p>May God allow you to leave to your sons many achievements,</p>
+                <p>for this is the desire of all who pray with you.</p>
+                <p>For, holding the office of <foreign rend="italic">praepositus</foreign> among the Moors,</p>
+                <p>you began to raise here an undying memorial;</p>
+                <p>later on, the city elected you general</p>
+                <p>and you accomplished this <supplied reason="subaudible">office</supplied> while having set yourself over the work.</p> <note>J.M. Reynolds' translation with some changes</note>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Ammira, straniero, quest'opera divina; è eccellente</p>
+                <p>da possedere, meravigliosa da vedere e fondata da quest'uomo,</p>
+                <p>da te, Samphoudion, che innumerevoli opere hai portato a termine,</p>
+                <p>considerando questa migliore della casa di Alcinoo.</p>
+                <p>Possa Dio concederti di lasciare ai tuoi figli i frutti</p>
+                <p>di tante fatiche! Tale è la speranza di quanti condividono le tue preghiere;</p>
+                <p>Ricoprendo la carica di <foreign rend="italic">praepositus</foreign> presso i Mori,</p>
+                <p>hai cominciato a erigere qui un monumento immortale;</p>
+                <p>più tardi la città ti elesse stratego</p>  
+                <p>e tu hai portato a termine questo <supplied reason="subaudible">incarico</supplied> mentre sovrintendevi all'impresa.</p>
+            </div><div type="commentary">
+                
+                <p>Although a legacy for the children is mentioned, this inscription is no epitaph, nor is the chamber a tomb. The two main purposes of the poem are 
+                    describing the fittings (an oil-press) and celebrating Samphoudion's deeds as a public officer and as a private builder.</p>
+                <p>Insofar as the poor illustration allows to assert, the lettering seems rather regular and careful. However the spelling follows the development of phonology, 
+                    whence: many instances of iotacism; <foreign xml:lang="grc">η</foreign> for <foreign xml:lang="grc">αι</foreign> in <foreign xml:lang="grc">πησί</foreign> 
+                    and in the transcription of <foreign xml:lang="la">prae</foreign>; <foreign xml:lang="grc">υ</foreign> for <foreign xml:lang="grc">οι</foreign> in <foreign xml:lang="grc">ὔκου</foreign> and <foreign xml:lang="grc">συνευχομένυς</foreign>; some confusion between <foreign xml:lang="grc">ου</foreign> and <foreign xml:lang="grc">ο</foreign> in the spelling of the probably Libyan name of the owner in the various inscriptions of the cave; the voiced <foreign xml:lang="grc">δ</foreign> 
+                    instead of voiceless <foreign xml:lang="grc">τ</foreign> expected in the word built upon Latin <foreign xml:lang="la">praepositus</foreign>; an unexpected geminated <foreign xml:lang="grc">ρρ</foreign> for <foreign xml:lang="grc">ἀείρειν</foreign>.</p>
+                <p>Contrasting with those untidy spellings, the stamp of traditional <foreign rend="italic">paideia</foreign> is evident both in words such as <foreign xml:lang="grc">θεσπέσιος</foreign>, <foreign xml:lang="grc">ἔελδωρ</foreign>, <foreign xml:lang="grc">ἀείρω</foreign> and in the reference to 
+                Alkinoos' palace. The poet also takes advantage of some fluctuations of the epic language such as the form in <foreign xml:lang="grc">-ες</foreign> at 
+                the 2nd person of sigmatic aorist.</p>
+                <p>The <foreign xml:lang="grc">Μάρυσοι</foreign> seem to be the <foreign xml:lang="grc">Μαυρούσιοι</foreign>, originally a tribe from the far West of North Africa.
+                By the sixth century AD, the ethnic was used for all Libyans (see Procopius, BV II.10 and <bibl><ptr target="#desanges1962"/>, pp. <citedRange>35-36</citedRange></bibl>). 
+                The switching <foreign xml:lang="grc">υ/ου</foreign> in the tribe's name is echoing that of the personal name Samphoudion, written Samphodion in the other inscription of the chamber.
+                The verse part shows that it was a short vowel, a very close <foreign rend="italic">o</foreign> or a rather open <foreign rend="italic">u</foreign>.</p>
+                <p>L. 10, the usual final word-play relies on the equivalence between <foreign xml:lang="la">praepositus</foreign> and <foreign xml:lang="grc">ἐφεστώς</foreign>.
+                The feminine <foreign xml:lang="grc">τήνδε</foreign> should refer to <foreign xml:lang="grc">ἀρχή</foreign>, which is not explicit in this sentence, but may 
+                be subaudible because of the parallelism between the two elections. </p>
+                <p>Metrical analysis: although made of dactylic meters, the poem contains many irregularities. L.1: the digamma is regularly taken into account in <foreign xml:lang="grc">(ϝ)έργον</foreign>, whereas the last syllable of <foreign xml:lang="grc">θαύμασον</foreign> is taken for short. L. 2 has a supplementary 
+                syllable between 2nd and 3d feet. L. 3: in the first hemistich, the personal name produces a very irregular sequence; the second part is what normally follows 
+                a penthemimer caesura. L. 4 is a regular hexameter. L. 5 is also a hexameter, if only we read <foreign xml:lang="grc">πησὶ<supplied reason="omitted">ν</supplied></foreign>.
+                At l. 6 on the contrary, we should drop a final nu <foreign rend="italic">metri causa</foreign>. L. 7 seems to have a iambic first part; the second part is 
+                approximately dactylic, with great uncertainty concerning the ethnic of the Moors. L. 8 may form a hexameter if only we admit a hiatus and restore a second 
+                alpha in the fifth foot, which is a desperate answer. L. 9 is a nearly regular hexameter, with a strange lengthening of the first syllable in <foreign xml:lang="grc">στρατηγόν</foreign>. L. 10 is a regular hexameter, except for the lengthening of the second in <foreign xml:lang="grc">ἅμα</foreign>.</p>
+            </div></body>
+    </text>
+</TEI>

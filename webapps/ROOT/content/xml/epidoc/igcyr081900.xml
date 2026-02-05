@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs> of an ostracised man on nine ostraka</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr081900</idno>
+                <idno type="number" subtype="second-edition">081900</idno>
+                <idno type="TM">738387</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr081900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr081900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr081900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Nine <objectType>sherd</objectType>s of beige <material>clay</material>, iii and ix pasted from two adjacent fragments, all belonging to the body
+                                        of large vases, vi from near the beginning of the foot; 
+                                        i and ii might come from the same vase  
+                                        (i <dimensions><width>0.07</width> <height>0.041</height> <depth>0.009</depth></dimensions>; 
+                                        ii <dimensions><width>0.077</width> <height>0.055</height> <depth>0.008</depth></dimensions>;
+                                        iii <dimensions><width>0.07</width> <height>0.042</height> <depth>0.009</depth></dimensions>; 
+                                        iv <dimensions><width>0.062</width> <height>0.043</height> <depth>0.008</depth></dimensions>;
+                                        v <dimensions><width>0.056</width> <height>0.025</height> <depth>0.007</depth></dimensions>; 
+                                        vi <dimensions><width>0.055</width> <height>0.033</height> <depth min="0.006" max="0.01">0.006-0.01</depth></dimensions>;
+                                        vii <dimensions><width>0.035</width> <height>0.027</height> <depth>0.008</depth></dimensions>; 
+                                        viii <dimensions><width>0.028</width> <height>0.022</height> <depth min="0.004" max="0.009">0.004-0.009</depth></dimensions>;
+                                        ix <dimensions><width>0.036</width> <height>0.023</height> <depth>0.01</depth></dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on two lines on each sherd: i, ii, iv, vii, viii on inner side, iii, v, vi, ix on outer side.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>i, ii: <height>0.005</height>; iii, vii: <height>0.007</height>; iv: l. 1, <height>0.008</height>, l. 2 <height>0.01</height>; v: <height>0.004</height>;
+                                vi: <height min="0.005" max="0.007">0.005-0.007</height>; viii: <height min="0.004" max="0.009">0.004-0.009</height>; ix: <height min="0.006" max="0.01">0.006-0.01</height>,
+                                graffiti of homogenous lettering, spool-shaped zeta, xi without vertical stroke, slantering strokes of sigma; on iv, line 2 is more deeply cut and was perhaps added later.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0380" notAfter="-0360" precision="medium" resp="rosamilia">Between ca. 380 and 360 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1961" notAfter="1993">
+                                    <p>Found at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in two soundings on the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, amongst refill layers; one sounding by Stucchi in 1961 under the <rs type="monuList" ref="https://www.slsgazetteer.org/1329">East Stoa</rs> (sherds vii and ix),
+                                        one in 1993 by Bacchielli near the <rs type="monuList" ref="https://www.slsgazetteer.org/1471">Sanctuary of the Anax</rs> (sherds i-vi and viii).
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-17" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-06" who="Alice">checked</change>
+            <change when="2016-06-13" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-28" who="cdl">lemma, text changed, apparatus, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77181/3/igcyr081900-1-sherd%20i.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77181">Sherd I of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77182/3/igcyr081900-2-drawing%20i.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77182">Drawing of igcyr081900.I Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77183/3/igcyr081900-3-sherd%20ii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77183">Sherd II of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77184/3/igcyr081900-4-drawing%20ii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77184">Drawing of igcyr081900.II Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77185/3/igcyr081900-5-sherd%20iii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77185">Sherd III of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77186/3/igcyr081900-6-drawing%20iii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77186">Drawing of igcyr081900.III Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77187/3/igcyr081900-7-sherd%20iv.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77187">Sherd IV of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77188/3/igcyr081900-8-drawing%20iv.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77188">Drawing of igcyr081900.IV Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77189/3/igcyr081900-9-sherd%20v.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77189">Sherd V of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77190/3/igcyr081900-10-drawing%20v.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77190">Drawing of igcyr081900.V Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77191/3/igcyr081900-11-sherd%20vi.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77191">Sherd VI of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77192/3/igcyr081900-12-drawing%20vi.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77192">Drawing of igcyr081900.VI Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77193/3/igcyr081900-13-sherd%20vii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77193">Sherd VII of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77194/3/igcyr081900-14-drawing%20vii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77194">Drawing of igcyr081900.VII Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77195/3/igcyr081900-15-sherd%20viii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77195">Sherd VIII of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77196/3/igcyr081900-16-drawing%20viii.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77196">Drawing of igcyr081900.VIII Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77197/3/igcyr081900-17-sherd%20ix.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77197">Sherd IX of igcyr081900 Ostraka</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77198/3/igcyr081900-18-drawing%20ix.tiff.jpg" corresp="igcyr081900" decls="#photograph"><desc resp="Pagnini, A." source="Missione archeologica a Cirene, Università di Urbino" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77198">Drawing of igcyr081900.IX Ostraka</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1967a"/>, p. 167, n. <citedRange>11</citedRange> 
+                    (= <bibl><ptr target="#gasperini2008"/>, p. <citedRange>79</citedRange></bibl>) for sherd vii</bibl>;
+                    for the whole series, <bibl><ptr target="#bacchielli1994"/>, pp. 258-260, nn. <citedRange>1-9</citedRange></bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>1996.551</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>44.1540, 1</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>081900</citedRange></bibl>.</p>
+                <p>Cf. <bibl><ptr target="#berthelot2020"/>, pp. <citedRange>98-101</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>57-58</citedRange> (content, prosopography), pp. <citedRange>388-390</citedRange>, number 117A-I (texts)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                
+                <div type="textpart" subtype="sherd" n="i">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πραξιάδας</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήνιος</name></persName></persName>
+	          </ab>
+               </div>
+                
+                <div type="textpart" subtype="sherd" n="ii">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πραξιάδας</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήνιος</name></persName></persName>
+	          </ab>
+               </div>
+                
+                <div type="textpart" subtype="sherd" n="iii">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πραξιάδας</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήνιος</name></persName></persName>
+	          </ab>
+               </div>
+                
+                <div type="textpart" subtype="sherd" n="iv">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πραξιάδας</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήνιος</name></persName></persName>
+	          </ab>
+               </div>
+                
+                <div type="textpart" subtype="sherd" n="v">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πραξιάδας</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήνιος</name></persName></persName>
+	          </ab>
+               </div>
+                
+                <div type="textpart" subtype="sherd" n="vi">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πρα<supplied reason="lost">ξιάδας</supplied></name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήν<supplied reason="lost">ιος</supplied></name></persName></persName>
+	          </ab>
+               </div>
+                
+                <div type="textpart" subtype="sherd" n="vii">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας"><supplied reason="lost">Πρ</supplied>αξιά<supplied reason="lost">δας</supplied></name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic"><supplied reason="lost">Ζ</supplied><unclear>ή</unclear>νιο<supplied reason="lost">ς</supplied></name></persName></persName>
+	          </ab>
+               </div>
+                
+                 <div type="textpart" subtype="sherd" n="viii">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πρα<supplied reason="lost">ξιάδας</supplied></name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζήν<supplied reason="lost">ιος</supplied></name></persName></persName>
+	          </ab>
+               </div>
+                
+                 <div type="textpart" subtype="sherd" n="ix">
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65433"><name nymRef="#Πραξιάδας">Πρ<supplied reason="lost">αξιάδας</supplied></name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63988"><name nymRef="#Ζῆνις" type="patronymic">Ζ<unclear>ή</unclear><supplied reason="lost">νιος</supplied></name></persName></persName>
+	          </ab>
+               </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>sherd vii</p>
+                    <p><app loc="1"><lem resp="#bacchielli1994"><supplied reason="lost">Πρ</supplied>αξιά<supplied reason="lost">δας Ζ</supplied><unclear>ή</unclear>νιο<supplied reason="lost">ς</supplied></lem>
+                        <rdg resp="#gasperini1967a"><supplied reason="lost" cert="low">Πρ</supplied>αξιά<supplied reason="lost" cert="low">δας</supplied> <gap reason="lost" extent="unknown" unit="character"/><orig>ινι</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Praxiadas fils de Zènis.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Praxiadas son of Zenis.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Praxiadas figlio di Zenis.</p>
+         </div><div type="commentary">
+                
+                <p>The homogeneity of material and lettering, the multiplicity of the items and the content limited to name and father's name are good clues in favour of Bacchielli's interpretation of the series:
+                we have here one of the few instances of ostracism attested elsewhere than at Athens. Bacchielli's dating of the lettering between ca. 420 and 380 is now discarded, although this provided 
+                in his view one further argument in favour of a strong Attic influence in that period. <bibl><ptr target="#rosamilia2023"/></bibl> shows that Praxiadas son of Zenis was the father of one
+                victorious general taking part into the dedication <ref type="inscription" source="#IGCyr2">IGCyr017100</ref>,which he dates about 335 BC. Rosamilia is thus able to place this <foreign rend="italic">ostrakophoria</foreign> in 
+                the period of semi-democracy following 401.</p>
+                <p>For his part, <bibl><ptr target="#berthelot2020"/></bibl> already argued that the Cyrenaean ostracism has no Attic origin and was no exclusive process of a, Attic-style democracy.He dated this one a little later than Bacchielli.</p>
+                <p>The other single ostraka, found with the most numerous mentioning Praxiadas son of Zenis and mentioning three different men, <ref type="inscription" source="#IGCyr2">IGCyr082000</ref>, <ref type="inscription" source="#IGCyr2">IGCyr082100</ref> 
+                    and <ref type="inscription" source="#IGCyr2">IGCyr082200</ref> should date more vaguely from the same period.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

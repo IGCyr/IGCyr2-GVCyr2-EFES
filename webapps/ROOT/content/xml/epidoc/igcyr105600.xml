@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr105600</idno>
+                <idno type="number" subtype="second-edition">105600</idno>
+                <idno type="TM">738581</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr105600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr105600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr105600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> low <objectType>base</objectType> with mouldings of eggs and darts above and below on three sides, 
+                                        all severely chipped off or perhaps intentionally recut; also broken off at left
+                                        (<dimensions>
+                                            <width>0.83</width>
+                                            <height>0.22</height>
+                                            <depth>0.46</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one line on front face between the mouldings
+                                (<dimensions>
+                                    <width>0.79</width>
+                                    <height>0.11</height>
+                                    <depth>0.43</depth>
+                                </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.035" max="0.04">0.035 (tau, epsilon) to 0.04 (iota, beta)</height>; calice-shaped upsilon, open omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: obviously from one
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0325" notAfter="-0275">End of fourth or beginning of third century BC</origDate> 
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1954" notAfter="1956">
+                                    <p>Probably found during excavations of the Department of Antiquities under Goodchild between 1954 and 1956 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        re-used in the retaining wall South of the <rs type="monuList" ref="https://www.slsgazetteer.org/1226">East Church</rs>, just East of the staircase 
+                                        giving access nowadays to the Church level.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="Morelli">
+                                    <p>Copied by D. Morelli in 1960 at place of re-use in the <rs type="monuList" ref="https://www.slsgazetteer.org/1226">East Church</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" notBefore="1971" notAfter="1973" resp="Roques">
+                                    <p>Seen and photographed by D. Roques between 1971 and 1973 at the same place.</p>
+                                </provenance>
+                        
+                                <provenance type="observed" when="2004" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 2004 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>
+            <change when="2023-10-08" who="CDL">updated bibliography</change>   
+            <change when="2022-02-08" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-28" who="CDL">overall check and small complements</change>
+            <change when="2013-12-14" who="cdl">lemma, text, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77448/3/igcyr105600-face.tiff.jpg" corresp="igcyr105600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2004"><ref target="http://hdl.handle.net/20.500.14008/77448">Face of igcyr105600 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>271</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>105600</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.88</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65645"><name nymRef="#Στρατώι"><supplied reason="lost">Σ</supplied>τρατὼι</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63790"><name nymRef="#Εὐβάτας" type="patronymic">Εὐβάτα</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Stratôi fille d'Eubatas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Stratoi daughter of Eubatas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Stratòi figlia di Eubatas.</p>
+         </div><div type="commentary">
+                
+                <p>The base has no footprints on top and has mouldings only on three sides, so it should be a funerary base able to support a half-statue. As it has been 
+                    found in the East Church, it had been plausibly brought there, perhaps for re-use, from one near Necropolis, either Eastern or Southern. The base is not mentioned 
+                    among the carved fittings found in the East Church by <bibl><ptr target="#jbwp-rgg-jmr2003"/></bibl>, unlike <ref type="inscription" source="#IGCyr2">IGCyr097700</ref> and 
+                    <ref type="inscription" source="#IGCyr2">IGCyr105110</ref>, probably because the two latter were re-cut for a well identified re-use in the church. The present base, although having 
+                    lost its moulding, was not finished for an identifiable re-use.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

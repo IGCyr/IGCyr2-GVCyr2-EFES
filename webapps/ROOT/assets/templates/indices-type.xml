@@ -26,8 +26,29 @@
         <div class="large-12 columns">
           <xsl:apply-templates select="/aggregation/tei:TEI/tei:text/tei:front" />
           <!-- Display the list of indices. -->
+          <h3 id="words">Words</h3>
           <ul>
-            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div[tei:head/@type='words']">
+              <li>
+                <a href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="tei:head" />
+                </a>
+              </li>
+            </xsl:for-each>
+          </ul>
+          <h3 id="names">Names</h3>
+          <ul>
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div[tei:head/@type='names']">
+              <li>
+                <a href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
+                  <xsl:value-of select="tei:head" />
+                </a>
+              </li>
+            </xsl:for-each>
+          </ul>
+          <h3 id="other">Other characters and features</h3>
+          <ul>
+            <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div[tei:head/@type='other']">
               <li>
                 <a href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
                   <xsl:value-of select="tei:head" />
