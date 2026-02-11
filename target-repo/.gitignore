@@ -1,10 +1,0 @@
-*.xpr
-*~
-sw/jetty/logs
-sw/jetty/temp
-webapps/openrdf-sesame/app_dir
-webapps/ROOT/WEB-INF/logs
-webapps/solr/data
-docs/build
-*.DS_Store
-.DS_Store
