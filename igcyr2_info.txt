@@ -2,8 +2,8 @@
 IGCyr2: DOCUMENTAZIONE TECNICA
 ********************************************************************************
 
-- GitHub repository (public): https://github.com/IGCyr/IGCyr2-GVCyr2-EFES
-- GitHub repository (private, work-in-progress): https://github.com/IGCyr/IGCyr2
+- GitHub repository (public): https://github.com/IGCyr/IGCyr2-GVCyr2-EFES [mirror of private repo, sync via GitHub CI]
+- GitHub repository (private): https://github.com/IGCyr/IGCyr2
 - EFES documentation: https://github.com/EpiDoc/EFES/wiki 
 - Website: https://igcyr2.unibo.it/
 
