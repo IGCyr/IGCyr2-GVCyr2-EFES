@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of a door to Artemis</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr020700</idno>
+                <idno type="number" subtype="second-edition">020700</idno>
+                <idno type="TM">738236</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr020700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr020700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr020700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Left end of the white Parian <material>marble</material> <objectType>architrave</objectType> of a door, with sculptured cymatium
+                                        (<dimensions>
+                                            <width>0.91</width>
+                                            <height>0.114</height>
+                                            <depth/>
+                                        </dimensions>; reconstructed width 2.28).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> under the Aeolic frieze.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; very small omicron, slanting nu.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0400" notAfter="-0301" precision="medium">Fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1917">
+                                    <p>Found in 1917 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, <rs type="monuList" ref="https://www.slsgazetteer.org/1051">Temple of Artemis</rs> (2nd phase).
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" when-iso="2010" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou many times between 1976 and 2010, replaced in the <rs type="monuList" ref="https://www.slsgazetteer.org/1051">Temple of Artemis</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">amended obs place</change>    
+            <change when="2023-08-26" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-03-26" who="HellasLabUnibo">checked and in case corrected tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-08" who="CDL">lemma, translations, commentary</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76918/3/igcyr020700-face.tiff.jpg" corresp="igcyr020700" decls="#photograph"><desc resp="Gasparini, M." source="Missione archeologica a Cirene, Università di Urbino" n="2008"><ref target="http://hdl.handle.net/20.500.14008/76918">Face of igcyr020700 Dedication (to Artemis)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#pernier1931"/>, p. <citedRange>208</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.120</citedRange></bibl>; 
+                    <bibl><ptr target="#robert1955"/>, p. <citedRange>28</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>14.890</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>020700</citedRange></bibl>.</p>        
+                <p>Cf. <bibl><ptr target="#cdl2020"/>, p.<citedRange>245-248</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>83-85</citedRange></bibl>.</p></div>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><space quantity="10" unit="character"/> Τὰν <w lemma="ὀπά">ὀπάν</w> <space atLeast="2" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>La porte <supplied reason="subaudible">a été consacrée par Untel</supplied>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>The door <supplied reason="subaudible">was dedicated by So-and-so</supplied>.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>La porta <supplied reason="subaudible">è stata dedicata dal tale</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>الباب (يفهم ضمنياً أنه: أهدي من قبل فلان وفلان).</p>
+         </div><div type="commentary">
+                
+                <p>About <foreign xml:lang="grc">ὀπά</foreign> see <bibl><ptr target="#robert1955"/></bibl> and especially at Cyrene <bibl><ptr target="#rosamilia2023"/></bibl>.</p>
+                <p>We have here the word and its support restituted in its original function: the architrave of the door leading from the pronaos to the cella of the 2nd-phase Artemision.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

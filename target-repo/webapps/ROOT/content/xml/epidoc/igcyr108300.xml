@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Tithe</rs> (?) or <rs type="textType" cert="low">trademark</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr108300</idno>
+                <idno type="number" subtype="second-edition">108300</idno>
+                <idno type="TM">738613</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr108300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr108300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr108300</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary foot of a <objectType> cup</objectType> of Attic <material>black-glazed ware</material> 
+                                        (height 0.0375; depth 0.0085; diameter 0.073).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> under foot.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.005</height> approximately (all chipped off at bottom).</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="monument-type" notBefore="-0500" notAfter="-0451" precision="medium">First half of fifth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably from the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1987" resp="Maffre">
+                                    <p>Seen by J.-J. Maffre in 1987 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2014-01-13" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77477/3/igcyr108300-view.tiff.jpg" corresp="igcyr108300" decls="#photograph"><desc resp="Maffre, J.J." source="Mission Archéologique Française" n="1987"><ref target="http://hdl.handle.net/20.500.14008/77477">View of igcyr108300 Tithe or trader's mark (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#maffre2007"/>, p. 181, n. <citedRange>51</citedRange>, fig. 21 (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2002, 16</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>108300</citedRange></bibl>.</p>
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="δεκάτα"><expan><abbr>Δεκά</abbr><ex>τα</ex></expan></w>
+                </ab></div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><expan><abbr>Δεκά</abbr><ex>τα</ex></expan></lem>
+                        <rdg resp="#maffre2007">δέκα</rdg></app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Dîme.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Tithe.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Decima.</p>
+         </div><div type="commentary">
+                
+                <p>A reading <foreign>δέκα</foreign> would provide a well-formed Greek word, possibly meaningful as a trademark inscribed in full (price or number of items
+                    in a bunch?). However, the fragment being stored amidst dedications of the tithe, it is more plausible to read it as an abbreviation. Such is perhaps
+                the case also at <ref type="inscription" source="#IGCyr2">IGCyr107900</ref>. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>87</citedRange>, footnote 28</bibl> also prefers 
+                an abbreviated mention of tithe.</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

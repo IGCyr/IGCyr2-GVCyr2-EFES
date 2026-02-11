@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled Vocabulary of the Inscriptions of Greek Cyrenaica and Greek Verse inscriptions of Cyrenaica: Object Type</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>IGCyr Project</authority>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename, as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <p>InsLib Partnership</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="Alice" when="2017-06-25">checked for IGCyr-GVCyr publication</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list> 
+                <item xml:id="altar">
+                    <term type="prefLabel">altar</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/29</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300052391</idno>
+                </item>
+                <item xml:id="architrave">
+                    <term type="prefLabel">architrave</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/119</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300001780</idno>
+                </item>
+                <item xml:id="arrow">
+                    <term type="prefLabel">arrow head</term>
+                    <idno type="eagle"></idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300024861</idno>
+                </item>
+                <item xml:id="ashlar">
+                    <term type="prefLabel">ashlar</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/189</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300011701</idno>
+                </item>
+                <item xml:id="ball">
+                    <term type="prefLabel">ball</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/45</idno>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/47</idno>
+                    <idno type="getty"><!--not found--></idno>
+                </item>
+                <item xml:id="base">
+                    <term type="prefLabel">base</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/53</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300001656</idno>
+                </item>
+                <item xml:id="basin">
+                    <term type="prefLabel">basin</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/144</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300045614</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300039859</idno>
+                </item>
+                <item xml:id="block">
+                    <term type="prefLabel">block</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/189</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300014614</idno>
+                </item>
+                <item xml:id="brazier">
+                    <term type="prefLabel">brazier</term>
+                    <idno type="eagle"></idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300198452</idno>
+                </item>
+                <item xml:id="bronzeobject">
+                    <term type="prefLabel">bronze</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/15</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300047333</idno>
+                </item>
+                <item xml:id="capital">
+                    <term type="prefLabel">capital</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/63</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300001662</idno>
+                </item>
+                <item xml:id="chalice">
+                    <term type="prefLabel">chalice</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/313</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300194762</idno>
+                </item>
+                <item xml:id="chamber">
+                    <term type="prefLabel">chamber</term>
+                    <idno type="eagle"></idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300251821</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300005935</idno>
+                </item>
+                <item xml:id="column">
+                    <term type="prefLabel">column</term>
+                    <term type="altLabel">column</term>
+                    <term type="altLabel">column drum</term>
+                    <term type="altLabel">fluted column</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/100</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300001571</idno>
+                </item>
+                <item xml:id="console">
+                    <term type="prefLabel">console</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/107</idno>
+                    <idno type="getty">https://vocab.getty.edu/page/aat/300075330</idno>
+                </item>
+                <item xml:id="cornice">
+                    <term type="prefLabel">cornice</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/36</idno>
+                    <idno type="getty">https://vocab.getty.edu/page/aat/300001788</idno>
+                </item>
+                <item xml:id="cup">
+                    <term type="prefLabel">cup</term>
+                    <term type="altLabel">cup</term>
+                    <term type="altLabel">Komast cup</term>
+                    <term type="altLabel">foot of cup</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/313</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300043202</idno>
+                </item>
+                <item xml:id="dish">
+                    <term type="prefLabel">dish</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/309</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300042973</idno>
+                </item>
+                <item xml:id="doll">
+                    <term type="prefLabel">doll</term>
+                    <idno type="eagle"></idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300211087</idno>
+                </item>
+                <item xml:id="exedra">
+                    <term type="prefLabel">exedra</term>
+                    <term type="altLabel">exedra</term>
+                    <term type="altLabel">semi-circular exedra</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/37</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300004014</idno>
+                </item>
+                <item xml:id="frieze">
+                    <term type="prefLabel">freeze</term>
+                    <idno type="eagle"></idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300123582</idno>
+                </item>
+                <item xml:id="half-figure">
+                    <term type="prefLabel">half-figure</term>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300047469</idno>
+                </item>
+                <item xml:id="mosaic">
+                    <term type="prefLabel">mosaic</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/184</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300015342</idno>
+                </item>
+                <item xml:id="naiskos">
+                    <term type="prefLabel">naiskos</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/180</idno>
+                    <idno type="getty">https://vocab.getty.edu/page/aat/300108367</idno>
+                </item>
+                <item xml:id="niche">
+                    <term type="prefLabel">niche</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/7</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300002704</idno>
+                </item>
+                <item xml:id="panel">
+                    <term type="prefLabel">panel</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/259</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300069079</idno>
+                </item>
+                <item xml:id="pillar">
+                    <term type="prefLabel">pillar</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/194</idno>
+                    <idno type="getty">https://vocab.getty.edu/page/aat/300000953</idno>
+                </item>
+                <item xml:id="plate">
+                    <term type="prefLabel">plate</term>
+                    <term type="altLabel">plate</term>
+                    <term type="altLabel">fish plate</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/260</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300247625</idno>
+                </item>
+                <item xml:id="plinth">
+                    <term type="prefLabel">plinth</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/1910</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300001749</idno>
+                </item>
+                <item xml:id="relief">
+                    <term type="prefLabel">relief</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/24</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300047230</idno>
+                </item>
+                <item xml:id="pieceofrock">
+                    <term type="prefLabel">rock</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/211</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300404733</idno>
+                </item>
+                <item xml:id="rowofseats">
+                    <term type="prefLabel">row of seats</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/226</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300038494</idno>
+                </item>
+                <item xml:id="sarcophagus">
+                    <term type="prefLabel">sarcophagus</term>
+                    <term type="altLabel">sarcophagus</term>
+                    <term type="altLabel">sarcophagus lid</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/214</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300005947</idno>
+                </item>
+                <item xml:id="sherd">
+                    <term type="prefLabel">sherd</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/125</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300117132</idno>
+                </item>
+                <item xml:id="stele">
+                    <term type="prefLabel">stele</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/250</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300007023</idno>
+                </item>
+                <item xml:id="strigilhandle">
+                    <term type="prefLabel">strigil handle</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/153</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300343767</idno>
+                </item>
+                <item xml:id="tablet">
+                    <term type="prefLabel">tablet</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/245</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300028879</idno>
+                </item>
+                <item xml:id="tile">
+                    <term type="prefLabel">tile</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/147</idno>
+                    <idno type="getty">https://vocab.getty.edu/page/aat/300010463</idno>
+                </item>
+                <item xml:id="tomb">
+                    <term type="prefLabel">tomb</term>
+                    <term type="altLabel">tomb</term>
+                    <term type="altLabel">built tomb</term>
+                    <term type="altLabel">tomb-chamber</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/230</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300005926</idno>
+                </item>
+                <item xml:id="unknownobject">
+                    <term type="prefLabel">unknown</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/2</idno>
+                    <idno type="getty"><!--not found--></idno>
+                </item>
+                <item xml:id="urn">
+                    <term type="prefLabel">ashes-urn</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/78</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300129425</idno>
+                </item>
+                <item xml:id="vase">
+                    <term type="prefLabel">vase</term>
+                    <term type="altLabel">vase</term>
+                    <term type="altLabel">amphora</term>
+                    <term type="altLabel">bolsal</term>
+                    <term type="altLabel">bowl</term>
+                    <term type="altLabel">closed vase</term>
+                    <term type="altLabel">crater</term>
+                    <term type="altLabel">handle of vase</term>
+                    <term type="altLabel">jug</term>
+                    <term type="altLabel">kalathos</term>
+                    <term type="altLabel">kantharos</term>
+                    <term type="altLabel">kothon</term>
+                    <term type="altLabel">kotyle</term>
+                    <term type="altLabel">krater</term>
+                    <term type="altLabel">kylix</term>
+                    <term type="altLabel">lekanis</term>
+                    <term type="altLabel">oenochoe</term>
+                    <term type="altLabel">skyphos</term>
+                    <term type="altLabel">pyxis</term>
+                    <term type="altLabel">Vessel</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/305</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300132254</idno>
+                </item>
+                <item xml:id="wall">
+                    <term type="prefLabel">wall</term>
+                    <idno type="eagle">https://www.eagle-network.eu/voc/objtyp/lod/416</idno>
+                    <idno type="getty">http://vocab.getty.edu/page/aat/300002469</idno>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

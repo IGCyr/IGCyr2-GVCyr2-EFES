@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr103210</idno>
+                <idno type="number" subtype="second-edition">103210</idno>
+                <idno type="TM">738547</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr103210</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr103210</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr103210</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>altar</objectType> with two compartments
+                                        (<dimensions>
+                                            <width>0.34</width>
+                                            <height>0.10</height>
+                                            <depth>0.605</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face, which is the shorter one.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.025" max="0.03">0.025 to 0.03</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering context" notBefore="-0450" notAfter="-0401" cert="low">Perhaps second half of fifth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1929" notAfter="1930">
+                                    <p>Presumably found between 1929 and 1930 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>,
+                                        in the so called <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="morelli">
+                                    <p>Seen by D. Morelli in 1960 at supposed findspot, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-27" who="CDL">overall check; tagged for index; changed commentary</change>
+            <change when="2013-12-06" who="CDL+HB">lemma, text, translation, apparatus, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>225</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>103210</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#parisipresicce2007a"/>, p. <citedRange>498</citedRange></bibl>.</p>
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                            <ab>
+                                <lb n="1"/><placeName type="ethnic" nymRef="#Κρητικός">Κρε̄τι<choice><reg>κ</reg><orig>χ</orig></choice>ός</placeName> 
+                            </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible" cert="low">Courète</supplied> de Crète.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Cretan <supplied reason="subaudible" cert="low">Curete</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible" cert="low">Curete</supplied> di Creta.</p>
+         </div><div type="commentary">
+                
+                <p>We retain dubiously Morelli's reading and interpretation as a misspelling of <foreign xml:lang="grc">Κρητικός</foreign> known for the Cretan Curete 
+                   at <ref type="inscription" source="#IGCyr2">IGCyr019600</ref>. However the ethnic alone would remain puzzling. Was the god's name cut on another face and now lost?
+                This idea would be strengthened if we could check the lettering and suppose that the writer was a beginner in Ionian script, still using epsilon in the 
+                first syllable and confusing kappa and chi. We give arbitrarily a date on that assumption.</p>
+                <p>About the excavations in that part of the Sanctuary, see <bibl><ptr target="#parisipresicce2007a"/></bibl> and now also <bibl><ptr target="#luni2014b"/>, pp. <citedRange>129, 133</citedRange></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

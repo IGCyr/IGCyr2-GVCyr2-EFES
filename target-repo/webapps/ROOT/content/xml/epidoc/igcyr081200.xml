@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr081200</idno>
+                <idno type="number" subtype="second-edition">081200</idno>
+                <idno type="TM">738383</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr081200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr081200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr081200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <material>lead</material> <objectType>tablet</objectType> slightly chipped off at upper edge,
+                                        (dimensions not given, depth probably similar as <ref type="inscription" source="#IGCyr2">IGCyr081100)</ref>; found rolled up, unrolled after discovery.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="caelo">Engraved</rs> on one side, along the broader axis.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>not given</height>; taller letters at ll. 1 and 7; beta, rho and phi with triangular loop, slantering mu and sigma, slightly dissymmetrical nu, 
+                            xi without vertical hasta, tailed upsilon, omicron and omega smaller, in some cases angular; see detailed study of the ductus by editor princeps.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate notBefore="-0390" notAfter="-0371" evidence="lettering prosopography" resp="CDL Rosamilia" precision="medium">Between 390 and 371 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1964">
+                                    <p>Found in 1964 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        in a deposit on the <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, near the northern wall of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1326">Temple of Apollo Archegetes</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-06" who="Alice">checked</change>
+            <change when="2016-06-07" who="HellasLabUnibo">checked and in case corrected</change>
+            <change when="2016-05-31" who="HellasLabUnibo">checked and in case corrected</change>
+            <change when="2015-02-15" who="cdl">lemma, bibliography, text slightly changed and completed, apparatus, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text partially edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77174/3/igcyr081200-1-left.tiff.jpg" corresp="igcyr081200" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77174">Left part of igcyr081200 Account</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77175/3/igcyr081200-2-centre.tiff.jpg" corresp="igcyr081200" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77175">Central part of igcyr081200 Account</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77176/3/igcyr081200-3-right.tiff.jpg" corresp="igcyr081200" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77176">Right part of igcyr081200 Account</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77177/3/igcyr081200-4-drawing.tiff.jpg" corresp="igcyr081200" decls="#photograph"><desc resp="Chighine, M." source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77177">Drawing of igcyr081200 Account</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1990"/>, pp. <citedRange>22-33</citedRange></bibl> (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>289-309</citedRange></bibl>) and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>1991.672</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>40.1596</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>081200</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#gasperini1986"/><citedRange/></bibl> (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>217-226</citedRange></bibl>) and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>1988.1013</citedRange></bibl>;
+                    <bibl><ptr target="#arena1990"/><citedRange/></bibl>; 
+                    <bibl><ptr target="#lonati1990"/>, pp. <citedRange>224-225</citedRange></bibl>;
+                    <bibl><ptr target="#foraboschi1996"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2195</citedRange></bibl>; 
+                    <bibl><ptr target="#gasperini1996"/>, p. <citedRange>148</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2209</citedRange></bibl>; 
+                    <bibl><ptr target="#mohamed-jmr1997"/>, pp. 33-34 n. <citedRange>3</citedRange></bibl>,  whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2179</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2010"/>, pp. <citedRange>95-96</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>60.1828</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2016"/>, pp. <citedRange>84-85</citedRange></bibl>;
+                    <bibl><ptr target="#cdl-maffre2018"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>68.1746</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>99</citedRange>, pp. <citedRange>148-151</citedRange> (content, date), pp. <citedRange>282-283</citedRange>, number 25 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="ἐπί">Ἐπ᾽</w> <persName type="attested"><name nymRef="#Ἰάσων" key="">Ἰά<supplied reason="lost">σο</supplied><unclear>ν</unclear>ος</name> τῶ <persName type="attested"><name type="patronymic" nymRef="#Ἰάσων" key=""><supplied reason="lost">Ἰ</supplied><unclear>ά</unclear>σονος</name></persName></persName> 
+                            <rs type="office" key="gropheus"><w lemma="γράφω">γ<unclear>ρά</unclear>φοντος</w></rs> <rs type="office" key="eponymous priest"><w lemma="ἱαρεύς"><unclear>ἱ</unclear>αρεὺς</w></rs> <g type="punct">:</g> <persName type="attested"><name nymRef="#Ἄγωνις" key="">Ἄγωνις</name> <persName type="attested"><name type="patronymic" nymRef="#Τιμοκλῆς" key="">Τιμοκλεῦς</name></persName></persName>·
+                    <lb n="1a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="2"/><w lemma="ἐπί">Ἐπὶ</w> <persName type="attested"><name nymRef="#Φίλων" key="">Φίλωνος</name></persName> τοὶ 
+                    <w lemma="ἀμφί">ἀμφ<unclear>ὶ</unclear></w> <persName type="attested"><name nymRef="#Κορίνθιος" key="">Κορίνθιον</name></persName> <g type="punct">:</g> <w lemma="καταφέρω">κατήνικαν</w> <g type="punct">:</g> 
+                    <num type="total" value="854.6"><measure type="currency" unit="drachma">
+                    <w lemma="μνᾶ">μνᾶς</w> <g type="punct">:</g> <num type="total" value="8"><measure type="currency" unit="mna"><w lemma="ὀκτώ">ὀκτὼ</w></measure></num> <g type="punct">:</g> 
+                    <num type="total" value="10"><measure type="currency" unit="stater"><w>δέκα</w></measure></num> <w lemma="στατήρ">στατῆρας</w> <g type="punct">:</g> 
+                    <num type="total" value="14"><measure type="currency" unit="drachma">
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="2"><g type="cyrnum">𐅝</g></num></measure></num></measure>
+                    <g type="punct">:</g> <w lemma="δραχμά">δραχμὰς</w> <g type="punct">:</g>
+                     <num type="total" value="0.6"><measure type="currency" unit="drachma">   
+                         <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                        <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                        <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num></num>·
+                    <lb n="2a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="3"/><w lemma="ἐπί">Ἐπὶ </w><persName type="attested"><name nymRef="#Ἑρμήσανδρος" key="">Ἑρμησάνδρω</name></persName> <g type="punct">:</g> τοὶ <w lemma="ἀμφί">ἀμφὶ</w> 
+                        <persName type="attested"><name nymRef="#Μένιππος" key="">Μένιππον</name></persName> <g type="punct">:</g>
+                    <num type="total" value="9765.2"><measure type="currency" unit="drachma"> <w lemma="μνᾶ">μνᾶς</w>  <g type="punct">:</g> 
+                    <num value="97"><measure type="currency" unit="mna"><w>ἐνενήκοντα</w> <g type="punct">:</g> <w lemma="ἑπτά">ἑπτὰ</w></measure></num> <g type="punct">:</g>
+                    <num value="15"><measure type="currency" unit="stater">
+                        <num value="5"><g type="cyrnum">Χ</g></num>
+                        <num value="5"><g type="cyrnum">Χ</g></num>
+                        <num value="5"><g type="cyrnum">Χ</g></num></measure></num>                   
+                    <g type="punct">:</g> <w lemma="δραχμά">δραχμὰς</w> <g type="punct">:</g> <num value="5.2"><measure type="currency" unit="drachma">
+                        <num value="4"><g type="cyrnum">𐅠</g></num>
+                        <num value="1"><g type="cyrnum">Ζ</g></num>                        
+                         <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num></measure></num>·
+                    <lb n="3a"/><milestone rend="paragraphos" unit="undefined"/>                    
+                    <lb n="4"/>Τοὶ <w lemma="ἀμφί">ἀμφ'</w> <persName type="attested"><name nymRef="#Ἴθυλλις" key="">Ἴθυλλιν</name></persName> <g type="punct">:</g> 
+                    <num type="total" value="132843.8"><measure type="currency" unit="drachma">
+                    <num type="total" value="1328"><measure type="currency" unit="mna"><w lemma="μνᾶ">μνᾶς</w> <g type="punct">:</g> 
+                        <num value="1000"><w lemma="χήλιοι">χηλίας</w></num> <g type="punct">:</g> 
+                        <num value="300"><w lemma="τριακάτιοι">τριακατίας</w></num> <g type="punct">:</g> 
+                        <num value="20"><w>ἴκατι</w></num> <g type="punct">:</g> 
+                        <num value="8"><w lemma="ὀκτώ">ὀκτὼ</w></num> <g type="punct">:</g></measure></num> 
+                    <num type="total" value="43.8"><measure type="currency" unit="drachma">
+                        <num value="20"><g type="cyrnum">Χ</g></num>
+                        <num value="20"><g type="cyrnum">Χ</g></num>
+                        <num value="2"><g type="cyrnum">𐅝</g></num>
+                        <num value="1"><g type="cyrnum">Ζ</g></num>
+                        <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                        <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                        <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                        <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num></measure></num> <g type="punct">:</g>· <rs type="office" key="eponymous priest"><w lemma="ἱαρεύς">Ἱαρεὺς</w></rs> <g type="punct">:</g> 
+                            <persName type="attested"><name nymRef="#Φίληκις" key="">Φίληκις</name></persName>·
+                    <lb n="4a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="5"/><w lemma="ἐπί">Ἐπὶ</w> <persName type="attested"><name nymRef="#Ἀνάξανδρος" key="">Ἀναξάνδρω</name></persName>
+                    <g type="punct">:</g> <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύοντος</w></rs> <g type="punct">:</g> 
+                        τοὶ <w lemma="ἀμφί">ἀμφὶ</w> <persName type="attested"><name nymRef="#Θεύδωρος" key="">Θεύδωρον</name></persName> <g type="punct">:</g> 
+                    <num value="170723.7"><measure type="currency" unit="drachma"/>                       
+                        <num type="total" value="1707"><measure type="currency" unit="mna"><w lemma="μνᾶ">μνᾶς</w> <g type="punct">:</g> 
+                            <num value="1000"><w lemma="χήλιοι">χηλίας</w></num> <g type="punct">:</g> 
+                            <num value="700"><w lemma="ἑπτακάτιοι">ἑπτακατίας</w></num> <g type="punct">:</g> 
+                            <num value="7"><w lemma="ἑπτά">ἑπτὰ</w></num></measure></num> <g type="punct">:</g> 
+                        <num type="total" value="23.7"><measure type="currency" unit="drachma">
+                            <num value="20"><g type="cyrnum">Χ</g></num>
+                            <num value="2"><g type="cyrnum">𐅝</g></num>
+                            <num value="1"><g type="cyrnum">Ζ</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.1"><g type="cyrnum">–</g></num></measure></num></num>·
+                    <lb n="5a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="6"/><w lemma="ἐπί">Ἐπ᾽</w> <persName type="attested"><name nymRef="#Ἄγωνις" key="">Ἀγώνιος</name></persName> <g type="punct">:</g> <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτεύοντος</w></rs> <g type="punct">:</g>
+                        τοῖς <persName type="attested"><name nymRef="#Πρᾶξις" key="">Πρᾶξις</name></persName> <rs type="office" key="gropheus"><w lemma="γράφω">ἕγραφε</w></rs> <g type="punct">:</g> 
+                    <num type="total" value="107206.5"><measure type="currency" unit="drachma">
+                        <num type="total" value="1072"><measure type="currency" unit="mna"><w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶς</ex></expan></w> <g type="punct">:</g> 
+                            <num value="1000"><w lemma="χήλιοι">χήλιας</w></num> <g type="punct">:</g>
+                            <num value="70"><w>ἑβδεμήκοντα</w></num> <g type="punct">:</g>
+                            <num value="2"><w>δύο</w></num></measure></num> <g type="punct">:</g>
+                        <num type="total" value="6.5"><measure type="currency" unit="drachma">
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="2"><g type="cyrnum">𐅝</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.1"><g type="cyrnum">–</g></num></measure></num></measure></num>·
+                    <lb n="6a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="7"/>Τὸ <w lemma="πᾶς">πάν</w> <g type="punct">:</g>· 
+                    <num type="total" value="421333.8"><measure type="currency" unit="drachma">
+                        <num type="total" value="4213"><measure type="currency" unit="mna"><w lemma="μνᾶ">μναῖ</w> <g type="punct">:</g> 
+                            <num value="4000"><w lemma="τετρακισχήλιοι">τετρακισχήλιαι</w></num> <g type="punct">:</g> 
+                            <num value="200"><w lemma="διακάτιοι">διακατίαι</w></num> <g type="punct">:</g> 
+                            <num value="10"><w>δέκα</w></num> <g type="punct">:</g>
+                            <num value="3"><w lemma="τρίς">τρίς</w></num></measure></num> <g type="punct">:</g>
+                            <num type="total" value="93.8"><measure type="currency" unit="drachma">
+                            <num value="20"><g type="cyrnum">Χ</g></num>
+                            <num value="20"><g type="cyrnum">Χ</g></num>
+                            <num value="20"><g type="cyrnum">Χ</g></num>
+                            <num value="20"><g type="cyrnum">Χ</g></num>                   
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="1"><g type="cyrnum">Ζ</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num></measure></num>.
+                    <lb n="7a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="8"/>Τοὶ <w lemma="ἐννῆ">ἐννῆ</w> τοῖς <persName type="attested"><name nymRef="#Πρᾶξις" key="">Πρᾶξις</name></persName> <rs type="office" key="gropheus"><w lemma="γράφω">ἔγραφε</w></rs> <g type="punct">:</g>· 
+                        <w lemma="δεκάτα">δεκάτα</w> <g type="punct">:</g> <w lemma="θύω">τεθυμένα</w> <g type="punct">:</g>
+                      <num type="total" value="26062.5"><measure type="currency" unit="drachma"> 
+                          <num type="total" value="260"><measure type="currency" unit="mna"><w lemma="μνᾶ">μναῖ</w> <g type="punct">:</g>
+                            <num value="200"><w lemma="διακάτιοι">διακάτιαι</w></num> <g type="punct">:</g> 
+                            <num value="60"><w>ἑξήκοντα</w></num> <g type="punct">:</g></measure></num>
+                        <num type="total" value="17.5"><measure type="currency" unit="drachma">
+                            <num value="5"><g type="cyrnum">Χ</g></num>
+                            <num value="5"><g type="cyrnum">Χ</g></num>
+                            <num value="5"><g type="cyrnum">Χ</g></num>
+                            <num value="2"><g type="cyrnum">𐅝</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                            <num value="0.1"><g type="cyrnum">–</g></num></measure></num></measure></num>·
+                    <lb n="8a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="9"/><persName type="attested"><name nymRef="#Χαῦλος" key="">Χαύλω</name></persName> <w lemma="παρκαταβολά">παρκαταβολὰς</w> <g type="punct">:</g> τοὶ <w lemma="ἀμφί">ἀμφὶ</w> 
+                            <persName type="attested"><name nymRef="#Θρασυλλίων" key="">Θρασυλλίωνα</name></persName> <g type="punct">:</g> <w lemma="καταφέρω">κατήνικαν</w> <g type="punct">:</g> <rs type="office" key="hiaromnamon"><w lemma="ἱαρομναμονέω">ἱαρομναμονέντες</w></rs> <g type="punct">:</g> 
+                    <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶς</ex></expan></w> <g type="punct">:</g> 
+                    <num type="total" value="11012"><measure type="currency" unit="drachma">
+                        <num type="total" value="11"><measure type="currency" unit="mna">
+                            <num value="10"><g type="cyrnum">&gt;</g></num>
+                            <num value="1"><g type="cyrnum">–</g></num></measure></num>
+                        <num type="total" value="12"><measure type="currency" unit="drachma">
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="4"><g type="cyrnum">𐅠</g></num>
+                            <num value="4"><g type="cyrnum">𐅠</g></num></measure></num></measure></num>·
+                    <lb n="9a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="10"/>καὶ τὸ <persName type="attested"><name nymRef="#Ἄγωνις" key="">Ἄγωνις</name></persName> <g type="punct">:</g> <w lemma="εὑρίσκω">ηὗρε</w> <g type="punct">:</g> <w lemma="ἀργύριον">ἀργύριον</w> <g type="punct">:</g> 
+                    <num type="total" value="5"><measure type="currency" unit="mna"><w lemma="μνᾶ">μνᾶς</w> <num value="5"><w>πέντε</w></num></measure></num> <g type="punct">:</g> <placeName type="ethnic" nymRef="#Εὐβοϊίς">Εὐβοϊίδας</placeName>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="4"><lem resp="#cdlBE"><note>1988.1013</note> ἀμφ' Ἴθυλλιν</lem>
+                <rdg resp="#gasperini1990 #arena1990">ἀμφὶ Θῦλλιν</rdg>
+                </app>
+                    <app loc="6"><lem resp="#cdlBE"><note>1991.672</note> Πρᾶξις</lem>
+                    <rdg resp="#gasperini1990">πρᾶξις</rdg>
+                    <rdg resp="#gasperini1990">πράξ<supplied reason="omitted">ε</supplied>ις</rdg>
+                    </app>
+                    <app loc="8"><lem resp="#cdlBE"> <note>1991.672</note> Πρᾶξις</lem>
+                    <rdg resp="#gasperini1990">πρᾶξις</rdg>
+                    <rdg resp="#gasperini1990">πράξ<supplied reason="omitted">ε</supplied>ις</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Sous le secrétaire Iasôn fils de Iasôn, prêtre Agonis fils de Timoklès.</p>
+                <p>Sous <supplied reason="subaudible">le prêtre</supplied> Philôn, Korinthios et ses collègues ont déposé huit mines, dix statères, 14 drachmes 3 oboles.</p>
+                <p>Sous <supplied reason="subaudible">le prêtre</supplied> Hermèsandros, Ménippos et ses collègues <supplied reason="subaudible">ont déposé</supplied> quatre-vingt-dix-sept mines, 15 statères, 5 drachmes 1 obole.</p>
+                <p>Ithyllis et ses collègues <supplied reason="subaudible">ont déposé</supplied> mille trois cent vingt-huit mines, 43 drachmes 4 oboles. Prêtre Philèkis.</p>
+                <p>Sous la prêtrise d'Anaxandros, Theudôros et ses collègues <supplied reason="subaudible">ont déposé</supplied> mille sept cent sept mines, 23 drachmes, 3 oboles 1/2.</p>
+                <p>Sous la prêtrise d'Agônis, le groupe dont Praxis était le secrétaire <supplied reason="subaudible">a déposé</supplied> mille soixante-douze mines, 6 drachmes, 2 oboles 1/2.</p>
+                <p>Total: quatre mille deux cent treize mines, 93 drachmes, 4 oboles.</p>
+                <p>Les neuf dont Praxis était le secrétaire: dîme sacrifiée deux cent soixante mines, 17 drachmes, 2 oboles 1/2.</p>
+                <p>Paiement supplémentaire de Khaulos, déposé par Thrasylliôn et les autres <foreign rend="italic">hiaromnamones</foreign>: 11 mines 12 drachmes.</p>
+                <p>En outre, argent trouvé par Agônis: cinq mines d'Eubée.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Under secretary Iason son of Iason, priest Agonis son of Timokles.</p>
+                <p>Under <supplied reason="subaudible">priest</supplied> Philon, Korinthios and his colleagues deposited eight mines, ten staters, 14 drachmas 3 obols.</p>
+                <p>Under <supplied reason="subaudible">priest</supplied> Hermesandros, Menippos and his colleagues <supplied reason="subaudible">deposited</supplied> ninety seven mines, 15 staters, 5 drachmas 1 obol.</p>
+                <p>Ithyllis and his colleagues <supplied reason="subaudible">deposited</supplied> thousand three hundred twenty eight mines, 43 drachmas 4 obols. Priest Philekis.</p>
+                <p>Under priest Anaxandros, Theudoros and his colleagues <supplied reason="subaudible">deposited</supplied> thousand seven hundred and seven mines, 23 drachmas, 3 obols 1/2.</p>
+                <p>Under priest Agonis, those for whom Praxis was secretary <supplied reason="subaudible">deposited</supplied> thousand seventy-two mines, 6 drachmas, 2 obols 1/2.</p>
+                <p>Total: four thousand two hundred thirteen mines, 93 drachmas, 4 obols.</p>
+                <p>The nine for whom Praxis was the secretary: tithe sacrificed two hundred sixty mines, 17 drachmas, 2 obols 1/2.</p>
+                <p>Chaulos supplementary payment, deposited by Thrasyllion and the other <foreign rend="italic">hiaromnamones</foreign>: 11 mines 12 drachmas.</p>
+                <p>Furthermore, silver currency found by Agonis: five mines from Euboea.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Sotto il segretario Iason figlio di Iason, sacerdote Agonis figlio di Timokles.</p>
+                <p>Sotto <supplied reason="subaudible">il sacerdote</supplied> Philon, Korinthios e i suoi colleghi hanno depositato 8 mine, 10 stateri, 14 dracme 3 oboli.</p>
+                <p>Sotto <supplied reason="subaudible">il sacerdote</supplied> Hermesandros, Menippos e i suoi colleghi <supplied reason="subaudible">hanno depositato</supplied> 97 mine, 15 stateri, 5 dracme 1 obolo.</p>
+                <p>Ithyllis e i suoi colleghi <supplied reason="subaudible">hanno depositato</supplied> 1328 mine, 43 dracme 4 oboli. Sacerdote Philekis.</p>
+                <p>Sotto il sacerdozio di Anaxandros, Theudoros e i suoi colleghi <supplied reason="subaudible">hanno depositato</supplied> 1707 mine, 23 dracme, 3 oboli e 1/2.</p>
+                <p>Sotto il sacerdozio di Agonis, quelli di cui Praxis era segretario <supplied reason="subaudible">hanno depositato</supplied> 1072 mine, 6 dracme, 2 oboli e 1/2.</p>
+                <p>Totale: 4213 mine, 93 dracme, 4 oboli.</p>
+                <p>I nove di cui Praxis era segretario: decima sacrificata 260 mine, 17 dracme, 2 oboli e 1/2.</p>
+                <p>Pagamento supplementare di Chaulos, depositato da Thrasyllion e dai colleghi <foreign rend="italic">hiaromnamones</foreign>: 11 mine, 12 dracme.</p>
+                <p>Inoltre, argento trovato da Agonis: 5 mine euboiche.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>في وقت أمين السر ياسون بن ياسون، الكاهن أغونيس بن تيموكليس. في وقت (الكاهن) فيلون، أودع كورينثيوس وزملاؤه ثمانية ميناي وعشرة استاتير و14 دراخما و3 أوبول. خلال فترة (الكاهن) هيرميساندروس، أودع مينيبوس وزملاؤه سبعة وتسعون ميناي و15 استاتير و5 دراخما وأوبول واحد. أودع إيثيليس وزملاؤه ألفاً وثلاثمائة وثمانية وعشرون ميناي و43 دراخما و4 أوبول. الكاهن فيلكيس. في وقت الكاهن أناكساندروس ، أودع ثيودوروس وزملاؤه ألفاً وسبعمائة وسبعة ميناي و23 دراخما و3 أوبول و½. في عهد الكاهن أغونيس ، بينما كان براكسيس أمينًا للسر أودع أولئك  ألفًا وإثنين وسبعين ميناي و 6 دراخما واثنين و نصف من الأوبول. المجموع: أربعة آلاف ومئتان وثلاثة عشر ميناي و93 دراخما و4 أوبول. التسعة الذين كان براكسيس أمين  سرًا لهم: عشر الأضاحي  المقدمة يكون مئتان وستين ميناي و17 دراخما 2 أوبول و½. التبرع الإضافي لخاولوس أُوْدِع من قبل ثاراسليون والإيرومنامونيس الآخرين: 11مناي  و12 دراخما. أضف إلى ذلك، العملة الفضية التي عُثِر عيها من قبل أغينوس: خمسة مناي من أيوبيا.</p>
+            </div>
+            <div type="commentary">
+                
+                <p>This well preserved inscription is an inventory of cash from different origins. Found along with <ref type="inscription" source="#IGCyr2">IGCyr081100</ref>, this tablet was perhaps 
+                 related to it 1) if the priest Hermesandros mentioned in both is the same person; 2) because <foreign rend="italic">hiaromnamones</foreign> are mentioned in both accounts. 
+                However this relation has been considered too hypothetical for different reasons: 1) the poor state of conservation of the other tablet, of which a great part might be lost if it was of 
+                the same shape as the present one; 2) the just mentioned priest: if his priesthood is recorded in the present tablet, he should not have been in charge many years before
+                and this seemed inconsistent with the fact that the change of writing system, from archaic to Ionic standard, happened between the time when one and the other tablets were written. However,
+                <bibl><ptr target="#rosamilia2023"/></bibl> added a new argument for a short interval between them: the fact that all numbers of mines are written in full should correspond to a phase when 
+                the specific Cyrenaican numerals were in use only for the 'lower' amounts, i.e. amounts in drachmas. He therefore fixed the date of this tablet high in the fourth century BC.</p>
+                <p>In spite of some variation in the formulae, we have at lines 2-6 five similar mentions of a deposit made by a group of persons named after a representative (president? 
+                secretary?) in a year identified through the eponymous priest. Whether those years were separated by a span of time or not and whether the mentions are chronologically 
+                progressive or retrograde is not clear. However the responsability of registering those deposits on the tablet belongs to a secretary Iason under priest Agonis son of Timokles (l. 1), 
+                in the very year of the last mentioned deposit (l. 6). This proves that the secretary responsible for the whole account (Iason) is not the same secretary as the one who acted 
+                for the annual deposit (Praxis). Iason checked the total amount of the deposits at line 7. At the end come three sums of different origins also lying in the treasury 
+                for which Iason and Agonis were responsible (more on this point below).</p>
+	      <p>The persons responsible for the deposits are described as <foreign xml:lang="grc">τοὶ ἀμφί τινα</foreign>, a Greek phrase for a group 'around' and including a more 
+	      prominent person. Only at line 6 does a slightly different formulation occur with <foreign xml:lang="grc">τοῖς Πρᾶξις ἔγραφε</foreign> 'those for whom 
+	      Praxis was secretary'. It is thus tempting to consider that in the other instances the group was also named after the secretary. Furthermore, Praxis is mentioned 
+	      again at line 8 as secretary of nine persons, but not necessarily the same ones, as the matter is here the expense for a tithe. In Gasperini's view, nine being 
+	      the number of <foreign rend="italic">nomophylakes</foreign> in Ptolemy's <foreign rend="italic">diagramma</foreign> (<ref type="inscription" source="#IGCyr2">IGCyr010800</ref>)
+	      in 321/20 BC, Praxis and his colleagues at line 8 should be <foreign rend="italic">nomophylakes</foreign>. However this does not seem cautious, 
+	      as we know nothing of <foreign rend="italic">nomophylakes</foreign> before Ptolemy's <foreign rend="italic">diagramma</foreign>. 
+	      Besides, a sacrifice of a tithe does not seem so evident a task for <foreign rend="italic">nomophylakes</foreign>. Moreover, Gasperini was inclined to guess
+	      the office of 'the nine' because of the 'supplementary payment' at line 9, which is said to be deposited by a group of <foreign rend="italic">hiaromnamones</foreign> lead by Thrasyllion. The parallel is in no way advisable and the reason for Chaulos' supplementary payment is
+	      wholly obscure. We can only notice that in the older account (<ref type="inscription" source="#IGCyr2">IGCyr081100</ref>) <foreign rend="italic">hiaromnamones</foreign> 
+	      are mentioned, but the context is wholly obscure.</p>
+                <p>About the tithe, as mentioned here and more generally speaking, see <bibl><ptr target="#cdl-maffre2018"/>, p. <citedRange>252</citedRange></bibl>.</p>
+                <p>Some names were not identified as such by Gasperini. Praxis (ll. 6 and 8) is a common name in Cyrenaica and gives the only possible interpretation of the
+                phrase just mentioned. As for <foreign xml:lang="grc">Χαῦλος</foreign>, see already <bibl><ptr target="#arena1990"/>, pp. <citedRange>37-38</citedRange></bibl> 
+                    and also <bibl><ptr target="#cdl2010"/></bibl>, whereas Gasperini's idea of a variant of <foreign xml:lang="grc">καυλός</foreign> 'stem of silphium', is not plausible. 
+                Moreover, the same personal name is probably also mentioned in <ref type="inscription" source="#IGCyr2">IGCyr115000</ref> (a suggestive restoration by Rosamilia).</p>
+                <p>Another important aspect of this text is the Cyrenaean monetary system. <bibl><ptr target="#laronde1987"/>'s, pp. <citedRange>241-247</citedRange></bibl>, 
+                    <bibl><ptr target="#gasperini1986"/></bibl>'s (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>217-226</citedRange></bibl>) and <bibl><ptr target="#foraboschi1996"/></bibl>'s
+                   explanations are now completed by <bibl><ptr target="#rosamilia2023"/></bibl>.</p>
+                <p>The question of the Euboic system mentioned at line 10 and the general meaning of that line were debated by <bibl><ptr target="#rosamilia2016"/></bibl> and again <bibl><ptr target="#rosamilia2023"/></bibl>, 
+                    who on some points does not agree with Dobias-Lalou's options retained above. He understands line 10 as a continuation of line 9, without taking into account the <foreign xml:lang="italic">paragraphos</foreign> 
+                which divides the two lines. This allows an easier interpretation of the final accusative and leads to a different meaning of <foreign xml:lang="grc">εὑρίσκω</foreign>. In that view the translation 
+                of ll. 9-10 would be: 'Thrasyllion and the other <foreign rend="italic">hiaromnamones</foreign> deposited 11 mines 12 drachmas and also the silver that Agonis found having a weight of five Euboic mines'</p>
+            </div></body>
+    </text>
+</TEI>

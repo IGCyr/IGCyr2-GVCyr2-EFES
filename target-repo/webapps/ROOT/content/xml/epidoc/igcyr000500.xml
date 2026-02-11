@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Imitated <rs type="textType">artist's signature</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr000500</idno>
+                <idno type="number" subtype="second-edition">000500</idno>
+                <idno type="TM">738103</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr000500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr000500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr000500</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a <objectType>plate</objectType> of <material>Rhodian ware</material>, 
+                                        bearing also <ref type="inscription" source="#IGCyr2">IGCyr000300</ref>
+                                        (<dimensions>
+                                            <width>0.18</width>
+                                            <height>0.08</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Graffito</rs> on the rim (width 0.06).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.004" max="0.02">0.004 to 0.02</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context" when="-0600" precision="low">Ca. 600 BC</origDate>
+                        </origin>
+                            
+                        <provenance type="found" notAfter="1963">
+                            <p>Found before 1963 as a chance find at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>:
+                                exact findspot unrecorded.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="1965">
+                            <p>Seen in 1965 by Boardman at <placeName type="modernSpot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>:
+                                in the <rs type="monuList" ref="https://www.slsgazetteer.org/1095">Tocra Museum</rs>.</p>
+                        </provenance>        
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2013-04-28" who="Pietro">apparatus, name and checked</change>
+            <change when="2013-03-26" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2012-02-22" who="CDL+HB">text, apparatus, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76667/3/igcyr000500-1-view.tiff.jpg" corresp="igcyr000500" decls="#photograph"><desc resp="Boardman, J." source="Department of Antiquities, Tukrah" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76667">View of igcyr000500 Artist's signature imitated</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76668/3/igcyr000500-2-drawing.tiff.jpg" corresp="igcyr000500" decls="#photograph"><desc resp="Boardman, J." source="-" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76668">Drawing of igcyr000500 Artist's signature imitated</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#boardman1966"/>, pp. <citedRange>153-155</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1970"/>, pp. 233-235, n. <citedRange>3</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>000500</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2015a"/>, pp. <citedRange>65, 68</citedRange> </bibl>;
+                    <bibl><ptr target="#antonini2016"/>, p. <citedRange>45</citedRange></bibl> and 
+                    <bibl><ptr target="#cdlBE"/> <citedRange>2017.638</citedRange></bibl>.</p>
+            
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-60850"><name nymRef="#Ἀπονίκας">Ἀ<unclear>π</unclear>ονίκας</name></persName> 
+                    <w lemma="γράφω">ἔγ<unclear>ρ</unclear><supplied reason="lost" cert="low">απσε</supplied></w>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem>Ἀ<unclear>π</unclear>ονίκας</lem>
+                        <rdg resp="#cdl1970">ἀπὸ νίκας <note>Masson's reading</note></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">      
+                <p>Aponikas a inscrit.</p>
+          
+                <div type="translation" xml:lang="en" xml:space="preserve">
+                <p>Aponikas inscribed.</p>
+                </div>
+
+                <div type="translation" xml:lang="it" xml:space="preserve">
+                <p>Aponikas ha iscritto.</p>
+                </div>
+
+                <div type="commentary">
+                
+                <p>The letters may be either Cyrenaean or Theran, so the graffito might have been scratched at either places (see also at <ref type="inscription" source="#IGCyr2">IGCyr000300</ref>).</p>                    
+                    <p>The reading <foreign xml:lang="grc">Ἀπονίκας</foreign> is now conforted by another occurrence at <ref type="inscription" source="#IGCyr2">IGCyr122400</ref>.</p>
+                <p>Antonini's idea that the penultimate preserved letter, instead of being a gamma, might be a chi with trident-shape is not sustainable (see photograph).</p>
+                <p/>
+            </div>
+       </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>أبونيكاس نقش أو كتب</p>
+         </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr001700</idno>
+                <idno type="number" subtype="second-edition">001700</idno>
+                <idno type="TM">738114</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr001700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr001700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr001700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Foot of <objectType>cup</objectType>;
+                                        <material>Attic black-glazed ware</material>, red under foot
+                                        (diameter 0.065).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> under foot in a circle.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.004" atMost="0.006">0.004-0.006</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="monument-type" notBefore="-0500" notAfter="-0451" precision="medium">First half of the fifth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, under the <rs type="monuList" ref="https://www.slsgazetteer.org/1041">Trajanic Baths</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1928" resp="Oliverio">
+                                    <p>Seen by G. Oliverio in 1928.</p>
+                                </provenance>
+                            <provenance type="not-observed">
+                                <p>Not seen by IGCyr team.</p>
+                            </provenance>
+                        
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2021-12-12" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-20" who="Alice">checked</change>
+            <change when="2013-04-04" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-10" who="CDL">lemma, text, translation, commentary</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76679/3/igcyr001700-drawing.tiff.jpg" corresp="igcyr001700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="-" n="-"><ref target="http://hdl.handle.net/20.500.14008/76679">Drawing of igcyr001700 Tithe to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1930"/>, p. 244, n. <citedRange>42</citedRange>, fig. 90</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.309</citedRange></bibl>;
+                    <bibl><ptr target="#jeffery1961"/>, p. 324, n. <citedRange>21</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1970"/>, p. 246, n. <citedRange>11</citedRange></bibl>;
+                    <bibl><ptr target="#lazzarini1976"/>, p. 274, n. <citedRange>697 a 2</citedRange></bibl>;
+                    <bibl><ptr target="#maffre2007"/>, n. <citedRange>10</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>001700</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Τὀπόλλōνος</name></persName> <g type="punct">⋮</g> <w lemma="δεκάτα">δεκάτα</w>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Dîme d'Apollon</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Apollo's tithe.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Decima di Apollo.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>عشر أبوللو</p>
+         </div><div type="commentary">
+                
+                <p>This is one of the few graffiti that are complete and allow restoration of the numerous broken ones.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

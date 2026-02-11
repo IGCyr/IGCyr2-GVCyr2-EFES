@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135900</idno>
+                <idno type="number" subtype="second-edition">135900</idno>
+                <idno type="TM">997621</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135900</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>On the wall of a <material>rock</material>-cut <objectType>tomb</objectType>, above a small niche inside room L (extent of the inscribed area <dimensions><width>0.33</width></dimensions>
+                                         as from photograph).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="pictura">Painted</rs> in red paint on one line above the niche.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Carefully painted letters (approximately <height precision="low">0.03</height> from photograph) with small apices, smaller omicron, non-slanting sigma; pi is written twice right-to-left.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0200" notAfter="-0100" precision="low">Probably second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="2006">
+                                    <p>Inside the tomb investigated in 2006 by the team of the Chieti mission at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, tomb S147 Cassels, also called 'Carboncini Tomb'.</p>
+                                </provenance>
+                        <provenance type="observed" when="2006" resp="Cinalli">
+                            <p>Studied by Cinalli of the Chieti mission in 2006 in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1470">South Necropolis</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcribed from photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change> 
+            <change when="2024-01-17" who="CDL">added textType</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>    
+            <change when="2022-07-24" who="CDL">file updated</change>
+         <change when="2022-03-23" who="CDL"/>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80487/3/igcyr135900-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80487">View of igcyr135900 Epitaph</ref></desc></graphic></facsimile>
+    <!-- <facsimile/> Chieti/Carboncini/ isncriptions/L/IMG3183 -->
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not included into <bibl><ptr target="#IGCyr"/></bibl>.</p>    
+            <p><bibl><ptr target="#cinalli2016"/>, pp. <citedRange>205-206</citedRange>, fig. 11</bibl>,  whence
+                    <bibl><ptr target="#cdlBE"/> <citedRange>2019.556</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Εὐίππιον">Εὐίππιον</name> <persName type="attested" subtype="patronymic" key=""><name nymRef="#Ἀναξέας"/>Ἀναξέα</persName></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Euippion fils (ou fille?) d'Anaxéas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Euippion son (or daughter?) of Anaxeas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Euippion figlio (o figlia?) di Anaxeas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>This inscription belongs to a special funerary device, first because it is painted; second because it is related to a niche, so small that it might have contained only the remains of a very young child, either a corpse or 
+             ashes in a small urn.</p>
+             <p>The name is puzzling, as most personal names with diminutive suffix <foreign xml:lang="grc">-ιον</foreign> were given to women, because of its familiar and sometimes pejorative meaning. However, there exist some instances of 
+             men's names with that suffix (see <bibl><ptr target="#réveilhac2017"/>, pp. <citedRange>387-390</citedRange></bibl>). The careful and somewhat monumental lettering does not fit a familiar value. A diminutive value might rather be intended for an infant. As 
+                 <foreign xml:lang="grc">Εὔιππος</foreign> reflects rather masculine interests and although the feminine <foreign xml:lang="grc">Εὐίππα</foreign> also exists, the dead infant was more probably a boy than a girl.  
+           </p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Modern Locations</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>InsLib Project</authority>
+            </publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+        <listPlace>
+            <head>Libyan Museums</head>
+            <place xml:id="db1108">
+                <placeName>Assultan Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1108</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q104713167</idno>
+            </place>
+            <place xml:id="db1103">
+                <placeName>Bani Walid Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1103</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q20726222</idno>
+            </place>
+            <place xml:id="db1104">
+                <placeName>Germa Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1104</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q5550965</idno>
+            </place>
+            <place xml:id="db1105">
+                <placeName>Ghadames Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1105</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q5555162</idno>
+            </place>
+            <place xml:id="db652">
+                <placeName>Homs Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/652</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q77844654</idno>
+            </place>
+            <place xml:id="db654">
+                <placeName>Lepcis Magna Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/654</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q6527955</idno>
+            </place>
+            
+           
+            <place xml:id="db1102">
+                <placeName>Misratah Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1103</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q80568441</idno>
+            </place> 
+            <place xml:id="db907">
+                <placeName>Residency, Mizdah</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/907</idno>
+            </place> 
+            <place xml:id="db1099">
+                <placeName>Museum of Libya, Tripoli</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1099</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q6940922</idno>
+            </place>
+            
+            <place xml:id="db1098">
+                <placeName>Tripoli National Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1098</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q2498401</idno>
+            </place>
+            <place xml:id="db1743">
+                <placeName>Sabratha, Punic Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1743</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q105300355</idno>
+            </place>
+            <place xml:id="db660">
+                <placeName>Sabratha, Roman Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/660</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q77845236</idno>
+            </place>
+            <place xml:id="db1527">
+                <placeName>Zlitan Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1527</idno>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q104817303</idno>
+            </place>
+            <!-- <place xml:id="db932">
+                <placeName>Apollonia Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/932</idno>
+                <idno>https://www.wikidata.org/wiki/Q4780390</idno>
+            </place>
+            <place xml:id="db1179">
+                <placeName>Balagrae Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1179</idno>
+            </place>
+            <place xml:id="db1288">
+                <placeName>Barke Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1288</idno>
+            </place>
+            <place xml:id="db1094">
+                <placeName>Benghazi Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1094</idno>
+                <idno>https://www.wikidata.org/wiki/Q80795500</idno>
+            </place>
+            <place xml:id="db933">
+                <placeName>Cyrene Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/933</idno>
+                <idno>https://www.wikidata.org/wiki/Q12238619</idno>
+            </place>
+            <place xml:id="db934">
+                <placeName>Cyrene Sculpture Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/934</idno>
+            </place>
+            <place xml:id="db1414">
+                <placeName>Derna: Museum of the Society of the Hela</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1414</idno>
+            </place>
+            <place xml:id="db1100">
+                <placeName>Qasr Libya Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1100</idno>
+            </place>
+            <place xml:id="db1095">
+                <placeName>Tocra Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1095</idno>
+            </place>
+            <place xml:id="db1096">
+                <placeName>Tolmeita Museum</placeName>
+                <idno type="hgl">https://www.slsgazetteer.org/1096</idno>
+            </place> -->
+            
+        </listPlace>
+        <listPlace>
+            <head>Foreign Museums</head>
+            <place xml:id="db00002">
+                <placeName>American Academy, Rome</placeName>
+                <idno>https://ror.org/043bd2013</idno>
+            </place>
+            <place xml:id="db00001">
+                <placeName>Carpentras, Musée lapidaire</placeName>
+                <idno>https://www.wikidata.org/wiki/Q2740873</idno>
+            </place>
+            
+            <place xml:id="db901">
+                <placeName>Çinili Kösk, Istanbul</placeName>
+                <idno>https://archnet.org/sites/15034</idno>
+            </place>
+            <place xml:id="db1097">
+                <placeName>Louvre, Paris</placeName>
+                <idno>https://ror.org/05k441034</idno>
+            </place>
+            <place xml:id="db904">
+                <placeName>British Museum, London</placeName>
+                <idno>https://ror.org/00pbh0a34</idno>
+            </place>
+            <place xml:id="db1455">
+                <placeName>Musée St. Raymond, Toulouse</placeName>
+                <idno>https://www.wikidata.org/wiki/Q1376</idno>
+            </place>
+            <place xml:id="db093">
+                <placeName>Virginia Water</placeName>
+                <idno>https://historicengland.org.uk/listing/the-list/list-entry/1001177</idno>
+            </place>
+            <place xml:id="db094">
+                <placeName>Ure Museum, University of Reading</placeName>
+                <idno>https://www.wikidata.org/wiki/Q7900347</idno>
+            </place>
+        </listPlace>
+        </body>
+    </text>
+</TEI>

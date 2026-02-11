@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr114300</idno>
+                <idno type="number" subtype="second-edition">114300</idno>
+                <idno type="TM">738695</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr114300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr114300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr114300</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, with mouldings of egg and dart above and below on three sides; a circular hole and a 
+                                        channel for attachment on top
+                                        (<dimensions>
+                                            <width>0.67</width>
+                                            <height>0.32</height>
+                                            <depth>0.42</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face between the mouldings
+                                (<dimensions>
+                                    <width>0.59</width>
+                                    <height>0.11</height>
+                                    <depth>0.38</depth>
+                                </dimensions>).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.04</height>; slightly disymetrical nu, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>-
+                            <origDate evidence="lettering monument-type" when="-0250" precision="low">Ca. 250 BC</origDate>
+
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1961" resp="Beschi">
+                                    <p>Found by L. Beschi in 1961 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1069">East Necropolis</rs>, possibly tomb E180 Cassels.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="1969" resp="Gasperini">
+                            <p>Seen by Gasperini in 1969 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                            exact place not registered.</p>
+                        </provenance>
+                                <provenance type="observed" when="1979" when-iso="1983" resp="cdl">
+                                    <p>Seen by Dobias-Lalou in 1979 and 1983 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        in front of the <rs type="monuList" ref="https://www.slsgazetteer.org/1492">Casa Parisi</rs>, which is part of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>    
+            <change when="2021-09-19" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-28" who="Alice">checked</change>
+            <change when="2017-02-08" who="CDL">overall check</change>
+            <change when="2015-09-28" who="CDL">additions to bibliography and commentary</change>
+            <change when="2014-02-07" who="CDL+HB">lemma, text, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-01" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77536/3/igcyr114300-1-face.tiff.jpg" corresp="igcyr114300" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77536">Face of igcyr114300 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77537/3/igcyr114300-2-face.tiff.jpg" corresp="igcyr114300" decls="#photograph"><desc resp="-" source="Missione archeologica dell'Università di Chieti" n="1997-2013"><ref target="http://hdl.handle.net/20.500.14008/77537">Face of igcyr114300 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77538/3/igcyr114300-3-drawing.tiff.jpg" corresp="igcyr114300" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="1969"><ref target="http://hdl.handle.net/20.500.14008/77538">Drawing of igcyr114300 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#beschi1970"/>, pp. <citedRange>201, 205</citedRange> (no illustrations)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>114300</citedRange></bibl>
+                    <bibl><ptr target="#cdl2020c"/>, p. <citedRange>316</citedRange> and fig. 2</bibl>.
+                Cf. <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>188</citedRange> (provenance)</bibl>;
+                <bibl><ptr target="#belzic2015"/>, vol. <citedRange>2</citedRange>, p. <citedRange>178</citedRange> (related statue)</bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.49</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Λαΐαρχος">Λαΐαρχος</name> 
+                        <persName type="attested" key=""><name nymRef="#Νίκανδρος" type="patronymic">Νικάνδρω</name></persName></persName> 
+                </ab></div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Laïarkhos fils de Nikandros.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Laiarchos son of Nikandros.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Laiarchos figlio di Nikandros.</p>
+            </div><div type="commentary">
+                
+                <p>In most cases, funerary bases have no display for attachment because the funerary half-statues were simply placed upon them. However the findspot clearly 
+                    shows that the base was funerary. And the absence of moulding at back is another clear clue.</p>
+                <p>As Beschi mentioned a tomb on the right bank of Wadi Bu Sneidi, at the Eastern end of the East Necropolis, it is a plausible guess of the Thorns that 
+                it was E180, the only tomb in that area situated on the right bank.</p>
+                <p>On this rare personal name, see <bibl><ptr target="#cdl2020c"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

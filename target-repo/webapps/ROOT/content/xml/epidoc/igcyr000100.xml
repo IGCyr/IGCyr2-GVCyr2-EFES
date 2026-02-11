@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType" cert="medium">epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr000100</idno>
+                <idno type="number" subtype="second-edition">000100</idno>
+                <idno type="TM">738094</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr000100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr000100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr000100</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary <material>limestone</material>
+                                        <objectType>stele</objectType> broken on all sides except
+                                        the left rim (<dimensions>
+                                            <width>0.33</width>
+                                            <height>0.45</height>
+                                            <depth>0.20</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> boustrophedon
+                                    on the front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.07</height>; archaic shape of letters: three-stroke
+                                iota with right angles, rounded pi, three-stroke gamma combining
+                                classical and isosceles forms.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                         <origPlace>Possibly <placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778" cert="low">Cyrene</placeName>, <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0620" notAfter="-0581" precision="medium">End of seventh or beginning of sixth century
+                                BC</origDate>
+                        </origin>
+                        <provenance type="found" when="1964">
+                            <p>Found in 1964 at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                on the South bank of the <rs type="monuList" ref="https://www.slsgazetteer.org/1379">Wadi Bel Ghadir</rs>, 
+                                at the Eastern end of the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West necropolis</rs>.</p>
+                        </provenance>
+                        <provenance type="observed" when="2010" resp="cdl">
+                            <p>Last seen by C. Dobias-Lalou in 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>. </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation>
+        </profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-04-19" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2014-07-12" who="Alice">checked for demo text in IGCyr site</change>
+            <change when="2013-04-28" who="Pietro">added w and checked</change>
+            <change when="2013-03-20" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-02-17" who="CDL+HB">text, apparatus, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76656/3/igcyr000100-1-squeeze.tiff.jpg" corresp="igcyr000100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/76656">Squeeze of igcyr000100 Epitaph (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76657/3/igcyr000100-2-drawing.tiff.jpg" corresp="igcyr000100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/76657">Drawing of igcyr000100 Epitaph (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76658/3/igcyr000100-3-face.tiff.jpg" corresp="igcyr000100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/76658">Face of igcyr000100 Epitaph (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76659/3/igcyr000100-4-drawing.tiff.jpg" corresp="igcyr000100" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="2007"><ref target="http://hdl.handle.net/20.500.14008/76659">Drawing of igcyr000100 Epitaph (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#cdl-mohamed1995"/><citedRange/></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>45.2170</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>000100</citedRange></bibl>. 
+                        Cf. <bibl><ptr target="#gasperini2009"/><citedRange/></bibl> and <bibl><ptr target="#cdlBE"/>, <citedRange>2011.650</citedRange></bibl>, whence <bibl><ptr target="#SEG"/>, <citedRange>59.1912</citedRange></bibl>;
+                        <bibl><ptr target="#cdl2015a"/><citedRange/></bibl>, whence <bibl><ptr target="#SEG"/>, <citedRange>65.2015</citedRange></bibl>;
+                        <bibl><ptr target="#marengo2016"/>, p. <citedRange>163-164</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1" rend="left-to-right"/><w part="I">τιμο</w><gap reason="lost" unit="character" extent="unknown"/> 
+                    <lb n="2" rend="right-to-left"/><gap reason="lost" unit="character" extent="unknown"/><orig>εν</orig> <g type="punct">⋮</g> τοι <w lemma="πρόγονος">πρ<lb n="3" break="no" rend="left-to-right"/>ογονο<unclear>ι</unclear></w> <gap reason="lost" unit="character" extent="unknown"/>
+                    <lb n="4" rend="right-to-left"/><gap reason="lost" unit="character" extent="unknown"/><orig>ι</orig> <g type="punct">⋮</g> τοι <persName type="attested"><name nymRef="#Πρόκλος">Πρό<lb n="5" break="no" rend="left-to-right"/><unclear>ϙ</unclear>λō</name></persName> <g type="punct">:</g> <w part="I">θυγ<supplied reason="lost">ατ</supplied></w><gap reason="lost" unit="character" extent="unknown"/>
+                    <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="5"><lem><w part="I">θυγ<supplied reason="lost">ατ</supplied></w> <note>a form of <foreign xml:lang="grc">θυγάτηρ</foreign> or of a 
+                    related word beginning with <foreign xml:lang="grc">θυγατρ-</foreign></note></lem>
+                </app></p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisibile (voir commentaire).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable (see commentary).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile (vedi commento).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمه بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>L. 1 either a compound adjective or a personal name including the word <foreign xml:lang="grc">τιμά</foreign> 'honour'.</p>
+                <p>Ll. 2-3 either <foreign xml:lang="grc">τοὶ πρόγονοι</foreign> or <foreign xml:lang="grc">το͂ι προγόνōι</foreign>, with the word for 'forefather'.</p>
+                <p>Ll. 3-4 the lacuna hides probably a proper-name, followed by a patronym: <foreign xml:lang="grc">το͂ι Πρό|ϙλō</foreign>: 'son of Proklos'.</p>
+                <p>With <foreign xml:lang="grc">πρόγονος</foreign> and <foreign xml:lang="grc">θυγά<supplied reason="lost">τηρ</supplied></foreign> ('daughter' or a related word),
+                    a funerary interpretation of the text seems to be the most plausible. The exact
+                    meaning of punctuation is not determinable and does not help to understand how
+                    a forefather, Proklos and a possible daughter are related. The incomplete word at line 5 might also have been a derived 
+                    noun, meaning 'son of the daughter, grandson'. However the word corresponding to Attic and koine <foreign xml:lang="grc">ἀδελφιδοῦς</foreign> is not attested in other dialects and it would be hazardous to restore its supposed dialectal form.</p>
+                <p><bibl><ptr target="#gasperini2009"/></bibl> rightly points out that there are
+                    some doubts about the provenance of the stone. However, what remains seems anyway to lead to a funerary topic. </p>
+            </div></body>
+    </text>
+</TEI>

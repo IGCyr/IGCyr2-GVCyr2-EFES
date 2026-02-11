@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Epitaph</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr033000</idno>
+                <idno type="number" subtype="second-edition">033000</idno>
+                <idno type="TM">738323</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr033000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr033000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr033000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <material>rock</material>-cut tomb
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the wall inside the tomb.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Dimensions of the letters <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" cert="low" precision="medium">Perhaps fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1923">
+                                    <p>Found before 1923 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1462">Ain Hofra</rs>.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" notBefore="1999" notAfter="2005">
+                            <p>Seen (line 1 only) by G. d'Addazio of the Chieti mission in situ at <rs type="monuList" ref="https://www.slsgazetteer.org/1462">Ain Hofra</rs> between 1999 and 2005.</p>
+                        </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.slsgazetteer.org/909" key="http://www.geonames.org/places/373778">Cyrene</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from former editor's drawing (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-01" who="Alice">checked</change>
+            <change when="2015-03-18" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2014-04-26" who="cdl">some changes in text</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-29" who="CDL+HB">lemma, translation</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-15" who="HB">text partially edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77038/3/igcyr033000-drawing.tiff.jpg" corresp="igcyr033000" decls="#photograph"><desc resp="Ferri, S." source="-" n="1923"><ref target="http://hdl.handle.net/20.500.14008/77038">Drawing of igcyr033000 Epitaph (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ferri1923"/>, n. <citedRange>21</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.346</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>033000</citedRange></bibl>.
+                Cf. <bibl><ptr target="#daddazio2008"/>, p. <citedRange>180</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63743"><name nymRef="#Ἑρμογένης">Ἑρμογένευς</name>
+                    <lb n="2"/><space quantity="3" unit="character"/><persName type="attested"><name type="patronymic" nymRef="#Εὐοπίδας">Εὐο<unclear>π</unclear><supplied reason="lost" cert="low">ίδα</supplied></name></persName></persName>
+                    <lb n="3"/><space quantity="5" unit="character"/><orig>πγ</orig>	 
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><lem>Εὐο<unclear>π</unclear><supplied reason="lost" cert="low">ίδα</supplied></lem>
+                        <rdg resp="#ferri1923"><orig>ευοι</orig></rdg>
+                        <rdg source="#SEG"><abbr>Εὐοι</abbr></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="3">
+                        <rdg resp="#ferri1923"><num type="cardinal" value="83"><g type="alphabetic">πγ</g></num></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Tombe</supplied> appartenant à Hermogénès fils d'Euopidas <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><supplied reason="subaudible">Tomb</supplied> of Hermogenes son of Euopidas <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="subaudible">Tomba</supplied> di Hermogenes figlio di Euopidas <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>At line 2, the name <foreign xml:lang="grc">Εὐοπίδας</foreign> would fit the letters shown on Ferri's drawing and not interpreted in his discussion.</p>
+                <p>If Ferri was right in supposing that line 3 had the dead's age, 83 years, this indication would lack the use of the normal symbol for 
+                    <foreign xml:lang="grc">ἐτῶν</foreign>. Furthermore, this would be a strangely early instance of that formula. The letters might as well
+                    pertain to a third personal name. We prefer to leave the question open.</p>
+	     <p>However, d'Addazio observed recently the first line of the inscription 'inside a rock-cut tomb', so that the funerary interpretation seems good.
+	       It is a pity that his photograph, mentioned in his text, was eventually not printed in the publication.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr000200</idno>
+                <idno type="number" subtype="second-edition">000200</idno>
+                <idno type="TM">738095</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr000200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr000200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr000200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Sherd from a <objectType>closed vase</objectType> of <material>fine-ware</material>
+                                        (<dimensions>
+                                            <width>0.045</width>
+                                            <height>0.045</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Incised</rs> before firing.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>; an epsilon inclined to the left with oblique bars.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering context" precision="medium" notAfter="-0601">Before sixth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1964">
+                                    <p>Found in 1964 in 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1460" key="http://pleiades.stoa.org/places/373856">Wadi al Khalij</placeName> (ancient Aziris?).
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/85711">Wadi Khalij</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2013-11-20" who="HellasLabUnibo">checked and in case corrected</change>
+         <change when="2013-03-19" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2013-09-18" who="cdl">lemma, text, apparatus, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#boardman1966"/>, p. 151, n. <citedRange>14</citedRange></bibl>;
+               <bibl><ptr target="#cdl1970"/>, p. <citedRange>251, c</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>000200</citedRange></bibl>.</p>
+            
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1" rend="right-to-left"/><orig>ε</orig><orig><choice><unclear>υ</unclear><unclear>χ</unclear></choice></orig>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><orig>ε</orig><orig><choice><unclear>υ</unclear><unclear>χ</unclear></choice></orig></lem>
+                        <rdg resp="#boardman1966"><orig>ε</orig></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Intraduisible.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Not usefully translatable.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Intraducibile.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمه بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>Boardman mentioned only the epsilon, but on the photograph an oblique stroke follows it at left, forming part of another letter.</p>
+                <p>The sherd was collected during a brief visit and no archaeological context is available.</p>
+                <p>The provenance and type of ceramics are not clearly given by Boardman, who only judges that it might be earlier than ca. 631 BC
+                (conventional date of the foundation of Cyrene). The mouth of Wadi Khalij might be the place called Aziris where the settlers, according 
+                to Herodotus' relation, remained during six years before being brought to Cyrene by Libyans.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

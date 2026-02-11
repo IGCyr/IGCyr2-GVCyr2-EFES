@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr123500</idno>
+                <idno type="number" subtype="second-edition">123500</idno>
+                <idno type="TM">738784</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr123500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr123500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr123500</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>base</objectType> with holes for attachment of a statue: one circular hole 
+                                     for a raised foot at back left, one oval hole for a resting foot at front right  
+                                        (<dimensions>
+                                            <width>0.495</width>
+                                            <height>0.15</height>
+                                            <depth>0.64</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one line on the face, near the upper rim.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.035</height>, carefully cut, no serifs; slightly smaller omicron, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0425" notAfter="-0376" cert="low" precision="medium">Probably last quarter of fourth or first quarter of third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1938" cert="low">
+                                    <p>Possibly found during the Italian excavations before World War II at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" when-iso="2001" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 and again in 2001 placed on a wall in the area of the 
+                                    <rs type="monuList" ref="https://www.slsgazetteer.org/1045">Temple of Asklepios</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-12-14" who="CDL">file created, lemma, text, translations, commentary.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77609/3/igcyr123500-1-face.tiff.jpg" corresp="igcyr123500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77609">Face of igcyr123500 Honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77610/3/igcyr123500-2-squeeze.tiff.jpg" corresp="igcyr123500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/77610">Squeeze of igcyr123500 Honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>123500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Λῦσις">Λῦσι<supplied reason="lost">ς</supplied></name> <persName type="attested" key="">
+                            <name type="patronymic" nymRef="#Ἄριστις"><supplied reason="lost">Ἀρ</supplied>ίστιος</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Lysis fils d'Aristis.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Lysis son of Aristis.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Lysis figlio di Aristis.</p>
+         </div><div type="commentary">
+                
+               <p>Although both names are frequently used in Cyrene, the lettering allows to suggest that this man might be the father of one Aristis son of Lysis, 
+                   a contributor mentioned at <ref type="inscription" source="#IGCyr2">IGCyr065210</ref>, ii.105.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

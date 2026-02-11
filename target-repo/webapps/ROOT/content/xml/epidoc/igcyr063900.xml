@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr063900</idno>
+                <idno type="number" subtype="second-edition">063900</idno>
+                <idno type="TM">6107</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr063900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr063900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr063900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">8</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Upper right angle of a white <material>marble</material> <objectType>panel</objectType>
+                                        with moulding on top and prominent margins all around
+                                        (<dimensions>
+                                            <width>0.34</width>
+                                            <height>0.21</height>
+                                            <depth>0.05</depth>
+                                        </dimensions>). 
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs>: l. 1 on upper margin; l. 2 ff. in sunk field (<dimensions>
+                                            <width>0.265</width>
+                                            <height>0.165</height>
+                                            <depth>0.042</depth>                                         
+                                         </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>L.1 <height atLeast="0.01" atMost="0.013">0.01-0.013</height>; l. 2 ff. 
+                                <height atLeast="0.008" atMost="0.01">0.008-0.01</height>; very carefully cut. </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0290" notAfter="-0271" evidence="lettering prosopography" precision="medium">290-270 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1937" cert="low">
+                                    <p>Found in 1937 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the                                        
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs> (see commentary).
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-26" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-02-10" who="Alice">checked</change>
+            <change when="2015-12-12" who="Alice">words tagging</change>
+            <change when="2015-12-09" who="HellasLabUnibo">checked, updated, and in case corrected</change>
+            <change when="2015-05-09" who="CDL">slight change in text and apparatus; commentary completed, added Fr. and Engl. translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-12-12" who="cdl">lemma, bibliography reduced, text edition completed, commentary</change>
+            <change when="2012-07-16" who="HB">text partial markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77093/3/igcyr063900-1-face.tiff.jpg" corresp="igcyr063900" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1937"><ref target="http://hdl.handle.net/20.500.14008/77093">Face of igcyr063900 Account of the damiergoi</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77094/3/igcyr063900-2-face.tiff.jpg" corresp="igcyr063900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77094">Face of igcyr063900 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#fraser1958"/>, pp. 104-108, n. <citedRange>2</citedRange>, pl. XII, 2</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>18.743</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>063900</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#cdl2000"/>, pp. <citedRange>202-203</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>50.1637</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2020a"/>, p. <citedRange>189-191</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>171-174</citedRange> (date, content), pp. <citedRange>307-308</citedRange>, number 49 (text)</bibl>.</p>
+                   <p>For a general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="θεός"><supplied reason="lost">Θε</supplied>οί</w>.
+                    <lb n="2"/><rs type="office" key="damiergos"><w lemma="δαμιεργέω"><supplied reason="lost">Δαμιεργέ</supplied><unclear>ν</unclear>των</w></rs> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62852"><name nymRef="#Ἄναξις">Ἀνάξιος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63271"><name type="patronymic" nymRef="#Ἄρχετος">Ἀρχέτω</name></persName></persName>, <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63499"><name nymRef="#Δάμων">Δάμωνος</name>
+                    <lb n="3"/><persName type="attested"><name nymRef="#_ρος" type="patronymic"><gap reason="lost" atLeast="8" atMost="9" unit="character"/><seg part="F"><unclear>ρ</unclear>ω</seg></name></persName></persName>, 
+                    <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64549"><name nymRef="#Καρνηιάδας">Καρνηιάδα</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66082"><name type="patronymic" nymRef="#Φίλων">Φίλωνος</name></persName></persName>, τῶ <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλω<lb n="4" break="no"/><supplied reason="lost">νος</supplied></name></persName> <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱαριτεύον</supplied>τος</w></rs> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64920"><name nymRef="#Μάγας">Μάγα</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V4-34814"><name type="patronymic" nymRef="#Φίλιππος">Φιλίππω</name></persName></persName>, 
+                        <w lemma="καρπός">καρποὶ</w> <w lemma="τιμάω">ἐτιμά<lb n="5" break="no"/><supplied reason="lost">θεν</supplied></w>· <num type="ordinal" value="1"><w lemma="πρᾶτος"><supplied reason="lost">πράταν</supplied></w></num> <w lemma="ἑξάμηνος"><supplied reason="lost">ἑξ</supplied>άμηνον</w>· 
+                        <w lemma="σπυρός">σπυροὶ</w> <w>ἀν</w> <g type="punct">:</g>
+                            <num type="total" value="9">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="1">
+                                            <g type="cyrnum">Ζ</g>
+                                        </num>
+                                    </measure>                                
+                                </num>
+                        <g type="punct">:</g> <w lemma="κριθά">κριθαὶ</w> <w>ἀν</w>
+                    <lb n="6"/><gap reason="lost" atLeast="11" atMost="14" unit="character"/><orig>ι</orig>, 
+                        <w lemma="πίσσα">πίσσαι</w> <w lemma="ἀν">ἀν</w> <g type="punct">:</g>
+                            <num type="total" value="6">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="2">
+                                            <g type="cyrnum">𐅝</g>
+                                        </num>
+                                    </measure>                                
+                                </num>
+                        <g type="punct">:</g> 
+                        <w lemma="ἄλλος">τἄλλα</w> <w lemma="ὄσπριον">ὄσπρια</w> <w><unclear>ἀ</unclear><supplied reason="lost">ν</supplied></w>
+                    <lb n="7"/><supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" atLeast="1" atMost="4" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied> 
+                        <w lemma="κάρφος"><supplied reason="lost">κάρφη</supplied></w> <w lemma="ἥμερος"><supplied reason="lost">ἥμερα</supplied></w> <w lemma="ἀν"><supplied reason="lost">ἀ</supplied><unclear>ν</unclear></w> <g type="punct">:</g> 
+                            <num type="total" value="32">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="20">
+                                            <g type="cyrnum">Χ</g>
+                                        </num>
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                    </measure>                                
+                                </num>
+                        <g type="punct">:</g> 
+                        <w lemma="ἄγριος">ἄγρια</w> <w>ἀν</w> <g type="punct">:</g>
+                             <num type="total" value="20">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="20">
+                                            <g type="cyrnum">Χ</g>
+                                        </num>
+                                    </measure>                                
+                                </num>
+                        <g type="punct">:</g> 
+                        <w lemma="ἄχυρον">ἀχύρω<supplied reason="lost">ν</supplied></w>
+                    <lb n="8"/><w lemma="ῥῖπος"><supplied reason="lost">ῥῖπος</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> 
+                        <gap reason="lost" atLeast="1" atMost="2" unit="character"/> 
+                        <supplied reason="lost"><g type="punct">:</g></supplied> 
+                        <w lemma="οἶνος"><supplied reason="lost" cert="low">οἴνω</supplied></w> <measure type="volume" unit="smireus"><w lemma="σμιρεύς"><supplied reason="lost">σ</supplied><unclear>μ</unclear>ιρεὺς</w></measure> <w>ἀν</w> <g type="punct">:</g>
+                            <num type="total" value="40">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="20">
+                                            <g type="cyrnum">Χ</g>
+                                        </num>
+                                        <num value="20">
+                                            <g type="cyrnum">Χ</g>
+                                        </num>
+                                    </measure>                                
+                                </num>
+                        <g type="punct">:</g> 
+                        <w lemma="σταφίς">σταφὶς</w> <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" quantity="2" precision="high" unit="character"/> <supplied reason="lost"/><g type="punct">:</g>
+                    <lb n="9"/><gap reason="lost" atLeast="17" atMost="19" precision="low" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied> <w lemma="σκόρδον"><supplied reason="lost">σκόρ</supplied>δων</w> <measure type="volume" unit="talent"><w>τάλαντον</w></measure> 
+                    <supplied reason="lost">ἀν</supplied> <gap reason="lost" atLeast="6" atMost="8" unit="character"/>
+                    <lb n="10"/><gap reason="lost" atLeast="16" atMost="18" unit="character"/><w><supplied reason="lost">ἀν</supplied></w> <g type="punct">:</g> 
+                            <num type="total" value="10">
+                                    <measure type="currency" unit="drachma">
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="4">
+                                            <g type="cyrnum">𐅠</g>
+                                        </num>
+                                        <num value="2">
+                                            <g type="cyrnum">𐅝</g>
+                                        </num>
+                                    </measure>                                
+                                </num>
+                        <g type="punct">:</g>
+                     <w>κύμινον</w> <w lemma="ἀν"><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" atLeast="1" atMost="4" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied><gap reason="lost" atLeast="6" atMost="9" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied>                    
+                    <lb n="11"/><w lemma="σταφυλά"><supplied reason="lost">σταφυλὰ</supplied></w> <w lemma="ψύθιος"><supplied reason="lost">ψυθία</supplied></w> <w><supplied reason="lost">ἔνδος</supplied></w> <supplied reason="lost">τ</supplied><unclear>ᾶ</unclear>ς <w lemma="προκλησία">προκλη<supplied reason="lost">σίας</supplied></w> 
+                                <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" atLeast="1" atMost="4" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied> <w lemma="μέλας"><supplied reason="lost">μέλ</supplied><lb n="12" break="no"/><supplied reason="lost">αινα</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" atLeast="1" atMost="4" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied> <w lemma="ψύθιος"><supplied reason="lost">ψυθία</supplied></w> <w><supplied reason="lost">ἔξος</supplied></w> <supplied reason="lost">τᾶς</supplied> <w lemma="προκλησία">προ<unclear>κ</unclear><supplied reason="lost">λησίας</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" atLeast="1" atMost="4" unit="character"/> <supplied reason="lost"><g type="punct">:</g></supplied> <w lemma="μέλας"><supplied reason="lost">μέ</supplied><lb n="13" break="no"/><supplied reason="lost">λαινα</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <supplied reason="lost"><g type="punct">:</g></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="13a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="6"><lem resp="#fraser1958 #IGCyr"><gap reason="lost" atLeast="11" atMost="14" unit="character"/><orig>ι</orig></lem>
+                    <rdg resp="#rosamilia2023"><gap reason="lost" atLeast="2" atMost="3" unit="character"/> <supplied reason="lost" cert="low">ἐρέβινθοι κα</supplied>ὶ</rdg>
+                    </app>
+                    <app loc="8"><lem><supplied reason="lost" cert="low">οἴνω</supplied> <supplied reason="lost">σ</supplied><unclear>μ</unclear>ιρεὺς</lem>
+                    <rdg resp="#fraser1958"><supplied reason="lost">οἴνου σμιρεὺς</supplied></rdg>
+                    </app>
+                    <app loc="9"><lem resp="#IGCyr"><supplied reason="lost">σκόρ</supplied>δων τάλαντον <supplied reason="lost">ἀν</supplied> <gap reason="lost" atLeast="6" atMost="8" unit="character"/></lem>
+                        <rdg resp="#rosamilia2023"><supplied reason="lost">σκορά</supplied>δων τάλαντον <supplied reason="lost">ἀν</supplied></rdg>
+                    <rdg resp="#fraser1958"><supplied reason="lost">σκορά</supplied>δων τάλαντον <gap reason="lost" atLeast="8" atMost="10" unit="character"/></rdg>
+                    </app>
+                </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Dieux. Etant démiurges Anaxis fils d'Arkhetos, Damôn fils de <gap reason="lost" extent="unknown" unit="character"/>, Karnèiadas fils de Philôn, étant prêtre d'Apollon Magas fils de Philippos,
+            les récoltes ont été estimées. Premier semestre: froment, la mesure, 9 drachmes; orge, la mesure, <supplied reason="lost">tant</supplied>; pois, la mesure, 6 drachmes;
+            autres légumineuses, la mesure, <supplied reason="lost">tant; foin cultivé, la mesure </supplied>, 32 drachmes; sauvage, la mesure, 20 drachmes; paille, <supplied reason="lost">le filet, tant</supplied>,
+                <supplied reason="lost" cert="low">vin</supplied>, le smireus, 40 drachmes; raisin sec, la mesure, 
+                <supplied reason="lost">tant</supplied>; ail, le talent, <supplied reason="lost">tant</supplied>; <gap reason="lost" extent="unknown" unit="character"/>; cumin, <supplied reason="lost">la mesure, tant; raisin hâtif sous 
+            </supplied> garantie, la mesure, <supplied reason="lost">tant; noir, la mesure, tant; hâtif hors</supplied> garantie, <supplied reason="lost">la mesure, tant; noir, 
+            la mesure, tant</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Gods. Being damiergoi Anaxis son of Archetos, Damon son of <gap reason="lost" extent="unknown" unit="character"/>, Karneiadas son of Philon, being priest of Apollo Magas son of Philippos,
+            the crops were estimated. First semester: wheat, per unit, 9 drachmas; barley, per unit, <supplied reason="lost">so much</supplied>; peas, per unit, 6 drachmas;
+            other pulse, per unit, <supplied reason="lost">so much; cultivated hay, per unit</supplied>, 32 drachmas; wild, per unit, 20 drachmas; straw, <supplied reason="lost">per net,
+                so much</supplied>, <supplied reason="lost" cert="low">wine</supplied>, per smireus, 40 drachmas; raisin, per unit, <supplied reason="lost">so much</supplied>; garlic, per talent, <supplied reason="lost">so much</supplied>; <gap reason="lost" extent="unknown" unit="character"/>; cumin, <supplied reason="lost">per unit, so much;
+            grapes: early, under </supplied> guarantee, per unit, <supplied reason="lost">so much; black, per unit, so much; early without</supplied> guarantee, <supplied reason="lost">
+            per unit, so much; black, per unit, so much</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Dèi. Essendo damiurghi Anaxis figlio di Archetos, Damon figlio di <gap reason="lost" extent="unknown" unit="character"/>, Karneiadas figlio di Philon, essendo sacerdote di Apollo Magas figlio di Philippos,
+            il raccolto è stato valutato. Primo semestre: frumento, a 9 dracme; orzo, a <supplied reason="lost">tanto</supplied>; piselli, a 6 dracme;
+            altri legumi, <supplied reason="lost">a tanto; fieno coltivato, a</supplied> 32 dracme; selvatico, a 20 dracme; paglia, <supplied reason="lost">la rete, a tanto</supplied>,
+                <supplied reason="lost" cert="low">vino</supplied>, a smireus, 40 dracme; uva passa, a <supplied reason="lost">tanto</supplied>; aglio, per talento, <supplied reason="lost">a tanto</supplied>; <gap reason="lost" extent="unknown" unit="character"/>; cumino, <supplied reason="lost">a tanto; uva
+                primaticcia</supplied> garantita, <supplied reason="lost">a tanto; nera, a tanto; primaticcia non</supplied> garantita, <supplied reason="lost">a tanto; nera, 
+           a tanto</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>الآلهة. فترة كل من الداميرجوي أناكس بن أرخيتوس ودامون بن [..؟ ..] وكارنيداس بن فيلون وكاهن أبوللو ماجاس بن فيليبوس، قدرت المحاصيل كالتالي: الفصل الأول: القمح، للمقدار الواحد 9 دراخما؛ الشعير، للمقدار الواحد، [قيمة ما]؛ البازلاء للمقدار الواحد 6 دراخما؛ بقوليات أخرى، للمقدار الواحد[قيمة ما؛التبن المزروع، للمقدار الواحد] 32 دراخما؛ التبن المزروع، للمقدار الواحد 20 دراخما؛ القش (الناتج عن درس الحبوب)، [قيمة ما للشبكة الواحدة]؛ [النبيذ؟]، لكل سميريوس 40 دراخما؛ الزبيب، للمقدار الواحد، [قيمة ما]؛ الثوم، للتالنت الواحد، [قيمة ما]؛ [..؟ ..]؛ الكمون، [قيمة ما للمقدار الواحد؛العنب، المبكر مباع] بعقد مسبق للمقدار الواحد [قيمة ما؛الأسود، للمقدار الواحد، قيمة ما؛ المبكر غير مباع [ بعقد مسبق] للمقدار الواحد، قيمة ما؛ الأسود، للمقدار الواحد، قيمة ما] ؛[..؟ ..].</p>
+         </div><div type="commentary">
+                
+                <p>This account seems to be the most ancient one that is divided into semesters, but not inscribed in columns. The only other sure instances for such a layout 
+                    are <ref type="inscription" source="#IGCyr2">IGCyr013700</ref>, <ref type="inscription" source="#IGCyr2">IGCyr013800</ref> and <ref type="inscription" source="#IGCyr2">IGCyr014100</ref>, which all show a somewhat 
+                    later lettering. The fragment was published as coming from Apollo's sanctuary. However, this provenance is dubious, as all other accounts of damiergoi were found on the agora.</p>
+                <p> At l. 6, as Fraser put it, the word preceding <foreign xml:lang="grc">πισσαί</foreign> might be an adjective relating to it, such as <foreign xml:lang="grc">μαλακαί</foreign> or <foreign xml:lang="grc">σκληραί</foreign>, but its 
+                    place would be abnormal and there is no parallel in other accounts. <bibl><ptr target="#rosamilia2023"/></bibl> has a more tantalzing hypothesis, as he groups together peas with chickpeas, two newcomers in the 
+                accounts of that period. One argument is that <foreign xml:lang="grc">Ι</foreign> is rare as a numeral glyph to be associated with a preceding lost product. However, as it happens that annual 
+                totals end with this small currency, there is no reason to exclude it wholly from detailed prices. As we have no instance of grouped products, we prefer to let the question open.</p>
+                <p>At l. 8, Fraser restored 'wine', as he identified the rare word <foreign xml:lang="grc">σμιρεύς</foreign>, hitherto known only from Hesychius, who mentions 
+                    it as a unit of measure for wine. Since then, the same unit has been identified by Dobias-Lalou in other accounts for wine and also for oil. So we cannot be 
+                    quite sure that the missing product here was wine (see <bibl><ptr target="#cdl2020a"/></bibl>).</p>
+             <p>For the local variation in the name of 'garlic' (line 7), see <bibl><ptr target="#cdl2000"/>, p. <citedRange>37</citedRange> and <citedRange>201</citedRange></bibl>.</p>
+            <p>Magas, being mentioned as priest, gives a precise lapse of time for the date.</p>
+            </div></body>
+    </text>
+</TEI>

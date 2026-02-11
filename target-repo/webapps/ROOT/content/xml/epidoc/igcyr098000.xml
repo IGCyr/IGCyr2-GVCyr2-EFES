@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr098000</idno>
+                <idno type="number" subtype="second-edition">098000</idno>
+                <idno type="TM">738497</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr098000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr098000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr098000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">641</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with light plain moulding below on three sides, partly broken off at left back 
+                                        (<dimensions>
+                                            <width>0.395</width>
+                                            <height>0.14</height>
+                                            <depth>0.295</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.017" max="0.02">0.017 to 0.02</height>; light rests of guidelines, letters still rubricated, deeply and carefully cut, with slight serifs:
+                            dotted theta, large oblique bars of kappa, rather large loop of rho, slanting sigma, calice-shaped upsilon, large omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0270" notAfter="-0260" precision="low" resp="rosamilia">Between 270 and 260 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935" resp="Oliverio">
+                                    <p>Found before 1935 by G. Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, in the so-called 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs> 
+                                        («<foreign xml:lang="it">presso il muro del Piazzale, nell'angolo con i</foreign> <foreign xml:lang="grc">βωμοί</foreign>», Oliverio) .
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen in 1960 by G. Pugliese Carratelli in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>                                
+                                <provenance type="observed" when="1997" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1997 at the same place.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-20" who="CDL">overall check; tagged w, lemma, rs; added Ital. translation</change>
+            <change when="2013-11-03" who="cdl">lemma, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-26" who="HB">text edited and translated (Fr. and Engl.)</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77328/3/igcyr098000-face.tiff.jpg" corresp="igcyr098000" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77328">Face of igcyr098000 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>XV.67</citedRange></bibl> and
+                    <bibl><ptr target="#antiTacc"/>, <citedRange>VII.15</citedRange></bibl>, whence,
+                    <bibl><ptr target="#SECir"/>, <citedRange>127</citedRange> (no image)</bibl>; 
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>54, 121</citedRange> (photo)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>098000</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>103</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65032"><name nymRef="#Μνάσαρχος">Μνάσαρχος</name></persName> 
+                    <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64259"><name nymRef="#Θεύχρηστος" type="patronymic">Θεοχρήστω</name></persName>
+                    <lb n="2"/><rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω">ἱαριτέυων</w></rs> <w lemma="ἀνατίθημι">ἀνέθηκε</w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#laronde1987">Θεοχρήστω</lem>
+                <rdg resp="#SECir">Θευχρήστω</rdg>
+                </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Mnasarchos fils de Theοkhrèstos a consacré <supplied reason="subaudible">ce monument</supplied> durant sa prêtrise.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Mnasarchos son of Theοchrestos dedicated <supplied reason="subaudible">this monument</supplied> while being priest.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Mnasarchos figlio di Theοchrestos ha dedicato <supplied reason="subaudible">questo monumento</supplied> quando era sacerdote.</p>
+         </div><div type="commentary">
+                
+                <p>For the family of the dedicant, see <bibl><ptr target="#laronde1987"/>, pp. <citedRange>54, 121</citedRange></bibl>, who dated the inscription down to ca. 225 BC.
+                <bibl><ptr target="#rosamilia2023"/></bibl> in turn dates it back to 270/260 BC.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

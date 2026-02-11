@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">List of names</rs>, perhaps of soldiers</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr009100</idno>
+                <idno type="number" subtype="second-edition">009100</idno>
+                <idno type="TM">113373</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr009100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr009100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr009100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>British Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>panel</objectType> broken above and on the left side
+                                        (<dimensions>
+                                            <width atLeast="0.38">0.38</width>
+                                            <height atLeast="0.42">0.42</height>
+                                            <depth atMost="0.10">0.10</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on two columns, the left one being partly lost.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height precision="low">ca. 0.01</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of the fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" resp="Smith and Porcher" when="1861">
+                                    <p>Found by R.M. Smith and E.A. Porcher in 1861 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: pronaos of  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1066">Temple of Zeus</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2003" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 2003 in <placeName type="modernSpot" ref="http://www.geonames.org/2643743">London</placeName>: <rs type="monuList" ref="https://www.britishmuseum.org/">British Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-26" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-31" who="CDL">lemma, text, bibliography, apparatus, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76764/3/igcyr009100-1-face.tiff.jpg" corresp="igcyr009100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="British Museum" n="2003"><ref target="http://hdl.handle.net/20.500.14008/76764">Face of igcyr009100 List of militay officers</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76765/3/igcyr009100-2-ll.1-15.tiff.jpg" corresp="igcyr009100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="British Museum" n="2003"><ref target="http://hdl.handle.net/20.500.14008/76765">Lines 1-15 of igcyr009100 List of military officers</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#smith-porcher1864"/>, p. 111, n. <citedRange>7</citedRange> and pl. 79</bibl>; 
+                    <bibl><ptr target="#SGDI"/> <citedRange>4834</citedRange> (Blass)</bibl>; 
+                    <bibl><ptr target="#hirschfeld-marshall1916"/>, n. <citedRange>1053</citedRange>, with photograph</bibl>; 
+                    <bibl><ptr target="#DGE"/> <citedRange>235</citedRange> (col. b only)</bibl>; 
+                    <bibl><ptr target="#marengo1988a"/>, pp. <citedRange>223-226</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1876</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>009100</citedRange></bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#marengo1991a"/>, p. 95, n. <citedRange>13</citedRange></bibl>;
+                        <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>70</citedRange> (typology), pp. <citedRange>350-351</citedRange>, number 75 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="3"/><persName type="attested" key=""><name><gap reason="lost" quantity="11" unit="character" precision="low"/></name><persName type="attested" key=""><name nymRef="#Δαμόκριτος" type="patronymic"><supplied reason="lost">Δ</supplied><unclear>αμ</unclear>οκρίτω</name></persName></persName>
+                        <lb n="4"/><persName type="attested" key=""><gap reason="lost" quantity="7" unit="character" precision="low"/><name nymRef="#_ος"><seg part="F">ος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64983"><name nymRef="#Μελάνιππος" type="patronymic">Μελανίππω</name></persName></persName>
+                        <lb n="5"/><persName type="attested"><name><gap reason="lost" quantity="7" unit="character" precision="low"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63753"><name nymRef="#Ἐρύσιππος" type="patronymic">Ἐρυσίππω</name></persName></persName>
+                        <lb n="6"/><persName type="attested" key=""><gap reason="lost" quantity="6" unit="character" precision="low"/><name nymRef="#_αχος"><seg part="F">αχος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63260"><name nymRef="#Ἀρτύλας" type="patronymic">Ἀρτύλα</name></persName></persName>
+                        <lb n="7"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_κράτης"><seg part="F"><supplied reason="lost">κρ</supplied>άτης</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65857"><name nymRef="#Ὑπέροχος" type="patronymic">Ὑπερόχω</name></persName></persName>
+                        <lb n="8"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_αρχος"><seg part="F"><supplied reason="lost">α</supplied>ρχος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65318"><name nymRef="#Ποδώκης" type="patronymic">Ποδώκευς</name></persName></persName>                       
+                        <lb n="9"/><persName type="attested" key=""><gap reason="lost" quantity="5" unit="character" precision="low"/><name nymRef="#Ἀντικάρτης"><supplied reason="lost" cert="low">Ἀντι</supplied>κάρτης</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64281"><name nymRef="#Θράσων" type="patronymic">Θράσωνος</name></persName></persName>
+                        <lb n="10"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_χος"><seg part="F">χος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66125"><name nymRef="#Φράσων" type="patronymic">Φράσωνος</name></persName></persName>
+                        <lb n="11"/><persName type="attested"><name nymRef="#Μελάνιππος"><supplied reason="lost" cert="low">Μελά</supplied>νιππος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62552"><name nymRef="#Ἁγήμων" type="patronymic">Ἁγήμονος</name></persName></persName>
+                        <lb n="12"/><persName type="attested"><name><gap reason="lost" quantity="5" unit="character" precision="low"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64086"><name nymRef="#Θάλων" type="patronymic">Θάλωνος</name></persName></persName>    
+                        <lb n="13"/><persName type="attested" key=""><gap reason="lost" quantity="5" unit="character" precision="low"/><name nymRef="#_αν"><seg part="F"><unclear>α</unclear>ν</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65498"><name nymRef="#Πρῶρος" type="patronymic">Πρώρω</name></persName></persName>
+                        <lb n="14"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_λας"><seg part="F"><unclear>λ</unclear>ας</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63830"><name nymRef="#Εὐκλείδας" type="patronymic">Εὐκλείδα</name></persName></persName>
+                        <lb n="15"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_δαμος"><seg part="F"><supplied reason="lost">δ</supplied>αμος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65043"><name nymRef="#Μνᾶσις" type="patronymic">Μνάσιος</name></persName></persName>
+                        <lb n="16"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_της"><seg part="F">της</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62689"><name nymRef="#Ἀκέσων" type="patronymic">Ἀκέσωνος</name></persName></persName>
+                        <lb n="17"/><persName type="attested" key=""><gap reason="lost" quantity="3" unit="character" precision="low"/><name nymRef="#_οτέλης"><seg part="F">οτέλης</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65467"><name nymRef="#Πρᾶτις" type="patronymic">Πράτιος</name></persName></persName>
+                        <lb n="18"/><persName type="attested" key=""><gap reason="lost" quantity="3" unit="character" precision="low"/><name nymRef="#_αρχος"><seg part="F">αρχος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65285"><name nymRef="#Παυσανίας" type="patronymic">Παυσανία</name></persName></persName>
+                        <lb n="19"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_οίδας"><seg part="F">οίδας</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64864"><name nymRef="#Λυσάνωρ" type="patronymic">Λυσάνορος</name></persName></persName>
+                        <lb n="20"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_ν"><seg part="F"><unclear>ν</unclear></seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63137"><name nymRef="#Ἀριστόβωλος" type="patronymic">Ἀριστοβώλω</name></persName></persName>
+                        <lb n="21"/><persName type="attested" key=""><gap reason="lost" quantity="4" unit="character" precision="low"/><name nymRef="#_γένης"><seg part="F"><supplied reason="lost">γ</supplied>ένης</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66146"><name nymRef="#Χαιριείδης" type="patronymic">Χαιριείδευς</name></persName></persName>
+                        <lb n="22"/><persName type="attested"><name nymRef="#_άνωρ"><gap reason="lost" quantity="3" unit="character" precision="low"/><seg part="F"><supplied reason="lost">άν</supplied><unclear>ω</unclear>ρ</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65297"><name nymRef="#Πεῖσις" type="patronymic">Πείσιος</name></persName></persName>
+                        <lb n="23"/><persName type="attested" key=""><gap reason="lost" quantity="6" unit="character" precision="low"/><name nymRef="#_ρος"><seg part="F"><unclear>ρ</unclear>ος</seg></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65099"><name nymRef="#Νέων" type="patronymic">Νέωνος</name></persName></persName>
+                        <lb n="24"/><persName type="attested"><name><gap reason="lost" quantity="7" unit="character" precision="low"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63474"><name nymRef="#Δᾶμις" type="patronymic"><unclear>Δ</unclear>άμιος</name></persName></persName>                        
+                        <lb n="25"/><persName type="attested"><name><gap reason="lost" quantity="6" unit="character" precision="low"/></name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64843"><name nymRef="#Λύκος" type="patronymic"><unclear>Λ</unclear>ύκω</name></persName></persName>
+                        <lb n="25a"/><space extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+                
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="26"/><persName type="attested" key=""><name nymRef="#Ἰάσων"><supplied reason="lost">Ἰάσ</supplied><unclear>ω</unclear>ν</name> 
+                            <persName type="attested" key=""><name type="patronymic" nymRef="#Ἵππις">Ἵππιος</name></persName></persName> <g type="punct">:</g> <persName type="attested"><name nymRef="#Λῦσις">Λῦσις</name> <persName type="attested"><name type="patronymic" nymRef="#Βαῖος">Βαίω</name></persName></persName>                      
+                        <lb n="27"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65356"><name nymRef="Πολύαρχος">Πολύαρχος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65286"><name type="patronymic" nymRef="#Παυσανίας">Παυσανία</name></persName></persName>
+                        <lb n="28"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66172"><name nymRef="#Χάρων">Χάρων</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65877"><name nymRef="#Φαύστιος" type="patronymic">Φαυστίω</name></persName></persName>
+                        <lb n="29"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63983"><name nymRef="#Ζεῦξις">Ζεῦξις</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62670"><name nymRef="#Αἰτάχιννος" type="patronymic">Αἰταχίννω</name></persName></persName>
+                        <lb n="30"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64528"><name nymRef="#Καλλίστρατος">Καλλίστρατος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65121"><name nymRef="#Νίκαιος" type="patronymic">Νικαίω</name></persName></persName>
+                        <lb n="31"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63647"><name nymRef="#Ελικαν">Ελικαν</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64779"><name nymRef="#Λέντιχος" type="patronymic">Λεντίχω</name></persName></persName>
+                        <lb n="32"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64844"><name nymRef="#Λύκος">Λύκος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63885"><name nymRef="#Εὐρύμαχος" type="patronymic">Εὐρυμάχω</name></persName></persName>                
+                        <lb n="33"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65154"><name nymRef="#Νίκιππος">Νίκιππος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63965"><name nymRef="#Εὐφρόνιος" type="patronymic">Εὐφρονίω</name></persName></persName>
+                        <lb n="34"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63224"><name nymRef="#Ἀρίστων">Ἀρίστων</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64847"><name nymRef="#Λύκων" type="patronymic">Λύκων<supplied reason="lost">ος</supplied></name></persName></persName>
+                        <lb n="35"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66046"><name nymRef="Φιλόξηνος">Φιλόξηνος</name> 
+                                       <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64981"><name nymRef="#Μελάνιππος" type="patronymic">Μελανίππω</name></persName></persName>
+                        <lb n="36"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65772"><name nymRef="#Τελέσαρχος">Τελέσαρχος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64725"><name nymRef="#Κρησίλας" type="patronymic">Κρησίλα</name></persName></persName>
+                        <lb n="37"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62927"><name nymRef="#Ἀντίμαχος">Ἀντίμαχος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66018"><name nymRef="#Φιλόκωμος" type="patronymic">Φιλοκώ<unclear>μ</unclear>ω</name></persName></persName>
+                        <lb n="38"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62955"><name nymRef="#Ἀντίφιλος">Ἀντίφιλος</name> 
+                                        <persName type="attested" key=""><name nymRef="#Λυσανίας" type="patronymic"><choice><corr>Λ</corr><sic>Α</sic></choice>υσανία</name></persName></persName>
+                        <lb n="39"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62733"><name nymRef="#Ἀλεξίβιος">Ἀλεξίβιος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65613"><name nymRef="#Σμυρναῖος" type="patronymic">Σμυρναίω</name></persName></persName>
+                        <lb n="40"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62815"><name nymRef="#Ἀμμώνιος">Ἀμμώνιος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65187"><name nymRef="#Ξῆνις" type="patronymic">Ξήνιος</name></persName></persName>                        
+                        <lb n="41"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63676"><name nymRef="#Ἐπήρατος">Ἐπήρατος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65368"><name nymRef="#Πολύδωρος" type="patronymic">Πολυδώρω</name></persName></persName>
+                        <lb n="42"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62765"><name nymRef="#Ἄλεξις">Ἄλεξις</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63322"><name nymRef="#Αυγαν" type="patronymic">Αυγαντος</name></persName></persName>
+                        <lb n="43"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63070"><name nymRef="#Ἀρίσταρχος">Ἀρίστ<supplied reason="omitted">α</supplied>ρχος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64279"><name nymRef="#Θράσυς" type="patronymic">Θράσυος</name></persName></persName>
+                        <lb n="44"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62840"><name nymRef="#Ἀνάξανδρος">Ἀνάξανδρος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65666"><name nymRef="#Σχιδᾶς" type="patronymic">Σχιδᾶ</name></persName></persName>
+                        <lb n="45"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63365"><name nymRef="#Βάραιβις">Βάραιβις</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65064"><name nymRef="#Μοιρισθένης" type="patronymic">Μοιρισθένευς</name></persName></persName>
+                        <lb n="46"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63656"><name nymRef="#Ἐξακέστας">Ἐξακέστας</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63095"><name nymRef="#Ἀρίστιππος" type="patronymic">Ἀριστίππω</name></persName></persName>
+                        <lb n="47"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62745"><name nymRef="#Ἀλεξίμαχος">Ἀλεξίμαχος</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62779"><name nymRef="#Ἄλκις" type="patronymic">Ἄλκιος</name></persName></persName>
+                        <lb n="48"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65490"><name nymRef="#Προκλῆς">Προκλῆς</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64348"><name nymRef="#Ἰάσων" type="patronymic">Ἰ<choice><corr>ά</corr><sic>λ</sic></choice>σονος</name></persName></persName>
+                        <lb n="49"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63895"><name nymRef="#Εὐρυφῶν">Εὐρυφῶν</name> 
+                                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63122"><name nymRef="#Ἄριστις" type="patronymic">Ἀρίστιος</name></persName></persName>
+                        <lb n="49a"/><gap reason="lost" extent="unknown" unit="line"/>                    
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="3"><lem resp="#rosamilia2023"><supplied reason="lost">Δ</supplied><unclear>αμ</unclear>οκρίτω</lem>
+                        <rdg resp="#IGCyr"><gap reason="lost"/><unclear>μ</unclear>οκρίτω</rdg>
+                    <rdg resp="#SGDI #hirschfeld-marshall1916"><supplied reason="lost">Δ</supplied><unclear>α</unclear>μοκρίτω</rdg>
+                    <rdg resp="#smith-porcher1864"><supplied reason="lost">Δα</supplied>μοκρίτω</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem resp="#SGDI"><gap reason="lost" quantity="4" unit="character" precision="low"/><supplied reason="lost">κρ</supplied>άτης <note>Blass</note></lem>
+                        <rdg resp="#smith-porcher1864 #hirschfeld-marshall1916"><gap reason="lost" extent="unknown" unit="character"/>άτης</rdg>
+                    </app>
+                    <app loc="9"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">Ἀντι</supplied>κάρτης</lem>
+                    <rdg resp="#smith-porcher1864 #hirschfeld-marshall1916 #SGDI #IGCyr"><gap reason="lost" quantity="5" unit="character" precision="low"/>κάρτης</rdg>
+                    </app>
+                    <app loc="11"><lem resp="#SGDI #hirschfeld-marshall1916 #rosamilia2023"><supplied reason="lost" cert="low">Μελά</supplied>νιππος</lem>
+                    <rdg resp="#smith-porcher1864 #IGCyr"><gap reason="lost" quantity="4" unit="character" precision="low"/>νιππος</rdg>
+                    </app>
+                    <app loc="14"><lem resp="#SGDI"><gap reason="lost" quantity="4" unit="character" precision="low"/><unclear>λ</unclear>ας</lem> 
+                        <rdg resp="#marengo1991a"><supplied reason="lost" cert="low">Εὐκλεί</supplied><unclear>δ</unclear>ας</rdg>
+                    </app>
+                    <app loc="22"><lem resp="#rosamilia2023"><gap reason="lost" quantity="3" unit="character" precision="low"/><supplied reason="lost">άν</supplied><unclear>ω</unclear>ρ</lem>
+                    <rdg resp="#smith-porcher1864 #SGDI #hirschfeld-marshall1916 #IGCyr"><gap reason="lost" quantity="5" unit="character" precision="low"/><unclear>ω</unclear>ρ</rdg>
+                    </app>
+                   <app loc="26">
+                       <lem><supplied reason="lost">Ἰάσ</supplied><unclear>ω</unclear>ν Ἵππιος</lem>
+                        <rdg resp="#marengo1988a"><gap reason="lost" extent="unknown" unit="character"/>ν Ἵππιος</rdg>
+                       <rdg resp="#smith-porcher1864 #hirschfeld-marshall1916"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64980"><name nymRef="#Μελάνιππος"><supplied reason="lost">Μελά</supplied>νιππιος</name></persName></rdg> 
+                       <rdg resp="#SGDI"><supplied reason="lost">Μελά</supplied>νιππος</rdg>
+                    </app>                    
+                    <app loc="26"><lem resp="#marengo1988a"><g type="punct">:</g> Λῦσις Βαίω</lem>
+                        <rdg resp="#smith-porcher1864 #hirschfeld-marshall1916"><orig>λυσιβατω</orig></rdg>
+                        <rdg resp="#SGDI"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64910"><name>Λυσισ<choice><corr>ρ</corr><sic>β</sic></choice>άτω</name></persName> <note>Blass, from Schulze</note></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <div type="textpart" subtype="column" n="a">
+                  <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">Untel fils de</supplied> <supplied reason="lost">D</supplied>amokritos, 
+                     <gap reason="lost" extent="unknown" unit="character"/>os fils de Melanippos, <supplied reason="subaudible">untel, fils</supplied> d'Erusippos, 
+                      <gap reason="lost" extent="unknown" unit="character"/>akos fils d'Artulas, <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">kr</supplied>ates fils d'Hyperokhos, 
+                      <gap reason="lost" extent="unknown" unit="character"/>arkhos fils de  Podokes, <supplied reason="lost" cert="low">Anti</supplied>kartes fils de Thrason, (10) <gap reason="lost" extent="unknown" unit="character"/>khos fils de Phrason,
+                      <gap reason="lost" extent="unknown" unit="character"/>nippos fils d'Hagemon, <supplied reason="subaudible">untel fils</supplied> de Thalon, <gap reason="lost" extent="unknown" unit="character"/>an fils de Proros, 
+                      <gap reason="lost" extent="unknown" unit="character"/>las fils d'Eukleidas, (15) <gap reason="lost" extent="unknown" unit="character"/>damos fils de Mnasis, <gap reason="lost" extent="unknown" unit="character"/>tes fils d'Akeson, 
+                      <gap reason="lost" extent="unknown" unit="character"/>oteles fils de Pratis, <gap reason="lost" extent="unknown" unit="character"/>arkhos fils de Pausanias, <gap reason="lost" extent="unknown" unit="character"/>oidas fils de Lusanor, 
+                      (20) <gap reason="lost" extent="unknown" unit="character"/>n fils d'Aristobolos, <gap reason="lost" extent="unknown" unit="character"/>genes fils de Khairieides, <gap reason="lost" extent="unknown" unit="character"/>anor fils de Peisis, 
+                      <gap reason="lost" extent="unknown" unit="character"/>ros fils de Neon, <supplied reason="subaudible">untel fils</supplied> de Damis, (25) <supplied reason="subaudible">untel fils</supplied> de Lukos. 
+                      </p>
+                </div>
+               <div type="textpart" subtype="column" n="b">
+                  <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ias</supplied>on fils d'Hippios, Lusis fils de Baios, Poluarkhos fils de Pausanias, 
+                      Kharon fils de Phaustios, Zeuxis fils d'Aitakhinnos, (30) Kallistratos fils de Nikaios, Elikan fils de Lentikhos, Lukos fils d'Eurumakhos, Nikippos fils d'Euphronios, Aristos fils de Lukon, 
+                      (35) Philoxenos fils de Melanippos, Telesarkhos fils de Kresilas, Antimakhos fils de Philokomos, Antiphilos fils de Lusanias, Alexibios fils de Smyrnaios,(40) Ammonios fils de Xenis, 
+                      Eperatos fils de Poludoros, Alexis fils d'Augan, Aristarkhos fils de Thrasus, Anaxandros fils de Skhidas, (45) Baraibis fils de Moiristhenes, Exakestas fils d'Aristippos, Aleximakhos fils d'Alkis, 
+                      Prokles fils d'Iason, Euruphon fils d'Aristis.</p>
+            </div>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <div type="textpart" subtype="column" n="a">
+                  <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">So-and-so son of</supplied> <supplied reason="lost">D</supplied>amokritos, 
+                     <gap reason="lost" extent="unknown" unit="character"/>os son of Melanippos, <supplied reason="subaudible">So-and-so son </supplied> of Erysippos, 
+                      <gap reason="lost" extent="unknown" unit="character"/>akos son of Artulas, <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">kr</supplied>ates son of Hyperochos, 
+                      <gap reason="lost" extent="unknown" unit="character"/>archos son of  Podokes, <supplied reason="lost" cert="low">Anti</supplied>kartes son of Thrason, (10) <gap reason="lost" extent="unknown" unit="character"/>chos son of Phrason, 
+                      <gap reason="lost" extent="unknown" unit="character"/>nippos son of Hagemon, <supplied reason="subaudible">So-and-so son</supplied> of Thalon, <gap reason="lost" extent="unknown" unit="character"/>an son of Proros, 
+                      <gap reason="lost" extent="unknown" unit="character"/>las son of Eukleidas, (15) <gap reason="lost" extent="unknown" unit="character"/>damos son of Mnasis, <gap reason="lost" extent="unknown" unit="character"/>tes son of Akeson, 
+                      <gap reason="lost" extent="unknown" unit="character"/>oteles son of Pratis, <gap reason="lost" extent="unknown" unit="character"/>archos son of Pausanias, <gap reason="lost" extent="unknown" unit="character"/>oidas son of Lysanor, 
+                      (20) <gap reason="lost" extent="unknown" unit="character"/>n son of Aristobolos, <gap reason="lost" extent="unknown" unit="character"/>genes son of Chairieides, <gap reason="lost" extent="unknown" unit="character"/>anor son of Peisis, 
+                      <gap reason="lost" extent="unknown" unit="character"/>ros son of Neon, <supplied reason="subaudible">So-and-so son</supplied> of Damis, (25)<supplied reason="subaudible">So-and-so son</supplied> of Lykos. 
+                      </p>
+            
+               <div type="textpart" subtype="column" n="b">
+                  <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ias</supplied>on son of Hippios, Lysis son of Baios, Poluarchos son of Pausanias, 
+                      Charon son of Phaustios, Zeuxis son of Aitachinnos, (30) Kallistratos son of Nikaios, Elikan son of Lentichos, Lykos son of Eurumachos, Nikippos son of Euphronios, Aristos son of Lykon, 
+                      (35) Philoxenos son of Melanippos, Telesarchos son of Kresilas, Antimachos son of Philokomos, Antiphilos son of Lysanias, Alexibios son of Smyrnaios, (40) Ammonios son of Xenis, 
+                      Eperatos son of Polydoros, Alexis son of Augan, Aristarchos son of Thrasys, Anaxandros son of Schidas, (45) Baraibis son of Moiristhenes, Exakestas son of Aristippos, Aleximachos son of Alkis, 
+                      Prokles son of Iason, Euryphon son of Aristis.</p>
+                    </div>
+                </div>
+                <div type="translation" xml:lang="it" xml:space="preserve">
+                <div type="textpart" subtype="column" n="a">
+                  <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">Il tale figlio di</supplied> <supplied reason="lost">D</supplied>amokritos, 
+                     <gap reason="lost" extent="unknown" unit="character"/>os figlio di Melanippos, <supplied reason="subaudible">il tale figlio </supplied> di Erysippos, 
+                      <gap reason="lost" extent="unknown" unit="character"/>akos figlio di Artylas, <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">kr</supplied>ates figlio di Hyperochos, 
+                      <gap reason="lost" extent="unknown" unit="character"/>archos figlio di Podokes, <supplied reason="lost" cert="low">Anti</supplied>kartes figlio di Thrason, (10) <gap reason="lost" extent="unknown" unit="character"/>chos figlio di Phrason,
+                      <gap reason="lost" extent="unknown" unit="character"/>nippos figlio di Hagemon, <supplied reason="subaudible">il tale figlio</supplied> di Thalon, <gap reason="lost" extent="unknown" unit="character"/>an figlio di Proros, 
+                      <gap reason="lost" extent="unknown" unit="character"/>las figlio di Eukleidas, (15) <gap reason="lost" extent="unknown" unit="character"/>damos figlio di Mnasis, <gap reason="lost" extent="unknown" unit="character"/>tes figlio di Akeson, 
+                      <gap reason="lost" extent="unknown" unit="character"/>oteles figlio di Pratis, <gap reason="lost" extent="unknown" unit="character"/>archos figlio di Pausanias, <gap reason="lost" extent="unknown" unit="character"/>oidas figlio di Lysanor, 
+                      (20) <gap reason="lost" extent="unknown" unit="character"/>n figlio di Aristobolos, <gap reason="lost" extent="unknown" unit="character"/>genes figlio di Chairieides, <gap reason="lost" extent="unknown" unit="character"/>anor figlio di Peisis, 
+                      <gap reason="lost" extent="unknown" unit="character"/>ros figlio di Neon, <supplied reason="subaudible">il tale figlio</supplied> di Damis, (25) <supplied reason="subaudible">il tale figlio </supplied> di Lykos. 
+                      </p>
+                </div>
+            
+               <div type="textpart" subtype="column" n="b">
+                  <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ias</supplied>on figlio di Hippios, Lysis figlio di Baios, Polyarchos figlio di Pausanias, 
+                      Charon figlio di Phaustios, Zeuxis figlio di Aitachinnos, (30) Kallistratos figlio di Nikaios, Elikan figlio di Lentichos, Lykos figlio di Eurymachos, Nikippos figlio di Euphronios, Aristos figlio di Lykon, 
+                      (35) Philoxenos figlio di Melanippos, Telesarchos figlio di Kresilas, Antimachos figlio di Philokomos, Antiphilos figlio di Lysanias, Alexibios figlio di Smyrnaios, (40) Ammonios figlio di Xenis, 
+                      Eperatos figlio di Polydoros, Alexis figlio di Augan, Aristarchos figlio di Thrasys, Anaxandros figlio di Schidas, (45) Baraibis figlio di Moiristhenes, Exakestas figlio di Aristippos, Aleximachos figlio di Alkis, 
+                      Prokles figlio di Iason, Euryphon figlio di Aristis.</p>
+            </div>
+         </div>            
+                <div type="commentary">
+                
+                <p>All commentators have considered this stele as listing military officers, because of its obvious similarities with other lists mentioning some military duties (<ref type="inscription" source="#IGCyr2">IGCyr014800</ref>, 
+                   <ref type="inscription" source="#IGCyr2">IGCyr014900</ref>, <ref type="inscription" source="#IGCyr2">IGCyr015000</ref>, <ref type="inscription" source="#IGCyr2">IGCyr084000</ref>). The most striking resemblance lies in the columnar disposal and lettering.
+                It should however be stressed that lists of names may correspond to other purposes. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>70</citedRange></bibl> warns in turn on this point.</p>
+	      <p> A date in the second half of fourth century was already suggested in <bibl><ptr target="#IGCyr"/></bibl>, <foreign xml:lang="la">contra</foreign> <bibl><ptr target="#laronde1987"/>, p. <citedRange>133</citedRange></bibl> 
+	          (<foreign xml:lang="fr">«IVe siècle sans plus de précision»</foreign>) and <bibl><ptr target="#fraser-matthews1987"/></bibl> («III BC», probably after Blass, whose argument about the name <foreign xml:lang="grc">Σμυρναῖος</foreign> did 
+	          not seem binding). <bibl><ptr target="#rosamilia2023"/></bibl> reduces this span of time to ca. 330/300 BC without clear explanation.</p>
+                <p>We restored the name of the first man mentioned at line 27 by comparison with <ref type="inscription" source="#IGCyr2">IGCyr095200</ref>, a dedication by a priest of Apollo of that name. 
+                The dedication, hence the priesthood, is now dated to the years 290 BC by <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>102</citedRange></bibl>. It 
+                seems not impossible that we have here to do with the same man, if he was enlisted rather young.</p>
+                <p>The name at line 14 was tentatively restored by Marengo on the basis of another tentative restoration at <ref type="inscription" source="#IGCyr2">IGCyr014300</ref>, line 6, 
+                which we eventually prefer not to push forward (Eukles would also be possible there).</p>
+                </div>
+                </div></body>
+    </text>
+</TEI>

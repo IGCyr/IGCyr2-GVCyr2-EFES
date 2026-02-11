@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> by generals</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr108600</idno>
+                <idno type="number" subtype="second-edition">108600</idno>
+                <idno type="TM">738616</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr108600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr108600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr108600</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">4673</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a white <material>marble</material> <objectType>block</objectType> broken away at right and left; above a plinth are traces of sculpture:
+                                        a footstool with its four legs and on it a set of bare toes on a sole and the scar of a second foot; at its left side, some vestiges of draperies
+                                        (<dimensions>
+                                            <width>0.29</width>
+                                            <height>0.13</height>
+                                            <depth>0.14</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in three lines on front face of the plinth.
+                                (<dimensions>
+                                    <width>0.20</width>
+                                    <height>0.085</height>
+                                </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015</height>; no serifs, broad alpha, symmetrical nu, xi with central vertical stroke, smaller omicron, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" resp="cdl" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>     
+                            
+                        <provenance type="found" notAfter="1993">
+                            <p>Found before 1993 in a votive depot South of
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the area of 
+                                the <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="1993" resp="cdl">
+                            <p>Seen in 1993 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-18" who="CDL">file updated</change>
+            <change when="2023-08-18" who="Alice">changed Italian translation</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-03" who="CDL">overall check; changed tags of lacunae in text and translations</change>
+            <change when="2014-01-14" who="cdl">lemma, text, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77481/3/igcyr108600-view.tiff.jpg" corresp="igcyr108600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77481">View of igcyr108600 Dedication by generals</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr-cdl2007"/>, pp. 37-38, n. <citedRange>4</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2006</citedRange></bibl>
+                    <bibl><ptr target="#IGCyr"/> <citedRange>108600</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#rosamilia2023"/>, p.<citedRange>124</citedRange> (findspot), pp. <citedRange>364-365</citedRange>, number 88 (text)</bibl>.</p>
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#_όξηνος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">ό</supplied>ξηνος</seg></name> 
+                        <persName type="attested" key=""><name nymRef="#Νικι_" type="patronymic"><seg part="I">Νικ<unclear>ι</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>, 
+                    <persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name><persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>,
+                    <persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Αἰγλάνωρ" type="patronymic"><supplied reason="lost">Αἰγ</supplied>λάνορος</name></persName></persName>,
+                    <persName type="attested" key=""><name nymRef="#Κλευ_"><seg part="I">Κλευ</seg><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>, 
+                    <persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>, 
+                    <lb n="3"/><rs type="office" key="strategos"><w lemma="στραταγέω"><supplied reason="lost">σ</supplied><unclear>τ</unclear>ραταγέντε<supplied reason="lost">ς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/>oxenos fils de Niki<gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">Untel fils d'Untel, Untel</supplied> fils d'Aiglanôr, Kleu<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fils d'Untel, Untel, fils d'Untel</supplied>, tandis qu'ils exerçaient la stratégie, <supplied reason="lost" cert="low">ont consacré</supplied> 
+                <supplied reason="subaudible">ce monument</supplied> <supplied reason="lost" cert="low">à telle divinité</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/>oxenos son of Niki<gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">So-and-so son of So-and-so, So-and-so</supplied> son of Aiglanor, Kleu<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">son of So-and-so, So-and-so son of So-and-so</supplied>, while being <foreign rend="italic">strategoi</foreign>, <supplied reason="lost" cert="low">dedicated</supplied> 
+                <supplied reason="subaudible">this monument</supplied> <supplied reason="lost" cert="low">to such and such deity</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/>oxenos figlio di Niki<gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">il tale figlio del tale, il tale</supplied> figlio di Aiglanor, Kleu<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">figlio del tale, il tale figlio del tale</supplied>, quando erano strateghi, <supplied reason="lost" cert="low">hanno dedicato</supplied> 
+                <supplied reason="subaudible">questo monumento</supplied> <supplied reason="lost" cert="low">alla tale divinità</supplied>.</p>
+            </div><div type="commentary">
+                
+                <p>The layout of the expected elements of this fragmentary dedication is not quite sure. We are able to guess that lines 1-2 had only names, 
+                whereas line 3 had the dedication formula, including plausibly a god's name and/or the verb of dedication <foreign xml:lang="grc">ἀνέθηκε</foreign>.
+                    This leaves space for four or five dedicants mentioned with name and father's name across lines 1-2 remains, as already discussed at 
+                    <bibl><ptr target="#mohamed-jmr-cdl2007"/>, p. <citedRange>24</citedRange></bibl>. <bibl><ptr target="#rosamilia2023"/></bibl> argues that if the 
+                dedication is later than 320 BC, date of Ptolemaios' diagramma (<ref type="inscription" source="#IGCyr2">IGCyr010800</ref>) the generals on office should be five and we follow him for this edition.</p>
+                <p>The problem of the findspot and original place remains open. A part of the material found in this depot is related to Ammon, whose cult place was never proven and 
+                    is placed by some archaeologists at the findspot, where no excavation took place nor will ever be possible. However some items found there, amongst which this dedication,
+                    do not seem to belong to Ammon, whose ties with military affairs are not known. Other dedications by generals (<ref type="inscription" source="#IGCyr2">IGCyr017000</ref>
+                    and <ref type="inscription" source="#IGCyr2">IGcyr017100</ref>) have Apollo as recipient, probably because he was the civic main deity.</p>
+            </div></body>
+    </text>
+</TEI>

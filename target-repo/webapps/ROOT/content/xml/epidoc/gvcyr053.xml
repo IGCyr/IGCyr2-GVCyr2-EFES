@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Perhaps <rs type="textType" cert="low">epitaph</rs></title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr053</idno>
+                <idno type="number" subtype="second-edition">053</idno>
+                <idno type="TM">738942</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr053</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr053</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr053</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Tolmeita Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment, probably from the bottom right corner of a <material>sandstone</material> 
+                                        <objectType>stele</objectType>
+                                        (<dimensions>
+                                            <width unit="metre">0.135</width> 
+                                            <height unit="metre">0.155</height> 
+                                            <depth unit="metre">0.05</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate>Unknown</origDate>.
+                        </origin>
+                        
+                        
+                        <provenance type="found">
+                            <p>Found at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>:  
+                                exact findspot unrecorded.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" resp="JMR">
+                            <p>Observed by J.M. Reynolds at an unknown date in the
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1096">Tolmeita Museum</rs></p>.
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Never seen by IGCyr team.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from J.M. Reynolds' notebooks (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-21" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-18" who="Alice">It. translation; checked</change>
+            <change when="2017-03-08" who="CDL">overall check</change>
+            <change when="2016-10-28" who="CDL">file created; support, text, apparatus, Fr. and Engl. translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Not published before <bibl><ptr target="#GVCyr"/> <citedRange>053</citedRange></bibl>.</bibl>
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <space quantity="3" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><seg real="+--|+"><w lemma="εὐπάτωρ"><supplied reason="lost" cert="low">εὐ</supplied>πατόρων</w></seg> 
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><space quantity="3" unit="character"/>
+                    </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="2"><lem><supplied reason="lost" cert="low">εὐ</supplied>πατόρων</lem>
+                <rdg><supplied reason="lost" cert="low">προ</supplied>πατόρων <note>J.M. Reynolds' suggestion</note></rdg>
+                </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><gap reason="lost" extent="unknown" unit="character"/> de nobles pères <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><gap reason="lost" extent="unknown" unit="character"/> with noble fathers <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/> di nobili padri <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>No date was suggested by J.M. Reynolds in her notebook and no image is available. The date remains thus unknown.</p>
+                <p>The very faint clue for interpreting this small fragment as from a verse epitaph is the poetic character of compounds in <foreign xml:lang="grc">-πάτωρ</foreign>. If ever this is right, <foreign xml:lang="grc">εὐπατόρων</foreign> should be preferred 
+                on metrical grounds.</p>
+                <p>Metrical analysis: a dactylic segment.</p>
+            </div></body>
+    </text>
+</TEI>

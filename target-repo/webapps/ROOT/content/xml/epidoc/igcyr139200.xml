@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr139200</idno>
+                <idno type="number" subtype="second-edition">139200</idno>
+                <idno type="TM">997654</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr139200</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <material>rock</material>-cut <objectType>tomb</objectType> with three <hi rend="italic">loculi</hi> and nicely carved <hi rend="italic">antae</hi> without relief at each side.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the left wall of the forecourt; the wall has been recut later and the beginning of the lines is 
+                                lost; line 2 is partly buried.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/>Deeply cut letters (not measured), with large spaces; mu with divergent hastae, smaller omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" precision="low">Probably fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="2010" resp="ER">
+                                    <p>Found by E. Rosamilia in 2010 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs> (see commentary).
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="2010" resp="ER">
+                            <p>Photographed and read by E. Rosamilia in 2010 in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Photograph and transcription by ER, edition by CDL.</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-02-12" who="Alice">checked</change>
+         <change when="2023-11-26" who="CDL">updated bibl</change>
+            <change when="2023-11-09" who="CDL"> file created and filled</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80537/3/igcyr139200-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80537">View of igcyr139200 Epitaph</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80538/3/igcyr139200-2-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80538">Face of igcyr139200 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                <head>Bibliography</head>
+            <p>Never publisehd before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἁγήμων"><supplied reason="lost">Ἁγ</supplied>ήμονος</name></persName>
+                    <lb n="2"/><persName type="attested" key=""><name><gap reason="lost" quantity="2" unit="character"/><orig>ε</orig><gap reason="lost" quantity="1" unit="character"/><orig>σ</orig><gap reason="lost" atLeast="2" atMost="3" unit="character"/></name></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Tombe de</supplied> Hagèmôn, <supplied reason="lost" cert="low">tombe d'Untel</supplied> (ou <supplied reason="lost" cert="low">fils d'Untel</supplied>).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">Tomb of</supplied> Hagemon, <supplied reason="lost" cert="low">tomb of So-and-so</supplied> (or <supplied reason="lost" cert="low">son of So-and-so</supplied>).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Tomba di</supplied> Hagemon, <supplied reason="lost" cert="low">tomba del tale</supplied> (o <supplied reason="lost" cert="low">figlio del tale</supplied>).</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                <head>Commentary</head>
+             <p>E. Rosamilia saw the inscription in a tomb of the West Necropolis not far from tomb W128 Cassels, where he had identified <ref type="inscription" source="#IGCyr2">IGCyr123400</ref>. The tomb 
+                 that corresponds best to Rosamilia's photograph seems to be W133, although this should be taken cautiously.</p>
+            <p>The beginning of the lines was lost because the forecourt of the tomb was reworked and the wall was cut off. However, the name at line 1 may be restored plausibly. In funerary mentions where the first name is at the genitive case, 
+                the father's name is not usually mentioned. Therefore, the second line might rather mention another dead person. Anyhow, its reading was very partial, as most letters were buried.</p>
+            </div></body>
+    </text>
+</TEI>

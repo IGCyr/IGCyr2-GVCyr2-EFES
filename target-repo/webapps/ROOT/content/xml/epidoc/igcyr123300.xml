@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr123300</idno>
+                <idno type="number" subtype="second-edition">123300</idno>
+                <idno type="TM">738782</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr123300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr123300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr123300</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Rock</material>-cut <objectType>tomb</objectType>, not otherwise described   
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Probably <rs type="execution" key="scalpro" cert="low">inscribed</rs> either above a loculus or on a wall.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Dimensions <height>unknown</height> and shape of letters unknown.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0400" notAfter="-0201" precision="medium" cert="low" resp="JMR">Fourth or third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1954" resp="Cassels">
+                                    <p>Copied by J. Cassels in 1954 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, tomb to the left of W98.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-12-13" who="CDL">file created, lemma, text, translation, commentary.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>297</citedRange> (with commentary by J.M. Reynolds)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>123300</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Εὐγένης">Εὐγένευς</name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">Tombe</supplied>d'Eugénès.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">Tomb</supplied> of Eugenes.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">Tomba</supplied> di Eugenes.</p>
+         </div><div type="commentary">
+                
+               <p>This mention is only known from a diplomatic copy in Cassels' archive, published by the Thorns with a commentary by J.M. Reynolds, who suggested a date 
+                   for the lettering.</p>
+	           <p>In Cassels' words, its place is 'on the left' of tomb W98, which seems to be another, undescribed, tomb. That it is also tomb W98bis mentioned once (and neither 
+	           described) by E. Fabbricotti (see <bibl><ptr target="#fabbricotti2006"/>, p. <citedRange>125</citedRange></bibl>) can only be a guess.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

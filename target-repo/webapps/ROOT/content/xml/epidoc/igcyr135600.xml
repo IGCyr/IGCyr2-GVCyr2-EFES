@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135600</idno>
+                <idno type="number" subtype="second-edition">135600</idno>
+                <idno type="TM">997618</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135600</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a white <material>marble</material> <objectType>base</objectType> broken off at top and bottom, with very poor vestiges of the upper moulding and none of the lower one
+                                        (dimensions of the main part <dimensions>
+                                            <width atLeast="0.37">0.37</width>
+                                            <height atLeast="0.28"/>
+                                            <depth>0.275</depth>
+                                        </dimensions>); about ten smaller fragments were seen scattered around.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in two lines with axial display, showing that 1 letter is lost at the beginning of line 1.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Carefully cut letters (<height>0.032</height>) with very small serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0330" notAfter="-0301" precision="low">Perhaps end of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1981">
+                                    <p>Found in May 1981 by P.Y. Péchoux at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        in the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>, fallen from a tomb not registered by Cassels and situated high up and to the South of his Tomb W109.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="1981" resp="AL">
+                            <p>Studied by Laronde in May 1981 at the same place in the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Dobias-Lalou saw in 1993 a photograph, now lost. The stone seems now lost.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/" key=""/>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Editor's transcription from Laronde's archive and Péchoux's photograph.</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change> 
+            <change when="2024-01-17" who="CDL">added textType</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>    
+            <change when="2023-08-20" who="CDL">file updated</change>
+         <change when="2022-04-09" who="CDL">File created and filled</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80485/3/igcyr135600-1-drawing.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80485">Drawing of igcyr135600 Epitaph</ref></desc></graphic></facsimile>
+    <!-- <facsimile/> sketch done from Laronde's one. -->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=".."><name><supplied reason="lost">Α</supplied>ἰγλάνωρ</name>
+                    <lb n="2"/><persName type="attested" key=".."><name nymRef="#Νίκαιος">Νικαίω</name></persName></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Aiglanôr fils de Nikaios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Aiglanor son of Nikaios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Aiglanor figlio di Nikaios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>This base, copied in 1981 by members of the French archaeological mission at Apollonia who were walking through the West Necropolis of Cyrene, was never seen again and does not seem to 
+                 have been brought to the Department of Antiquities.</p>
+             <p>Although Aiglanor is a very common name at Cyrene, it seems plausible on behalf of the lettering that this Aiglanor son of Nikaios was related to Nikaios son of Aiglanor mentioned as commander of a batallion of <foreign xml:lang="italic">paraibatai</foreign> 
+             in the list <ref type="inscription" source="#IGCyr2">IGCyr084000</ref> at line 123. However if ever the relation is plausible, we cannot decide whether our Aiglanor was the father or the son of the commander.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr092100</idno>
+                <idno type="number" subtype="second-edition">092100</idno>
+                <idno type="TM">738445</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr092100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr092100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr092100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Between second and third doors in a series of five belonging to a <material>rock</material>-cut <objectType>tomb</objectType> 
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Incised</rs> deeply on the outer wall in the space between two doors forming a pilaster-like shape.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.08</height>; much weathered and difficult to read; epsilon with three equal bars, smaller omicron, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate resp="cdl" evidence="lettering" precision="medium" notBefore="-0400" notAfter="-0251">Fourth or first half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1977" resp="CDL+AL">
+                                    <p>Seen by C. Dobias-Lalou and A. Laronde in 1977 at
+                                          <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>, between tombs W42 and W43 Cassels.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1993" resp="Paci">
+                                    <p>Studied by G. Paci in 1993 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL) and previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2013-10-03" who="cdl">lemma, text, apparatus, translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77266/3/igcyr092100-view.tiff.jpg" corresp="igcyr092100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77266">View of igcyr092100 Name</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#paci2003"/>, pp. 179-180, n. <citedRange>3</citedRange> (ph.; dr.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2053, 3</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>092100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἐπαίνετος">Ἐπ<unclear>α</unclear>ί<supplied reason="lost">ν</supplied><unclear>ετο</unclear>ς</name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <note>Dobias-Lalou's and Laronde's copy produced a desperate reading <orig>Επ<unclear>α</unclear><choice><unclear>ξ</unclear><unclear>τ</unclear><unclear>σ</unclear></choice><unclear>αν</unclear>τος</orig></note>                    
+                    </app>
+                     </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Epainétos (?)</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Epainetos (?)</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Epainetos (?)</p>
+         </div><div type="commentary">
+                
+                <p>Paci very cautiously only mentioned some possible readings of already known names, among which <foreign xml:lang="grc">Ἐπαίνετος</foreign> seemed to him 
+                    to be the most probable.</p>
+                <p>Dobias-Lalou had also visited the place with Laronde in 1977 and is not able to offer any better reading.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

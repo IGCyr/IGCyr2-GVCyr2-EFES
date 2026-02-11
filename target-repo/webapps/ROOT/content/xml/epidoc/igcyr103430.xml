@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType">Dedication</rs>, probably to Zeus and Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr103430</idno>
+                <idno type="number" subtype="second-edition">103430</idno>
+                <idno type="TM">738556</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr103430</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr103430</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr103430</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>altar</objectType> with two compartments, each of which having a double notch in front 
+                                        (<dimensions>
+                                            <width>0.69</width>
+                                            <height>0.16</height>
+                                            <depth>0.425</depth>
+                                        </dimensions>); some traces of reddish paint; now broken into two adjacent pieces.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face, in correspondence with the fore left angle of each compartment (a and b).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.03" max="0.04">0.03 to 0.04</height>; deeply cut letters, alpha with low bar, spool-shaped zeta.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" cert="low" precision="medium">Perhaps fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1933">
+                                    <p>Found in 1933 by G. Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, West of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1360">Wall of Nicodamos</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="morelli">
+                                    <p>Seen by D. Morelli in 1960 at findspot in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>       
+                                <provenance type="observed" when="1983" when-iso="2010" resp="cdl">
+                                    <p>Seen in situ by C. Dobias-Lalou in 1983 and again in 2010, when the two pieces had been detached.</p>
+                                </provenance>
+            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-16" who="Alice">It. translation</change>
+            <change when="2013-12-06" who="CDL+HB">lemma, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77418/3/igcyr103430-1-left.tiff.jpg" corresp="igcyr103430" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77418">Left part of igcyr103430 Dedication to Zeus (and Apollo)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77419/3/igcyr103430-2-right.tiff.jpg" corresp="igcyr103430" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77419">Right part of igcyr103430 Dedication to (Zeus and) Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>234</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>103430</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#gasparini-rosamilia2016"/>, p. <citedRange>206, footnote 55</citedRange></bibl>.</p>    
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <div type="textpart" n="a"><ab>
+                         <lb n="1"/><persName type="divine" ref="#Zeus"><name nymRef="#Ζεύς"><expan><abbr>Ζ</abbr><ex cert="low">ηνός</ex></expan></name></persName> 
+                    </ab></div>
+                 <div type="textpart" n="b"><ab>
+                         <lb n="1"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><expan cert="low"><abbr>Ἀ</abbr><ex cert="low">πόλλωνος</ex></expan></name></persName>
+                 </ab>
+                 </div>
+                      </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> <supplied reason="subaudible">Autels de</supplied> <abbr>Z</abbr><expan cert="low"><ex cert="low">eus</ex></expan> et d'<expan cert="low"><abbr>A</abbr><ex cert="low">pollo</ex></expan>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> <supplied reason="subaudible">Altars of</supplied> <abbr>Z</abbr><expan cert="low"><ex cert="low">eus</ex></expan> and of <expan cert="low"><abbr>A</abbr><ex cert="low">pollo</ex></expan>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="subaudible">Altari di</supplied> <abbr>Z</abbr><expan cert="low"><ex cert="low">eus</ex></expan> e di <expan cert="low"><abbr>A</abbr><ex cert="low">pollo</ex></expan>.</p>
+            </div><div type="commentary">
+                
+                <p>Morelli hesitantly suggested the expansion of the abbreviations. E. Rosamilia now points out that the names of Athena or Aphrodite would also be possible readings.
+                The former is at some places associated with Zeus and the latter is also mentioned on some altars in the sanctuary. On the other hand, Apollo is the most important 
+                god in this sanctuary. The question should necessarily remain open.</p>
+                <p>About the clearance of the area and the discovery of the group of altars (<ref type="inscription" source="#IGCyr2">IGCyr102800</ref>,  <ref type="inscription" source="#IGCyr2">IGCyr102900</ref>, 
+                    <ref type="inscription" source="#IGCyr2">IGCyr103000</ref>, <ref type="inscription" source="#IGCyr2">IGCyr103200</ref>, <ref type="inscription" source="#IGCyr2">IGCyr103300</ref>, <ref type="inscription" source="#IGCyr2">IGCyr103400</ref>) 
+                    see <bibl><ptr target="#luni2014b"/>, p. <citedRange>141</citedRange></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

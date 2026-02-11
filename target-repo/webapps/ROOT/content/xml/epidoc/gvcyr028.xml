@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Description</rs> of an image of laurel/Daphne</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr028</idno>
+                <idno type="number" subtype="second-edition">028</idno>
+                <idno type="TM">738921</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr028</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr028</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr028</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Local <material>limestone</material> <objectType>capital</objectType> of a pilaster 
+                                        (<dimensions>
+                                            <width>0.38</width>
+                                            <height>0.63</height>
+                                            <depth>0.70</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the capital, at the internal side of the door
+                                    (<dimensions>
+                                        <width>0.38</width>
+                                        <height>0.40</height>
+                                    </dimensions>), restored in its original position. Although it might look like a graffito,
+                                this seems impossible in view of the position of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; poor and irregular lettering, deeply cut only at ll. 1-2 and 11; lunate epsilon and sigma, diamond-shaped 
+                                phi, cursive omega. Parallels for the quality of the lettering are to be seen on some of the columns of the Temple of Apollo, 
+                                see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.253.html">IRCyr2020 C.253</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.254.html">IRCyr2020 C.254</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.255.html">IRCyr2020 C.255</ref> 
+                                and <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.256.html">IRCyr2020 C.256</ref>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="0101" notAfter="0300" precision="medium">Second to third centuries AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1928">
+                            <p>Found in 1928 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1043">Roman Propylaeum</rs> and restored on top of the Southern pilaster flanking the 
+                                door, with the inscription on its Northern side.</p>
+                            
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>It is now inaccessible to close examination.</p>                        
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from the photograph with help of the previous editors and J.M. Reynolds' notes (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2021-12-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-11" who="Alice">checked</change>
+            <change when="2017-03-02" who="CDL">overall check</change>
+            <change when="2017-02-13" who="Alice">It. translation</change>
+            <change when="2016-05-16" who="CDL">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2016-05-14" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76614/3/gvcyr028-face.tiff.jpg" corresp="gvcyr028" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1928"><ref target="http://hdl.handle.net/20.500.14008/76614">Face of gvcyr028 Description of laurel/Daphne</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1930"/>, pp. <citedRange>193-196</citedRange> and fig. 54</bibl>;
+                    <bibl><ptr target="#cazzaniga1938-1939"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.190</citedRange> with addenda p. 121</bibl>;
+                    <bibl><ptr target="#peek1972"/>, n. <citedRange>9</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>028</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#oliverio1931"/>, p. <citedRange>49</citedRange></bibl>; 
+                    <bibl><ptr target="#applebaum1962"/>, p. <citedRange>39</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg met="elegiac couplets">   
+               <l n="1" met="hexameter" real="+--|+--|+--|+--|++|+±">
+                   <lb n="1"/><w lemma="ὅδε"><supplied reason="lost">τοῖσδε</supplied></w> <w lemma="παρά">παρὰ</w> <w lemma="πρόθυρον">προθύροισι</w> καὶ 
+                   <lb n="2"/><w lemma="ἕρκος"><supplied reason="lost">ἕρκεσιν</supplied></w> <persName type="divine" ref="#Apollo"><name nymRef="Ἀπόλλων">Ἀπόλλωνος</name></persName> <g type="leaf">❧</g></l>        
+               <l n="2" met="pentameter" real="+--|+--|+|+--|+--|+">
+                   <w lemma="λεπταλέος">λεπτα<lb n="3" break="no"/><supplied reason="lost">λέαισι</supplied></w> <w lemma="κόμη"><supplied reason="lost">κ</supplied>όμ<supplied reason="lost">α</supplied>ις</w> 
+                        <w lemma="δάφνα">δάφνα</w> <w lemma="ἐπί">ἐπ᾿</w> <w lemma="ἀγρεσία">ἀ<lb n="4" break="no"/><supplied reason="lost" cert="low">γρεσία</supplied>ι</w> <g type="leaf">❧</g></l>
+                        
+               <l n="3" met="hexameter" real="++|++|++|++|+--|+±">
+                    <w lemma="ζαλόω">ζαλῶ</w> <persName type="divine" ref="#Kyrana"><name nymRef="#Κυράνα">Κυράναν</name></persName>·
+                    <lb n="5"/><supplied reason="lost">τὸ</supplied> <w lemma="πρίν"><supplied reason="lost">πρὶν</supplied></w> <supplied reason="lost">γὰρ</supplied> 
+                   <placeName type="region" nymRef="#Δελφίς" key="Delphis"><supplied reason="lost">Δ</supplied>ελφίδος</placeName> <w lemma="εὖχος">εὖχος</w></l>
+               <l n="4" met="pentameter" real="+--|+--|+|+--|+--|+">
+                   <lb n="6"/><supplied reason="lost">καὶ</supplied> <placeName type="country" nymRef="#Λιβύα" key="Libya"><supplied reason="lost">Λιβύαν</supplied>δε</placeName> 
+                    <w lemma="φυγάς">φυγὰς</w> <w lemma="νῦν">νῦν</w> 
+                   <lb n="7"/><w lemma="ἱερός"><supplied reason="lost">ἱερὸν</supplied></w> <w lemma="κατέχω"><supplied reason="lost">κατ</supplied>έχω</w>·</l>
+                        
+               <l n="5" met="hexameter" real="+--|+--|+--|++|+--|+±">
+                   <w lemma="ἀλλά">ἀλλά</w> <w lemma="τις"><unclear>τ</unclear>ις</w>
+                  <lb n="8"/><w lemma="ἐνθάδε"><supplied reason="lost" cert="low">ἐνθάδε</supplied></w> <w lemma="παῖς"><supplied reason="lost">π</supplied>αῖδας</w>
+                  <persName type="attested" key=""><name nymRef="#Ἀρίστιππος">Ἀριστίππου</name></persName>
+                  <lb n="9"/><w lemma="διδάσκω"><supplied reason="lost" cert="low">ἐδίδασκ</supplied>ε</w> <g type="leaf">❧</g></l>                    
+               <l n="6" met="pentameter" real="++|++|+|+--|+--|±">
+                   <w lemma="αὐτοῦ">αὐτοῦ</w> <w lemma="ἐγώ">μ'</w> <w lemma="ἀναιρέω">ἀν<lb n="10" break="no"/><supplied reason="lost">εῖλαι</supplied></w>  
+              <persName type="divine" ref="#Letoides-Apollo"><name type="metronymic" nymRef="#Λητοΐδης"><supplied reason="lost">Λ</supplied>ητοΐδην</name></persName> <w lemma="γαμέτις">γαμέτιν</w>
+              <lb n="11"/><space quantity="6" unit="character" precision="low"/> <g type="leaf">❧</g> <space quantity="13" unit="character" precision="low"/></l>
+            </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#cazzaniga1938-1939"><supplied reason="lost">τοῖσδε</supplied></lem>
+                   <rdg resp="#oliverio1930"><supplied reason="lost">τοῖσδε</supplied><note>Wilamowitz's reading</note></rdg>
+                </app>
+                    <app loc="2"><rdg resp="#oliverio1930"><supplied reason="lost">ἕρκεσιν</supplied> <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="2-3"><lem>λεπτα<lb break="no"/><supplied reason="lost">λέαισι</supplied> <supplied reason="lost">κ</supplied>όμ<supplied reason="lost">α</supplied>ις</lem>
+                        <rdg resp="#oliverio1930">λεπτα<lb break="no"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ο<gap reason="lost" quantity="3" unit="character"/>ς</rdg>
+                        <rdg resp="#cazzaniga1938-1939">λεπτα<lb break="no"/><supplied reason="lost">λέοις</supplied> ὅ<supplied reason="lost">ζο</supplied><unclear>ι</unclear>ς</rdg>
+                        <rdg resp="#peek1972">λεπτα<lb break="no"/><supplied reason="lost">κιναῖσι</supplied> <supplied reason="lost">κ</supplied>όμ<supplied reason="lost">α</supplied>ις</rdg>
+                    </app>
+                    <app loc="3"><lem>εὖχος</lem>
+                        <rdg resp="#oliverio1930"><unclear>ε</unclear>ὖ<unclear>χ</unclear>ο<unclear>ς</unclear></rdg>
+                        <rdg resp="#oliverio1930"><unclear>ε</unclear>ὔ<unclear>ρ</unclear>ω<unclear>ς</unclear></rdg>
+                    </app>                    
+                        <app loc="3-4"><lem>ἐπ᾿ἀ<lb n="4" break="no"/><supplied reason="lost" cert="low">γρεσία</supplied>ι</lem>
+                        <rdg resp="#oliverio1930 #SEG">ἐπ᾿ἀ<lb n="4" break="no"/><supplied reason="lost">ἀκροπόλει</supplied>ι· <note>Hiller von Gaertringen's reading</note></rdg>
+                        <rdg resp="#cazzaniga1938-1939">ἐπαυ<lb break="no"/><supplied reason="lost">ξάνομα</supplied>ι</rdg>
+                        <rdg resp="#peek1972">ἐπ᾿ἀ<lb break="no"/><supplied reason="lost">κρεμό</supplied>σι</rdg>
+                    </app>
+                    <app loc="5"><lem><supplied reason="lost">τὸ πρὶν γὰρ</supplied></lem>
+                        <rdg resp="#oliverio1930"><supplied reason="lost">χρησμῳδοῦ</supplied> <note>Hiller von Gaertringen's reading</note></rdg>
+                        <rdg resp="#cazzaniga1938-1939"><supplied reason="lost">χαίτας τᾶς</supplied></rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">τὸ πρὶν γᾶς</supplied></rdg>
+                    </app>
+                    <app loc="6"><lem><supplied reason="lost">καὶ Λιβύαν</supplied>δε φυγὰς</lem>
+                        <rdg resp="#oliverio1930 #SEG"><supplied reason="lost">αὐτὰ τᾶι</supplied>δε <note>Hiller von Gaertringen's reading</note></rdg>
+                        <rdg resp="#cazzaniga1938-1939"><supplied reason="lost">Πυθῶθεν</supplied> δὲ</rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">ἐκ Πυθοῦ</supplied><unclear>ς</unclear> δὲ</rdg>
+                    </app>
+                    <app loc="7"><lem resp="#oliverio1930 #SEG"><supplied reason="lost">ἱερὸν κατ</supplied>έχω</lem>
+                        <rdg resp="#cazzaniga1938-1939 #peek1972"><supplied reason="lost">Λιβύαν κατ</supplied>έχω</rdg>
+                    </app>
+                    <app loc="7-8"><lem>ἀλλά <unclear>τ</unclear>ις <lb/><supplied reason="lost" cert="low">ἐνθάδε</supplied></lem>
+                        <rdg resp="#oliverio1930"><orig>αδ<unclear>δαι</unclear></orig> δὲ<lb/><gap reason="lost" quantity="5" unit="character" precision="low"/></rdg>
+                            <rdg resp="#oliverio1930">ἀλλ' ἄγε <supplied reason="lost">σῶσον</supplied> <note>Hiller von Gaertringen's reading</note></rdg>
+                        <rdg resp="#cazzaniga1938-1939">ἃ δ᾿<surplus>δ</surplus> αἰδεσ<lb break="no"/><supplied reason="lost">τοὺς</supplied></rdg>
+                        <rdg resp="#peek1972">ἀλλά <unclear>τ</unclear>ις <lb/><supplied reason="lost">ἐσθλοὺς</supplied></rdg>                    
+                    </app>
+                    <app loc="9"><lem><supplied reason="lost" cert="low">ἐδίδασκ</supplied>ε</lem>
+                        <rdg resp="#oliverio1930"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#cazzaniga1938-1939"><supplied reason="lost">στεφανίζω</supplied></rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">μαθέτω γ</supplied><unclear>ε</unclear></rdg>                        
+                    </app>
+                    <app loc="9-10"><lem>αὐτοῦ μ᾿ ἀν<lb break="no"/><supplied reason="lost">εῖλαι</supplied></lem>
+                        <rdg resp="#oliverio1930">αὐτοῦ<gap reason="lost" quantity="6" unit="character"/> <lb/> <gap reason="lost" quantity="4" unit="character"/></rdg>
+                        <rdg resp="#cazzaniga1938-1939"><orig>αυτου</orig><gap reason="lost" quantity="8" unit="character"/></rdg>
+                        <rdg resp="#peek1972">αὐτοῦ μ' ἀν<lb break="no"/><supplied reason="lost">θέντας</supplied></rdg>
+                    </app>
+                    <app loc="11"><lem resp="#peek1972"><space quantity="6" unit="character" precision="low"/> <g type="leaf">❧</g> <space extent="unknown" unit="character"/></lem>
+                    <rdg resp="#oliverio1930"><supplied reason="lost">τε</supplied> <g type="leaf">❧</g> <space quantity="13" unit="character" precision="low"/></rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Auprès de ce portail et de ces <supplied reason="lost">clôtures</supplied> appartenant à Apollon,</p>
+                <p>de ma chevelure délicate, moi, Laurier <supplied reason="explanation">Daphnè</supplied>, j'admire</p> 
+                <p>Cyrène pour son <supplied reason="lost">art de chasser</supplied>; <supplied reason="lost">jadis</supplied> objet de fierté au pays de Delphes</p>
+                <p>et réfugiée en <supplied reason="lost"> Libye</supplied>, j'occupe maintenant <supplied reason="lost">le sanctuaire</supplied>;</p>
+                <p>mais quelqu'un <supplied reason="lost">ici a informé</supplied> les fils d'Aristippos</p>
+                <p>qu'en ce lieu le fils de Lètô m'a <supplied reason="lost">enlevée</supplied> comme épouse.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Near this portal and these <supplied reason="lost">fences</supplied> belonging to Apollo,</p>
+                <p>with my delicate hair, I, Laurel <supplied reason="explanation">Daphne</supplied>, am admiring</p>
+                <p>Cyrene for her <supplied reason="lost">art of hunting</supplied>; <supplied reason="lost">once</supplied> object of pride in the Delphian country</p>
+                <p>and having fled to <supplied reason="lost">Libya</supplied>, I now occupy <supplied reason="lost">the sanctuary</supplied>;</p>
+                <p>but one <supplied reason="lost">here informed</supplied> Aristippos' sons</p>
+                <p>that at this place Leto's son <supplied reason="lost">carried me off</supplied> as a spouse.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Presso questo portale e questi <supplied reason="lost">recinti</supplied> di Apollo,</p>                    
+                <p>con la mia chioma delicata, io, Pianta di alloro <supplied reason="explanation">Dafne</supplied>, ammiro</p>
+                <p>Cirene per la sua <supplied reason="lost">arte della caccia</supplied>; <supplied reason="lost">un tempo</supplied> vanto della terra di Delfi</p>
+                <p>e rifugiata in <supplied reason="lost">Libia</supplied>, occupo ora <supplied reason="lost">il santuario</supplied>;</p> 
+                <p>ma qualcuno <supplied reason="lost">qui ha informato</supplied> i figli di Aristippos</p>
+                <p>che in questo luogo il figlio di Latona <supplied reason="lost">mi ha rapito</supplied> in sposa.</p>
+            </div><div type="commentary">
+                
+                <p>Surprisingly enough, this could not be read easily at the place where it was clumsily inscribed. It was perhaps the caption of a painting, now disappeared,
+                that would have stood on the wall below and besides. Alternatively, it describes a real laurel, planted near the Propylaea.</p>
+                <p>The epigram clearly mentions a laurel and at the same time the heroine Daphne. As the myth goes, she was a nymph with whom Apollo fell in love and escaped him 
+                as her hair was transformed into the branches and leaves of the homonymous tree (see verse-line 2). Relying on the useful restorations suggested by Cazzaniga and Peek, 
+                Dobias-Lalou proposes here some new ones where it seems necessary. Her main aim was to reconcile the three couplets into one and the same statement, allowing Daphne/laurel
+                herself to be the speaker all along. Cyrene at verse-line 3 has also the double meaning of the city surrounding the sanctuary and the nymph with whom Apollo 
+                fell in love. She too was a virgin fond of hunting, but according to the myth she did become his spouse, the hierogamy taking place on the cliff just above 
+                the sanctuary of Apollo. If that is right, the epigram would say that Daphne, having fled Delphi to Libya, became a kind of duplicate of Cyrene and was also 
+                married to Apollo.</p>
+                <p>The mention of Aristippos' sons is not very clear. The preceding commentators thought that they were the dedicants of the monument and J.M. Reynolds comments: 
+                    «it may be relevant that (the name Aristippos) occurs as a cognomen of the priest of Apollo for 223 AD, M. Antonius Aristippοs (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.152.html">IRCyr2020 C.152</ref>, ll. 6-8)». Another possibility would be that they were followers of the Cyrenaican philosopher Aristippos. In fact, this name is not very common 
+                 in Cyrenaica. Those philosophers would have approved that the nymph did not avoid the divine union.</p>
+                <p>Applebaum, on the basis of verse-line 4, which he picked up without any consideration of the rest, attributed the sentence to Apollo, who would have fled Cyrene 
+                    because of the Jewish revolt and come back again. This idea does not need to be commented further on.</p>
+                <p>At l. 6, we restore <foreign xml:lang="grc">Λιβύανδε</foreign>, which occurs in the well-known 'stele of the Founders' (<ref type="inscription" source="#IGCyr2">IGCyr011000</ref>, l. 19). At l. 10, as Cazzaniga already stressed, the two accusatives (a masculine and a feminine) cannot be taken together. We offer 
+                    a construction that gives to each a different syntactic function. Differently, Peek had to assume that the speaker, changing in the last couplet, was 
+                    here Cyrene.</p>
+                <p>An ancient print of the photograph made before the restoration of the Propylaeum was sent by J.M. Reynolds to W. Peek and is kept in the archive of Peek Nachlass 
+                    at Berlin. We thank Kl. Hallof for providing an excellent digitized copy.</p>
+                <p>Metrical analysis: three regular elegiac couplets. L. 1: the initial <foreign xml:lang="grc">α</foreign> of <foreign xml:lang="grc">Ἀπόλλωνος</foreign> has the usual metrical lenghtening
+                    and the hexameter is spondaic. L. 3, with the restoration, has four spondees, which makes it very slow.</p>
+            </div></body>
+    </text>
+</TEI>

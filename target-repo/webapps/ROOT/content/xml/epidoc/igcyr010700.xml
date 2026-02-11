@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr010700</idno>
+                <idno type="number" subtype="second-edition">010700</idno>
+                <idno type="TM">47970</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr010700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr010700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr010700</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">233</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Sandstone</material> <objectType>stele</objectType>, 
+                                        slightly tapering, with plain moulding above
+                                        (under moulding <dimensions>
+                                            <width min="0.385" max="0.43">0.385-0.43</width>
+                                            <height>1.025</height>
+                                            <depth>0.25</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face, beginning at <dim>0.33</dim> under the moulding.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.04" atMost="0.055">0.04-0.055</height> rather roughly cut; alpha with dropped bar, dotted theta, non-slanting mu,
+                                pi with lengthening right stroke, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0200" notAfter="-0001">Second to first centuries BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" notAfter="1895">&gt;
+                            <p>Found before 1895 presumably at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1086">Necropolis</rs>.</p>
+                        </provenance>
+                        <provenance type="observed" when="1895" resp="Clermont-Ganneau">
+                            <p>First seen in 1895 by Clermont-Ganneau at <placeName type="modernSpot" ref="http://www.geonames.org/88319">Benghazi</placeName>: in the Italian consulate (squeeze).</p>
+                        </provenance>
+                        <provenance type="observed" resp="Bates and Norton" when="1909">
+                            <p>Seen in 1909 by Bates and Norton and photographed by the former at <placeName type="modernSpot" ref="http://www.geonames.org/88500">As Salmani</placeName>, near <placeName type="modernSpot" ref="http://www.geonames.org/88319">Benghazi</placeName>: in the English vice-consulate.</p>
+                        </provenance>
+                        <provenance type="observed" resp="Morelli" when="1960">
+                            <p>After World War II, it has been kept in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>, <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>, where Morelli saw it in 1960.</p>
+                        </provenance>
+                        <provenance type="observed" when="1976" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1976 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-02-08" who="CDL">addition to provenance and commentary</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-26" who="Alice">checked</change>
+            <change when="2016-03-16" who="CDL">completed the file throughcrossing with IGCyr106500, a doubloon, now cancelled.</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-04" who="CDL">lemma, bibliography, translation, commentary</change>
+            <change when="2011-12-19" who="SA">text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76782/3/igcyr010700-face.tiff.jpg" corresp="igcyr010700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/76782">Face of igcyr010700 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#robinson1913"/>, n. <citedRange>102</citedRange>, without illustration</bibl>, whence 
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5926</citedRange></bibl>;
+                    <bibl><ptr target="#SECir"/>, <citedRange>291</citedRange> (Morelli, as unpublished, without illustration)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>010700</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#masson1967"/>, p. <citedRange>225, footnote 3</citedRange></bibl>;
+                    <bibl><ptr target="#marengo1985"/>, pp. <citedRange>150-151</citedRange></bibl>;
+                    <bibl><ptr target="#uhlenbrock1999"/>, p. <citedRange>81</citedRange> and fig. 5 (photograph by Bates)</bibl> and 
+                    <bibl> <ptr target="#cdlBE"/>, <citedRange>2000.745</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>49.2358</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V3b-16310"><name nymRef="#Πολεμίτας">Πολεμίτας</name> 
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V3b-11512"><name type="patronymic" nymRef="#Ἡρακλείδας">Ἡρακλείδα</name></persName></persName> 
+                    <lb n="3"/><placeName type="ethnic" nymRef="#Θεσσαλός">Θεσσαλός</placeName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem resp="#robinson1913">Πολεμίτας</lem>
+                        <rdg resp="#Sammelbuch">Πτολεμίτας</rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Polemitas fils d'Herakleidas, Thessalien.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Polemitas son of Herakleidas, a Thessalian.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Polemitas figlio di Herakleidas, tessalo.</p>
+            </div><div type="commentary">
+                
+                <p>Dating this stele is difficult because it does not belong to a group of similar inscriptions; the material may explain some differences with the numerous 
+                    inscriptions of Cyrene; however it is certainly later than the third century suggested in <bibl><ptr target="#fraser-matthews2000"/></bibl> and may be 
+                    rather compared with another inscription of the newly founded Euesperides <ref type="inscription" source="#IGCyr2">IGCyr071100</ref>.</p>
+                <p>New unpublished information, not yet available in <bibl><ptr target="#IGCyr"/></bibl>, was provided by J. Aliqot and J.B. Yon (Hisoma laboratory, Lyon): during his stay at Benghazi 
+                in 1895, Clermont-Ganneau had seen the stone and made a squeeze, which is still kept in his archive at the <foreign xml:lang="fr">Cabinet du Corpus Inscriptionum Semiticarum (Institut de France)</foreign> in Paris
+                    (about Clermont-Ganneau's visit to Cyrenaica, see also <bibl><ptr target="#masson-jmr1978"/></bibl>).</p>
+                <p>Uhlenbrock published in 1999 a report written by Bates after his surveying expedition of 1909 to Cyrenaica, which preceded the Norton expedition of 1910-1911.
+                    From this paper, kept in the Museum of Fine Arts at Boston, we hear that the stele had been found at Salmani, a suburb of Benghazi near the sabkha of the same name near the place of 
+                    ancient Euesperides, and was kept in the English Vice-consulate of that city. After World War II, this was erroneously brought to the Cyrene Museum.</p>
+                <p>A transcription of the inscription would have beed joined to the archives of De Cou, the epigraphist of the Norton mission of 1910, giving way to the diplomatic
+                    transcription of Robinson.</p>
+                <p>Morelli republished the inscription as from Cyrene, without identifying it with the publication of Robinson, and the error was detected by Marengo.</p>
+                <p>For a mention of another Thessalian in Cyrenaica, see <ref type="inscription" source="#IGCyr2">IGCyr130600</ref>.</p>
+            </div></body>
+    </text>
+</TEI>

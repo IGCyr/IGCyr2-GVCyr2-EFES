@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr087000</idno>
+                <idno type="number" subtype="second-edition">087000</idno>
+                <idno type="TM">738421</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr087000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr087000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr087000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with egg and dart mouldings at top and bottom on three sides
+                                        (whole base <dimensions>
+                                            <width>0.855</width>
+                                            <height>0.32</height>
+                                            <depth>0.585</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face between the mouldings (<dimensions>
+                                            <width>0.74</width>
+                                            <height>0.155</height>
+                                            <depth>0.48</depth>
+                                        </dimensions>), in two lines carefully centred.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.045</height>; very carefully cut; very small serifs; still slanting mu and sigma; the right part of pi is longer than usual.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering prosopography" notBefore="-0300" notAfter="-0275" precision="medium">Probably first quarter of the third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1979">
+                                    <p>Found before 1979 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        probably from <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1979 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        inside archaeological enclosure North of <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2021-10-21" who="CDL">updated bibl</change>
+            <change when="2017-04-19" who="Alice">checked</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-06-07" who="cdl">lemma, translations</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+  
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77247/3/igcyr087000-1-face.tiff.jpg" corresp="igcyr087000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77247">Face of igcyr087000 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77248/3/igcyr087000-2-face%2bstatue.tiff.jpg" corresp="igcyr087000" decls="#photograph"><desc resp="-" source="Missione archeologica dell'Università di Chieti" n="1970-1993"><ref target="http://hdl.handle.net/20.500.14008/77248">Face and statue of igcyr087000 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr1997"/>, p. 38 n. <citedRange>10</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2186</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>087000</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#cdl2020c"/>, p. <citedRange>318</citedRange>, n. 6 and fig. 6</bibl>;
+            <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.75</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Μελάνιππος">Μελάνιππος</name> 
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Κάλλιππος" type="patronymic">Καλλίππω</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Mélanippos fils de Kallippos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Melanippos son of Kallippos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Melanippos figlio di Kallippos.</p>
+         </div><div type="commentary">
+                
+                <p>This man might be the son of Kallippos son of Melanippos who is the first <foreign rend="italic">strategos</foreign> on duty in 320 (see <ref type="inscription" source="#IGCyr2">IGCyr010800</ref>, l. 74). 
+                    About that family, see <bibl><ptr target="#laronde1987"/>, pp. <citedRange>102, 117</citedRange></bibl>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

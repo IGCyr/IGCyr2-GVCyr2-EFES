@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Decree</rs> of Cyrene, <rs type="textType" cert="low">prostagma</rs> (?), <rs type="textType">letter</rs> of Ptolemy IX Soter II and Cleopatra Selene, <rs type="textType">prostagma</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr011100</idno>
+                <idno type="number" subtype="second-edition">011100</idno>
+                <idno type="TM">5987</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr011100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr011100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr011100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">137</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> fragmentary <objectType>panel</objectType> 
+                                        broken away on top and below; cramp sinkings on back
+                                        (<dimensions>
+                                            <width>0.645</width>
+                                            <height atLeast="0.57">0.57</height>
+                                            <depth>0.095</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on at least two columns.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.007" atMost="0.009">0.007-0.009</height>; carefully cut, slightly apicated letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="internal-date" precision="high" when="-0108">108 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1936">
+                                    <p>Found before 1936 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, north-west of  
+                                       <rs type="monuList" ref="https://www.slsgazetteer.org/1380">Temple of Demeter and Kore</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2010-06-13" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou for the last time on June 13th, 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="rosamilia">
+                                    <p>Seen by E. Rosamilia in 2010 at the same place.</p>
+                                </provenance>
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-09-09" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-13" who="Alice">checked, updated and in case corrected; added Italian translation</change>
+            <change when="2016-07-28" who="CDL">lemmata in the text</change>
+            <change when="2015-04-18" who="CDL">English translation</change>
+            <change when="2014-07-28" who="Alice">textType</change>
+            <change when="2013-01-31" who="GB Ljuba">deleted redundant p /p in the apparatus</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-14" who="Alice + CDL">end of commentary and slight change in text at limit of B.1 and B.2</change>
+            <change when="2012-04-09" who="CDL">commentary begun</change>
+            <change when="2012-04-06" who="CDL + HB">lemma, text markup, apparatus, French translation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change> 
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76789/3/igcyr011100-face.tiff.jpg" corresp="igcyr011100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76789">Face of igcyr011100 Decre, prostagma and royal letter</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#oliverioDAI2"/>, pp. 259-265, n. <citedRange>538</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.5</citedRange></bibl>;
+                    <bibl><ptr target="#roussel1939"/><citedRange/></bibl>; 
+                    <bibl><ptr target="#fraser1958"/>, pp. <citedRange>127-128</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>423-424</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>011100</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>37</citedRange>, footnote 170 (date); pp. <citedRange>243-245</citedRange>, number 5 (text, column a only).</bibl></p>
+            <p>Cf. <bibl><ptr target="#arangio-ruiz1937"/><citedRange/></bibl>;
+                    <bibl><ptr target="#musti1957"/>, pp. <citedRange>282-284</citedRange></bibl>;
+                    <bibl><ptr target="#lenger1980"/>, pp. <citedRange>107-111</citedRange></bibl>;
+                    <bibl><ptr target="#marquaille2003"/>, p. <citedRange>31</citedRange></bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2005.620</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2028</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+              
+                <div type="textpart" subtype="area" n="a">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ς
+                    <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>
+                    <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><unclear>χ</unclear>ος
+                    <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>φεις
+                    <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ισεν <w lemma="ἐπί">ἐπὶ</w>
+                    <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ας</unclear> <w lemma="ἐν">ἐν</w> ταῖς
+                    <lb n="16"/><w lemma="ἐνιαύσιος"><supplied reason="lost">ἐνιαυσίοις</supplied></w> <w lemma="ἑορτά"><supplied reason="lost">ἑορταῖς</supplied></w> <supplied reason="lost">ταῖς</supplied>
+                        <w lemma="τάσσω"><supplied reason="lost">τεταγ</supplied>μέναις</w> <w lemma="λευχημονέω">λευχη<lb n="17" break="no"/><supplied reason="lost">μονέντας</supplied></w> <w lemma="πάρειμι"><supplied reason="lost">παρίμεν</supplied></w> <supplied reason="lost">κα</supplied>ὶ <w lemma="θύω">θύε<unclear>ν</unclear></w> <w lemma="ἐπί">ἐπὶ</w> τὸς
+                    <lb n="18"/><w lemma="βωμός"><supplied reason="lost">βωμὸς</supplied></w> <supplied reason="lost">τὸς</supplied> <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w> 
+                        <supplied reason="lost">τᾶι</supplied> <w lemma="ἀγορά"><supplied reason="lost">ἀγορᾶι</supplied></w> <w lemma="ἱδρύω">ἱδρυμένος</w>
+                    <lb n="19"/><w lemma="θυσία"><supplied reason="lost">θυσίας</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="σπονδά"><supplied reason="lost">σπονδ</supplied>ὰς</w>,
+                        καὶ <w lemma="εὐχά">εὐχὰς</w> καὶ
+                    <lb n="20"/><w lemma="παράκλησις"><supplied reason="lost">παράκλησιν</supplied></w> <w lemma="ποιέω"><supplied reason="lost">ποιέσθ</supplied><unclear>α</unclear>ι</w>
+                        <w lemma="ὑπέρ">ὑπὲρ</w> τᾶς <w lemma="ὑγίεια">ὑγ<unclear>ι</unclear>είας</w> καὶ
+                    <lb n="21"/><w lemma="σωτηρία"><supplied reason="lost">σωτηρίας</supplied></w> <supplied reason="lost">τῶ</supplied> <w lemma="βασιλεύς"><supplied reason="lost">βασι</supplied>λεῦς</w> καὶ τᾶς <w lemma="βασίλισσα">βασιλίσσας</w>
+                    <lb n="22"/><supplied reason="lost">καὶ</supplied> <supplied reason="lost">τῶ</supplied> <w lemma="υἱός"><supplied reason="lost">υἱῶ</supplied></w> <w lemma="αὐτός"><supplied reason="lost">αὐτῶ</supplied><unclear>ν</unclear></w> <persName type="ruler" key="Ptolemy XII"><name nymRef="#Πτολεμαῖος">Πτολεμαίω</name></persName>, 
+                        <w lemma="εὐχαριστέω">εὐχαρισ<lb n="23" break="no"/><supplied reason="lost">τέντας</supplied></w> <w lemma="περί"><supplied reason="lost">πε</supplied><unclear>ρ</unclear>ὶ</w> τῶν 
+                        <w lemma="ἀπαντάω">ἀπαντημένων</w> <w lemma="παρ">παρ</w>                    
+                    <lb n="24"/><w lemma="αὐτός"><supplied reason="lost">αὐτῶν</supplied></w> <supplied reason="lost">τ</supplied>ᾶι <w lemma="πόλις">πόλει</w> 
+                        <w lemma="φιλάνθρωπος">φιλανθρώπων</w>· <w lemma="ἀνοίγω">ἀνοιγόν<lb n="25" break="no"/><supplied reason="lost">των</supplied></w> <supplied reason="lost">δὲ</supplied> οἱ <rs type="office" key="priest"><w lemma="ἱαρεύς">ἱαρὲς</w></rs> καὶ αἱ <rs type="office" key="priestess"><w lemma="ἱάρεια">ἱάρεια<unclear>ι</unclear></w></rs> τὸς <w lemma="ναός">ν<unclear>α</unclear>ὸς</w>
+                    <lb n="26"/><supplied reason="lost">καὶ</supplied> <w lemma="στεφανόω"><supplied reason="lost">σ</supplied>τεφανώντων</w> καὶ <w lemma="θύω">θυόν<unclear>τ</unclear>ων</w>. 
+                        Αἱ δὲ <w lemma="ἀρχά">ἀρχαὶ</w>
+                    <lb n="27"/><supplied reason="lost">τ</supplied>ὸ <w lemma="τιμαχεῖον">τιμαχεῖον</w> τὸ <w lemma="αὐτός">αὑτᾶν</w> <w lemma="ἕκαστος">ἑκάστ<supplied reason="lost">α</supplied></w> 
+                        <w lemma="στεφανόω">στεφανώτω</w>.
+                    <lb n="28"/>Οἱ δὲ <rs type="office" key="damiergos"><w lemma="δαμιεργός">δαμιεργοὶ</w></rs> καὶ <rs type="office" key="hiarothytas"><w lemma="ἱαροθύτας">ἱαροθύται</w></rs> <supplied reason="lost">τ</supplied>ὸ <w lemma="πρυτανεῖον">πρυτανεῖον</w>
+                    <lb n="29"/>καὶ τὰς <w lemma="στωιά">στωιὰς</w> <w lemma="κοσμέω">κοσμησάντων</w> καὶ
+                    <lb n="30"/><w lemma="θύω">θυσάντων</w> <w lemma="ὑπέρ">ὑπὲρ</w> τᾶς <w lemma="πόλις">πόλιος</w> <persName type="ruler" key="Ptolemy IX and Cleopatra Selene"><w lemma="βασιλεύς">βασιλεῖ</w>
+                    <lb n="31"/><persName type="ruler" key="Ptolemy IX"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Π</supplied>τολεμαίωι</name></persName> καὶ <w lemma="βασίλισσα">βασιλίσσαι</w> <persName type="ruler" key="Cleopatra Selene"><name nymRef="#Κλευπάτρα">Κλευπάτραι</name>
+                    <lb n="32"/><supplied reason="lost">τ</supplied>ᾶι <w lemma="ἀδελφά">ἀδελφᾶι</w></persName>, <rs type="epithet" key="Theoi Soteres"><w lemma="θεός">θεοῖς</w> <w lemma="σωτήρ">Σωτῆρσι</w></rs></persName>, καὶ τῶ<unclear>ι</unclear> <w lemma="υἱός">υἱῶι</w>
+                    <lb n="33"/><w lemma="αὐτός"><supplied reason="lost">α</supplied><unclear>ὐ</unclear>τῶν</w> <persName type="ruler" key="Ptolemy XII"><name nymRef="#Πτολεμαῖος">Πτολεμαίωι</name></persName> καὶ τοῖς <w lemma="γονεύς">γονεῦσι</w>                    
+                    <lb n="34"/><supplied reason="lost">κ</supplied>αὶ τοῖς <w lemma="πρόγονος">προγόνοις</w> <w lemma="αὐτός">αὐτῶν</w> καὶ τοῖς <w lemma="ἄλλος">ἄλλοις</w>
+                    <lb n="35"/><w lemma="θεός"><supplied reason="lost">θεο</supplied>ῖς</w> <w lemma="πᾶς">παῖσιν</w>, <w lemma="ἕκαστος">ἑκάστωι</w> τὰ <w lemma="νομίζω">νομιζόμενα</w>.
+                    <lb n="36"/><supplied reason="lost">Τὰ δὲ</supplied> <w lemma="θῦμα"><supplied reason="lost">θύ</supplied><unclear>μα</unclear>τα</w> <w lemma="παρίσταμι">παραστασάντων</w> αἱ <w lemma="ἀρχά">ἀρχαὶ</w> καὶ
+                    <lb n="37"/><supplied reason="lost">οἱ</supplied> <w lemma="ἀποδείκνυμι"><supplied reason="lost" cert="low">ἀποδειχθη</supplied>σόμενοι</w> <w lemma="κατά">κατὰ</w> <w lemma="μήν">μῆνα</w> <w lemma="ἐπί">ἐπὶ</w> τὰς
+                    <lb n="38"/><gap reason="lost" quantity="5" unit="character"/> <w lemma="θυσία"><supplied reason="lost">θυσία</supplied><unclear>ς</unclear></w>  καὶ <w lemma="ἀμβολά">ἀμβολὰς</w>
+                        τᾶν <w lemma="πρᾶξις">πραξί<lb n="39" break="no"/><supplied reason="lost">ων</supplied></w> <gap reason="lost" quantity="17" unit="character"/>. <w lemma="οὗτος"><supplied reason="lost">
+                        Τ</supplied>αῦτα</w> δὲ <w lemma="πᾶς">πάντα</w>
+                    <lb n="40"/><gap reason="lost" quantity="11" unit="character"/> <w lemma="ἐπιφανής"><supplied reason="lost">ἐπιφ</supplied><unclear>α</unclear>νέστατα</w>
+                    <lb n="40a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                    </div>
+                    
+                <div type="textpart" subtype="area" n="b">
+                         <div type="textpart" subtype="section" n="1">
+                    <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" quantity="18" unit="character" precision="low"/>ο<gap reason="lost" quantity="3" unit="character"/><unclear>αξ</unclear><gap reason="lost" quantity="4" unit="character"/>
+                    <lb n="2"/><gap reason="lost" quantity="14" unit="character"/> <supplied reason="lost">τῶ</supplied>ν <w lemma="στεφανηφορέω">στεφανηφορηκότων</w>
+                    <lb n="3"/><gap reason="lost" quantity="11" unit="character"/> <w lemma="ὁστισοῦν"><supplied reason="lost">ὁντ</supplied>ιναοῦν</w> <w lemma="τρόπος">τρόπον</w> μηδὲ
+                    <lb n="4"/><supplied reason="lost">τῶν ἐν τῶι</supplied> <rs type="office" key="geron"><w lemma="γεροντεῖον"><supplied reason="lost">γερ</supplied>οντείωι</w></rs> <w lemma="φέρω">φερομένων</w>. <w lemma="ἐάν">Ἐὰν</w> δέ
+                    <lb n="5"/><w lemma="τις"><supplied reason="lost">τινες</supplied></w> τῶν <w lemma="δηλόω">δηλουμένων</w> <w lemma="φαίνω">φαίνωνται</w> <w lemma="ἐν">ἔν</w> <w lemma="τις">τι<lb n="6" break="no"/><supplied reason="lost">σιν</supplied></w> <w lemma="ἔγκλημα"><supplied reason="lost">ἐγ</supplied><unclear>κλ</unclear>ήμασιν</w> 
+                        <w lemma="ἐνέχω">ἐνεχόμενοι</w>, <w lemma="αὐτός">αὐτοὶ</w> μὲν
+                    <lb n="7"/><w lemma="πίπτω"><supplied reason="lost">πιπ</supplied>τέτωσαν</w> <w lemma="ὑπό">ὑπὸ</w> τὰ <w lemma="διά">διά</w> τε τῶν <w lemma="βασιλικός">βασιλικῶν</w>
+                    <lb n="8"/><w lemma="πρόσταγμα">προσταγμάτων</w> καὶ τῶν <w lemma="νόμος">νόμων</w> <w lemma="διορίζω">διωρισμέ<lb n="9" break="no"/>να</w> <w lemma="ἐπίτιμος">ἐπίτιμα</w>, τὰ δὲ <w lemma="ὑπάρχω">ὑπάρχοντα</w> <w lemma="αὐτός">αὐτῶν</w>
+                    <lb n="10"/><w lemma="ἄπειμι">ἀπίτω</w> <w lemma="εἰς">εἰς</w> τοὺς <w lemma="καθήκω">καθήκοντας</w> <w lemma="κατά">κατὰ</w>
+                    <lb n="11"/>τὸν <w lemma="νόμος">νόμον</w> <w lemma="κληρονόμος">κληρονόμους</w> <space quantity="10" unit="character" precision="low"/>.
+                    <lb n="11a"/><space quantity="3" unit="line"/>
+                  </ab>
+                         </div>
+                    
+                    <div type="textpart" subtype="section" n="2">
+                        <ab>
+                    <lb n="1"/><date calendar="cyrenaean"><rs type="month" nymRef="#Θευδαίσιος" key="Theudaisios">Θευδαισίω</rs> <num type="ordinal" value="20"><w lemma="εἰκάς">εἰκάδι</w></num></date>
+                    <lb n="1a"/><space quantity="1" unit="line"/>
+                    <lb n="2"/><w lemma="βασιλεύς">Βασιλεὺς</w> <persName type="ruler" key="Ptolemy IX"><name nymRef="#Πτολεμαῖος">Πτoλεμαῖoς</name></persName> καὶ <w lemma="βασίλισσα">βασίλισσα</w>
+                    <lb n="3"/><persName type="ruler" key="Cleopatra Selene"><name nymRef="#Κλεοπάτρα">Κλεοπάτρα</name> ἡ <w lemma="ἀδελφή">ἀδελφὴ</w></persName> <placeName type="ethnic" nymRef="#Κυρηναῖος">Κυρηναίοις</placeName>
+                            <w lemma="χαίρω">χαίρειν</w>.
+                    <lb n="4"/><w lemma="ὅς1" type="relative">Ὧν</w> <w lemma="ἐπιστέλλω">ἐπεστάλκαμεν</w> τοῖς <w lemma="ἐπί">ἐπὶ</w> τῶν <w lemma="πόλις">πόλεων</w>                
+                    <lb n="5"/><w lemma="τάσσω">τεταγμένοις</w> <w lemma="ἐπιστολή">ἐπιστολῶν</w> καὶ <w lemma="ὅς1" type="relative">οὗ</w> <w lemma="κρίνω">κεκρίκαμεν</w>
+                    <lb n="6"/><w lemma="ἐκτίθημι">ἐχθεῖναι</w> <w lemma="πρόσταγμα">προστάγματος</w> <w lemma="ὑποτάσσω">ὑποτετάχαμεν</w>
+                    <lb n="7"/><w lemma="ὑμεῖς">ὑμῖν</w> τὰ <w lemma="ἀντίγραφον">ἀντίγραφα</w>, <w type="ὅπως">ὅπως</w> <w lemma="παρακολουθέω">παρακολουθῆτε</w>.
+                    <lb n="8"/><w lemma="ἐπεί">Ἐπεὶ</w> <w lemma="οὖν">οὖν</w> <w lemma="σπουδάζω">σπουδάζομεν</w> <w lemma="μηθείς">μηθένα</w> τῶν <w lemma="ὑπό">ὑπὸ̣</w>                    
+                    <lb n="9"/>τὴν <w lemma="βασιλεία">βασιλείαν</w> <w lemma="τάσσω">τασσομένων</w> <w lemma="παρά">παρὰ</w> <w lemma="λόγος">λόγον</w>                    
+                    <lb n="10"/><w lemma="σκύλλω">σκύλλεσθαι</w>, <w lemma="ἐντάσσω">ἐνταγήτω</w> ἡ τοῦ <w lemma="πρόσταγμα">προστάγμα<lb n="11" break="no"/>τος</w> <w lemma="γνώμη">γνώμη</w> καὶ <w lemma="εἰς">εἰς</w> τὸ <w lemma="παρά">παρ’</w> <w lemma="ὑμεῖς">ὑμῖν</w> <w lemma="κεῖμαι">κείμενον</w> 
+                            <w lemma="δικαστικός">δικα<lb n="12" break="no"/>στι<surplus>ι</surplus>κὸν</w> <w lemma="διάγραμμα">διάγραμμα</w>, <w lemma="ὅπως">ὅπως</w> καὶ <w lemma="εἰς">εἰς</w> τὸ <w lemma="λοιπός">λοιπὸν</w>
+                    <lb n="13"/><w lemma="κατακολουθέω">κατακολουθοῦντες</w> οἱ τὰς <w lemma="αἴτησις">αἰτήσεις</w>
+                    <lb n="14"/><w lemma="ποιέω">ποιούμενοι</w> <w lemma="μηθείς">μηθὲν</w> <w lemma="εἰκῆι">εἰκῆι</w> <w lemma="πράσσω">πράσσωσιν</w>.
+                    <lb n="15"/><space unit="character" quantity="7" precision="medium"/><w lemma="ῥώννυμι">Ἔρρωσθε</w>. <date calendar="macedonian" when-iso="-0108"><expan><abbr><am><g type="year">𐅹</g></am></abbr> <ex>ἔτους</ex></expan> <num type="ordinal" value="09"><g type="alphabetic">θ</g></num> 
+                        <rs type="month" nymRef="#Γορπιεῖος" key="Gorpieios">Γορπιείου</rs> <num type="ordinal" value="24"><g type="alphabetic">κδ</g></num></date>,
+                    <lb n="16"/><space unit="character" quantity="16" precision="medium"/><date calendar="egyptian"><rs type="month" nymRef="#Φαμενωθ" key="Phamenoth">Φαμενωθ</rs> 
+                        <num type="ordinal" value="24"><g type="alphabetic">κδ</g></num></date>
+                    <lb n="16a"/><space quantity="2" unit="line"/>
+                     </ab>
+                     </div>
+                    
+                    <div type="textpart" subtype="section" n="3">
+                        <ab>
+                    <lb n="1"/><w lemma="βασιλεύς">Βασιλέως</w> καὶ <w lemma="βασίλισσα">βασιλίσσης</w> <w lemma="προστάσσω">προσταξάντων</w>·
+                    <lb n="2"/><w lemma="ἐάν">Ἐάν</w> <w lemma="τις">τινες</w> τῶν <w lemma="ἐπί">ἐπὶ</w> <w lemma="χρεία">χρείαις</w> <w lemma="τάσσω">τεταγμένων</w>
+                    <lb n="3"/>ἢ τῶν <w lemma="ἄλλος">ἄλλων</w> τῶν <w lemma="ὑπό">ὑπὸ</w> τὴν <w lemma="βασιλεία">βασιλείαν</w>
+                    <lb n="4"/><w lemma="τάσσω">τασσομένων</w> <w lemma="ἀδέσποτος">ἀδέσποτα</w> <w lemma="αἰτέω">αἰτήσωνται</w>
+                    <lb n="5"/>ἢ <w lemma="καταιτιάομαι">κατη<supplied reason="omitted">ι</supplied>τιαμένα</w>, μὴ <w lemma="παρασφραγίζω">παρασφραγιζέσθωσαν</w>
+                    <lb n="6"/>τὰ <w lemma="ὑπάρχω">ὑπάρχοντα</w> τῶν <w lemma="καταιτιάομαι">καταιτιωμένων</w> μηδὲ
+                    <lb n="7"/><w lemma="εἰς">εἰς</w> <w lemma="φυλακή">φυλακὴν</w> <w lemma="παραδίδωμι">παραδιδότωσαν</w> μήτε <w lemma="αὐτός">αὐτοὺς</w>
+                    <lb n="8"/>μήτε τοὺς <w lemma="οἰκέτης">οἰκέτας</w> <w lemma="αὐτός">αὐτῶν</w> <w lemma="ἄνευ">ἄνευ</w> τοῦ <w lemma="παρά">παρὰ</w>
+                    <lb n="9"/>τῶν <rs type="office" key="chrematistes"><w lemma="χρηματιστής">χρηματιστῶν</w></rs> <w lemma="κομίζω">κομίσαι</w> <w lemma="χρηματισμός">χρηματισμοὺς</w>
+                    <lb n="10"/><supplied reason="lost">καὶ</supplied> <w lemma="πρός"><supplied reason="lost">π</supplied>ρὸς</w> τοὺς <w lemma="ἐπί">ἐπὶ</w> τῶν <w lemma="πόλις">πό<unclear>λ</unclear>εων</w> <w lemma="τάσσω">τετα<supplied reason="lost">γ</supplied><lb n="11" break="no"/><supplied reason="lost">μένους</supplied></w> <w lemma="ὑπό"><supplied reason="lost">ὑπὸ</supplied></w> <w lemma="βασιλεύς"><supplied reason="lost">βασιλέων</supplied></w>  <rs type="epithet" key="Theoi Soteres"><w lemma="θεός"><supplied reason="lost">θεῶν</supplied></w> <w lemma="σωτήρ">Σω<unclear>τ</unclear><supplied reason="lost">ή</supplied><lb n="12" break="no"/><supplied reason="lost">ρων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="12a"/><gap reason="lost" extent="unknown" unit="line"/>
+                         </ab>
+                    </div>
+               </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>Area A</p>
+                <p>
+                    <app loc="1-39"><note>Where not mentioned in the apparatus, <bibl><ptr target="#rosamilia2023"/></bibl> has the same readings as <bibl><ptr target="#IGCyr"/></bibl></note>
+                    </app>
+                    <app loc="12">
+                        <lem><gap reason="lost" extent="unknown" unit="character"/>χος</lem>
+                        <rdg resp="#rosamilia2023"><unclear>ν</unclear>ος</rdg>
+                        <rdg resp="#oliverioDAI2"><gap reason="lost" extent="unknown" unit="character"/>νος</rdg>
+                    </app>
+                    <app loc="13">
+                        <lem resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/>φεις</lem>
+                        <rdg resp="#IGCyr"><gap reason="lost" extent="unknown" unit="character"/>σις</rdg>
+                        <rdg resp="#oliverioDAI2"><gap reason="lost" extent="unknown" unit="character"/><unclear>φ</unclear>εις</rdg>
+                    </app>
+                    <app loc="16-17">
+                        <lem>λευχη<lb break="no"/><supplied reason="lost">μονέντας</supplied></lem>
+                        <rdg resp="#oliverioDAI2 #roussel1939">λευχη<lb break="no"/><supplied reason="lost">μονεῦντας</supplied></rdg>
+                    </app>
+                    <app loc="19">
+                        <lem resp="#roussel1939"><supplied reason="lost">θυσίας καὶ σπονδ</supplied>ὰς</lem>
+                        <rdg resp="#oliverioDAI2"><supplied reason="lost">θυσίας τὸς ἐπιμελητ</supplied>ὰς</rdg>
+                    </app>
+                    <app loc="22-23">
+                        <lem>εὐχαρισ<lb break="no"/><supplied reason="lost">τέντας</supplied></lem>
+                        <rdg resp="#oliverioDAI2">εὐχαρισ<lb break="no"/><supplied reason="lost">τεύντων</supplied></rdg>
+                        <rdg resp="#SEG #roussel1939">εὐχαρισ<lb break="no"/><supplied reason="lost">τεῦντας</supplied> <note>Klaffenbach's reading in SEG9</note></rdg>
+                    </app>
+                    <app loc="36">
+                        <lem resp="#roussel1939"><supplied reason="lost">τὰ δὲ θύ</supplied><unclear>μα</unclear>τα</lem>
+                        <rdg resp="#oliverioDAI2"><supplied reason="lost">τὰ δὲ ἀναλώ</supplied><unclear>μ</unclear>ατα</rdg>
+                    </app>
+                    <app loc="37"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">οἱ ἀποδειχθη</supplied>σόμενοι</lem>
+                        <rdg resp="#IGCyr"><supplied reason="lost">οἱ ἐπιτασ</supplied>σόμενοι</rdg>
+                        <rdg resp="#oliverioDAI2"><supplied reason="lost" cert="low">τῶν ἱαρέων οἱ τασ</supplied>σόμενοι</rdg>
+                    </app>
+                    <app loc="37-38"><lem>ἐπὶ τᾶς <lb/><gap reason="lost" quantity="5" unit="character" precision="low"/><supplied reason="lost">θύσια</supplied><unclear>ς</unclear></lem>
+                        <rdg resp="#rosamilia2023">ἐπὶ τᾶς <lb/> <supplied reason="lost">δαμοσίας θύσια</supplied><unclear>ς</unclear></rdg>
+                        <rdg resp="#IGCyr">ἐπὶ τᾶς <lb/> <supplied reason="lost">θύσιας</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/><unclear>ς</unclear></rdg>
+                        <rdg resp="#oliverioDAI2">ἐπὶ τᾶς <lb/> <supplied reason="lost">ἱαρᾶς διοικήσεω</supplied><unclear>ς</unclear></rdg>
+                        <rdg resp="#roussel1939">ἐπὶ τᾶς <lb/> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἦμεν δ</supplied><unclear>ὲ</unclear></rdg>
+                        <rdg resp="#SEG9">ἐπὶ τᾶς <lb/> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ποιησάσθων δ</supplied><unclear>ὲ</unclear></rdg>
+                    </app>
+                    <app loc="38-39">
+                        <lem>τᾶν πραξί<lb break="no"/><supplied reason="lost">ων</supplied></lem>
+                        <rdg resp="#oliverioDAI2 #roussel1939">τῶν πραξί<supplied reason="lost">μων</supplied></rdg>
+                    </app>
+                    <app loc="39">
+                        <lem><gap reason="lost" quantity="17" unit="character"/></lem>
+                        <rdg resp="#oliverioDAI2"><supplied reason="lost" cert="low">ποιησάσθων προσόδων</supplied></rdg>
+                    </app>
+                </p>
+               
+                <p>Area B1</p>
+                <p>
+                    <app loc="4">
+                        <lem resp="#fraser1958"><supplied reason="lost">τῶν ἐν τῶι γερ</supplied>οντείωι</lem>
+                        <rdg resp="#oliverioDAI2"><gap reason="lost" extent="unknown" unit="character"/> ἀ<unclear>γ</unclear>γείωι φερομένων</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem resp="#SEG9"><supplied reason="lost">πιπ</supplied>τέτωσαν <note>Klaffenbach's and Tod's reading</note></lem>
+                        <rdg resp="#oliverioDAI2"><supplied reason="lost">ὑπ</supplied><unclear>ο</unclear>π<supplied reason="omitted">ε</supplied>ίτωσαν</rdg>
+                    </app>
+                </p>
+                
+                <p>Area B3</p>
+                <p>
+                    <app loc="11-12">
+                        <lem><supplied reason="lost">ὑπὸ βασιλέων θεῶν</supplied> Σω<unclear>τ</unclear><supplied reason="lost">ή<lb break="no"/>ρων</supplied></lem>
+                        <rdg resp="#arangio-ruiz1937"><supplied reason="lost">προσεγράψαντο οἱ θεοὶ</supplied> Σω<unclear>τ</unclear><supplied reason="lost">ῆρες</supplied></rdg>
+                    </app>
+               </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>(A) <supplied reason="lost">Il a été décidé</supplied> <gap reason="lost" extent="unknown" unit="character"/> que les <gap reason="lost" extent="unknown" unit="character"/>, lors des <supplied reason="lost">fêtes annuelles</supplied> prescrites, 
+             s'avancent vêtus de blanc et accomplissent sur les <supplied reason="lost">autels</supplied> édifiés <supplied reason="lost">sur l'agora des sacrifices et libations</supplied> 
+            et prononcent des voeux et <supplied reason="lost">invocations</supplied>, pour la santé et le <supplied reason="lost">salut</supplied> du roi, de la reine <supplied reason="lost">et de 
+            leur fils</supplied> Ptolémée, en manifestant leur reconnaissance pour les avantages accordés par eux à la cité. Que les prêtres et les prêtresses ouvrent les temples, les garnissent 
+            de guirlandes et accomplissent des sacrifices. Que les collèges de magistrats ornent de guirlandes leurs édifices respectifs. Que les démiurges et les hiarothytes fassent décorer le prytanée 
+            et les portiques et offrent des sacrifices au nom de la cité au roi Ptolémée, à la reine Cléopatre, sa soeur, Dieux Sôtères, et à leur fils Ptolémée, à leurs parents, à leurs ancêtres, ainsi 
+            qu'à tous les dieux et toutes les déesses, à chacun le sacrifice réglementaire. Que les collèges de magistrats fournissent les victimes et que les préposés mensuels aux <supplied reason="lost">sacrifices</supplied> <gap reason="lost" extent="unknown" unit="character"/> et des délais de paiement des ventes <gap reason="lost" extent="unknown" unit="character"/>. Que toutes ces dispositions <supplied reason="lost" cert="low">soient publiées
+            dans les endroits</supplied> les plus en vue <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>(B.1) <gap reason="lost" extent="unknown" unit="character"/> contre ceux à qui l'accomplissement de leur charge a valu une couronne <supplied reason="lost" cert="low">il ne soit pas possible
+            de porter une condamnation</supplied> de quelque façon que ce soit, pas plus que contre ceux qui sont portés dans le corps des <foreign rend="italic">gerontes</foreign>. 
+            Et s'il appert que certains des susdits sont sous le coup de certaines plaintes, que leurs personnes relèvent des peines définies par les <foreign rend="italic">prostagmata</foreign> 
+            royaux et par les lois, mais que leurs biens reviennent à leurs héritiers naturels.</p>
+            <p>(B.2) Le vingt du mois Theudaisios.
+             Le roi Ptolémée et la reine Cléopatre sa soeur, aux Cyrénéens, salut !
+             Nous joignons ci-dessous les copies des lettres que nous avons envoyées aux gouverneurs des cités et du <foreign rend="italic">prostagma</foreign> que nous avons jugé bon de rendre, afin que vous
+             vous y conformiez. Attendu que nous nous attachons à ce que nul des sujets du royaume ne soit maltraité sans raison, que l'esprit du <foreign rend="italic">prostagma</foreign> soit également 
+             introduit dans le régime judiciaire en vigueur chez vous, afin qu'en s'y conformant à l'avenir les requérants n'obtiennent pas satisfaction arbitrairement.
+             Portez-vous bien. An 9, le 24 Gorpieios, le 24 Phamenoth.</p>
+             <p>(B.3) Ordonnance du roi et de la reine: si certains parmi les préposés aux affaires ou parmi les autres sujets du royaume réclament des biens sans propriétaire 
+             ou litigieux, ne pas mettre sous scellé les biens des mis en cause et ne pas emprisonner ni eux-mêmes ni leurs serviteurs sans avoir obtenu des <foreign rend="italic">khrematistai</foreign> 
+             leurs décisions <supplied reason="lost">et d'avoir</supplied> <gap reason="lost" extent="unknown" unit="character"/> aux gouverneurs des cités nommés par <supplied reason="lost">les rois</supplied> Dieux Sôtères <gap reason="lost" extent="unknown" unit="character"/>.
+             </p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>(A) <supplied reason="lost">It has been decided</supplied> <gap reason="lost" extent="unknown" unit="character"/> that the <gap reason="lost" extent="unknown" unit="character"/>, by the prescribed <supplied reason="lost">annual feasts</supplied> should step forward 
+            dressed in white and carry out on the <supplied reason="lost">altars</supplied> built <supplied reason="lost">on the agora sacrifices and libations</supplied> 
+            and utter wishes and <supplied reason="lost">vows</supplied> for the health and <supplied reason="lost">safety</supplied> of the king, the queen <supplied reason="lost">and their son</supplied> Ptolemy, 
+            while expressing gratitude about the privileges granted by them to the city. That the priests and priestesses should open the temples, adorn them with wreaths 
+            and accomplish sacrifices. That the bodies of magistrates should adorn with wreaths their respective buildings. That the damiergoi and the 
+            <foreign rend="italic">hiarothytes</foreign> let the <foreign rend="italic">prytaneion</foreign> be decorated and accomplish sacrifices on behalf of the city for king Ptolemy, queen Cleopatra, his sister, 
+            Gods Soteres, and for their son Ptolemy, for their parents, for their ancestors, as well as for all gods and all goddesses, for each the regular offering.
+            That the bodies of magistrates should provide the victims and that <gap reason="lost" extent="unknown" unit="character"/> those in charge each month of the <supplied reason="lost">sacrifices</supplied> 
+            <gap reason="lost" extent="unknown" unit="character"/> and postponements for paying the sales <gap reason="lost" extent="unknown" unit="character"/>. That all those arrangements <supplied reason="lost">should be published in places</supplied> 
+            with the best view <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>(B.1) <gap reason="lost" extent="unknown" unit="character"/> those having been entitled by a past charge to bear a crown <supplied reason="lost" cert="low">it should not be possible to condemn </supplied> in whatever manner 
+            and also not those who are inscribed in the body of <foreign rend="italic">gerontes</foreign>. And if it appears that some of the designated are incurring some complaints, 
+                they should personally be exposed to the penalties defined through the royal <foreign rend="italic">prostagmata</foreign> and the laws, whereas their belongings should fall to their natural heirs.</p>
+            <p>(B.2) On the twentieth of month Theudaisios.
+             King Ptolemy and queen Cleopatra his sister, to the Cyrenaeans, hail!
+             We join here below copies of the letters which we sent to the governors of the cities and of the <foreign rend="italic">prostagma</foreign> which we decided 
+             to deliver, in order that you comply with it. Given that we endeavour that none of the individuals subject to the kingdom should be groundlessly molested, 
+             the spirit of the <foreign rend="italic">prostagma</foreign> should also be introduced into your judicial system, so that, complying henceforth with it, someone
+             requesting will not get satisfaction at random. Farewell. Year 9, Gorpieios 24th, Phamenoth 24th.</p>
+             <p>(B.3) <foreign rend="italic">Prostagma</foreign> of the king and the queen: if some amongst the men in charge of the affairs or amongst the other individuals subject 
+             to the kingdom lay claim to properties that are not owned or contentiously owned, they should not seal off the belongings of the defendants nor put into jail either 
+             themselves or their slaves without having received from the <foreign rend="italic">chrematistai</foreign> their decisions <supplied reason="lost">and having</supplied> 
+             <gap reason="lost" extent="unknown" unit="character"/> to the governors appointed by <supplied reason="lost">the kings</supplied> Gods Soteres <gap reason="lost" extent="unknown" unit="character"/>.
+             </p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>(A) <supplied reason="lost">Si è deciso</supplied> <gap reason="lost" extent="unknown" unit="character"/> che i <gap reason="lost" extent="unknown" unit="character"/>, in occasione delle <supplied reason="lost">feste annuali</supplied> prescritte, 
+             procedano vestiti di bianco e compiano sugli <supplied reason="lost">altari</supplied> eretti <supplied reason="lost">sull'agora dei sacrifici e delle libagioni</supplied> 
+            e pronuncino dei voti e delle <supplied reason="lost">invocazioni</supplied>, per la salute e la <supplied reason="lost">salvezza</supplied> del re, della regina <supplied reason="lost">e del 
+            loro figlio</supplied> Tolemeo, manifestando riconoscenza per i benefici accordati da loro alla città. Che i sacerdoti e le sacerdotesse aprano i templi, li adornino
+            di ghirlande e compiano sacrifici. Che i collegi di magistrati adornino di ghirlande la loro rispettiva sede. Che i damiurghi e gli <foreign rend="italic">hiarothytes</foreign> facciano decorare il pritaneo e i portici e offrano dei sacrifici a nome della città al re Tolemeo, alla regina Cleopatra, la sorella, Dèi Soteri, 
+            e al loro figlio Tolemeo, ai loro genitori, ai loro antenati, così come a tutti gli dèi e a tutte le dee, a ciascuno il sacrificio prescritto. Che i collegi di magistrati forniscano
+            le vittime e che i preposti mensili ai <supplied reason="lost">sacrifici</supplied> <gap reason="lost" extent="unknown" unit="character"/> e ritardi dei pagamenti delle vendite <gap reason="lost" extent="unknown" unit="character"/>. Che tutte queste disposizioni
+            <supplied reason="lost" cert="low">siano pubblicate nei luoghi</supplied>, più in vista <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            <p>(B.1) <gap reason="lost" extent="unknown" unit="character"/> contro coloro i quali al compimento della loro carica sono stati onorati con una corona <supplied reason="lost" cert="low">non sia possibile
+            emettere una condanna</supplied> in alcun modo, come pure contro quelli che sono iscritti nel corpo dei <foreign rend="italic">gerontes</foreign>. 
+            E se appare con evidenza che alcuni dei suddetti siano colpiti da qualche accusa, essi incorrano personalmente nelle pene definite dai <foreign rend="italic">prostagmata</foreign> 
+            regi e dalle leggi, ma i loro beni vadano agli eredi naturali secondo la legge. </p>
+            <p>(B.2) Il venti del mese Theudaisios. 
+             Il re Tolemeo e la regina Cleopatra, la sorella, ai Cirenei, salute.
+             Alleghiamo qui di séguito per voi le copie delle lettere che abbiamo inviato ai governatori delle città e del <foreign rend="italic">prostagma</foreign> che abbiamo giudicato opportuno emanare, 
+             in modo che voi vi conformiate. Dato che, dunque, noi ci preoccupiamo che nessuno dei sudditi del regno sia maltrattato senza ragione, che lo spirito del <foreign rend="italic">prostagma</foreign>
+             sia parimenti introdotto nel <foreign rend="italic">diagramma</foreign> giudiziario in vigore presso di voi, in modo che in futuro, conformandosi ad esso, coloro che hanno delle accuse
+             da muovere non intraprendano alcuna azione in modo arbitrario.
+             State bene. Anno 9, il 24 di Gorpieios, il 24 di Phamenoth.</p>
+             <p>(B.3) <foreign rend="italic">Prostagma</foreign> del re e della regina: se alcuni tra i preposti agli affari o tra gli altri sudditi del regno reclamano dei beni senza proprietario oppure
+              oggetto di contenzioso, non si mettano sotto sigillo i beni degli accusati e non si conducano in prigione né loro né i loro servitori senza aver ottenuto dei mandati dai 
+              <foreign rend="italic">chrematistai</foreign> <supplied reason="lost">e senza aver</supplied> <gap reason="lost" extent="unknown" unit="character"/> ai governatori delle città incaricati dai
+              <supplied reason="lost">re</supplied> Dèi Soteri <gap reason="lost" extent="unknown" unit="character"/>.
+             </p>
+         </div><div type="commentary">
+                
+                <p>Most of the restorations are Oliverio's. Only the readings that differ from his are registered in apparatus.</p>
+                <p>As Oliverio clearly put it, column/area B bears three documents. The content of B.1 has generally not been recognised. The text is in koine and cannot be the end of the Cyrenaean decree 
+                    engraved on column/area A (so Fraser, Laronde, Marquaille) nor of a Cyrenaean law (Lenger) or civic <foreign rend="italic">diagramma</foreign> (Arangio-Ruiz, Roussel). The date with a Dorian month mentioned after its end 
+                    should rather be joined with B.2, to which it is nearer (so also Musti). It is thus probably the date when both letter and prostagma (B.2 and B.3) were archived by the Cyrenaeans.
+                    Hence B.1 might be the end of another earlier <foreign rend="italic">prostagma</foreign>.</p>
+            	<p>Roussel doubted that the sacrifices mentioned at line a.19 might take place on the agora and supposed that altars were settled before the houses, because such was 
+            	the use at Magnesia of the Meander. However, monumental altars were in fact built (cf. <foreign xml:lang="grc">ἱδρυμένος</foreign>)
+            	on the agora in honour of the royal family and the other gods.</p>
+            </div></body>
+    </text>
+</TEI>

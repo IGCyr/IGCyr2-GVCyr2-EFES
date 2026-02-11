@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of Koison</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr001</idno>
+                <idno type="number" subtype="second-edition">001</idno>
+                <idno type="TM">738897</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr001</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr001</idno>
+                <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr001</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository> <idno type="invNo">236</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments pasted together of a <material>limestone</material> <objectType>stele</objectType>, broken above, chipped off below, with irregular depth
+                                        (<dimensions>
+                                            <width>0.53</width>
+                                            <height>0.80</height>
+                                            <depth min="0.04" max="0.17">0.04 (right) - 0.17 (left)</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in two lines (l. 1 ascending along the left edge, l. 2 descending along the right edge)
+                                    (<dimensions>
+                                        <width>0.53</width>
+                                        <height>0.72</height>
+                                    </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.06" max="0.075">0.06-0.075</height>; boustrophedon, alpha with oblique central bar joining the second stroke very low (sometimes at its end),
+                                epsilon with three oblique and equal bars, three-stroke iota, dissymmetrical nu, san for sibilant.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0600" notAfter="-0566" precision="medium">First third of sixth century BC</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" notAfter="1937">
+                            <p>Found before 1937 by Oliverio at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North necropolis</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="1976" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1976 in 
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.
+                            </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+            <change when="2017-03-06" who="Alice">checked</change>
+            <change when="2017-02-25" who="CDL">tagged w and names, It. translation, overall check</change>
+            <change when="2014-04-04">tagged verse</change>
+            <change when="2014-02-28" who="CDL+HB">lemma, text, apparatus, biblio, commentary, Fr. and Engl. translations</change>
+            <change when="2014-02-28" who="CDL+HB">file created</change>
+        </revisionDesc>
+    </teiHeader>
+        <facsimile>
+            <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76567/3/gvcyr001-1-face-fix.jpg.jpg" corresp="gvcyr001" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76567">Face of gvcyr001 Epitaph of Koison</ref></desc></graphic>
+            <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76568/3/gvcyr001-2-bottom.tiff.jpg" corresp="gvcyr001" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76568">Bottom of gvcyr001 Epitaph of Koison</ref></desc></graphic>
+        </facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>From †Oliverio's papers <ptr target="#gpc1961"/>, n. <citedRange>14</citedRange>, fig. 25-26</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.745</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1970"/>, n. <citedRange>4</citedRange></bibl>;
+                    <bibl><ptr target="#peek1972"/>, n. <citedRange>1</citedRange></bibl>;
+                    <bibl><ptr target="#CEG"/>, n. <citedRange>164</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>001</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#gasperini2000"/>, p. <citedRange>31</citedRange></bibl> 
+                    (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>452-454</citedRange></bibl>).
+                    
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <lg met="dactylic hexameter">
+                   <l n="1" met="hexameter">
+                        <seg type="hemistich" real="++|++|+"><lb n="1" rend="right-to-left"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64711"><name nymRef="#Κοίσων"><unclear>Κ</unclear>οίσōνος</name></persName> 
+                            <w lemma="στάλα">στάλα</w></seg>                       
+                        <seg type="hemistich" met="--|+--|+--|+±"><gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap></seg>
+                    </l>                    
+                    <l n="2" met="hexameter">
+                        <seg type="hemistich" met="+--|+--|+--|+"><lb n="2" rend="left-to-right"/><gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap></seg>
+                        <seg type="hemistich" real="+|+--|++"><w lemma="ἵσταμι">ἔστασαν</w> <w lemma="ἑταῖρος">ἑταῖρ<supplied reason="lost">οι</supplied></w></seg>
+                    </l> 
+	 </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><unclear>Κ</unclear>οίσōνος στάλα <gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap></lem>
+                            <rdg resp="#gpc1961"><unclear>Κ</unclear>οίσōνος <note>Hiller von Gaertringen's reading <foreign xml:lang="la">per epistulam</foreign></note></rdg>
+                            <rdg resp="#gpc1961"><supplied reason="lost">Ἀ</supplied><unclear>λ</unclear><hi rend="inverted">ϙ</hi>ίσονος <note>Oliverio's reading ϙ inverted</note></rdg>
+                            <rdg resp="#peek1972">Κοίσōνος στάλα · φθι<lb break="no"/></rdg>
+                            <rdg resp="#peek1972">Κοίσōνος στάλα <supplied reason="lost">το͂ Κάρνιος εἰμ' ἐπὶ τύμβōι·</supplied></rdg>
+                    </app>
+                    <app loc="2">
+                        <lem><gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap> ἔστασαν ἑταῖρ<supplied reason="lost">οι</supplied></lem>
+                        <rdg resp="#peek1972"><lb break="no"/><supplied reason="lost">μένōι δ'</supplied>ἔστασαν ἑταῖρο<supplied reason="lost">ι</supplied></rdg>
+                        <rdg resp="#peek1972"><supplied reason="lost">νούσōι δὲ φθιμένōι μνάμαν μ'</supplied>ἔστασαν ἑταῖρο<supplied reason="lost">ι</supplied></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>La stèle de Koisôn <gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap> a été dressée par ses compagnons.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>The stele of Koison <gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap> was erected by his companions.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>La stele di Koison <gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap> è stata eretta dai suoi compagni.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>لوح كويسون التذكاري [---؟]  كان قد نصب من قبل أصحابه.</p>
+         </div><div type="commentary">
+                
+                <p>This being the only inscription written boustrophedon, we catch from <bibl><ptr target="#bertarelli1937"/>, p. <citedRange>413</citedRange></bibl> 
+                that it was already exposed at the time in room 2 of the then Antiquarium (today Office of the Department of Antiquities).</p>
+                <p>As both short ends of the stone are broken off, its original dimensions and placement are impossible to infer, except from the content.</p>
+                <p>As the word 'stele' and the verb meaning 'to erect' show, this was a standing stone to be read looking from the centre alternatively to one and the other longer side. 
+                    The verb being usually at the end of a sentence and the deceased person's name being an important information at the beginning of the text, it can be inferred that 
+                    the first line is to be read at left from below upwards and the second line from above downwards.</p>
+                <p>Depending on the following formula, the first word 'stele' should be used at the accusative, in relation with the verb 'to erect' or at another case if the text 
+                had two sentences.</p>
+                <p>Metrical analysis: Peek's preferred restoration, producing only one dactylic hexameter, supposes a moderate loss of the upper part. This reading is quite 
+                    possible. However we left the question open in the translation for an alternative reading, supposing that more than one half of the stone might be lost.
+                    This would provide a distich made of two dactylic hexameters, a solution for which Peek also offered less cautious restorations.</p>
+            </div></body>
+    </text>
+</TEI>

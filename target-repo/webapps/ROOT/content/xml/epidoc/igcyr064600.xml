@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs>s to the Eumenides</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr064600</idno>
+                <idno type="number" subtype="second-edition">064600</idno>
+                <idno type="TM">738338</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr064600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr064600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr064600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>First to the left out of four <material>rock</material>-cut <objectType>altar</objectType>s (see also <ref type="inscription" source="#IGCyr2">IGCyr064800</ref>, 
+                                        <ref type="inscription" source="#IGCyr2">IGCyr064900</ref>);  
+                                        dimensions unknown.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the front face below the altar.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0400" notAfter="-0301" precision="medium">Fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1938">
+                                    <p>Found before 1938 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot unrecorded; from the photograph it is obviously outside the city.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2015-12-16" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-15" who="cdl">lemma, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-17" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gpc1961"/>, p. 29, n. <citedRange>9.1</citedRange> (from †Oliverio's papers), fig. 18</bibl>, and 
+                    <bibl><ptr target="#robertBE"/>, <citedRange>1962.363</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.723, a</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>064600</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><orig>εξ</orig>
+                    <lb n="2"/><persName type="divine" ref="#Eumenis"><name nymRef="#Εὐμενίς"><expan><abbr>Εὐ</abbr><ex>μενίδων</ex></expan></name></persName>
+                    <lb n="3"/><persName type="divine" ref="#Eumenis"><name nymRef="#Εὐμενίς"><expan><abbr>Ε</abbr><ex>ὐμενίδων</ex></expan></name></persName>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><orig>EX</orig>. <supplied reason="subaudible">Autel</supplied> des Euménides, des Euménides.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><orig>EX</orig>. <supplied reason="subaudible">Altar</supplied> of the Eumenides, of the Eumenides.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><orig>EX</orig>. <supplied reason="subaudible">Altare</supplied> delle Eumenidi, delle Eumenidi.</p>
+         </div><div type="commentary">
+                
+                    <p>The publication was given from the late Oliverio's papers, which contained a partial photograph of the four altars and transcriptions of the inscriptions.</p>
+                    <p>As to the place of origin, the photograph shows clearly an open landscape outside the city, probably on the plateau. From the indication that
+                        'there are other similar (sc. altars) on the street to Beida', it can only be inferred that it is not on that road, where precisely altars
+                        have been discovered (see <ref type="inscription" source="#IGCyr2">IGCyr115100</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115200</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115300</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115400</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115500</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115600</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115800</ref>, <ref type="inscription" source="#IGCyr2">IGCyr115900</ref>, <ref type="inscription" source="#IGCyr2">IGCyr116000</ref>). The further discovery of <ref type="inscription" source="#IGCyr2">IGCyr133900</ref> to <ref type="inscription" source="#IGCyr2">IGCyr134400</ref>
+                    does not throw new light, although it might be tantalizing to identify their situation with the subaudible description of Oliverio.</p>
+                    <p>It is impossible to check Oliverio's readings for this altar from the photograph, too dark in that part.</p>
+                <p>The meaning of l. 1 is quite unclear. One possibility would be an abbreviated form of the name of the owner, as it appears elswhere for such 'private' altars.</p>
+                <p>The development of the abbreviation at ll. 2 and 3 is inferred from the nearby altars, see <ref type="inscription" source="#IGCyr2">IGCyr064800</ref> and 
+                    <ref type="inscription" source="#IGCyr2">IGCyr064900</ref>. The same abbreviation with only two letters is a possible reading in <ref type="inscription" source="#IGCyr2">IGCyr114000</ref>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

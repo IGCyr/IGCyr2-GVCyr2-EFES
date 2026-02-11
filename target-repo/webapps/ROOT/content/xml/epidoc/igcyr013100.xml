@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr013100</idno>
+                <idno type="number" subtype="second-edition">013100</idno>
+                <idno type="TM">738219</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr013100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr013100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr013100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary white <material>marble</material> <objectType>panel</objectType> broken on all sides except on left
+                                        (<dimensions>
+                                            <width>0.13</width>
+                                            <height>0.14</height>
+                                            <depth>0.03</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>; the numeral character ⊐ is here written right-to-left and the numeral character Z is written obliquely.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering content" notBefore="-0365" notAfter="-0351" precision="medium" resp="rosamilia">Between 365 and 350 BC (Rosamillia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1933">
+                                    <p>Found before 1933 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not found.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-09" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-10-12" who="Alice">checked; added it. transl.</change>
+            <change when="2016-08-03" who="CDL">tagged w and lemma in text</change>
+            <change when="2015-04-20" who="CDL">French and English translations.</change>
+            <change when="2013-05-30" who="Ljuba">corrected lb break no positions</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-28" who="CDL+HB">text edited, lemma</change>
+            <change when="2012-07-12" who="HB">text edited (not the numbers)</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76812/3/igcyr013100-face.tiff.jpg" corresp="igcyr013100" decls="#photograph"><desc resp="from Oliverio DAI1, pl. XVII" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76812">Face of igcyr013100 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, p. 96, n. <citedRange>28</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.29</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>013100</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>164-167</citedRange> (date), p. <citedRange>293</citedRange>, number 33 (text)</bibl>.</p>
+                    <p>For general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="καρπός"><supplied reason="lost">Καρπὸς</supplied></w>
+                    <lb n="2"/><w lemma="τιμάω">ἐτιμ<supplied reason="lost">άθη</supplied></w>· <w lemma="κριθά"><supplied reason="lost">κριθαὶ</supplied></w> 
+                        <w><supplied reason="lost">ἀν</supplied></w> <gap reason="lost" atLeast="2" atMost="4" unit="character"/>, 
+                        <w lemma="σπυρός"><supplied reason="lost">σπυρο</supplied><lb n="3" break="no"/>ὶ</w> <w>ἀν</w> 
+                            <num type="total" atLeast="3">
+                                <measure type="currency" unit="drachma">
+                                    <num value="2"><g type="cyrnum">⊐</g></num>
+                                    <num value="1"><g type="cyrnum">Ζ</g></num></measure></num>,
+                    <w lemma="ὄσπριον"><supplied reason="lost">ὄσπρια</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <gap reason="lost" quantity="3" precision="low" unit="character"/>,
+                                            <w lemma="σταφίς"><supplied reason="lost">στα</supplied><lb n="4" break="no"/>φὶς</w> <w>ἀν</w> 
+                            <num type="total" value="3.4">
+                                <measure type="currency" unit="drachma">
+                                    <num value="2"><g type="cyrnum">⊐</g></num>
+                                    <num value="1"><g type="cyrnum">Ζ</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num>
+                                    <num value="0.2"><g type="cyrnum">&gt;</g></num></measure></num>, 
+                        <w lemma="σῦκον"><supplied reason="lost">σῦκα</supplied></w> <gap reason="lost" quantity="2" unit="character" precision="low"/>, 
+                        <w lemma="σταφυλά"><supplied reason="lost">σταφυ</supplied><lb n="5" break="no"/>λὰ</w> <w lemma="ψύθιος">ψυθία</w> ἁ <w>ἔ<supplied reason="lost">νδος</supplied></w> <supplied reason="lost">τᾶς</supplied> 
+                        <w lemma="προκλησία"><supplied reason="lost">προ</supplied><lb n="6" break="no"/>κλησίας</w> 
+                            <num type="total" value="8">
+                                <measure type="currency" unit="drachma">
+                                    <num value="4"><g type="cyrnum">𐅠</g></num>
+                                    <num value="4"><g type="cyrnum">𐅠</g></num></measure></num>, 
+                        <supplied reason="lost">ἁ</supplied> <w><supplied reason="lost">ἔξος</supplied></w> <gap reason="lost" quantity="3" unit="character" precision="low"/>, <w lemma="μέλας"><supplied reason="lost">μέ</supplied><lb n="7" break="no"/>λαινα</w> <w><supplied reason="lost">ἔνδος</supplied></w> <supplied reason="lost">τᾶς</supplied> <w lemma="προκλησία"><supplied reason="lost">προκλη</supplied><lb n="8" break="no"/><supplied reason="lost">σίας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="3"><lem resp="#rosamilia2023"><supplied reason="lost">ὄσπρια ἀν</supplied> <gap reason="lost" quantity="3" precision="low" unit="character"/></lem>
+                <rdg resp="#oliverioDAI1 #IGCyr"><gap reason="lost" quantity="11" unit="character" precision="low"/></rdg>
+                </app>
+                <app loc="4"><lem resp="#rosamilia2023"><supplied reason="lost">σῦκα</supplied> <gap reason="lost" quantity="2" unit="character" precision="low"/></lem>
+                <rdg resp="#oliverioDAI1 #IGCyr"><gap reason="lost" quantity="6" unit="character" precision="low"/></rdg>
+                </app>
+                    <app loc="5"><lem resp="#rosamilia2023">ἁ</lem>
+                    <rdg resp="#oliverioDAI1 #IGCyr"><surplus>α</surplus></rdg>
+                    </app>
+                    <app loc="6"><lem resp="#rosamilia2023"><supplied reason="lost">ἁ ἔξος</supplied> <gap reason="lost" quantity="3" unit="character" precision="low"/></lem>
+                    <rdg resp="#oliverioDAI1 #IGCyr"> <supplied reason="lost">ἔξος</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/></rdg>
+                    </app>
+                    <app loc="7-8"><lem resp="#IGCyr"><supplied reason="lost">προκλη</supplied><lb break="no"/><supplied reason="lost">σίας</supplied></lem>
+                    <rdg resp="#oliverioDAI1 #rosamilia2023"><supplied reason="lost">προκλησίας</supplied> <lb/><gap reason="lost" extent="unknown" unit="line"/></rdg>
+                    </app>
+                </p>                       
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> La récolte a été estimée: <supplied reason="lost">orge, la mesure, tant; froment</supplied>, la mesure 3 drachmes; <supplied reason="lost">légumineuses, la mesure, tant</supplied>;
+            raisin sec, la mesure, 3 drachmes 2 oboles <supplied reason="lost">figues, tant</supplied>; raisin hâtif, sous garantie, 8 drachmes; <supplied reason="lost">hors garantie</supplied>,
+            <supplied reason="lost">tant</supplied>; noir <supplied reason="lost">sous garantie, tant</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> The crops were estimated: <supplied reason="lost">barley, per unit, so much; wheat</supplied>, per unit 3 drachmas ; <supplied reason="lost">pulse, per unit, so much</supplied>;
+            raisin, per unit, 3 drachmas 2 obolas <supplied reason="lost">figs, so much</supplied>; grapes: early, under guarantee, 8 drachmas; <supplied reason="lost">without guarantee</supplied>,
+            <supplied reason="lost">so much</supplied>; black <supplied reason="lost">under guarantee, so much</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> Il raccolto è stato valutato: <supplied reason="lost">orzo a tanto; frumento</supplied> a 3 dracme <supplied reason="lost">legumi a tanto</supplied>;
+            uva passa a 3 dracme 2 oboli <supplied reason="lost">fichi, a tanto</supplied>; uva: primaticcia, scelta, 8 dracme; <supplied reason="lost">non scelta</supplied>,
+            <supplied reason="lost">a tanto</supplied>; nera <supplied reason="lost">scelta, a tanto</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>[---] تم تقدير المحاصيل كالتالي: ]الشعير، قيمة ما، للمقدار الواحد؛ القمح[، 3 دراخما للمقدار الواحد؛ ]البقوليات ، قيمة ما، للمقدار الواحد[؛  الزبيب، 3 دراخما و 2 أوبول للمقدار الواحد؛ ]التين ، قيمة ما، للمقدار الواحد[؛  ؛ العنب: المبكر، مباع بعقد مسبق، 8 دراخما؛ ]غيرمباع بعقد مسبق، قيمة ما [ ؛ الأسود] مباع بعقد مسبق، قيمة ما[ ؛. [---]</p>
+            </div><div type="commentary">
+                
+	<p/>
+            </div></body>
+    </text>
+</TEI>

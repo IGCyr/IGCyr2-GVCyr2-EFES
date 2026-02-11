@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs> for Apollo by Iason</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr017400</idno>
+                <idno type="number" subtype="second-edition">017400</idno>
+                <idno type="TM">738228</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr017400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr017400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr017400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> quadrangular <objectType>base</objectType> slightly chipped at both ends of inscribed side 
+                                        (<dimensions>
+                                            <width>0.66</width>
+                                            <height>0.22</height>
+                                            <depth>0.45</depth>
+                                        </dimensions>); on top, a rectangular hollow with holes for attachment still full of metal.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>a)<rs type="execution" key="scalpro">Inscribed</rs> a first time just under upper rim, in now very faint letters; 
+                                    b) again in an erased zone 0.065 from top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>a) <height>0.02</height>; b) <height>0.03</height>; both letterings seem to be almost contemporary.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" precision="medium">Fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925">
+                                    <p>Found in 1925 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, West of <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs> .
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="CDL">
+                                    <p>Seen in 2001 by C. Dobias-Lalou at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, against Southern wall of <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-30" who="Alice">checked</change>
+            <change when="2016-08-12" who="CDL">Italian translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-12-26" who="CDL">lemma, changes in text, apparatus, translations, commentary</change>
+            <change when="2012-07-14" who="HB">minor modifications to mark-up</change>
+            <change when="2011-12-20" who="Alice">text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76883/3/igcyr017400-1-face.tiff.jpg" corresp="igcyr017400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/76883">Face of igcyr017400 Tithe for Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76884/3/igcyr017400-2-face.tiff.jpg" corresp="igcyr017400" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1925"><ref target="http://hdl.handle.net/20.500.14008/76884">Face of igcyr017400 Tithe for Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1927"/>, p. <citedRange>157</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.80</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>017400</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                
+                <div type="textpart" n="a">
+                    <ab>
+                      <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64318"><name nymRef="#Ἰάσων">Ἰά<supplied reason="lost">σω</supplied>ν</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64524"><name type="patronymic" nymRef="#Κάλλις"><unclear>Κ</unclear>άλλιος</name></persName></persName> 
+                        <w lemma="δεκάτα">δεκάταν</w> <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλω<unclear>ν</unclear><supplied reason="lost">ι</supplied></name></persName>  
+                    </ab>
+                </div>
+                
+                <div type="textpart" n="b">
+                    <ab> 
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64318"><name nymRef="#Ἰάσων">Ἰάσων</name> <g type="punct">:</g> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64524"><name type="patronymic" nymRef="#Κάλλις">Κάλλιος</name></persName></persName> 
+                        <g type="punct">:</g> <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">τὠπόλλων<unclear>ι</unclear></name></persName>
+                    <lb n="2"/><w lemma="δεκάτα">δεκάταν</w> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <space extent="6" unit="character" precision="low"/>.
+                    </ab>
+            </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="a.1"><rdg resp="#oliverio1927"><supplied reason="lost">Ἱά</supplied>σω<supplied reason="lost">ν Κ</supplied>άλλιος δεκάταν Ἀπόλλωνι</rdg></app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>a) Iason fils de Kallis <supplied reason="subaudible">a consacré</supplied> comme dîme à Apollon.</p> 
+            <p>b) Iason fils de Kallis a consacré à Apollon comme dîme.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>a) Iason son of Kallis <supplied reason="subaudible">dedicated</supplied> as a tithe for Apollo.</p> 
+            <p>b) Iason son of Kallis dedicated to Apollo as a tithe.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>a) Iason figlio di Kallis <supplied reason="subaudible">ha dedicato</supplied> come decima ad Apollo.</p> 
+            <p>b) Iason figlio di Kallis ha dedicato ad Apollo come decima.</p>
+         </div><div type="commentary">
+                
+                <p>As Oliverio put it, a) was first inscribed and b) was intended as an expanded form of it.
+                    However, he did not mention that the space where b) was cut had been erased, perhaps because a first draft was dismissed as failing.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr121100</idno>
+                <idno type="number" subtype="second-edition">121100</idno>
+                <idno type="TM">738760</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr121100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr121100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr121100</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Marble</material> <objectType>base</objectType> with a plain moulding above and below, associated with a half-figure 
+                                        funerary statue, (dimensions not recorded).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in one line.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>, letters pressed close together; no real serifs; alpha with low bar, slightly slanting 
+                                sigma, very small omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" cert="low">Probably third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="2002" resp="Thorn">
+                                    <p>Seen and copied by J.C. Thorn at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1069">East Necropolis</rs>, tomb E6 Cassels.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2002" resp="Thorn">
+                                    <p>Photographed by D. Thorn in 2002 in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1069">East Necropolis</rs>.</p>
+                                </provenance>
+                            <provenance type="not-observed">
+                                <p>Not seen by IGCyr team.</p>
+                            </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous mention and from photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>
+            <change when="2023-10-07" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-11-21" who="CDL">file created, lemma, text, translations, commentary</change>
+            <change when="2016-03-31" who="CDL">changed date and handDesc, following the photograph sent by Ch. Roueché</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77595/3/igcyr121100-face.tiff.jpg" corresp="igcyr121100" decls="#photograph"><desc resp="Thorn, D." source="IRCyr project" n="2002"><ref target="http://hdl.handle.net/20.500.14008/77595">Face of igcyr121100 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>149</citedRange> (diplomatic transcription)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>121100</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.45</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἀκευσιλέα">Ἀκευσιλέα</name> <persName type="attested" key=""><name type="patronymic" nymRef="#Ἀνδρομήδης">Ἀνδρομήδευς</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Akeusiléa fille d'Andromèdès.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Akeusilea daughter of Andromedes.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Akeusilea figlia di Andromedes.</p>
+         </div><div type="commentary">
+                
+               <p>The feminine name <foreign xml:lang="grc">Ἀκευσιλέα</foreign> is only attested once in Cyrenaica (<ref type="inscription" source="#IGCyr2">IGCyr016300</ref>) and not elsewhere. 
+                   Her father's name is a <foreign rend="italic">hapax</foreign>, but other names in <foreign xml:lang="grc">-μήδης</foreign> are attested in the region, amongst 
+                   which the favorite <foreign xml:lang="grc">Πρατομήδης</foreign>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

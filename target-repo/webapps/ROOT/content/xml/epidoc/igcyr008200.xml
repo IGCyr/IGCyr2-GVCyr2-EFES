@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr008200</idno>
+                <idno type="number" subtype="second-edition">008200</idno>
+                <idno type="TM">745211</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr008200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr008200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr008200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Slightly tapered white <material>marble</material> <objectType>stele</objectType>, chipped off below, with a rectangular hole on top 
+                                        (<dimensions>
+                                            <width atLeast="0.39" atMost="0.43">0.39-0.43</width>
+                                            <height>1.49</height>
+                                            <depth atLeast="0.255" atMost="0.29">0.255-0.29</depth>
+                                        </dimensions>); back side reused as <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.607.html">IRCyr2020 C.607</ref>.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face at <dim type="distance">0.38</dim> from the bottom.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height>, regular letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" precision="medium">Third century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" when="1825" resp="copy-pacho">
+                            <p>Copied by J.-R. Pacho in 1825 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1982-05-25" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou on May 25th, 1982 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: deposited on the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1487">Terrace of the Department of Antiquities</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-27" who="CDL">lemma, bibliography,apparatus, translation, commentary</change>
+            <change when="2011-12-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76752/3/igcyr008200-drawing.tiff.jpg" corresp="igcyr008200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/76752">Drawing of igcyr008200 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#CIG"/> <citedRange>5167</citedRange> (Franz)</bibl>, from 
+                    <bibl><ptr target="#pacho1827"/>, pl. <citedRange>65, 6</citedRange></bibl>. 
+                    <bibl><ptr target="#robinson1913"/>, p. 174, n. <citedRange>38</citedRange>, back</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>008200</citedRange></bibl>
+                    Cf. <bibl><ptr target="#applebaum1979"/>, p. <citedRange>175</citedRange></bibl>;  
+                    <bibl>C. Dobias-Lalou in <ptr target="#masson1981"/>, p. <citedRange>203</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>31.1577</citedRange></bibl> (= 
+                    <bibl><ptr target="#masson1990"/>, p. <citedRange>373</citedRange></bibl>); 
+                    <bibl><ptr target="#gl-jmr1983"/>, n. <citedRange>16</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65597"><name nymRef="#Σιδώνιος">Σιδώνιος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65571"><name nymRef="#Σελυμαῖος" type="patronymic">Σελυμαίω</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#robinson1913">Σιδώνιος</lem>
+                        <rdg resp="#pacho1827"><orig>Σιδπωνιος</orig></rdg>
+                        <rdg resp="#CIG">Σι<supplied reason="lost">λή</supplied>νιος</rdg>
+                    </app>
+                    <app loc="2"><lem resp="#robinson1913">Σελυμαίω</lem>                        
+                        <rdg resp="#pacho1827 #CIG">Σελυμαία</rdg>
+                    </app>
+               </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p> Sidônios fils de Sélymaios.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p>Sidonios son of Selymaios.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>Sidonios figlio di Selymaios.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>سيدونيس بن سيليميو</p>
+         </div><div type="commentary">
+                
+                <p>Lüderitz (see <bibl><ptr target="#gl-jmr1983"/></bibl>) rightly criticised Applebaum's view that this man was a Jew; this man might simply be broadly 
+                    speaking of Semitic origin. Furthermore, Applebaum took this mention as an artist's signature of the inscription on the opposite side, which is a multiple epitaph with 
+                    dates between 90 and 102 AD. Lüderitz was only able to add a note where he mentioned from information by J.M. Reynolds, that both sides should be taken 
+                    separately.</p>
+	<p>Due to the current place of the stele this side is always in the shadow and cannot be easily photographed.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

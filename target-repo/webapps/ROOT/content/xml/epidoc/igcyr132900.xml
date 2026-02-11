@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr132900</idno>
+                <idno type="number" subtype="second-edition">132900</idno>
+                <idno type="TM">738876</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr132900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr132900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr132900</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular <objectType>block</objectType> of local <material>limestone</material> with the face emerging from a larger base; recut at left   
+                                        (measured from the photograph <dimensions>
+                                            <width precision="low" atLeast="0.40">0.40</width>
+                                            <height precision="low" atLeast="0.106">0.106</height>                                        
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the protruding face in two lines.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height precision="low">0.021</height>; alpha with the bar reduced to a dot, epsilon with three equal bars, eta with transitional value, 
+                            straight iota, slantering mu; holes were made along the lines of the letters and then crudely joined.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><rs type="monuList" ref="https://www.slsgazetteer.org/1419">Between Bayyadah and Cyrene</rs>, in the Useita, the plain below 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, at Mirad Ejarab,
+                                in the vicinity of a large circular tomb.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0450" notAfter="-0401" precision="medium" cert="low">Probably second half of fifth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1997">
+                                    <p>Found in 1997, re-used in a garden wall near a tomb to which it plausibly belonged, near
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" cert="low" when="1997" resp="JMR">
+                                    <p>J.M. Reynolds received a photograph and provided a description, but did perhaps never see the stone.</p>
+                                </provenance>
+                            <provenance type="not-observed">
+                                <p>Not seen by IGCyr team.</p>
+                            </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from photograph and discussion with J.M. Reynolds per epistulam (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-21" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-02-15" who="CDL">overall check</change>
+            <change when="2016-05-20" who="CDL">file created, lemma, text, translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77747/3/igcyr132900-face.tiff.jpg" corresp="igcyr132900" decls="#photograph"><desc resp="Reynolds, J.M. (?)" source="IRCyr project" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77747">Face of igcyr132900 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>132900</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName xml:id="n_os" type="attested" key=""><name nymRef="#_ος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ο̄</seg></name></persName> 
+                        <g type="punct">:</g> <w lemma="εἰμι">Ηεμὶ</w>
+                    <lb n="2"/><persName sameAs="#n_os" type="attested" key=""><persName type="attested"><name nymRef="#_δαμος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">δάμō</seg></name></persName></persName>
+                    
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Je suis <supplied reason="subaudible">la tombe</supplied> de <gap reason="lost" extent="unknown" unit="character"/>os fils de <gap reason="lost" extent="unknown" unit="character"/>damos.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>I am <supplied reason="subaudible">the tomb</supplied> of <gap reason="lost" extent="unknown" unit="character"/>os son of <gap reason="lost" extent="unknown" unit="character"/>damos.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>Io sono <supplied reason="subaudible">la tomba</supplied> di <gap reason="lost" extent="unknown" unit="character"/>os figlio di <gap reason="lost" extent="unknown" unit="character"/>damos.</p>
+            </div><div type="commentary">
+                
+                   <p>This inscription is known only from a photograph taken at the place of discovery. From it one might wonder at the shape of the stone, which seems rather 
+                   intended for a horizontal placement. Was it a sarcophagus lid with a reduced slope or a plaque placed on the summit of the tumulus tomb?</p>
+                   <p>The measures given above are based on the supposition that the standard shown on the photo is in inches.</p>
+                   <p>J.M. Reynolds at first glance thought that the last letter at l. 2 was an omega, which would have been very surprising as opposed to the omicron at line 1. 
+                   Moreover, the use of eta + epsilon for the long e of <foreign xml:lang="grc">εἰμι</foreign> (see <ref type="inscription" source="#IGCyr2">IGCyr001100</ref>) cannot be contemporary 
+                   with the use of omega. A better examination of the photograph shows that the two small furrows at the bottom of the discussed letter are caused by erosion, as it 
+                   occurs often in the soft local limestone. Similarly, a dot is to be seen inside the first omicron, but not in the centre. This is probably no part of the 
+                   letter; similar holes may be seen elsewhere on the surface.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

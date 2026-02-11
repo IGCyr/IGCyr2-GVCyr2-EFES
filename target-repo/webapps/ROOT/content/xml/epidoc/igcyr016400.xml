@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs> of Lentichos on occasion of a <foreign rend="italic">telesphoria</foreign></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr016400</idno>
+                <idno type="number" subtype="second-edition">016400</idno>
+                <idno type="TM">5999</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr016400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr016400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr016400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjoining fragments of a white <material>marble</material> <objectType>base</objectType>, 
+                                        later cut and re-used for <ref type="inscription" source="#IGCyr2">IGCyr015400</ref>
+                                        (<dimensions>
+                                            <width atLeast="0.67">0.67-</width>
+                                            <height>0.225</height>
+                                            <depth>0.565</depth>
+                                        </dimensions>); hollow on top.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on face: space between letters greater at l. 3.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="prosopography" notBefore="-0370" notAfter="-0360" precision="high">Between 370 and 360 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at an unknown date at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2004" resp="CDL">
+                                    <p>Seen in 2004 by C. Dobias-Lalou at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, in front of <rs type="monuList" ref="https://www.slsgazetteer.org/1010">West Stoa</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>Seen in 2012 by E. Rosamilia at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-27" who="Alice">checked</change>
+            <change when="2014-01-29" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-11-08" who="CDL">description, a bit of bibliography, French and English translation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76868/3/igcyr016400-face.tiff.jpg" corresp="igcyr016400" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/76868">Face of igcyr016400 Tithe of Ammonios</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI2"/>, pp. 106-107, n. <citedRange>73</citedRange>, pl. XX, fig. 28</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.68</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>016400</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>196-197</citedRange> (typology), p. <citedRange>372</citedRange>, number 98 (text)</bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>116, 120</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1881</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64780"><name nymRef="#Λέντιχος"><supplied reason="lost">Λέν</supplied>τιχος</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62818"><name nymRef="#Ἀμμώνιος" type="patronymic">Ἀμμωνίω</name></persName></persName> <name type="festival" key="Karneia" nymRef="#Καρνῆια">Καρ<unclear>ν</unclear><supplied reason="lost">ῆια</supplied></name>
+                    <lb n="2"/><w lemma="τελεσφορέω"><supplied reason="lost">τελε</supplied>σφορέων</w> <w lemma="δεκάτα">δεκάταν</w> 
+                        <w lemma="ἀνατίθημι">ἀνέ<supplied reason="lost">θηκε</supplied></w>
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62818"><name nymRef="#Ἀμμώνιος"><supplied reason="lost">Ἀμμ</supplied>ώνιον</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63725"><name nymRef="#Ἐπίχαρμος" type="patronymic">Ἐπιχάρμ<supplied reason="lost">ω</supplied></name></persName></persName>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#rosamilia2023">Καρ<unclear>ν</unclear><supplied reason="lost">ῆια</supplied></lem>
+                        <rdg resp="#IGCyr">Καρ<supplied reason="lost">νῆια</supplied></rdg>
+                        <rdg resp="#oliverioDAI2">Κάρ<supplied reason="lost">νεια</supplied></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Lentikhos fils d'Ammonios, en accomplissant la <foreign rend="italic">telesphoria</foreign> des Karneia, a consacré comme dîme <supplied reason="subaudible">la statue d'</supplied>Ammônios fils d'Epikharmos.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Lentichos son of Ammonios, when celebrating the <foreign rend="italic">telesphoria</foreign> of Karneia, offered as tithe <supplied reason="subaudible">the statue of</supplied> Ammonios son of Epicharmos.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Lentichos figlio di Ammonios, mentre celebrava la <foreign rend="italic">telesphoria</foreign> delle Karneia, ha offerto come decima <supplied reason="subaudible">la statua di</supplied> Ammonios figlio di Epicharmos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>قدم لينتيخوس بن أمونيوس (تمثالاً ل) أمونيوس بن إبيخارموس كعِشر (ضريبة)، عند الاحتفال بالتيليسفوريا الكارنيا.</p>
+            </div>
+            <div type="commentary">
+                
+                <p>Lentichos seems to have dedicated the statue of his father Ammonios, as suspected by <bibl><ptr target="#laronde1987"/>, pp. <citedRange>116, 120</citedRange></bibl>, who dated the 
+                    dedication between 370 and 360 BC. <bibl><ptr target="#rosamilia2023"/></bibl> pushes the bracket down to 250 without providing arguments.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

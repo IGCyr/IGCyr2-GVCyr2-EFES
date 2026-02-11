@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr133200</idno>
+                <idno type="number" subtype="second-edition">133200</idno>
+                <idno type="TM">738879</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr133200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr133200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr133200</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">497</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary grey <material>marble</material> rectangular <objectType>panel</objectType>, broken off at left and right                                         
+                                        (<dimensions>
+                                            <width atLeast="0.115">0.115</width>
+                                            <height>0.14</height>
+                                            <depth>0.045</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the face.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.015" max="0.02">0.015-0.02</height>; no serifs; epsilon with three equal bars, dissymmetrical nu, rho with large loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0351" precision="medium" cert="low">Probably first half of fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1977">
+                                    <p>Found before 1977 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-02-16" who="CDL">file created; support, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77750/2/igcyr133200-1-face.tiff.jpg" corresp="igcyr133200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77750">Face of igcyr1233200 Unclear</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77751/3/igcyr133200-2-squeeze.tiff.jpg" corresp="igcyr133200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77751">Squeeze of igcyr133200 Unclear</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Not previously published.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ειον<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>νκερ</orig><gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Intraduisible.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Intraducibile.</p>
+         </div><div type="commentary">
+                
+               <p>This very small fragment of a carefully cut inscription remains wholly obscure. The only clear point is that the group of letters <foreign xml:lang="grc">νκ</foreign> at line 2 should be divided into two words. We found no parallel to help restoring the word or name beginning with 
+                   <foreign xml:lang="grc">κερ</foreign>. The sequence of line 1 might belong to a comparative adjective, either at the neutre singular (with <foreign xml:lang="grc">α</foreign> beginning another word) or at the accusative singular of masc.-fem. including the same letter. As the panel seems to 
+                   have been inscribed only on two lines, the absence of any element belonging to the usual formulae found in short inscriptions is quite puzzling.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of <rs type="textType">tithe</rs> and <rs type="textType">artist's signature</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr125700</idno>
+                <idno type="number" subtype="second-edition">125700</idno>
+                <idno type="TM">738806</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr125700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr125700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr125700</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">152</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Part of a white <material>marble</material> <objectType>panel</objectType>, broken off at left and right and above  
+                                        (<dimensions>
+                                            <width atLeast="0.28">0.28</width>
+                                            <height atLeast="0.215">0.215</height>
+                                            <depth>0.07</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Line 1-2: <height>0.04</height>; line 3: <height>0.015</height>; carefully cut, with small serifs;
+                            smaller circular letters, not really slanting sigma, upsilon with tall vertical stroke and open upper part.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0250" notAfter="-0180" precision="medium" cert="low">Perhaps second half of third or rather beginning of 
+                            second century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found">
+                                    <p>Found probably before World War II at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        place unrecorded, but plausibly from the
+                                       <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-01" who="Alice">checked</change>
+            <change when="2017-02-02" who="CDL">overall check; bibliography; Engl. and Ital. translations; tagged w and lemma</change>
+            <change when="2016-02-10" who="CDL">file created, lemma, text, Fr. translation</change>
+            <change when="2016-02-19" who="CDL">commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77642/3/igcyr125700-squeeze.tiff.jpg" corresp="igcyr125700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77642">Squeeze of igcyr125700 Dedication to Apollo and artist's signature</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#cdl-rosamilia2016"/> (ph.)<citedRange/></bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>66.2337</citedRange></bibl>;
+                <bibl><ptr target="#IGCyr"/> <citedRange>125700</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#cdl-maffre2018"/></bibl>, whence 
+            <bibl><ptr target="#SEG"/> <citedRange>68.1746</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <orig><unclear>αδ</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><supplied reason="lost">Ἀπόλλω</supplied>νι</name></persName> <w lemma="δεκάτα">δ<unclear>ε</unclear><supplied reason="lost" cert="low">κάταν</supplied></w>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key=""><name nymRef="#_όνισκος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ονίσκου</seg></name></persName> <w lemma="ποιέω">ἐ<supplied reason="lost" cert="low">ποίησεν</supplied></w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">a consacré</supplied> à Apollon au titre de la d<supplied reason="lost" cert="low">îme</supplied>.</p>
+            <p><supplied reason="lost">Oeuvre d'Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>oniskos.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">dedicated</supplied> to Apollo as a t<supplied reason="lost" cert="low">ithe</supplied>.</p>
+            <p><supplied reason="lost">Work of So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>oniskos.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">ha dedicato</supplied> ad Apollo come d<supplied reason="lost" cert="low">ecima</supplied>.</p>
+            <p><supplied reason="lost">Opera del tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>oniskos.</p>
+         </div><div type="commentary">
+                
+                      <p>Although very fragmentary, this inscription consists clearly of a dedication with an artist's signature in smaller characters below.</p>
+	           <p>At line 2, the restoration was chosen on behalf of its high frequency in Cyrenaean inscriptions. It is associated with an artist's signature 
+	            in <ref type="inscription" source="#IGCyr2">IGCyr019000</ref>. At first view it is not quite impossible that the text read <foreign xml:lang="grc"><supplied reason="lost">ἐκ τῶ</supplied>ν ἰδ<supplied reason="lost">ίων</supplied></foreign>
+	            'at his own expense', which would be used for honoring a person with a statue. However such formulas occur only later and exclusively for building 
+	           or reparing works.</p>
+	           <p>At line 3, we restore the most common formula. There also exists at Cyrene at least one instance with <foreign xml:lang="grc">ἔ<supplied reason="lost">ργον</supplied></foreign> (see <ref type="inscription" source="#IGCyr2">IGCyr108400</ref> with the commentary). In the latter case, the ending of genitive would belong to the sculptor's name. In the 
+	               preferred reading, the father's name of the sculptor ended with <foreign xml:lang="grc">-ονίσκος</foreign>. No such name is hitherto attested in Cyrene.
+	               As no ethnic is mentioned, thie sculptor was plausibly a Cyrenaean.</p>
+            </div></body>
+    </text>
+</TEI>

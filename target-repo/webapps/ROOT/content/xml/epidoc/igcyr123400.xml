@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs>s</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr123400</idno>
+                <idno type="number" subtype="second-edition">123400</idno>
+                <idno type="TM">738783</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr123400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr123400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr123400</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Rock</material>-cut <objectType>tomb</objectType> with five loculi and a plain facade 
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two sections on the facade just above the loculi 
+                                    (one name for each loculus).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>, deeply and carefully cut; alpha with low bar, slanting mu and sigma, smaller circular letters, rho with smaller 
+                                loop in B than in A; the lettering is very similar in both sections, however 
+                                the guideline for B is no extension of that for A, but is placed slightly higher up.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0350" notAfter="-0301" precision="medium">Probably second half of fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1954" resp="Cassels">
+                                    <p>First seen and copied by J. Cassels in 1954 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>, tomb W128.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" notAfter="2001" resp="Thorn">
+                                    <p>Seen before 2001 by J. Thorn in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1065">West Necropolis</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2002" resp="D'Addazio">
+                                    <p>Seen in 2002 by G. D'Addazio in situ.</p>
+                                </provenance>
+                                <provenance type="observed" when="2010">
+                                    <p>Seen and photographed in 2010 by E. Rosamilia in situ, whence Dobias-Lalou's present edition.</p>
+                                </provenance>
+                                
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous mentions (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>    
+            <change when="2023-01-19" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-12-13" who="CDL">file created, lemma, text, translation, commentary</change>
+            <change when="2018-03-12" who="CDL">some changes in support and history thanks to Rosamilia's photographs, added into photographic archive</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77857/3/igcyr123400-1-Aleft.jpg.jpg" corresp="igcyr123400" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77857">Left part of igcyr123400/A Epitaphs</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77858/3/igcyr123400-2-Aright.JPG.jpg" corresp="igcyr123400" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77858">Right part of igcyr123400/A Epitaphs</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77859/3/igcyr123400-3-B.JPG.jpg" corresp="igcyr123400" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77859">Section B of igcyr123400 Epitaphs</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>305</citedRange> (Cassels' copy and Reynolds' test translation)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>123400</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#daddazio2008"/>, pp. <citedRange>180-181</citedRange></bibl> (comments on the names).</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name nymRef="#Κάλλιππος">Καλλίππω</name></persName> καὶ
+                            <persName type="attested" key=""><name nymRef="#Μυρώι">Μυρός</name></persName>
+	               </ab>
+                </div>
+                <div type="textpart" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἐπικρίτα">Ἐπικρίτας</name></persName>
+	               </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="b.1"><lem resp="#daddazio2008">Ἐπικρίτας</lem>
+                <rdg resp="#dthorn-thorn2009" hand="Cassels">Ἐπικρ<supplied reason="lost">άτης</supplied> <note>Cassels' diplomatic transcription</note></rdg>
+                </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p>a) <supplied reason="subaudible">Tombe</supplied> de Kallippos et Myrô.</p>
+                <p>b) <supplied reason="subaudible">Tombe</supplied>d'Epikrita.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p>a) <supplied reason="subaudible">Tomb</supplied> of Kallippos and Myro.</p>
+                <p>b) <supplied reason="subaudible">Tomb</supplied>of Epikrita.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>a) <supplied reason="subaudible">Tomba</supplied> di Kallippos e Myrò.</p>
+                <p>b) <supplied reason="subaudible">Tomba</supplied>di Epikrita.</p>
+         </div><div type="commentary">
+                
+               <p>Cassels' unpublished reading was not complete and lacked information about the layout of both sections. J.M. Reynolds' tentative translation 
+                   communicated to the Thorns is therefore dubitative.</p>
+               <p>D'Addazio suggested to read section B before section A, which would give both father's and mother's names. This seems impossible in terms of nomenclature, although
+                   it is quite possible that the deceased person mentioned at line 2 is a child of the pair mentioned at line 1.</p>
+    	     <p>The woman's name Epikrita is already attested on a much later mosaic at Cyrene and corresponds to the masculine Epikritos, rare, but attested elsewhere.</p>
+	<p>The form <foreign xml:lang="grc">Μυρός</foreign>, dialectal genitive of the woman's name <foreign xml:lang="grc">Μυρώι</foreign>, now supported by <ref type="inscription" source="#IGCyr2">IGCyr138800</ref>, corroborates the 
+	   formerly isolated genitive <foreign xml:lang="grc">λεχός</foreign> at <ref type="inscription" source="#IGCyr2">IGCyr016700</ref>, l. 109.</p>
+            </div></body>
+    </text>
+</TEI>

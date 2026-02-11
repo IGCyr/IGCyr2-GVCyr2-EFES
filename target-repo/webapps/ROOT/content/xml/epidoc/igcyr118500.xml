@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr118500</idno>
+                <idno type="number" subtype="second-edition">118500</idno>
+                <idno type="TM">738733</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr118500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr118500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr118500</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a <material>black-glazed ware</material> <objectType>vase</objectType>     
+                                        (height 0.028).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on the wall.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.007</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0400" notAfter="-0201" precision="medium" cert="low">Perhaps fourth of third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1957" resp="gismondi">
+                                    <p>Found by I. Gismondi in 1957 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        inside or near (?) the <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek Theatre</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Seems to be lost.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2015-05-24" who="CDL">file created; lemma, text, translations</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>From Gismondi's notebook <bibl><ptr target="#mei2014"/>, p. <citedRange>216</citedRange> and fig. 3</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>118500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Δ</supplied>εκ<subst><del rend="corrected">τ</del>
+                        <add place="overstrike">ά</add></subst><supplied reason="lost">τα</supplied><gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><note>a corrected error seems more probable than a ligature</note></app></p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> dîme <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> tithe <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> decima <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+               <p>This sherd is known only from a sketchbook of the architect Gismondi, who resumed in 1957 for only one month the excavations he had conducted before 
+               World War II. The sherd is mentioned amongst other fragments found in a rock-cut chamber, the function and place of which are quite unclear. It seems plausible 
+               that the vase offered as a tithe was originally deposited inside the neighbouring sanctuary of Apollo.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

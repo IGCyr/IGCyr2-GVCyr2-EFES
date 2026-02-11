@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Caption</rs> on a <rs type="textType">funerary</rs> statue</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135500</idno>
+                <idno type="number" subtype="second-edition">135500</idno>
+                <idno type="TM">997617</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135500</idno>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A seated <objectType>statue</objectType> of white
+                                        <material>marble</material>, probably Parian 
+                                        (<dimensions><height>1.45</height></dimensions>); the inscription runs on the plinth in front 
+                                        (<dimensions><height>0.12</height>
+                                        <width>0.56</width></dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines with axial display.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height precision="low">0.02</height>; careful and regular letters with ends of strokes deepening, slightly slanting sigma, 
+                                smaller omicron, phi with flattened loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1065">, South Necropolis, tomb S198</rs></origPlace>
+                            <origDate evidence="lettering context" notBefore="-0300" notAfter="-0201" precision="medium">Probably third century BC</origDate>
+                        </origin>
+                        
+                        <provenance type="found" notAfter="2019">
+                            <p>Discovered before 2019 at  
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1065">South Necropolis</rs>, amongst blocks tipped out in the courtyard of tomb S197 Cassels.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="2019">
+                            <p>Seen by O. Mei, head of the Mission of Urbino, in April 2019 in the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by the IGCyr team.</p>
+                        </provenance>
+                        
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Created from documentation of the Chieti mission and first edition.</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">achecked</change> 
+            <change when="2024-01-17" who="CDL">added textType</change> 
+                <change when="2023-01-23" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>  
+            <change when="2021-11-21" who="CDL">various small corrections thanks to the Efes version!</change>
+            <change when="2021-10-21" who="CDL">file created and wholly edited</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80484/3/igcyr135500-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80484">View of igcyr135500 Caption on a funerary statue</ref></desc></graphic></facsimile>
+    <text>
+        <body>
+            
+            <div type="bibliography">
+                
+                <p>Not included into <bibl><ptr target="#IGCyr"/></bibl>;
+                <bibl><ptr target="#cdl2020d"/><citedRange/></bibl>.</p>
+            </div>
+            
+            
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="..."><name nymRef="Φερώι"/>Φερὼι</persName>
+                    <lb n="2"/><persName type="attested" key="..."><name nymRef="Σεμηρ" type="patronymic">Σεμηρος</name></persName>
+                </ab>
+            </div>
+            
+            <div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div>
+            
+            <div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Pherô fille de Semer.</p>
+            </div>
+            <div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Phero daughter of Semer.</p>
+		    </div>
+            <div type="translation" xml:lang="it" xml:space="preserve">
+                <p>Pherò figlia di Semer.</p>
+            </div>
+            
+            <div type="commentary">
+                
+                <p>The feminine name Phero is a short form of the numerous compounds in <foreign xml:lang="grc">Φερε/ο-</foreign>, amongst which <foreign xml:lang="grc">Φερονίκα</foreign> and 
+                    <foreign xml:lang="grc">Φερενίκα</foreign> are of use in the region. Her father's name, only attested in Cyrenaica, belongs to the Libyan stock and is attested in the fourth and third centuries.</p>
+                <p>Moreover, we know also a funerary base for a woman with the same name and same father's name (<ref type="inscription" source="#IGCyr2">IGCyr105700</ref>). It is impossible to guess whether the two monuments (and the two letterings) are 
+                contemporaneous or should be separated by a span of time. The question of a possible relationship  is treated by the other authors of the publication with archaeological arguments.</p>
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

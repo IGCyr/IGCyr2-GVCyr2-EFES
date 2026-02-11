@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> and <rs type="textType">tithe</rs> for Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr099000</idno>
+                <idno type="number" subtype="second-edition">099000</idno>
+                <idno type="TM">738508</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr099000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr099000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr099000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, recut behind in round shape, with plaster and red paint on the inscribed side,
+                                        broken off at left and right
+                                        (<dimensions>
+                                            <width>0.305</width>
+                                            <height>0.27</height>
+                                            <depth>0.215</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.026</height>; large circular letters, symmetrical nu, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0320" notAfter="-0280" precision="medium">End of fourth of beginning of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935">
+                                    <p>Found before 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, in front of
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1287">Fountain of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                               <provenance type="observed" when="2004" resp="cdl">
+                                   <p>Seen by C. Dobias-Lalou in 2004 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2013-11-08" who="CDL+HB">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77346/3/igcyr099000-face.tiff.jpg" corresp="igcyr099000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77346">Face of igcyr099000 Tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>141</citedRange></bibl> (photo);
+                    <bibl><ptr target="#IGCyr"/> <citedRange>099000</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" unit="character" quantity="5" precision="low"/></name> <supplied reason="lost" cert="high"><g type="punct">⋮</g></supplied> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65359"><name type="patronymic" nymRef="#Πολύαρχος">Πολυάρχ<unclear>ω</unclear></name></persName></persName>
+                    <lb n="2"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><supplied reason="lost">Ἀπόλλ</supplied><unclear>ω</unclear>νι</name></persName> 
+                    <g type="punct">⋮</g> <w lemma="δεκάτα">δεκάτ<supplied reason="lost">αν</supplied></w>
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#_ος"><gap reason="lost" unit="character" quantity="5" precision="medium"/><seg part="F">ον</seg></name> <g type="punct">⋮</g> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66133"><name type="patronymic" nymRef="#Χαῖνυς">Χαίνυος</name></persName></persName>
+                    <lb n="3a"/><space quantity="4" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><gap reason="lost" unit="character" quantity="5" precision="low"/> <supplied reason="lost" cert="high"><g type="punct">⋮</g></supplied></lem>
+                        <rdg resp="#SECir"><gap reason="lost" unit="character" extent="unknown"/></rdg>
+                    </app>
+                    <app loc="3">
+                        <lem><gap reason="lost" unit="character" quantity="5" precision="medium"/>ον</lem>
+                        <rdg resp="#SECir"><gap reason="lost" unit="character" extent="unknown"/>ον</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Untel</supplied> fils de Polyarkhos <supplied reason="subaudible">a consacré</supplied> à Apollon au titre de la dîme 
+            <supplied reason="subaudible">la statue de</supplied> <gap reason="lost" extent="unknown" unit="character"/>os fils de Khainus.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">So-and-so</supplied> son of Polyarchos <supplied reason="subaudible">dedicated</supplied> to Apollo as a tithe 
+            <supplied reason="subaudible">the statue of</supplied> <gap reason="lost" extent="unknown" unit="character"/>os son of Chainys.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Il tale</supplied> figlio di Polyarchos <supplied reason="subaudible">ha dedicato</supplied> ad Apollo come decima 
+            <supplied reason="subaudible">la statua di</supplied> <gap reason="lost" extent="unknown" unit="character"/>os figlio di Chainys.</p>
+            </div><div type="commentary">
+                
+                <p>This inscription was published by Pugliese Carratelli from a photograph in the Antiquities Archives, which mentioned the findspot as given above. He was not able to trace the stone.</p>
+                <p>In the vacat under line 3, some letters were scratched later on, especially an omicron (or a meaningless circle?) which is much visible on the photograph.</p>
+	<p>For another occurrence of a son of Chainys, see at <ref type="inscription" source="#IGCyr2">IGCyr099100</ref>, which however does not allow a secure restoration here.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

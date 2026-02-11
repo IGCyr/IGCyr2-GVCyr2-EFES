@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Public honours</rs> for Aiglanor</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr104100</idno>
+                <idno type="number" subtype="second-edition">104100</idno>
+                <idno type="TM">738563</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr104100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr104100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr104100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material>, plain rectangular <objectType>base</objectType>; the base was later reused twice : 1) upside down for a statue with
+                                        two footholes on the upper face; 2) recut so that the footholes are at the edge of the new block and a part of the first inscription is lost;
+                                        on the upper side of the preserved part, there is a large and deep hole for attachment
+                                        (<dimensions>
+                                            <width>0.418</width>
+                                            <height>0.256</height>
+                                            <depth>0.66</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.022</height>; light serifs, alpha with rather low bar, beta with larger lower loop, kappa with long oblique bars, non slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0107" notAfter="-0075" evidence="reign" precision="medium">Between 107 and 75 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1934">
+                                    <p>Found in 1934 by G. Oliverio at 
+                                          <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, South of the
+                                       <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs> and West of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1060">Grotto of the Priests</rs>.
+                                   </p>
+                                </provenance>
+                            <provenance type="observed" when="1960" resp="Morelli">
+                                <p>Seen by D. Morelli in 1960 in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, with a very confusing 
+                                    description of the exact place, but probably at findspot.</p>
+                            </provenance>
+                            <provenance type="observed" when="1972" resp="Gasperini">
+                                <p>Seen at findspot by L. Gasperini in 1972, with amended description of the place inside the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                            </provenance>        
+                            <provenance type="observed" when="2004" resp="cdl">
+                                    <p>Observed in 2004 by C. Dobias-Lalou at the same place.</p>
+                             </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>    
+            <change when="2023-04-19" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-02" who="Alice">It. transl.; checked</change>
+            <change when="2017-01-27" who="CDL">overall check; tagged w, lemma, rs</change> 
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+             <change when="2013-03-14" who="CDL+HB">lemma, text, apparatus, translation, commentary</change>
+             <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77426/3/igcyr104100-1-face.tiff.jpg" corresp="igcyr104100" decls="#photograph"><desc resp="Reynolds, J.M." source="IRCyr project" n="-"><ref target="http://hdl.handle.net/20.500.14008/77426">Face and upper side of igcyr104100 Public honours for Aiglanor</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77427/3/igcyr104100-2-squeeze.tiff.jpg" corresp="igcyr104100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77427">Squeeze of igcyr104100 Public honours for Aiglanor</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77428/3/igcyr104100-3-drawing.tiff.jpg" corresp="igcyr104100" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="1972"><ref target="http://hdl.handle.net/20.500.14008/77428">Drawing of igcyr104100 Public honours for Aiglanor</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>246</citedRange> (no image)</bibl>; 
+                    <bibl>Van't Dack in <ptr target="#hauben-vantdack1971"/>, p. <citedRange>35</citedRange></bibl> and
+                    <bibl><ptr target="#habicht1972"/>, pp. <citedRange>127-128</citedRange></bibl>,
+                    whence <bibl> <ptr target="#robertBE"/>, <citedRange>1972.620-621</citedRange></bibl>;
+                    <bibl>Reynolds in <ptr target="#vickers-jmr1971-1972"/>, p. <citedRange>44</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>421-422, 455</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1885</citedRange></bibl>;
+                    <bibl><ptr target="#gasperini1996"/>, pp. <citedRange>149-154</citedRange> (ph.; dr.) 
+                    (=<bibl><ptr target="#gasperini2008"/>, pp. <citedRange>370-380</citedRange></bibl>)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2202</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>104100</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#fraser1972"/> vol. <citedRange>II</citedRange>, p. <citedRange> 189, footnote 81</citedRange></bibl>;
+                    <bibl><ptr target="#mooren1975"/>, n. <citedRange>0407</citedRange></bibl>;
+                    <bibl><ptr target="#bagnall1976"/>, pp. <citedRange>36-37</citedRange></bibl>;
+                    <bibl><ptr target="#criscuolo2011"/>, pp. <citedRange>139-140</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>38</citedRange>, footnote 178</bibl>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62630"><name nymRef="#Αἰγλάνωρ">Αἰγλάνορα</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63458"><name type="patronymic" nymRef="#Δαμάτριος">Δαμ<supplied reason="lost">ατρίω</supplied></name></persName></persName>, 
+                    <supplied reason="lost">τὸν</supplied> <rs type="aulic" key="syggenes"><w lemma="συγγενής"><supplied reason="lost">συνγενῆ</supplied></w></rs> <supplied reason="lost">τῶ</supplied>
+                    <lb n="2"/><w lemma="βασιλεύω">βασιλεύσαντος</w> <persName type="ruler" key="Ptolemy undetermined"><name nymRef="#Πτολεμαῖος">Π<supplied reason="lost">τολεμαίω</supplied></name></persName>, 
+                    <w lemma="πολύς"><supplied reason="lost">πολλὰς</supplied></w> <supplied reason="lost">καὶ</supplied>
+                    <lb n="3"/><w lemma="μέγας">μεγάλας</w> <w lemma="ἀπόδειξις">ἀποδεί<supplied reason="lost">ξιας</supplied></w> <w lemma="ποιέω"><supplied reason="lost">ποιησάμενον</supplied></w>
+                    <lb n="4"/><w lemma="λόγος"><unclear>λό</unclear>γωι</w> καὶ <w lemma="ἔργον">ἔργ<unclear>ω</unclear>ι</w> τᾶ<supplied reason="lost">ς</supplied> <w lemma="ποτί"><supplied reason="lost">ποθ’</supplied></w> <w lemma="ἑαυτῶ"><supplied reason="lost">ἑαυτὸς</supplied></w> <w lemma="φιλοστοργία"><supplied reason="lost">φιλο</supplied><lb n="5" break="no"/><unclear>στορ</unclear>γ̣ίας</w> <space quantity="2" unit="character"/> 
+                    <placeName type="ethnic" nymRef="#Κυραναῖος">Κυρα<unclear>ν</unclear><supplied reason="lost">αῖοι</supplied></placeName> 
+                    <supplied reason="lost"><space quantity="2" unit="character"/></supplied> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθηκαν</supplied></w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem resp="#gasperini1996">Αἰγλάνορα</lem>
+                        <rdg resp="#SECir">Αἰγλάνωρα</rdg>
+                    </app>
+                    <app loc="1">
+                        <lem resp="#laronde1987 #gasperini1996">Δαμ<supplied reason="lost">ατρίω</supplied>, <supplied reason="lost">τὸν συνγενῆ τῶ</supplied></lem>
+                        <rdg resp="#SECir">Δαμα<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="2">
+                        <lem resp="#gasperini1996">Π<supplied reason="lost">τολεμαίω</supplied>, <supplied reason="lost">πολλὰς καὶ</supplied></lem>
+                        <rdg resp="#SECir">Π<supplied reason="lost">τολεμαίω</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#hauben-vantdack1971 #laronde1987"><unclear>ἁ</unclear><supplied reason="lost">μῶν Πτολεμαίω</supplied></rdg>
+                    </app>
+                    <app loc="3">
+                        <lem>ἀποδεί<supplied reason="lost">ξιας</supplied></lem>
+                        <rdg resp="#SECir">ἀποδεί<supplied reason="lost">ξεις</supplied></rdg>
+                    </app>
+                    <app loc="4">
+                        <lem resp="#hauben-vantdack1971 #vickers-jmr1971-1972"><note>independently</note> <unclear>λό</unclear>γωι</lem>
+                        <rdg resp="#SECir">ἄθλωι</rdg>
+                    </app>
+                    <app loc="4"><lem>τᾶ<supplied reason="lost">ς ποθ’ ἑαυτὸς</supplied></lem>
+                        <rdg resp="#gasperini1996">τᾶ<supplied reason="lost">ς ποθ’ ἑαυτοὺς</supplied></rdg>
+                        <rdg resp="#SECir">τᾶ<supplied reason="lost">ς ποθ’ αὑτοὺς</supplied></rdg>
+                        <rdg resp="#laronde1987">τᾶ<supplied reason="lost">ς εὐνοίας ἕνεκα καὶ</supplied></rdg>
+                    </app>
+                    <app loc="5">
+                        <lem>Κυρα<unclear>ν</unclear><supplied reason="lost">αῖοι <space quantity="2" unit="character"/> ἀνέθηκαν</supplied></lem>
+                        <rdg resp="#SECir">Κυρα<unclear>ν</unclear><supplied reason="lost">αῖοι</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#gasperini1996">Κυρα<unclear>ν</unclear><supplied reason="lost">αῖοι <space extent="unknown" unit="character"/></supplied></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">La statue</supplied> d'Aiglanor fils de Damatrios, Parent de Ptolémée qui fut notre roi, pour les nombreuses grandes démonstrations qu'il a faites
+            en paroles et en actes de son affection envers eux <supplied reason="lost">a été consacrée</supplied>, par les Cyrénéens.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><supplied reason="subaudible">The statue</supplied> of Aiglanor son of Damatrios, Akin to Ptolemy once our king, on behalf of the many great demonstrations in deeds and in words of 
+                    his love towards themselves, <supplied reason="lost">was dedicated</supplied> by the Cyrenaeans.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="subaudible">La statua</supplied> di Aiglanor figlio di Damatrios, Parente di Tolemeo che è stato nostro re, in considerazione delle molte dimostrazioni
+                    con le parole e con i fatti del suo affetto nei loro confronti, <supplied reason="lost">è stata dedicata</supplied> dai Cirenei.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>(تمثال) إيجلانور بن داماتريوس، قريب ملكنا بطليموس، لأجل ظهوره أو مشاركته اللافته في العديد من الاعمال العظيمة ولكلماته المحبه لهم، [أهدي] (هذا التمثال .له) من قبل الكيرينيين</p>
+         </div><div type="commentary">
+                
+                <p>Morelli and Reynolds had seen the stone in the right position for someone reading this inscription. Later on, Gasperini found the stone and described it as having been used twice. 
+                    He supposed that a similar block had stood at right of this side. However his description is somewhat confusing as to the different sides and the caption of his figure 5 is 
+                    erroneous. Dobias-Lalou now thinks that there were three successive phases, as described above.</p>
+                <p>This dedication is very similar to <ref type="inscription" source="#IGCyr2">IGCyr065000</ref> and has been restored as fully parallel by Laronde who had not found the stone. 
+                    However, Gasperini has shown that there were some substantial differences.</p>
+                <p>The common problem of both inscriptions is the exact meaning of the aorist participle <foreign xml:lang="grc">βασιλεύσαντος</foreign>: it might refer either to a 
+                    dead king (Ptolemy IX Soter II or the discussed Ptolemy Apion) or to a king who no longer reigned over Cyrenaica (Ptolemy IX Soter II, after he flew to Cyprus in 107 BC). 
+                    It might also be Ptolemy VIII, as shown by Criscuolo. See commentary at <ref type="inscription" source="#IGCyr2">IGCyr065000</ref></p>
+                <p>About the discovery of the stone see the report now published by <bibl><ptr target="#luni2014b"/>, p. <citedRange>141</citedRange></bibl>, which confirms that the stone 
+                    was found at the very place where Gasperini and Dobias-Lalou saw it later.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

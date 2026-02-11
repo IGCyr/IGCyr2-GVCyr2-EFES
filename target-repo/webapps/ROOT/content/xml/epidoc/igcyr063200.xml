@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Public honours</rs> for an officer of Ptolemy IV and Arsinoe III</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr063200</idno>
+                <idno type="number" subtype="second-edition">063200</idno>
+                <idno type="TM">6100</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr063200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr063200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr063200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository><idno type="invNo">1962</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Upper left angle of a <material>marble</material> <objectType>base</objectType> broken off at right and chipped above
+                                        (<dimensions>
+                                            <width min="0.105" max="0.295">0.105 to 0.295</width>
+                                            <height>0.295</height>
+                                            <depth>0.785</depth>
+                                        </dimensions>); on the upper face, near the break, there is a hollow for attachment of a statue.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed on the face.</rs></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/>Careful lettering, very similar to <ref type="inscription" source="#IGCyr2">IGCyr063100</ref>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace cert="low">Findspot.</origPlace>
+                            <origDate evidence="reign" notBefore="-0221" notAfter="-0204" precision="medium">Between 221 and 204 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1935">
+                                    <p>Found in 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1062">Greek Theatre</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2007" resp="gasperini">
+                                    <p>Seen in 2007 by L. Gasperini in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        in the Casa Parisi, which is part of the <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            <provenance type="not-observed">
+                                <p>Not seen by IGCyr team.</p>
+                            </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2023-08-29" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2016-06-15" who="CDL">Changed at l. 4 children into son in text and translations and added commentary in accordance with 063100</change>
+            <change when="2015-10-25" who="Alice">changed en and it translations according to fr</change>
+            <change when="2015-10-14" who="HellasLabUnibo">checked, updated and in case corrected; added en and it translations</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-09" who="cdl">lemma, slight changes in text, apparatus, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-16" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77084/3/igcyr063200-1-drawing.tiff.jpg" corresp="igcyr063200" decls="#photograph"><desc resp="Gasperini, L." source="Università degli Studi, Macerata" n="2007"><ref target="http://hdl.handle.net/20.500.14008/77084">Drawing of igcyr063200 Public honours for an officer</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77085/3/igcyr063200-2-face.tiff.jpg" corresp="igcyr063200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1935"><ref target="http://hdl.handle.net/20.500.14008/77085">Face of igcyr063200 Public honours for an officer</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#fraser1958"/>, p. 113, n. <citedRange>6</citedRange>, pl. XII, 6</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>18.733</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>063200</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#PP"/> <citedRange>15771</citedRange></bibl>; 
+                    <bibl><ptr target="#laronde1987"/>, p. <citedRange>417</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1882</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Πτολεμαῖος">Πτολεμ<unclear>α</unclear><supplied reason="lost">ῖον</supplied></name> <persName type="attested"><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><w lemma="ἀρετά">ἀρετᾶς</w> <w lemma="ἕνεκα">ἕ<supplied reason="lost">νεκα</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="εὔνοια"><supplied reason="lost">εὐνοίας</supplied></w> <supplied reason="lost">τᾶς</supplied> <w lemma="ἐς"><supplied reason="lost">ἐς</supplied></w> <persName type="ruler" key="Ptolemy IV and Arsinoe III"><supplied reason="lost"><w lemma="βασιλεύς">βασιλῆ</w></supplied> <persName type="ruler" key="Ptolemy IV"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτο</supplied>
+                    <lb n="3" break="no"/>λεμαῖο<supplied reason="lost">ν</supplied></name></persName> <supplied reason="lost">καὶ <w lemma="βασίλισσα">βασίλισσαν</w></supplied> 
+                        <persName type="ruler" key="Arsinoe III"><name nymRef="#Ἀρσινόα"><supplied reason="lost">Ἀρσινόαν</supplied></name></persName> 
+                        <rs type="epithet" key="Theoi Philopatores"><w lemma="θεός"><supplied reason="lost">θεὸς</supplied></w>
+                    <lb n="4"/><w lemma="φιλοπάτωρ">Φιλοπάτ<supplied reason="lost">ορας</supplied></w></rs></persName> <supplied reason="lost">καὶ τὸν</supplied> <w lemma="υἱός"><supplied reason="lost">υἱὸν</supplied></w> <w lemma="αὐτός"><supplied reason="lost">αὐτῶν</supplied></w>
+                    <lb n="5"/><space quantity="6" unit="character"/> <placeName type="ethnic" nymRef="#Κυραναῖος"><supplied reason="lost">Κυραναῖοι</supplied></placeName> <space quantity="6" unit="character"/>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#fraser1958"><gap reason="lost" extent="unknown" unit="character"/> <note>at the end of the line</note></lem>
+                        <rdg resp="#laronde1987"><supplied reason="lost" cert="low">Λιβυάρχαν</supplied></rdg>
+                    </app>
+                    <app loc="4"><lem><supplied reason="lost">καὶ τὸν υἱὸν αὐτῶν</supplied></lem>
+                        <rdg resp="#fraser1958"><supplied reason="lost">καὶ τὰ τέκνα αὐτῶν</supplied></rdg>
+                    </app>
+                    <app loc="5"><lem><supplied reason="lost" evidence="parallel">Κυραναῖοι</supplied></lem>
+                        <rdg resp="#fraser1958"><gap reason="lost" quantity="1" unit="line"/></rdg>
+                    </app>
+                </p>
+     </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p><supplied reason="subaudible">La statue de</supplied> Ptolémée fils de <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><supplied reason="subaudible">titre aulique</supplied></supplied>,
+                pour son mérite <supplied reason="lost">et sa bienveillance à l'égard du roi</supplied> Ptolémée <supplied reason="lost">et de la reine Arsinoé, Dieux</supplied> Philopatores,
+                <supplied reason="lost">ainsi que leur fils, les Cyrénéens</supplied> <supplied reason="subaudible">l'ont consacrée</supplied>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+             <p> <supplied reason="subaudible">The statue of</supplied> Ptolemy son of <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><supplied reason="subaudible">his title</supplied></supplied> on account of his valour <supplied reason="lost">and his goodwilling
+            towards king</supplied> Ptolemy, <supplied reason="lost">queen Arsinoe, Gods</supplied> Philopatores,
+                <supplied reason="lost">and their son, the Cyrenaeans</supplied> <supplied reason="subaudible">dedicated</supplied>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p> <supplied reason="subaudible">La statua di</supplied> Tolemeo figlio di <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><supplied reason="subaudible">titolo aulico</supplied></supplied> in considerazione del suo valore <supplied reason="lost">e della sua dedizione
+            verso il re</supplied> Tolemeo <supplied reason="lost">e la regina Arsinoe, Dèi</supplied> Filopatori,
+                <supplied reason="lost">e il loro figlio, i Cirenei</supplied> <supplied reason="subaudible">dedicarono</supplied>.</p>
+         </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تمثال) بتوليميوس (بطليموس) بن [---] [(لقبه)] لأفضاله [ونواياه الحسنة تجاه الملك] بطليموس، و[الملكة أرسينوي، المؤلهان] فيلوباتورس(المُحِبان لِأَبَيْهُما)، [وابنهما، الكيرينيون] (أي أُهْدِي التمثال مِنْ قِبَل الكيرينيين).</p>
+            </div>
+            <div type="commentary">
+                
+                <p>Thought to be lost already in 1955, this inscription was published by Fraser from a photograph, from which the stone seemed to be a panel. Thanks to the drawing 
+                provided here from the archive kept at the University of Macerata, we now know that L. Gasperini saw the stone in 2007 and we may take advantage of his accurate description. 
+                The fragment belonged in fact to a monumental base, as indicated by the depth of the fragment. This gives also an idea of the possible width of the whole base,
+                which is in fitting with the proposed restorations.</p>
+                <p>Fraser suspected the name of the dedicants to have been lost at l. 5. On account of the great similarity with <ref type="inscription" source="#IGCyr2">IGCyr063100</ref>, it seems more probable
+                that they were the Cyrenaeans rather than a private person.</p>
+             <p>At l. 4 our restoration is based on the fact that only one son, the future Ptolemy V Epiphanes, is known for the royal couple.</p>
+                <p>For the possibility of <foreign xml:lang="grc">Λιβυάρχας</foreign> see also at <ref type="inscription" source="#IGCyr2">IGCyr063300</ref>.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

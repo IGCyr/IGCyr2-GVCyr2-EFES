@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Name</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr089500</idno>
+                <idno type="number" subtype="second-edition">089500</idno>
+                <idno type="TM">738441</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr089500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr089500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr089500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the Italian missions</repository> <idno type="invNo">SN.93.7</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a plain small <objectType>jug</objectType> ('olletta') of local <material>ware</material>
+                                        (<dimensions>
+                                            <width>0.065</width>
+                                            <height>0.036</height>
+                                            <depth>0.01</depth> 
+                                        </dimensions>; diameter c. 0.12).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Incised</rs> sinistrorsum before firing, on the lid and belly </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.013" max="0.016">0.013-0.016</height>; straight iota, four-strikes sigma</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" resp="CDL" notBefore="-0500" notAfter="-0401" precision="medium">Fifth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1993" resp="bacchielli">
+                                    <p>Found in 1993 by L. Bacchielli at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1059">cave of the Nymphs</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1993">
+                                    <p>Observed in 1993 by A. Santucci at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                    <rs type="monuList" ref="https://www.slsgazetteer.org/1484">Storeroom of the Italian missions</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2013-09-20" who="CDL+HB">lemma, text, apparatus, commentary</change>
+            <change when="2015-03-19" who="CDL">changes in text, apparatus and commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77262/3/igcyr089500-drawing.tiff.jpg" corresp="igcyr089500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Missione archeologica a Cirene, Università di Urbino" n="-"><ref target="http://hdl.handle.net/20.500.14008/77262">Drawing of igcyr089500 Unclear</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Lazari and Santucci in <ptr target="#gill-santucci-uhlenbrock2000"/>, pp. 182-183, n. <citedRange>930</citedRange> (dr.)</bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2001.562</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>50.1642</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>089500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1" rend="right-to-left"/><orig>ισ<choice><unclear>ι</unclear><unclear>μ</unclear></choice></orig><gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem><orig>ισ<choice><unclear>ι</unclear><unclear>μ</unclear></choice></orig></lem>
+                        <rdg resp="#gill-santucci-uhlenbrock2000"><gap reason="lost" extent="unknown" unit="character"/>ISI <note>sic: see commentary</note></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisible.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمة بشكل جيد.</p>
+         </div><div type="commentary">
+                
+                <p>The first edition of this sherd was based upon the unpublished thesis of Carla Lazari (University of Padova, 1952-1953), completed by Anna Santucci, who 
+                    updated the bibliography and commentary about the script. Unfortunately, the references given to a so-called 'three-strokes sigma' are out of place,
+                    as the compared items are all three-strokes iotas, but for one vase-inscription painted in Attica. This isolated piece of local ware is probably 
+                    difficult to date and it seems that the date (VI century) given in the publication is only based upon the script.</p>
+                <p>In fact, the photograph shows clearly a four-strokes sigma, which also indicates the retrograd direction of the inscription. The third letter might be either 
+                    iota or part of a mu. The straight iota and the use of sigma forbid to date the script before ca. 600.</p>
+                <p>Moreover, a tentative restoration <foreign xml:lang="grc"><supplied reason="lost">Νυμφα</supplied>ῖσι</foreign>, proposed by Micheli and Santucci in 
+                    <bibl><ptr target="#gill-santucci-uhlenbrock2000"/>, p. <citedRange>128</citedRange></bibl> is impossible on behalf of the dialect. Beginning with <foreign xml:lang="grc">Ἰσμ-</foreign> we know only of mythical or geographical names, 
+                    which might produce a personal name. If <foreign xml:lang="grc">Ισι-</foreign> should be read, an interpretation seems even more obscure. <foreign xml:lang="la">Non liquet</foreign>.</p>
+	            
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr064920</idno>
+                <idno type="number" subtype="second-edition">064920</idno>
+                <idno type="TM">738342</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr064920</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr064920</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr064920</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Veneer <objectType>panel</objectType> of light grey <material>marble</material> with white veins, re-cut and re-used for 
+                                        the right side of a large pedestal bearing on its front side <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.91.html">IRCyr2020 C.91</ref> and
+                                        formerly inscribed with <ref type="inscription" source="#IGCyr2">IGCyr064910</ref>
+                                        (<dimensions>
+                                            <width>0.23</width>
+                                            <height>0.89</height>
+                                            <depth>0.073</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro"/>Inscribed in two lines above <ref type="inscription" source="#IGCyr2">IGCyr064910</ref>; 
+                                    line 2 slightly displaced to the right.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015</height>; serifs, zeta with vertical axial stroke, low bar of eta, non-slanting sigma, open omega.</handNote>
+                           
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering context" notBefore="-0130" notAfter="-0081" cert="low" precision="low">End of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1915">
+                                    <p>Found by E. Ghislanzoni in 1915 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1005">Temple of Zeus on the agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2010" resp="cdl">
+                                    <p>Last seen by C. Dobias-Lalou in 2010 at find place in the <rs type="monuList" ref="https://www.slsgazetteer.org/1005">Temple of Zeus on the agora</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2016-02-10" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2014-05-29" who="cdl">lemma, bibliography, text, translation, commentary</change>
+            <change when="2014-05-28" who="cdl">file created</change>        
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80449/3/igcyr064920-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80449">View of igcyr064920 Name</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80450/3/igcyr064920-2-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80450">Face of igcyr064920 Name</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#chamoux1946"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.726</citedRange> with additional note by J. Reynolds</bibl>;
+                    <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>15</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2012</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>064920</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#ghislanzoni1916b"/>, pp. <citedRange>199-201</citedRange>, fig. 2</bibl>;
+                    <bibl><ptr target="#mariani1922"/>, p. <citedRange>9</citedRange></bibl>;
+                    <bibl><ptr target="#chamoux1947"/><citedRange/></bibl>;
+                    <bibl><ptr target="#ensoli2003"/>, pp. <citedRange>74-91</citedRange>, fig. 35</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2039</citedRange></bibl>;
+                    <bibl><ptr target="#ensoli2007"/>, pp. <citedRange>229-231</citedRange></bibl>.
+                </p>
+       
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+               
+                    <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63993"><name nymRef="#Ζηνίων">Ζηνίων</name>
+                    <lb n="2"/><space quantity="1" unit="character"/> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63992"><name type="patronymic" nymRef="#Ζηνίων">Ζηνίωνος</name></persName></persName>.
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Zéniôn fils de Zèniôn.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Zenion son of Zenion.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Zenion figlio di Zenion.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>زينون بن زينون</p>
+         </div><div type="commentary">
+                
+                <p>There has been a general agreement about the function of this personal name, which would be the name of the sculptor of one or more statues standing on a basis;
+                lacking an ethnicon, it might imply that the artist was a Cyrenaean and did not use the verb <foreign xml:lang="grc">ἐποίησεν</foreign> for signing. However, the main 
+                    problem has been the relation of this inscription with the dedication to Hadrianus and Antoninus now standing on front of the same pedestal (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.91.html">IRCyr2020 C.91</ref>), from which some scholars
+                tended to dissociate it. <bibl><ptr target="#ensoli2003"/></bibl> decisively ascribed the dedication for the emperors to an arch closing the street nearby to the West; if so, 
+                the present panel, although of the same marble, should have been re-used from another former monument.</p>
+                <p>Reynolds assigned the lettering to the first century AD; we think that this might be earlier. On the other hand, Paci in <bibl><ptr target="#stucchibacchielli1983"/>, 
+                pp. <citedRange>48-52</citedRange></bibl> has shown that the white marble basis of the pedestal belonged to a honorific monument of late Hellenistic date placed on 
+                the opposite side of the street between 150 and 100 BC. As for the grey marble panels of the pedestal, they seem to have been added when the statue of Zeus Aigiochos 
+                was erected upon the basis in the temple at a date estimated by <bibl><ptr target="#ensoli2007"/></bibl> between the late Hellenistic and the Julio-Claudian era, with a preference for the
+                higher chronology that would also be suitable for our inscription.</p>
+                <p>Reynolds' note about the presence of inscription <ref type="inscription" source="#IGCyr2">IGCyr064910</ref> on the same panel, which was only printed in a footnote to
+                   <bibl><ptr target="#SEG"/>, <citedRange>20.726</citedRange></bibl>, remained unknown to those interested into the question of the statue(s) associated 
+                with this name. Rosamilia, who was able to control Reynolds' reading on a cast kept in Rome, definetly rejected the classification as an artist's signature.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

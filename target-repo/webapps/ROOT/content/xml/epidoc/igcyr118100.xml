@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr118100</idno>
+                <idno type="number" subtype="second-edition">118100</idno>
+                <idno type="TM">738729</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr118100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr118100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr118100</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary flat <objectType>tile</objectType> of non-local pink-coated, grey inside, micacious <material>clay</material>, broken out on all sides, 
+                                        (<dimensions precision="medium">
+                                            <width>0.12</width>
+                                            <height>0.12</height>
+                                            <depth>0.01</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on one face in three lines, line 1 ascending in comparison with ll. 2-3;
+                                 a small figure of fish is cut between ll. 1 and 2; many other light strokes are visible on the surface.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.008" max="0.015">0.008-0.015</height>; line 2 and 3 at least are dextroverse; irregular letters, some of which are 
+                                difficult to interpret; alpha with vertical central bar, delta almost D-shaped, closed eta without central bar, perhaps one unclear 
+                                koppa; unclear letters at line 1 (see commentary).</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notAfter="-0631" precision="low">Prior to the settlement of 631 BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="2012" resp="Luni">
+                                    <p>Found by M. Luni in 2012 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: on the native rock beneath the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1314">temple of the Dioscuri on the Acropolis ridge</rs> (once said 'tempio ipetrale').
+                                   </p>
+                                </provenance>
+                        
+                                <provenance type="observed" when="2012" resp="CDL">
+                                    <p>Studied by C. Dobias-Lalou in october 2012.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from object (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2015-03-31" who="CDL">file created; lemma, bibliography, text, apparatus, translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77553/3/igcyr118100-2-drawing.tiff.jpg" corresp="igcyr118100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77553">Drawing of igcyr118100 Unclear</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77799/3/igcyr118100-1-face.jpg.jpg" corresp="igcyr118100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77799">Face of igcyr118100 Unclear</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#cdl2014"/><citedRange/></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>118100</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cdl2015a"/><citedRange/></bibl>;
+                <bibl><ptr target="#cdl2013-2014"/>, p. <citedRange>185</citedRange></bibl>;
+                    <bibl><ptr target="#badoud2020"/>, p. <citedRange>165</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>30-31</citedRange>, footnote 7</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><space extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><space extent="unknown" unit="character"/>
+                    <lb n="2"/><space extent="unknown" unit="character"/><unclear>τ</unclear>ο̃  <persName type="attested"><name nymRef="#Ἀρχίλοχος">Ἀρ<hi rend="superscript">χι</hi>λόχ<unclear>ō</unclear></name></persName><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>                  
+                    <lb n="3"/>το̃  <persName type="attested"><name type="patronymic" nymRef="#Ῥόδιος">Ῥ<foreign rend="italic">h</foreign>οδίō </name></persName><g type="punct">·</g> <orig>ΗΙ</orig><space extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem><gap reason="illegible" quantity="2" unit="character"/></lem>
+                    <rdg resp="#cdl2014"><lb rend="right-to-left"/><orig cert="low">γχ</orig></rdg>
+                        <rdg resp="#cdl2014" cert="low"><lb rend="right-to-left"/><num value="1003"><g type="alphabetic">γχ</g></num><note>?</note></rdg>
+                    </app>
+                    <app loc="2"><lem><unclear>τ</unclear>ο̃</lem>
+                    <rdg resp="#cdl2014"><orig>ιο</orig></rdg>
+                    </app>
+                    <app loc="2"><lem><unclear>τ</unclear>ο̃ Ἀρ<hi rend="superscript">χι</hi>λόχ<unclear>ō</unclear> <note>from Marengo's suggestion</note></lem>
+                    <rdg resp="#cdl2014">α<choice><unclear>ϙ</unclear><unclear>ρ</unclear></choice><gap reason="illegible" quantity="1" unit="character"/>λοχ<unclear>ο</unclear></rdg>
+                    </app>
+                    <app loc="3"><lem><orig>ΗΙ</orig></lem>
+                    <rdg resp="#cdl2014" cert="low"><num value="18"><g type="alphabetic">ηι</g></num><note>?</note></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="illegible" quantity="1" unit="line"/> D'Arkhilokhos [..?] de Rhodios: <gap reason="illegible" quantity="2" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="illegible" quantity="1" unit="line"/> Of Archilochos [..?] of Rhodios: <gap reason="illegible" quantity="2" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="illegible" quantity="1" unit="line"/> Di Archilochos [..?] di Rhodios: <gap reason="illegible" quantity="2" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+               <p>Both the intrinsic features and the archaeological context of this fragmentary tile show that it was brought from abroad and inscribed by a foreigner, 
+                  either abroad or in Libya. Deciphering and interpreting the graffito remains a challenge.</p>
+	   <p>L. 1: the character at right might be the special Cyrenaican gamma also known from <ref type="inscription" source="#IGCyr2">IGCyr000100</ref>. If so the script would be sinistroverse.
+	   The second character resembles a hour-glass character without its lower part. It might stand for chi (as once in Laconia) or ksi (at Knidos). As no word might be read  
+	   with such consonants, an alternative would be either number 1003, which would be surprising both for the chronology of alphabetic glyphs as numbers and for the high 
+	   amount resulting or 63, with again the first mentioned oddity. Eventually, an interpretation with Cypriot syllabograms, also mentioned in <foreign rend="italic">editio princeps</foreign>, to be read <foreign xml:lang="italic">ro-ti</foreign>, i.e. <foreign xml:lang="grc">Ῥhοδί-</foreign> is no more convincing.</p>
+	<p>L. 2: C. Dobias-Lalou is now convinced by S.M. Marengo's reading of the personal name Archilochos: the 4th character should be a rho 
+	    rather than a koppa and the multiple strokes that follow it may be read as a chi and an iota obliquely inserted above the main line.</p>
+             <p>At line 3 <foreign xml:lang="grc">Ῥόδιος</foreign> was taken erroneously in the <foreign xml:lang="italic">editio princeps</foreign> and in <bibl><ptr target="#IGCyr"/></bibl> as an ethnic, which did not yet 
+             exist at the time of our inscription, as pointed out by <bibl><ptr target="#badoud2020"/></bibl>. It should rather be a personal name. Whether it is Archilochos' father's name remains unclear, 
+             as we do not know the extent of the lacuna at right.</p>
+             <p>On the implication of an early Rhodian participation into the foundation and its echo in the script, see also <bibl><ptr target="#rosamilia2023"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr131100</idno>
+                <idno type="number" subtype="second-edition">131100</idno>
+                <idno type="TM">738858</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr131100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr131100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr131100</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">1835</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Right part of a white <material>marble</material> <objectType>block</objectType>, re-cut at right and at the upper left angle,
+                                        possibly also at back; broken off at left and below; a dowel hole on the upper right edge and a circular hole for attachment at back   
+                                        (<dimensions>
+                                            <width atLeast="0.24">0.24</width>
+                                            <height atLeast="0.19">0.19</height>
+                                            <depth>0.08</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in five lines, symmetrically displayed along the vertical axis
+                                with varying spaces between letters.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height> with small serifs; large circular letters, non-slanting sigma, phi with oval loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: presumably from the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0200" notAfter="-0151" precision="medium" cert="low">Probably first half of second century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1972">
+                                    <p>Found in 1972 at  
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: re-used in the Byzantine tower built across the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1309">Street of Battos</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1993" when-iso="2001" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1993 and again in 2001 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-21" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-05" who="Alice"/>
+            <change when="2017-02-14" who="CDL">overall check</change>
+            <change when="2016-03-18" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77724/3/igcyr131100-1-face.tiff.jpg" corresp="igcyr131100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77724">Face of igcyr131100 Private honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77725/3/igcyr131100-2-squeeze.tiff.jpg" corresp="igcyr131100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77725">Squeeze of igcyr131100 Private honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>131100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Δαμάτριος"><supplied reason="lost">Δαμάτ</supplied>ριον</name> <space quantity="1" unit="character"/> 
+                        <persName type="attested" key=""><name nymRef="#Κ" type="patronymic"><seg part="I">Κ</seg><gap reason="lost" atLeast="5" atMost="7" unit="character"/><lb n="2" break="no"/><gap reason="lost" quantity="1" unit="character"/><seg part="F">ος</seg></name></persName></persName> 
+                        <persName type="attested"><name nymRef="#Δα_"><seg part="I">Δα</seg><gap reason="lost" quantity="3" unit="character" precision="low"/></name>
+                    <lb n="3"/><persName type="attested" key=""><name nymRef="#_λανωρ" type="patronymic"><gap reason="lost" atLeast="2" atMost="3" unit="character"/><seg part="F">λάνορος</seg></name></persName></persName> <supplied reason="lost">τὸν</supplied>
+                     <lb n="4"/><w lemma="ἀδελφός"><supplied reason="lost">ἀδ</supplied><unclear>ε</unclear>λφ<supplied reason="lost">ὸν</supplied></w>
+                    <lb n="5"/><w lemma="ἀνατίθημι"><supplied reason="lost">ἀ</supplied>νέθ<supplied reason="lost">ηκε</supplied></w>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">La statue de</supplied> Damatrios fils de K<gap reason="lost" extent="unknown" unit="character"/>, son frère, a été consacrée par Da<gap reason="lost" extent="unknown" unit="character"/> 
+                fils de <gap reason="lost" extent="unknown" unit="character"/>lanôr.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">The statue of</supplied> Damatrios son of K<gap reason="lost" extent="unknown" unit="character"/>, his brother, was dedicated by Da<gap reason="lost" extent="unknown" unit="character"/> 
+                son of <gap reason="lost" extent="unknown" unit="character"/>lanor.</p>        
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">La statua di</supplied> Damatrios figlio di K<gap reason="lost" extent="unknown" unit="character"/>, suo fratello, fu dedicata da Da<gap reason="lost" extent="unknown" unit="character"/> 
+                figlio di <gap reason="lost" extent="unknown" unit="character"/>lanor.</p>        
+            </div><div type="commentary">
+                
+               <p>A sort of pi between lines 1 and 2 and a long vertical line cut on the right are visible on the photograph and squeeze. They are probably related to 
+               the re-use of the stone. A caption written with a pen reads 'CAR.ST.BYZ.FORT 1972'. Knowing of no Byzantine fort at Cyrene, we interpret it as the Byzantine
+               tower that stood across Battos Street. However this was dismantled already in 1963 under supervision of Goodchild (see <bibl><ptr target="#luni2002"/>, p. 
+               <citedRange>124</citedRange></bibl>). We suppose that the date corresponds to the time when the inscription was discovered when building material was moved
+               from that area as the Italian mission of Stucchi worked on the so-called Stoa of Hermes and Heracles.</p>
+	   <p>For the first name at line 1, we restore the only name ending in <foreign xml:lang="grc">-ριος</foreign> attested in Hellenistic Cyrenaica and fitting the gap.
+	   If <foreign xml:lang="grc">ἀδελφός</foreign> has it most common meaning, the dedicant and the honoured man should share the same father's name, that is a
+	   name beginning with kappa (l. 1) and ending with <foreign xml:lang="frc">λάνωρ</foreign> (l. 3). None is known up to now, although 
+	   <foreign xml:lang="grc">*Καλάνωρ</foreign> seems theoretically possible. On the other hand, two names are common at Cyrene, <foreign xml:lang="grc">Φιλάνωρ</foreign>
+	   and mostly <foreign xml:lang="grc">Αίγλάνωρ</foreign>, the latter being typically Cyrenaican. We should thus not exclude that both were half-brothers 
+	   through a common mother, which is the etymological meaning of <foreign xml:lang="grc">ἀδελφός</foreign>. If so, there would be no problem with two different
+	   fathers' names.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr003800</idno>
+                <idno type="number" subtype="second-edition">003800</idno>
+                <idno type="TM">738140</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr003800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr003800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr003800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary <objectType>skyphos</objectType>,
+                                        <material>Attic black figure ware</material>, late type
+                                        (diameter 0.063).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on lower part of wall.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height atLeast="0.0045" atMost="0.006">0.0045-0.006</height>; alpha with bar joining a short right stroke, nu nearly symmetrical,
+                                rho with a short oblique stroke under loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="monument-type" notBefore="-0475" notAfter="-0450" precision="medium">Between 475 and 450 BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" notBefore="1963" notAfter="1965">
+                            <p>Found between 1963 and 1965 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1118">archaic votive deposit</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" resp="Boardman" when="1965">
+                                    <p>Seen by J. Boardman in 1965 at <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>.</p>
+                                </provenance>
+                               <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-20" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2012-03-12" who="CDL">lemma, text, apparatus, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76703/3/igcyr003800-drawing.tiff.jpg" corresp="igcyr003800" decls="#photograph"><desc resp="Boardman, J." source="Department of Antiquities, Tukrah" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76703">Drawing of igcyr003800 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#boardman-hayes1973"/>, n. <citedRange>2173</citedRange> (dr.)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>003800</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#cdl2015a"/>, pp. <citedRange>67, 319</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὅδε"><unclear>τ</unclear>άνδε</w> 
+                    <unclear>τ</unclear><choice><corr>ᾶι</corr><sic><unclear>ι</unclear>α</sic></choice> <persName type="divine" ref="#Kore"><name nymRef="#Κόρα">Κόραι</name></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><note>Boardman's reading</note></app></p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Un tel a offert</supplied> cette <supplied reason="subaudible">coupe</supplied> à Korè.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">So-and-So dedicated</supplied> this <supplied reason="subaudible">cup</supplied> to Kore.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Il tale ha dedicato</supplied> questa <supplied reason="subaudible">coppa</supplied> a Kore.</p>
+            </div><div type="commentary">
+                
+                <p>Rho has a tailed form, very rare in Cyrenaica (see also <ref type="inscription" source="#IGCyr2">IGCyr110500</ref>). However, being offered to Kore, 
+                    the cup was probably inscribed locally.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

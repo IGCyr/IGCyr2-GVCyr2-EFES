@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unfinished <rs type="textType">epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr025800</idno>
+                <idno type="number" subtype="second-edition">025800</idno>
+                <idno type="TM">738267</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr025800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr025800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr025800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings 
+                                        on three sides; on top, a shallow hole for attachment of a statue
+                                        (<dimensions>
+                                            <width>0.675</width>
+                                            <height>0.275</height>
+                                            <depth>0.305</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> between the mouldings (<dimensions>
+                                    <width>0.63</width>
+                                    <height>0.14</height>
+                                    <width>0.285</width>
+                                </dimensions>) with both lines beginning on the same vertical line; l. 2 not finished.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.045</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0200" notAfter="-0101" precision="medium">Second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at an unknown date at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="1982-05-30" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in May 30th, 1982 at the modern entrance to the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-12-10" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-15" who="HB">"persName" addition</change>
+            <change when="2012-05-10" who="CDL">lemma, text, apparatus, translation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76965/3/igcyr025800-1-face.tiff.jpg" corresp="igcyr025800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/76965">Face of igcyr025800 Unfinished epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76966/3/igcyr025800-2-drawing.tiff.jpg" corresp="igcyr025800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/76966">Drawing of igcyr025800 Unfinished epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI2"/>, p. 114, n. <citedRange>102</citedRange>, fig. 58</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.214</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>025800</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#beschi1970"/>, p. <citedRange>205</citedRange> (date of the base)</bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>137</citedRange></bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.102</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64693"><name nymRef="#Κληνάτα">Κληνάτα</name>
+                    <lb n="2"/><persName type="attested"><name nymRef="#Διοσκo_" type="patronymic"><seg part="I">Διοσκo</seg><gap reason="omitted" extent="unknown" unit="character"/></name></persName></persName>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2">
+                        <rdg resp="#oliverioDAI2"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63606"><name>Διοσκο<supplied reason="lost">υρίδου</supplied></name></persName></rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Klenata fille de Diosko<gap reason="omitted" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Klenata daughter of Diosko<gap reason="omitted" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Klenata figlia di Diosko<gap reason="omitted" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>At line 2 Oliverio suspected a lacuna, but the line was certainly never finished. It is thus dubious that the base was found in a Necropolis, as 
+                said by Oliverio.</p> 
+                <p>For the unfinished father's name there are different possibilities: <foreign xml:lang="grc">Διόσκορος</foreign> and at least three variants of 
+                    <foreign xml:lang="grc">Διοσκουρίδης</foreign> with different linguistic features.</p>
+	<p>The Thorns suspected that the base comes from the North Necropolis because it is the only part that was explored by the Italian archaeologists before 
+	World War II.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

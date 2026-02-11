@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType" cert="low">private honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr124100</idno>
+                <idno type="number" subtype="second-edition">124100</idno>
+                <idno type="TM">738790</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr124100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr124100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr124100</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">244</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small white <material>marble</material> slightly tapering <objectType>stele</objectType> with plain moulding on top on three sides and 
+                                        a rounded bottom similar to a console (traces of tenons): 
+                                        dimensions of the whole <dimensions>
+                                            <width min="0.30" max="0.34">0.30-0.34</width>
+                                            <height>0.87</height>
+                                            <depth>0.19</depth>
+                                        </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the much encrusted face below the moulding
+                                (<dimensions>
+                                    <width min="0.285" max="0.31">0.285-0.31</width>
+                                    <height>0.81</height>
+                                    <depth min="0.17" max="0.19">0.17-0.19</depth></dimensions>).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.02" max="0.022">0.02-0.022</height>, no serifs; alpha with low bar, slantering mu and sigma, widely open upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0325" notAfter="-0275" cert="low" precision="medium">Perhaps last quarter of fourth or first quarter of third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1938">
+                                    <p>Found probably before World War II at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" when-iso="2004" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1976 and again in 1997 and 2004 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>; in 1997 the stele was broken into two adjacent fragments, in 2004 the bottom could not be found.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-01" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-12-16" resp="CDL">file created, lemma, text, translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77617/3/igcyr124100-1-detail.tiff.jpg" corresp="igcyr124100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2004"><ref target="http://hdl.handle.net/20.500.14008/77617">Detail of igcyr124100 Honours (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77618/3/igcyr124100-2-squeezes.tiff.jpg" corresp="igcyr124100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1997"><ref target="http://hdl.handle.net/20.500.14008/77618">Squeezes of igcyr124100 Honours (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77619/3/igcyr124100-3-drawing.tiff.jpg" corresp="igcyr124100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77619">Drawing of igcyr124100 Honours (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>124100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Λυκόμμας">Λυκόμμας</name>
+                    <lb n="2"/><persName type="attested" key=""><name type="patronymic" nymRef="#Ἀστυκράτης">Ἀστ<unclear>υ</unclear>κρά<supplied reason="lost">τε</supplied>υς</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Lykommas fils d'Astykratès.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Lykommas son of Astykrates.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Lykommas figlio di Astykrates.</p>
+         </div><div type="commentary">
+                
+               <p>The name <foreign xml:lang="grc">Λυκόμμας</foreign> is new. It should be a short form of <foreign xml:lang="grc">Λυκομήδης</foreign>, which is 
+               also unattested at Cyrene, but rather common in different regions, including all Aegean islands and Attica. For the father's name, we have a small 
+               series of occurrences from Hellenistic Cyrene.</p>
+	           <p>Most stelae bearing a name and father's name are of known funerary origin. However this one is smaller than the average and its shape and tenons
+	           show that it was fixed on a wall. Therefore, it has more probably a honorific purpose than a funerary one.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

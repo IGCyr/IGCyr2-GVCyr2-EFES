@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr087200</idno>
+                <idno type="number" subtype="second-edition">087200</idno>
+                <idno type="TM">738423</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr087200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr087200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr087200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Left part of a white <material>marble</material> <objectType>base</objectType> with plain moulding on top and bottom 
+                                        of the front and side
+                                        (whole preserved part <dimensions>
+                                            <width>0.41</width>
+                                            <height>0.34</height>
+                                            <depth>0.55</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one line of front face between the mouldings (<dimensions>
+                                            <width>0.34</width>
+                                            <height>0.17</height>
+                                        </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.5</height>; slantering sigma, flat loop of phi.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0280" precision="medium">Second half of fourth to early third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1985">
+                                    <p>Found before 1985 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably from 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1985" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1985 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        inside archaeological enclosure North of <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-19" who="Alice">checked</change>
+            <change when="2017-01-11" who="CDL">overall check</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77250/3/igcyr087200-face.tiff.jpg" corresp="igcyr087200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77250">Face of igcyr087200 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr1997"/>, p. 38 n. <citedRange>12</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2188</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>087200</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.76</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name nymRef="#Νῖκις">Νῖκις</name> <persName type="attested" key=""><name nymRef="#Φ_" type="patronymic"><seg part="I">Φ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Nikis fils de Ph<gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Nikis son of Ph<gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Nikis figlio di Ph<gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>As pointed by J.M. Reynolds, no Nikis is up to now known in association with a name beginning with a phi. No restoration of the father's name can thus be suggested.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

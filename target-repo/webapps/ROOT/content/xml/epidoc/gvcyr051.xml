@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Funerary invocation</rs></title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr051</idno>
+                <idno type="number" subtype="second-edition">051</idno>
+                <idno type="TM">738940</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr051</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr051</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr051</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Sarcophagus</objectType> of white <material>marble</material> with one long side sculpted with scenes of the 
+                                        myth of Phaedra and Hippolytus, whereas the very fragmented lid evokes the Mithraic religion (dimensions not registered).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the lid, inside a square <foreign rend="italic">tabula ansata</foreign>
+                                    between two winged Victories, who hold it (dimensions not registered); each line of script is centered along the vertical axis; three large ivy leaves 
+                                    are inserted, two at both ends of line 3, one between words at line 2, and also a smaller one at end of line 1.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; ornate lettering with serifs; alpha with dropped bar, two small oblique strokes as the central bar of epsilon, diamond shape 
+                                omicron, non slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="0201" notAfter="0230" precision="medium">Beginning of the third century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="2001">
+                            <p>Found in 2001 by the Mission of the University of Chieti at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1069">East Necropolis</rs>, in the sepulcral chamber of a large built tomb (so-called tomb C) on the edge of the upper plateau above the Ain Hofra vale.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="2001" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 2001 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs></p>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2024-01-16" who="CDL">updated bibl</change>
+            <change when="2023-10-06" who="CDL">updated bibl</change>    
+            <change when="2023-09-09" who="CDL">file updated</change>
+            <change when="2023-08-30" who="CDL">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-18" who="Alice">checked</change>
+            <change when="2017-03-07" who="CDL">Ital. translation; overall check</change>
+            <change when="2016-11-03" who="CDL">file created; support, text, Fr. and Engl. translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76646/3/gvcyr051-face.tiff.jpg" corresp="gvcyr051" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2004"><ref target="http://hdl.handle.net/20.500.14008/76646">Face of gvcyr051 Funerary invocation</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Mentioned in Italian translation by <bibl><ptr target="#fabbricotti2007a"/>, p. <citedRange>100</citedRange></bibl>;
+                published<bibl><ptr target="#GVCyr"/> <citedRange>051</citedRange></bibl>, whence 
+                <bibl><ptr target="#SEG"/> <citedRange>67.1497</citedRange></bibl> and 
+                <bibl><ptr target="#AE"/> <citedRange>2017.1658</citedRange></bibl>.</p> 
+            <p> Cf.<bibl><ptr target="#fabbricotti2008"/>, pp. <citedRange>16-17</citedRange> (find)</bibl>; 
+                description and comments <bibl><ptr target="#menozzi2020"/>, pp. <citedRange>71-72</citedRange> and fig. 5</bibl>;
+                 new thorough studies by <bibl><ptr target="#catenacci-domenicucci-menozzi2022"/></bibl> and 
+                    <bibl><ptr target="#struffolino2022"/></bibl>, from which 
+                <bibl><ptr target="#cdlBE"/>, <citedRange>2023.554</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg>
+                        <l n="1" met="dactylic hexameter" real="+--|++|++|+--|+--|+±">
+                            <lb n="1"/><persName type="attested" key=""><name nymRef="#Τίμιος">Τείμιέ</name></persName> <w lemma="ἐγώ">μοι</w> <g type="leaf">❧</g>
+                        <lb n="2"/><w lemma="χαίρω">χαίροις</w> <g type="leaf">❧</g> καὶ
+                        <lb n="3"/><g type="leaf">❧</g> <w lemma="ἐν">εἰν</w> <persName type="divine" ref="#Hades"><name nymRef="#Ἀΐδης">Ἀΐδαο</name></persName> <g type="leaf">❧</g>                       
+                        <lb n="4"/><w lemma="δόμος">δόμοισιν</w>.</l>
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#menozzi2020 #catenacci-domenicucci-menozzi2022 #struffolino2022">Τείμιε</lem> <note>(personal name)</note>
+                    <rdg resp="#GVCyr">τείμιε</rdg> <note>(adjective)</note>
+                </app>.</p>
+                
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Timios, mon cher, puisses-tu être heureux même dans les demeures d'Hadès !</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Timios, dear to me, might you be happy even in Hades' houses!</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it" source="#fabbricotti2007a"> 
+                <p>Timios, mio caro, stare bene pur nelle dimore dell'Ade!</p><note>E. Fabbricotti's translation with slight changes</note>            
+            </div><div type="commentary">
+                
+                <p>This hexameter is a pastiche of Homer's <foreign xml:lang="grc">Χαῖρέ μοι, ὦ Πάτροκλε, καὶ εἰν Ἀΐδαο δόμοισι</foreign> at <foreign rend="italic">Il.</foreign> XXIII.19 and 179.</p> 
+                <p>Menozzi and others interpreted <foreign xml:lang="grc">Τείμιε</foreign> as a personal name. In <bibl><ptr target="#IGCyr"/></bibl> Dobias-Lalou was not quite convinced and opposed the following arguments: a personal name 
+                    is not impossible, as <foreign xml:lang="lat">Timius</foreign> is attested as a cognomen in Rome. However, in that hypothesis, the name would have replaced the vocative <foreign xml:lang="grc">Πάτροκλε</foreign> 
+                    without further change in the original formula. For that reason, she preferred to take it as a laudatory epithet. In this view, the invocation might be addressed to any person enclosed into the sarcophagus 
+                    and the inscription, being part of the ornament, might have been prepared independently of the ordering person. This would have been especially convenient if the sarcophagus was not 
+                    sculpted at Cyrene. She concluded then that the question should perhaps remain open.</p>
+                <p><bibl><ptr target="#struffolino2022"/></bibl> now adds a decisive fact: line 1 was not cut with the same tools as the other lines. If that line was added on the sarcophagus after it was 
+                purchased, the probability that the added element is a personal name seems much higher. Struffolino also recalls that <foreign xml:lang="grc">Τίμιος</foreign> is related to names already in use in 
+                    Cyrenaica, such as <foreign xml:lang="grc">Τιμοκλῆς</foreign> and the feminine <foreign xml:lang="grc">Τιμώι</foreign>.</p>
+                <p>The change from imperative, which is usual in addresses to the dead, to optative is no commonplace, as the former mood is normally used in epitaphs for addressing 
+                the passer-by who will read the inscription.</p>
+                <p><bibl><ptr target="#catenacci-domenicucci-menozzi2022"/></bibl> provide a detailed analysis of the iconography and its possible relations with the inscription.</p>
+                <p>Metrical analysis: a very regular dactylic hexameter. Leaves are cut at the penthemimer main caesura and at the light break inside the fifth foot.</p>
+            </div></body>
+    </text>
+</TEI>

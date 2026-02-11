@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unclear <rs type="textType">instrumentum</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr068100</idno>
+                <idno type="number" subtype="second-edition">068100</idno>
+                <idno type="TM">738354</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr068100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr068100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr068100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Apollonia Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Probably <material>marble</material> <objectType>panel</objectType> 
+                                        (<dimensions>
+                                            <width>0.23</width>
+                                            <height>0.19</height>
+                                        </dimensions> depth unknown), with a flange along the upper edge; the exposed side is occupied by five features, approximately in the shape of 
+                                        horseshoes (two upper ones of diameter 0.09; two lower ones of diameter 0.062; the central one of diameter 0.0375); 
+                                        it was probably a mould for unclear metal objects.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> along the flat sides of both larger features. 
+                    </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height precision="low">Ca. 0.006</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" cert="low" notBefore="-0350" notAfter="-0301" precision="medium">Perhaps second half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1929">
+                                    <p>Found in 1929 in the
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1929">
+                                    <p>Photographed in 1929 in <rs type="monuList" ref="https://www.slsgazetteer.org/932">Apollonia Museum</rs>; not found since.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2016-04-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-14" who="cdl">lemma, text changed, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-17" who="HB">"persName" addition</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change> 
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77136/3/igcyr068100-view.tiff.jpg" corresp="igcyr068100" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1929"><ref target="http://hdl.handle.net/20.500.14008/77136">View of igcyr068100 Unclear instrumentum</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr1976"/>, p. 302, n. <citedRange>13</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>27.1142</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>068100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                    <ab>
+                        <lb n="1" rend="left-to-right"/><persName type="divine" ref="#Hermes"><name nymRef="#Ἑρμῆς">Ἑρμῆς</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" n="b">
+                    <ab><lb n="1" rend="right-to-left"/><persName type="divine" ref="#Artemis"><name nymRef="#Ἄρτεμις">Ἄρτεμις</name></persName>
+	               </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p> a) Hermès. b) Artémis.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p> a) Hermes. b) Artemis.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p> a) Hermes. b) Artemide.</p>
+         </div><div type="commentary">
+                
+                <p>The purpose of this marble, known only from a photograph, remains obscure. Channels running between some of the features and
+                a small indentation at the centre of each one are hints for a mould. But the objects that might have been produced are not clear:
+                the features are too circular for horseshoes and the lack of recesses for handles eliminates the hypothesis of mirrors. It is thus very
+                difficult to explain the opposite direction of writing.</p>
+	           <p>Furthermore, as the divine names are mentioned at the nominative, the objects should not be dedications and the names might be either
+	           labels for some sort of images or even used to indicate other living or inanimate objects.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

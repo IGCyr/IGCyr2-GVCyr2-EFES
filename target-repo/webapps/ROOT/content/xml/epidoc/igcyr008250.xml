@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <rs type="textType">Epitaph</rs>
+                </title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr008250</idno>
+                <idno type="number" subtype="second-edition">008250</idno>
+                <idno type="TM">738187</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr008250</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr008250</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr008250</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Base</objectType> with double mouldings, not
+                                        otherwise described, material <material>unknown</material> (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front
+                                    face between the mouldings.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace> 
+                            <origDate evidence="lettering" precision="medium" notBefore="-0200" notAfter="-0001">Second or first century BC</origDate>
+                        </origin>
+
+
+                        <provenance xml:id="copy-pacho" type="found" when="1825">
+                            <p>First copied by J.-R. Pacho in 1825 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                exact findspot unrecorded. </p>
+                        </provenance>
+                        <provenance xml:id="copy-negri" type="observed" when="1827">
+                            <p>Copied by P. Negri in 1827.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not found.</p>
+                        </provenance>
+
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from editor.</creation>
+        </profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>    
+            <change when="2023-01-20" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2021-10-20" who="CDL">addition to bibl. and commentary</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-27" who="CDL">lemma, apparatus, translation, commentary</change>
+            <change when="2011-12-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76753/3/igcyr008250-drawing.tiff.jpg" corresp="igcyr008250" decls="#photograph"><desc resp="Pacho, J.R." source="-" n="1825"><ref target="http://hdl.handle.net/20.500.14008/76753">Drawing of igcyr008250 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Not really published before <bibl><ptr target="#IGCyr"/> <citedRange>008250</citedRange></bibl>. 
+                    Cf.<bibl><ptr target="#pacho1827"/>, pl. <citedRange>65, 4</citedRange></bibl> and
+                    [Negri], Sardinian consul in Tripoli, copy (n. 21); 
+                    <bibl><ptr target="#SGDI"/> <citedRange>4864</citedRange> (Blass)</bibl>;
+                <bibl><ptr target="#cdl2020c"/>, p. <citedRange>320</citedRange>, n. 9 and fig. 10b</bibl>;
+                <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.105</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66084"><name nymRef="#Φίλων">Φίλων</name>                    
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63470"><name nymRef="#Δᾶμις" type="patronymic">Δάμιος</name></persName></persName>	 
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Philon fils de Damis.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Philon son of Damis.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Philon figlio di Damis.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>فيلون بن داميوس</p>
+         </div><div type="commentary">
+                
+             <p>Although having got from both origins two different copies, Franz (<bibl><ptr target="#CIG"/> <citedRange>5169</citedRange> (Franz)</bibl>, followed by Blass, merged this inscription with <ref type="inscription" source="#IGCyr2">IGCyr008260</ref>, 
+                    only because they offer the same names. However they were presented on Pacho's table in separate groups and had different numbers in [Negri]s copies. In fact, both names Philon and Damis are very frequent at 
+                    Cyrene. There was no reason to bring them together.</p>
+                <p> In fact, recent excavations by the mission of the University of Chieti, to be soon published, give new insights. Whereas <ref type="inscription" source="#IGCyr2">IGCyr008260</ref>
+                    has been found again and located in a precise tomb, no trace of this base has been found there. This might lead to the idea that Pacho had copied it at another place of
+                    one of Cyrene's necropoleis. After close examination of the layout of Pacho's copies <bibl><ptr target="#cdl2020c"/></bibl> tentatively suggests that this one might belong 
+                    to the Western necropolis. This should however not be pushed too far ahead.</p>
+            </div></body>
+    </text>
+</TEI>

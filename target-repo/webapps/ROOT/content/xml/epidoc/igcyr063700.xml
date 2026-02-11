@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs> for Ptolemy VIII Euergetes II</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr063700</idno>
+                <idno type="number" subtype="second-edition">063700</idno>
+                <idno type="TM">6105</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr063700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr063700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr063700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">12</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Top left angle of a white <material>marble</material> <objectType>panel</objectType>, whose surface is chipped off
+                                        (<dimensions>
+                                            <width>0.165</width>
+                                            <height>0.15</height>
+                                            <depth>0.055</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015</height>; carefully cut with thickening ends; dropped bar alpha, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0145" notAfter="-0116" evidence="reign" source="#laronde1987" precision="medium">Between 145 and 116 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1956">
+                                    <p>Found before 1956 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2015-10-28" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-15" who="cdl">lemma, translation, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-16" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77090/3/igcyr063700-squeeze.tiff.jpg" corresp="igcyr063700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77090">Squeeze of igcyr063700 Private honours for Ptolemy VIII</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#fraser1958"/>, pp. 115-116, n. <citedRange>8</citedRange>, pl. XIII, 8</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>18.738</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>063700</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#lanciers1988"/>, pp. <citedRange>431-433</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1671</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="ὑπέρ">Ὑπὲρ</w> <w lemma="βασιλεύς">βασιλ<supplied reason="lost">έως</supplied></w> <persName type="ruler" key="Ptolemy VIII">
+                        <name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτολεμαίου</supplied></name>                   
+                    <lb n="2"/><rs type="epithet" key="Theos Euergetes"><w lemma="θεός">θ<supplied reason="undefined" evidence="previouseditor">εο</supplied>ῦ</w> 
+                        <w lemma="εὐεργέτης">Εὐεργ<supplied reason="lost">έτου</supplied></w></rs></persName> <supplied reason="lost">τὴν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/>καὶ τὰ <w lemma="συγκύρω">συ<supplied reason="lost">νκύροντα</supplied></w> <supplied reason="lost">καὶ τὰ</supplied> <w><supplied reason="lost">ἐν</supplied></w>
+                    <lb n="4"/><w lemma="αὐτός">αὐτῆι</w> <w lemma="πᾶς"><unclear>π</unclear><supplied reason="lost">άντα</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4a"/><space atLeast="1" unit="line"/>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="2"><lem><supplied reason="lost">τὴν</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#fraser1958"><supplied reason="lost">τὴν προσευχὴν</supplied></rdg>
+                    <rdg resp="#fraser1958"><supplied reason="lost">τὴν ζωθήκην</supplied></rdg>
+                </app>
+                <app loc="4"><lem><gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg resp="#fraser1958"><supplied reason="lost" cert="low">οἱ Ἰουδαῖοι</supplied></rdg>
+                </app></p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>En faveur du roi Ptolémée, Dieu Evergète, la <gap reason="lost" extent="unknown" unit="character"/> et ses annexes et tout ce qu'elle contient <supplied reason="lost">ont été consacrés par</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>For the prosperity of king Ptolemy, God Euergetes, the <gap reason="lost" extent="unknown" unit="character"/> and its annexes and all that it contains <supplied reason="lost">were dedicated by</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Per il re Tolemeo, Dio Evergete, la <gap reason="lost" extent="unknown" unit="character"/> e i suoi annessi e tutto ciò che essa contiene <supplied reason="lost">sono stati dedicati da</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>من أجل رفاهية الملك بتوليميوس (بطليموس) ، المُؤله إفيريغيتس ، ال [---] وملحقاته وكل ما تحتويه [كُرِس من قبل] [---].</p>
+            </div>
+            <div type="commentary">
+                
+                <p>Fraser suspected that the word missing at line 2, a feminine as inferred from the following <foreign xml:lang="grc">αὐτήν</foreign> should be a building, 
+                    possibly a 'synagogue' or a 'chapel' which would lead to suspect Jews to be the dedicants mentioned at line 4. This idea is rejected by Lanciers (<bibl><ptr target="#lanciers1988"/>, pp. <citedRange>431-433</citedRange></bibl>).</p>
+                <p>The inventory number shows that the stone was already part of the epigraphic collection at the time of the reorganization of the Cyrenaean antiquities 
+                    after World War II care of Goodchild (from 1956 on) and before Fraser observed it. It may well have been found already during the last years of the Italian period.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

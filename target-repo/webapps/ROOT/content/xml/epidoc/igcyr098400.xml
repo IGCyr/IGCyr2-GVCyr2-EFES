@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr098400</idno>
+                <idno type="number" subtype="second-edition">098400</idno>
+                <idno type="TM">738501</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr098400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr098400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr098400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">261</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>panel</objectType> broken off at left and right
+                                        (<dimensions>
+                                            <width>0.27</width>
+                                            <height>0.16</height>
+                                            <depth>0.045</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in three lines on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; no serifs, dotted theta, large circular letters, nu slightly shorter at right, phi with oval loop at mid-height.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" precision="medium">Fourth century BC</origDate>
+                        </origin>
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1976 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">checked</change>
+            <change when="2017-01-21" who="CDL">overall check; tagged w and lemma; added Ital. translation</change>
+            <change when="2013-11-05" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77333/3/igcyr098400-1-face.tiff.jpg" corresp="igcyr098400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77333">Face of igcyr098400 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77334/3/igcyr098400-2-squeeze.tiff.jpg" corresp="igcyr098400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77334">Squeeze of igcyr098400 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>131</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>098400</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#chevrollier2018-2019"/>, p. <citedRange>80</citedRange></bibl>, whence 
+                <bibl><ptr target="#SEG"/> <citedRange>68.1742</citedRange></bibl>;
+                <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>101</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested"><name nymRef="#_ας" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">α</seg></name></persName></persName> 
+                    <persName type="divine" ref="#Athanaia"><name nymRef="#Ἀθαναία">Ἀθαναί<unclear>α</unclear><supplied reason="lost">ι</supplied></name></persName> 
+                    <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">καὶ</supplied> τὰ <w lemma="διάφραγμα">διαφράγ<supplied reason="lost">ματα</supplied></w>                    
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="office" key="eponymous priest"><w lemma="ἱαριτεύω"><supplied reason="lost">ἱαριτε</supplied><unclear>ύ</unclear>ων</w></rs> <w lemma="ἀνατίθημι">ἀνέ<supplied reason="lost">θηκε</supplied></w>
+                    <lb n="3a"/><space quantity="1" unit="line"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem>Ἀθαναί<unclear>α</unclear><supplied reason="lost">ι</supplied> <gap reason="lost" quantity="4" unit="character"/></lem>
+                        <rdg resp="#SECir">Ἀθαναία<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>
+                <app loc="2">
+                    <lem><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">καὶ</supplied> τὰ</lem>
+                    <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/>τα</rdg>
+                </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>as a consacré à Athèna <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">et</supplied> 
+                la barrière <gap reason="lost" extent="unknown" unit="character"/> au cours de sa prêtrise.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>as dedicated to Athena <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">and</supplied> 
+                the barrier <gap reason="lost" extent="unknown" unit="character"/> while being priest.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>as ha dedicato ad Atena <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">e</supplied> 
+                lo steccato <gap reason="lost" extent="unknown" unit="character"/> quando era sacerdote.</p>
+         </div><div type="commentary">
+                
+                <p>The right end of the lines may be calculated from the missing letters at line 3. Hence the lost part at left would have been much larger, so as to
+                allow a name and father's name at line 1 and probably the name of one or several other objects dedicated in the gaps. This dedication to Athena by a priest 
+                (i.e. eponymous priest of Apollo) is a clue for the existence of a shrine or temple of Athena inside the sanctuary of Apollo, a fact 
+                that may also be guessed from the mention of expenses for her priestess in an account of damiergoi (<ref type="inscription" source="#IGCyr2">IGCyr011600</ref>).</p>
+	    <p>On behalf of the probable dimensions of the panel, <bibl><ptr target="#rosamilia2023"/></bibl> suggests that it should have been fixed upon a building such as a portico or a fountain.
+	      In the gap at left of line 3, he plausibly suspects an adjective mentioning the material (wood or stone) of the barrier, duely preceded by <foreign xml:lang="grc">τὰ</foreign>.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

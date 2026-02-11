@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Perhaps <rs type="textType" cert="low">honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr130600</idno>
+                <idno type="number" subtype="second-edition">130600</idno>
+                <idno type="TM">738853</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr130600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr130600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr130600</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository>
+                        <idno type="invNo">530 (fragm. a) and 558 (fragm. b)</idno></msIdentifier>
+                 <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two not fully adjacent fragments of a marlacious <material>limestone</material> <objectType>block</objectType>,  
+                                        fragment a broken off at left, right, back and above (<dimensions>
+                                            <width atLeast="0.027">0.27</width>
+                                            <height atLeast="0.082">0.082</height>
+                                            <depth atLeast="0.105">0.105</depth>
+                                        </dimensions>);
+                                        fragment b broken off at left and back (<dimensions>
+                                            <width atLeast="0.13">0.13</width>
+                                            <height>0.17</height>
+                                            <depth atLeast="0.185">0.185</depth>
+                                        </dimensions>); due to the geological nature of the stone, the larger fractures at back and also at left of fragment a are curved
+                                        so regularly that they might seem to have been cut in a workshop.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in five lines, each displayed symmetrically along the 
+                                    vertical axis.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height> very carefully cut, with slight serifs; dotted theta, very slightly slanting mu and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering textual-context" notBefore="-0250" notAfter="-0220" precision="medium" resp="#rosamilia2023">Probably between 250 and 220 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1977">
+                                    <p>Found before 1977 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-04-01" who="CDL">addition to commentary</change>
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-29" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-01" who="Alice">checked</change>
+            <change when="2017-03-05" who="Alice">checked</change>
+            <change when="2017-02-14" who="CDL">overall check</change>
+            <change when="2016-03-16" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77715/3/igcyr130600-1-squeezes.tiff.jpg" corresp="igcyr130600"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77715">Squeezes of igcyr130600 Perhaps honours</ref></desc></graphic>
+        <!--duplicate item: <graphic url="https://historica.unibo.it/bitstream/20.500.14008/80480/3/igcyr130600-1-squeezes.tiff.jpg" corresp="igcyr130600"><desc><ref target="http://hdl.handle.net/20.500.14008/80480">Squeezes of igcyr130600 Perhaps honours</ref></desc></graphic>-->
+    </facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>130600</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>67.1483</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>28</citedRange></bibl>.</p>
+            
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ς</orig>
+                    <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                            <persName type="attested" key=""><name nymRef="#_νος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">νου</seg></name></persName></persName>
+                    <lb n="4"/><placeName type="ethnic">Θεσ<supplied reason="lost">σαλό</supplied>ς</placeName>
+                    <lb n="5"/><rs type="office" key="hegemonepandron"><w lemma="ἡγεμών"><supplied reason="lost">ἡ</supplied>γεμὼν</w> <w lemma="ἐπί">ἐπ᾿</w><w lemma="ἀνήρ">ἀ<supplied reason="lost">νδ</supplied>ρῶν</w></rs>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+                <app loc="5">
+                    <lem resp="#rosamilia2023">ἐπ᾿ἀ<supplied reason="lost">νδ</supplied>ρῶν</lem>
+                    <rdg resp="#IGCyr">ἐπ᾿ἀρῶν</rdg>
+                </app>
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>fils de <gap reason="lost" extent="unknown" unit="character"/>nos, thessalien, commandant de garnison.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>son of <gap reason="lost" extent="unknown" unit="character"/>nos, Thessalian, commander of garrison.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>figlio di <gap reason="lost" extent="unknown" unit="character"/>nos, tessalo, capo di presidio.</p>
+            </div><div type="commentary">
+                
+               <p>This inscription has no parallel and raises different questions. As noticed in the first edition, the use of the koine is a clue for an international context, perhaps in relation 
+               with the Ptolemaic domination. The layout confirms that <foreign xml:lang="grc">Θεσσαλός</foreign> is here used with its original value of an ethnic 
+               and not as a personal name. The latter would have stood at line 3. It is not clear whether line 2 was inscribed or left blank.</p>
+              <p>Dobias-Lalou's reading of line 5 in the first edition was duly eliminated by Rosamilia who was able to identify the title <foreign xml:lang="grc">ἡγεμὼν ἐπ᾿ἀνδρῶν</foreign>, mainly attested at Cyprus, often associated with 
+                  <foreign xml:lang="grc">φρούραρχος</foreign> and used for majors commanding a garrison (see <bibl><ptr target="#bagnall1976"/>, pp. <citedRange>51-54</citedRange></bibl>. As shown by Rosamilia, this is the first clear clue for the presence of a Lagid garrison at Cyrene after 250. 
+              However, in <ref type="inscription" source="#IGCyr2">IGCyr097400</ref> some military Lagid officers of low rank are also attested.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

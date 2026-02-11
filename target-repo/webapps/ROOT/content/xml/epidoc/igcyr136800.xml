@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr136800</idno>
+                <idno type="number" subtype="second-edition">136800</idno>
+                <idno type="TM">997630</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr136800</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository><idno type="invNo">417</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lower left angle of a white <material>marble</material> <objectType>block</objectType> broken off above, at right and back 
+                                        (preserved dimensions <dimensions>
+                                            <width>0.255</width>
+                                            <height>0.11</height>
+                                            <depth>0.18</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Inscribed twice: a) <rs type="execution" key="scalpro">Inscribed</rs> on the face in a largely lost area; b) <rs type="execution" key="graffito"/> in two lines not well aligned and placed 
+                                    just under a), nearly touching it.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>a) one slanting sigma surviving (<height>0.03</height>); b) not deeply cut letters (average <height>0.001</height>) without serifs; slanting mu and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0299" notAfter="-0200" precision="low">Perhaps third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p> Plausibly found before World War II at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot not registered.
+                                    </p> 
+                                </provenance>
+                            <provenance type="observed" resp="CDL">
+                            <p>Seen in 1977 by Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change>  
+                <change when="2023-01-23" who="CDL">file updated</change>
+         <change when="2022-04-21" who="CDL">File created</change>
+            <change when="2022-06-25" who="CDL">File reaffected to this fragment.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80502/3/igcyr136800-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80502">View of igcyr136800 Names</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80503/3/igcyr136800-2-squeeze.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80503">Squeeze of igcyr136800 Names</ref></desc></graphic></facsimile>
+    <!--Very bad photo 77/IX, only ueful for a drawing; squeeze CD169  <facsimile/> -->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                </ab></div>
+                <div type="textpart" n="b">
+                    <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιτευ</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested" key=""><name><supplied reason="lost">Π</supplied>ελάγων</name> <persName type="attested" key=""><name nymRef="#Σελυμαῖος" type="patronymic"> Σ<supplied reason="lost">ελυ</supplied><unclear>μ</unclear>αίω</name></persName></persName><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2a"/><space quantity="4" unit="cm"/>
+                </ab></div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                    <p>a) Intraduisible.</p>
+                    <p>b) <gap reason="lost" extent="unknown" unit="character"/> Pelagôn fils de Sélymaios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+                    <p>a) Intraduisible.</p>
+                    <p>b) <gap reason="lost" extent="unknown" unit="character"/> Pelagon son of Selymaios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                    <p>a) Intraducibile.</p>
+                    <p>b) <gap reason="lost" extent="unknown" unit="character"/> Pelagon figlio di Selymaios.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>The only letter surviving from text a) is taken as a vestige of the previous text, while text b), because of its not very regular cutting and display, seems to be an appended graffito. However, this 
+             distribution is not quite sure.</p>
+             <p>At line 1 of text b) a possible restoration would be <foreign xml:lang="grc">ἱαριτεύοντος</foreign> in the formula of datation  'So and so being priest'. Other restorations might also be proposed.
+             The names at line 2 are both rare, but attested once each in the third century BC in Cyrene: Pelagon at <ref type="inscription" source="#IGCyr2">IGCyr116400</ref>, Selymaios at <ref type="inscription" source="#IGCyr2">IGCyr008200</ref>.</p>
+            </div></body>
+    </text>
+</TEI>

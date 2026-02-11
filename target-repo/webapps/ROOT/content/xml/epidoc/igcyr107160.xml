@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Public honours</rs> for Ptolemy IX Soter II and Cleopatra IV or Cleopatra Selene</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr107160</idno>
+                <idno type="number" subtype="second-edition">107160</idno>
+                <idno type="TM">738598</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr107160</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr107160</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr107160</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two adjacent fragments of a <material>marble</material> <objectType>block</objectType> 
+                                        (<dimensions>
+                                            <width>0.603</width>
+                                            <height>0.289</height>
+                                            <depth min="0.17" max="0.22">0.17 at left to 0.22 at right</depth>
+                                        </dimensions>); this block was part of a monumental base consisting of another block at left and three at right. Another 
+                                    not-inscribed fragment shows that the monument was made of two rows of similar blocks in depth.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in 4 lines; varying space between letters for an axial layout.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.032</height> (estimated from photograph); careful script with serifs; non slanting sigma.</handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="reign" cert="low" notBefore="-0116" notAfter="-0107">Perhaps 116/5 or 108/7 BC</origDate> (see commentary).
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1958" notAfter="1961">
+                                    <p>Found between 1958 and 1961 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, reused in the fence of the Audience Hall that replaced the  
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1483">Augusteum</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1961" resp="Gasperini">
+                                    <p>Observed by L. Gasperini in 1961 in <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1484">Storeroom of the Italian missions</rs>.</p>
+                                </provenance>        
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">It. transl.; checked</change>
+            <change when="2017-02-01" who="CDL">added restored parts, changed apparatus and commentary; Fr. and Engl. translations; tagged w, lemma, rs, persName.</change>
+            <change when="2014-01-10" who="CDL+HB">completed lemma, text, apparatus, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-18" who="SMM">lemma, text, apparatus, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>           
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77798/3/igcyr107160-face.jpg.jpg" corresp="igcyr107160" decls="#photograph"><desc resp="-" source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77798">Face of igcyr107160 Public honours for Ptolemy and Cleopatra</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1965"/>, p. 315 n. <citedRange>1</citedRange>, pl. LVII, 3</bibl> 
+                    (= <bibl><ptr target="#gasperini2008"/>, pp. <citedRange>41-42</citedRange></bibl>); 
+                    <bibl><ptr target="#gasperini1967a"/>, p. 170, n. <citedRange>20</citedRange>, fig. 204</bibl> 
+                    (= <bibl><ptr target="#gasperini2008"/>, p. <citedRange>83</citedRange></bibl>);
+                    <bibl><ptr target="#IGCyr"/> <citedRange>107160</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>445-446</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1899</citedRange></bibl>; 
+                    <bibl><ptr target="#criscuolo2011"/>, p. <citedRange>137</citedRange></bibl>.</p>
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="ruler" key="Ptolemy IX and Cleopatra IV or Cleopatra Selene"><milestone unit="block" n="i"/><w lemma="βασιλεύς"><supplied reason="lost">Βασιλῆ</supplied></w> 
+                    <persName type="ruler" key="Ptolemy IX"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτολεμ</supplied><milestone unit="block" n="ii"/>αῖον</name></persName> καὶ 
+                    <w lemma="βασίλισσα">βασίλι<supplied reason="lost">σσαν</supplied></w> <persName type="ruler" key="Cleopatra IV or Cleopatra Selene"><name nymRef="#Κλευπάτρα"><supplied reason="lost">Κλευπάτρ<milestone unit="block" n="iii"/>αν</supplied></name> 
+                    <supplied reason="lost">τὰν</supplied> <w lemma="ἀδελφά"><supplied reason="lost">ἀδελφὰ<milestone unit="block" n="iv"/>ν</supplied></w></persName> 
+                    <rs type="epithet" key="Theoi Soteres"><w lemma="θεός"><supplied reason="lost">Θεὸς</supplied></w> <w lemma="σωτήρ"><supplied reason="lost">Σωτῆρας</supplied></w></rs></persName>                    
+                    <lb n="2"/><milestone unit="block" n="i"/><supplied reason="lost">τὸς</supplied> <w><supplied reason="lost">ἐκ</supplied></w> <persName type="ruler" key="Ptolemy VIII and Cleopatra III"><w lemma="βασιλεύς"><supplied reason="lost">βασιλεῦς</supplied></w> 
+                    <milestone unit="block" n="ii"/><persName type="ruler" key="Ptolemy VIII"><name nymRef="#Πτολεμαῖος">Πτολεμαίω</name> <rs type="epithet" key="Theos Euergetes"><w lemma="θεός">θεῶ</w> <milestone unit="block" n="iii"/><w lemma="εὐεργέτας"><supplied reason="lost">Εὐεργέτα</supplied></w></rs></persName> <supplied reason="lost">καὶ</supplied> 
+                    <milestone unit="block" n="iv"/><w lemma="βασίλισσα"><supplied reason="lost">βασιλίσσας</supplied></w> 
+                    <persName type="ruler" key="Cleopatra III"><name nymRef="#Κλευπάτρα"><supplied reason="lost">Κλ<milestone unit="block" n="v"/>ευπάτρας</supplied></name> <rs type="epithet" key="Thea"><w lemma="θεά"><supplied reason="lost">Θεᾶς</supplied></w></rs></persName></persName>
+                    <lb n="3"/><milestone unit="block" n="i"/><w lemma="ἀρετά"><supplied reason="lost">ἀρετᾶς</supplied></w> <w><supplied reason="lost">ἕν</supplied><milestone unit="block" n="ii"/>εκα</w> καὶ <w lemma="εὐεργεσία">ε<milestone unit="block" n="iii"/><supplied reason="lost">ὐεργεσί<milestone unit="block" n="iv"/>ας</supplied></w> <supplied reason="lost">τᾶς</supplied> <w><supplied reason="lost">ἐ<milestone unit="block" n="v"/>ς</supplied></w> <w lemma="ἑαυτῶ"><supplied reason="lost">ἑαυτὸς</supplied></w>
+                    <lb n="4"/> <milestone unit="block" n="i"/><space quantity="6" unit="character"/> 
+                    <milestone unit="block" n="ii"/><space quantity="5" unit="character"/><placeName type="ethnic" nymRef="#Κυραναῖος">Κ<milestone unit="block" n="iii"/><supplied reason="lost">υραναῖ<milestone unit="block" n="iv"/>οι</supplied></placeName> <space quantity="4" unit="character"/> <milestone unit="block" n="v"/><space quantity="6" unit="character"/>
+                </ab></div><div type="apparatus" xml:space="preserve">
+             
+                <p>
+                    <app loc="1"><lem>Βασιλῆ</lem>
+                    <rdg resp="#gasperini1965">Βασιλέα</rdg>
+                    </app>
+                <app loc="2"><lem><supplied reason="lost">τὸς ἐκ βασιλεῦς</supplied> Πτολεμαίω θεῶ <supplied reason="lost">Εὐεργέτα</supplied></lem>
+                <rdg resp="#gasperini1965"><supplied reason="lost">τοὺς ἐκ βασιλέως</supplied> Πτολεμαίω θεῶ <supplied reason="lost">τῶ Εὐεργέτα</supplied></rdg>
+                </app>
+                <app loc="3-4"><lem><supplied reason="lost">ἐς ἑαυτὸς</supplied> <lb/><space extent="unknown" unit="character"/></lem>                
+                    <rdg resp="#gasperini1965"><lb/><supplied reason="lost">ἐς ἑαυτοὺς</supplied></rdg>
+                </app>
+                <app loc="4"><lem>Κ<supplied reason="lost">υραναῖοι</supplied></lem>
+                    <rdg resp="#gasperini1965">Κ<supplied reason="lost" cert="low">υραναῖοι</supplied></rdg></app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">La statue</supplied> du roi Ptolémée et de la reine <supplied reason="lost">Cléopatre sa soeur, Dieux Sôtères, 
+                nés du roi</supplied> Ptolémée, Dieu <supplied reason="lost">Evergète et de la reine Cléopatre, Déesse,</supplied> en raison de <supplied reason="lost">leur valeur</supplied> et de <supplied reason="lost">leur générosité envers eux</supplied> <supplied reason="subaudible">a 
+                        été consacrée</supplied>, par les C<supplied reason="lost" cert="low">yrénéens</supplied>.
+            </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">The statue</supplied> of king Ptolemy and of queen <supplied reason="lost">Cleopatra his sister, Gods Soteres, 
+                born from king</supplied> Ptolemy, God <supplied reason="lost">Euergetes and from queen Cleopatra, Goddess,</supplied> on behalf of <supplied reason="lost">their virtue</supplied> and well-doing <supplied reason="lost">towards themselves</supplied> <supplied reason="subaudible">was 
+                        dedicated</supplied> by the C<supplied reason="lost" cert="low">yrenaeans</supplied>.
+            </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><supplied reason="subaudible">La statua</supplied> del re Tolemeo e della regina <supplied reason="lost">Cleopatra sua sorella, Dèi Soteri, 
+                nati dal re</supplied> Tolemeo, Dio <supplied reason="lost">Evergete e dalla regina Cleopatra, Dea,</supplied> in considerazione del <supplied reason="lost">valore</supplied> e della generosità <supplied reason="lost">nei loro confronti</supplied> <supplied reason="subaudible">è stata 
+                        dedicata</supplied> dai C<supplied reason="lost" cert="low">irenei</supplied>.
+                </p>
+            </div><div type="commentary">
+                
+                <p>Dedication of statues of Ptolemy IX Soter II and Cleopatra IV or Cleopatra Selene according to Gasperini, of Ptolemy IX Soter II and Cleopatra Selene according to Laronde.
+                    Whence date: 116/15 or 108/7 BC. It was clear for both that a Ptolemy and a Cleopatra mentioned together and being chidren of another Ptolemy could only offer those two 
+                possibilities. We do not choose between them. C. Dobias-Lalou offers here new restorations based on the layout of the different lines and on the titulatures of the kings.</p>
+                <p>Gasperini gave clues for a restoration, supposing that one block was lost at left and one at right. His restoration for line 1 of the block lost at left are perfectly 
+                    convincing with an amount of 13 letters like on the preserved block. However we cannot follow him about line 4: the block is blank before the preserved kappa and the 
+                    space between letters on this line was at least <dim type="distance">0.066</dim>. The next block might thus host only <foreign xml:lang="grc">ΥΡΑΝΑΙ</foreign> and 
+                    <foreign xml:lang="grc">OI</foreign> should be cut on one more block. Symmetrically with the beginning of the line, a large space would cover the end of this 
+                    block and one more. The whole monument should thus consist of five blocks.</p>                    
+                <p>The words restored by Gasperini at the beginning of line 4 should be kept at the end of line 3. The whole causal syntagm stood on that line, which fits perfectly the spacement of letters.
+                Lines 1 and 2 were filled with the titulature: king and queen at line 1, their parents at line 2. For line 1 we have a model in <ref type="inscription" source="#IGCyr2">IGCyr011100</ref>, a.31-32.
+                With 31 characters at line 1 and 34 at line 2, where they are cut more closely to one another, the totals fit well the three blocks lost at right.</p>
+                <p>The preserved part of line 2 shows that the dedication was written in the local dialect, which is usual when the dedication is made by the Cyrenaenans. 
+                    We thus inserted the dialectel features into the restored parts.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probably <rs type="textType" cert="medium">private honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr101700</idno>
+                <idno type="number" subtype="second-edition">101700</idno>
+                <idno type="TM">738528</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr101700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr101700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr101700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p> <material>Marble</material> <objectType>base</objectType> with the face damaged when re-used 
+                                        (width 0.77).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="prosopography" cert="low" notBefore="-0360" notAfter="-0350">Perhaps 360 to 350 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1925" notAfter="1930" resp="Anti">
+                                    <p>Found by C. Anti between 1925 and 1930 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        re-used for the dressing of the larger basin of the <rs type="monuList" ref="https://www.slsgazetteer.org/1287">Fountain of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed" resp="gpc">
+                                    <p>Not found in 1960 by G. Pugliese Carratelli</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-28" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-25" who="CDL">overall check; changed title, improved commentary; added Ital. translation</change>
+            <change when="2013-11-24" who="cdl">lemma, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change> 
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>183</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>101700</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>103 and 121</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64964"><name nymRef="#Μελάνιππος">Μελάνιππος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63060"><name type="patronymic" nymRef="#Ἀρίστανδρος">Ἀριστάνδρω</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Mélanippos fils d'Aristandros.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Melanippos son of Aristandros.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Melanippos figlio di Aristandros.</p>
+         </div><div type="commentary">
+                
+                <p>This base was published by Pugliese Carratelli from a drawing and a very succinct description from Anti's papers (without reference to a precise sketchbook).</p>
+	      <p>As it was re-used on the border of the Sanctuary of Apollo, we suppose that the original place of the base was in the Sanctuary. If so, it was honorific and not 
+	          funerary. In absence of any description of its upper face, this remains only probable.</p>
+                <p>It is an tantalizing guess of Laronde's to identify this man with the well known homonymous priest whose duty he was able to date 
+	           about 335 BC. Without any idea of the lettering, this should remain a hypothesis. It is now supported by <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>100</citedRange></bibl>,
+                    who dates the priest a few yeras later.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

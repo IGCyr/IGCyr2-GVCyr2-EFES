@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Diagramma</rs> of Ptolemy I</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr010800</idno>
+                <idno type="number" subtype="second-edition">010800</idno>
+                <idno type="TM">6095</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr010800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr010800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr010800</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository>
+                        <idno type="invNo">11</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> slightly tapering
+                                        <objectType>stele</objectType>, reddish from earth, cut off on a large central part of the upper edge, leaving two 'horns' at each end, also chipped off 
+                                           partly on both lateral edges and broken off at lower right angle, which shows hints of fire                                        
+                                       (<dimensions>
+                                            <width min="0.545" max="0.565">0.545-0.565</width>
+                                            <height>1.5</height>
+                                            <depth min="0.28" max="0.30">0.28-0.30</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" key="scalpro">Inscribed</rs> on the face with some paragraphoi, most of which are now lost but may be restored because 
+                                    of a slighlty higher space between the lines.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Average <height>0.007</height>, except: line 1 <height>0.01</height>; line 55 end, line 72 end and line 73 <height>0.085</height>; still
+                                rubricated in some parts; slanting mu and sigma, smaller omicron.                            
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>,
+                                probably <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate evidence="reign prosopography" resp="#criscuolo2001a #rosamilia2023" when="-0320" precision="high">September (Criscuolo) or spring (Rosamilia) 320 BC </origDate>
+                        </origin>
+                        <provenance type="found" when="1922" resp="Ferri">
+                            <p>Found by Ferri in 1922 at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                reused as a step leading to the southern cold pool of the <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>. </p>
+                        </provenance>
+                        <provenance type="observed" when="1976" when-iso="2010" resp="cdl">
+                            <p>Seen by Dobias-Lalou many times between 1976 and 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation>
+        </profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-26" who="Alice">checked</change>
+            <change when="2016-05-08" who="CDL">lemmatized words</change>
+            <change when="2015-08-25" who="Alice">checked translations</change>
+            <change when="2014-12-31" who="CDL">English translation</change>
+            <change when="2014-12-22" who="CDL">cross-checked Italian and French translations</change>
+            <change when="2014-12-18" who="CDL">checked and somewhat changed text and apparatus; French translation</change>
+            <change when="2014-12-01" who="CDL">lemma,</change>
+            <change when="2013-07-26" who="HB">apparatus (4/4) : to be checked</change>
+            <change when="2013-07-25" who="HB">apparatus (3/4)</change>
+            <change when="2013-07-16" who="HB">apparatus (2/4)</change>
+            <change when="2013-07-15" who="HB">apparatus (1/4)</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">deleted redundant p /p in the apparatus</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76783/3/igcyr010800-1-face.tiff.jpg" corresp="igcyr010800" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/76783">Face of igcyr010800 Diagramma of Ptolemy I</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77844/3/igcyr010800-2-detail1.jpeg.jpg" corresp="igcyr010800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1922-1925"><ref target="http://hdl.handle.net/20.500.14008/77844">Lines 1-31 of igcyr010800 Diagramma of Ptolemy I</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77845/3/igcyr010800-3-detail2.jpeg.jpg" corresp="igcyr010800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1922-1925"><ref target="http://hdl.handle.net/20.500.14008/77845">Lines 25-55 of igcyr010800 Diagramma of Ptolemy I</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77846/3/igcyr010800-4-detail3.jpeg.jpg" corresp="igcyr010800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1922-1925"><ref target="http://hdl.handle.net/20.500.14008/77846">Lines 44-74 of igcyr010800 Diagramma of Ptolemy I</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77847/3/igcyr010800-5-detail4.jpeg.jpg" corresp="igcyr010800" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1922-1925"><ref target="http://hdl.handle.net/20.500.14008/77847">Lines 66-91 of igcyr010800 Diagramma of Ptolemy I</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ferri1925"/>, pp. <citedRange>3-19</citedRange>, n. <citedRange>1</citedRange></bibl>,
+                    and <bibl><ptr target="#oliverio1928a"/>, pp. <citedRange>183-222, 235-239</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>9.1</citedRange></bibl>;
+                    <bibl><ptr target="#fraser1958"/>, pp. <citedRange>120-127</citedRange></bibl>, 
+                        whence <bibl> <ptr target="#SEG"/><citedRange>18.726</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>85-128</citedRange> and passim</bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>38.1881</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, esp. pp. <citedRange>14, 268-269</citedRange></bibl>, 
+                    whence <bibl><ptr target="#SEG"/>, <citedRange>50.1637</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>010800</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, passim; especially pp. <citedRange>233-240</citedRange>, number 3 (text)</bibl>.</p>                    
+                <p>Cf. for studies up to 1939, <bibl><ptr target="#SEG"/>, <citedRange>9.1</citedRange></bibl>.
+                    For studies after World War II, <bibl><ptr target="#machu1951"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>13.616</citedRange></bibl>; 
+                    <bibl><ptr target="#pagliaro1956"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>17.793</citedRange></bibl>;  
+                    <bibl><ptr target="#oost1963"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>20.704</citedRange></bibl>; 
+                     <bibl><ptr target="#seibert1963"/>, pp. <citedRange>68-71</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>20.713</citedRange></bibl>;
+                    <bibl><ptr target="#bravo1977"/>, pp. <citedRange>44-46</citedRange></bibl>, 
+                    whence <bibl><ptr target="#SEG"/>, <citedRange>27.1195</citedRange></bibl>;
+                    <bibl><ptr target="#gasperini1987"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>37.1660</citedRange></bibl>;
+                    <bibl><ptr target="#vanRossum1988"/>, pp. <citedRange>28-31</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>38.1975</citedRange></bibl>; 
+                   <bibl><ptr target="#laronde1990a"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>40.1593</citedRange></bibl>; 
+                    <bibl><ptr target="#hölkeskamp1993"/><citedRange/></bibl>,
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>43.1184</citedRange></bibl>; 
+                    <bibl><ptr target="#pleket1994"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>44.1713</citedRange></bibl>; 
+                    <bibl><ptr target="#ogden1996"/>, pp. <citedRange>299-300</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>46.2287</citedRange></bibl>; 
+                     <bibl><ptr target="#mohamed-jmr1997"/>, p. 38, n. <citedRange>10</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>47.2186</citedRange></bibl>; 
+                    <bibl><ptr target="#sartori1997"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>47.2309</citedRange></bibl>; 
+                    <bibl><ptr target="#vérilhac-vial1998"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>48.2138</citedRange></bibl>; 
+                    <bibl><ptr target="#massar1998"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>48.2139</citedRange></bibl>; 
+                    <bibl><ptr target="#napoleone1999"/><citedRange/></bibl>, 
+                    whence <bibl><ptr target="#SEG"/>, <citedRange>50.1636</citedRange></bibl>; 
+                     <bibl><ptr target="#ottone2000"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>50.1629</citedRange></bibl>;
+                     <bibl><ptr target="#criscuolo2001"/>, pp. <citedRange>43-44</citedRange></bibl>  
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>51.2209</citedRange></bibl> 
+                        (also <bibl><ptr target="#criscuolo2007"/>, p. <citedRange>200</citedRange></bibl> a shorter version); 
+                     <bibl><ptr target="#poddighe2001"/>, pp. <citedRange>45-49</citedRange></bibl>, 
+                        and <bibl><ptr target="#cdlBE"/>, <citedRange>2001.564</citedRange></bibl>, 
+                        and <bibl><ptr target="#criscuolo2001a"/><citedRange/></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>51.2211</citedRange></bibl>; 
+                     <bibl><ptr target="#samama2003"/>, n. <citedRange>453</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>53.2191</citedRange></bibl>; 
+                        <bibl><ptr target="#bencivenni2003"/>, pp. <citedRange>105-149</citedRange></bibl>, 
+                        whence <bibl><ptr target="#SEG"/>, <citedRange>53.2203</citedRange></bibl>;
+                       Tybout in <bibl><ptr target="#SEG"/>, <citedRange>59.1100</citedRange></bibl>;
+                    <bibl><ptr target="#chevrollier2010"/>, pp. <citedRange>129-130</citedRange></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>60.1827</citedRange></bibl>;
+                    <bibl><ptr target="#bencivenni-agrimonti2014"/>, pp. <citedRange>354-356</citedRange> (ph.)</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2008</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2014"/>, p. <citedRange>92, footnote 21</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Agathe_Tyche"><rs type="epithet" key="Agathe"><w lemma="ἀγαθός">Ἀ<supplied reason="lost">γαθὰ</supplied></w></rs> <name nymRef="#Τύχα"><supplied reason="lost">Τύχ</supplied><unclear>α</unclear></name></persName>
+                    <lb n="2"/><w lemma="πολίτης"><supplied reason="lost">Πολ</supplied>ῖται</w> <w lemma="εἰμι">ἔσονται</w> οἱ <w lemma="ἀνήρ"><unclear>ἄνδ</unclear><supplied reason="lost">ρε</supplied>ς</w> 
+                        <w lemma="ἐκ">ἐξ</w> <w lemma="ἀνήρ"><supplied reason="lost">ἀνδρὸς</supplied></w> <placeName type="ethnic" nymRef="#Κυρηναῖος"><supplied reason="lost"/>Κυρην<unclear>αίου</unclear></placeName> 
+                        καὶ <w lemma="γυνή">γυναικὸς</w> <placeName type="ethnic" nymRef="#Κυρηναῖος">Κυρηναίας</placeName> καὶ ο<supplied reason="lost">ἱ</supplied>
+                    <lb n="3"/><w lemma="ἐκ"><supplied reason="lost">ἐκ</supplied></w> <supplied reason="lost">τ</supplied>ῶν <placeName type="ethnic" nymRef="#Λίβυς">Λι<supplied reason="lost">β</supplied>υσσῶν</placeName> 
+                        τῶν <w lemma="ἐντός">ἐντὸς</w> τοῦ <placeName nymRef="#Καταβαθμός">Καταβα<unclear>θ</unclear>μοῦ</placeName> καὶ <placeName nymRef="#Αυθαμαλαξ">Αυθαμαλακος</placeName> 
+                        καὶ οἱ <w lemma="ἐκ">ἐκ</w> τῶν <w lemma="ἔποικος">ἐ<supplied reason="lost">π</supplied><lb n="4" break="no"/><supplied reason="lost">οίκ</supplied>ων</w> τῶν <w lemma="ἐκ">ἐκ</w> τῶν <w lemma="πόλις">πόλεων</w> τῶν <w lemma="ἐπέκεινα">ἐπέκεινα</w> τῆς <placeName nymRef="#Θινιτις">Θινιτιος</placeName>, 
+                        <w lemma="ὅς1" type="relative">οὓς</w> <placeName type="ethnic" nymRef="#Κυρηναῖος">Κυρην<supplied reason="omitted">α</supplied>ῖοι</placeName> 
+                        <w lemma="ἀποικίζω">ἀπώικισαν</w> κ<supplied reason="lost">αὶ</supplied>
+                    <lb n="5"/><w lemma="ὅς1" type="relative"><supplied reason="lost">οὓς</supplied></w> <w lemma="ἄν"><supplied reason="lost">ἂ</supplied>ν</w> <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name></persName> 
+                        <w lemma="καθίστημι">καταστήσηι</w> καὶ <w lemma="ὅς1" type="relative">οὓς</w> <w lemma="ἄν">ἂν</w> τὸ <w lemma="πολίτευμα">πολίτευμα</w> <w lemma="δέχομαι">δέξηται</w> 
+                        <w lemma="ὡς">ὡς</w> <w lemma="ἄν">ἂν</w> <w lemma="ἐν">ἐν</w> τοῖς <w lemma="νόμος">νόμοις</w> <w lemma="ὅδε">τοῖ<supplied reason="lost">σδε</supplied></w>.
+                    
+                    <lb n="5a"/><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied>
+                    <lb n="6"/><w lemma="πολίτευμα"><supplied reason="lost">Πολί</supplied>τευμα</w> δ'<w lemma="εἰμι">ἔστω</w> οἱ <num type="cardinal" value="10000"><w>μύριοι</w></num>· <w lemma="ὑπάρχω">ὑπαρχόντωσαν</w> 
+                        δὲ οἱ <w lemma="φυγάς">φυγάδες</w> οἱ <w lemma="ἐς">ἐς</w> <placeName nymRef="#Αἴγυπτος">Αἴγυπτον</placeName> <w lemma="φεύγω">φυγόντες</w>
+                    <lb n="7"/><w lemma="ὅς1" type="relative"><supplied reason="lost">οὓ</supplied>ς</w> <w lemma="ἄν">ἂν</w> <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name></persName> 
+                        <w lemma="ἀποδείκνυμι">ἀποδείξηι</w> καὶ <w lemma="ὅς1" type="relative">οἷς</w> <w lemma="ἄν">ἂν</w> τὸ <w lemma="τίμημα">τίμημα</w> <w lemma="εἰμι">ἦι</w> τῶν <w lemma="χρῆμα">χρημάτων</w> τῶν 
+                        <w lemma="ἀθάνατος">ἀ<supplied reason="lost">θ</supplied><lb n="8" break="no"/>ανάτων</w> <w lemma="σύν">σὺν</w> τοῖς τῆς <w lemma="γυνή">γυναικὸς</w> <measure type="currency" unit="Alexander'smna"><w lemma="μνᾶ">μνῶν</w> 
+                        <num type="cardinal" value="20"><w lemma="εἴκοσι">εἴκοσι</w></num> <w lemma="Ἀλεξάνδρειος">Ἀλεξανδρείων</w></measure>, <w lemma="ὅς1" type="relative">ὃ</w> <w lemma="ἄν">ἂν</w> οἱ 
+                        <rs type="office" key="timeter"><w lemma="τιμητήρ">τιμ<add place="overstrike">η</add>τῆρ<lb n="9" break="no"/>ες</w></rs> <w lemma="τιμάω">τ<add place="overstrike">ι</add>μήσωσι</w> <w lemma="ἐλεύθερος">ἐλεύθερον</w>· καὶ <w lemma="ὅσος">ὅσοις</w> 
+                        <w lemma="εἰμι">εἰσί</w> <w lemma="ὀφείλω"><add place="overstrike">ὀ</add>φειλόμεναι</w> <measure type="currency" unit="Alexander'smna"><w lemma="μνᾶ">μναῖ</w> 
+                            <num type="cardinal" value="20"><w lemma="εἴκοσι">εἴκοσι</w></num> <w lemma="Ἀλεξάνδρειος">Ἀλεξάνδρειοι</w></measure>
+                    <lb n="10"/><w lemma="σύν">σὺν</w> τοῖς τῆς <w lemma="γυνή">γυναικὸς</w> <w lemma="ἐν">ἐν</w> <w lemma="ἀθάνατος">ἀθανάτοις</w> <w lemma="τιμάω">τετιμημένοις</w> 
+                        μὴ <w lemma="ἐλάσσων">ἐλάσσονος</w> τοῦ <w lemma="ὀφείλημα">ὀφειλ<lb n="11" break="no"/><supplied reason="lost">ή</supplied>ματος</w> καὶ τοῦ <w lemma="τόκος">τόκου</w> καὶ <w lemma="ἀνταπόμνυμι">ἀνταπομνυόντων</w> οἱ 
+                        <w lemma="ὀφείλω">ὀφείλοντες</w> κ<w lemma="ἐάν">ἂν</w> οἱ <w lemma="γείτων">γείτονες</w> μ<supplied reason="lost">ὴ</supplied>
+                    <lb n="12"/><w lemma="τιμή">τιμὰς</w> <w lemma="ἔχω">ἔχωσι</w>, <w lemma="εἰμι">ἔστωσαν</w> καὶ <w lemma="οὗτος"><add place="overstrike">ο</add>ὗτοι</w> τῶν 
+                        <num type="cardinal" value="10000"><w lemma="μύριοι">μυρίων</w></num> μὴ <w lemma="νέος">νεώτεροι</w> <num type="cardinal" value="30"><w lemma="τριάκοντα">τριάκοντα</w></num> 
+                        <w lemma="ἔτος">ἐτῶν</w>. <rs type="office" key="timeter"><w lemma="τιμητήρ">Τιμ<lb n="13" break="no"/><supplied reason="lost">η</supplied>τῆρας</w></rs> δὲ <w lemma="αἱρέω">αἱρείσθων</w> οἱ <rs type="office" key="geron"><w lemma="γέρων">γέροντες</w></rs> ἐκ τῶν 
+                        <num type="cardinal" value="10000"><w lemma="μύριοι">μυρίων</w></num> <w lemma="ἀνήρ">ἄνδρας</w> <num type="cardinal" value="60"><w lemma="ἑξήκοντα">ἑξήκοντα</w></num> μὴ 
+                        <w lemma="νέος">νε<supplied reason="lost">ω</supplied>τέρ<supplied reason="lost">ους</supplied></w>                    
+                    <lb n="14"/><num type="cardinal" value="30"><w lemma="τριάκοντα"><supplied reason="lost">τ</supplied><unclear>ρ</unclear><supplied reason="lost">ι</supplied>άκοντα</w></num> 
+                        <w lemma="ἔτος">ἐτῶν</w>, <w lemma="ὄμνυμι">ὀμόσαντες</w> <w lemma="ὅρκος">ὅρκον</w> <w lemma="νόμιμος">νόμιμον</w>. Οἰ δὲ <w lemma="αἱρέω">αἰρεθέντες</w> <w lemma="τιμάω">τιμώντωσαν</w> 
+                        <w lemma="ὡς">ὡς</w> <w lemma="ἄν">ἂ<supplied reason="lost">ν</supplied></w>
+                    <lb n="15"/><w lemma="ἐν">ἐν</w> τοῖς <w lemma="νόμος">νόμοις</w> <w lemma="γράφω">γραφῆι</w>· τῶι δὲ <num type="ordinal" value="1"><w lemma="πρῶτος">πρώτωι</w></num> <w lemma="ἔτος">ἔτει</w> 
+                        <w lemma="πολιτεύω">πολιτευέσθωσαν</w> <w lemma="ἐκ">ἐκ</w> τῶν <w lemma="πρότερον">πρότερον</w> <w lemma="τίμημα">τιμημάτων</w>.
+                    
+                    <lb n="15a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="16"/><w lemma="βουλή">Βουλὴ</w> δὲ <w lemma="εἰμι">ἔστω</w> <w lemma="ἀνήρ">ἄνδρες</w> <num type="cardinal" value="500"><w lemma="πεντακόσιοι">πεντακόσιοι</w></num> 
+                        <w lemma="ὅς1" type="relative">οἳ</w> <w lemma="ἄν">ἂν</w> τῶι <w lemma="κλῆρος">κλήρωι</w> <w lemma="λαγχάνω">λάχωσι</w> μὴ <w lemma="νέος">νεώτερο<supplied reason="lost">ι</supplied></w>
+                    <lb n="17"/><num type="cardinal" value="50"><w lemma="πεντήκοντα">πεντήκοντα</w></num> <w lemma="ἔτος">ἐτῶν</w>· <w lemma="βουλεύω">βουλευόντωσαν</w> δὲ
+                        <num type="cardinal" value="2"><w lemma="δύο">δύ'</w></num> <w lemma="ἔτος">ἔτη</w>, <w lemma="ἀποκληρόω">ἀποκληρωσάντων</w> δὲ τῶι
+                    <lb n="18"/><num type="ordinal" value="3"><w lemma="τρίτος"><supplied reason="lost">τρ</supplied>ίτωι</w></num> <w lemma="ἔτος">ἔτει</w> τοὺς 
+                        <num type="fraction" value="0.5"><w lemma="ἥμισυς">ἡμίσεις</w></num>· <w lemma="διαλείπω">διαλειπόντωσαν</w> δὲ <num type="cardinal" value="2"><w lemma="δύο">δύ'</w></num> 
+                        <w lemma="ἔτος">ἔτη</w>. <w lemma="ἐάν">Ἐὰν</w> δὲ μὴ <w lemma="γίγνομαι">γίνηται</w> ὁ <w lemma="ἀριθμός">ἀ<supplied reason="lost">ρι</supplied><lb n="19" break="no"/><supplied reason="lost">θμ</supplied>ὸς</w> <w lemma="προσκληρόω">προσκληρούντων</w> <w lemma="ἐκ">ἐκ</w> τῶν 
+                        <num type="cardinal" value="40"><w lemma="τεσσαράκοντα">τεσσαράκοντα</w></num> <w lemma="ἔτος">ἐτῶν</w>. <space extent="unknown" unit="character"/>
+                    
+                    <lb n="19a"/><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied>
+                    <lb n="20"/><rs type="office" key="geron"><w lemma="γέρων"><supplied reason="lost">Γέ</supplied>ροντε<supplied reason="omitted">ς</supplied></w></rs> δ'
+                        <w lemma="εἰμι">ἔστωσαν</w> <num type="total" value="101"><num type="cardinal" value="100"><w lemma="ἑκατόν">ἑκατὸν</w></num> <num type="cardinal" value="1"><w lemma="εἷς">εἷς</w></num></num> 
+                        <w lemma="ὅς1" type="relative">οὓς</w> <w lemma="ἄν">ἂν</w> <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name></persName> <w lemma="καθίστημι">καταστήσηι</w>· 
+                        <w lemma="κατά">κατὰ</w> δὲ τ<supplied reason="lost">ὸ</supplied><lb n="21" break="no"/><supplied reason="lost">ν</supplied> <w lemma="ἀποθνήσκω"><supplied reason="lost">ἀ</supplied>ποθανόντα</w> <w lemma="ἤ">ἢ</w> 
+                        <w lemma="ἀφίστημι">ἀποσταθέντα</w> <w lemma="εἰς">εἰς</w> τοὺς <num type="total" value="101"><num type="cardinal" value="100"><w lemma="ἑκατόν">ἑκατὸν</w></num> καὶ
+                        <num type="cardinal" value="1"><w lemma="εἷς">ἕνα</w></num></num> οἱ <num type="cardinal" value="10000"><w>μύριοι</w></num> <w lemma="ἄλλος">ἄλλον</w> 
+                        <w lemma="αἱρέω">α<supplied reason="lost">ἱρ</supplied><lb n="22" break="no"/><supplied reason="lost">είσ</supplied>θων</w> μὴ <w lemma="νέος">νεώτερον</w> <num type="cardinal" value="50"><w lemma="πεντήκοντα">πεντήκοντα</w></num> <w lemma="ἔτος">ἐτῶν</w>. 
+                        Τοὺς δὲ <rs type="office" key="geron"><w lemma="γέρων">γέροντας</w></rs> μὴ <w lemma="ἔξεστι">ἐξέστω</w> <w lemma="αἱρέω">α<supplied reason="lost">ἱ</supplied><lb n="23" break="no"/><supplied reason="lost">ρ</supplied>εῖσθαι</w> <w lemma="εἰς">εἰς</w> <w lemma="ἀρχή">ἀρχὴν</w> <w lemma="μηδείς">μηδεμίαν</w> <w lemma="ἄλλος">ἄλλην</w> 
+                        <w lemma="ἤ">ἢ</w> <rs type="office" key="strategos"><w lemma="στρατηγός">στρατηγοὺς</w></rs> <w lemma="ἐν">ἐν</w> <w lemma="πόλεμος">πολέμωι</w>. Τοὺς δὲ
+                    <lb n="24"/><rs type="office" key="eponymous priest"><w lemma="ἱαρεύς">ἱαρῆας</w></rs> τοῦ <persName type="divine" ref="#Apollo"><name nymRef="Ἀπόλλων">Ἀπόλλωνος</name></persName> 
+                        <w lemma="αἱρέω">αἱρείσθων</w> <w lemma="ἐκ">ἐκ</w> τῶν <rs type="office" key="geron"><w lemma="γέρων">γερόντων</w></rs> τῶμ 
+                        μὴ <w lemma="ἱαριτεύω">ἱα<supplied reason="lost">ριτ</supplied><lb n="25" break="no"/><supplied reason="lost">ε</supplied>υωκότων</w>, μὴ <w lemma="νέος">νεωτέρ<choice><corr>ω</corr><sic>ο</sic></choice>ν</w> 
+                        <num type="cardinal" value="50"><w lemma="πεντήκοντα">πεντήκοντα</w></num> <w lemma="ἔτος">ἐτῶν</w>. <space extent="unknown" unit="character"/>
+                    
+                    <lb n="25a"/><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied>
+                    <lb n="26"/><rs type="office" key="strategos"><w lemma="στρατηγός">Στρατηγὸς</w></rs> δὲ <w lemma="εἰμι">ἔστω</w> <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name></persName> 
+                        <w lemma="ἀεί">ἀεί</w>. <w lemma="πρός">Πρὸς</w> δὲ <w lemma="οὗτος">τοῦτον</w> <w lemma="αἱρέω">αἱρείσθωσαν</w> <rs type="office" key="strategos"><w lemma="στρατηγός"><supplied reason="lost">στρατη</supplied><lb n="27" break="no"/>γοὺς</w></rs> <num type="cardinal" value="5"><w lemma="πέντε">πέντε</w></num> <w lemma="ἐκ">ἐκ</w> τῶν <w lemma="μήπω">μήπω</w> 
+                        <rs type="office" key="strategos"><w lemma="στρατηγέω">ἐστρατηγηκότων</w></rs> μὴ <w lemma="νέος">νεωτέρους</w><num type="cardinal" value="50"><w lemma="πεντήκοντα">
+                            πεντή<unclear>κ</unclear><supplied reason="lost">οντα</supplied></w></num>
+                    <lb n="28"/><w lemma="ἔτος">ἐτῶν</w>· <w lemma="ἐάν">Ἐὰν</w> δὲ <w lemma="πόλεμος">πόλεμος</w> <w lemma="εἰμι">ἦι</w>, <w lemma="ἐκ">ἐκ</w> <w lemma="πᾶς">παντὸς</w> 
+                        τοῦ <w lemma="πολίτευμα">πολιτεύματος</w>. <w lemma="ἐάν">Ἐὰν</w> δὲ <w lemma="πόλεμος">πόλεμ<supplied reason="lost">ος</supplied></w>
+                    <lb n="29"/><w lemma="προσγίγνομαι">προσγένηται</w> <w lemma="ἄλλος">ἄλλος</w> <w lemma="τις">τις</w> καὶ μὴ <placeName type="ethnic" nymRef="#Λιβυκός">Λιβυκός</placeName>, οἱ 
+                        <num type="cardinal" value="10000"><w>μύριοι</w></num> <w lemma="διαγιγνώσκω">διαγνόντωσαν</w> <w lemma="πότερος">πό<supplied reason="lost">τερον</supplied></w>
+                    <lb n="30"/><supplied reason="lost">οἱ</supplied> <w lemma="αὐτός">α<supplied reason="lost">ὐ</supplied>τοὶ</w> <rs type="office" key="strategos"><w lemma="στρατηγέω">
+                            στρατηγῶσιν</w></rs> <w lemma="ἤ">ἢ</w> μή· <w lemma="ἐάν">ἐὰν</w> δὲ <w lemma="δοκέω">δόξηι</w> μὴ τοὺς <w lemma="αὐτός">αὐτὸς</w>, <w lemma="αἱρέω">αἱρείσθωσαν</w> 
+                        <w lemma="ἐκ">ἐκ</w> <w lemma="πᾶς">παντ<supplied reason="lost">ὸς</supplied></w>                    
+                    <lb n="31"/>τοῦ <w lemma="πολίτευμα">πολιτεύματος</w>. <space extent="unknown" unit="character"/>
+                    
+                    <lb n="31a"/><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied>                    
+                    <lb n="32"/><w lemma="εἰμι">Ἔστωσαν</w> δὲ καὶ <rs type="office" key="nomophylax"><w lemma="νομοφύλαξ">νομοφ<choice><corr>ύ</corr><sic>ψ</sic></choice>λακες</w></rs> <num type="cardinal" value="9">
+                            <w lemma="ἐννῆ">ἐννῆ</w></num> <w lemma="ἐκ">ἐκ</w> τῶν μὴ <rs type="office" key="nomophylax"><w lemma="νομοφυλακέω">νενομοφυλακηκότων</w></rs> <space quantity="3" unit="character"/>
+                    <lb n="33"/>καὶ <rs type="office" key="ephoros"><w lemma="ἔφορος">ἔφοροι</w></rs> <num type="cardinal" value="5"><w lemma="πέντε">πέντε</w></num> <w lemma="ἐκ">ἐκ</w> 
+                        τῶμ μὴ <rs type="office" key="ephoros"><w lemma="ἐφορεύω">ἐφορευ<surplus>ω</surplus>κότων</w></rs>, μὴ <w lemma="νέος">νεώτεροι</w> <w lemma="ἔτος">ἐτῶν</w> <num type="cardinal" value="50"><w lemma="πεντήκοντα">πεντήκοντα</w></num>.
+                    
+                    <lb n="33a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="34"/><w lemma="πράσσω">Πρασσόντωσαν</w> δὲ οἱ μὲγ <rs type="office" key="geron"><w lemma="γέρων">γέροντες</w></rs> <w lemma="ὅς1" type="relative">ἃ</w> οἱ 
+                        <rs type="office" key="geron"><w lemma="γέρων">γέροντες</w></rs> <w lemma="ἐπί">ἐπ'</w> <w lemma="εἰρήνη">ε<subst><del rend="corrected">ρ</del><add place="overstrike">ἰ</add></subst>ρήνης</w> <w lemma="πράσσω">ἔπρασσον</w>, <supplied reason="lost">ἡ</supplied> <supplied reason="omitted">δὲ</supplied>
+                    <lb n="35"/><rs type="office" key="boule"><w lemma="βουλή">βουλὴ</w></rs> <w lemma="ὅς1" type="relative">ἃ</w> ἡ <rs type="office" key="boule"><w lemma="βουλή">βουλή</w></rs>,
+                        οἰ δὲ <num type="cardinal" value="10000"><w>μύριοι</w></num> <w lemma="ὅς1" type="relative">ἃ</w> οἱ <num type="cardinal" value="1000"><w lemma="χίλιοι">χίλιοι</w></num>. 
+                        <w lemma="πᾶς">Πάσας</w> τὰς <w lemma="θάνατος">θανάτου</w> <w lemma="δίκη">δίκας</w> <w lemma="δικάζω">δικαζ<supplied reason="lost">όν</supplied><lb n="36" break="no"/>των</w> οἱ <rs type="office" key="geron"><w lemma="γέρων">γέροντες</w></rs> καὶ ἡ <rs type="office" key="boule"><w lemma="βουλή">βουλὴ</w></rs> 
+                        καὶ <w lemma="ἐκ">ἐκ</w> τῶν <num type="cardinal" value="10000"><w lemma="μύριοι">μυρίων</w></num> <num type="cardinal" value="1500">
+                        <num value="1000"><w lemma="χίλιοι">χίλιοι</w></num> καὶ <num value="500"><w lemma="πεντακόσιοι">πεντακόσιοι</w></num></num> <w lemma="ὅς1" type="relative">οἳ</w> <w lemma="ἄν">ἂν</w>
+                    <lb n="37"/><w lemma="κλῆρος">κλήρωι</w> <w lemma="λαγχάνω">λάχωσι·</w> <w lemma="χράω">χρέσθωσαν</w> δὲ τοῖς <w lemma="νόμος">νόμοις</w> τοῖς 
+                        <w lemma="πρότερος">προ<supplied reason="lost">τέ</supplied>ροις</w> <w lemma="ὅσος">ὅσοι</w> μὴ <w lemma="ὑπεναντίος">ὑπεναντίοι</w> <w lemma="ὅδε"><supplied reason="lost">τῶι</supplied><lb n="38" break="no"/>δε</w> τῶι <w lemma="διάγραμμα">διαγράμματι</w>. <w lemma="ὑπεύθυνος">Ὑπεύθυνοι</w> δὲ <w lemma="εἰμι">ἔστωσαν</w> αἱ 
+                        <w lemma="ἀρχή">ἀρχαὶ</w> <w lemma="κατά">κατὰ</w> τοὺς <w lemma="νόμος">νόμους</w> τοὺς <w lemma="εἰμι"><supplied reason="lost">ὄν</supplied><lb n="39" break="no"/>τα<supplied reason="lost">ς</supplied></w>. <w lemma="ὅστις">Ὅτωι</w> δ' <w lemma="ἄν">ἂν</w> <w lemma="ἄγω">ἀγομένωι</w> 
+                        <w lemma="ὑπό">ὑπὸ</w> τῶν <rs type="office" key="strategos"><w lemma="στρατηγός">στρατηγῶν</w></rs> οἱ <rs type="office" key="geron"><w lemma="γέρων">γέροντες</w></rs> 
+                        καὶ ἡ <rs type="office" key="boule"><w lemma="βουλή">βουλὴ</w></rs> <w lemma="θάνατος">θάνατον</w> <w lemma="κρίνω">κ<unclear>ρ</unclear><supplied reason="lost">ίν</supplied><lb n="40" break="no"/>ω<supplied reason="lost">σ</supplied>ι</w>, <w lemma="ἔξεστι">ἐξέστω</w> <w lemma="αὐτός">αὐτῶι</w> <w lemma="ὁπότερος">ὁπότερον</w> 
+                        <w lemma="ἄν">ἂν</w> <w lemma="βούλομαι">βουλήται</w> <w lemma="ἤ">ἢ</w> <w lemma="ἐν">ἐν</w> τοῖς <w lemma="νόμος">νόμοις</w> <w lemma="δικάζω">δικάσασθαι</w> <w lemma="ἤ">ἢ</w> <w lemma="ἐν">ἐν</w> 
+                        <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτ<supplied reason="lost">ολε</supplied><lb n="41" break="no"/><unclear>μ</unclear>αίω</name></persName> <w lemma="ἔτος">ἔτη</w> <num type="cardinal" value="3"><w lemma="τρεῖς">τρία</w></num>. Τὸ δὲ
+                        <w lemma="λοιπός">λοιπὸν</w> <w lemma="ἐν">ἐν</w> τοῖς <w lemma="νόμος">νόμοις</w> <w lemma="δικάζω">δικαζέσθων</w>. <w lemma="φυγάς">Φυγάδ<choice><corr>ο</corr><sic>α</sic></choice>ς</w> 
+                        δὲ μὴ <w lemma="καταδικάζω">κα<supplied reason="lost">τα</supplied><lb n="42" break="no"/>δικα<unclear>ζέσ</unclear>θων</w> <w lemma="ἄτερ">ἄτερ</w> τῆς <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολεμαίου</name></persName> 
+                        <w lemma="γνώμη">γνώμης</w>. <space extent="unknown" unit="character"/>
+                    
+                    <lb n="42a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="43"/><w lemma="ὅς1">Ὅ<unclear>ς</unclear></w> <w lemma="ἄν"><unclear>ἂν</unclear></w> <unclear>δ</unclear>'<w lemma="ἐκ">ἐκ</w> τοῦ 
+                        <w lemma="πολίτευμα"><unclear>π</unclear><supplied reason="lost">ολιτε</supplied>ύματος</w> <w lemma="δημόσιος">δημοσίαι</w> <w lemma="ἰατρεύω">ἰατρεύηι</w> 
+                        <w lemma="ἤ">ἢ</w> <w lemma="παιδοτριβέω">παιδοτριβῆι</w> <w lemma="ἤ">ἢ</w> <w lemma="διδάσκω">διδάσκ<supplied reason="lost">ηι</supplied></w>
+                    <lb n="44"/><w lemma="τοξεύω">το<supplied reason="lost">ξεύε</supplied>ιν</w> <w lemma="ἤ">ἢ</w> <w lemma="ἱππεύω">ἱππε<supplied reason="lost">ύε</supplied>ιν</w> 
+                        <w lemma="ἤ">ἢ</w> <w lemma="ὁπλομαχέω">ὁπλομαχεῖν</w> <w lemma="ἤ">ἢ</w> <w lemma="κηρύσσω">κηρ<supplied reason="lost">ύσ</supplied>σηι</w>
+                        <w lemma="ἐν">ἐν</w> <w lemma="πρυτανεῖον">βρυταν<unclear>είωι</unclear></w> μὴ <w lemma="συμπορεύω">συνπορε<supplied reason="lost">υέσ</supplied><lb n="45" break="no"/>θω</w> <w lemma="μυριακός"><supplied reason="lost">μυ</supplied>ρ<supplied reason="lost">ι</supplied>ακὰς</w> <w lemma="ἀρχή">ἀρχὰς</w>, 
+                        <w lemma="ὅς1" type="relative">ὃς</w> <w lemma="ἄν">ἂν</w> <w lemma="οὗτος">τούτων</w> <w lemma="τις"><unclear>τι</unclear></w> <w lemma="ποιέω"><unclear>ποίηι</unclear></w>
+                    
+                    <lb n="45a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="46"/><w lemma="ὅς1" type="relative">Ὃς</w> <w lemma="ἄν"><supplied reason="lost" evidence="previouseditor">ἂν</supplied></w> τῶν <w lemma="πολίτης">πολιτῶν</w> 
+                        <w lemma="κάμνω">κάμηι</w> <w lemma="ἤ">ἢ</w> <w lemma="συντίθημι">συνθῆι</w> τὸν <gap reason="lost" quantity="13" unit="character" precision="low"/>σίας 
+                        <w lemma="ἤ">ἢ</w> <w lemma="πολυδικέω">πολυδικ<lb n="47" break="no"/>ῆι</w> <w lemma="ἤ">ἢ</w> <w lemma="προδικία"><supplied reason="lost" cert="low">πρ</supplied>οδικίας</w> <gap reason="lost" quantity="30" unit="character" precision="low"/> 
+                        <w lemma="παλιγκαπηλεύω">παλινκαπηλ<unclear>ε</unclear><supplied reason="lost">ύηι</supplied></w>,
+                    <lb n="48"/><w lemma="ἐν">ἐν</w> τῆι <w lemma="ἀτιμία">ἀτι<supplied reason="lost" evidence="previouseditor">μίαι</supplied></w> <w lemma="εἰμι"><supplied reason="lost">ἒστωσαν</supplied></w> 
+                        <gap reason="lost" quantity="15" unit="character" precision="low"/>ηται <w lemma="ἤ">ἢ</w> <w lemma="λιθουργέω">λιθουργήσει</w> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+                    <lb n="49"/><w lemma="ἤ">ἢ</w> <w lemma="φορτηγός"><supplied reason="lost">φ</supplied>ορτηγὸς</w> <w lemma="γίγνομαι">γένη<supplied reason="lost">τ</supplied>αι</w> <w lemma="ἤ">ἢ</w> 
+                        <w lemma="ἄλλος">ἄλλο</w> <w lemma="τις">τ<unclear>ι</unclear></w> <w lemma="βαναυσοτεχνέω">βα<unclear>ν</unclear>α<supplied reason="lost">υσοτεχνήσ</supplied>ηι</w> <w lemma="ἤ">ἢ</w> <w lemma="συντίθημι">σ<unclear>υ</unclear>νθῆι</w>,
+                        <w lemma="ὅτι">ὅτι</w> <w lemma="βαναυσεργασία">βαν<supplied reason="lost">αυσ</supplied><lb n="50" break="no"/>ε<supplied reason="undefined" evidence="previouseditor">ργα</supplied>σίαν</w> <w lemma="ἐργάζομαι">ἠργάσατο</w> τοὺς <orig>αν</orig><gap reason="lost" quantity="9" unit="character" precision="low"/> <w lemma="εἰμι"><supplied reason="lost">ἔστω</supplied></w> <rs type="office" key="strategos"><w lemma="στρατηγός"><unclear>στρατη</unclear>γὸς</w></rs> 
+                        <w lemma="μηδέποτε">μηδέποτε</w>.
+                    
+                    <lb n="50a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="51"/><w lemma="ὅς1" type="relative">Ὃς</w> <w lemma="ἄν">ἂν</w> τὰς <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολε<unclear>μα</unclear>ίου</name></persName> 
+                        <w lemma="γνώμη"><unclear>γνώμας</unclear></w> <w lemma="λύω"><supplied reason="lost">λύσηι</supplied></w> <w lemma="ὅς1" type="relative"><supplied reason="lost">ἃς</supplied></w> <w lemma="ἐς"><supplied reason="lost">ἐς</supplied> </w>
+                    <placeName type="ethnic" nymRef="#Κυρηναῖος"><supplied reason="lost">Κυρην</supplied>αίους</placeName> <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name></persName> 
+                        <w lemma="καθίζω">κα<supplied reason="lost">θεῖ</supplied>
+                    <lb n="52" break="no"/>σε</w>, <w lemma="θανάσιμος">θανάσιμος</w> <w lemma="εἰμι">ἔσται</w>. <space extent="unknown" unit="character"/>
+                    
+                    <lb n="52a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="53"/><w lemma="ὅσος">Ὅσα</w> οἱ <w lemma="φυγάς">φυγάδε<supplied reason="lost">ς</supplied></w> <w lemma="χρῆμα"><supplied reason="lost" cert="low">χρ</supplied>ήμ<supplied reason="lost">ατα</supplied></w> 
+                        <gap reason="lost" quantity="15" unit="character" precision="low"/><orig>ο</orig> μὲν <w lemma="τίμιος">τιμίων</w> κα<unclear>ὶ</unclear>
+                    <lb n="54"/><w lemma="ἄδικος">ἀδίκους</w> <w lemma="δέχομαι"><unclear>ἐ</unclear>δέξα<unclear>ντο</unclear></w> ν<gap reason="lost" quantity="20" unit="character" precision="low"/> 
+                        <w lemma="πρός"><unclear>πρὸς</unclear></w> <w lemma="ἀλλήλων">ἀλλήλους</w>
+                    <lb n="55"/>τὰ <w lemma="ὕστερος">ὕστατα</w>. <w lemma="κύριος">Κύρια</w> τὰ <w lemma="χρῆμα">χρήμ<unclear>ατα</unclear></w> 
+                        <w lemma="εἰμι"><unclear>ἔστω</unclear></w> τῶν <w lemma="ἴδιος">ἱδίων</w>. <space quantity="4" unit="character"/>
+
+                    <lb n="55a"/><milestone rend="paragraphos" unit="undefined"/>
+                    <lb n="56"/><w lemma="νόμος">Νόμος</w> <w lemma="εἰμι">ἔσται</w> <placeName type="ethnic" nymRef="#Κυρηναῖος">Κυρηναίοις</placeName> <gap reason="lost" extent="unknown" unit="character"/>νους 
+                        τὰ <w lemma="χρέος">χρ<supplied reason="lost">έ</supplied><lb n="57" break="no"/>α</w> <w lemma="πᾶς">πάντα</w> τὰ <orig><unclear>εκλ</unclear><supplied reason="undefined" evidence="previouseditor">ο</supplied></orig> <gap reason="lost" quantity="10" precision="low" unit="character"/><orig><unclear>σθη</unclear></orig><gap reason="lost" quantity="13" precision="low" unit="character"/> <w part="F"><unclear>σίαν</unclear></w> 
+                        <w lemma="ἀναιρέω">ἀναιρεῖσθ<supplied reason="lost">αι</supplied></w>
+                    <lb n="58"/><supplied reason="lost">τὰ</supplied> <w lemma="χρῆμα">χρήματα</w> <w lemma="ἀπό">ἀπὸ</w> <gap reason="lost" quantity="27" unit="character" precision="low"/>
+                        <w lemma="πρός">πρὸς</w> <w lemma="ἀλλήλων">ἀλλήλου<supplied reason="lost">ς</supplied></w>
+                    <lb n="59"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ων <w lemma="αἰτέω">αἰτείσθωσαν</w> οἱ <gap reason="lost" quantity="20" unit="character" precision="low"/><w part="F" lemma="-σία"/><unclear>σ</unclear><supplied reason="lost">ί</supplied>αι 
+                        καὶ τῆι <rs type="office" key="boule"><w lemma="βουλή">βουλῆι</w></rs> καὶ τοῖ<supplied reason="lost">ς</supplied>                    
+                    <lb n="60"/><w lemma="ἐκ"><supplied reason="lost">ἐκ</supplied></w> τῶν <rs type="office" key="nomothetes"><w lemma="νομοθέτης"/>νομο<supplied reason="lost">θ</supplied><unclear>ε</unclear>τῶν</rs> ἐπαι<gap reason="lost" quantity="16" unit="character" precision="low"/> 
+                        <w lemma="ἄλλος"><unclear>ἄ</unclear>λ<unclear>λοι</unclear></w> <w lemma="πᾶς">πάντες</w> οἱ <w lemma="ἐν">ἐν</w>
+                    <lb n="61"/>τῆι <w lemma="πολιτεία">πολιτείαι</w> τὰ <w lemma="δάνειον">δάνεια</w> <gap reason="lost" unit="character" quantity="17" precision="low"/> <w lemma="δέω">δέονται</w>
+                        <supplied reason="undefined" evidence="previouseditor">οἱ</supplied> <w lemma="ἐν">ἐν</w> τῆι <w lemma="πόλις">πόλει</w> <w lemma="ὑποτίθημι">ὑπο<lb n="62" break="no"/>θέμεν</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="πρᾶσις">π<supplied reason="lost">ρ</supplied>ᾶ<supplied reason="lost">σιν</supplied></w> <gap reason="lost" unit="character" quantity="22" precision="low"/>
+                        <supplied reason="lost">τῶ</supplied>ν <w lemma="μισθοφόρος">μισθοφόρων</w> τῶμ <persName type="ruler" key="Ptolemy (satrap)"><name nymRef="#Πτολεμαῖος">Π<lb n="63" break="no"/>τολεμαίωι</name></persName> <w lemma="οἰκία">οἰκίας</w> <w lemma="ἤ">ἢ</w> <w lemma="ἀγρός">ἀγ<unclear>ροὺς</unclear></w> 
+                        <w lemma="πράσσω"><unclear>ἔπρασσον</unclear></w> <gap reason="lost" quantity="13" unit="character" precision="low"/> <w lemma="ὅσος"><unclear>ὅσ</unclear>α</w> 
+                        <w lemma="διά">δι'</w> <w lemma="ἀλήθεια">ἀληθείας</w>
+                    <lb n="64"/><unclear>κ</unclear>αὶ <w lemma="ἁγνεία">ἁγ<supplied reason="lost" cert="low">νείας</supplied></w> <w lemma="τις"><unclear>τι</unclear>σιν</w> <w lemma="κομίζω"/>κομι<unclear>σ</unclear><supplied reason="lost" cert="low">θέντα</supplied> <gap reason="lost" quantity="15" unit="character" precision="low"/>τωσαν τὰ <w lemma="χρῆμα">χρήματα</w> τοῖς
+                    <lb n="65"/><rs type="office" key="tamias"><w lemma="ταμίας"><unclear>ταμί</unclear>αις</w></rs> <w lemma="κατά">κατὰ</w> τὸ <w lemma="διάγραμμα">διάγραμμα</w>· 
+                        τῶν δὲ <w lemma="ἄλλος">ἄλλων</w> <w lemma="πᾶς">πάντων</w> τῶν <w lemma="ἔχω">ἐχομένων</w> <w lemma="διά">δι'</w> <w lemma="ἀλήθεια">ἀληθ<lb n="66" break="no"/><supplied reason="lost">εί</supplied>ας</w> δ<gap reason="lost" quantity="2" unit="character"/>π<gap reason="lost" quantity="3" unit="character"/>σαν 
+                            <gap reason="lost" quantity="12" unit="character" precision="low"/> <w lemma="ἀγρός"><unclear>ἀ</unclear>γρῶ<unclear>ν</unclear></w> καὶ τῆι <w lemma="">πόλει</w> 
+                        τὰς <w lemma="τιμή">τιμὰς</w> <w lemma="ὡς">ὡς</w> <w part="I" lemma="θύω">θυ<gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="67" break="no"/><gap reason="lost" quantity="2" unit="character"/></w> <orig>λ</orig><gap reason="lost" quantity="5" unit="character"/><orig>ρα</orig><gap reason="lost" quantity="5" unit="character"/><orig><unclear>τ</unclear>ε<choice><unclear>χ</unclear><unclear>μ</unclear></choice></orig><gap reason="lost" quantity="3" unit="character"/><orig>α</orig><gap reason="lost" quantity="1" unit="character"/><orig>σαν</orig><gap reason="lost" quantity="6" precision="low"/> <w lemma="δίδωμι"><supplied reason="lost" cert="low">διδ</supplied>ότω</w> <w lemma="ἀπό">ἀ<unclear>πὸ</unclear></w> τῶν <w lemma="πρόσοδος">προσ<supplied reason="undefined" evidence="previouseditor">όδ</supplied>ω<supplied reason="lost">ν</supplied></w> <supplied reason="lost">καὶ</supplied>
+                    <lb n="68"/><w lemma="οὐσία">οὐσιῶν</w>, <w lemma="εὐθέως">εὐθέως</w> <unclear>κ</unclear>ηρυ<gap reason="lost" quantity="2" unit="character"/><orig>α</orig><gap reason="lost" quantity="2" unit="character"/><orig>ασασ</orig><gap reason="lost" atLeast="10" atMost="11" unit="character"/><choice><unclear>η</unclear><unclear>π</unclear><unclear>μ</unclear></choice><gap reason="lost" quantity="1" unit="character"/>ειαν 
+                            καὶ τὰ <w lemma="ἄλλος">ἄλλα</w> <unclear>κ</unclear><supplied reason="lost">αὶ</supplied>
+                    <lb n="69"/>τὸς <w lemma="λοιπός">λοιποὺς</w> <w lemma="δοῦλος"><unclear>δού</unclear>λους</w> <w lemma="ἀπολύω">ἀπολυσάντων</w> <w lemma="πρῶτος">πρῶτον</w> οἱ 
+                        <w lemma="δεσπότης"><unclear>δ</unclear>ε<supplied reason="lost">σπ</supplied>όται</w> <w lemma="ὅς1" type="relative">οἳ</w> <w lemma="εἰμι">ἦσαν</w> <w lemma="κατά">κατὰ</w> τοῦ <w lemma="γράμμα"><supplied reason="lost">γρά</supplied><lb n="70" break="no"/><unclear>μ</unclear>μα<unclear>τ</unclear>ος</w> <w lemma="ὡς">ὡς</w> μὴ <w lemma="ἐλεύθερος">ἐλεύ<unclear>θε</unclear>ρα</w> 
+                        <w lemma="πρίαμαι">ἐπρίαντο</w> <w lemma="οἰκία">οἰ<unclear>κ</unclear>ίας</w> <w lemma="ἤ">ἢ</w> <w lemma="ἀγρός">ἀγρούς</w>, <w lemma="ἄκυρος">ἄκυρος</w> 
+                        <w lemma="αὐτός">αὐτοῖς</w> <w lemma="εἰμι">ἔστω</w> ἡ <w lemma="ὠνή"><unclear>ὠ</unclear><supplied reason="lost">νή</supplied></w>·
+                    <lb n="71"/>ἐν τοῖς <gap reason="lost" quantity="12" unit="character" precision="low"/> <w lemma="μηδείς"><unclear>μη</unclear>δένα</w> ο<gap reason="lost" quantity="2" unit="character"/><supplied reason="lost">ει</supplied>ν μηδὲ <w lemma="δοῦλος">δοῦλον</w>· 
+                        <w lemma="ὅς1" type="relative">ὃς</w> δ' <w lemma="ἄν">ἂν</w> <w lemma="φρουρέω">φρουρῶ<supplied reason="lost">ν</supplied></w>
+                    <lb n="72"/><w lemma="αὐτομολέω"><unclear>αὐτομολήσηι</unclear></w>, <supplied reason="lost">ἡ</supplied> <w lemma="δίκη"><supplied reason="lost">δίκη</supplied></w> 
+                        <w lemma="θάνατος">θάνατος</w> <w lemma="εἰμι">ἔσται</w>. <w lemma="ἀρχή">Ἀρχαί</w>· <rs type="office" key="eponymous priest"><w lemma="ἱαρεύς">ἱαρεύς</w></rs> 
+                        <w lemma="ἐς">ἐς</w> <num type="ordinal" value="3"><w lemma="τρίτος">τρίτον</w></num> <w lemma="ἔτος">ἔτ<supplied reason="lost">ος</supplied></w>                    
+                    <lb n="73"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65292"><name nymRef="Πειθαγόρας">Πειθαγόρας</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62903"><name nymRef="#Αννικερις">Αννικεριος</name></persName></persName>. 
+                                <rs type="office" key="strategos"><w lemma="στραταγός">Στραταγοὶ</w></rs>· <space quantity="2" unit="character"/>
+                    <lb n="74"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64509"><name nymRef="#Κάλλιππος"><supplied reason="lost">Κ</supplied>άλλ<unclear>ι</unclear>ππος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64969"><name nymRef="#Μελάνιππος">Μελανίππω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65334"><name nymRef="#Πολιάνθης">Πολιάνθης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63820"><name nymRef="#Εὐκλείδας">Εὐκλείδα</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63838"><name nymRef="#Εὐκλῆς">Εὐκλῆς</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64240"><name nymRef="#Θεύχρηστος">Θευχρήστω</name></persName></persName>,
+                    <lb n="75"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64525"><name nymRef="#Κάλλις"><supplied reason="lost">Κ</supplied><unclear>ά</unclear>λλις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65030"><name nymRef="#Μνάσαρχος">Μνασάρχω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64746"><name nymRef="#Κυδίμαχος"/><name>Κυδίμαχος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63976"><name nymRef="#Ζευξίμαχος">Ζευξιμάχω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65921"><name nymRef="#Φιλῖνος">Φιλῖνος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63659"><name nymRef="#Ἔξακις">Ἐξάκιος</name></persName></persName> <space atLeast="4" atMost="5" unit="character"/>,
+                    <lb n="76"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64510"><name nymRef="#Κάλλιππος">Κάλλιππος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63764"><name nymRef="#Ἐτέαρχος">Ἐτεάρχω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62809"><name nymRef="#Ἀμμώνιος">Ἀμμώνιος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64780"><name nymRef="#Λέντιχος"><unclear>Λ</unclear>εντίχω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63057"><name nymRef="#Ἀριστανδρίδας">Ἀριστανδρίδας</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65651"><name nymRef="#Στράτος">Στράτ<supplied reason="lost">ω</supplied></name></persName></persName>,
+                    <lb n="77"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64659"><name nymRef="#Κλευγένης">Κλευγένης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65201"><name nymRef="#Ξοῦθος">Ξούθω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63043"><name nymRef="#Ἀρίμμας">Ἀρί<unclear>μ</unclear>μας</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64165"><name nymRef="#Θεύδωρος">Θευδώρω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64166"><name nymRef="#Θεύδωρος">Θεύδωρος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63765"><name nymRef="#Ἐτέαρχος">Ἐτεάρχω</name></persName></persName> <space atMost="10" unit="character"/>.
+                    <lb n="78"/><rs type="office" key="nomophylax"><w lemma="νομοφύλαξ">Νoμοφύλακες</w></rs>· <space extent="unknown" unit="character"/>
+                    <lb n="79"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63209"><name nymRef="#Ἀριστοφῶν">Ἀριστοφῶν</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63958"><name nymRef="#Εὖφρις">Εὔ<unclear>φρ</unclear>ιος</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65464"><name nymRef="#Πρᾶτις">Πρ<supplied reason="lost">ᾶτι</supplied>ς</name> <persName type="attested" key=""><name nymRef="#Κυρβασίας">Κυρβασία</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62902"><name nymRef="#Αννικερις">Αννικερις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63766"><name nymRef="#Ἐτέαρχος">Ἐτεάρχω</name></persName></persName><space atMost="10" unit="character"/>,
+                    <lb n="80"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62579"><name nymRef="#Ἁγησίστρατος">Ἁγησί<supplied reason="lost">στρα</supplied>τος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65136"><name nymRef="#Νικάσιος">Νικασίω</name></persName></persName>,
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65477"><name nymRef="#Πρατομήδης">Πρα<supplied reason="lost">το</supplied><unclear>μήδ</unclear>ης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64565"><name nymRef="#Καρνήδας">Καρνήδα</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62556"><name nymRef="#Ἁγήσανδρος">Ἁγήσανδρος</name> <persName type="attested" key=""><name nymRef="#Κλεάνωρ">Κ<supplied reason="lost">λεάνορος</supplied></name></persName></persName>,
+                    <lb n="81"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63361"><name nymRef="#Βακαλ"><unclear>Β</unclear>α<unclear>κ</unclear>αλ</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62641"><name nymRef="#Αἰγλάνωρ">Αἰγλάνορος</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62578"><name nymRef="#Ἁγησίστρατος">Ἁγησίστρατος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63220"><name nymRef="#Ἀρίστων">Ἀρίστωνος</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63472"><name nymRef="#Δᾶμις">Δᾶμις</name> <persName type="attested" key=""><name nymRef="#Ναῦσις">Ναύ<supplied reason="lost">σιος</supplied></name></persName></persName><space atMost="4" unit="character"/>.
+                    <lb n="82"/><rs type="office" key="ephoros"><w lemma="ἔφορος">Ἔφοροι</w></rs>· <space extent="unknown" unit="character"/>
+                    <lb n="83"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65478"><name nymRef="#Πρατομήδης">Πρατομήδης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65943"><name nymRef="#Φίλιππος">Φιλίππω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65377"><name nymRef="#Πολυκλῆς">Πολυκλῆς</name> <name><gap reason="lost" extent="unknown" unit="character"/></name></persName>, 
+                                <persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name nymRef="#_ινος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ίνω</seg></name></persName></persName> <space atMost="10" unit="character"/>,
+                    <lb n="84"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62868"><name nymRef="#Ἀνδροκλῆς">Ἀνδροκλῆς</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64493"><name nymRef="#Καλλίμαχος">Καλλιμάχω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65190"><name nymRef="#Ξηνόφαντος">Ξηνόφαντος</name> <name><gap reason="lost" extent="unknown" unit="character"/></name></persName> <space extent="unknown" unit="character"/>.
+                    <lb n="85"/><rs type="office" key="nomothetes"><w lemma="νομοθέτης">Νομοθέται</w></rs>· <space extent="unknown" unit="character"/>
+                    <lb n="86"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65478"><name nymRef="#Πρατομήδης">Πρατομήδης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65943"><name nymRef="#Φίλιππος">Φιλίππ<supplied reason="lost">ω</supplied></name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62579"><name nymRef="#Ἁγησίστρατος"><supplied reason="lost">Ἁ</supplied>γησίστρατος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65136"><name nymRef="#Νικάσιος">Νικασίω</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65496"><name nymRef="#Πρῶρος">Πρῶρ<supplied reason="lost">ος</supplied></name>
+                    <lb n="87"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63210"><name nymRef="#Ἀριστοφῶν"><unclear>Ἀ</unclear>ριστοφῶντος</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64747"><name nymRef="#Κυδίμαχος">Κυδίμα<supplied reason="lost">χος</supplied></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62642"><name nymRef="#Αἰγλάνωρ">Αἰγλάνορος</name></persName></persName>, 
+                                <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62868"><name nymRef="#Ἀνδροκλῆς">Ἀνδροκλῆς</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64493"><name nymRef="#Καλλίμαχος">Καλ<supplied reason="lost">λιμάχω</supplied></name></persName></persName>.
+                    <lb n="87a"/><space atLeast="6" unit="line"/>   
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1-88"><note><bibl><ptr target="#rosamilia2023"/></bibl>'s new edition is based upon partial autopsy of the stone and complete study of an ancient plaster moulding. We did not 
+                    register here all minor differences with <bibl><ptr target="#IGCyr"/></bibl>, from unclear to supplied character, nor from formerly seen to now lost.</note></app>
+                    <app loc="1"><lem resp="#oliverio1928a #rosamilia2023">Ἀ<supplied reason="lost">γαθὰ Τύχ</supplied><unclear>α</unclear></lem>
+                        <rdg resp="#IGCyr"><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig> 
+                        <note>Ferri read an alpha at the beginning of the line, but did not take it into account;
+                        Ferri thought there was a line, fully lost, above our line 1 and another line below our line 1 that he supplied as following:
+                        <foreign xml:lang="grc"><gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">τοῦ κοινοῦ πολῖται ἔσονται οἱ πάντες Κυρη</supplied>να<supplied reason="lost">ῖοι · πρὸς δὲ τούτοις</supplied></foreign>
+                        </note></rdg>
+                        <rdg resp="#fraser1958"/> <note>Fraser saw, on the stone, letters on a line below – as Ferri did –, but thought that it would be extremely rash not only to read a line but also
+                        to restore it in the way Ferri did; thus our numbers of lines are the same as Oliverio's and Fraser's</note>
+                    </app>
+                    <app loc="2"><lem resp="#fraser1958"><supplied reason="lost">Πολ</supplied>ῖται ἔσονται οἱ <unclear>ἄνδ</unclear><supplied reason="lost">ρε</supplied>ς ἐξ <supplied reason="lost">ἀνδρὸς Κυρην</supplied><unclear>αίου</unclear></lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Πολῖ</supplied>ται ἔσονται οἱ <supplied reason="lost">ἐλεύθεροι ἐκ πατρὸς Λιβυκ</supplied>οῦ</rdg>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">Πολ</supplied>ῖται ἔσονται ο<supplied reason="lost">ἱ ἄνδ</supplied>ρες ἐκ πα<supplied reason="lost">τρ</supplied>ὸς Κ<supplied reason="lost">υρη</supplied>ναίου καὶ γυναικὸς</rdg>  
+                    </app>
+                    <app loc="2"><lem resp="#SEG">καὶ γυναικὸς Κυρηναίας</lem>
+                        <rdg resp="#ferri1925">καὶ γ<supplied reason="lost">υ</supplied>ναικὸς Κυρηναίας</rdg>
+                        <rdg resp="#oliverio1928a">καὶ γυναικὸς Κυρη<surplus><hi rend="superscript">ν</hi></surplus>ναίας</rdg>
+                    </app>
+                    <app loc="3"><lem resp="#ferri1925"><supplied reason="lost">ἐκ τῶ</supplied>ν Λι<supplied reason="lost">β</supplied>υσσῶν</lem>
+                        <rdg resp="#oliverio1928a #SEG"><supplied reason="lost">ἐκ τ</supplied>ῶν Λιβυσσῶν</rdg>
+                    </app>
+                    <app loc="3"><lem>τοῦ Καταβα<unclear>θ</unclear>μοῦ</lem>
+                        <rdg resp="#ferri1925">τοῦ Καταβα<supplied reason="lost">θμ</supplied>οῦ</rdg>
+                        <rdg resp="#ferri1925">τοῦ Καταβαθμοῦ <note>Wilamowitz's reading</note></rdg>
+                        <rdg resp="#oliverio1928a">τ<add place="overstrike">ο</add>ῦ Καταβα<unclear>θ</unclear>μοῦ</rdg>
+                        <rdg resp="#SEG">τοῦ Καταβα<unclear>θ</unclear>μοῦ</rdg>
+                    </app> 
+                    <app loc="3"><lem resp="#fraser1958">Αὐθαμαλακος <note>with a Greek accent</note></lem>
+                        <rdg resp="#ferri1925">Αὐ<supplied reason="lost">τ</supplied>αμαλακόσιοι</rdg>
+                        <rdg resp="#oliverio1928a">Αὐ<choice><corr>τ</corr><sic>θ</sic></choice>αμάλακος</rdg>
+                    </app>
+                    <app loc="3-4"><lem resp="#oliverio1928a">οἱ ἐκ τῶν ἐ<supplied reason="lost">π<lb break="no"/>οίκ</supplied>ων</lem>
+                        <rdg resp="#ferri1925">οἱ ἐκ τῶν ἐ<supplied reason="lost">κ</supplied><lb break="no"/><supplied reason="lost" cert="low">πεσ</supplied><choice><unclear>ω</unclear><unclear>ο</unclear></choice>ντων</rdg>
+                        </app>
+                    <app loc="4"><lem resp="#oliverio1928a">τῶν πόλεων</lem>
+                        <rdg resp="#ferri1925">τῶ<unclear>μ</unclear> πόλεων</rdg>
+                        <rdg resp="#ferri1925"><orig><unclear>νιτ</unclear>ων</orig> <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="4"><lem resp="#oliverio1928a">ἐπέκεινα τῆς</lem>
+                            <rdg resp="#ferri1925">ἐπέκει<supplied reason="lost">να</supplied> γῆς</rdg>
+                            <rdg resp="#ferri1925">ἐπέκει<supplied reason="lost">να</supplied> τῆς</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem resp="#fraser1958 #laronde1987">Θινίτιος</lem>
+                        <rdg resp="#ferri1925"><unclear>Θ</unclear>ινιτί<unclear>ω</unclear>ν</rdg>
+                        <rdg resp="#oliverio1928a">Θιν<surplus>ιν</surplus>ός</rdg>
+                    </app>
+                    <app loc="4-5"><lem resp="#oliverio1928a">κ<supplied reason="lost">αὶ <lb/> οὓς ἂ</supplied>ν</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">καὶ <lb/> οὓς ἂ</supplied>ν</rdg>
+                    </app>
+                    <app loc="5">
+                        <lem resp="#oliverio1928a">καὶ οὓς ἂν τὸ</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">κα</supplied>τ<supplied reason="lost">ὰ</supplied> φυλήν· <note>reading considered impossible by Wilamowitz and Klaffenbach apud Ferri</note></rdg> 
+                    </app>
+                    <app loc="5"><lem>δέξεται</lem> 
+                        <rdg resp="#oliverio1928a">δέξ<add place="overstrike">ε</add>ται</rdg>
+                        <rdg resp="#ferri1925">δὲ ἔσται</rdg>
+                        <rdg resp="#SEG">δέξ<choice><corr>η</corr><sic>ε</sic></choice>ται</rdg>
+                    </app>
+                    <app loc="5"><lem resp="#ferri1925">τοῖ<supplied reason="lost">σδε</supplied></lem>
+                        <rdg resp="#oliverio1928a">τοῖσδ<supplied reason="lost">ε</supplied></rdg>
+                    </app>
+                    <app loc="7"><lem resp="#ferri1925"><supplied reason="lost">οὓς</supplied></lem>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">οὓ</supplied>ς</rdg>
+                    </app>
+                    <app loc="5">
+                        <rdg resp="#ferri1925">οἷς δὲ</rdg>
+                        <rdg resp="#ferri1925">οἷς ἂν τὸ <note>Wilamowitz's reading</note></rdg>
+                        <rdg resp="#oliverio1928a">οἷς ἂν τὸ</rdg>
+                    </app>
+                    <app loc="7-8"><lem resp="#oliverio1928a">τῶν ἀ<supplied reason="lost">θ</supplied><lb break="no"/>ανάτων</lem>
+                            <rdg resp="#ferri1925">τῶν ἀ<gap reason="lost" quantity="1" unit="character"/><lb break="no"/><gap reason="lost" quantity="1" unit="character"/>νάτων</rdg> 
+                            <rdg resp="#ferri1925">ἀ<supplied reason="lost" cert="low">θ</supplied>ανάτων</rdg>
+                    </app>
+                    <app loc="8-9"><lem resp="#oliverio1928a">οἱ τιμ<add place="overstrike">η</add>τῆρ<lb break="no"/>ες</lem>
+                        <rdg resp="#ferri1925">οἱ τιμητῆ<supplied reason="lost">ρ<lb break="no"/>ε</supplied>ς</rdg>
+                        <rdg resp="#SEG">οἱ τιμητῆρ<lb/>ες</rdg>
+                    </app>
+                    <app loc="9"><lem resp="#oliverio1928a">τ<choice><corr>ι</corr><sic>υ</sic></choice>μήσωσι</lem>
+                        <rdg resp="#ferri1925">τιμήσωσι</rdg>  
+                    </app>
+                    <app loc="9"><lem>καὶ ὅσοις εἰσί <add place="overstrike">ὀ</add>φειλόμεναι</lem>
+                         <rdg resp="#oliverio1928a">ὅσοις εἰσὶ <add place="overstrike">ὀ</add>φει<add place="overstrike">λ</add>όμεναι</rdg>
+                         <rdg resp="#ferri1925">ὅσοις εἴη ὀφειλόμενον</rdg>
+                         <rdg resp="#ferri1925">ὅσοις εἰσὶ <note>Klaffenbach and Willamowitz's reading, lacking <foreign xml:lang="grc">ὀφειλόμενον</foreign> </note></rdg>
+                         <rdg resp="#SEG">ὅσοις εἰσὶ ὀφει<choice><corr>λ</corr><sic>δ</sic></choice>όμεναι</rdg>
+                    </app>
+                    <app loc="9"><lem resp="#oliverio1928a">μναῖ εἴκοσι Ἀλεξάνδρειοι</lem>
+                        <rdg resp="#ferri1925">μναῖς εἴκοσι Ἀλεξανδρείο<supplied reason="lost">ις</supplied></rdg>
+                        <rdg resp="#ferri1925">μναῖ εἴκοσι Ἀλεξάνδρειο<supplied reason="lost">ι</supplied><note>Klaffenbach and Willamowitz's reading</note></rdg>
+                      </app>
+                    <app loc="10"><lem resp="#fraser1958"><unclear>ἐν</unclear> ἀθανάτοις</lem>
+                        <rdg resp="#ferri1925"><orig><unclear>εκ</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig>ανατοις</orig> <note><foreign xml:lang="grc">ἀθανάτοις</foreign> Klaffenbach and Wilamowitz's reading </note></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>μὴ</unclear> ἀθανάτοις</rdg>
+                        <rdg resp="#SEG">μὴ ἀθανάτοις</rdg>
+                    </app>
+                    <app loc="10"><lem resp="#fraser1958">μὴ ἐλάσσονος <note>already Klaffenbach and Willamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925">μὴ ἔλασσον ἦι</rdg>
+                        <rdg resp="#oliverio1928a">μὴ ἐλάσσον<add place="overstrike">ο</add>ς</rdg>
+                        <rdg resp="#SEG">μὴ ἐλάσσον<choice><corr>ο</corr><sic>α</sic></choice>ς</rdg>
+                    </app>
+                    <app loc="10-11"><lem resp="#ferri1925">τοῦ ὀφειλ<lb break="no"/><supplied reason="lost">ή</supplied>ματος</lem>
+                        <rdg resp="#oliverio1928a">τοῦ ὀφειλ<lb break="no"/>ήματος</rdg>
+                    </app>
+                    <app loc="11"><lem>κἂν οἱ γείτονες μ<supplied reason="lost">ὴ</supplied></lem>
+                        <rdg resp="#oliverio1928a">κἂν οἱ γείτονες μὴ</rdg>
+                        <rdg resp="#ferri1925"><supplied reason="lost">ἐ</supplied>ὰν οἱ γείτονες <supplied reason="lost">μὴ</supplied></rdg>
+                     </app>
+                    <app loc="12"><lem resp="#oliverio1928a">τιμὰς</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">τ</supplied>ιμὰς</rdg>
+                    </app>
+                    <app loc="12"><lem resp="#oliverio1928a"><add place="overstrike">ο</add>ὗτοι</lem>
+                        <rdg resp="#ferri1925 #SEG">οὗτοι</rdg>
+                    </app>
+                    <app><lem resp="#oliverio1928a">Μυρί<add place="overstrike">ω</add>ν</lem>
+                        <rdg resp="#ferri1925 #SEG">μυρίων</rdg>
+                        </app>
+                    <app loc="12-13"><lem resp="#oliverio1928a #SEG">Τιμ<lb break="no"/><supplied reason="lost">η</supplied>τῆρας</lem>
+                        <rdg resp="#ferri1925">Τι<supplied reason="lost">μ<lb break="no"/>η</supplied>τῆρας</rdg>
+                        </app> 
+                    <app loc="13"><lem resp="#oliverio1928a">δὲ αἱρείσθων <note>already Wilamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925">ἀ<supplied reason="lost">ν</supplied>αιρείσθων</rdg>
+                    </app>
+                        <app loc="13"><lem resp="#ferri1925"/>
+                        <rdg resp="#oliverio1928a"><hi rend="ligature">νεω</hi>τέρ<supplied reason="lost">ους</supplied></rdg> 
+                        </app>
+                    <app loc="14"><lem><supplied reason="lost">τ</supplied><unclear>ρ</unclear><supplied reason="lost">ι</supplied>άκοντα</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">τρι</supplied>άκοντα</rdg>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">τρ</supplied>ιάκοντα</rdg>
+                    </app>
+                    <app loc="14"><lem resp="#fraser1958">ὀμόσαντες</lem>    
+                        <rdg resp="#ferri1925">ὁμόσαντες <note>with erroneous rough breathing</note></rdg>
+                        <rdg resp="#oliverio1928a #SEG">ὁρκώσαντες</rdg>
+                    </app>
+                        <app loc="14"><lem resp="#oliverio1928a">ὡς ἂ<supplied reason="lost">ν</supplied> <note>already Wilamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925">τιμώντωσαν ὅσα <supplied reason="lost">ἂν</supplied></rdg>
+                     </app>
+                    <app loc="15"><lem resp="#oliverio1928a">πολιτευέσθωσαν</lem>
+                        <rdg resp="#ferri1925">πολιτευέσ<supplied reason="lost">θ</supplied>ωσαν</rdg>
+                    </app>
+                    <app loc="15"><lem resp="#ferri1925 #oliverio1928a">τιμημά<supplied reason="lost">των</supplied></lem>
+                        <rdg resp="#rosamilia2023">τιμημά<supplied reason="lost">τ</supplied><supplied reason="omitted">ων</supplied></rdg>
+                    <rdg resp="#IGCyr">τιμημάτων</rdg>
+                    </app>
+                    <app loc="16"><lem resp="#oliverio1928a">νεώτερο<supplied reason="lost">ι</supplied></lem>
+                        <rdg resp="#ferri1925">νεώτερ<supplied reason="lost">οι</supplied></rdg>
+                        </app>
+                    <app loc="18"><lem><supplied reason="lost">τρ</supplied>ίτωι</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">τρί</supplied>τωι</rdg>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">τ</supplied>ρίτωι</rdg>
+                    </app>
+                    <app loc="18"><lem resp="#ferri1925">γίνηται</lem>
+                        <rdg resp="#oliverio1928a"><choice><corr>γ</corr><sic>ε</sic></choice>ίνηται</rdg>
+                    </app>
+                    <app loc="18-19"><lem resp="#ferri1925">ἀ<supplied reason="lost">ρι<lb break="no"/>θμ</supplied>ὸς</lem>
+                        <rdg resp="#oliverio1928a">ἀρ<supplied reason="lost">ιθ</supplied><lb break="no"/>μὸς</rdg>
+                    </app>
+                    <app loc="19"><lem resp="#ferri1925 #fraser1958">ἐτῶν. <space extent="unknown" unit="character"/></lem>
+                        <rdg resp="#oliverio1928a">ἐτῶν τ<unclear>οὺς</unclear> <unclear>ἄ</unclear><supplied reason="lost" cert="high">λλου</supplied><unclear>ς</unclear> <space extent="unknown" unit="character"/></rdg> 
+                        <rdg resp="#SEG">ἐτῶν <unclear>τοὺς</unclear> <unclear>ἄ</unclear>λλους.</rdg>
+                    </app>
+                    <app loc="19a"><lem resp="#ferri1925"><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied></lem>
+                        <rdg resp="#oliverio1928a"><milestone rend="paragraphos" unit="undefined"/> <note>the stone was broken off at this place already in Oliverio's time, as shown by the photograph</note></rdg>
+                    </app>
+                    <app loc="20"><lem resp="#oliverio1928a"><supplied reason="lost">Γέ</supplied>ροντε<supplied reason="omitted">ς</supplied> δ'ἔστωσαν <note>already Klaffenbach and Wilamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Γέ</supplied>ροντες ἔστωσαν</rdg>
+                    </app>
+                    <app loc="20-21"><lem resp="#oliverio1928a">κατὰ δὲ τ<supplied reason="lost">ὸ<lb break="no"/>ν ἀ</supplied>ποθανόντα</lem>
+                        <rdg resp="#ferri1925">κατὰ <supplied reason="lost">δὲ τὸν <lb/> ἢ ἀ</supplied>ποθανόντα</rdg>
+                    </app>
+                    <app loc="21"><lem resp="#fraser1958">τὸς</lem>
+                        <rdg resp="#ferri1925">τοὺς <note>Ferri thought he saw an upsilon, very slightly inscribed, hence perhaps added later</note></rdg>
+                        <rdg resp="#oliverio1928a">το<supplied reason="omitted">ὺ</supplied>ς</rdg>
+                    </app>
+                    <app loc="21-22"><lem resp="#ferri1925">α<supplied reason="lost">ἱρ<lb break="no"/>είσ</supplied>θων</lem>
+                        <rdg resp="#oliverio1928a">α<supplied reason="lost">ἱρ<lb break="no"/>εί</supplied>σθων</rdg>
+                    </app>
+                    <app loc="22-23"><lem resp="#oliverio1928a">μὴ ἐξέστω α<supplied reason="lost">ἱ<lb break="no"/></supplied>ρεῖσθαι</lem>
+                        <rdg resp="#ferri1925">μὴ ἐγκατ<supplied reason="lost">αρι<lb break="no"/>θμ</supplied>εῖσθαι</rdg>
+                            <rdg resp="#ferri1925">μὴ ἔστω <supplied reason="lost">ἐφα</supplied><lb break="no"/><supplied reason="lost" precision="low">ιρ</supplied>εῖσθαι <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="23"><lem resp="#oliverio1928a">ἐν πολέμωι. Τοὺς <supplied reason="lost">δὲ</supplied></lem>
+                        <rdg resp="#ferri1925">ἐν πολέμωι. <space extent="unknown" unit="character"/> <note>hence after line 23 
+                            <supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied></note></rdg>
+                    </app>
+                    <app loc="24"><lem resp="#oliverio1928a">τῶμ μὴ</lem>                        
+                        <rdg resp="#ferri1925">τῶν μὴ</rdg>
+                    </app>
+                    <app loc="24-25"><lem resp="#ferri1925">ἱα<supplied reason="lost">ριτ<lb break="no"/>ε</supplied>υωκότων</lem>
+                        <rdg resp="#oliverio1928a">ἱα<supplied reason="lost">ριτ</supplied><lb break="no"/>ευωκότων</rdg>
+                    </app>
+                    <app loc="25"><lem>νεώτερ<choice><corr>ω</corr><sic>ο</sic></choice>ν</lem>
+                        <rdg resp="#ferri1925 #oliverio1928">νεωτέρους</rdg>
+                    </app>
+                    <app loc="25"><lem resp="#ferri1925 #fraser1958">ἐτῶν. <space extent="unknown" unit="character"/></lem>
+                        <rdg resp="#oliverio1928a">ἐτῶν <space extent="unknown" unit="character"/> <orig><unclear>απκ</unclear></orig> <space extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="25a"><lem resp="#ferri1925"><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied></lem>
+                        <rdg resp="#oliverio1928a"><milestone rend="paragraphos" unit="undefined"/></rdg>
+                    </app>
+                    <app loc="26"><lem resp="#fraser1958">ἀεί</lem>
+                        <rdg resp="#ferri1925">ἀε<supplied reason="lost">ί</supplied></rdg>
+                        <rdg resp="#oliverio1928a"><expan><abbr>αὐ</abbr><ex>τό</ex><abbr>ς</abbr></expan></rdg>
+                    </app>
+                    <app loc="26-27"><lem resp="#oliverio1928a"><supplied reason="lost">στρατη</supplied><lb break="no"/>γοὺς</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">στρατ<lb break="no"/>η</supplied>γοὺς</rdg>
+                    </app>
+                    <app loc="27"><lem resp="#ferri1925">πέντε</lem>
+                        <rdg resp="#oliverio1928a"><choice><corr>π</corr><sic rend="right-to-left">π</sic></choice>έντε <note>Oliverio saw a sinistroverse pi</note></rdg>                     
+                    </app>
+                    <app loc="27"><lem>πεντή<unclear>κ</unclear><supplied reason="lost">οντα</supplied></lem>
+                        <rdg resp="#ferri1925">πεντή<supplied reason="lost">κοντα</supplied></rdg>
+                        <rdg resp="#oliverio1928a">πεντήκ<supplied reason="lost">οντα</supplied></rdg>
+                    </app>
+                    <app loc="28"><lem resp="#oliverio1928a">ἐτῶν</lem>                        
+                        <rdg resp="#ferri1925"><supplied reason="lost">ἐ</supplied>τῶν</rdg>
+                    </app> 
+                    <app loc="29"><lem><unclear>προ</unclear>σγένηται</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">προ</supplied>σγένηται</rdg>
+                        <rdg resp="#oliverio1928a">προσγένηται</rdg>
+                    </app>
+                    <app loc="30"><lem><supplied reason="lost">οἱ</supplied> α<supplied reason="lost">ὐ</supplied>τοὶ</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">οἱ αὐ</supplied>τοὶ</rdg>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">οἱ</supplied> αὐτοὶ</rdg>
+                    </app>
+                    <app loc="30"><lem resp="#fraser1958">αὐτός</lem>
+                        <rdg resp="#ferri1925">αὐτο<supplied reason="lost">ύ</supplied>ς</rdg>
+                        <rdg resp="#oliverio1928a">αὐτο<supplied reason="omitted">ύ</supplied>ς</rdg>
+                     </app>
+                    <app loc="30"><lem resp="#ferri1925">αἱρείσθωσαν</lem>
+                        <rdg resp="#oliverio1928a">αἱρείσθων</rdg>
+                    </app>
+                    <app loc="31"><lem resp="#ferri1925 #fraser1958"><supplied reason="lost">το</supplied>ῦ πολιτεύματος. <space extent="unknown" unit="character"/></lem>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">τ</supplied>οῦ πολιτεύματος <space quantity="9" unit="character" precision="low"/><unclear>νέω</unclear><supplied reason="lost" cert="high">ν</supplied> π<unclear>ολιτευ</unclear>τῶν 
+                            <space extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#SEG"><supplied reason="lost">τ</supplied>οῦ πολιτεύματος νέων πολιτευτῶν.</rdg>
+                     </app>
+                    <app loc="31a"><lem><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied></lem>
+                    <rdg resp="#ferri1925 #oliverio1928a"><lb n="31a"/><milestone rend="paragraphos" unit="undefined"/></rdg>
+                    </app>
+                    <app loc="32"><lem resp="#oliverio1928a #SEG #rosamilia2023">νομοφ<choice><corr>ύ</corr><sic>ψ</sic></choice>λακες</lem>
+                        <rdg resp="#ferri1925 #IGCyr">νομοφύλακες</rdg>    
+                    </app>
+                    <app loc="32"><lem>νενομοφυλακηκότων <space quantity="3" unit="character"/></lem>
+                        <rdg resp="#ferri1925 #fraser1958">νενομοφυλακηκότων</rdg>
+                        <rdg resp="#oliverio1928a">νενομοφυλακηκότων, <abbr>μὴ</abbr> <note>Oliverio meant that the condition of age was subaudible. Hence after line 23 
+                            <supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied></note></rdg>
+                        <rdg resp="#SEG">νενομοφυλακηκότων, μὴ νεώτεροι ἐτῶν πεντήκοντα <note>drawn from Oliverio's explanations and not marked as supplied</note></rdg>
+                    </app>
+                    <app loc="33"><lem resp="#SEG">ἐκ τῶμ μὴ <note>already Klaffenbach and Wilamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925">ἐκ τῶν μὴ</rdg>
+                    </app>
+                    <app loc="33"><lem resp="#ferri1925">πεντήκοντα</lem>
+                        <rdg resp="#oliverio1928a">π<add place="overstrike">ε</add>ντήκοντα</rdg>
+                    </app>
+                    <app loc="34"><lem resp="#oliverio1928a #SEG9">ε<choice><corr>ἰ</corr><sic>ρ</sic></choice>ρήνης</lem>
+                        <rdg resp="#ferri1925 #rosamillia2023">εἰρήνης</rdg>
+                    </app>
+                    <app loc="34-35"><lem resp="#oliverio1928a"><supplied reason="lost">ἡ</supplied> <supplied reason="omitted">δὲ</supplied><lb break="no"/>βουλὴ</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">ἡ <lb break="no"/> δὲ</supplied> βουλὴ</rdg>
+                    </app>
+                    <app loc="35"><lem resp="#oliverio1928a">πάσας τὰς θανάτου</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost" cert="low">πραξ</supplied>άντ<supplied reason="lost">ωσαν</supplied> τὰ τοῦ</rdg> 
+                         <rdg resp="#ferri1925"><gap reason="lost" quantity="5" unit="character"/><orig><unclear>ν</unclear>τας</orig> <supplied reason="lost">θ</supplied>ανάτου<note>Klaffenbach and Wilamowitz's reading</note></rdg>                         
+                    </app>
+                
+                    <app loc="35-36"><lem resp="#oliverio1928a">δικαζ<supplied reason="lost">όν</supplied><lb break="no"/>των οἱ</lem>
+                        <rdg resp="#ferri1925">δικάζ<supplied reason="lost">ε<lb break="no"/>ιν</supplied></rdg>
+                        <rdg resp="#ferri1925">δικαζό<supplied reason="lost">ν<lb break="no"/>των</supplied> οἱ <note>Klaffenbach and Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="36"><lem resp="#oliverio1928a">οἳ ἂ<supplied reason="lost">ν</supplied></lem>
+                        <rdg resp="#ferri1925"> οἷαπ<supplied reason="lost">ερ</supplied></rdg>
+                    </app>
+                    <app loc="37"><lem resp="#oliverio1928a">κλήρωι</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">κ</supplied>λήρωι</rdg>
+                    </app>
+                    <app loc="37"><lem resp="#oliverio1928a">προ<supplied reason="lost">τέ</supplied>ροις</lem>
+                        <rdg resp="#ferri1925">προτέροις</rdg>
+                    </app>
+                    <app loc="37-38"><lem resp="#ferri1925 #oliverio1928a #rosamilia2023"><supplied reason="lost">τῶι</supplied><lb break="no"/>δε</lem>
+                        <rdg resp="#IGCyr">τῶι<lb n="38" break="no"/>δε</rdg>
+                    </app>
+                    <app loc="38-39"><lem resp="#ferri1925"><supplied reason="lost">ὄν</supplied><lb break="no"/>τα<supplied reason="lost">ς</supplied></lem>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">ὄν</supplied><lb break="no"/>τας</rdg>
+                    </app>
+                    <app loc="39"><lem resp="#oliverio1928a">ὅτωι <note>already Wilamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925"><unclear>ὅ</unclear>τ<supplied reason="lost">ω</supplied>ι</rdg>
+                    </app>
+                    <app loc="39"><lem resp="#oliverio1928a">οἱ γέρον<supplied reason="lost">τε</supplied>ς καὶ</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">οἱ</supplied> γέρον<supplied reason="lost">τες κ</supplied>αὶ</rdg>
+                    </app>
+                    <app loc="39-40"><lem>κ<unclear>ρ</unclear><supplied reason="lost">ίν</supplied><lb break="no"/>ω<supplied reason="lost">σ</supplied>ι</lem>
+                        <rdg resp="#oliverio1928a">κρ<supplied reason="lost">ί<lb break="no"/>ν</supplied>ωσι</rdg>
+                        <rdg resp="#ferri1925">κ<supplied reason="lost">ρί<lb break="no"/>ν</supplied>ηι</rdg>
+                    </app>
+                    <app loc="40"><rdg resp="#oliverio1928a">ὁπότερον</rdg>
+                        <rdg resp="#ferri1925">πότερον</rdg>
+                    </app>
+                    <app loc="40-41"><lem>Πτ<supplied reason="lost">ολε</supplied><lb break="no"/><unclear>μ</unclear>αίω</lem>
+                        <rdg resp="#ferri1925">Πτο<supplied reason="lost">λεμ</supplied><lb break="no"/>αίωι</rdg>
+                        <rdg resp="#oliverio1928a"><expan><abbr>Πτ<supplied reason="lost">ολ</supplied></abbr><ex>εμ</ex><lb break="no"/><abbr>αίωι</abbr></expan></rdg>
+                    </app>
+                    <app loc="41"><lem resp="#ferri1925">φυγάδ<choice><corr>ο</corr><sic>α</sic></choice>ς <note>Wilamowitz's suggestion</note></lem>
+                       </app>
+                    <app loc="41-42"><lem>κα<supplied reason="lost">τα</supplied><lb break="no"/>δικα<unclear>ζέσ</unclear>θων</lem>
+                        <rdg resp="#ferri1925">κα<supplied reason="lost">τα</supplied><lb break="no"/>δικαζέσθων</rdg>
+                        <rdg resp="#oliverio1928a">κα<supplied reason="lost">τα</supplied><lb break="no"/>δικα<supplied reason="lost">ζέσ</supplied>θων</rdg>                    
+                    </app>
+                    <app loc="42"><lem resp="#ferri1925 #SEG9">γνώμης</lem>
+                        <rdg resp="#oliverio1928a"><choice><corr>γ</corr><sic>ϝ</sic></choice>νώμης</rdg>
+                    </app>
+                    <app loc="43"><lem>Ὅ<unclear>ς</unclear> <unclear>ἂν</unclear> <unclear>δ</unclear>'ἐκ</lem>
+                        <rdg resp="#ferri1925">ὃς ἂν ἐκ</rdg>
+                        <rdg resp="#oliverio1928a">Ὅστις ἐκ</rdg>
+                    </app>
+                    <app loc="43"><lem><unclear>π</unclear><supplied reason="lost">ολιτε</supplied>ύματος</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">πολιτε</supplied>ύματος</rdg>
+                        <rdg resp="#oliverio1928a">πολιτ<supplied reason="lost">εύ</supplied>ματος</rdg>
+                    </app>
+                    <app loc="44"><lem resp="#oliverio1928a">το<supplied reason="lost" cert="high">ξεύε</supplied>ιν <note>the restoration offered as plausible relies upon very faint traces of letters</note></lem>
+                        <rdg resp="#ferri1925">μουσικὴν</rdg>
+                        <rdg resp="#SEG">τοξεύειν</rdg>
+                    </app>
+                    <app loc="44"><lem resp="#oliverio1928a">ἱππε<supplied reason="lost" cert="high">ύε</supplied>ιν <note>the restoration offered as plausible relies upon very faint traces of letters</note></lem>
+                        <rdg resp="#ferri1925">πάλην</rdg>
+                        <rdg resp="#SEG">ἱππεύειν</rdg>                   
+                    </app>
+                    <app loc="44"><lem resp="#oliverio1928a">ὁπλομαχεῖν</lem>
+                        <rdg resp="#ferri1925">ὁπλομαχέιηι</rdg>
+                        <rdg resp="#ferri1925">ὁπλομαχ<surplus>ει</surplus>ῆι <note>Wilamowitz's suggestion</note></rdg>
+                    </app>
+                    <app loc="44"><lem>κηρ<supplied reason="lost">ύσ</supplied>σηι</lem>
+                        <rdg resp="#ferri1925 #oliverio1928">κηρύσσηι</rdg>
+                    </app>               
+                    <app loc="44-45"><lem resp="#oliverio1928a">συνπορε<supplied reason="lost">ύεσ</supplied><lb break="no"/>θω </lem>
+                        <rdg resp="#ferri1925">συνπορε<supplied reason="lost">υέσ</supplied><lb break="no"/>θω<supplied reason="lost">σαν</supplied></rdg>   
+                    </app>
+                    <app loc="45"><lem><supplied reason="lost">μυ</supplied>ρ<supplied reason="lost">ι</supplied>ακὰς ἀρχὰς</lem>
+                        <rdg resp="#oliverio1928a">μυριακὰς ἀρχὰς</rdg>
+                        <rdg resp="#ferri1925">ταῖ<supplied reason="lost">ς ἑτ</supplied><unclear>αιρ</unclear>ί<unclear>α</unclear><supplied reason="lost">ις</supplied></rdg>
+                    </app>
+                    <app loc="45"><lem resp="#rosamilia2023">ὃς ἂν τούτων <unclear>τι ποίηι</unclear></lem>
+                        <rdg resp="#IGCyr">ὃς ἂν τούτων <space extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#ferri1925 #fraser1958">ὃς ἂν τούτ<supplied reason="lost">ων</supplied> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap></rdg>
+                        <rdg resp="#oliverio1928a">ὃς ἂν τούτων <supplied reason="lost" cert="low">ἐπικλη</supplied><unclear>ρω</unclear><supplied reason="lost">θ</supplied><unclear>εί</unclear>ηι, 
+                            τῆς <supplied reason="lost" cert="high">ἀρχῆς</supplied> <supplied reason="lost">πα</supplied>υσάσθω <space extent="unknown" unit="character"/><note>the restoration offered as plausible relies upon very faint traces of letters</note></rdg>
+                        <rdg resp="#SEG">ὃς ἂν τούτων ἐπικληρω<supplied reason="lost">θ</supplied>είηι, τῆς ἀρχῆς <supplied reason="lost">πα</supplied>υσάσθω</rdg>
+                    </app>
+                    <app loc="46"><lem resp="#fraser1958">ὃς <supplied reason="undefined" evidence="previouseditor">ἂν</supplied> τῶν πολιτῶν κάμ<unclear>η</unclear>ι ἢ συνθῆι 
+                            τ<unclear>ὸ</unclear>ν <gap reason="illegible" quantity="13" unit="character"/><unclear>σ</unclear>ίας</lem>
+                        <rdg resp="#ferri1925">ὃς δ<supplied reason="lost">ὲ</supplied> τῶν πολ<supplied reason="lost">ιτῶ</supplied>ν 
+                            <gap reason="illegible" quantity="1" unit="character"/><orig>τ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ηι</orig> ἢ 
+                            <gap reason="illegible" quantity="2" unit="character"/><orig>ηθηι</orig> <unclear>τ</unclear>ὸν <gap reason="lost" extent="unknown" unit="character"/>χίας</rdg>
+                        <rdg resp="#oliverio1928a">ὃς ἂν τῶν πολιτῶν <unclear>κάμ</unclear><supplied reason="lost" cert="high">η</supplied>ι ἢ <unclear>συνθῆι</unclear> <unclear>τῶν</unclear> <unclear>ψαιν</unclear><gap reason="illegible" quantity="3" unit="character"/> 
+                                    τὰς <unclear>ληθ</unclear><supplied reason="lost" cert="high">αργ</supplied>ίας <note>the restorations offered as plausible rely upon very faint traces of letters</note></rdg>
+                        <rdg resp="#SEG">ὃς ἂν τῶν πολιτῶν κάμηι ἢ συνθῆι τῶν ψαιν<gap reason="illegible" quantity="3" unit="character"/> τὰς ληθαργίας</rdg>
+                        <rdg resp="#rosamilia2023">ὃς <unclear>ἂν</unclear> τῶν πολ<unclear>ιτ</unclear>ῶν <unclear>&gt;κά</unclear>μηι ἢ <unclear>συν</unclear>θῆι τὸν βάναυ<supplied reason="lost">σον</supplied> δῆμον βία<choice><corr>ι</corr><sic>ς</sic></choice></rdg>
+                    </app>
+                    <app loc="46-47"><lem resp="#oliverio1928a #fraser1958">ἢ πολυδ<supplied reason="lost">ικ</supplied><lb break="no"/>ῆι</lem>
+                        <rdg resp="#ferri1925">ἢ πολυδ<gap reason="lost" quantity="3" unit="character"/><lb break="no"/><orig>ηι</orig></rdg><rdg resp="#rosamilia2023"/>
+                    </app>
+                    <app loc="47"><lem resp="#fraser1958">ἢ <supplied reason="lost">πρ</supplied>οδικίας <gap reason="lost" quantity="30" unit="character" precision="low"/></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="3" unit="character"/><orig>ολινια</orig><gap reason="lost" quantity="1" unit="character"/><orig>σ</orig>
+                            <gap reason="lost" quantity="7" unit="character"/>ν<gap reason="lost" quantity="3" unit="character"/><orig>την</orig><gap reason="lost" quantity="21" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">ἢ <gap reason="illegible" quantity="1" unit="character"/><unclear>ολικιας</unclear> ἢ <unclear>δαμωμ</unclear> ἔχει ἢ 
+                            <orig>κη<unclear>ραμυν</unclear></orig><gap reason="lost" quantity="7" unit="character" precision="low"/> <unclear>ἢ φαιὸν</unclear></rdg>
+                        <rdg resp="#SEG">ἢ <gap reason="illegible" quantity="1" unit="character"/><orig>ολικιας</orig> ἢ <orig>δαμωμ</orig> ἔχει ἢ κήραμυν<gap reason="lost" quantity="7" unit="character"/></rdg>                        
+                        <rdg resp="#rosamilia2023">ἢ <supplied reason="lost">πρ</supplied>οδικίας <supplied reason="lost">συνκ</supplied><unclear>λο</unclear>ν<unclear>ῆ</unclear><supplied reason="lost">ι ἢ</supplied> ἐπὶ<gap reason="lost" quantity="14" unit="character" precision="low"/>ιαν</rdg>
+                    </app>
+                    <app loc="47"><lem resp="#rosamilia2023">παλινκαπηλ<unclear>ε</unclear><supplied reason="lost">ύηι</supplied></lem>
+                        <rdg resp="#fraser1958 #IGCyr">παλινκαπηλε<supplied reason="lost">ύηι</supplied></rdg>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/><unclear>αλ</unclear>ιν καπηλι<gap reason="lost" quantity="3" unit="character"/>/</rdg>
+                        <rdg resp="#oliverio1928a #SEG9">χάλιν καπηλε<supplied reason="lost">ύηι</supplied></rdg>                    
+                    </app>
+                    <app loc="48"><lem>ἐν τῆι ἀτι<supplied reason="lost" evidence="previouseditor">μίαι ἒστωσαν</supplied></lem>
+                        <rdg resp="#ferri1925">ἐν τῆι ἀτι<gap reason="lost" extent="unknown" unit="character"/><note>Wilamowitz only <foreign xml:lang="grc">ΑΤΙΜ</foreign></note></rdg>
+                        <rdg resp="#oliverio1928a">ἐν τῆι <unclear>ἀτιμίαι</unclear> <unclear>ἔστω</unclear>σαν</rdg>
+                        <rdg resp="#SEG">ἐν τῆι ἀτιμίαι ἔστωσαν, ἢ ἰδιώτης <gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#fraser1958">έν <unclear>τῆι</unclear> <unclear>ἀτ</unclear>ιμίαι <supplied reason="undefined" evidence="previouseditor">ἔστω</supplied>σαν</rdg>
+                    </app>
+                    <app loc="48"><lem resp="#fraser1958"><gap reason="lost" quantity="15" unit="character" precision="low"/>ηται ἢ λιθουργήσει <gap reason="lost" atLeast="2" atMost="3" unit="character"/></lem>                       
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/>ται ἢ λιθουργήσει<gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a"> ἢ ἰδιώτης <gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost">ἐ</supplied>ργάζηται ἢ λιθουργήσει <orig><unclear>ηι</unclear></orig></rdg>
+                        <rdg resp="#bravo1977"><gap reason="lost" unit="character" quantity="15" precision="low"/>ηται ἢ λιθουργ<surplus>ει</surplus>ῆι</rdg>
+                        <rdg resp="#rosamilia2023"><unclear>ὃς</unclear> <orig><unclear>Ν</unclear></orig><gap reason="lost" quantity="14" precision="low"/>ηται ἢ λιθουργήσει</rdg>
+                    </app> 
+                    <app loc="49"><lem><supplied reason="lost">φ</supplied>ορτηγὸς γένη<supplied reason="lost">τ</supplied>αι ἢ</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">φ</supplied>ορτηγὸς γένηται ἢ </rdg>
+                        <rdg resp="#oliverio1928a">φορτηγὸς γένηται ἢ </rdg>
+                    </app>
+                    <app loc="49"><lem>ἢ ἄλλο τ<unclear>ι</unclear> βα<unclear>ν</unclear>α<supplied reason="lost">υσοτεχνήσ</supplied>ηι ἢ σ<unclear>υ</unclear>νθῆι</lem>
+                        <rdg resp="#ferri1925">ἢ ἄλλου <gap reason="lost" quantity="18" unit="character"/>σκηθῆι</rdg>
+                        <rdg resp="#oliverio1928a #bravo1977">ἢ <unclear>ἄλλοτε οικιας</unclear> τας <supplied reason="lost" cert="low">πτ</supplied>ολε<unclear>μαικας</unclear> εσελθηι <note>without accents nor breathings!</note></rdg>
+                        <rdg resp="#fraser1958">ἢ ἄλλοτε <gap reason="lost" quantity="23" unit="character" precision="low"/>ηι <unclear>ἢ</unclear> <unclear>σ</unclear><supplied reason="lost">υ</supplied><unclear>ν</unclear>θῆι</rdg>
+                        <rdg resp="#IGCyr">ἢ <supplied reason="lost">ἄ</supplied>λλοτε <gap reason="lost" quantity="27" unit="character" precision="low"/><w part="F"><choice><unclear>ι</unclear><unclear>ν</unclear></choice>θῆι</w></rdg>
+                        <rdg resp="#rosamilia2023">ἢ ἄλλο τ<unclear>ι</unclear> βά<unclear>ν</unclear>αυ<supplied reason="explanation">σον</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/>ηι <unclear>ἢ</unclear> <unclear>σ</unclear><supplied reason="lost">υ</supplied><unclear>ν</unclear>θῆι</rdg>
+                    </app>
+                    <app loc="49-50"><lem resp="#cdl2000">βαν<supplied reason="lost">αυσ</supplied><lb break="no"/>ε<supplied reason="undefined" evidence="previouseditor">ργα</supplied>σίαν</lem>
+                        <rdg resp="#ferri1925"> βαν<supplied reason="lost">αυσ</supplied> <lb break="no"/><gap reason="lost" quantity="4" unit="character"/>ταν ἐργα<supplied reason="lost">σί</supplied>αν</rdg>
+                        <rdg resp="#oliverio1928a"><expan><abbr>βάναυ</abbr><ex cert="low">σος</ex></expan> <lb break="no"/>ἐργασίαν</rdg> 
+                        <rdg resp="#fraser1958"><expan><abbr>βάν<supplied reason="lost">αυ</supplied></abbr><supplied reason="lost"><ex cert="low">σον</ex></supplied></expan></rdg></app>
+                    
+                    <app loc="50"><lem><orig>αν</orig><gap reason="lost" quantity="9" unit="character" precision="low"/> <supplied reason="lost">ἔστω</supplied> <unclear>στρατη</unclear>γὸς μηδέποτε.</lem>
+                        <rdg resp="#ferri1925">αν<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πολιτεύ</supplied>ματος μηδενός</rdg>
+                        <rdg resp="#oliverio1928a"><unclear>αν</unclear><gap reason="lost" quantity="12" unit="character" precision="low"/>ω<gap reason="illegible" unit="character" quantity="1"/> στρατηγὸς μηδέποτε.</rdg>
+                        <rdg resp="#fraser1958">ἀν<gap reason="lost" quantity="13" unit="character" precision="low"/><supplied reason="lost">σ</supplied><unclear>τ</unclear>
+                            <supplied reason="lost">ρα</supplied><unclear>τ</unclear><supplied reason="lost">η</supplied>γὸς πηδέπο<supplied reason="lost">τε</supplied></rdg>                    
+                    </app>            
+                    <app loc="51"><lem>Πτολε<unclear>μα</unclear>ίου <unclear>γνώμας</unclear> <supplied reason="lost">λύσηι ἃς ἐς Κυρην</supplied>αίους</lem>
+                        <rdg resp="#ferri1925"><note>Ferri was not able to read anything here</note></rdg>
+                        <rdg resp="#oliverio1928a">γνώ<supplied reason="lost" cert="low">μας</supplied> <supplied reason="lost">καταλύηι ἃς ἐς Κυρην</supplied>αίους</rdg>
+                        <rdg resp="#fraser1958">Πτολε<unclear>μαίου</unclear> <unclear>γν</unclear>ώ<unclear>μας</unclear> <gap reason="lost" quantity="15" unit="character" precision="low"/><unclear>αίους</unclear> Πτολεμαῖος</rdg>
+                    </app>
+                    <app loc="51-52"><lem>κα<supplied reason="lost">θεῖ</supplied><lb break="no"/>σε</lem>
+                        <rdg resp="#ferri1925 #fraser1958">κα<supplied reason="lost" cert="low">θῖ</supplied><lb break="no"/>σε</rdg>
+                        <rdg resp="#oliverio1928a #SEG">κατ<supplied reason="lost">ῆ</supplied><lb break="no"/>ξε</rdg>
+                    </app>
+                    <app loc="52"><lem resp="#ferri1925 #fraser1958">θανάσιμος ἔσται <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap></lem>
+                        <rdg resp="#oliverio1928a">θανάσι<unclear>μος</unclear> ἔσται <unclear>αὐτὸς</unclear>. <space extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="53"><lem>Ὅσα οἱ φυγάδε<supplied reason="lost">ς</supplied> <supplied reason="lost" cert="low">χρ</supplied>ήμ<supplied reason="lost">ατα</supplied> 
+                            <gap reason="lost" quantity="15" unit="character" precision="low"/><orig>ο</orig> μὲν</lem>
+                        <rdg resp="#ferri1925">ὃς δὲ φυγάδ<supplied reason="lost">ας</supplied> <gap reason="lost" quantity="1" unit="character"/>ν<gap reason="illegible" quantity="1" unit="character"/>του
+                            <gap reason="lost" quantity="21" unit="character"/> τὸ μὲν</rdg>
+                        <rdg resp="#oliverio1928a">Ὅσας φυγά<add place="overstrike">δ</add>ες <supplied reason="lost" cert="low">δημ</supplied><unclear>ιουργιας</unclear> <gap reason="lost" quantity="11" unit="character" precision="low"/>
+                            αν<supplied reason="lost" cert="low">δρω</supplied>ν μεν</rdg> 
+                        <rdg resp="#SEG">Ὅσας φυγά<supplied reason="omitted">δ</supplied>ες δημιουργίας <gap reason="lost" quantity="11" unit="character"/> ἀνδρῶν μὲν</rdg> 
+                        <rdg resp="#fraser1958">ὃς <unclear>ἂν</unclear> <unclear>φ</unclear>υγάδ<choice><corr cert="low">α</corr><sic>ε</sic></choice>ς <gap reason="lost" quantity="22" unit="character" precision="low"/><unclear>ο</unclear> μὲν</rdg>
+                    </app>
+                    <app loc="53-54"><lem resp="#fraser1958">κα<unclear>ὶ</unclear> <lb/> ἀδίκους</lem>
+                        <rdg resp="#ferri1925">κ<gap reason="illegible" quantity="1" unit="character"/><unclear>ι</unclear><gap reason="illegible" quantity="1" unit="character"/> 
+                            <lb/> <orig>α</orig><gap reason="lost" quantity="2" unit="character"/><orig>θους</orig></rdg>
+                        <rdg resp="#oliverio1928a">κ<hi rend="superscript">α</hi>τ<lb break="no"/><supplied reason="lost" cert="high">αδικους</supplied> 
+                            <note>the restoration offered as plausible relies upon very faint traces of letters</note></rdg>
+                    </app>
+                    <app loc="54"><lem resp="#fraser1958"><unclear>ἐ</unclear>δέξα<unclear>ντο</unclear> ν<gap reason="lost" quantity="20" unit="character" precision="low"/> <unclear>πρὸς</unclear> ἀλλήλους</lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="1" unit="character"/>δε<unclear>ξ</unclear>άντων αὐτ<gap reason="lost" extent="unknown" unit="character"/> ἀλλήλους <gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">ἔ<supplied reason="lost" cert="low">δε</supplied><unclear>ιξαν</unclear> τῶν <gap reason="lost" quantity="15" unit="character" precision="low"/> <unclear>καθήξοντες</unclear> ἀλλήλους ἐς</rdg> 
+                        <rdg resp="#SEG">ἔδειξαν τῶν <gap reason="lost" quantity="15" unit="character"/> καθήξοντες ἀλλήλους ἐς</rdg>
+                     </app>
+                    <app loc="55"><lem>τὰ ὕστατα. <note>taller letters only after the stop</note></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/>τα</rdg> 
+                        <rdg resp="#ferri1925">νό<supplied reason="lost">μοι ἐ</supplied>πί</rdg>
+                        <rdg resp="#oliverio1928a">τὰ ὕστατα <note>the whole line taken as one sentence</note></rdg>
+                        <rdg resp="#fraser1958"><unclear>τὰ</unclear> <unclear>ὕστατα</unclear> <note>the whole line taken as one sentence</note></rdg>
+                    </app>
+                    <app loc="55"><lem>Κύρια τὰ χρήμ<unclear>ατα</unclear> <unclear>ἔστω</unclear> τῶν ἱδίων</lem>
+                        <rdg resp="#ferri1925">κυρια<gap reason="lost" quantity="3" unit="character"/>ος. Νό<supplied reason="lost" cert="low">μοι ἐ</supplied>πὶ τῶν ἰδίων</rdg>
+                        <rdg resp="#oliverio1928a">κύρια τὰ <unclear>χρήματα</unclear> <unclear>ὑπὸ</unclear> τῶν ἱδίων <note>without stop before <foreign>κύρια</foreign></note></rdg>
+                        <rdg resp="#fraser1958">κύρια τὰ χρήμ<unclear>ατα</unclear> <unclear>ὑπὸ</unclear> τῶν ἱδίων <note>without stop before <foreign>κύρια</foreign></note></rdg>
+                    </app>
+                    <app loc="56"><lem resp="#fraser1958">νόμος ἔσται Κυρηναίοις <gap reason="lost" extent="unknown" unit="character"/>νους</lem>                        
+                        <rdg resp="#ferri1925"><supplied reason="lost">ν</supplied>όμ<supplied reason="lost">ος</supplied> ἔσται Κυρην<supplied reason="lost">α</supplied>ίους 
+                            <gap reason="lost" extent="unknown" unit="character"/>νους</rdg>
+                        <rdg resp="#oliverio1928a">Νόμος ἔσται Κυρηναίο<supplied reason="omitted">υ</supplied>ς <unclear>ως</unclear> <unclear>αν</unclear><gap reason="lost" quantity="23" unit="character" precision="low"/>
+                            κοιρανους</rdg>
+                    </app>
+                    <app loc="56-57"><lem resp="#oliverio1928a">χρ<supplied reason="lost">έ</supplied><lb break="no"/>α πάντα</lem>
+                        <rdg resp="#ferri1925">κ<supplied reason="lost">τ<lb break="no"/>ήμα</supplied>τα <note>Wilamowitz read <foreign xml:lang="grc">ΧΡ</foreign></note></rdg>                        
+                        <rdg resp="#fraser1958"><unclear>χρ</unclear><supplied reason="lost">έ</supplied><lb break="no"/>α πάντα</rdg>
+                    </app>
+                    <app loc="57"><lem resp="#rosamilia2023">τὰ <orig><unclear>εκλ</unclear><supplied reason="undefined" evidence="previouseditor">ο</supplied></orig> <gap reason="lost" quantity="10" precision="low" unit="character"/><orig><unclear>σθη</unclear></orig><gap reason="lost" quantity="13" precision="low" unit="character"/> <unclear>σίαν</unclear> ἀναιρεῖσθ<supplied reason="lost">αι</supplied></lem>
+                        <rdg resp="#ferri1925">τὰ <gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> ἀναιρείσθ<supplied reason="lost" cert="low">ων</supplied></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>τῆς</unclear> <unclear>κ</unclear><gap reason="lost" quantity="36" unit="character"/>ιαν ἀναιρεῖσθ<supplied reason="lost">αι</supplied></rdg>
+                        <rdg resp="#fraser1958"><orig>εκ<unclear>λο</unclear></orig><gap reason="lost" quantity="15" unit="character" precision="low"/><unclear>σιαν</unclear> ἀναιρεῖσθ<supplied reason="lost">αι</supplied></rdg>
+                        <rdg resp="#IGCyr"><unclear>τῆς</unclear> <unclear>κ</unclear><gap reason="lost" quantity="15" unit="character" precision="low"/><unclear>σίαν</unclear> ἀναιρεῖσθ<supplied reason="lost">αι</supplied> </rdg>
+                    </app>
+                 
+                    <app loc="58"><lem><supplied reason="lost">τὰ</supplied> χρήματα ἀπὸ <gap reason="lost" quantity="27" unit="character" precision="low"/> πρὸς ἀλλήλου<supplied reason="lost">ς</supplied></lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">τὰ κτή</supplied>ματα <gap reason="lost" quantity="1" unit="character"/>πε<gap reason="lost" quantity="3" unit="character"/> 
+                            καὶ γο<gap reason="lost" extent="unknown" unit="character"/> ἀλλήλου<supplied reason="lost">ς</supplied> 
+                            <note>Wilamowitz read <foreign xml:lang="grc">πρὸς</foreign> before the last word</note></rdg>
+                         <rdg resp="#oliverio1928a"><supplied reason="lost">τὰ</supplied> <unclear>χρ</unclear>ήματα <unclear>ἀπο</unclear><gap reason="lost" quantity="1" unit="character"/><unclear>ιλ</unclear><gap reason="lost" quantity="2" unit="character"/> <unclear>πάντα</unclear> 
+                            <gap reason="lost" quantity="4" unit="character"/><unclear>ηνα</unclear><gap reason="lost" quantity="10" unit="character"/><unclear>των</unclear> πρὸς ἀλλήλου<supplied reason="lost">ς</supplied></rdg>
+                        <rdg resp="#SEG"><supplied reason="lost">τὰ</supplied> χρήματα ἀπο<gap reason="lost" quantity="1" unit="character"/>ιλ<gap reason="lost" quantity="2" unit="character"/> πάντα 
+                            <gap reason="lost" quantity="4" unit="character"/>ηνα<gap reason="lost" quantity="10" unit="character"/>των πρὸς ἀλλήλου<supplied reason="lost">ς</supplied></rdg>
+                        <rdg resp="#fraser1958"><supplied reason="lost">τὰ</supplied> χρήματα ἀπο<gap reason="lost" quantity="1" unit="character"/><unclear>στ</unclear><gap reason="lost" quantity="25" unit="character" precision="low"/> πρὸς ἀλλήλους</rdg>
+                        <rdg resp="#rosamilia2023"><supplied reason="lost">τὰ</supplied> χρήματα ὑπ<unclear>ο</unclear><gap reason="lost" quantity="29" unit="character" precision="low"/> πρὸς ἀλλήλους</rdg>
+                    </app>
+                    <app loc="59"><lem><gap reason="lost" quantity="5" unit="character" precision="low"/>ων αἰτείσθωσαν οἱ</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">κατα</supplied>δικαζέσθωσαν <unclear>ο</unclear>ἱ</rdg>
+                        <rdg resp="#oliverio1928a">ἐ<supplied reason="lost" cert="low">κ νόμ</supplied><unclear>ων</unclear> αἰτείσθωσαν οἱ</rdg>
+                        <rdg resp="#SEG"><unclear>ἐ</unclear><supplied reason="lost" cert="low">κ νόμ</supplied>ων αἰτείσθωσαν οἱ</rdg>
+                        <rdg resp="#fraser1958"><gap reason="lost" quantity="10" unit="character" precision="low"/>έσθωσαν οἱ <gap reason="lost" quantity="30" unit="character" precision="low"/> καὶ</rdg>
+                    </app>
+                    <app loc="59"><lem resp="#rosamilia2023"><gap reason="lost" quantity="20" unit="character" precision="low"/><unclear>σ</unclear><supplied reason="lost">ί</supplied>αι καὶ</lem>                        
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/> καὶ <note>perhaps <supplied reason="lost">γερου</supplied>σίαι or <supplied reason="lost">ἐκκλη</supplied>σίαι</note> </rdg>
+                        <rdg resp="#oliverio1928a"><unclear>ἔγγονοι</unclear> <unclear>τῶν</unclear> <unclear>αὐτῶν</unclear> <unclear>οἴκων</unclear> <gap reason="lost" quantity="7" unit="character"/><unclear>ω</unclear>νται</rdg>
+                        <rdg resp="#fraser1958"><gap reason="lost" quantity="30" unit="character" precision="low"/> καὶ</rdg>
+                        <rdg resp="#IGCyr"><gap reason="lost" quantity="25" unit="character" precision="low"/> καὶ</rdg>
+                    </app>
+                    <app loc="60"><lem><supplied reason="lost">ἐκ</supplied> τῶν νομο<supplied reason="lost">θ</supplied><unclear>ε</unclear>τῶν ἐπαι<gap reason="lost" quantity="16" unit="character" precision="low"/></lem>                        
+                        <rdg resp="#ferri1925"><supplied reason="lost">ἐπὶ</supplied> τῶν νόμων <gap reason="lost" quantity="1" unit="character"/><orig>ανει</orig><gap reason="lost" quantity="1" unit="character"/><orig>λι</orig><gap reason="lost" quantity="1" unit="character"/>
+                        ν<gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>πεν</unclear><supplied reason="lost" cert="high">τακοσιοις</supplied> τῶν <orig><unclear>ενδηικαισηδ</unclear></orig><gap reason="lost" quantity="10" unit="character" precision="low"/> 
+                        <note>the restoration offered as plausible relies on very faint traces of letters</note></rdg> 
+                        <rdg resp="#SEG">πεντακοσίοις τῶν ἐνδηι καὶ σηδ<gap reason="lost" quantity="11" unit="character" precision="low"/></rdg>
+                        <rdg resp="#fraser1958"><gap reason="lost" quantity="12" unit="character" precision="low"/> τῶν ἐ<unclear>π</unclear>αι<gap reason="lost" quantity="17" unit="character" precision="low"/></rdg>
+                        <rdg resp="#IGCyr"><gap reason="lost" quantity="7" unit="character" precision="low"/>οις τῶν ἐ<unclear>π</unclear>'αἰῶνα<gap reason="lost" quantity="14" unit="character" precision="low"/></rdg>
+                        <rdg resp="#rosamilia2023"><gap reason="lost" quantity="3" unit="character"/>τῶν νομο<supplied reason="lost">θ</supplied><unclear>ε</unclear>τῶν ἐπαι<gap reason="lost" quantity="16" unit="character" precision="low"/> </rdg>
+                    </app>
+                    <app loc="60"><lem resp="#rosamilia2023"><supplied reason="undefined" evidence="previouseditor">οἱ</supplied> <unclear>ἄ</unclear>λ<unclear>λοι</unclear> πάντες</lem>
+                        <rdg resp="#ferri1925"> <choice><unclear>λ</unclear><unclear>α</unclear> <unclear>δ</unclear></choice> δὲ πάντες</rdg>
+                        <rdg resp="#oliverio1928a"><unclear>οἱ</unclear> ἄλλοι πάντες</rdg>
+                        <rdg resp="#fraser1958"><unclear>κ</unclear>α<unclear>ὶ</unclear> πάντες</rdg>
+                        <rdg resp="#IGCyr"><supplied reason="lost">ἄλ</supplied>λοι πάντες</rdg>
+                    </app>
+                    <app loc="61"><lem resp="#fraser1958">τῆι πολιτ<supplied reason="lost">εί</supplied><unclear>αι</unclear> τὰ δάνεια <gap reason="lost" quantity="17" unit="character" precision="low"/> δέονται</lem>
+                        <rdg resp="#ferri1925">κατ<gap reason="lost" quantity="1" unit="character"/>α<unclear>π</unclear><gap reason="lost" quantity="2" unit="character"/>θόντων 
+                            <orig>ακ</orig><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>ε οἰκίαι</rdg>
+                        <rdg resp="#oliverio1928a"><unclear>τῆι</unclear> <unclear>πολιτείαι</unclear> <unclear>νέ</unclear>' <unclear>ἀν</unclear>δρ<supplied reason="lost" cert="high">εῖα</supplied> <unclear>δ</unclear>έονται 
+                            <note>the restoration offered as plausible relies on very faint traces of letters</note></rdg> 
+                        <rdg resp="#SEG">τῆι πολιτείαι νεανδρεια<gap reason="lost" quantity="17" unit="character" precision="low"/> δέονται</rdg>
+                     </app>
+                    <app loc="61-62"><lem resp="#fraser1958">ὑπ<supplied reason="lost">ο<lb break="no"/>θ</supplied>έμ<unclear>εν</unclear></lem>
+                        <rdg resp="#ferri1925">ὑπ<gap reason="lost" quantity="1" unit="character"/><lb break="no"/><gap reason="lost" quantity="1" unit="character"/>μου</rdg>
+                        <rdg resp="#oliverio1928a">ὑπ<supplied reason="lost">ο</supplied><lb break="no"/><gap reason="lost" quantity="1" unit="character"/>έμειν</rdg>
+                    </app>
+                 
+                    <app loc="62"><lem>ἐπὶ π<supplied reason="lost">ρ</supplied>ᾶ<supplied reason="lost">σιν</supplied> <gap reason="lost" quantity="22" unit="character" precision="low"/> 
+                            <supplied reason="lost">τῶ</supplied>ν</lem>
+                        <rdg resp="#ferri1925">ἐπὶ ταῖς <gap reason="lost" quantity="2" unit="character"/>και<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#ferri1925">ἐπὶ ταῖς <supplied reason="lost">δί</supplied>καις <gap reason="lost" extent="unknown" unit="character"/> <note>Wilamowitz's reading</note></rdg>
+                        <rdg resp="#oliverio1928a">ἐπὶ <unclear>πάσ</unclear>ας <unclear>ἀρχὰς</unclear> <gap reason="lost" quantity="18" unit="character" precision="low"/>ν</rdg>
+                        <rdg resp="#SEG">ἐπὶ πάσας ἀρχὰς <gap reason="lost" quantity="18" unit="character" precision="low"/>ν</rdg>
+                        <rdg resp="#fraser1958">ἐπι<gap reason="lost" quantity="30" unit="character" precision="low"/>ν</rdg>
+                     </app>
+                    <app loc="63"><lem resp="#fraser1958">οἰκίας ἢ ἀγ<unclear>ροὺς</unclear> <unclear>ἔπρασσον</unclear></lem>
+                        <rdg resp="#ferri1925">οἰκίας ἢ α<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>
+                            <gap reason="lost" quantity="10" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>οἰ</unclear>κίας ἢ ἀγροὺς <supplied reason="lost" cert="high">ἔπρασσον</supplied> <gap reason="lost" quantity="9" unit="character" precision="low"/> 
+                            <note>the restoration offered as plausible relies upon very faint traces of letters</note></rdg>
+                        <rdg resp="#SEG">ἢ ἀγροὺς ἔπρασσον <gap reason="lost" quantity="9" unit="character" precision="low"/></rdg>
+                        <rdg resp="#fraser1958">ἢ ἀγ<unclear>ροὺς</unclear> <unclear>ἔπρασσον</unclear> <gap reason="lost" quantity="13" unit="character" precision="low"/></rdg>
+                        </app>
+                    <app loc="63"><lem resp="#fraser1958"><gap reason="lost" extent="unknown" unit="character"/><unclear>ὅσ</unclear>α</lem>
+                        <rdg resp="#ferri1925">α<gap reason="lost" quantity="7" unit="character"/><gap reason="illegible" quantity="1" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">φοτα ὅσα</rdg>
+                        <rdg resp="#SEG">φότα ὅσα</rdg>
+                    </app>
+                    <app loc="64"><lem><unclear>κ</unclear>αὶ ἁγ<supplied reason="lost" cert="low">νείας</supplied> <unclear>τι</unclear>σιν <w lemma="κομίζω"/>κομι<unclear>σ</unclear><supplied reason="lost" cert="low">θέντα</supplied> <gap reason="lost" quantity="15" unit="character" precision="low"/></lem>       
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="3" unit="character"/><orig>αιοι</orig><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> δὲ
+                            τισιν κομ<gap reason="lost" quantity="6" unit="character"/><orig>οασ</orig><gap reason="lost" quantity="6" unit="character"/><orig>ηθ</orig><gap reason="lost" quantity="1" unit="character"/>
+                            α<gap reason="lost" quantity="2" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">καὶ <unclear>ἀγαθοις</unclear> <unclear>τισιν</unclear> <unclear>κομίσουσι</unclear> <gap reason="lost" quantity="14" unit="character" precision="low"/></rdg>
+                        <rdg resp="#SEG">καὶ ἀγαθοῖς τισιν κομίσουσι <gap reason="lost" quantity="14" unit="character" precision="low"/></rdg>
+                        <rdg resp="#fraser1958">καὶ <unclear>ἀ</unclear>γ<gap reason="lost" quantity="4" unit="character"/>τισιν κομι<gap reason="lost" quantity="25" unit="character" precision="low"/></rdg>
+                        <rdg resp="#IGCyr"><gap reason="lost" quantity="2" unit="character"/>αι ἀγ<gap reason="lost" quantity="4" unit="character"/>τισιν κομι<gap reason="lost" quantity="20" unit="character" precision="low"/></rdg>
+                        <rdg resp="#rosamilia2023"><unclear>κ</unclear>αὶ ἀγ<gap reason="lost" quantity="4" unit="character"/><unclear>τι</unclear>σιν κομι<unclear>σ</unclear><gap reason="lost" quantity="9" unit="character" precision="low"/><orig><unclear>ασ</unclear></orig><gap reason="lost" quantity="7" unit="character" precision="low"/></rdg>
+
+                    </app>
+                    <app loc="64"><lem>τωσαν τὰ χρήματα</lem>
+                        <rdg resp="#ferri1925">ω<supplied reason="lost">σαν</supplied> τὰ <supplied reason="lost">κτ</supplied>ήματα</rdg>
+                        <rdg resp="#oliverio1928a"><unclear>φο</unclear>των τὰ χρήματα</rdg>
+                        <rdg resp="#fraser1958"><gap reason="lost" extent="unknown" unit="character"/>τὰ χρήματα</rdg>
+                    </app>
+                    <app loc="64-65"><lem resp="#fraser1958">τοῖς <lb/> <unclear>ταμί</unclear>αις</lem>
+                        <rdg resp="#ferri1925">τοῖς <lb/> <gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a #SEG">τοῖς <supplied reason="lost">ἰ</supplied><lb break="no"/>δίοις</rdg>
+                        </app>
+                    <app loc="65"><lem resp="#fraser1958">κατὰ τὸ διάγραμμα · τῶν δὲ ἄλλων πάντων τῶν ἐχομένων</lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/> διαγράμματα <gap reason="lost" quantity="4" unit="character"/><orig>λα</orig><gap reason="lost" quantity="11" unit="character"/>
+                        <orig>ον</orig><gap reason="lost" quantity="1" unit="character"/><orig>δ</orig><gap reason="lost" quantity="2" unit="character"/>νων</rdg>
+                        <rdg resp="#oliverio1928a">κατὰ τὸ διάγραμμα · τῶν δὲ <unclear>ἄλλων</unclear> πάντων τῶν ἐχομένων</rdg>
+                    </app>
+                    <app loc="65-66"><lem resp="#fraser1958">ἀληθ<lb break="no"/><supplied reason="lost">εί</supplied><unclear>ας</unclear></lem>
+                        <rdg resp="#ferri1925">ἀληθ<lb break="no"/><gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">ἀληθ<lb break="no"/><supplied reason="lost" cert="low">εί</supplied>ας</rdg>
+                    </app>
+                    <app loc="66"><lem resp="#fraser1958">δ<gap reason="lost" quantity="2" unit="character"/>π<gap reason="lost" quantity="3" unit="character"/>σαν
+                            <gap reason="lost" quantity="17" unit="character" precision="low"/></lem>
+                        <rdg resp="#ferri1925"><orig>τοχα</orig><gap reason="lost" quantity="1" unit="character"/>ον ἰδίαν <gap reason="lost" quantity="1" unit="character"/>
+                        <orig>αι</orig><gap reason="lost" quantity="7" unit="character"/><orig>νια</orig><gap reason="lost" quantity="1" unit="character"/>ν<gap reason="lost" quantity="1" unit="character"/>
+                        <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>δὲ</unclear> <unclear>ἐποίησαν</unclear> <unclear>τῶν</unclear> <unclear>καιομένων</unclear> ἀγρῶν </rdg>
+                        <rdg resp="#rosamilia2023"><unclear>δ</unclear><gap reason="lost" quantity="2" unit="character"/>π<gap reason="lost" quantity="3" unit="character"/>ς ἀναγ<unclear>ρ</unclear><supplied reason="lost">α</supplied>
+                            <gap reason="lost" quantity="9" unit="character" precision="low"/></rdg>
+                    </app>
+                    <app loc="66"><lem><unclear>ἀ</unclear>γρῶ<unclear>ν</unclear> καὶ τῆι πόλει</lem>
+                        <rdg resp="#ferri1925"><orig>α</orig><gap reason="lost" quantity="4" unit="character"/><orig>θο</orig><gap reason="illegible" unit="character" quantity="1"/>ς</rdg>
+                        <rdg resp="#oliverio1928a">καὶ τῆι πόλει</rdg>
+                        <rdg resp="#fraser1958"><unclear>καὶ</unclear> τῆι πόλει</rdg>
+                    </app>
+                    <app loc="66-67"><rdg resp="#rosamilia2023">ὡς θυ<gap reason="lost" quantity="2" unit="character"/><lb break="no"/><gap reason="lost" quantity="2" unit="character"/></rdg>
+                        <rdg resp="#ferri1925">θεοῦ <lb/> <gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">ὡς ὀψ<unclear>ώ</unclear><supplied reason="lost" cert="low">ν</supplied><lb break="no"/><unclear>ια</unclear></rdg>
+                        <rdg resp="#SEG">ὡς ὀψώ<supplied reason="lost">ν</supplied><lb break="no"/>ια</rdg>
+                        <rdg resp="#fraser1958">ὡς <unclear>θυ</unclear><gap reason="lost" quantity="1" unit="character"/><lb break="no"/><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#IGCyr">ὃς θυ<gap reason="lost" quantity="1" unit="character"/><lb break="no"/><gap reason="lost" quantity="2" unit="character"/></rdg>
+                    </app>
+                    <app loc="67"><lem resp="#fraser1958"><gap reason="lost" quantity="2" unit="character"/><orig>λ</orig><gap reason="lost" quantity="5" unit="character"/><orig>ρα</orig><gap reason="lost" quantity="5" unit="character"/>
+                        <orig><unclear>τ</unclear>ε<choice><unclear>χ</unclear><unclear>μ</unclear></choice></orig><gap reason="lost" quantity="3" unit="character"/><orig>α</orig><gap reason="lost" quantity="1" unit="character"/><orig>σαν</orig></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="3" unit="character"/> καὶ <gap reason="illegible" unit="character" quantity="1"/><gap reason="lost" quantity="9" unit="character"/>
+                        <orig>ψ</orig><gap reason="lost" quantity="1" unit="character"/><orig><unclear>α</unclear>ιεχομ</orig><gap reason="lost" quantity="1" unit="character"/>σαν</rdg>
+                        <rdg resp="#oliverio1928a"><unclear>κληρωτοῖς</unclear> <unclear>πολιτευταῖς</unclear> <unclear>χρ</unclear><supplied reason="lost">ε</supplied><unclear>σθωσαν</unclear></rdg>
+                        <rdg resp="#SEG">κληρωτοῖς πολιτευταῖς χρέσθωσαν</rdg>
+                        <rdg resp="#rosamilia2023"><gap reason="lost" quantity="2" unit="character"/><orig>καιπε</orig><gap reason="lost" quantity="3" unit="character"/><orig>τ</orig><gap reason="lost" quantity="7" precision="low"/><orig><unclear>τ</unclear>ε<unclear>χ</unclear></orig><gap reason="lost" quantity="5" unit="character"/><orig>σαν</orig></rdg>
+                     </app>
+                    <app loc="67"><lem resp="#rosamilia2023"><gap reason="lost" quantity="6" precision="low"/> <supplied reason="lost" cert="low">διδ</supplied>ότω ἀ<unclear>πὸ</unclear> τῶν προσ<supplied reason="undefined" evidence="previouseditor">όδ</supplied>ω<supplied reason="lost">ν καὶ</supplied></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="11" unit="character"/><orig>ζωαα</orig><orig>στο</orig><gap reason="lost" quantity="2" unit="character"/> τοσο<gap reason="lost" quantity="2" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a #SEG"><unclear>πρὸ</unclear> <unclear>παν</unclear><gap reason="lost" quantity="5" unit="character" precision="low"/> <unclear>τ</unclear>οῖς σώμασιν· χρεος ἔχω<supplied reason="lost">ν</supplied></rdg>
+                        <rdg resp="#fraser1958"><gap reason="lost" quantity="10" unit="character" precision="low"/><unclear>εα</unclear>τῶν προσ<unclear>όδ</unclear>ω<supplied reason="lost">ν καὶ</supplied></rdg>
+                        <rdg resp="#IGCyr">τῶν προσόδω<supplied reason="lost">ν</supplied></rdg>
+                    </app>
+                    <app loc="68"><lem resp="#oliverio1928a #fraser1958 #rosamilia2023">οὐσιῶν</lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="2" unit="character"/>ώτων </rdg>
+                        <rdg resp="#IGCyr">οὐσῶν</rdg>
+                    </app>
+                    <app loc="68"><lem>εὐθέως <unclear>κ</unclear>ηρυ<gap reason="illegible" quantity="2" unit="character"/><orig><unclear>α</unclear></orig><gap reason="illegible" quantity="2" unit="character"/>
+                            <orig>ασασ</orig><gap reason="lost" atLeast="10" atMost="11" unit="character"/><choice><unclear>η</unclear><unclear>π</unclear><unclear>μ</unclear></choice>
+                            <gap reason="lost" quantity="1" unit="character"/>ειαν καὶ</lem>
+                        <rdg resp="#ferri1925"><orig>ε</orig><gap reason="lost" quantity="1" unit="character"/><orig>θε</orig><gap reason="lost" quantity="1" unit="character"/>
+                            <orig>στα</orig><gap reason="lost" quantity="2" unit="character"/> καὶ <gap reason="lost" quantity="19" unit="character"/> δώσει<gap reason="lost" quantity="2" unit="character"/> καὶ</rdg>
+                        <rdg resp="#oliverio1928a"> εὐθέως κηρύσσηι ἀγόρασας <gap reason="lost" quantity="7" unit="character" precision="low"/> στρατηγεῖα δὲ καὶ</rdg>
+                        <rdg resp="#SEG">οὐσιῶν εὐθέως κηρύσσηι ἀ<unclear>γόρασας</unclear> <gap reason="lost" quantity="7" unit="character" precision="low"/> <unclear>στρατηγεῖα</unclear> δὲ καὶ</rdg>
+                        <rdg resp="#fraser1958">εὐθέως <unclear>κ</unclear>ηρυ<gap reason="illegible" quantity="2" unit="character"/><orig><unclear>α</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig>ασασ</orig>
+                            <gap reason="lost" atLeast="10" atMost="11" unit="character"/> στρατηγεῖα <unclear>ἄν</unclear> καὶ</rdg>
+                        <rdg resp="#rosamilia2023">εὐθέως <unclear>κ</unclear>ηρυ<gap reason="lost" quantity="2" unit="character"/><orig><unclear>α</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig>α<unclear>ψ</unclear>ασ</orig> 
+                        <gap reason="lost" quantity="7" unit="character" precision="low"/> σ<supplied reason="undefined" evidence="previouseditor">τρ</supplied>ατηγ<unclear>εῖ</unclear>α ἄν καὶ</rdg>
+                    </app>
+                    <app loc="68-69"><lem><unclear>κ</unclear><supplied reason="lost">αὶ</supplied><lb break="no"/>τὸς</lem>                        
+                        <rdg resp="#ferri1925">ν<lb break="no"/><gap reason="lost" quantity="1" unit="character"/>ιας</rdg>
+                        <rdg resp="#oliverio1928a">π<supplied reason="lost">ά<lb break="no"/>ν</supplied>τας</rdg>
+                        <rdg resp="#fraser1958">π<supplied reason="lost">ά<lb break="no"/>ν</supplied>τα <orig>σ</orig></rdg></app>
+                
+                    <app loc="69"><lem>λοιποὺς <unclear>δού</unclear>λους ἀπολυσάντων</lem>
+                        <rdg resp="#ferri1925"><orig>αλι</orig><gap reason="lost" quantity="12" unit="character"/><orig>υ</orig><gap reason="lost" quantity="14" unit="character"/> </rdg>
+                        <rdg resp="#oliverio1928a"><unclear>λοιμους</unclear> <add place="overstrike">κ</add><unclear>απους</unclear> <unclear>ἀποθυσάντων</unclear> <unclear>προγ</unclear><gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#SEG">λοιμοὺς <orig>καπους</orig> ἀποθυσάντων προγ<gap reason="lost" quantity="3" unit="character"/></rdg>
+                        <rdg resp="#fraser1958">λοιποὺς τ<unclear>ό</unclear>πους ἀποθυσ<supplied reason="lost">άντων</supplied> π<unclear>ρ</unclear>ῶ<unclear>τον</unclear> </rdg>
+                    </app>
+                    <app loc="69"><lem resp="#fraser1958">οἱ <unclear>δ</unclear>ε<supplied reason="lost">σπ</supplied>όται οἳ ἦσαν</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">ὑπεύ</supplied>θυνοι <unclear>ησαν</unclear></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>οἱ</unclear> δεσπόται, οἳ ἦσαν </rdg>
+                    </app>
+                    <app loc="69-70"><lem resp="#rosamilia2023">κατὰ τοῦ<supplied reason="lost">γρά</supplied><lb break="no"/><unclear>μ</unclear>μα<unclear>τ</unclear>ος ὡς</lem>
+                        <rdg resp="#ferri1925">κατὰ το<supplied reason="lost">ὺς<lb break="no"/>ν</supplied>όμ<supplied reason="lost">ου</supplied>ς· οἳ δὲ</rdg>
+                        <rdg resp="#oliverio1928a">κατὰ τοὺ<supplied reason="lost">ς</supplied> <lb break="no"/>λυμά<supplied reason="lost">ντ</supplied>ορας</rdg>
+                        <rdg resp="#fraser1958">κατὰ τοὺ<supplied reason="lost">ς</supplied> <lb break="no"/><gap reason="lost" quantity="2" unit="character"/>μα<gap reason="lost" quantity="2" unit="character"/>ορας</rdg>
+                        <rdg resp="#IGCyr">κατὰ τοῦ<gap reason="lost" quantity="1" unit="character"/><lb break="no"/><gap reason="lost" quantity="2" unit="character"/>μα<unclear>τ</unclear>ος ὡς</rdg>
+                        
+                    </app>
+                    <app loc="70"><lem>μὴ ἐλεύ<unclear>θε</unclear>ρα ἐπρίαντο οἰ<unclear>κ</unclear>ίας ἢ ἀγρούς</lem>
+                        <rdg resp="#ferri1925"> μὴ <gap reason="lost" quantity="1" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig>υ</orig><gap reason="lost" quantity="1" unit="character"/><orig>ρ</orig><gap reason="lost" quantity="1" unit="character"/> 
+                        ἐπ<supplied reason="lost">ρ</supplied>ίαντ<supplied reason="lost">ο</supplied> οἰκίας <supplied reason="lost">πρᾶσι</supplied>ς δὲ</rdg>
+                        <rdg resp="#oliverio1928a"> μὴ ἐλευθέρας ἐπρίαντο οἰκίας ἢ ἀγρούς</rdg>
+                        <rdg resp="#fraser1958"> μὴ ἐλεύ<supplied reason="lost">θε</supplied>ρ<unclear>α</unclear> ἐπρίαντο 
+                            <supplied reason="lost">οἰκ</supplied>ίας ἢ ἀγρούς,</rdg>
+                    </app>
+                    <app loc="70-71"><lem>ἔστω ἡ <unclear>ὠ</unclear><supplied reason="lost">νή</supplied>· <lb/> ἐν τοῖς</lem>
+                        <rdg resp="#ferri1925">.<lb n="70a"/><supplied reason="lost"><milestone rend="paragraphos" unit="undefined"/></supplied><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">ὡ<supplied reason="lost">νή</supplied>· <lb/> ἐν τοῖς</rdg>
+                        <rdg resp="#fraser1958">ἡ <supplied reason="lost">ὠνή</supplied>· <lb/> <gap reason="lost" quantity="3" unit="character"/> τοῖς</rdg>
+                        <rdg resp="#IGCyr">ἔστω <supplied reason="omitted">ὠ</supplied>νή· <lb/> ἐν τοῖς</rdg>
+                        <rdg resp="#rosamilia2023">ἔστω ἡ <supplied reason="lost">ὠνή</supplied>· <lb/> ἐν τοῖς</rdg>
+                    </app>
+                    <app loc="71"><lem><gap reason="lost" quantity="12" unit="character" precision="low"/><unclear>μη</unclear>δένα ο<gap reason="lost" quantity="2" unit="character"/><supplied reason="lost">ει</supplied>ν μηδὲ δοῦλον·</lem>
+                       <rdg resp="#ferri1925"><gap reason="lost" quantity="11" unit="character"/><orig>δι</orig><gap reason="lost" quantity="11" unit="character"/><orig>εναια</orig><gap reason="lost" quantity="3" unit="character"/>
+                        <orig>ιν</orig><gap reason="lost" quantity="1" unit="character"/>ασχε δοῦλον·</rdg>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="11" unit="character"/><orig>δι</orig><gap reason="lost" quantity="11" unit="character"/><orig>εναια</orig><gap reason="lost" quantity="2" unit="character"/>ειν μηδὲ δοῦλον.
+                            <note>Wilamowitz's reading</note></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>ἐθισμοῖς</unclear> <unclear>τῆς</unclear> <unclear>πόλεως</unclear> ναοπ<unclear>οιεῖν</unclear> μηδὲ δοῦλον.</rdg>
+                        <rdg resp="#SEG">ἐν τοῖς ἐθισμοῖς τῆς πόλεως ναοποιεῖν μηδὲ δοῦλον.</rdg>
+                        <rdg resp="#fraser1958"><gap reason="lost" quantity="12" unit="character" precision="low"/> <unclear>μη</unclear>δὲ ναο<unclear>ποιὸν</unclear> μηδὲ δοῦλον·</rdg>
+                    </app>
+                    <app loc="72"><lem resp="#fraser1958"><unclear>αὐτομολήσηι</unclear> <supplied reason="lost">ἠ δίκη</supplied> θάνατος ἔσται.</lem>
+                        <rdg resp="#ferri1925"><orig>οσ</orig><gap reason="lost" quantity="1" unit="character"/><orig>τι</orig><gap reason="lost" quantity="7" unit="character"/> 
+                                <supplied reason="lost">θανάσι</supplied>μος ἔσται.</rdg>
+                        <rdg resp="#oliverio1928a">ληιστη<supplied reason="lost">ρ</supplied><gap reason="lost" quantity="8" unit="character" precision="low"/> θάνατος ἔσται.</rdg>
+                    </app>
+                    <app loc="72"><lem resp="#ferri1925 #SEG #fraser1958">ἔτ<supplied reason="lost">ος</supplied></lem>
+                        <rdg resp="#oliverio1928a">ἔτ<supplied reason="lost">ο</supplied><supplied reason="omitted">ς</supplied></rdg>
+                    </app>                    
+                    <app loc="73">
+                        <rdg resp="#ferri1925 #fraser1958 #laronde1987">Ἀννικέριος</rdg>
+                        <rdg resp="#oliverio1928a">Νι<unclear>κοκράτ</unclear>ους</rdg>
+                        <rdg resp="#SEG">Νικοκράτους</rdg></app>
+                
+                    <app loc="74"><lem resp="#oliverio1928a"><supplied reason="lost">Κ</supplied>άλλ<supplied reason="lost">ι</supplied>ππος</lem>
+                        <rdg resp="#ferri1925">Κάλλιππος</rdg>
+                    </app>
+                    <app loc="74"><lem resp="#oliverio1928a #SEG #laronde1987">Πολιάνθης</lem>
+                        <rdg resp="#ferri1925">Π<unclear>ο</unclear><gap reason="lost" quantity="2" unit="character"/>κης</rdg>
+                        <rdg resp="#ferri1925">Παν<supplied reason="lost">τάρ</supplied>χης <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="74"><lem resp="#laronde1987">Θευχρή<supplied reason="lost">στω</supplied> <note>already read by Wilamowitz apud Ferri</note></lem>          
+                        <rdg resp="#ferri1925">Θευ<gap reason="lost" quantity="4" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a #SEG"><expan><abbr>Θευχρή<supplied reason="lost">σ</supplied></abbr><ex>τω</ex></expan></rdg>
+                    </app>
+               
+                    <app loc="75"><lem><supplied reason="lost">Κ</supplied><unclear>ά</unclear>λλις</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost" unit="character" cert="low">Δᾶ</supplied>μις</rdg> 
+                        <rdg resp="#ferri1925"><supplied reason="lost">Χρ</supplied>όμις <note>Klaffenbach and Wilamowitz's reading</note></rdg>                        
+                        <rdg resp="#oliverio1928a"><supplied reason="lost">Κ</supplied>άλλις</rdg>
+                    </app>                        
+                    <app loc="75"><lem resp="#oliverio1928a">Κυδίμαχος</lem>
+                        <rdg resp="#ferri1925">Κυ<gap reason="lost" quantity="2" unit="character"/>η<gap reason="lost" quantity="1" unit="character"/>α<gap reason="lost" quantity="1" unit="character"/>ος</rdg>
+                        <rdg resp="#ferri1925"><unclear>Εὐ</unclear><supplied reason="lost">α</supplied>νδρ<supplied reason="lost">ίδα</supplied>ς <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="75"><lem resp="#oliverio1928a">Ζευξιμάχω</lem>
+                        <rdg resp="#ferri1925">Ζε<supplied reason="lost">υ</supplied>ξ<supplied reason="lost">ιμ</supplied>άχω</rdg>
+                    </app>
+                
+                    <app loc="76"><rdg resp="#ferri1925">Ἀ<supplied reason="lost">μ</supplied>μώ<unclear>ν</unclear>ιος</rdg>
+                        <rdg resp="#ferri1925">Ἀμμώνιος <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="76"><rdg resp="#oliverio1928a"><unclear>Λ</unclear>εντίχω</rdg>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Ζ</supplied>ωτίχω</rdg>
+                    </app>
+                    <app loc="76"><lem resp="#cdl2000 #rosamilia2023">Στράτ<supplied reason="lost">ω</supplied></lem>                        
+                        <rdg resp="#ferri1925">Σ<gap reason="lost" quantity="2" unit="character"/>ατ<gap reason="lost" quantity="2" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a"><expan><abbr>Στ<supplied reason="lost">ρ</supplied>άτ<supplied reason="lost">ω</supplied></abbr><ex>νος</ex></expan></rdg>
+                        <rdg resp="#laronde1987">Σ<supplied reason="lost">τρ</supplied>άτ<supplied reason="lost">ωνος</supplied></rdg>
+                        <rdg resp="#IGCyr">Στράτ<gap reason="lost" atLeast="2" atMost="4" unit="character"/></rdg>
+                    </app>
+                    <app loc="77"><lem>Ἀρί<unclear>μ</unclear>μας</lem>
+                        <rdg resp="#ferri1925">Ἀρ<supplied reason="lost">ιστό</supplied>λας</rdg>                        
+                        <rdg resp="#oliverio1928a #laronde1987">Ἀρίμμας</rdg>
+                        <rdg resp="#fraser1958">Ἀριστόλας</rdg>
+                            <rdg type="alternative" resp="#fraser1958">Ἀρίμμας</rdg>
+                    </app>
+                    <app loc="78">
+                        <rdg resp="#ferri1925">Νομοφύλακε<supplied reason="omitted">ι</supplied>ς.</rdg>
+                        <rdg resp="#oliverio1928a">Νομοφύλακες</rdg>
+                        <rdg resp="#laronde1987">νομοφύλακες</rdg>
+                    </app>
+                    <app loc="79"><lem>Εὔ<unclear>φρ</unclear>ιος</lem>                        
+                        <rdg resp="#ferri1925">Εὔνιος</rdg>
+                        <rdg resp="#oliverio1928a">Εὔφριος</rdg>
+                        <rdg resp="#fraser1958">Εὔνιος</rdg>
+                            <rdg type="alternative" resp="#fraser1958">Εὔφριος</rdg>
+                    </app>
+                    <app loc="79"><lem>Πρ<supplied reason="lost">ᾶτι</supplied>ς <note>see commentary</note></lem>
+                        <rdg resp="#ferri1925">Γρί<supplied reason="lost">ννο</supplied><unclear>ς</unclear></rdg>
+                        <rdg resp="#oliverio1928a">Πρᾶτις</rdg>
+                        <rdg resp="#fraser1958">Γρί<supplied reason="lost">νν</supplied>ος</rdg>
+                        <rdg resp="#laronde1987"><unclear>Π</unclear>ρ<gap reason="lost" quantity="3" unit="character"/>ς</rdg>
+                    </app>
+                    <app loc="79"><lem resp="#laronde1987">Κυρβασί<supplied reason="lost">α</supplied></lem>
+                        <rdg resp="#ferri1925">Κυ<gap reason="lost" quantity="2" unit="character"/><unclear>μ</unclear>ι<gap reason="lost" quantity="1" unit="character"/> <unclear>ω</unclear></rdg>
+                        <rdg resp="#oliverio1928a"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64756"><name>Κυρράνιος</name></persName></rdg>
+                        <rdg resp="#fraser1958"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64756"><name>Κυ<unclear>ρράνι</unclear><supplied reason="lost">ος</supplied></name></persName></rdg>
+                    </app>
+                    <app loc="79"><lem resp="#oliverio1928a">Ἐτεάρχω</lem>
+                        <rdg resp="#ferri1925">Εὐδάμω</rdg>
+                    </app>
+                    <app loc="80"><lem resp="#fraser1958 #laronde1987">Ἁγησί<supplied reason="lost">στρ</supplied>ατος</lem>
+                        <rdg resp="#ferri1925">Ἀγήσανδρος</rdg>
+                        <rdg resp="#oliverio1928a">Ἁγησίστρατος</rdg>
+                    </app>
+                    <app loc="80"><lem>Πρα<supplied reason="lost">το</supplied><unclear>μήδ</unclear>ης</lem>   
+                        <rdg resp="#oliverio1928a #laronde1987">Πρα<supplied reason="lost">το</supplied>μήδης</rdg>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Παυσα</supplied>νία<supplied reason="lost">ς</supplied></rdg>
+                    </app>
+                    <app loc="80"><lem resp="#oliverio1928a #laronde1987">Καρνήδα</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Καρνή</supplied>δα</rdg>
+                    </app>
+                    <app loc="80"><lem>Κ<supplied reason="lost">λεάνορος</supplied> <note>restoration suggested by H. Berthelot, see Commentary</note></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="5" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a #laronde1987">Κ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="81"><lem><unclear>Β</unclear>ά<unclear>κ</unclear>αλ</lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="1" unit="character"/><unclear>αμι</unclear><gap reason="lost" quantity="1" unit="character"/> <note>Ferri's reading</note></rdg>
+                        <rdg resp="#ferri1925">Σ<supplied reason="lost">ω</supplied>σίας</rdg> <note>Wilamowitz's reading</note>
+                        <rdg resp="#oliverio1928a">Βάκαλ</rdg>
+                        <rdg resp="#fraser1958"><supplied reason="lost">Δ</supplied><unclear>αμ</unclear>ᾶ<unclear>ς</unclear></rdg>
+                        <rdg resp="#laronde1987"><gap reason="lost" quantity="1" unit="character"/><unclear>αμας</unclear></rdg>
+                    </app>
+                    <app loc="81"><rdg resp="#oliverio1928a">Ἁγησί<supplied reason="lost">στρα</supplied>τος</rdg>
+                        <rdg resp="#ferri1925">Ἀγήσ<supplied reason="lost">ανδ</supplied>ρος</rdg>
+                    </app>
+                    <app loc="81"><lem resp="#oliverio1928a">Δᾶμις</lem>
+                        <rdg resp="#ferri1925">Δᾶμι<supplied reason="lost">ς</supplied></rdg>   
+                    </app>
+                    <app loc="81"><lem resp="#laronde1987">Ναύ<supplied reason="lost">σιος</supplied></lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Μ</supplied>να<supplied reason="lost">σάρχω</supplied></rdg>
+                        <rdg resp="#ferri1925">Ναυ<gap reason="lost" extent="unknown" unit="character"/> <note>Wilamowitz's reading</note></rdg>
+                        <rdg resp="#oliverio1928a"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66088"><name>Φίλω<supplied reason="lost">νος</supplied></name></persName></rdg>
+                        <rdg resp="#fraser1958">Να<unclear>ω</unclear><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        </app>
+                    <app loc="83"><rdg resp="#oliverio1928a">Φιλίππω</rdg>
+                        <rdg resp="#ferri1925">Οἰάπτω</rdg>
+                        <rdg resp="#ferri1925">Οἰάγρω <note>Klaffenbach's and Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="83"><lem resp="#oliverio1928a">Πολυκλῆς</lem>
+                        <rdg resp="#ferri1925"><unclear>Π</unclear>ολ<supplied reason="lost">υκλ</supplied>ῆς</rdg> 
+                    </app>
+                    <app><lem><gap reason="lost" extent="unknown" unit="character"/>ίνω</lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a #laronde1987 #rosamili2023"><supplied reason="lost">Φιλ</supplied>ίνω</rdg>
+                    </app>
+                    <app loc="84"><lem resp="#oliverio1928a">Ἀνδροκλῆς <note>already Klaffenbach and Wilamowitz apud Ferri</note></lem>
+                        <rdg resp="#ferri1925">Ἀριστοκλῆς</rdg>
+                    </app>
+                    <app loc="84"><lem resp="#oliverio1928a">Ξηνόφαντος</lem>
+                       <rdg resp="#ferri1925">Δημόφων</rdg>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Μ</supplied>ηνόφαντο<supplied reason="lost">ς</supplied> <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="86"><lem resp="#oliverio1928a">Φιλίππ<supplied reason="lost">ω</supplied></lem>
+                        <rdg resp="#ferri1925">Φιλίππω</rdg>
+                    </app>
+                    <app loc="86"><lem resp="#oliverio1928a"><supplied reason="lost">Ἁ</supplied>γησίστρατος</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Πε</supplied>ισίστρατος</rdg>  
+                    </app>
+                    <app loc="86"><lem resp="#oliverio1928a">Πρῶρ<supplied reason="lost">ος</supplied></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#ferri1925">Πρῶ<supplied reason="lost">ρος</supplied> <note>Wilamowitz's reading</note></rdg>                        
+                    </app>
+                    <app loc="87"><lem><unclear>Ἀ</unclear>ριστοφῶντος</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Ἀ</supplied>ριστοφάνευς</rdg>
+                        <rdg resp="#oliverio1928a #fraser1958"><supplied reason="lost">Ἀ</supplied>ριστοφῶντος</rdg>
+                    </app>
+                    <app loc="87"><lem resp="#oliverio1928a">Κυδίμα<supplied reason="lost">χος</supplied></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="2" unit="character"/>σ<gap reason="lost" quantity="5" unit="character"/></rdg>
+                    </app>
+                    <app loc="87"><lem resp="#oliverio1928a">Αἰγλάνορος</lem>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Α</supplied>ἰγλάνορος</rdg> 
+                    </app>
+                    <app loc="87"><lem resp="#oliverio1928a">Ἀνδροκλῆς</lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" quantity="4" unit="character"/>μήδης</rdg>
+                        <rdg resp="#ferri1925"><supplied reason="lost">Ἀ</supplied>νδρ<supplied reason="lost">οκ</supplied>λῆς <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="87"><lem resp="#laronde1987 #rosamilia2023">Καλ<supplied reason="lost">λιμάχω</supplied></lem>
+                        <rdg resp="#ferri1925"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#oliverio1928a">Κάλλιος</rdg>
+                            <rdg type="alternative" resp="#oliverio1928a">Καλλιμάχω</rdg>
+                    </app>
+                    <app loc="87a"><lem resp="#fraser1958 #rosamilia2023"><space atLeast="6" unit="line"/></lem>                        
+                        <rdg resp="#ferri1925"><note>in his diplomatic transcription Ferri gives scattered letters as of five lines out of which our line 88 would be the 3rd; it seems
+                        useless to transcribe them</note></rdg>
+                        <rdg resp="#oliverio1928a"><unclear>ἐπῖφι</unclear> <unclear>κ</unclear>'</rdg>
+                        <rdg resp="#SEG">ἐπῖφι κ'</rdg>                        
+                        <rdg resp="#IGCyr"><space quantity="2" unit="line"/> <lb/><gap reason="lost" extent="unknown" unit="character"/>επι<unclear>φ</unclear><supplied reason="lost">ι</supplied><space quantity="3" unit="character"/> κ<space extent="unknown" unit="character"/> <lb/><space extent="unknown" unit="line"/></rdg>
+                    </app>
+                </p>
+
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>B<supplied reason="lost">onne Fortun</supplied>e</p>
+                <p>Seront citoyens les hommes nés d’un Cyrénéen et d’une Cyrénéenne et aussi ceux nés des femmes libyennes de la zone entre le Katabathmos et Authamalax, 
+                    ainsi que ceux nés des <foreign rend="italic">epoikoi</foreign> de cités au-delà de la Thinitis installés par les Cyrénéens, ceux que  
+                    Ptolémée nommera et ceux que le corps civique admettra en application des présentes lois.</p>
+                <p>Le <foreign rend="italic">politeuma</foreign> se composera des Dix mille ; en feront partie les exilés réfugiés en Egypte que Ptolémée désignera et ceux qui possèdent des biens 
+                    non périssables évalués (10) avec ceux de leur épouse à vingt mines d’Alexandre, à condition que les évaluateurs les estiment libres d’hypothèque ; 
+                    et tous ceux qui détiennent des créances d’une valeur de vingt mines d’Alexandre avec ceux de leur épouse estimés en biens non périssables 
+                    pour une valeur qui ne soit pas inférieure à la créance augmentée des intérêts — et que les débiteurs confirment ces créances sous la foi du 
+                    serment— même si leurs voisins ne jouissent pas de tous leurs droits, ces hommes-là feront eux aussi partie des Dix mille, s’ils ont plus de trente
+                    ans. Les <foreign rend="italic">gérontes</foreign> choisiront comme évaluateurs parmi les Dix mille soixante hommes de plus de trente ans, après avoir prêté le serment réglementaire. 
+                    Ceux qui seront choisis procèderont aux évaluations conformément aux prescriptions des lois ; la première année, on sera citoyen sur la base des 
+                    évaluations passées.</p>
+                <p>Le conseil sera constitué de cinq cents citoyens tirés au sort de plus de cinquante ans ; ils exerceront leur mandat
+                    de conseiller pendant deux ans et la troisième année exclueront par tirage au sort la moitié d’entre eux ; ceux-ci abandonneront leur mandat pour une 
+                    durée de deux ans. Si le nombre n’est pas atteint, on complètera par tirage au sort parmi les quarantenaires.</p>
+                 <p>(20) Seront <supplied reason="lost"><foreign rend="italic">gérontes</foreign></supplied> cent un citoyens, que Ptolémée nommera ; les Dix mille choisiront au fur 
+                     et à mesure des décès ou des défaillances un autre membre de plus de cinquante ans pour compléter les cent un. Il ne sera pas possible de choisir un
+                     <foreign rend="italic">gérôn</foreign>, pour une magistrature autre que la stratégie en temps de guerre. Les prêtres d’Apollon seront choisis parmi les 
+                     <foreign rend="italic">gérontes</foreign> n’ayant pas exercé la prêtrise et âgés de plus de cinquante ans.</p>
+                <p>Ptolémée sera stratège à vie. Seront choisis en outre cinq stratèges parmi ceux qui n’ont pas assumé cette fonction, âgés de plus de cinquante ans; 
+                    mais en cas de guerre, ils seront pris dans l’ensemble du <foreign rend="italic">politeuma</foreign>. Si survient une nouvelle guerre, sauf une guerre contre des Libyens, 
+                    les Dix mille décideront si (30) les mêmes doivent continuer à exercer la stratégie ou non ; si c’est non, on en choisira dans l’ensemble du <foreign rend="italic">politeuma</foreign>.</p>
+                <p>Il y aura aussi neuf nomophylaques pris parmi ceux qui n’ont pas exercé cette fonction.</p>
+                <p>Et cinq éphores pris parmi ceux qui n’ont pas exercé cette fonction, âgés de plus de cinquante ans.</p>
+                <p>Les <foreign rend="italic">gérontes</foreign> exerceront les fonctions qu’avaient les <foreign rend="italic">gérontes</foreign> du temps de la paix, 
+                    le conseil exercera les fonctions qu’avait le conseil, les Dix mille exerceront les fonctions qu’avaient les Mille. Toutes les causes susceptibles 
+                    d’entraîner la peine capitale seront jugées par les <foreign rend="italic">gérontes</foreign>, le conseil et mille cinq cents des Dix mille, choisis
+                    par tirage au sort ; ils useront de toutes les lois précédentes qui ne contreviennent pas aux dispositions du présent <foreign rend="italic">diagramma</foreign>. 
+                    Les magistrats seront soumis à reddition de compte selon les lois existantes. Quelqu’un qui sera déféré par les stratèges et inculpé par les 
+                    <foreign rend="italic">gérontes</foreign> et le conseil au risque de la peine capitale, (40) pourra choisir d’être jugé selon les lois ou par devant Ptolémée, 
+                    et ceci pour une période de trois ans. Par la suite, on sera jugé selon les lois. Mais les exilés ne devront pas être condamnés sans l’avis de Ptolémée.</p>
+                <p>Tout membre du corps civique qui à titre public exerce les fonctions de médecin ou de pédotribe ou de maître de tir à l’arc, de cavalerie 
+                    ou de combat en armes ou de héraut au prytanée ne pourra pas exercer en même temps une des magistratures accessibles aux Dix mille, celui quel qu'il soit 
+                    qui exerce l'une de ces fonctions.</p>
+                <p>Celui des citoyens qui sera malade ou qui combinera <gap reason="lost" extent="unknown" unit="character"/> ou qui intentera des procès en série ou qui <gap reason="lost" extent="unknown" unit="character"/> des 
+                    inculpations <supplied reason="lost">ou qui</supplied> <gap reason="lost" extent="unknown" unit="character"/>, pratiquera la revente au détail de produits importés, sera passible 
+                    de privation de droits ; <supplied reason="lost">de même celui qui sera</supplied> <gap reason="lost" extent="unknown" unit="character"/> ou tailleur de pierres ou portefaix ou 
+                    <supplied reason="lost">exercera</supplied>ra quelque autre métier manuel ou l'organisera, du fait qu’il aura exercé une activité artisanale  (50) <gap reason="lost" extent="unknown" unit="character"/> ne sera jamais stratège.</p>
+                <p>Quiconque <supplied reason="lost">attentera</supplied> aux décisions imposées par Ptolémée <supplied reason="lost">aux Cyré</supplied>néens sera 
+                    passible de la peine capitale.</p>
+                <p>Tous les <supplied reason="lost" cert="low">biens</supplied> que les exilés <gap reason="lost" extent="unknown" unit="character"/> des choses de valeur et ont accueilli des coupables <gap reason="lost" extent="unknown" unit="character"/> entre eux en dernier 
+                    ressort. Les biens personnels seront en pleine propriété.</p>
+                <p>Pour les Cyrénéens, la loi voudra que <gap reason="lost" extent="unknown" unit="character"/> toutes les dettes <gap reason="lost" extent="unknown" unit="character"/> emporter les biens de <gap reason="lost" extent="unknown" unit="character"/> les 
+                    uns envers les autres <gap reason="lost" extent="unknown" unit="character"/> les <gap reason="lost" extent="unknown" unit="character"/> réclameront <gap reason="lost" extent="unknown" unit="character"/> à la <supplied reason="lost" cert="low"><foreign rend="italic">gerousia</foreign></supplied> (ou 
+                    à l'<supplied reason="lost" cert="low">assemblée</supplied>) et au conseil et aux <gap reason="lost" extent="unknown" unit="character"/> (60)
+                    des <gap reason="lost" extent="unknown" unit="character"/>  à vie <gap reason="lost" extent="unknown" unit="character"/> tous les autres dans la vie civique <gap reason="lost" extent="unknown" unit="character"/> les emprunts <gap reason="lost" extent="unknown" unit="character"/> 
+                    ont besoin dans la cité d’hypothéquer en vue de vendre <gap reason="lost" extent="unknown" unit="character"/> de ceux qui aux gages de Ptolémée ont administré des maisons 
+                    ou des terrains <gap reason="lost" extent="unknown" unit="character"/> tout ce qui, confié de manière sincère et dés<supplied reason="lost" cert="low">intéressée</supplied> <gap reason="lost" extent="unknown" unit="character"/>ront les biens aux trésoriers conformément au <foreign rend="italic">diagramma</foreign> ;
+                    et de tous les autres biens détenus sincèrement <gap reason="lost" extent="unknown" unit="character"/> des terrains et à la cité les prix comme <gap reason="lost" extent="unknown" unit="character"/>, qu'il <supplied reason="lost">verse</supplied> en prenant sur ses revenus et biens, immédiatement 
+                    <gap reason="lost" extent="unknown" unit="character"/> et que tous les biens, en particulier le reste des esclaves soient libérés d’abord par ceux qui étaient leurs maîtres, contre le <supplied reason="lost">certificat</supplied> (70) stipulant qu'ils les avaient achetés non libres, 
+                    <supplied reason="subaudible">esclaves</supplied>, maisons et terrains ; que leur achat soit nul ; <gap reason="lost" extent="unknown" unit="character"/>, personne <gap reason="lost" extent="unknown" unit="character"/>, pas même un esclave. Pour quiconque fera défection de son poste 
+                    de garde, la peine de mort s’appliquera. 
+                    Magistrats : prêtre pour la troisième année : Peithagoras fils d’Annikeris. Stratèges :</p>
+                <p>Kallippos fils de Mélanippos, Polyanthès fils d’Eukleidas, Euklès fils de Theukhrestos, Kallis fils de Mnasarkhos, Kudimakhos fils de Zeuximakhos, 
+                    Philinos fils d’Exakis, Kallippos fils d’Etéarkhos, Ammônios fils de Lentikhos, Aristandridas fils de Stratos, Kleugenès fils de Xouthos, 
+                    Arimmas fils de Theudôros, Theudôros fils d’Etéarkhos.</p>
+                <p>Nomophylaques : Aristophôn fils d’Euphris, Pratis fils de Kurbasias, Annikeris fils d’Etéarkhos, (80) Hagèsistratos fils de Nikasios, Pratomèdès 
+                    fils de Karnèdas, Hagèsandros fils de K<supplied reason="lost">léanôr</supplied>, Bakal fils d’Aiglanôr, Hagèsistratos fils d’Aristôn, Damis 
+                    fils de Nausis.
+                Ephores :</p>
+                <p>Pratomèdès fils de Philippos, Polyklès fils de <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> fils de <gap reason="lost" extent="unknown" unit="character"/>inos, 
+                    Androklès fils de Kallimakhos, Xènophantos fils de <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>Nomothètes : Pratomèdès fils de Philippos, Hagèsistratos fils de Nikasios, Prôros fils d’Aristophôn, Kudimakhos fils d’Aiglanôr, Androklès 
+                    fils de Kal<supplied reason="lost">limakhos</supplied>.</p>
+              
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+               <p>G<supplied reason="lost">ood Fortun</supplied>e</p>
+                <p>Should be citizens the men born from a Cyrenaean father and a Cyrenaean mother and also those born from Libyan women between Katabathmos and Authamalax, 
+                as well as those born from the <foreign rend="italic">epoikoi</foreign> of cities beyond Thinitis whom the Cyrenaeans settled, those whom Ptolemy will 
+                appoint and those whom the civic body will admit in enforcement of the present laws.</p>
+                <p>The <foreign rend="italic">politeuma</foreign> should consist of the Ten thousands; should also be part the exiles having taken refuge in Egypt whom Ptolemy will appoint and those who are in 
+                possession of everlasting belongings estimated (10) with those of their wife at twenty mines of Alexander, provided that the evaluators estimate them mortgage-free; 
+                furthermore those who hold debts valuated twenty mines of Alexander with everlasting belongings of their wife estimated not lower than the debt plus the tokens 
+                — and those indebted should confirm the debts upon oath — and even if their neighbours are deprived of rights, those will also be part of the 
+                Ten thousand, if they are older than thirty years of age. The <foreign rend="italic">gerontes</foreign> should choose as evaluators amongst the Ten thousand 
+                sixty men older than thirty, after having sworn the customary oath. Those who will be chosen will carry out the evaluations by enforcement of the laws; for the first year, 
+                one will be a citizen in accordance with the past evaluations.</p> 
+                <p>The council should consist of five hundred drawn amongst the citizens aged more than fifty; they should act as councillors for two years and on the third year they
+                should draw out half of them; these should leave their office for two years. If the total is not fulfilled, the missing number will be drawn amongst those aged more than 
+                forty years.</p>  
+                <p>(20) Should be <supplied reason="lost"><foreign rend="italic">gerontes</foreign></supplied> hundred and one citizens whom Ptolemy will appoint; in case of death or failure, the Ten thousand 
+                should elect another member aged more than fifty years in order to complete the hundred and one. It will not be allowed to elect a <foreign rend="italic">geron</foreign> 
+                for any office but strategy in wartime. The priests of Apollo will be chosen amongst the <foreign rend="italic">gerontes</foreign> who have never fulfilled 
+                the priesthood and are aged more than fifty years.</p> 
+                <p>Ptolemy will be <foreign rend="italic">strategos</foreign> for life. Furthermore five <foreign rend="italic">strategoi</foreign> will be chosen amongst 
+                those who have not yet taken on that duty and aged more than fifty years; but in case of war, amongst the whole <foreign rend="italic">politeuma</foreign>. 
+                If another war occurs, except a war against Libyans, the Ten thousand should decide whether (30) the same will be <foreign rend="italic">strategoi</foreign> longer 
+                or not; if not, they should be chosen amongst the whole <foreign rend="italic">politeuma</foreign>.</p> 
+                <p>There will be also nine <foreign rend="italic">nomophylakes</foreign> chosen amongst those who have not yet taken on that duty.</p>
+               <p>And five <foreign rend="italic">ephori</foreign> chosen amongst those who have not yet taken on that duty and aged more than fifty years.</p>                
+                <p>The <foreign rend="italic">gerontes</foreign> should do what the <foreign rend="italic">gerontes</foreign> did in peace time, the council should do what the council did, 
+                the Ten thousand should do what the Thousand did. All cases with a risk of death penalty should be tried by the <foreign rend="italic">gerontes</foreign>, the 
+                council and one thousand and five hundred men drawn amongst the Ten thousand; they should use the former laws, provided that they do not infringe the present 
+               <foreign rend="italic">diagramma</foreign>. The public offices should be liable to rendering account according to the existing laws. Someone who will be brought to 
+                trial by the <foreign rend="italic">strategoi</foreign> and charged by the <foreign rend="italic">gerontes</foreign> and the council with risk of death penalty 
+                (40) should be allowed to choose whether he will be tried either according to the laws or before Ptolemy, this for three years. Afterwards, the trial should 
+                be made according to the laws. But against the exiles no sentence should be allowed without Ptolemy’s advice.</p>
+                <p>Any member of the civic body who publicly practises as physician or <foreign rend="italic">paedotribes</foreign> or teaches archery, riding or fighting in 
+                arms or acts as herald in the <foreign rend="italic">prytaneion</foreign> should not be allowed to perform at the same time an office open to the Ten thousand, 
+                whoever is practising one amongst those professions.</p>
+                <p>Any citizen who will be ill or will combine <gap reason="lost" extent="unknown" unit="character"/> or will institute multiple proceedings or <gap reason="lost" extent="unknown" unit="character"/> charges 
+                <supplied reason="lost">or</supplied> <gap reason="lost" extent="unknown" unit="character"/> will retail imported products, this one will be liable to deprivation of his rights; 
+                <supplied reason="lost">likewise whoever will be</supplied> <gap reason="lost" extent="unknown" unit="character"/> or stonecutter or porter or will <supplied reason="lost">practise</supplied> or organize some other manual trade,
+                because of his having exercised craftsmanship (50) <gap reason="lost" extent="unknown" unit="character"/> should never be <foreign rend="italic">strategos</foreign>.</p>
+                <p>Whoever <supplied reason="lost">will undermine</supplied> the decisions imposed by Ptolemy <supplied reason="lost">on the Cyre</supplied>naeans should 
+                be liable to death penalty.</p>
+               <p>All <supplied reason="lost" cert="low">belongings</supplied> that the exiles <gap reason="lost" extent="unknown" unit="character"/> valuables and welcomed guilty persons <gap reason="lost" extent="unknown" unit="character"/> one another at a last resort. The personal 
+               possessions should be full belongings.</p> 
+              <p>For the Cyrenaeans, the law should be that <gap reason="lost" extent="unknown" unit="character"/> all debts <gap reason="lost" extent="unknown" unit="character"/> take away the belongings of <gap reason="lost" extent="unknown" unit="character"/> one towards 
+               the other <gap reason="lost" extent="unknown" unit="character"/> them <gap reason="lost" extent="unknown" unit="character"/> should reclaim to <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">the <foreign rend="italic">gerousia</foreign></supplied> (or the <supplied reason="lost" cert="low">assembly</supplied>) and to the council and to the <gap reason="lost" extent="unknown" unit="character"/> (60) of the 
+               <gap reason="lost" extent="unknown" unit="character"/>  for life <gap reason="lost" extent="unknown" unit="character"/> all others in the political life <gap reason="lost" extent="unknown" unit="character"/> the loans <gap reason="lost" extent="unknown" unit="character"/> need in the city to mortgage in order to sell 
+               <gap reason="lost" extent="unknown" unit="character"/> of those who in Ptolemy’s service managed houses or pieces of land <gap reason="lost" extent="unknown" unit="character"/> all that, having been <supplied reason="lost">handed on</supplied> sincerily and  without <supplied reason="lost" cert="low">self-interest</supplied> <gap reason="lost" extent="unknown" unit="character"/> the 
+               belongings to the treasurers according to the <foreign rend="italic">diagramma</foreign>; and of all other possessions belonging sincerily <gap reason="lost" extent="unknown" unit="character"/> 
+               pieces of land and to the city the prices, as <gap reason="lost" extent="unknown" unit="character"/> he should <supplied reason="lost" cert="low">pay</supplied> from his own incomes and belongings, 
+               immediately <gap reason="lost" extent="unknown" unit="character"/> and all the <supplied reason="lost" cert="low">properties</supplied>, especially 
+               the rest of the slaves should be freed first by those who were their masters, against the <supplied reason="lost">certificate</supplied> (70) stipulating that they bought them as non-free, <supplied reason="subaudible">slaves</supplied>, houses or 
+               plots; the purchase should be null; <gap reason="lost" extent="unknown" unit="character"/> nobody <gap reason="lost" extent="unknown" unit="character"/>, not even a slave. Whoever will desert his post of guard, to him 
+               the penalty should be death.
+               Magistrates: priest for the third year: Peithagoras son of Annikeris. <foreign rend="italic">Strategoi</foreign>:</p> 
+               <p>Kallippos son of Melanippos, Polyanthes son of Eukleidas, Eukles son of Theuchrestos, Kallis son of Mnasarchos, 
+               Kudimachos son of Zeuximachos, Philinos son of Exakis, Kallippos son of Etearchos, Ammonios son of Lentichos, Aristandridas son of Stratos, Kleugenes son of 
+               Xouthos, Arimmas son of Theudoros, Theudoros son of Etearchos.</p>
+               <p><foreign rend="italic">Nomophylakes</foreign>: Aristophon son of Euphris, Pratis son of Kurbasias, Annikeris son of Etearchos, (80) Hagesistratos son of 
+               Nikasios, Pratomedes son of Karnedas, Hagesandros son of Kleanor, Bakal son of Aiglanor, Hagesistratos son of Ariston, Damis son of Nausis.
+               <foreign rend="italic">Ephori</foreign> :</p>
+               <p>Pratomedes son of Philippos, Polykles son of <gap reason="lost" extent="unknown" unit="character"/>, 
+               <gap reason="lost" extent="unknown" unit="character"/> son of <gap reason="lost" extent="unknown" unit="character"/>inos, Androkles son of Kallimachos, Xenophantos son of <gap reason="lost" extent="unknown" unit="character"/>.</p>
+               <p><foreign rend="italic">Nomothetae</foreign> : Pratomedes son of Philippos, Hagesistratos son of Nikasios, Proros son of Aristophon, Kudimachos son of
+                Aiglanor, Androkles son of Kal<supplied reason="lost">limachos</supplied>.</p>
+               
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" quantity="1" unit="line"/></p>
+            <p>Saranno cittadini gli uomini nati da padre di Cirene e da madre di Cirene e anche quelli nati da donne libiche della zona tra la località
+                di Katabathmos e di Authamalax, come pure quelli discendenti dagli <foreign rend="italic">epoikoi</foreign> delle città al di là di Thinitis, che i Cirenei insediarono, coloro 
+                che Tolemeo nomini e coloro che il corpo civico ammetta in applicazione delle leggi seguenti.</p>
+            <p>Il <foreign rend="italic">politeuma</foreign> sia l'insieme dei Diecimila: vi facciano parte gli esuli rifugiati in Egitto che Tolemeo designerà e coloro che hanno un patrimonio
+                in beni durevoli, (10) compresi quelli della moglie, di venti mine di Alessandro, patrimonio che i <foreign rend="italic">timeteres</foreign>
+                avranno valutato libero da ipoteche; e coloro che sono creditori di venti mine di Alessandro e la cui moglie possiede beni valutati come durevoli
+                di valore non inferiore al credito dovuto e all'interesse – e i debitori confermino questi crediti con giuramento – e anche se i loro vicini non hanno
+                pieni diritti, facciano parte anche questi uomini dei Diecimila, se non sono più giovani di trenta anni. I <foreign rend="italic">gerontes</foreign>
+                scelgano come <foreign rend="italic">timeteres</foreign> dai Diecimila sessanta uomini non più giovani di trenta anni, dopo aver prestato
+                il giuramento tradizionale. Gli eletti facciano le valutazioni in base a quanto sia scritto nelle leggi; ma per il primo anno si componga il corpo civico
+                in base alle valutazioni precedenti.</p>
+            <p>Il consiglio sia di cinquecento uomini, sorteggiati fra i non più giovani di cinquanta anni. Siano consiglieri per due anni, 
+                escludano per sorteggio al terzo anno la metà <supplied reason="subaudible">degli effettivi</supplied>; questi abbandonino la carica per due anni. 
+                Qualora non risulti il numero, selezionino i mancanti con un sorteggio supplementare fra quelli di quaranta anni.</p>
+            <p>(20) I <supplied reason="lost"><foreign rend="italic">gerontes</foreign></supplied> siano centouno, che Tolemeo designerà. Nel caso in cui uno muoia o sia deposto, per arrivare al numero
+                di centouno i Diecimila ne eleggano un altro non più giovane di cinquanta anni. Non sia lecito eleggere i <foreign rend="italic">gerontes</foreign>
+                in nessuna altra carica tranne la strategia in tempo di guerra. I sacerdoti di Apollo siano scelti fra i <foreign rend="italic">gerontes</foreign>, che non
+                abbiano ancora ricoperto la carica di sacerdote, non più giovani di cinquanta anni.</p>
+            <p>Stratego sia Tolemeo per sempre. Oltre a lui si eleggano cinque strateghi fra coloro che non hanno ancora ricoperto la carica di stratego, non più giovani
+                di cinquanta anni; ma se c'è la guerra, si eleggano dall'intero <foreign rend="italic">politeuma</foreign>. Se, d'altro canto, sopravviene una nuova guerra, 
+                eccezion fatta per una guerra contro dei Libici, i Diecimila determinino se (30) gli stessi strateghi debbano continuare l'incarico oppure no; se si decide 
+                che non debbono continuare l'incarico gli stessi, li eleggano dall'intero <foreign rend="italic">politeuma</foreign>.</p>
+            <p>Ci siano poi nove <foreign rend="italic">nomophylakes</foreign>, scelti fra coloro che non hanno ricoperto la carica di <foreign rend="italic">nomophylax</foreign>.</p>
+             <p>E cinque efori, scelti fra coloro che non hanno ricoperto la carica di eforo, non più giovani di cinquanta anni.</p>
+            <p>I <foreign rend="italic">gerontes</foreign> facciano ciò che i <foreign rend="italic">gerontes</foreign> facevano in tempo di pace, il 
+                consiglio quello che faceva il consiglio, i Diecimila quello che facevano i Mille. Tutte le cause che prevedano la pena di morte le giudichino i 
+                <foreign rend="italic">gerontes</foreign>, il consiglio e millecinquecento fra i Diecimila, estratti a sorte. Utilizzino tutte le leggi precedenti 
+                che non siano contrarie a questo <foreign rend="italic">diagramma</foreign>.
+                I magistrati siano soggetti al rendiconto in base alle leggi in vigore. Chiunque, chiamato in giudizio dagli strateghi, sia accusato formalmente, 
+                con pronuciamento per la pena capitale, dai <foreign rend="italic">gerontes</foreign> e dal consiglio, (40) abbia la possibilità, se lo desidera, di essere 
+                giudicato o in base alle leggi o da Tolemeo, per tre anni. Per l'avvenire si giudichi in base alle leggi. Ma gli esuli non siano condannati senza il 
+                parere di Tolemeo.</p>
+            <p>Chiunque del corpo civico svolga per la città la professione di medico o di <foreign rend="italic">paidotribes</foreign> o insegni a tirare con l'arco 
+                o ad andare a cavallo o a combattere in armi o faccia l'araldo nel pritaneo, non può esercitare contemporaneamente le magistrature proprie dei
+                Diecimila, chiunque faccia una di queste cose.</p>
+            <p>Chi dei cittadini sia malato o chi combini <gap reason="lost" extent="unknown" unit="character"/> o chi intenti molte cause o chi <gap reason="lost" extent="unknown" unit="character"/> delle imputazioni <supplied reason="lost">o chi</supplied> <gap reason="lost" extent="unknown" unit="character"/> o venda al minuto prodotti importati, sia privato dei diritti civili; <supplied reason="lost">allo
+                stesso modo chi sia</supplied> <gap reason="lost" extent="unknown" unit="character"/> o tagliatore di pietre o diventi facchino o <supplied reason="lost">eserciterà</supplied> una qualche altra attività manuale o l'organizzerà, per il fatto di aver svolto
+                un'attività artigianale (50) <gap reason="lost" extent="unknown" unit="character"/> non sarà mai stratego.</p> 
+            <p>Chiunque <supplied reason="lost">attenti</supplied> alle decisioni imposte da Tolemeo <supplied reason="lost">ai Cire</supplied>nei, 
+                sia punibile con la morte.</p>
+            <p>Tutti i <supplied reason="lost" cert="low">beni</supplied> che gli esuli <gap reason="lost" extent="unknown" unit="character"/> delle cose di valore e hanno accolto dei colpevoli <gap reason="lost" extent="unknown" unit="character"/> gli uni verso gli altri
+                come ultima istanza. I beni personali siano in piena proprietà.</p>
+            <p>Legge sarà per i Cirenei che <gap reason="lost" extent="unknown" unit="character"/> tutti i debiti <gap reason="lost" extent="unknown" unit="character"/>, prendere i beni di <gap reason="lost" extent="unknown" unit="character"/> gli uni verso gli altri 
+                <gap reason="lost" extent="unknown" unit="character"/> i <gap reason="lost" extent="unknown" unit="character"/> reclamino <gap reason="lost" extent="unknown" unit="character"/> alla <supplied reason="lost" cert="low"><foreign rend="italic">gerousia</foreign></supplied> (o all'<supplied reason="lost" cert="low">assemblea</supplied>) e al consiglio e ai <gap reason="lost" extent="unknown" unit="character"/> dei 
+                <gap reason="lost" extent="unknown" unit="character"/> (60) a vita <gap reason="lost" extent="unknown" unit="character"/> tutti gli altri nella vita civica <gap reason="lost" extent="unknown" unit="character"/> i prestiti <gap reason="lost" extent="unknown" unit="character"/> hanno bisogno in città
+                di ipotecare per vendere <gap reason="lost" extent="unknown" unit="character"/> di coloro che al servizio di Tolemeo hanno amministrato delle case o dei terreni <gap reason="lost" extent="unknown" unit="character"/> tutto
+                quanto, trasmesso in modo sincero e <supplied reason="lost" cert="low">disinteressato</supplied> <gap reason="lost" extent="unknown" unit="character"/> i beni ai tesorieri conformemente al <foreign rend="italic">diagramma</foreign>; di tutti gli altri beni 
+                detenuti in modo sincero <gap reason="lost" extent="unknown" unit="character"/> dei terreni e alla città i prezzi, come <gap reason="lost" extent="unknown" unit="character"/> che egli <supplied reason="lost" cert="low">versi</supplied> dalle sue entrate e proprietà, subito <gap reason="lost" extent="unknown" unit="character"/> e tutte le <supplied reason="lost" cert="low">proprietà</supplied>, soprattutto i restanti schiavi siano liberati in primo luogo da coloro che erano i loro padroni, contro il <supplied reason="lost">certificato</supplied> (70) che stabiliva che li avevano comprati come non liberi, <supplied reason="subaudible">schiavi</supplied>, case o terreni; l’acquisto sia nullo;  <gap reason="lost" extent="unknown" unit="character"/> nessuno <gap reason="lost" extent="unknown" unit="character"/>, nemmeno uno schiavo. A chi diventi disertore dal suo posto di guardia si applicherà la pena di morte. Magistrati: sacerdote per il terzo
+                anno Peithagoras figlio di Annikeris. Strateghi:</p>
+          <p>Kallippos figlio di Melanippos, Polianthes figlio di Eukleidas, Eukles figlio di Theuchrestos,
+                Kallis figlio di Mnasarchos, Kydimachos figlio di Zeuximachos, Philinos figlio di Exakis,
+                Kallippos figlio di Etearchos, Ammonios figlio di Lentichos, Aristandridas figlio di Stratos,
+                Kleugenes figlio di Xouthos, Arimmas figlio di Theudoros, Theudoros figlio di Etearchos.</p>
+           <p><foreign rend="italic">Nomophylakes</foreign>:
+                 Aristophon figlio di Euphris, Pratis figlio di Kyrbasias, Annikeris figlio di Etearchos,
+                 (80) Hagesistratos figlio di Nikasios, Pratomedes figlio di Karnedas, Agesandros figlio di K<supplied reason="lost">leanor</supplied>,
+                 Bakal figlio di Aiglanor, Hagesistratos figlio di Ariston, Damis figlio di Nausis.
+                 Efori:</p>
+            <p>Pratomedes figlio di Philippos, Polykles figlio di <gap reason="lost" extent="unknown" unit="character"/>, <gap reason="lost" extent="unknown" unit="character"/> figlio di <gap reason="lost" extent="unknown" unit="character"/>inos,
+                  Androkles figlio di Kallimachos, Xenophantos figlio di <gap reason="lost" extent="unknown" unit="character"/>.
+                  Nomoteti:</p>
+            <p>Pratomedes figlio di Philippos, Hagesistratos figlio di Nikasios, Proros
+                  figlio di Aristophon, Kydimachos figlio di Aiglanor, Androkles figlio di Kal<supplied reason="lost">limachos</supplied></p>
+                
+            </div><div type="commentary">
+                
+                <p>This is a new edition of an important and much discussed inscription. Generally speaking, the text frequently referred to has been that of <bibl><ptr target="#SEG"/>, <citedRange>9.1</citedRange></bibl>, which is said to be based upon Oliverio's readings.
+                   However, Oliverio very cautiously had given whole phrases as unclear, a fact that was obliterated in the following edition. Fraser and Laronde, each of them
+                   for different parts of the text, came back to more reasonable positions. Independently from a personal observation of the stone by Dobias-Lalou, the present
+                   edition is based upon the photographs taken at the time of the discovery. For a few points, we agree with readings of Ferri, that Oliverio had eliminated.
+                   And where Oliverio's readings seem too hazardous, we prefer not to write down what seems to be severely damaged.</p>
+                <p>In this commentary it is impossible to discuss all the historical implications of the <foreign rend="italic">diagramma</foreign>, for which the bibliography will 
+                    be helpful (see lately <bibl><ptr target="#bencivenni2003"/>, pp. <citedRange>105-149</citedRange></bibl>). About the date, in addition to <bibl><ptr target="#criscuolo2001"/></bibl>, see 
+                    also <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>36</citedRange>, footnote 124</bibl>. The following notes are restricted to points deserving discusssion for establishing the text and to prosopographical implications 
+                    later than those already exposed by <bibl><ptr target="#laronde1987"/>, pp. <citedRange>85-128</citedRange> and passim</bibl>.</p>
+                <p>At line 1, of which nearly nothing survives, Oliverio restored the formula that stands ahead of <ref type="inscription" source="#IGCyr2">IGCyr011000</ref> and is usual for 
+                   Attic decrees. But it is far from certain that such an invocation to the Good Fortune would have stood here. Anyway, the taller letters seem to show that 
+                this was some sort of title.</p>
+                <p>At line 5, Oliverio's emendation into <foreign xml:lang="grc">δέξηται</foreign> is not necessary. The short vowel may be explained either as parallel of other
+                   uses of the future with <foreign xml:lang="grc">ἄν</foreign> in Attic and the koine or more plausibly as a reminiscence by the stone-cutter of the 
+                   subjonctives with short vowel of the local dialect. Other such mistakes were duly mentioned by Fraser: <foreign xml:lang="grc">τός</foreign> at line 22 and 69,
+                   <foreign xml:lang="grc">αὐτός</foreign> at line 30, <foreign xml:lang="grc">ἐννῆ</foreign> at line 32, subjonctive <foreign xml:lang="grc">λιθουργήσει</foreign> at line 48
+                   and probably the infinitive <foreign xml:lang="grc">ὑποθέμεν</foreign> at ll. 61-62.</p>
+                <p>Line 6, the <foreign rend="italic">politeuma</foreign> is a group of citizens with full political rights vs the 'ordinary' citizens mentioned at line 2.</p>
+                <p>At line 25 the singular <foreign xml:lang="grc">νεώτερον</foreign> is very clear on the stone. In fact, the plural at the beginning of the sentence is used in a general prospect,
+                   whereas the singular of the adjective refers to each annual choice of only one priest.</p>
+                <p>At line 41 <foreign xml:lang="grc">τὸ λοιπόν</foreign> may apply to the duration of the special treatment (hence 'afterwards') or to the type of case (with death-penalty or else).</p>
+                <p>Lines 46-72 correspond to the part where the re-use occasioned the most severe damages. We agree with Fraser that the much smoothened surface can offer no certain restoration and 
+                   that «any attempt to recover more than the most general sense must be abandoned». We thus follow most of his cautious readings, especially restoring at line 47 
+                    <foreign xml:lang="grc">προδικία</foreign>, rather than the alternative <foreign xml:lang="grc">ὑποδικία</foreign>, plausibly derived from <foreign xml:lang="grc">ὑπόδικος</foreign> 
+                    'liable to be tried', both fitting an <foreign xml:lang="grc">ἀτιμία</foreign> .</p>
+                <p>At line 63 <foreign xml:lang="grc">Πτολεμαίωι</foreign>, although ending with <foreign xml:lang="grc">ωι</foreign> can only be a genitive. This is a very early occurrence of a
+                   confusion that becomes more frequent in the Roman period.</p>
+                <p>At line 74, the first mentioned <foreign rend="italic">strategos</foreign> is Kallippos son of Melanippos. The man mentioned in the epitaph <ref type="inscription" source="#IGCyr2">IGCyr087000</ref> is 
+                probably his son and should be added to the <foreign rend="italic">stemma</foreign> of the family (see <bibl><ptr target="#laronde1987"/>, p. <citedRange>117</citedRange></bibl>).</p>
+                <p>At line 76, the last name is restored as <foreign xml:lang="grc">Στράτων</foreign> by others; however <foreign xml:lang="grc">Στράτος</foreign> and 
+                   <foreign xml:lang="grc">Στράτις</foreign>, also attested in Cyrenaica, are quite possible.</p>
+                <p>At line 79 the name of the second man mentioned might be restored either as <foreign xml:lang="grc">Πρᾶτις</foreign> or <foreign xml:lang="grc">Πρῶρος</foreign>. 
+                   However, as his father has the very rare name <foreign xml:lang="grc">Κυρβασίας</foreign>, it is highly probable that he was related to <foreign xml:lang="grc">Κυρβασίας
+                   Πράτιος</foreign> mentioned on a funerary base (<ref type="inscription" source="#IGCyr2">IGCyr025400</ref>) not later than ca. 275 BC.</p>                
+                <p>At line 80, the restoration <foreign xml:lang="grc">Ἁγήσανδρος Κ<supplied reason="lost">λεάνορος</supplied></foreign> is based upon <ref type="inscription" source="#IGCyr2">IGCyr095900</ref>, l.1.</p>
+                <p>At lines 83 and 86 the same man, Pratomedes son of Philippos, is acting as <foreign rend="italic">ephoros</foreign> and <foreign rend="italic">nomothetes</foreign>;
+                   he should be also mentioned as a commander of cavalry at <ref type="inscription" source="#IGCyr2">IGCyr084000</ref>, l. 13. We have now also his epitaph (see <ref type="inscription" source="#IGCyr2">IGCyr120800</ref>).</p>
+                <p>At line 87, the restoration of the father's name of Androkles son of Callimachos is based upon the fact that two other <foreign rend="italic">nomothetai</foreign> are also mentioned before,
+                   Hagesistratos son of Nikasios being also a <foreign rend="italic">nomophylax</foreign> and Pratomedes son of Philippos being also an ephor. Thus the assumption that the <foreign rend="italic">nomothesia</foreign> was no 
+                   ordinary office and could be took on as a supplementary duty (see <bibl><ptr target="#laronde1987"/>, p. <citedRange>99</citedRange></bibl>).</p>
+            </div></body>
+    </text>
+</TEI>

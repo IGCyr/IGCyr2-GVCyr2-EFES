@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr098800</idno>
+                <idno type="number" subtype="second-edition">098800</idno>
+                <idno type="TM">738506</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr098800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr098800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr098800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small white <material>marble</material>, plain rectangular <objectType>base</objectType> with hollow for attachment on top
+                                        (<dimensions>
+                                            <width>0.605</width>
+                                            <height>0.15</height>
+                                            <depth>0.465</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in three lines, all beginning at the left edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.028</height>; no serifs; mu and sigma slightly slanting, smaller omicron, widely open upsilon; line 3 might be later,
+                                with a less careful and deeper lettering.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate notBefore="-0350" notAfter="-0301" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935">
+                                    <p>Found before 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>,
+                                        reused upside down in a later wall West of the <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen in 1960 by Pugliese Carratelli at findspot, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen in 2001 by C. Dobias-Lalou at findspot.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-21" who="CDL">overall check; Ital. translation</change>
+            <change when="2013-11-07" who="cdl">lemma, text, apparatus, FR. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77344/3/igcyr098800-face.tiff.jpg" corresp="igcyr098800" decls="#photograph"><desc resp="Paci, G." source="Università degli Studi, Macerata" n="-"><ref target="http://hdl.handle.net/20.500.14008/77344">Face of igcyr098800 Tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>139</citedRange> (photo)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>098800</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66021"><name nymRef="#Φιλόκωμος">Φιλόκωμος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64668"><name nymRef="#Κλεύδαμος" type="patronymic">Κλευδάμω</name></persName></persName>·
+                    <lb n="3"/><w>δεκάτα</w> <space atLeast="2" atMost="3" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="3"><lem>δεκάτα</lem>
+                    <rdg resp="#SECir">δεκάτα<supplied reason="omitted">ν</supplied></rdg>
+                </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Philokômos fils de Kleudamos; dîme.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Philokomos son of Kleudamos; tithe.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Philokomos figlio di Kleudamos; decima.</p>
+         </div><div type="commentary">
+                
+                <p>The formulation is not common. There is no syntactic relation between the personal name and the mention of tithe, which might have been added in a second time.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

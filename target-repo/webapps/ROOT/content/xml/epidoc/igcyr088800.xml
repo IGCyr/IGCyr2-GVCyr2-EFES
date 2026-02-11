@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr088800</idno>
+                <idno type="number" subtype="second-edition">088800</idno>
+                <idno type="TM">738437</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr088800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr088800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr088800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Athens National Archaeological Museum</repository> <idno type="invNo">2145</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Ridged <material>black-glazed ware</material> <objectType>amphora</objectType> with reliefs (Plakettenvase);
+                                         from Egypt
+                                        (<dimensions>
+                                            <width/>
+                                            <height>0.445</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Three <rs type="execution" key="graffito">graffiti</rs>: a) on inside of mouth, under rim; b) on middle of neck; c) under foot.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Uncertain</origPlace>.
+                            <origDate evidence="monument-type" precision="low" when="-0280">Ca. 280 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Said to come from <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, 
+                                    exact findspot unknown.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1997" resp="Zervoudaki">
+                                    <p>Seen in 1997 by Zervoudaki with help of Ch. Kritzas at <placeName type="modernSpot" ref="http://www.geonames.org/264371" key="Athens">Athens</placeName>: 
+                                        <rs type="monuList" ref="https://www.namuseum.gr/en/">Athens National Archaeological Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2017-01-12" who="CDL">tagged names, translated, completed commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-23" who="CDL">lemma, text, apparatus, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#zervoudaki1997"/>, pp. <citedRange>109-115</citedRange>, fig. 4 and 13, p. 140, n. <citedRange>25</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>48.2062bis</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>088800</citedRange></bibl>.</p>
+                <p/>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <div type="textpart" n="a">
+                        <ab>
+                       <lb n="1"/> <persName type="attested" key=""><name nymRef="#Βαρκαῖος">Βαρκαῖος</name></persName> <space quantity="15" precision="low" unit="character"/> 
+                            <persName type="attested" key=""><name nymRef="#Βαρκαῖος">Βαρκαίωι</name></persName>                        
+                        </ab>
+                    </div>
+                      <div type="textpart" n="b">
+                        <ab>
+                       <lb n="1"/><orig>βωμ</orig>
+                        </ab>
+                      </div> 
+                     <div type="textpart" n="c">
+                        <ab>
+                       <lb n="1"/><persName type="attested" key=""><name nymRef="#Βαρκαῖος"><expan><abbr>Βαρκ</abbr><ex>αῖος</ex></expan></name></persName> <orig>ι</orig>
+                        </ab>
+                      </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                      <p>a.
+                          <app loc="1">
+                              <rdg resp="#zervoudaki1997">Βαρκαῖος Βαρκαίου</rdg>
+                          </app>
+                     </p>
+                <p>c.
+                          <app loc="1">
+                              <rdg resp="#zervoudaki1997"><orig>βαρκι</orig></rdg>
+                          </app>
+                     </p>
+                 </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <div type="textpart" n="a">
+                <p>Barkaios <space/>, pour Barkaios.</p>
+                </div>
+            <div type="textpart" n="b">
+                <p>Intraduisible.</p>
+            </div>
+            <div type="textpart" n="c">
+                <p>Barkaios <orig>ι</orig>.</p>
+            </div>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <div type="textpart" n="a">
+                <p>Barkaios <space/>, for Barkaios.</p>
+                </div>
+            <div type="textpart" n="b">
+                <p>Not usefully translatable.</p>
+            </div>
+            <div type="textpart" n="c">
+                <p>Barkaios <orig>ι</orig>.</p>
+            </div>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <div type="textpart" n="a">
+                <p>Barkaios <space/>, per Barkaios.</p>
+                </div>
+            <div type="textpart" n="b">
+                <p>Intraducibile.</p>
+            </div>
+            <div type="textpart" n="c">
+                <p>Barkaios <orig>ι</orig>.</p>
+            </div>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>باركيوس(فراغ) لأجل باركيوس. لا يمكن ترجمتها بشكل جيد.</p>
+         </div><div type="commentary">
+                
+                <p>For the Egyptian fabric of those funerary vases, see <bibl><ptr target="#mankou1997"/></bibl>. The graffiti should be at least partly an epitaph.</p>
+	     <p>In a) the photograph shows very clearly <foreign xml:lang="grc">Βαρκαίωι</foreign>, so we may suppose that both the dead and the curator were called 
+	     <foreign xml:lang="grc">Βαρκαῖος</foreign>. Alternatively, another possibility would be a hypercorrect genitive ending in <foreign xml:lang="grc">-ωι</foreign>,
+	      a feature otherwise known only in the Imperial period. If so, the second Barkaios would be the father's name of the first.</p>
+	<p>The iota at the end of c) has an unclear purpose and the graffito b) is meaningless.</p>
+            </div></body>
+    </text>
+</TEI>

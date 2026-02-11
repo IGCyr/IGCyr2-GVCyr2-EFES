@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr009900</idno>
+                <idno type="number" subtype="second-edition">009900</idno>
+                <idno type="TM">105902</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr009900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr009900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr009900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lid of <material>rock</material>-cut <objectType>sarcophagus</objectType>,
+                                        <material>limestone</material>
+                                        (dimensions not recorded).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>a) Roughly <rs type="execution" key="scalpro">cut</rs> on slope of lid; b) deeply <rs type="execution" key="scalpro">cut</rs> in good letters on the upper
+                                    plinth of the lid.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height precision="medium">ca. 0.05</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0500" notAfter="-0201">Fifth to third centuries BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1911">
+                                    <p>First copied by H.F. De Cou of the Norton mission in 1911 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, tomb N 22.
+                                   </p>
+                                </provenance>
+      
+                                <provenance type="observed" notAfter="2006" resp="Thorn">
+                                    <p>Seen by the Thorns before 2006 in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-10-23" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-03" who="CDL">lemma, text, apparatus, translation, commentary</change>  
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76774/3/igcyr009900-view.tiff.jpg" corresp="igcyr009900" decls="#photograph"><desc resp="Thorn, D." source="IRCyr project" n="1998-2006"><ref target="http://hdl.handle.net/20.500.14008/76774">View of igcyr009900 Epitaphs</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+               <p>
+                   <bibl><ptr target="#robinson1913"/>, n. <citedRange>26</citedRange>, without illustration</bibl>, whence 
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5880</citedRange></bibl>; 
+                   <bibl><ptr target="#cassels1955"/>, p. 10, n. <citedRange>11</citedRange></bibl>;
+                   <bibl><ptr target="#marengo1991"/>, p. <citedRange>33</citedRange></bibl>;
+                   <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>31</citedRange></bibl>;
+                   <bibl><ptr target="#IGCyr"/> <citedRange>009900</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                     
+                <div type="textpart" subtype="section" n="A">
+                   <ab>   
+                    <lb n="1"/><persName type="attested"><name nymRef="#Ἀγαθίνα">Ἀ<unclear>γαθ</unclear>ίνα</name></persName>
+                    </ab>
+                </div>
+                 
+                <div type="textpart" subtype="section" n="B">
+                    <ab>
+                   <lb n="1"/><persName type="attested"><name nymRef="#Ἱπποσ_"><seg part="I">hιπ<supplied reason="omitted">π</supplied>οσ</seg></name><gap reason="lost" extent="unknown" unit="character"/></persName>              
+                    </ab>
+                 </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="A.1"><lem>Ἀ<unclear>γαθ</unclear>ίνα</lem>
+                        <rdg resp="#robinson1913"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62966"><name>Ἄπλοινα</name></persName></rdg></app>
+                    <app loc="B.1"><lem>hιπ<supplied reason="omitted">π</supplied>οσ<gap reason="lost" extent="unknown" unit="character"/></lem> 
+                        <rdg resp="#robinson1913"><orig>hιποσ</orig></rdg>
+                        <rdg resp="#Sammelbuch">hιπποσ<gap reason="lost" extent="unknown" unit="character"/> <note>reading Keil</note></rdg>
+                       </app>
+                </p>
+                
+            <div type="translation" xml:space="preserve" xml:lang="fr">
+                    <p>A: Agathina.</p>
+                    <p>B: Hippos<gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="en">
+                    <p>A: Agathina.</p>
+                    <p>B: Hippos<gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="it">
+                    <p>A: Agathina.</p>
+                    <p>B: Hippos<gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div>
+            
+                <div type="commentary">
+                
+                <p>Dorothy Thorn's photograph shows A still readable, because it remained covered by earth, whereas B, exposed to the air since at least 1911, can hardly 
+                be traced on the photograph. However, it is clear that only one pi was cut, which as such gives no sense in Greek. The use of the letter H for the 
+                initial aspiration and of only one letter for a double stop are two clues for an archaic lettering. Section B would thus be earlier than A.</p>
+                <p>A : The unknown name <foreign xml:lang="grc">Ἄπλοινα</foreign> was already rejected as doubtful both in <bibl><ptr target="#fraser-matthews1987"/></bibl> and by Marengo.
+                The Thorns were not aware of those doubts.</p>
+                <p>B : Keil thought of <foreign xml:lang="grc">Ἱππόσ<supplied reason="lost">τρατος</supplied></foreign>, but <foreign xml:lang="grc">Ἱπποσ<supplied reason="lost">θένης</supplied></foreign> would be another possibility. 
+                Anyhow, there was probably no room for so long names on the plinth. Either it was cut on on the other sides of the plinth or the name was abbreviated.</p>
+            </div>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>أ: أجاثينا.    ب: هيبوس [---].</p>
+         </div></body>
+    </text>
+</TEI>

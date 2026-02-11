@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of the gladiator Antiochas</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr017</idno>
+                <idno type="number" subtype="second-edition">017</idno>
+                <idno type="TM">105964</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr017</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr017</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr017</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Sandstone</material> <objectType>stele</objectType> with a relief of a gladiator, later reused for 
+                                        <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/P.398.html">IRCyr2020 P.398</ref> on its lower part
+                                        (dimensions not registered).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in four lines on a projecting belt just under the relief.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>not registered</height>; projecting summit of alpha, delta and lambda, lunate epsilon, sigma, cursive mu and omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0101" notAfter="0250" precision="medium" cert="low">Perhaps second century or first half of third century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1909" resp="Norton">
+                            <p>Found by R. Norton in 1909 in
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>:
+                                exact findspot not mentioned.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>It was not seen by GVCyr team and is probably no longer in Libya.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from previous editors and photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2023-09-13" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-10" who="Alice">It. translation; checked</change>
+            <change when="2017-03-01" who="CDL">tagged w and lemma; overall check</change>
+            <change when="2014-06-13" who="cdl+hb">file created; lemma, bibliography, edition, apparatus, Fr. and Engl. translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76592/3/gvcyr017-view.tiff.jpg" corresp="gvcyr017" decls="#photograph"><desc resp="Norton, R. (?)" source="Bates archive, Museum of Fine Arts, Boston" n="1909"><ref target="http://hdl.handle.net/20.500.14008/76592">View of gvcyr017 Epitaph of Antiochas</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#robinson1913"/>, n. <citedRange>77a</citedRange>, pp. 185, 505</bibl>, whence
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>5940</citedRange></bibl>;
+                    <bibl><ptr target="#vollgraff1919"/><citedRange/></bibl>;                    
+                    <bibl><ptr target="#robert1968"/>, pp. <citedRange>433-436</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>0017</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#peek1955"/>, n.<citedRange>1135</citedRange></bibl>.
+                    <bibl><ptr target="#uhlenbrock1999"/>, p. <citedRange>94</citedRange>, fig. 13</bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2000.746</citedRange>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>49.2363</citedRange></bibl></bibl>.  
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <div type="textpart" subtype="text">
+                        <ab>
+                        <lb n="1"/><persName type="attested" key=""><name type="firstname" nymRef="#Ἀντιοχᾶς"><unclear>Ἀ</unclear>τιοχᾶ<supplied reason="lost">ς</supplied></name> <supplied reason="lost" evidence="parallel">ὁ πρὶν</supplied> <name type="surname" nymRef="Ἐφέσιος">Ἐφέσις</name></persName>.
+                        </ab>
+                    </div>
+                     <div type="textpart" subtype="verse">  
+                       <lg met="anapaestic">
+                           <l n="1"><lb n="2"/><seg real="++|++|--+"><supplied reason="lost">Ο</supplied>ὐκ <w lemma="εἰμι">ἤμην</w> <supplied reason="lost">καὶ</supplied> <w lemma="γίγνομαι">γενάμην</w>·</seg></l></lg>
+                       <lg met="iambic">
+                           <l n="2"><lb n="3"/><seg real="++|-+|-+|+">οὐκ <w lemma="εἰμι">ἰμὶ</w> καὶ <supplied reason="lost">ο</supplied>ὐ <w lemma="μέλω">μέλι</w> <w lemma="ἐγώ">μοι</w>·</seg></l></lg>
+                       <lg met="anapaestic">
+                           <l n="3"><lb n="4"/><seg real="+--|--+|+"><w lemma="χαίρω"><unclear>χ</unclear><supplied reason="lost">α</supplied>ίρετε</w> <w lemma="παροδίτης">παρoδῖται</w>.</seg></l></lg>
+                     </div>
+              </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem resp="#robert1968"><unclear>Ἀ</unclear>τιοχᾶ<supplied reason="lost">ς</supplied> <supplied reason="lost" evidence="parallel">ὁ πρὶν</supplied> Ἐφέσις</lem>
+                        <rdg resp="#Sammelbuch"><unclear>Ἀ</unclear>τιόχα <gap reason="lost" quantity="5" unit="character"/> Ἐφεσίς</rdg>
+                        <rdg resp="#peek1955"><unclear>Ἀ</unclear>τίοχος Ἐφέσιο<supplied reason="lost">ς</supplied></rdg>
+                    </app>
+                    <app loc="2">
+                        <lem><supplied reason="lost">καὶ</supplied> γενάμην</lem>
+                        <rdg resp="#robinson1913"><supplied reason="lost">καὶ</supplied> <unclear>ἐ</unclear>γεν<choice><corr>ό</corr><sic>ά</sic></choice>μην <note>Keil's reading</note></rdg>
+                        <rdg resp="#vollgraff1919 #peek1955">γενάμην</rdg>
+                    </app>
+                    <app loc="3">
+                        <lem>ἰμὶ</lem>
+                        <rdg resp="#robinson1913"><supplied reason="lost">εἰ</supplied>μὶ</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem><unclear>χ</unclear><supplied reason="lost">α</supplied>ίρετε παρoδῖται</lem>
+                        <rdg resp="#robinson1913"><supplied reason="lost">χαίρ</supplied>ετε <supplied reason="lost">π</supplied>αρ<choice><corr>o</corr><sic>a</sic></choice>δῖται <note>Keil's reading</note></rdg>
+                        <rdg resp="#vollgraff1919 #peek1955"><supplied reason="lost">χα</supplied>ί<supplied reason="lost">ρ</supplied>ετε <supplied reason="lost">ὦ π</supplied>αρ<choice><corr>o</corr><sic>a</sic></choice>δῖται</rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Antiokhas précédemment appelé Ephésios.</p>
+                <p>Je n'existais pas et je suis né. Je n'existe plus et point ne m'en soucie. Salut, passants.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>Antiochas formerly named Ephesios.</p>
+                <p>I was not alive and was born. I am no longer alive and do not mind. Hello, passers-by.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Antiochas, prima chiamato Ephesios.</p>
+                <p>Non esistevo e sono nato. Non sono più e non me ne curo. Salute, passanti.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>أنتيوخاس، كان يُدعى سابقاً إفيسِس. لم أكن على قيد الحياة ولكن كنت قد ولدت. أنا لم أعد على قيد الحياة ولا أمانع. مرحبا، المارة  (العابرون).</p>
+            </div>
+            <div type="commentary">
+                
+                <p>This inscription was first seen by R. Norton, who visited Cyrenaica in 1909 for the first time. His copy was joined to the epigraphical material collected during his mission
+                    at Cyrene in 1910-1911 by the epigraphist H. De Cou and published by D.M. Robinson, who was not able to interpret by himself the copy but provided in addendum a transliteration
+                    sent by J. Keil. The stone, that was never seen since, was probably taken abroad, as J.P. Uhlenbrock rediscovered in Norton's archive a photograph of it taken aboard the ship 
+                    Utowana with which Norton travelled in 1909.</p>
+                <p>The name was first explained as the masculine <foreign xml:lang="grc">Ἀντιοχᾶς</foreign> by L. Robert, who also understood Ephesios as a second name,
+                    possibly introduced by <foreign xml:lang="grc">ὁ καί</foreign>, but more plausibly by <foreign xml:lang="grc">ὁ πρίν</foreign>, as in two other epitaphs of 
+                    gladiators at Ptolemais (see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/P.215.html">IRCyr2020 P.215</ref> and <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/P.216.html">IRCyr2020 P.216</ref>).</p>
+                <p>Metrical analysis: lines 2 and 3 were interpreted as a somewhat irregular hexameter independently from Norton's copy by both Keil (apud Robinson) and W. Vollgraff. 
+                    But the photograph now gives a more precise view of the gaps: those lines appear to be made of metrical sequences, not belonging to any complete verse.
+                    Their formulation is a commonplace of stoicism. We have no information about the findspot. The topics of both this inscription and its reuse are clearly funerary,  
+                    whereas for other steles mentioning gladiators the topic might be discussed (see at <ref type="inscription" source="#GVCyr2">GVCyr018</ref>). At l. 4, there is no space on the stone 
+                    for Vollgraff's addition of <foreign xml:lang="grc">ὦ</foreign>, which would produce a more common dactylic rhythm, in spite of a somewhat harsh hiatus.</p>            
+            </div></body>
+    </text>
+</TEI>

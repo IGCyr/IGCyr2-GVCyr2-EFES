@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs> for Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr114700</idno>
+                <idno type="number" subtype="second-edition">114700</idno>
+                <idno type="TM">738699</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr114700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr114700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr114700</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Louvre Museum</repository> <idno type="invNo">Ma 1755</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>block</objectType>, chipped off at right and left and mainly below                                        
+                                        (<dimensions>
+                                            <width>0.20</width>
+                                            <height>0.10</height>
+                                            <depth>0.043</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in four lines on front face.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.01" max="0.02">0.01 (omicron) to 0.02 (iota)</height>; carefully cut, no serifs, alpha with low bar, slightly slanting mu,
+                                dissymmetrical nu, xi with central vertical stroke, small omicron, slanting sigma, omega with large tangential bar below.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of the fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1844" notAfter="1846" resp="VattierdeBourville">
+                                    <p>Found or bought by Vattier de Bourville between 1844 and 1846 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="2011" resp="cdl hb">
+                                    <p>Observed by C. Dobias-Lalou and H. Berthelot in 2011 in <placeName type="modernSpot" ref="http://www.geonames.org/2988507" key="Paris">Paris</placeName>: 
+                                        <rs type="monuList" ref="https://collections.louvre.fr/en/ark:/53355/cl010275791">Louvre Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-28" who="Alice">checked</change>
+            <change when="2017-02-08" who="CDL">overall check</change>
+            <change when="2014-02-14" who="CDL+HB">lemma, text, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-01" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77549/3/igcyr114700-face.tiff.jpg" corresp="igcyr114700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Musée du Louvre, Département des Antiquités grecques" n="2011"><ref target="http://hdl.handle.net/20.500.14008/77549">Face of igcyr114700 Tithe for Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#letronne1848"/>, n. <citedRange>i</citedRange></bibl>, whence
+                    <bibl> <ptr target="#CIG"/>, vol. <citedRange>IV</citedRange>, p. <citedRange>1241</citedRange>, <citedRange>5362b</citedRange></bibl>;
+                    <bibl><ptr target="#froehner1865"/>, n. <citedRange>4</citedRange></bibl>
+                    <bibl><ptr target="#jmr1978"/>, n <citedRange>14</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>114700</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#serresjacquart2001"/>, p. <citedRange>416</citedRange>, fig. 11</bibl>;
+                    <bibl><ptr target="#hamiaux-zagdoun2004"/><citedRange/></bibl>;
+                    <bibl><ptr target="#cdl2012c"/>, p. <citedRange>149-150</citedRange>, fig. 5</bibl>;
+                    <bibl><ptr target="#cdl-maffre2012"/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>68.1746</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-61885"><name nymRef="#Πραξικράτης">Πραξικράτης</name> 
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-61886"><name nymRef="#Ἐπαμείνων" type="patronymic">Ἐπαμείνονο<unclear>ς</unclear></name></persName></persName>
+                    <lb n="3"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName> 
+                    <lb n="4"/><w lemma="δεκάτα">δεκάταν</w>
+                </ab></div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Praxikratès fils d'Epameinôn <supplied reason="subaudible">a consacré ce monument</supplied> à Apollon au titre de la dîme.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Praxikrates son of Epameinon <supplied reason="subaudible">dedicated this monument</supplied> to Apollo as a tithe.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Praxikrates figlio di Epameinon <supplied reason="subaudible">ha dedicato questo monumento</supplied> ad Apollo come decima.</p>
+         </div><div type="commentary">
+                
+                <p>The number 5362b given to the stone in the Addenda of <bibl><ptr target="#CIG"/></bibl>  at volume IV had already been given in Volume III to the inscription 
+                    which is our <ref type="inscription" source="#GVCyr2">GVCyr05</ref>.</p>
+                <p>The stone was thought lost by Reynolds who included it into the collection of Berenike; however, the lettering shows clearly that it antedates the foundation of 
+                    Berenike and should come from Euesperides. About the present condition of the stone, a paper by C. Dobias-Lalou has been given to press for Bulletin de la Société 
+                    Nationale des Antiquaires de France, year 2012, unfortunately not yet published.</p>
+            </div></body>
+    </text>
+</TEI>

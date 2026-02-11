@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs> of a Rhodian</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr001920</idno>
+                <idno type="number" subtype="second-edition">001920</idno>
+                <idno type="TM">738118</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr001920</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr001920</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr001920</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Krater</objectType> dated <date>500/450</date> BC, <material>Laconian ware</material>
+                                        (estimated diameter 0.4).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on the lip (width 0.105).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.023</height>; alpha with oblique bar ending at bottom of right stroke, beta with very flat loops, open eta for short e,
+                                dissymmetrical nu, trident-shaped chi (see commentary).</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            Possibly <origPlace><placeName ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736" cert="low">Taucheira</placeName>.</origPlace>
+                            <origDate notBefore="-0500" notAfter="-0450" precision="low" evidence="context lettering">Between 500 and 450 BC</origDate>
+                        </origin>
+                                
+                        <provenance type="found" notBefore="1963" notAfter="1965">
+                                    <p>Found between 1963 and 1965 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>:   
+                                         <rs type="monuList" ref="https://www.slsgazetteer.org/1118">archaic votive deposit</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editors (HB).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-20" who="Alice">checked</change>
+            <change when="2014-10-09" who="Alice">checked and corrected text type, object type, material, translation</change>
+            <change when="2014-10-06" who="CDL">completed bibliography, changed text, apparatus, translation and commentary</change>
+            <change when="2013-04-04" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-12" who="CDL">apparatus, commentary</change>
+            <change when="2012-07-09" who="HB">text edited</change>
+            <change when="2012-06-19" who="Ljuba">added from CATALOGO</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76683/3/igcyr001920%20-%20face.tiff.jpg" corresp="igcyr001920" decls="#photograph"><desc resp="Boardman, J." source="Department of Antiquities, Tukrah" n="1965"><ref target="http://hdl.handle.net/20.500.14008/76683">Face of igcyr001920 Name of a Rhodian</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#boardman-hayes1966"/>, p. 168, n. <citedRange>976</citedRange> (ph. dr.)</bibl>; 
+                    <bibl><ptr target="#cdl1970"/>, pp. 252-253, number <citedRange>1</citedRange></bibl>;
+                    <bibl><ptr target="#marengo2010b"/>, pp. <citedRange>20-23</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>60.1848</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>001920</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cdl2015a"/>, pp. <citedRange>69-70</citedRange></bibl>;
+                    <bibl><ptr target="#antonini2016"/>, pp. <citedRange>45-46</citedRange></bibl> and 
+                    <bibl><ptr target="#cdlBE"/> <citedRange>2017.638</citedRange></bibl>;
+                    <bibl><ptr target="#marengo2016"/>, pp. <citedRange>165-166</citedRange></bibl>.</p>             
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἀρχέμβροτος"><seg part="I">Ἀρχένβ<unclear>ρ</unclear><supplied reason="lost">οτ</supplied></seg> <gap reason="lost" atLeast="1" atMost="2" unit="character"/></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#marengo2010b">Ἀρχένβ<unclear>ρ</unclear><supplied reason="lost">οτ</supplied> <gap reason="lost" atLeast="1" atMost="2" unit="character"/></lem>
+                        <rdg resp="#boardman-hayes1966"><orig>αρχηνβ<unclear>α</unclear></orig></rdg>
+                        <rdg resp="#boardman-hayes1966"><orig>αρψηνβ<unclear>α</unclear></orig></rdg>
+                        <rdg resp="#boardman-hayes1966">Αρχην Β<unclear>α</unclear><supplied reason="lost" cert="low">καλ</supplied> <note>Anna Morpurgo Davies' suggestion</note></rdg>
+                        <rdg resp="#cdl1970"><orig>αρχηνβ</orig></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Arkhembr<supplied reason="lost">otos</supplied><gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Archembr<supplied reason="lost">otos</supplied><gap reason="lost" extent="unknown" unit="character"/>.</p>
+               </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Archembr<supplied reason="lost">otos</supplied><gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>For this graffito, no convincing explanation was given before S.M. Marengo's one: she rightly pointed out that it could be read only with the trident-shape 
+                    letter as a chi and eta as a short e, both attested in the archaic lettering of Rhodes, the more so that such a reading produces a typical Rhodian
+                    name. The use of nu instead of mu before beta is a hypercorrect feature, as well as the use of eta instead of epsilon.</p>
+                <p>It cannot be decided whether the graffito was cut in Rhodes and brought to Cyrenaica or cut in Cyrenaica by a Rhodian traveller. In both cases, the vase, 
+                    a Laconian ware, had travelled more or less through the Mediterranean sea (<foreign xml:lang="la">contra</foreign> <bibl><ptr target="#antonini2016"/></bibl>). As to the script, the present use of trident-shaped chi in a Rhodian
+                    context should be compared with two other examples found at Cyrene: in <ref type="inscription" source="#IGCyr2">IGCyr110100</ref> the rest of the lettering is purely
+                    Cyrenaean, whereas <ref type="inscription" source="#IGCyr2">IGCyr000430</ref> is too fragmentary to allow any classification.</p> 
+                <p>The name, when complete, might have been at the genitive case for an owner's mark or at the nominative for a dedicant's name, so that the exact text-type escapes us.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honorary inscription</rs> for Kallimachos on occasion of the <foreign>telesphoria</foreign></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr016200</idno>
+                <idno type="number" subtype="second-edition">016200</idno>
+                <idno type="TM">5997</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr016200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr016200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr016200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Dark grey <material>marble</material> <objectType>base</objectType> broken off above, below and at right of front face
+                                        (<dimensions>
+                                            <width>0.56</width>
+                                            <height>0.26</height>
+                                            <depth>0.38</depth>
+                                        </dimensions>); with holes for attachment of a statue on top.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face with varying space at each line.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; slight serifs, sigma with parallel outer bars, very small omicron, phi with flat and small loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0230" notAfter="-0201" precision="medium" resp="rosamilia">Between ca. 230 and 200 BC (rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1927">
+                                    <p>Found in 1927 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, North of 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1231">Altar of Artemis</rs>.
+                                   </p>
+                                </provenance>
+                        <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-14" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-26" who="Alice">checked</change>
+            <change when="2017-03-16" who="Alice">It. translation</change>
+            <change when="2013-07-01" who="cdl">lemma, changes in text, apparatus, translations, commentary</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-14" who="Ljuba">checked everything, plus word tagging</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76865/3/igcyr016200-face.tiff.jpg" corresp="igcyr016200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1927"><ref target="http://hdl.handle.net/20.500.14008/76865">Face of igcyr016200 Honorary inscription for Kallimachos</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1929"/>, p. 130, n. <citedRange>8</citedRange>, fig. 20</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.66</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>016200</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>196-197</citedRange> (typology), p. <citedRange>375</citedRange>, number 102 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64483"><name nymRef="#Καλλίμαχος"><supplied reason="lost">Καλ</supplied><unclear>λίμ</unclear>αχον</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64867"><name nymRef="#Λυσίμαχος" type="patronymic"><unclear>Λυ</unclear><supplied reason="lost">σιμ</supplied>ά<supplied reason="lost">χω</supplied></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64868"><name nymRef="Λυσίμαχος"><supplied reason="lost">Λ</supplied>υσίμαχος</name> 
+                        <persName type="attested" key=""><name nymRef="#Λῦσις" type="patronymic">Λύσι<supplied reason="lost">ος</supplied></name></persName></persName>
+                    <lb n="3"/><name type="festival" key="Artamitia" nymRef="#Ἀρταμίτια"><supplied reason="lost">Ἀ</supplied>ρταμίτια</name> <w lemma="τελεσφορέω">τελεσφορήσ<supplied reason="lost">ας</supplied></w> 
+                    <lb n="4"/><w lemma="ἀνατίθημι">ἀ<unclear>ν</unclear>έθηκε</w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="2"><lem resp="#IGCyr #rosamilia2023">Λύσι<supplied reason="lost">ος</supplied></lem> 
+                    <rdg resp="#oliverio1929">Λυσι<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app>  
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">La statue de</supplied> Kallimakhos fils de Lysimakhos a été consacrée par Lysimakhos fils de Lysis après qu'il eut acccompli la <foreign rend="italic">telesphoria</foreign> d'Artémis.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">The statue of</supplied> Kallimachos son of Lysimachos was dedicated by Lysimachos son of Lysis, after having accomplished the <foreign rend="italic">telesphoria</foreign> of Artemis' feasts.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">La statua di</supplied> Kallimachos figlio di Lysimachos è stata dedicata da Lysimachos figlio di Lysis, dopo che aveva completato la <foreign rend="italic">telesphoria</foreign> di Artemide.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تمثال) كاليماخوس بن ليسيماخوس،  أُهْدِي من قبل ليسيماخوس بن ليسيس، بعد الإنتهاء من أعياد أرتميس التيليسفوريا.</p>
+            </div>
+            <div type="commentary">
+                
+                <p>At the end of l. 3, the restoration of the formula is sure and gives a clue for the number of letters lost at end of l. 2,                 
+                    where Oliverio in foot note suggested either <foreign xml:lang="grc">Λῦσις</foreign>, <foreign xml:lang="grc">Λύσιππος</foreign> or <foreign xml:lang="grc">Λυσίμαχος</foreign>, although admitting that the two latter 
+                    seemed too long. Therefore, we may adopt the very common name <foreign xml:lang="grc">Λῦσις</foreign>, which is coherent with the names on use in that family. Consequently, the dedicant, bearing his grandfather's name, was probably the son of the 
+                  recipient.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

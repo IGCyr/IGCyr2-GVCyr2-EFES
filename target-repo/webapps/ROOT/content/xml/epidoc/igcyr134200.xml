@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to the Eumenides</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr134200</idno>
+                <idno type="number" subtype="second-edition">134200</idno>
+                <idno type="TM">738889</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr134200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr134200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr134200</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <material>rock</material>-cut <objectType>altar</objectType> with probably two compartments   
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the rear wall of the niche, in correspondence with the left compartment if it exists.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>not registered</height>, deeply cut; the right part of upsilon is worn out, but the right part has a clear serif on top.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0325" notAfter="-0250" precision="medium" cert="low">Perhaps end of fourth or first half of third century BC</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="2012">
+                            <p>Found in 2012 by the Mission of Urbino at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the lower part of the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>First studied in 2012 by E. Rosamilia in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-03-05" who="Alice">checked</change>
+            <change when="2017-02-22" who="CDL">lemma, text, translation, commentary</change>
+            <change when="2017-02-18" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77768/3/igcyr134200-1-view.tiff.jpg" corresp="igcyr134200" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77768">View of igcyr134200 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77769/3/igcyr134200-2-face.tiff.jpg" corresp="igcyr134200" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77769">Face of igcyr134200 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#gasparini-rosamilia2016"/>, n. <citedRange>10</citedRange> (fig. 24)</bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>66.2330</citedRange></bibl>;
+                <bibl><ptr target="#IGCyr"/> <citedRange>134200</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Eumenis"><name nymRef="#Εὐμενίς"><expan><abbr>Ε<unclear>ὐ</unclear></abbr><ex>μενίδων</ex></expan></name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">Autel</supplied> des Euménides.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">Altar</supplied> of the Eumenides.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">Altare</supplied> delle Eumenidi.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>(يفهم ضمنياً بأنه مذبح) لإفمينديس</p>
+         </div><div type="commentary">
+                
+               <p>Due to the conditions of quick survey it was not possible for E. Rosamilia to clean the altar and check the predictable two compartments. However the 
+               placement of the abbreviated name of the Eumenides helps to suppose that there were two of them.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

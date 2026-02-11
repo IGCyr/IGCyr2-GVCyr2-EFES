@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr008400</idno>
+                <idno type="number" subtype="second-edition">008400</idno>
+                <idno type="TM">738190</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr008400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr008400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr008400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Marble</material> <objectType>base</objectType> with back left rough, not otherwise described
+                                        (dimensions unknown, but see commentary).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0200" notAfter="-0001" precision="medium">Second or first centuries BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance xml:id="copy-negri" type="found" when="1827">
+                                    <p>First copy, probably made by Padre Pacifico in 1827 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, passed on to Franz by
+                                        P. Negri, Sardinian consul in Tripoli .
+                                   </p>
+                                </provenance>
+                            <provenance type="observed" resp="Cassels" when="1954">
+                                <p>Seen by J. Cassels in 1954 at <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, tomb S 4.</p>
+                            </provenance>    
+                         <provenance type="observed" resp="Laronde" when="1975">
+                                    <p>Seen by A. Laronde in 1975 (for epigraphy).</p>
+                                </provenance>
+                        <provenance type="observed" resp="Cherstich" notAfter="2003">
+                            <p>Seen by L. Cherstich before 2003 (for the whole tomb).</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors (CDL).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-06" who="CDL">updated bibl</change>    
+            <change when="2023-01-19" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-25" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-27" who="CDL">lemma, bibliography, apparatus, translation, commentary</change>
+            <change when="2011-12-20" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+             
+                <p><bibl><ptr target="#CIG"/> <citedRange>5171</citedRange> (Franz)</bibl>, from a copy of [Negri], Sardinian consul in Tripoli; 
+                    <bibl><ptr target="#beschi1970"/>, p. <citedRange>203</citedRange> footnote 1</bibl>; 
+                    <bibl><ptr target="#masson1975"/>, p. <citedRange>223</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>008400</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#thorn2005"/>, p. <citedRange>206</citedRange></bibl>; 
+                    <bibl><ptr target="#cherstich2006"/>, pp. <citedRange>110-111</citedRange></bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>206</citedRange></bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.21</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62687"><name nymRef="#Ἀκεσώι">Ἀκεσὼι</name>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Νικόδαμος" type="patronymic">Νικο<unclear>δάμ</unclear>ω</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#dthorn-thorn2009" hand="Cassels">Ἀκεσὼι <note>from Cassels' Grey Book</note></lem>
+                        <rdg resp="#CIG"><orig>Ακεωι</orig></rdg>
+                        <rdg resp="#beschi1970">Ἀκεσ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#masson1975">Ἀκεσ<unclear>ὼ</unclear>ι</rdg>
+                        <rdg resp="#thorn2005">Ἀκεσώρ <note>from Cassels' unpublished first copy</note></rdg>
+                                            </app>
+                    <app loc="2"><lem resp="#masson1975 #dthorn-thorn2009">Νικο<unclear>δάμ</unclear>ω <note>the Thorn's mention taken from Cassels' archive</note></lem>
+                        <rdg resp="#CIG">Νικο<supplied reason="lost">λά</supplied>ω <note>Franz from [Negri]'s copy <foreign xml:lang="grc">ΝΙΚΟΔΔΗΩ</foreign></note></rdg>
+                        <rdg resp="#beschi1970">Νικοσ<gap reason="lost" extent="unknown" unit="character"/></rdg></app>
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Akesô fille de Nikodamos.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Akeso daughter of Nikodamos.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Akesò figlia di Nikodamos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>أكيسو ابنة نيكوداموس</p>
+         </div><div type="commentary">
+                
+                <p>Masson's reading was the nearest to Negri's copy; the last letter seen by Beschi at line 2 might be the right part of delta, which he took for the lower part of a sigma.</p>
+                <p>In an unpublished letter to Masson (1974-08-18), Beschi said that he had noted for this base «same dimensions and ornaments as (<ref type="inscription" source="#IGCyr2">IGCyr007900</ref>)».</p>
+                <p>Laronde (in his hitherto unpublished Prosopographia), who had seen the stone, could not read more than <foreign xml:lang="grc"><orig>νικο</orig></foreign> because other blocks had fallen upon it.</p>
+                <p>From Cassels' notebook, published by Thorn, it appears that the former had eventually identified the base and insisted that he had the exact reading.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

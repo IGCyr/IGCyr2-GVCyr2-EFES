@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Report</rs> and <rs type="textType">account</rs>s of extinguishing reprisals rights against Cyrenaeans</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr097100</idno>
+                <idno type="number" subtype="second-edition">097100</idno>
+                <idno type="TM">738485</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr097100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr097100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr097100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier type="partial"><repository>Cyrene Museum</repository> <idno type="invNo">535</idno> <note>fragment a</note></altIdentifier>
+                        <altIdentifier type="partial"><repository>Cracow Archaeological Museum</repository> <idno type="invNo">MAK/AS/2401</idno> <note>fragment b</note></altIdentifier>                    
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Seven fragments of a white <material>marble</material> <objectType>panel</objectType>, thicker at left than at right, with a moulding (now lost) above;
+                                        six fragments are joining, forming fragment a 
+                                        (<dimensions> <width>0.387</width> 
+                                            <height>0.49</height> 
+                                            <depth max="0.025" min="0.015">0.025 at left, 0.015 at right</depth></dimensions>), which itself had lost the upper left angle before the publication);
+                                          a seventh non-joining fragment is b 
+                                          (<dimensions> 
+                                              <width>0.07</width> 
+                                              <height>0.116</height> 
+                                              <depth>0.017</depth> </dimensions>);
+                                        the total amounts approximately to the measures found in Oliverio's papers (<dimensions>
+                                            <width>0.4</width>
+                                            <height>0.65</height>
+                                            <depth>0.018</depth></dimensions>).
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face with six lines of verse (<ref type="inscription" source="#GVCyr2">GVCyr033</ref>),
+                                immediately followed by the present text.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.005" max="0.009">0.005 to 0.009</height>; dissymmetrical nu, slanting mu and sigma, middle-size omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate evidence="lettering prosopography textual-context" notBefore="-0320" notAfter="-0311" resp="#rosamilia2023">Between 320 and 310 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1929" resp="Oliverio">
+                                    <p>Probably the whole, but at least five fragments of part a were found by G. Oliverio in 1929 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, in the Eastern part of lower terrace, so-called 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs> (see commentary).     
+                                   </p>
+                                </provenance>
+                                <provenance type="found" when="1956" resp="rgg">
+                                    <p>One small fragment, adjacent to a, is said to have been found in 1956 by R.G. Goodchild in the
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911">Port of Cyrene, later Apollonia</placeName>:
+                                    <rs type="monuList" ref="https://www.slsgazetteer.org/925">Apollonia seashore</rs>.</p>
+                                </provenance>
+                                <provenance type="found" notAfter="1945">
+                                    <p>Fragment b was possibly gathered in
+                                        <placeName type="ancientFindspot">Cyrenaica</placeName> during World War II by a member of the Polish Independant Carpathian Rifle Brigade.</p>
+                                </provenance>
+                        
+                                <provenance type="observed" when="1946" when-iso="1947" resp="Chamoux">
+                                    <p>Fr. Chamoux in 1946 saw only the largest part of fragment a (from line 6 on) and in 1947 the same fragment recomposed in its actual condition in 
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            <provenance type="observed" when="1960" resp="gpc">
+                                <p>G. Pugliese Carratelli saw in 1960 the main fragment a recomposed  at the same place.</p>
+                            </provenance>
+                            <provenance type="observed" when="1960" resp="morelli">
+                                <p>D. Morelli saw the small fragment adjacent to a in 1960 at <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>: 
+                                    <rs type="monuList" ref="https://www.slsgazetteer.org/932">Apollonia Museum</rs>.</p>
+                            </provenance>
+                            <provenance type="observed" when="1976">
+                                <p>C. Dobias-Lalou and A. Laronde observed in 1976 both the Apollonia small fragment and the main a fragment from Cyrene and were able to check their belonging together.</p>
+                            </provenance>
+                                <provenance type="observed" when="2010" resp="cdl">
+                                    <p>C. Dobias-Lalou saw again in 2010 the fragment a, pieced together with the small fragment from Apollonia, in 
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2012" resp="nowakowski">
+                                    <p> P. Nowakowski saw the fragment b in 2012 at 
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/3094802" key="Krakow">Cracow</placeName>: <rs type="monuList" ref="http://ma.krakow.pl/en/main-page/">Cracow Archaeological Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone and Nowakowski supplementary publication (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-12-13" who="CDL">updated app.</change>
+            <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-02-27" who="Alice">It. translation; checked</change>
+            <change when="2017-01-19" who="CDL">overall check; tagged w and lemma; Engl. translation; amended commentary</change>
+            <change when="2013-10-30" who="cdl">Fr. translation</change>
+            <change when="2013-10-18" who="CDL+HB">lemma, bibliography, text, apparatus, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-11" who="Pietro">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>                   
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77312/3/igcyr097100-1-fgt%20a.tiff.jpg" corresp="igcyr097100" decls="#photograph"><desc resp="Davesne, A." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77312">Fragment a of igcyr097100 Extinguishing reprisal rights</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77313/3/igcyr097100-2-ll%2014-24.tiff.jpg" corresp="igcyr097100" decls="#photograph"><desc resp="Davesne, A." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77313">Lines 14-24 of igcyr097100 Extinguishing reprisal rights</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77314/3/igcyr097100-3-fgt%20b.tiff.jpg" corresp="igcyr097100" decls="#photograph"><desc resp="Nowakowski, P." source="Cracow Archaeological Museum" n="2013"><ref target="http://hdl.handle.net/20.500.14008/77314">Fragment b of igcyr097100 Extinguishing reprisal rights</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>103</citedRange></bibl> (photo), and 
+                    <bibl><ptr target="#daux1963"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.716</citedRange></bibl>; 
+                    <bibl><ptr target="#cdl-laronde1977"/><citedRange/></bibl> added  to fragment a the small fragment previously published as
+                    <bibl><ptr target="#SECir"/>, <citedRange>207</citedRange></bibl> (whence 
+                    <bibl><ptr target="#jmr1976"/>, <citedRange>55</citedRange></bibl>); also
+                    <bibl><ptr target="#bousquet1978"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>27.1194</citedRange></bibl>;
+                    <bibl><ptr target="#bravo1980"/>, pp. <citedRange>741-742</citedRange> and pp. <citedRange>918-926</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>30.1783</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, pp. <citedRange>187-188</citedRange></bibl>;
+                    <bibl><ptr target="#nowakowski2013"/><citedRange/></bibl>, published fragment b, whence <bibl><ptr target="#SEG"/>, <citedRange>65.2027</citedRange></bibl>, <bibl><ptr target="#SEG"/>, <citedRange>65.2028</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>097100</citedRange></bibl>.</p>
+                    <p>Cf.  
+                        <bibl><ptr target="#anti1929"/>, p. <citedRange>429</citedRange></bibl>;                        
+                        <bibl><ptr target="#oliverioDAI1"/>, p. <citedRange>102</citedRange></bibl>;
+                        <bibl><ptr target="#gpc1961"/>, p. <citedRange>3</citedRange></bibl>;
+                        <bibl><ptr target="#garlan1965"/><citedRange/></bibl>;
+                        <bibl><ptr target="#peek1972"/>, p. <citedRange>8</citedRange></bibl>;
+                        <bibl><ptr target="#masson1975a"/>, p. <citedRange>713</citedRange></bibl>;
+                        <bibl><ptr target="#laronde1987"/>, pp. <citedRange>120-121, 149-60, 252</citedRange></bibl>; 
+                        <bibl><ptr target="#charneuxBE"/>, <citedRange>1988.594</citedRange></bibl>, and 
+                        <bibl><ptr target="#moretti1986-1988"/>, pp. <citedRange>321-322</citedRange></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>38.1879</citedRange></bibl> and
+                        <bibl><ptr target="#SEG"/>, <citedRange>38.1881</citedRange></bibl>; 
+                        <bibl>P.M. Fraser in <ptr target="#mcKechnie1989"/>, pp. <citedRange>117-118, with 137 footnote 146</citedRange></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>39.1717</citedRange></bibl>;
+                        <bibl><ptr target="#gasperini1996a"/><citedRange/></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>46.2186</citedRange></bibl>;  
+                        <bibl><ptr target="#lazzarini1996"/>, p. <citedRange>184</citedRange></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>46.2198</citedRange></bibl>; 
+                        <bibl><ptr target="#zimmermann1996"/><citedRange/></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>46.2330</citedRange></bibl>;
+                        <bibl><ptr target="#łajtar1999"/>, p. 163, n. <citedRange>130</citedRange></bibl>;
+                        <bibl><ptr target="#cdl2003"/><citedRange/></bibl>, whence 
+                        <bibl><ptr target="#SEG"/>, <citedRange>53.2029</citedRange></bibl>; 
+                        <bibl><ptr target="#laronde-lefevre2009"/><citedRange/></bibl>, whence
+                        <bibl><ptr target="#SEG"/>, <citedRange>59.1910</citedRange></bibl>;
+                        <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>203-205</citedRange> (context, date), pp. <citedRange>248-251</citedRange>, number 7, ll.7-42 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                    <lb n="0"/><note>preceded on the stone by <ref type="inscription" source="#GVCyr2">GVCyr033</ref></note>
+                    <lb n="1"/><w lemma="ὅσσος"><supplied reason="lost">Ὅσσα</supplied></w> <w lemma="κατά"><supplied reason="lost">κατὰ</supplied></w> <supplied reason="lost">τῶν</supplied> 
+                        <w lemma="πολιάτας"><supplied reason="lost">πολιατᾶ</supplied>ν</w> <w lemma="σῦλον">σῦλ<supplied reason="lost">α</supplied></w> <w lemma="διαλύω">διελύ<choice><corr>θ</corr><sic>ο</sic></choice>η</w> 
+                        καὶ <w lemma="ἀπονωμά">ἀπονωμαὶ</w>                    
+                    <lb n="2"/><w lemma="ἀποδίδωμι"><supplied reason="lost">ἀπέδοθεν</supplied></w>, <w lemma="ὅς1" type="relative"><supplied reason="lost">αἳ</supplied></w> 
+                        <w lemma="φυλάσσω"><supplied reason="lost">φυλάσσο</supplied>νται</w> α<supplied reason="lost">ἱ</supplied> μὲν <w>ἐν</w> ταῖς <w lemma="πόλις">πόλισσιν</w> <space quantity="2" unit="character"/>
+                    <lb n="3"/><w lemma="ὑπό"><supplied reason="undefined" evidence="previouseditor">ὑπὸ</supplied></w> <supplied reason="undefined" evidence="previouseditor">τῶν</supplied> <rs type="office" key="damiergos"><w lemma="δαμιεργός"><supplied reason="undefined" evidence="previouseditor">δαμιεργῶν</supplied></w></rs> <w lemma="κατά"><supplied reason="undefined" evidence="previouseditor">κατ</supplied>ὰ</w> τὸς <w lemma="νόμος">νόμος</w>, αἱ δὲ <w>ἐν</w> τῶι <w lemma="ἱαρόν">ἱαρῶι</w> <space quantity="2" unit="character"/>
+                    <lb n="4"/><supplied reason="undefined" evidence="previouseditor">τῶ</supplied> <persName type="divine" ref="#Zeus_Olympios"><name nymRef="#Ζεύς"><supplied reason="undefined" evidence="previouseditor">Διὸς</supplied></name> 
+                        <supplied reason="undefined" evidence="previouseditor">τῶ</supplied> <rs type="epithet" key="Olympios"><name nymRef="#Ὀλύμπιος"><supplied reason="undefined" evidence="previouseditor">Ὀλυμπίω</supplied></name></rs></persName> 
+                        <w lemma="ὑπό"><supplied reason="undefined" evidence="previouseditor">ὑπὸ</supplied></w> <supplied reason="undefined" evidence="previouseditor">τ</supplied><unclear>ῶ</unclear>ν <rs type="office" key="Hellanodikas"><w lemma="Ἑλλανοδίκας">Ἑλλανοδικᾶν</w></rs>, <w>ἐν</w> <placeName type="ethnic" nymRef="#Δελφός">Δελφοῖς</placeName> <w lemma="ὑπό">ὑπὸ</w>
+                    <lb n="5"/><supplied reason="undefined" evidence="previouseditor">τῶν</supplied> <rs type="office" key="Amphiktyon"><w lemma="Ἀμφικτύων"><supplied reason="undefined" evidence="previouseditor">Ἀμφικτυόνων</supplied></w></rs>, 
+                        <w><supplied reason="undefined" evidence="previouseditor">ἐν</supplied></w> <supplied reason="undefined" evidence="previouseditor">τῶ</supplied>ι <w lemma="ἱαρόν">ἱαρῶι</w> 
+                        τῶ <persName type="divine" ref="#Zeus_Lykaios"><name nymRef="#Ζεύς">Διὸς</name> τῶ <rs type="epithet" key="Lykaios"><name nymRef="#Λυκαῖος">Λυκαίω</name></rs></persName> <w lemma="ὑπό">ὑπὸ</w> τῶν
+                    <lb n="6"/><rs type="office" key="hiaromnamon"><w lemma="ἱαρομνάμων"><supplied reason="undefined" evidence="previouseditor">ἱαρομναμόνων</supplied></w></rs>, 
+                        <w><supplied reason="undefined" evidence="previouseditor">ἐν</supplied></w> <placeName nymRef="#Ἀθᾶναι"><supplied reason="undefined" evidence="previouseditor">Ἀθά</supplied><unclear>ν</unclear>αις</placeName> 
+                        <w lemma="ὑπό"><unclear>ὑ</unclear>π<supplied reason="lost">ὸ</supplied></w> τῶν <rs type="office" key="thesmothetas"><w lemma="θεσμοθέτας">θ<unclear>ε</unclear>σμοθετᾶν</w></rs>· 
+                        <w lemma="ποτιγράφω">πο<unclear>τ</unclear><supplied reason="lost" cert="low">ε</supplied><lb n="7" break="no"/><supplied reason="lost" cert="low">γράφεν</supplied></w> <unclear>δ</unclear>ὲ <w lemma="ποτί"><unclear>π</unclear>ο<unclear>τὶ</unclear></w> <supplied reason="lost">τ</supplied>ὰς 
+                                <w lemma="ἀπονωμά">ἀπονωμὰς</w> καὶ τοὶ τὰ <w lemma="σῦλον">σῦλα</w> <w lemma="ἐγκαλέω">ἐγκαλέσαντες</w>
+                    <lb n="8"/><supplied reason="lost">κ</supplied>αὶ τὸ <w>πλῆθος</w> τῶγ <w lemma="χρῆμα">χρημάτων</w> καὶ τοὶ <w lemma="συμπρεσβεύω">συμπρεσβεύσαντες</w> <w lemma="ἀπό">ἀπὸ</w>
+                    <lb n="9"/>τᾶς <w lemma="ἁμός">ἁμᾶς</w> <w lemma="πόλις">πόλιος</w>· <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62653"><name nymRef="#Αἰγλάνωρ">Αἰγλάνωρ</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62730"><name nymRef="#Ἀλέξανδρος" type="patronymic">Ἀλεξάνδρω</name></persName></persName> <w>ἐς</w> <placeName type="city" nymRef="#Κλείτωρ">Κλείτορα</placeName> τᾶς <space quantity="3" unit="character"/>
+                    <lb n="10"/><placeName nymRef="#Ἀρκαδία">Ἀρκαδίας</placeName> <w lemma="ὑπέρ">ὑπὲρ</w> <space quantity="8" unit="character"/> τῶν <w>ἐν</w> 
+                        <placeName type="city" nymRef="#Τρύγειον">Τρυγείωι</placeName> <w lemma="ἀπόλλυμι">ἀπολομένων</w>
+                    <lb n="11"/><w lemma="ὑπό">ὑπὸ</w> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65758"><name nymRef="#Τεισίλαος">Τεισιλάω</name></persName>, καὶ τό τε <w>σῦλον</w> <w lemma="λύω">ἐλύσαμες</w> 
+                                <num type="total" value="8">
+                                    <measure type="currency" unit="talent">
+                                        <num value="8"><w lemma="ὀκτώ">ὀκτὼ</w></num>
+                                        <w lemma="τάλαντον">ταλάντων</w></measure></num> καὶ 
+                    <lb n="12"/><w lemma="φυγά">φυγὰν</w> <placeName type="ethnic" nymRef="#Κλειτόριος">Κλειτόριοι</placeName> <w lemma="καταγιγνώσκω">κατέγνον</w> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65758"><name nymRef="#Τεισίλαος">Τεισιλάω</name></persName> καὶ τὰ <w lemma="χρῆμα">χρήματα</w> <w lemma="δαμεύω">ἐδά<lb n="13" break="no"/>μευσαν</w> καὶ <w lemma="χηρόω">χηρ<supplied reason="lost">ω</supplied><unclear>θ</unclear>έντα</w> <w lemma="αὐτός">αὐτὸν</w> <w lemma="ὑπό">ὑπὸ</w> 
+                                <placeName type="ethnic" nymRef="#Στυμφάλιος">Στυμφαλίων</placeName> <w lemma="ἔκδοτος">ἔγδοτον</w> <space quantity="2" unit="character"/>
+                    <lb n="14"/><w lemma="δίδωμι">ἔδωκαν</w>, <placeName type="ethnic" nymRef="#Στυμφάλιος">Στυμφάλιοι</placeName> δὲ <w lemma="ἀποκτείνω">ἀπέκτ<unclear>η</unclear>ναν</w>· 
+                        <w>ἐς</w> <placeName type="city" nymRef="#Μεγάλα Πόλις">Mεγάλαν Πόλιν</placeName> <w lemma="σύν">σὺν</w>
+                    <lb n="15"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64586"><name nymRef="#Καρνήδας">Καρνήδαι</name> τῶι <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65620"><name type="patronymic" nymRef="#Σπόνδαρχος">Σπονδάρχω</name></persName></persName> 
+                        <w lemma="σῦλον">σῦλα</w> τὰ <w lemma="ποτί">ποτ’</w><persName type="attested" key=""><name nymRef="#Ἀπολλόδωρος">Ἀπολλόδωρον</name></persName> τὸν <space quantity="3" unit="character"/>                        
+                    <lb n="16"/><w lemma="αὐλωιδός">αὐλωιδὸν</w>
+                                <num type="total" value="4000">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ">μνᾶν</w>
+                                        <num value="1000"><g type="cyrnum">Χ</g></num>
+                                        <num value="1000"><g type="cyrnum">Χ</g></num>
+                                        <num value="1000"><g type="cyrnum">Χ</g></num>
+                                        <num value="1000"><g type="cyrnum">Χ</g></num></measure></num>,                           
+                      <w lemma="ποτί">ποτὶ</w> <persName type="attested" key=""><name nymRef="#Νικίας">Νικίαν</name></persName> τὸμ <w lemma="φαρμακοπώλας">φαρμακοπώλαν</w> <space quantity="3" unit="character"/>
+                    <lb n="17"/>                        
+                                <num type="total" value="700">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ">μνᾶν</w>
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>                                
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>
+                                        <num value="100"><g type="cyrnum">𐅝</g></num></measure></num>·
+                        <w>ἐν</w> <placeName type="city" nymRef="#Τεγέα">Τεγέαι</placeName> <w lemma="ποτί">ποτὶ</w> <persName type="attested" key=""><name nymRef="#Δαμαιθίδας">Δαμαιθίδαν</name></persName> τὸν 
+                        <placeName type="ethnic" nymRef="#Ὀρεσθάσιος">Ὀρεσθάσιον</placeName> 
+                        <num type="total" value="1000"> 
+                            <measure type="currency" unit="mna">
+                                    <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶν</ex></expan></w> <space quantity="2" unit="character"/>
+                                        <num value="1000"><unclear><g type="cyrnum">Χ</g></unclear></num></measure></num>·
+                    <lb n="18"/><w>ἐν</w> τῶι <w lemma="ἱαρόν">ἱαρῶι</w> τῶ <persName type="divine" ref="#Zeus_Lykaios"><name nymRef="#Ζεύς">Διὸς</name> τῶ <rs type="epithet" key="Lykaios"><name nymRef="#Λυκαῖος">Λυκαίω</name></rs></persName> 
+                        <w lemma="ποτί">ποτί</w> <persName type="attested" key=""><name nymRef="#Χάρων">Χάρωνα</name></persName> τὸγ <w lemma="χωλός">χωλὸν</w>
+                                <num type="total" value="1000">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶν</ex></expan></w>
+                                        <num value="1000"><unclear><g type="cyrnum">Χ</g></unclear></num></measure></num>·
+                    <lb n="19"/><w>ἐν</w> <placeName nymRef="#Ἆλις">Ἄλι</placeName> <w lemma="ποτί">ποτὶ</w> τὸς <w lemma="περί">περὶ</w> <persName type="attested" key=""><name nymRef="#Φίλων"><unclear>Φ</unclear>ίλωνα</name> 
+                        <w lemma="ὅς1" type="relative">οἳ</w> <w lemma="γίγνομαι"><unclear>ἐ</unclear>γένοντο</w> <name nymRef="#Φιλόπαις">Φιλόπαιδα</name></persName> 
+                                <num type="total" value="15">
+                                    <measure type="currency" unit="talent">
+                                    <w lemma="τάλαντον"><unclear>τ</unclear>αλάν<lb n="20" break="no"/>των</w>
+                                        <num value="10"><w>δέκα</w></num> 
+                                        <num value="5"><w>πέντε</w></num></measure></num>·
+                         <w lemma="ἐν">ἐμ</w> <placeName type="city" nymRef="#Μεσσάνα">Μεσσάναι</placeName> <w lemma="ποτί">π<unclear>ο</unclear>τὶ</w> <persName type="attested" key=""><name nymRef="#Δεινίας">Δεινίαν</name></persName>
+                                <num type="total" value="500">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶν</ex></expan></w>
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>                               
+                                        <num value="100"><g type="cyrnum">𐅝</g></num></measure></num>· 
+                        <w>ἐν</w> <placeName nymRef="#Ἄργος">Ἄργει</placeName>
+                    <lb n="21"/><w lemma="ποτί">ποτὶ</w> <persName type="attested" key=""><name nymRef="#Θωροπίδας">Θωροπίδαν</name></persName> <unclear>τ</unclear>ὸν 
+                        <rs type="office" key="strategos"><w lemma="στραταγός"><supplied reason="lost">στ</supplied>ραταγὸν</w></rs>
+                                <num type="total" value="100">
+                                    <measure type="currency" unit="mna">
+                                        <expan><abbr>μ</abbr><ex>νᾶν</ex></expan>
+                                        <num value="100"><g type="cyrnum">𐅝</g></num></measure></num>· 
+                        <w lemma="ἐν">ἐγ</w> <placeName type="city" nymRef="#Κόρινθος">Κορίνθω<unclear>ι</unclear></placeName> <w lemma="σύν"><supplied reason="lost">σὺ</supplied>ν</w> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64907"><name nymRef="#Λῦσις">Λύσι</name>
+                    <lb n="22"/>τῶι <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63697"><name type="patronymic" nymRef="#Ἐπικλῆς">Ἐπικλεῦς</name></persName></persName> <w lemma="ποτί">ποτὶ</w> 
+                        <persName type="attested" key=""><name nymRef="#Σιμωνίδας">Σιμωνίδαν</name></persName>  
+                                <num type="total" value="3">
+                                    <measure type="currency" unit="talent">
+                                        <unclear>τ</unclear>αλάντων
+                                        <num value="3"><w lemma="τρίς">τρι<supplied reason="lost">ῶν</supplied></w></num></measure></num>·                            
+                        <w><supplied reason="lost">ἐν</supplied></w> <placeName nymRef="#Ἀθᾶναι">Ἀθάναις</placeName>                    
+                    <lb n="23"/><w lemma="ποτί"><supplied reason="lost">ποτὶ</supplied></w> <persName type="attested" key=""><name nymRef="#Δαμάτριος">Δαμάτριον</name></persName> 
+                        τὸν <w lemma="ῥητώρ">ῥήτορα</w>
+                                <num type="total" value="100">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶν</ex></expan></w>
+                                        <num value="100"><unclear><g type="cyrnum">𐅝</g></unclear></num></measure></num>· 
+                        <w lemma="ἐν">ἐμ</w> <placeName type="city" nymRef="#Μᾶλος">Μάλωι</placeName> <w lemma="ποτί"><supplied reason="lost">ποτὶ</supplied></w> <persName type="attested"><name nymRef="#_μένης"><gap reason="lost" quantity="3" unit="character"/><seg part="F">μένη</seg></name></persName>
+                    <lb n="24"/><supplied reason="lost">τὸν</supplied> <w lemma="ὀλυμπιονίκας"><supplied reason="lost">ὀλυμ</supplied>πιονίκ<unclear>α</unclear>ν</w> <w lemma="παλαιστάς">παλαιστὰν</w>
+                                <num type="total" value="3">
+                                    <measure type="currency" unit="talent">
+                                        <num value="3"><w lemma="τρίς">τριῶν</w></num>
+                                        <w lemma="τάλαντον">τ<supplied reason="lost">αλάντων</supplied></w></measure></num>· 
+                        <w><supplied reason="lost">ἐν</supplied></w> <gap reason="lost" quantity="2" unit="character"/><orig><choice><unclear>χ</unclear><unclear>υ</unclear></choice>ε</orig>
+                    <lb n="25"/><gap reason="lost" quantity="5" unit="character" precision="low"/> <w lemma="ποτί"><supplied reason="lost">ποτ'</supplied></w> <persName type="attested" key=""><name nymRef="#Αἰσχύλος"><supplied reason="lost">Αἰ</supplied><unclear>σ</unclear>χύ<supplied reason="lost">λο</supplied>ν</name></persName>
+                                <num type="total" value="2">
+                                    <measure type="currency" unit="talent">
+                                        <num value="2"><w lemma="δύο">δυῶν</w></num>
+                                        <w lemma="τάλαντον">ταλάντων</w></measure></num> 
+                         <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/><orig>λι</orig> <w>σῦλον</w> <w lemma="διαλύω">διελύ<unclear>θ</unclear><supplied reason="lost">η</supplied></w> 
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/> 
+                        <persName type="attested" key=""><name nymRef="#Λεβύστρατος"><seg part="I"><supplied reason="lost">Λ</supplied>εβυστρα<supplied reason="lost">τ</supplied></seg></name></persName> 
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="διαλύω"><supplied reason="lost">δι</supplied><unclear>ε</unclear>λύ<unclear>θ</unclear><supplied reason="lost">η</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="28a"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb n="0a"/><space quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ποτί"><supplied reason="lost">ποτὶ</supplied></w> <placeName type="ethnic" nymRef="#Πελλανεύς"><supplied reason="lost">Πε</supplied>λλανῆς</placeName>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="#_ης"><seg part="F">ευς</seg></name></persName> καὶ <space quantity="2" unit="character" precision="low"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>ὸ</unclear>ν 
+                        <placeName type="ethnic" nymRef="#Ἀμφισσεύς">Ἀμφισσῆ</placeName>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="τάλαντον"><supplied reason="lost">τ</supplied><unclear>α</unclear>λάντων</w>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>
+                                <num type="total" value="255">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ"><expan><abbr>μ</abbr><ex>νᾶν</ex></expan></w>
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>
+                                        <num value="50"><g type="cyrnum">Ζ</g></num>                               
+                                        <num value="5"><g type="cyrnum">𐅃</g></num></measure></num>
+                        <space quantity="2" unit="character" precision="low"/> 
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>
+                                <num type="total" atLeast="238">
+                                    <measure type="currency" unit="mna">
+                                        <w lemma="μνᾶ"><supplied reason="lost"><expan><abbr>μ</abbr><ex>νᾶν</ex></expan></supplied></w>
+                                        <num value="200"><g type="cyrnum">𐅠</g></num>
+                                        <num value="10"><g type="cyrnum">&gt;</g></num>
+                                        <num value="10"><g type="cyrnum">&gt;</g></num>
+                                        <num value="10"><g type="cyrnum">&gt;</g></num>
+                                        <num value="5"><g type="cyrnum">𐅃</g></num>
+                                        <num value="1"><g type="cyrnum">–</g></num>
+                                        <num value="1"><g type="cyrnum">–</g></num>
+                                        <num value="1"><g type="cyrnum">–</g></num></measure></num>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>υπ</unclear>ο</orig><space quantity="1" unit="character"/>
+                        <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="a.1"><lem><supplied reason="lost">ὅσσα κατὰ τῶν πολιατᾶ</supplied>ν</lem>
+                        <rdg resp="#laronde-lefevre2009"><gap reason="lost" quantity="18" unit="character" precision="low"/><orig>ν</orig></rdg>
+                    <rdg resp="#SECir #laronde1987"><gap reason="lost" extent="unknown" unit="character"/><orig>ν</orig></rdg>
+                    </app>
+                    <app loc="a.1">
+                        <lem resp="#bravo1980 #cdl2000">ἀπονωμαί</lem>
+                        <rdg resp="#SECir">ἀπον<choice><corr>ο</corr><sic>ω</sic></choice>μαί <note>so all other editors</note></rdg>
+                    </app>
+                    <app loc="a.2">
+                        <lem resp="#laronde-lefevre2009"><supplied reason="lost">ἀπεδόθεν, αἳ φυλάσσο</supplied>νται</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">φυλάσσο</supplied>νται</rdg> <note>so all editors but <bibl><ptr target="#bravo1980"/></bibl></note>
+                        <rdg resp="#bravo1980"><supplied reason="lost">ἐτελέσθησαν, αἳ φυλάσσο</supplied>νται</rdg>
+                            <rdg resp="#laronde-lefevre2009"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">καταγράφο</supplied>νται</rdg>
+                            <rdg type="alternative" resp="#laronde-lefevre2009"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἀναγράφο</supplied>νται</rdg>
+                            <rdg type="alternative" resp="#laronde-lefevre2009"><supplied reason="lost">ἀπεδόθησαν, αἳ τηροῦ</supplied>νται</rdg>
+                            <rdg type="alternative" resp="#laronde-lefevre2009"><supplied reason="lost">κατεβλήθησαν, αἳ τηροῦ</supplied>νται</rdg>
+                            <rdg type="alternative" resp="#laronde-lefevre2009"><supplied reason="lost">ἐξετείσθησαν, αἳ τηροῦ</supplied>νται</rdg>
+                    </app>
+                    <app loc="a.5">
+                    <lem resp="#SECir">τῶν Ἀμφικτυόνων</lem>
+                        <rdg resp="#laronde-lefevre2009">τῶν Ἀμφικτυόνων</rdg> 
+                            <rdg resp="#laronde-lefevre2009">Ἀμφικτιόνων</rdg>
+                    </app>
+                    <app loc="a.6-7">
+                        <lem resp="#daux1963">πο<unclear>τ</unclear><supplied reason="lost">ε</supplied><lb break="no"/><supplied reason="lost" cert="low">γράφεν</supplied></lem>
+                        <rdg resp="#SECir #bravo1980">πο<unclear>τ</unclear><supplied reason="lost" cert="low">ιγρά<lb break="no"/>φονται</supplied></rdg>
+                            <rdg resp="#laronde-lefevre2009">πο<unclear>τ</unclear><supplied reason="lost">ε</supplied><lb break="no"/><supplied reason="lost" cert="low">γράφεν</supplied></rdg>
+                            <rdg resp="#laronde-lefevre2009">πο<unclear>τ</unclear><supplied reason="lost">ε</supplied><lb break="no"/><supplied reason="lost" cert="low">τέθεν</supplied></rdg>
+                    </app>
+                    <app loc="a.7">
+                        <lem resp="#bravo1980 #cdl2000">ἀπονωμάς</lem>
+                        <rdg resp="#SECir">ἀπον<choice><corr>ο</corr><sic>ω</sic></choice>μάς <note>so by all editors</note></rdg>
+                    </app>
+                    <app loc="a.8">
+                        <lem resp="#SECir">τῶγ χρημάτων καὶ τοὶ συμπρεσβεύσαντες</lem>
+                        <rdg resp="#chamoux1953 #laronde1987">τῶγ χρημάτων · καὶ τοὶ συμπρεσβεύσαντες</rdg>
+                    </app>
+                    <app loc="a.8-9">
+                        <lem resp="#SECir">ἀπὸ <lb/>τᾶς ἁμᾶς πόλιος · Αἰγλάνωρ</lem>
+                        <rdg resp="#chamoux1953 #laronde1987">ἀπὸ <lb/>τᾶς ἁμᾶς πόλιος Αἰγλάνωρ</rdg>
+                    </app>
+                    <app loc="a.13">
+                        <lem resp="#laronde1987">χηρ<supplied reason="lost">ω</supplied><unclear>θ</unclear>έντα</lem>
+                        <rdg resp="#SECir">χηρ<unclear>ω</unclear><supplied reason="lost">θ</supplied>έντα</rdg>
+                    </app>
+                    <app loc="a.17">
+                        <lem resp="#daux1963">Δαμαιθίδαν</lem>
+                        <rdg resp="#SECir">Δαμα<unclear>τ</unclear>ρίδαν</rdg>
+                    </app>
+                    <app loc="a.18">
+                        <lem resp="#daux1963"><unclear>Χ</unclear></lem>
+                        <rdg resp="#SECir"><gap reason="lost" quantity="1" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.19">
+                        <lem resp="#laronde1987">Ἄλι</lem>
+                        <rdg resp="#SECir #daux1963">Ἆλι</rdg>
+                    </app>
+                    <app loc="a.19">
+                        <lem resp="#daux1963">Φιλόπαιδα</lem>
+                        <rdg resp="#SECir">φιλόπαιδα<unclear>ς</unclear></rdg>
+                        <rdg resp="#mcKechnie1989">φιλόπαιδ<choice><corr>ε</corr><sic>α</sic></choice><unclear>ς</unclear> <note>Fraser's reading</note></rdg>                    
+                    </app>
+                    <app loc="a.19-20">
+                        <lem resp="#cdl-laronde1977"><unclear>τ</unclear>αλάν<lb break="no"/>των</lem>
+                        <rdg resp="#SECir"><supplied reason="lost">ταλάν</supplied><lb break="no"/>των <note>fragment independently published as <bibl><ptr target="#SECir"/>, <citedRange>207</citedRange></bibl></note></rdg>
+                    </app>
+                    <app loc="a.21">
+                        <lem resp="#cdl-laronde1977"><supplied reason="lost">σὺ</supplied>ν Λύσι</lem>
+                        <rdg resp="#SECir"><unclear>ν</unclear>αυσί</rdg>
+                    </app>
+                    <app loc="a.22">
+                        <lem resp="#cdl-laronde1977"><unclear>τ</unclear>αλάντων</lem>
+                        <rdg resp="#SECir"><supplied reason="lost">τ</supplied>α<unclear>λ</unclear>άντων</rdg>
+                    </app>
+                    <app loc="a.22">
+                        <lem resp="#cdl-laronde1977">τρι<supplied reason="lost">ῶν· ἐν</supplied> Ἀθάναις</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/> Ἀθάναις</rdg>
+                    </app>
+                    <app loc="a.23">
+                        <lem resp="#cdl-laronde1977"><supplied reason="lost">ποτὶ</supplied> <gap reason="lost" quantity="3" unit="character"/>μένη</lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/>μένη</rdg>                    
+                    </app>
+                    <app loc="a.24">
+                        <lem resp="#cdl-laronde1977"><supplied reason="lost">τὸν ὀλυμ</supplied>πιονίκ<unclear>α</unclear>ν</lem>
+                        <rdg resp="#SECir"><gap reason="lost" quantity="3" unit="character"/><supplied reason="lost">ὀλυμ</supplied>πιονίκ<unclear>α</unclear>ν</rdg>
+                    </app>
+                    <app loc="a.24">
+                        <lem resp="#cdl-laronde1977">τ<supplied reason="lost">αλάντων· ἐν</supplied> <gap reason="lost" quantity="2" unit="character"/><orig><choice><unclear>χ</unclear><unclear>υ</unclear></choice>ε</orig></lem>
+                        <rdg resp="#SECir">τ<supplied reason="lost">αλάντων</supplied> <gap reason="lost" extent="unknown" unit="character"/></rdg> <note><foreign xml:lang="grc"><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>χ</unclear>ε</orig></foreign> read in <bibl><ptr target="#SECir"/>, <citedRange>207</citedRange></bibl></note>
+                    </app>
+                        <app loc="a.24-25">
+                            <lem><orig><choice><unclear>χ</unclear><unclear>υ</unclear></choice>ε</orig> <lb/><gap reason="lost" quantity="5" unit="character" precision="low"/> </lem>
+                           <rdg resp="#bousquet1978"><supplied reason="lost">ἐ</supplied><unclear>ν Ε</unclear>ὐε<lb break="no"/><supplied reason="lost">σπερίσσι</supplied></rdg> 
+                        </app>
+                    <app loc="a.25">
+                        <lem resp="#bousquet1978 #bravo1980 #IGCyr #rosamilia2023"><supplied reason="lost">ποτ' Αἰ</supplied><unclear>σ</unclear>χύ<supplied reason="lost">λο</supplied>ν</lem>
+                        <rdg resp="#daux1963"><orig>σχυ</orig><supplied reason="lost">ρ</supplied><orig>ον</orig> <note><foreign xml:lang="grc">ἱσχυρόν</foreign> adjective or personal name</note></rdg>
+                        <rdg resp="#SECir"><gap reason="lost" quantity="10" unit="character" precision="low"/><orig><unclear>σ</unclear>χυ</orig><gap reason="lost" quantity="2" unit="character"/><orig>ν</orig></rdg>          
+                    </app>
+                    <app loc="a.27">
+                        <lem resp="#masson1975a"><w part="I"><supplied reason="lost">Λ</supplied>εβυστρα<supplied reason="lost">τ</supplied></w></lem>
+                        <rdg resp="#peek1972"><supplied reason="lost">Λ</supplied>ιβυστρα<supplied reason="lost">τ</supplied></rdg>
+                        <rdg resp="#SECir"><orig>εβυστρα</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="a.28">
+                        <lem resp="#daux1963"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δι</supplied><unclear>ε</unclear>λύ<unclear>θ</unclear><supplied reason="lost">η</supplied> <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>λυ<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/> <note>followed by all editors</note></rdg>
+                    </app>
+                    <app loc="b.0a">
+                        <lem><space quantity="1" unit="line"/> <note>no end of written line has a space of more than 3 characters left at line's end</note></lem>
+                        <rdg resp="#nowakowski2013"><gap reason="lost" extent="unknown" unit="character"/><space quantity="6" unit="character" precision="low"/></rdg>                   
+                    </app>
+                    <app loc="b.1"><lem resp="#IGCyr"><supplied reason="lost">ποτὶ Πε</supplied>λλανῆς</lem>
+                    <rdg resp="#nowakowski2013 #rosamilia2023"><gap reason="lost"/><supplied reason="lost">Πε</supplied>λλανῆς</rdg></app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> a) <supplied reason="lost">Voici tous</supplied> les droits de représailles <supplied reason="lost">contre les citoyens</supplied> qui ont été liquidés et les restitutions qui 
+                <supplied reason="lost">ont été réglées, lesquelles sont archivées</supplied> les unes dans les cités par les démiurges conformément aux lois, les autres dans le sanctuaire 
+                de Zeus Olympien par les Hellanodiques, à Delphes par les Amphictions, dans le sanctuaire de Zeus Lykaios par les hiaromnamons, à Athènes par les thesmothètes; 
+                <supplied reason="lost">ont été inscrits</supplied>, outre les restitutions, <supplied reason="subaudible">les noms de</supplied> ceux qui ont invoqué des droits 
+                de représailles et le montant des sommes, ainsi que <supplied reason="subaudible">les noms de</supplied> ceux qui ont participé à l’ambassade de notre cité : 
+                Aiglanor fils d’Alexandros, à Kleitôr (10) d’Arcadie au sujet de ceux qui périrent à Trygeion du fait de Teisilaos : nous avons liquidé le droit de représailles 
+                pour un montant de huit talents, les Kleitoriens prononcèrent une peine de bannissement contre Teisilaos, confisquèrent ses biens et, quand les Stymphaliens 
+                eurent mis la main sur lui, ils le leur livrèrent et les Stymphaliens le mirent à mort; à Mégalopolis avec Karnèdas fils de Spondarkhos, droits de représailles liquidés
+                envers Apollodôros le joueur d’aulos pour un montant de 4000 mines, envers Nikias le marchand de drogues pour un montant de 700 mines; à Tégée envers Damaithidas d’Oresthasion 
+                pour un montant de 1000 mines; au sanctuaire de Zeus Lykaios envers Kharôn le boiteux pour un montant de 1000 mines; à Elis, envers le cercle de Philôn dit Philopais 
+                pour un montant de 15 talents; (20) à Messène, envers Deinias pour un montant de 500 mines; à Argos envers Thôropidas le stratège pour un montant de 100 mines;
+                à Corinthe avec Lysis le fils d’Epiklès envers Simônidas pour un montant de 3 talents; à Athènes envers Dèmètrios l’orateur pour un montant de 100 mines;
+                à Mèlos envers <gap reason="lost" extent="unknown" unit="character"/>ménès le lutteur olympionique, pour un montant de trois talents; à <gap reason="lost" extent="unknown" unit="character"/> envers <supplied reason="lost">Ai</supplied>skhylos 
+                pour un montant de deux talents; <gap reason="lost" extent="unknown" unit="character"/> le droit de représailles a été liquidé <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">avec</supplied> Lébystratos 
+                <gap reason="lost" extent="unknown" unit="character"/> a été liquidé <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>b) <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">envers</supplied> les gens de Pellène <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">Untel fils de</supplied> <gap reason="lost" extent="unknown" unit="character"/>ès 
+                et <supplied reason="subaudible">Untel fils d’Untel</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">envers</supplied>
+                l’homme d’Amphissa <gap reason="lost" extent="unknown" unit="character"/>, pour un montant de <gap reason="lost" extent="unknown" unit="character"/> talents; <gap reason="lost" extent="unknown" unit="character"/>
+                <supplied reason="subaudible">envers Untel  pour un montant d’au moins</supplied> 255 mines; <gap reason="lost" extent="unknown" unit="character"/> 
+                <supplied reason="subaudible">envers Untel  pour un montant d’au moins</supplied> 238 mines; <gap reason="lost" extent="unknown" unit="character"/>        
+            </p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> a) <supplied reason="lost">These are all</supplied> the reprisal rights <supplied reason="lost">against citizens</supplied> that were extinguished and the restitutions that 
+                <supplied reason="lost">were settled, all of which are filed</supplied>, some of them in the cities by the damiergoi in compliance with the laws, the others in the sanctuary 
+                of Zeus Olympios by the <foreign rend="italic">Hellanodikai</foreign>, at Delphi by the Amphictyons, in the sanctuary of Zeus Lykaios by the
+                <foreign rend="italic">hiaromnamones</foreign>, at Athens by the <foreign rend="italic">thesmothetai</foreign>; 
+                <supplied reason="lost">were inscribed</supplied>, beside the restitutions, <supplied reason="subaudible">the names of</supplied> those who invoked reprisal 
+                rights and the amounts of money, as well as <supplied reason="subaudible">the names of</supplied> those who took part in the mission sent by our city: 
+                Aiglanor son of Alexandros, to Kleitor (10) of Arcadia about those who perished at Trygeion because of Teisilaos: we estinguished the reprisal right 
+                for an amount of eight talents, the Kleitorians passed sentence of banishment against Teisilaos, confiscated his goods and, when the Stymphalians 
+                had seized him, they handed him over and the Stymphalians killed him; to Megalopolis with Karnedas son of Spondarchos, reprisal rights estinguished                
+                toward Apollodoros the aulos-player for an amount of 4000 mines, toward Nikias the drug-seller for an amount of 700 mines; at Tegea toward Damaithidas from Oresthasion 
+                for an amount of 1000 mines; in the sanctuary of Zeus Lykaios toward Charon the lame for an amount of 1000 mines; at Elis, toward the group of Philon so-called Philopais
+                for an amount of 15 talents; (20) at Messena, toward Deinias for an amount of 500 mines; at Argos toward Thoropidas the general for an amount of 100 mines;
+                at Corinth with Lysis son of Epikles toward Simonidas for an amount of 3 talents; at Athens toward Demetrios the orator for an amount of 100 mines;
+                at Melos toward <gap reason="lost" extent="unknown" unit="character"/>menes the wrestler who winned at the Olympian games, for an amount of three talents; at <gap reason="lost" extent="unknown" unit="character"/> toward <supplied reason="lost">Ai</supplied>schylos 
+                for an amount of two talents; <gap reason="lost" extent="unknown" unit="character"/> the reprisal right has been extinguished <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">with</supplied> Lebystratos 
+                <gap reason="lost" extent="unknown" unit="character"/> was extinguished <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>b) <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">toward</supplied> the Pellenians <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">So-and-so son of</supplied> <gap reason="lost" extent="unknown" unit="character"/>es 
+                and <supplied reason="subaudible">So-and-so son of So-and-so</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">toward</supplied>
+                the Amphissaean <gap reason="lost" extent="unknown" unit="character"/> for an amount of <gap reason="lost" extent="unknown" unit="character"/> talents; <gap reason="lost" extent="unknown" unit="character"/>
+                <supplied reason="subaudible">toward So-and-so  for an amount of at least</supplied> 255 mines; <gap reason="lost" extent="unknown" unit="character"/> 
+                <supplied reason="subaudible">toward So-and-so  for an amount of at least</supplied> 238 mines; <gap reason="lost" extent="unknown" unit="character"/>        
+            </p>
+                </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> a) <supplied reason="lost">Questi sono tutti</supplied> i diritti di rappresaglia <supplied reason="lost">contro cittadini</supplied> che sono stati liquidati e le restituzioni che 
+                <supplied reason="lost">sono state regolate, le quali sono archiviate</supplied> alcune nelle città dai damiergoi in accordo con le leggi, le altre nel santuario 
+                di Zeus Olympios dagli <foreign rend="italic">Hellanodikai</foreign>, a Delfi dagli Anfizioni, nel santuario di Zeus Lykaios dagli <foreign rend="italic">hiaromnamones</foreign>, ad Atene dai tesmoteti; 
+                <supplied reason="lost">sono stati iscritti</supplied>, oltre alle restituzioni, <supplied reason="subaudible">i nomi di</supplied> coloro che hanno invocato dei diritti 
+                di rappresaglia e l'ammontare delle somme, come pure <supplied reason="subaudible">i nomi di</supplied> coloro che hanno preso parte all'ambasceria inviata dalla nostra città:
+                Aiglanor figlio di Alexandros, a Kleitor (10) in Arcadia a proposito di coloro che morirono a Trygeion a causa di Teisilaos: abbiamo liquidato il diritto di rappresaglia
+                per l'ammontare di 8 talenti, i cittadini di Kleitor hanno condannato all'esilio Teisilaos, hanno confiscato i suoi beni e, quando i cittadini di Stymphalos
+                l'hanno catturato, l'hanno consegnato a loro e i cittadini di Stymphalos l'hanno ucciso; a Megalopolis con Karnedas figlio di Spondarchos, diritti di rappresaglia liquidati                
+                nei confronti di Apollodoros il suonatore di aulo per l'ammontare di 4000 mine, nei confronti di Nikias il venditore di droghe medicinali per l'ammontare di 700 mine; a Tegea nei confronti di Damaithidas da Oresthasion 
+                per l'ammontare di 1000 mine; nel santuario di Zeus Lykaios nei confronti di Charon lo zoppo per l'ammontare di 1000 mine; a Elide, nei confronti del gruppo di Philon detto Philopais
+                per l'ammontare di 15 talenti; (20) a Messene, nei confronti di Deinias per l'ammontare di 500 mine; ad Argo nei confronti di Thoropidas lo stratego per l'ammontare di 100 mine;
+                a Corinto con Lysis figlio di Epikles nei confronti di Simonidas per l'ammontare di 3 talenti; ad Atene nei confronti di Demetrios l'oratore per l'ammontare di 100 mine;
+                a Melos nei confronti di <gap reason="lost" extent="unknown" unit="character"/>menes il lottatore che vinse agli agoni olimpici, per l'ammontare di tre talenti; a <gap reason="lost" extent="unknown" unit="character"/> nei confronti di <supplied reason="lost">Ai</supplied>schylos 
+                per l'ammontare di due talenti; <gap reason="lost" extent="unknown" unit="character"/> il diritto di rappresaglia è stato liquidato <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">con</supplied> Lebystratos 
+                <gap reason="lost" extent="unknown" unit="character"/> è stato liquidato <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>b) <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">nei confronti</supplied> dei cittadini di Pella <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">il tale figlio di</supplied> <gap reason="lost" extent="unknown" unit="character"/>es 
+                e <supplied reason="subaudible">il tale figlio del tale</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">nei confronti</supplied>
+                dei cittadini di Anfissa <gap reason="lost" extent="unknown" unit="character"/>, per l'ammontare di <gap reason="lost" extent="unknown" unit="character"/> talenti; <gap reason="lost" extent="unknown" unit="character"/>
+                <supplied reason="subaudible">nei confronti del tale per l'ammontare di almeno</supplied> 255 mine; <gap reason="lost" extent="unknown" unit="character"/> 
+                <supplied reason="subaudible">nei confronti del tale per l'ammontare di almeno</supplied> 238 mines; <gap reason="lost" extent="unknown" unit="character"/>        
+            </p>
+         </div><div type="commentary">
+                
+                <p>This stone has a thrilling history: first mentioned by <bibl><ptr target="#oliverioDAI1"/></bibl> in 1933, with citation of ll. 2-6, it was published only in
+                    1963 by Pugliese Carratelli (<bibl><ptr target="#SECir"/></bibl>) who found it deprived of the left upper part, the loss of which he was able to determine from a sketch 
+                    of the general outline in Oliverio's papers. Moreover two fragments  belonging to the same panel were identified later on: one fragment, given separately in the same publication, 
+                    care of Morelli, as found in 1960 on the shore of the port of Cyrene (later on Apollonia) and joined to the main one by C. Dobias-Lalou and A. Laronde (<bibl><ptr target="#cdl-laronde1977"/></bibl>)
+                    is edited here as part of a; the second fragment, here b, had been brought to Cracow and was identified and published later by <bibl><ptr target="#nowakowski2013"/></bibl>. 
+                    It seems now plausible that all fragments of the thin panel were found at once by Oliverio, who testified that it was already split into several fragments, and that the two 
+                    erratic fragments were lost during the moving of archaeological items to Tripolitania during World War II. If so, some were probably picked up by people who did not belong 
+                    to the Antiquities Department. The 'Apollonia fragment' was already absent from the Museum of Cyrene in 1946 when Chamoux made a unpublished copy available in his archive. 
+                    Moreover, <bibl><ptr target="#gpc1961"/>, p. <citedRange>3</citedRange></bibl> mentions a description of the inscription read by Oliverio at the 1st International Congress 
+                    of Epigraphy (Amsterdam 1938), where he clearly said that the recomposition of the found fragments produced a panel that was complete at all sides but at the bottom. We may 
+                    thus be sure that a large upper left angle has been lost for ever during World War II. The relevant part of the text was restored by Pugliese Carratelli from Oliverio's quotation of 1933.</p>
+                <p>Anti wrote that the stele was found in 1929 inside the Strategeion. In fact it should rather have been exposed on some external wall in view of all. There may have been some confusion 
+                    because Oliverio in his first mentions called this inscription '<foreign xml:lang="it">Stele della Vittoria</foreign>', a name which is not appropriate to its content. Conversely, a victory 
+                    is mentioned in the dedication of the Strategeion (which is <ref type="inscription" source="#IGCyr2">IGCyr098500</ref>) and the report of excavations for year 1929 (now  available at <bibl><ptr target="#luni2014b"/>, p. 
+                    <citedRange>129</citedRange></bibl>) shows that the building itself was called '<foreign xml:lang="it">Monumento della Vittoria</foreign>' by the excavators, amongst whom Anti 
+                    and Oliverio. As the whole area below the sustaining wall separating the Sanctuary from the Fountain Terrace was excavated during that summer, we may suppose that the stele 
+                    was exposed either on a wall of the Strategeion or on the adjacent sustaining wall, along with other official documents such as Ptolemy's VIII will (<ref type="inscription" source="#IGCyr2">IGCyr0011200</ref>).</p>
+	      <p>The verse heading (<ref type="inscription" source="#GVCyr2">GVCyr033</ref>) seems to honour a man whose name does not appear in the rest of the text and whose action enhanced the city's prestige. 
+	          We may guess either that he had given money to extinguish reprisal rights against Cyrenaean citizens listed in the text or that he had himself lead the embassies to the different places.</p>
+                <p>For a study of the juridic problems of reprisal rights, see <bibl><ptr target="#bravo1980"/>, pp. <citedRange>741-742</citedRange> and pp. <citedRange>918-926</citedRange></bibl>; for the organization of the different trips and
+                    date of the inscription, see <bibl><ptr target="#laronde1987"/>, pp. <citedRange>120-121, 149-60, 252</citedRange></bibl>; for the publication of the documents see <bibl><ptr target="#laronde-lefevre2009"/></bibl>.</p>
+                <p>The different meaning of <foreign xml:lang="grc">σῦλα λύειν</foreign> and the general interpretation of the document ascribed to Fraser in a short footnote by <bibl><ptr target="#mcKechnie1989"/>, p. <citedRange>137 footnote 146</citedRange></bibl>,
+                    but never published by the author himself, does not seem convincing. Economical and historical insights are developed by <bibl><ptr target="#rosamilia2023"/></bibl>, whose main points are the following: 1) the 
+                    sums in talents were paid in Attic talents (contra <bibl><ptr target="#laronde1987"/>, p. <citedRange>157</citedRange></bibl>), whereas the other ones were paid in Cyrenaican currency; 2) the period that would best explain the 
+                    origin of the reprisal rights is that of Thibro's war, which was a period of wars also in Greece, whence a date between 320 and 310 for the settling of the reprisal rights and after it for the inscription.</p>
+                <p>At lines a.24-25, Bousquet's reading seems very hazardous, considering the faint vestiges of letters; furthermore the idea that an embassy was sent to Euesperides, another city of Cyrenaica, 
+                  seems rather strange.</p>
+                <p>The publication of the new fragment kept at Cracow gives additional places visited by embassies; we think that b had at top a space left, so that a supplementary trip might have been registered 
+                    afterwards, differing in some sense from the preceding ones. But the missing parts are too large to allow any certainty.</p>
+                <p>The Athenian orator Damatrios mentioned at line a.23 was very probably Demetrios of Phalerae, see <bibl><ptr target="#cdl-laronde1977"/></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

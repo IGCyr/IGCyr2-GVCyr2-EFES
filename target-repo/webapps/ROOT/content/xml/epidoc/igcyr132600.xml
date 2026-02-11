@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> by a Ptolemaic officer</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr132600</idno>
+                <idno type="number" subtype="second-edition">132600</idno>
+                <idno type="TM">738873</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr132600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr132600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr132600</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small fragment of a <material>marble</material> <objectType>block</objectType>, broken off above, below and at left  
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>, very carefully cut, with small serifs; alpha with dropped bar, epsilon with short central bar, 
+                            circular letters of the average size, rho with a square loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering reign" notBefore="-0156" notAfter="-0145" precision="medium">Between 156 and 145 BC</origDate>
+                        </origin>
+                        
+                        <provenance type="found" notAfter="1939">
+                            <p>Found and photographed probably before World War II, probably at
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: apparently on the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1058">Fountain Terrace</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Only known from a photograph in the archive of the Department of Antiquities.</p>
+                        </provenance>
+                        
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-21" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2017-02-15" who="CDL">overall check</change>
+            <change when="2016-04-10" who="CDL">changes in the commentary following L. Criscuolo's advice</change>
+            <change when="2016-04-07" who="CDL">file created, lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77841/3/igcyr132600-face.tif.jpg" corresp="igcyr132600" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/77841">Face of igcyr132600 Dedication by a Ptolemaic officer</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>132600</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="ὑπέρ"><supplied reason="lost">Ὑπὲρ</supplied></w> <w lemma="βασιλεύς"><supplied reason="lost">βασιλέως</supplied></w> 
+                    <persName type="ruler" key="Ptolemy VIII"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτολεμαίου</supplied></name> 
+                    <rs type="epithet" key="Theos Euergetes"><w lemma="θεός"><supplied reason="lost">θεοῦ</supplied></w> 
+                        <w lemma="εὐεργέτης"><supplied reason="lost">Εὐ</supplied><unclear>εργ</unclear>έτο<supplied reason="lost">υ</supplied></w></rs></persName>
+                    <lb n="2"/><gap reason="lost" quantity="28" precision="medium" unit="character"/> <rs type="aulic" key="ton archisomatophylakon">τῶν <w lemma="ἀρχισωματοφύλαξ">ἀρχι<lb n="3" break="no"/><supplied reason="lost">σωματοφυλάκων</supplied></w></rs> <gap reason="lost" quantity="10" unit="character" precision="medium"/>  
+                            <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθη</supplied>κεν</w> καὶ
+                    <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Au nom du roi Ptolémée Dieux</supplied> Evergète, <supplied reason="lost">Un tel</supplied>, du corps des 
+                gardes du corps, a consacré <gap reason="lost" extent="unknown" unit="character"/> et <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">On behalf of king Ptolemy God</supplied> Euergetes, <supplied reason="lost">So-and-so</supplied>, of the 
+                body-guards, dedicated <gap reason="lost" extent="unknown" unit="character"/> and <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Per il re Tolemeo Dio</supplied> Evergete, <supplied reason="lost">il tale</supplied>, delle guardie del corpo,
+                    ha dedicato <gap reason="lost" extent="unknown" unit="character"/> e <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+               <p>Although alphas with dropped bar are common in the Roman period, there has been a taste for this drawing during the second half of the second century BC in 
+                   inscriptions related with Ptolemaic authorities, namely <ref type="inscription" source="#IGCyr2">IGCyr015300</ref>, <ref type="inscription" source="#IGCyr2">IGCyr063400</ref>, <ref type="inscription" source="#IGCyr2">IGCyr063700</ref> and <ref type="inscription" source="#IGCyr2">IGCyr101600</ref>, all dating from the reign of Ptolemy VIII Euergetes II. Conversely 
+                   the square loop of rho is not so common.</p>
+                <p>This oddity of lettering helps to decide that the Ptolemy mentioned at line 1 can only be the second Euergetes, here mentioned for himself and not as the father of 
+                    Ptolemy IX Soter II. The genitive implies the preposition <foreign xml:lang="grc">ὑπέρ</foreign> and consequently the high probability that no line preceded
+                    our line 1, a fact that the damaged condition of the stone would not allow to decide.</p>
+                <p>In the lacuna at the beginning of line 2, the man with the aulic title <foreign rend="italic">ton archisomatophylakon</foreign> should have been mentioned with 
+                    name and father's name, followed either by another title or by a word at the accusative mentioning the monument dedicated (which might also remain subaudible).</p>
+                <p>Moreover, Lucia Criscuolo (<foreign rend="italic">per epistulam</foreign>) kindly adds two arguments helping to tighten the chronology between 156 and ca. 145: 
+                    1) this aulic title, attested for the first time in Egypt in 156/5, lasted for about one century; 2) from 145 on, in dedications with the formula 
+                    <foreign xml:lang="grc">ὑπέρ</foreign>, the name of Ptolemy VIII is always followed by that of one or two queen(s), a mention for which there is no space here.</p>                    
+                <p>After <foreign xml:lang="grc">καί</foreign> another verb is expected, such as <foreign xml:lang="grc">ἀφιέρωσεν</foreign>, yet attested up to now only 
+                    in dedications of the imperial period. Alternatively, another word at the accusative is also possible, see <ref type="inscription" source="#IGCyr2">IGCyr092000</ref>.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

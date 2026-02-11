@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Name</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr134400</idno>
+                <idno type="number" subtype="second-edition">134400</idno>
+                <idno type="TM">738891</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr134400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr134400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr134400</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <material>rock</material>-cut <objectType>altar</objectType> terribly worn out, either with only one compartment or having lost 
+                                        a second compartment at right    
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the rear wall in correspondence with the partly preserved compartment.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.08</height>; taller iota, pi with protruding upper bar and equal hastae.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0101" precision="medium" cert="low">Perhaps third or second century BC</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="2012">
+                            <p>Found in 2012 by the Mission of Urbino at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the lower part of
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>First studied in 2012 by E. Rosamilia in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-03-05" who="Alice">checked</change>
+            <change when="2017-02-22" who="CDL">lemma, text, translation, commentary</change>
+            <change when="2017-02-18" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77772/3/igcyr134400-face.tiff.jpg" corresp="igcyr134400" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77772">Face of igcyr134400 Owner's mark (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#gasparini-rosamilia2016"/>, n. <citedRange>12</citedRange> (fig. 26)</bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>66.2330</citedRange></bibl>;
+                <bibl><ptr target="#IGCyr"/> <citedRange>134400</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἱππ_"><seg part="I"><unclear>Ἱππ</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Hipp<gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Hipp<gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Hipp<gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+               <p>For the reading, E. Rosamilia notes that the first iota is much distant from the following letters. However the reading seems sure and the most probable 
+               interpretation is that of a personal name beginning with <foreign xml:lang="grc">Ἱππ(ο)-</foreign>. If so, as personal names on the altars are not usually 
+               abbreviated, this induces to think that a part of the altar is lost at right, allowing for a complete name.</p>
+	           <p>E. Rosamilia discusses the possibility that this would be the mention copied by Pacho in 1825 in the same area (<ref type="inscription" source="#IGCyr2">IGCyr107350</ref>).
+	           However the latter's description «<foreign xml:lang="fr">gravé en lettres de plusieurs pouces sur la paroi du mur de roche qui forme un des côtés <supplied reason="subaudible">de la route</supplied></foreign>» does not match the reality of this altar and Rosamilia duly drops the idea.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

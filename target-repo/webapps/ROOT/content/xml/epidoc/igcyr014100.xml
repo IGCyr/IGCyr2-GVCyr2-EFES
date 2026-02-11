@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr014100</idno>
+                <idno type="number" subtype="second-edition">014100</idno>
+                <idno type="TM">106083</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr014100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr014100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr014100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">65</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lower part of white <material>marble</material> <objectType>panel</objectType> recut for re-use
+                                        (<dimensions>
+                                            <width>0.26</width>
+                                            <height>0.13</height>
+                                            <depth>0.08</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in a sunk field with right and left margins 0.015 wide at a slightly higher level.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            
+                            <handNote><height atLeast="0.01" atMost="0.012">0.01-0.012</height>; narrow and pressed together letters without serifs; 
+                                rho with smaller loop, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0250" notAfter="-0231" evidence="lettering textual-context" resp="rosamilia">Between 250 and 230 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1933">
+                                    <p>Found before 1933 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-31" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-12-19" who="HellasLabUnibo">checked, added Italian translation</change>
+            <change when="2016-09-22" who="CDL">changed lower case to upper case in thousands</change>
+            <change when="2016-08-05" who="CDL">tagged w and lemma in text</change>
+            <change when="2015-05-06" who="CDL">arranged lemma, completed apparatus and commentary; Fr. and Engl. translations</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-12-14" who="CDL+HB">text, lemma</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+           
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76829/3/igcyr014100-1-face.tiff.jpg" corresp="igcyr014100" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/76829">Face of igcyr014100 Account of the damiergoi</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76830/3/igcyr014100-2-squeeze.tiff.jpg" corresp="igcyr014100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/76830">Squeeze of igcyr014100 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, p. 138, n. <citedRange>38</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.39</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>014100</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>176-178</citedRange> (content, date), p. <citedRange>315</citedRange>, number 56 (text).</bibl>.</p>
+                    <p>Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>331-333</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2020a"/>, p. <citedRange>189-191</citedRange></bibl>.
+                    </p>
+                    <p>For a general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><measure type="weight" unit="talent"><w><expan><abbr><hi rend="ligature"><unclear>τά</unclear></hi></abbr><ex>λαντον</ex></expan></w></measure> <w lemma="κρόμμυον">κρομμύων</w> 
+                     <expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμᾶν</ex></expan>
+                    <num type="cardinal" value="3"><measure type="currency" unit="drachma"><g type="alphabetic">γ</g></measure></num>, 
+                    <w lemma="ἔλαιον">ἐλαίω</w> <measure type="volume" unit="smireus"><expan><abbr><hi rend="ligature"><supplied reason="lost">
+                        σ</supplied>μ</hi></abbr><ex>ιρεύς</ex></expan></measure> <num value="1"><g type="alphabetic">α</g></num>
+                    <expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμᾶν</ex></expan>
+                    <num type="cardinal" value="7"><measure type="currency" unit="drachma"><g type="alphabetic">ζ</g></measure></num>,                
+                <lb n="2"/><w lemma="ἐλαία">ἐλαιᾶν</w> <measure type="weight" unit="medimnos"><w lemma="μέδιμνος"><expan><abbr>μέ</abbr><ex>διμνος</ex></expan></w></measure> <num value="1"><g type="alphabetic">α</g></num>
+                            <expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμᾶν</ex></expan> <num type="cardinal" value="2"><measure type="currency" unit="drachma"><g type="alphabetic">β</g></measure></num>. 
+                    Τὸ  <w lemma="πᾶς">πάν</w>, τὰ <w lemma="ἱαρεῖον">ἱαρεῖα</w> <w lemma="θύω">ἐθύθη</w>·
+                <lb n="3"/><num type="cardinal" value="4280">
+                            <measure type="currency" unit="drachma"><hi rend="ligature"><g type="alphabetic">ϡδ</g></hi><g type="alphabetic">σ</g> 
+                                    <del rend="erasure"><gap reason="lost" quantity="3" unit="character"/></del><g type="alphabetic">π</g></measure></num>·
+                    τὸ <w lemma="πᾶς">πὰν</w> <w lemma="ἔσειμι">ἐσιὸν</w> τῶ <w lemma="ἐνιαυτός">ἐνιαυτῶ</w> <expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμαί</ex></expan>
+                    <num type="cardinal" value="145"><measure type="currency" unit="drachma"><g type="alphabetic">ρμε</g></measure></num>· 
+                <lb n="4"/>τὸ <w lemma="πᾶς">πὰν</w> <w lemma="ἔξειμι">ἐξιὸν</w> τῶ <w lemma="ἐνιαυτός">ἐνιαυτῶ</w>. <space atLeast="6" atMost="8" unit="character"/>.
+                <lb n="5"/><w lemma="παρόρεγμα">Παρόρεγμα</w> <rs type="office" key="damiergos"><w lemma="δαμιεργός">δαμιεργοῖς</w></rs> <expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμαί</ex></expan>
+                    <num type="cardinal" value="52"><measure type="currency" unit="drachma"><g type="alphabetic">βν</g></measure></num> <note>sic</note>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">   
+            
+                <p><app loc="1"><lem resp="#rosamilia2023"><expan><abbr><hi rend="ligature"><unclear>τά</unclear></hi></abbr><ex>λαντον</ex></expan></lem>
+                    <rdg resp="#IGCyr"><gap reason="lost" quantity="1" unit="character"/>·</rdg>
+                    <rdg resp="#oliverioDAI1"><expan><hi rend="ligature"><abbr>μ<ex>έ</ex>δ</abbr></hi><ex>ιμνος</ex></expan></rdg>
+                    </app>
+                    <app loc="1-2"><lem resp="#IGCyr #rosamilia2023"><expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμᾶν</ex></expan></lem>
+                    <rdg resp="#IGCyr"><expan><abbr><am><g type="drachma">𐅂</g></am></abbr><ex>δραχμαί</ex></expan></rdg>
+                    </app>
+                    <app loc="1"><lem resp="#IGCyr #rosamilia2023">ἐλαίω <expan><abbr><hi rend="ligature"><supplied reason="lost">σ</supplied>μ</hi></abbr><ex>ιρεύς</ex></expan></lem>
+                        <rdg resp="#oliverioDAI1">ἐλαίω <expan><abbr>μ<ex>ε</ex>τ</abbr><ex>ρέτης</ex></expan></rdg>
+                    </app>
+                    <app loc="2"><lem resp="#IGCyr #rosamilia2023"><expan><abbr>μέ</abbr><ex>διμνος</ex></expan> <num value="1"><g type="alphabetic">α</g></num></lem>
+                        <rdg resp="#oliverioDAI1"><expan><abbr>μέ<choice><corr>δ</corr><sic>α</sic></choice></abbr><ex>ιμνος</ex></expan></rdg>
+                    </app>
+                    <app loc="2"><lem resp="#IGCyr #rosamilia2023">Τὸ πάν· τὰ ἱαρεῖα</lem>
+                        <rdg resp="#oliverioDAI1">Τὰ πάντα ἱαρεῖα·</rdg>
+                    </app>
+                    <app loc="5"><lem resp="#IGCyr"><num><g type="alphabetic">βν</g></num> <note>sic</note></lem>                        
+                        <rdg resp="#oliverioDAI1 #rosamilia2023"><num><g type="alphabetic"/></num><choice><corr>ρ</corr><sic>β</sic></choice>ν</rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><unclear>un talent</unclear> d'oignons, 3 drachmes; un <foreign rend="italic">smireus</foreign> d'huile, 7 drachmes; un médimne d'olives 2 drachmes.
+            Total, les sacrifices ont été accomplis: 4280. Recette totale de l'année: 145 drachmes. Dépenses totales de l'année: <space/>.
+            Rétribution pour les démiurges: 52 drachmes.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><unclear>one talent</unclear> of onions, 3 drachmas; one <foreign rend="italic">smireus</foreign> of oil, 7 drachmas; one medimnos of olives, 2 drachmas.
+            Summary, the sacrifices have been accomplished: 4280. Total income of the year: 145 drachmas. Total expense of the year: <space/>.
+            Allowance for the damiergoi: 52 drachmas.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><unclear>un talento</unclear> di cipolle, 3 dracme; uno <foreign rend="italic">smireus</foreign> di olio, 7 dracme; un medimno di olive, 2 dracme.
+            Totale, i sacrifici sono stati compiuti: 4280. Totale entrate dell'anno: 145 dracme. Totale uscite dell'anno: <space/>.
+            Retribuzione per i damiurghi: 52 dracme.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>[---] تالنت واحد من البصل، 3 دراخما، لكل سميريوس من الزيت ، 7  دراخما؛  للميديمنوس الواحد من الزيتون، 2  دراخما. ملخص، الأضحيات قد تم تقديمها: 4280. إجمالي الدخل للسنة 145 دراخما. مجموع مصروفات السنة:  (فراغ) . تعطى للداميرجوي: 52 دراخما.</p>
+            </div><div type="commentary">
+                
+                <p>This account is organised in two semesters, but not inscribed in two columns, as will be more usual. This display happens only here, in <ref type="inscription" source="#IGCyr2">IGCyr013400</ref>,
+                    <ref type="inscription" source="#IGCyr2">IGCyr013700</ref>, <ref type="inscription" source="#IGCyr2">IGCyr013800</ref> and in <ref type="inscription" source="#IGCyr2">IGCyr063900</ref>.</p>
+                <p>This account is irregular in several ways: no amount was cut for the total expense, the general income is very low and much lower than the expense for sacrifices.
+                    It might be that the spaces for those amounts were first left empty and were cut later by someone who mingled the different sums. However, the special allowance
+                    for damiergoi is notably lower than on all other years. The stone has 52 dr. (with the not rare order single number + tens), which Oliverio, perhaps rightly, 
+                    corrected to 150. This hypothesis was endorsed by <bibl><ptr target="#rosamilia2023"/></bibl>, who thought that an order of numerals with units preceding tens would be unusual in 
+                    Cyrenaica. That argument is not valid, as shown for instance in numerous epitaphs providing the age of the dead person. Anyway, that corrected amount would be still very far from the usual amount of 300 dr. So also <bibl><ptr target="#laronde1987"/>, pp. <citedRange>331-333</citedRange></bibl>. Another hypothesis,
+                    retained by Oliverio for his translation, is that exceptionally the amounts were written at the head of the sentences (thus 4280 dr. as income and 145 dr. as expense). However, this 
+                    would not explain the lack of 'rest' and the very low levels of both income and retribution for damiergoi. See another explanation at <ref type="inscription" source="#IGCyr2">IGCyr014300</ref>.</p>
+                <p>For <foreign rend="italic">smireus</foreign> as measure of liquids, see <bibl><ptr target="#cdl2020a"/>, pp. <citedRange>189-191</citedRange></bibl>.</p>
+            </div></body>
+    </text>
+</TEI>

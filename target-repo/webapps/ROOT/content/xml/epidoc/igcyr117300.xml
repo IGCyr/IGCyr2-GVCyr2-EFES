@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr117300</idno>
+                <idno type="number" subtype="second-edition">117300</idno>
+                <idno type="TM">738721</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr117300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr117300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr117300</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the American excavations</repository> <idno type="invNo">74-949</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Righthand end of a low <objectType>base</objectType> of medium-grained white <material>marble</material>, stained brown,
+                                        with traces of a hook clamp on top; chipped along all edges
+                                        (<dimensions>
+                                            <width>0.212</width>
+                                            <height>0.163</height>
+                                            <depth>0.051</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.016</height>; circular letters smaller.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0125" notAfter="-0075" precision="medium" cert="low">Perhaps late second or early first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1974">
+                                    <p>Found in 1974 during the American excavations at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>, area C14.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" resp="JMR">
+                            <p>Seen by J. Reynolds at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1485">Storeroom of the American excavations</rs>.</p>
+                        </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">translations; overall check</change>
+            <change when="2014-03-20" who="cdl">lemma, text, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80474/3/igcyr117300-1-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80474">Face of igcyr117300 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr2012"/>, n. <citedRange>A.14</citedRange> (no image) </bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>62.1795.7</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>117300</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#_πατρος"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">π</supplied>ατρος</seg></name>                   
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#_ιππος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">ί</supplied>ππω</seg></name></persName></persName>                    
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <space quantity="1" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>atros, <gap reason="lost" extent="unknown" unit="character"/> fils de <supplied reason="lost">i</supplied>ppos a consacré <supplied reason="lost" cert="low">à telle divinité</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>atros, <gap reason="lost" extent="unknown" unit="character"/> son of <supplied reason="lost">i</supplied>ppos dedicated <supplied reason="lost" cert="low">to such and such deity</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>atros, <gap reason="lost" extent="unknown" unit="character"/> figlio di <supplied reason="lost">i</supplied>ppos ha dedicato <supplied reason="lost" cert="low">alla tale divinità</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>As Reynolds pointed out, the preserved letters at line 1 should not belong to the name of Demeter, because it cannot appear at the genitive case near
+                the verbe 'dedicated'. So a personal name ending with -<foreign xml:lang="grc">πατρος</foreign> at the nominative is the most plausible.</p>
+                <p>At line 2, -<foreign xml:lang="grc">ίππω</foreign> is surely a father's name. Reynolds suggested that it belonged to the name at line 1. If so,
+                 line 3 could have only one name of deity, Demeter or rather the shorter Kore, in the lost part, but surely not both, as Reynolds thought it possible.</p>
+          	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

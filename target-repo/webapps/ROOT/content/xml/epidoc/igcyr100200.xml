@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Sacred regulation</rs>s</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr100200</idno>
+                <idno type="number" subtype="second-edition">100200</idno>
+                <idno type="TM">5963</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr100200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr100200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr100200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">437</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary white <material>marble</material> <objectType>panel</objectType>, broken on all sides but for the left edge
+                                    and for a very short part of the right edge, at l. 7
+                                        (<dimensions>
+                                            <width>0.195</width>
+                                            <height>0.21</height>
+                                            <depth>0.6</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on two columns, separated by a vertical line down to l. 7; lower on, the separation being not prepared, the width of 
+                                column 1 is less regular and at some lines the letters had to be much pressed together.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.06</height>; careful letters with slight serifs; alpha with dropped bar.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0150" notAfter="-0101" precision="medium">Second half of second century BC</origDate>
+                        </origin>
+                            
+                                <provenance type="found" when="1937" resp="Oliverio">
+                                    <p>Plausibly found by G. Oliverio in 1937 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs> (see commentary)..
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+            <change when="2024-06-30" who="CDL">small changes in commentary</change>
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2024-01-16" who="CDL">updated bibl</change>
+            <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-28" who="Alice">checked</change>
+            <change when="2017-01-23" who="CDL">overall check; tagged w, lemma, rs; improved commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-07" who="CDL">lemma, Fr. and Engl. translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-26" who="CDL">choices in bibliography, text edited, apparatus</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>  
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77369/3/igcyr100200-face.tiff.jpg" corresp="igcyr100200" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1937"><ref target="http://hdl.handle.net/20.500.14008/77369">Face of igcyr100200 Sacred law</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>IV.6</citedRange></bibl>, whence
+                    <bibl><ptr target="#gpc1960"/><citedRange/></bibl> and 
+                    <bibl><ptr target="#SECir"/>, <citedRange>158</citedRange></bibl>;
+                    <bibl><ptr target="#sokolowski1962"/>, pp. 196-198, n. <citedRange>116</citedRange></bibl> and 
+                    <bibl><ptr target="#robertBE"/>, <citedRange>1963.307</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.719</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1985"/>, p. <citedRange>180</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>35.1687</citedRange></bibl>;
+                    <bibl><ptr target="#grosjeanagnes2012"/><citedRange/></bibl> (new text by C. Dobias-Lalou), whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>62.1788</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>100200</citedRange></bibl>;
+                    <bibl><ptr target="#CGRN"/>, <citedRange>190</citedRange> (J.M. Carbon, S. Peels)</bibl>;
+                    <bibl><ptr target="#marengo2022"/>, pp. <citedRange>133-134</citedRange></bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2023.553</citedRange></bibl>.
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>277-279</citedRange>, number 23 (text)</bibl></p>
+                     <p>Cf. <bibl><ptr target="#gpc1964"/><citedRange/></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>425-427</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, passim and especially pp. <citedRange>149 and 231</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>50.1637</citedRange></bibl>; 
+                    <bibl><ptr target="#parisipresicce2007a"/><citedRange/></bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2008.602</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2025</citedRange></bibl>;
+                    <bibl><ptr target="#harris-carbon2015"/>, <citedRange>117</citedRange></bibl>;
+                    <bibl><ptr target="#chevrollier2018-2019"/>, pp. <citedRange>74-76</citedRange></bibl>, whence 
+                         <bibl><ptr target="#SEG"/> <citedRange>68.1742</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="column" n="a"> 
+                <ab><lb n="0" xml:id="l0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1" xml:id="l1"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2" xml:id="l2"/><persName type="divine" ref="#Anemoi"><name nymRef="#Ἄνεμοι"><supplied reason="lost">Ἀ</supplied>νέμοις</name></persName> <w><unclear>α</unclear><supplied reason="lost">ἴξ</supplied></w> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+                    <lb n="3" xml:id="l3"/><persName type="divine" ref="#Apollo_Apotropaios"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name> 
+                        <rs type="epithet" key="Apotropaios"><w lemma="ἀποτρόπαιος">Ἀπ<supplied reason="lost">ο</supplied><lb n="4" xml:id="l4" break="no"/><unclear>τ</unclear>ροπαίωι</w></rs></persName> <w>αἴξ</w>, 
+                        <del rend="erasure">ὗς</del>
+                    <lb n="5" xml:id="l5"/><w lemma="ἀλλά">ἀλλὰ</w> <w>χίμαρος</w>·
+                    <lb n="6" xml:id="l6"/><persName type="divine" ref="#Zeus_Hyperphoreus"><name nymRef="#Ζεύς">Ζηνὶ</name> <rs type="epithet" key="Hyperphoreus"><w lemma="ὑπερφορεύς">Ὑπερφορεῖ</w></rs></persName>
+                    <lb n="7" xml:id="l7"/><w lemma="οὐθείς">οὐθὲν</w> <w lemma="ἔμψυχος">ἔμψυχον</w>
+                    <lb n="8" xml:id="l8"/><w lemma="θύω">θύεται</w>, οὐδὲ <w lemma="ὑποδέω">ὑ<lb n="9" xml:id="l9" break="no"/>ποδεδεμένος</w>                    
+                    <lb n="10" xml:id="l10"/><w lemma="πότειμι">πότει</w> οὐδὲ <w lemma="μύρτον">μύρτα</w>                    
+                    <lb n="11" xml:id="l11"/><w lemma="ποτιφέρω">ποτοίσες</w>·<space atLeast="4" atMost="5" unit="character"/>
+                    <lb n="12" xml:id="l12"/><persName type="divine" ref="#Telessai"><name nymRef="#Τέλεσσα">Τελέσσαις</name></persName> <w>αἴξ</w>, <w>ὗς</w>·
+                    <lb n="13" xml:id="l13"/><persName type="divine" ref="#Zeus_Pantheios"><name nymRef="#Ζεύς">Ζηνὶ</name> <rs type="epithet" key="Pantheios"><w lemma="πάνθειος">Πανθείωι</w></rs></persName> καὶ
+                    <lb n="14" xml:id="l14"/><persName type="divine" ref="#Athanaia_Pantheia"><name nymRef="#Ἀθαναία">Ἀθαναίαι</name> <rs type="epithet" key="Pantheia"><w lemma="πάνθειος">Πανθείαι</w></rs></persName>,
+                    <lb n="15" xml:id="l15"/><persName type="divine" ref="#Zeus_Hypellaios"><name nymRef="#Ζεύς">Ζηνὶ</name> <rs type="epithet" key="Hypellaios"><w lemma="ὑπέλλαιος">Ὑπελλαίωι</w></rs></persName>
+                    <lb n="16" xml:id="l16"/>καὶ <persName type="divine" ref="#Athanaia_Hypellaia"><name nymRef="#Ἀθαναία">Ἀθαναίαι</name>
+                    <lb n="17" xml:id="l17"/><rs type="epithet" key="Hypellaia"><w lemma="ὑπέλλαιος">Ὑπελλαίαι</w></rs></persName> <w>αἴξ</w>·
+                    <lb n="18" xml:id="l18"/><persName type="divine" ref="#Iatros"><name nymRef="#Ἰατρός">Ἰατρῶι</name></persName><space quantity="2" unit="character"/> <w>ὗς</w>·
+                    <lb n="19" xml:id="l19"/><persName type="divine" ref="#Zeus"><name nymRef="#Ζεύς">Ζηνὶ</name></persName><space quantity="1" unit="character"/> <w>αἴξ</w>,<space quantity="1" unit="character"/> <w>ὗς</w>·
+                    <lb n="20" xml:id="l20"/><persName type="divine" ref="#Ammon"><name nymRef="#Ἄμμων">Ἄμμωνι</name></persName> καὶ τοῖς
+                    <lb n="21" xml:id="l21"/><w lemma="περίναος">περινάοις</w> <w>ὄις</w>·
+                    <lb n="21a"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+                </div>
+                 <div type="textpart" subtype="column" n="b">
+                    <ab><lb corresp="#l0"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb corresp="#l1"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb corresp="#l2"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb corresp="#l3"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb corresp="#l4"/>τῶ<unclear>ι</unclear> <gap reason="lost" unit="character" atLeast="8" atMost="11"/>
+                        <lb corresp="#l5"/>καὶ τοῖς <w lemma="πάρεδρος"><unclear>π</unclear><supplied reason="lost">αρέδροις</supplied></w>                        
+                        <lb corresp="#l6"/><persName type="divine" ref="#Athanaia"><name nymRef="#Ἀθαναία">Ἀθαναίας</name></persName> <w>α<unclear>ἴξ</unclear></w>·
+                        <lb corresp="#l7"/>τοῖς δὲ <w>ἐν</w> τᾶι <w lemma="ἀγορά">ἀ<lb corresp="#l8" break="no"/>γορᾶι</w> καὶ τοῖς <w>ἐ<supplied reason="lost">ν</supplied></w>
+                        <lb corresp="#l9"/>τῶι <w lemma="πρυτανεῖον">πρυτανείω<supplied reason="lost">ι</supplied></w> <w lemma=""><supplied reason="lost">ὗς</supplied></w>,
+                        <lb corresp="#l10"/><persName type="divine" ref="#Paean"><name nymRef="#Παιάν">Παιᾶνι</name></persName> κα<unclear>ὶ</unclear> <supplied reason="lost">τοῖς</supplied>
+                        <lb corresp="#l11"/><w lemma="πάρεδρος">παρέδροις</w> <w><unclear>ὗ</unclear><supplied reason="lost">ς</supplied></w> <gap reason="lost" quantity="2" unit="character"/>
+                        <lb corresp="#l12"/><persName type="divine" ref="#Nymphae"><name nymRef="#Νύμφα">Νύμφαι<supplied reason="lost">ς</supplied></name></persName> <gap reason="lost" quantity="5" unit="character"/>
+                        <lb corresp="#l13"/><w lemma="πλάν">πλὰν</w> τ<supplied reason="lost">ᾶν <w>ἐν</w> τᾶι</supplied>
+                        <lb corresp="#l14"/><w lemma="νάπα">νάπ<unclear>α</unclear><supplied reason="lost">ι</supplied></w> <gap reason="lost" quantity="5" unit="character" precision="low"/>·
+                        <lb corresp="#l15"/><persName type="divine" ref="#Apollo_Nymphagetas"><name nymRef="#Ἀπόλλων">Ἀπόλ<supplied reason="lost">λωνι</supplied> <rs type="epithet" key="Nymphagetas"><w lemma="νυμφαγέτας"><supplied reason="lost">Νυμ</supplied><lb corresp="#l16" break="no"/>φα<supplied reason="lost">γέται</supplied></w></rs></name></persName> <w lemma="αἴξ"><supplied reason="lost">αἴξ</supplied></w> 
+                        <lb corresp="#l17"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀ<unclear>π</unclear><supplied reason="lost">όλλωνι</supplied></name></persName> <gap reason="lost" quantity="5" unit="character" precision="low"/>
+                        <lb corresp="#l18"/><orig>π</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb corresp="#l19"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb corresp="#l20"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb corresp="#l21"/><gap reason="lost" extent="unknown" unit="line"/>
+                        <lb corresp="#l21a"/><gap reason="lost" extent="unknown" unit="line"/>
+                    </ab>
+            </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1-21 a-b"><lem resp="#grosjeanagnes2012">had a text, provided by C. Dobias-Lalou, which was the same as presented at <bibl><ptr target="#IGCyr"/></bibl></lem></app></p>
+                <p><app loc="a.2"><lem resp="#gpc1960 #SECir #IGCyr"><gap reason="lost" atLeast="2" atMost="3" unit="character"/></lem>
+                <rdg resp="#rosamili2023"><supplied reason="lost" cert="low">ὗς</supplied></rdg>
+                </app></p>   
+                <p><app loc="a.4"><lem><del rend="erasure">ὗς</del> <note>not seen by the previous editors</note></lem>
+                    </app> 
+                    <app loc="a.5"><lem resp="#cdl1985">ἄλλα</lem>
+                        <rdg resp="#gpc1960 #SECir">μᾶλα</rdg>
+                        <rdg resp="#sokolowski1962 #gpc1964">μάλα <note>the meaning would be 'sacred strip'</note></rdg>
+                    </app>
+                    <app loc="a.12"><lem resp="#gpc1960 #SECir #CGRN">ὗς</lem>
+                        <rdg resp="#IGCyr"><del rend="erasure">ὗς</del></rdg>
+                    </app>
+                    <app loc="b.3"><lem resp="#gpc1960 #SECir #IGCyr"><gap reason="lost" quantity="1" unit="line"/></lem>
+                    <rdg resp="#rosamilia2023"><supplied reason="lost">θεοῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐν</supplied></rdg>
+                    <rdg resp="#sokolowski1962 #SEG"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοῖς ἐν</supplied></rdg>
+                    </app>
+                    <app loc="b.4"><lem>τῶ<unclear>ι</unclear><gap reason="lost" atLeast="8" atMost="11" unit="character"/></lem>
+                        <rdg resp="#gpc1960"><orig>τω</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="b.5"><lem>τοῖς <unclear>π</unclear><supplied reason="lost">αρέδροις</supplied></lem>
+                        <rdg>τοῖς <unclear>π</unclear><supplied reason="lost">ερινάοις</supplied> <note>also possible, as at l. 21</note></rdg>
+                        <rdg resp="#CGRN">τοῖς <orig><unclear>ι</unclear><gap reason="illegible" quantity="1" unit="character"/></orig><gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap></rdg>
+                        <rdg resp="#sokolowski1962 #SEG #rosamilia2023">τοῖς <unclear>ἐ</unclear><supplied reason="lost">ν τῶι</supplied></rdg>
+                        <rdg resp="#SECir">τοῖς <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></rdg>    
+                    </app>
+                    <app loc="b.6"><lem>α<unclear>ἴξ</unclear></lem>
+                        <rdg resp="#gpc1960 #SECir">α<unclear>ἴ</unclear><supplied reason="lost">ξ</supplied></rdg>
+                    </app>
+                    <app loc="b.9"><lem resp="#rosamilia2023"><supplied reason="lost">ὗς</supplied></lem>
+                        <rdg resp="#CGRN"><gap reason="lost" quantity="2" unit="character"/></rdg>
+                    <rdg resp="#gpc1960 #SECir #sokolowski1962 #IGCyr"><note>not restored</note></rdg></app>
+                    <app loc="b.10"><lem>κα<unclear>ὶ</unclear> <supplied reason="lost">τοῖς</supplied></lem>
+                        <rdg resp="#gpc1960 #SECir"><orig>καρ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#robertBE #gpc1964">Καρ<supplied reason="lost">νείωι</supplied></rdg>
+                    </app>
+                    <app loc="b.11"><lem><unclear>ὗ</unclear><supplied reason="lost">ς</supplied><gap reason="lost" quantity="2" unit="character"/></lem>
+                        <rdg resp="#gpc1960 #SECir"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="b.13"><lem>τ<supplied reason="lost">ᾶν ἐν τᾶι</supplied></lem>
+                       <rdg resp="#gpc1960">τ<gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="b.14"><lem>νάπ<unclear>α</unclear><supplied reason="lost">ι</supplied></lem>
+                        <rdg resp="#gpc1960"><orig>ναπ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="b.15-16"><lem resp="#sokolowski1962 #marengo2022 #rosamilia2023">Ἀπόλ<supplied reason="lost">λωνι Νυμ</supplied><lb break="no"/>φα<supplied reason="lost">γέται αἴξ</supplied></lem>
+                        <rdg resp="#gpc1960 #SECir #IGCyr">Ἀπόλ<supplied reason="lost">λωνι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <lb/><orig>φα</orig><gap reason="lost" extent="unknown" unit="character"/> </rdg>
+                    </app>
+                    <app loc="b.17"><lem resp="#rosamilia2023">Ἀ<unclear>π</unclear><supplied reason="lost">όλλωνι</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/></lem>
+                        <rdg resp="#marengo2022"> ἄρ<supplied reason="lost">σεν</supplied> <gap reason="lost" quantity="7" unit="character" precision="low"/></rdg>
+                        <rdg resp="#IGCyr"><orig>αγ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                        <rdg resp="#gpc1960 #SECir"><orig>αι<unclear>τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></rdg>    
+                    </app>
+                    <app loc="b.18"><lem resp="#IGCyr #rosamilia2023"><orig>π</orig></lem>                        
+                        <rdg resp="#gpc1960 #SECir"><orig>γ</orig></rdg>
+                    </app>
+
+                </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p>(col. a) <gap reason="lost" extent="unknown" unit="character"/>, pour les Vents, une chèvre, pour Apollon Apotropaios, une chèvre, plus précisément un chevreau de l'hiver;
+                pour Zeus Hyperphoreus, on ne sacrifie pas d’être vivant, ni on ne (10) pénètre chaussé, ni on n’apporte de myrte;
+                pour les Telessai, une chèvre, un porc; pour Zeus Pantheios et Athèna Pantheia, pour Zeus Hypellaios et Athèna Hypellaia, une chèvre;
+                pour Iatros, un porc; pour Zeus, une chèvre, un porc; (20) pour Ammon et les dieux voisins, un mouton <gap reason="lost" extent="unknown" unit="character"/>.</p> 
+                <p>(col. b) <gap reason="lost" extent="unknown" unit="character"/>, pour les dieux voisins d’Athèna, une chèvre ; pour les divinités de l’agora et du prytanée <supplied reason="lost">un porc</supplied>, (10) pour Paian 
+                 et les dieux voisins un porc, pour les Nymphes <gap reason="lost" extent="unknown" unit="character"/> excepté celles du ravin <gap reason="lost" extent="unknown" unit="character"/>; 
+                    pour Apollon Nympha<supplied reason="lost">gètas, une chèvre</supplied>; pour Ap<supplied reason="lost">ollon</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p>(col. a) <gap reason="lost" extent="unknown" unit="character"/> for the Winds, a goat, for Apollo Apotropaios, a goat, more exactly a winter-old he-goat; for Zeus Hyperphoreus, no living 
+                being should be sacrified, nor should one (10) come in with shoes on, neither bring myrtle; for the Telessai, a goat, a pig; for Zeus Pantheios 
+                and Athena Pantheia, for Zeus Hypellaios and Athena Hypellaia, a goat; for Iatros, a pig; for Zeus, a goat, a pig; (20) for Ammon and the neighbour gods, 
+                a sheep <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(col. b) <gap reason="lost" extent="unknown" unit="character"/> for the gods neighbouring Athena, a goat; for the gods of the agora and of the prytaneion <supplied reason="lost">a pig</supplied>, (10) for Paean and the neighbour 
+                gods, a pig, for the Nymphs <gap reason="lost" extent="unknown" unit="character"/> except those of the ravine <gap reason="lost" extent="unknown" unit="character"/>; 
+                    for Apollo Nympha<supplied reason="lost">getas a goat</supplied>; for Ap<supplied reason="lost">ollo</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>(col. a) <gap reason="lost" extent="unknown" unit="character"/>, per i Venti, una capra, per Apollo Apotropaios, una capra, più precisamente un capretto nato d'inverno; per Zeus Hyperphoreus, non si sacrifichi
+                alcun essere vivente, né si entri (10) con le scarpe, né si porti mirto; per le Telessai, una capra, un maiale; per Zeus Pantheios 
+                e Atena Pantheia, per Zeus Hypellaios e Atena Hypellaia, una capra; per Iatros, un maiale; per Zeus, una capra, un maiale; (20) per Ammon e gli dèi vicini, 
+                un montone <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>(col. b) <gap reason="lost" extent="unknown" unit="character"/>, per gli dèi vicini di Atena, una capra; per gli dèi dell'agora e del pritaneo <supplied reason="lost">un maiale</supplied>, (10) per Peana e gli dèi vicini,
+                un maiale, per le Ninfe <gap reason="lost" extent="unknown" unit="character"/> fatta eccezione per quelle del vallone <gap reason="lost" extent="unknown" unit="character"/>; 
+                    per Apollo Nympha<supplied reason="lost">getas, una capra</supplied>; per Ap<supplied reason="lost">ollo</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>There exists some confusion about the findspot of this stone: <bibl><ptr target="#gpc1960"/></bibl> wrote that it was found in 1937 in the Sanctuary of Apollo, 
+                    commonly called '<foreign xml:lang="it">Piazzale</foreign>'; however in SECir, the same editor, citing Oliverio's notebook, mentions 
+                    as findspot «<foreign xml:lang="it">nello scavo n. 2 (ad Est del Pritaneo)</foreign>», i.e. on the agora near the Prytaneum. The photograph from the Department of Antiquities 
+                    confirms the date 1937, a year for which unfortunately no excavation report may help (see <bibl><ptr target="#luni2014b"/>, p. <citedRange>153</citedRange> and footnote 10</bibl>). 
+                    We only know that Oliverio spent some time at Cyrene during that summer (he was no longer Controller of the Antiquities) and he probably took part into the discovery.</p>
+                <p>As sacrifices are prescribed to various gods and goddesses, often with epithets known only here, the place should not be necessarily the sanctuary of Apollo, although 
+                it hosted many other deities. That this panel would have been exposed on the agora is quite possible and we prefer to follow Oliverio's indications. This also fits well the 
+                mention of 'gods of the agora and of the prytaneion' at lines 29-31 (which cannot be taken as refering to the so-called Agora of the Gods in the sanctuary of Apollo, <foreign xml:lang="la">pace</foreign>
+                    <bibl><ptr target="#parisipresicce2007a"/>, p. <citedRange>495, footnote 13</citedRange></bibl>).</p>
+	           <p>The restoration proposed here for b.14 is based on the rare root <foreign xml:lang="grc">ναπ-</foreign>; with small traces of alpha, it seems to be the fem. <foreign xml:lang="grc">νάπα</foreign> rather than the neuter <foreign xml:lang="grc">νάπος</foreign>. 
+	           Sanctuaries of <foreign xml:lang="grc">Νύμφαι</foreign> are already known on the Fountain Terrace and on the Western slope of the Acropolis, which might be the place mentioned here but still lacks 
+	            any inscribed documentation. Nymphs are also mentioned in the extra-mural sanctuary of Demeter and Kore, near <rs type="monuList" ref="https://www.slsgazetteer.org/1382">Theatre 5</rs>, and at the more remote site of 
+	           <rs type="monuList" ref="https://www.slsgazetteer.org/1238">Budaraj</rs>, for which the word would also be appropriate. See further discssion by <bibl><ptr target="#cdl2020b"/>, pp. <citedRange>56-62</citedRange></bibl>.
+	           As pointed out by <bibl><ptr target="#rosamilia2023"/></bibl>, there is space for the name of the victim either at line b.12 or b.14. Various possibilites exist, amongst which his suggested <foreign xml:lang="grc">παίσαις</foreign> 'all' is attratctive, 
+	           although perhaps a little too long.</p>
+                <p>At ll. b.15-16, Sokolowski's suggested reading of Apollo's epithet Nymphagetas, missed by Dobias-Lalou for <bibl><ptr target="#IGCyr"/></bibl>, was duly restored by <bibl><ptr target="#marengo2022"/></bibl> and 
+                    <bibl><ptr target="#rosamilia2023"/></bibl>. The epithet was thus much more ancient than the mention already known, dating from 172/175 AD (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.305.html">IRCyr2020 C.305</ref>). In this list,
+                it has a sensible place after the Nymphs, whereas the very different Apollo Apotropaios is mentioned at ll. a.3-4. A third mention of Apollo, most probably with another epithet followed at 
+                b.17-18, as proposed by <bibl><ptr target="#rosamilia2023"/></bibl>. Dobias-Lalou's squeeze confirms the pi as much more probable than the rho suggested by <bibl><ptr target="#marengo2022"/></bibl>.</p>
+                <p>Some epithets of gods are here quite new. In his first edition, Pugliese Carratelli (<bibl><ptr target="#gpc1960"/></bibl>) discussed the new ones. For 
+                    <foreign xml:lang="grc">Ὑπελλαῖος /-α</foreign> the most convincing interpretation is that from <foreign xml:lang="grc">ὑπέρ-λαιος</foreign> 'with the left 
+                hand up'. Zeus and Athena are here twice associated with parallel epithets, as stressed by <bibl><ptr target="#chevrollier2018-2019"/></bibl> About the mysterious Telessai, see a tentative etymology by <bibl><ptr target="#cdl2000"/>, pp. <citedRange>230-231</citedRange></bibl> and for 
+                their figure <bibl><ptr target="#grosjeanagnes2012"/></bibl>; for them, a goat and a pig were suitable victims, whereas the same pair was initially also engraved at line 4 for Apollo Apotropaios and the pig being then erased. Conversely, in our first edition 
+                    (<bibl><ptr target="#IGCyr"/></bibl>), we mentioned the same erasure at a.12, which was a pure error, duly picked out in <bibl><ptr target="#CGRN"/></bibl> (consulted March 2022)</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Private honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr102000</idno>
+                <idno type="number" subtype="second-edition">102000</idno>
+                <idno type="TM">738530</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr102000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr102000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr102000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Rectangular white <material>marble</material> <objectType>base</objectType>, with two holes on top for
+                                        attachment of a statue; front face broken off at left
+                                        (<dimensions>
+                                            <width>0.81</width>
+                                            <height>0.28</height>
+                                            <depth>0.645</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the front face (<dimensions><width>0.57</width>
+                                <height>0.28</height></dimensions>) at <dim type="distance">0.055</dim> below upper ridge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.022</height>; very slight serifs, slightly smaller omicron, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0320" notAfter="-0281" precision="medium">End of fourth or beginning of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>First studied by G. Pugliese Carratelli in 1960 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, West of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>.</p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 2001 at the same place, West of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1042">Strategeion</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>
+            <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-01-25" who="CDL">overall check; tagged names; Ital. translation</change>
+            <change when="2013-11-25" who="cdl">lemma, text, apparatus, Fr. and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77389/3/igcyr102000-squeeze.tiff.jpg" corresp="igcyr102000" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77389">Squeeze of igcyr102000 Private honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>186</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>102000</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2018"/>, pp. <citedRange>279-280</citedRange></bibl>, whence 
+                <bibl><ptr target="#SEG"/> <citedRange>68.1750</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/> <persName type="attested"><name nymRef="#_ος"><gap reason="lost" quantity="6" unit="character" precision="low"/><seg part="F"><supplied reason="undefined" evidence="previouseditor"><choice><unclear>χ</unclear><unclear>κ</unclear></choice></supplied>ος</seg></name><space quantity="1" unit="character"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63642"><name type="patronymic" nymRef="#Ἐλαιίτας">Ἐλαιίτα</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem><gap reason="lost" quantity="6" unit="character" precision="low"/><supplied reason="undefined" evidence="previouseditor"><choice><unclear>χ</unclear><unclear>κ</unclear></choice></supplied>ος<space quantity="1" unit="character"/></lem>
+                    <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><choice><unclear>κ</unclear><unclear>χ</unclear></choice>ος</rdg>
+                </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/>kos (ou khos) fils d'Elaiitas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/>kos (or chos) son of Elaiitas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/>kos (o chos) figlio di Elaiitas.</p>
+         </div><div type="commentary">
+                
+                <p>This Elaiitas might be the son of the priest who dedicated a bench on the Fountain Terrace (<ref type="inscription" source="#IGCyr2">IGCyr080500</ref>) and, in Rosamilia's view, he would be the uncle 
+                    of the priest of the same name mentioned at <ref type="inscription" source="#IGCyr2">IGCyr096700</ref>, line 4.</p>
+                <p>The first letter partly seen by G. Pugliese Carratelli (<bibl><ptr target="#SECir"/>, <citedRange>186</citedRange></bibl>) was not visible to C. Dobias-Lalou in 2001 nor can it be traced on the squeeze.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

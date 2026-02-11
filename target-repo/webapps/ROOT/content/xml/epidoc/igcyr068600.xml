@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr068600</idno>
+                <idno type="number" subtype="second-edition">068600</idno>
+                <idno type="TM">738356</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr068600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr068600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr068600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, broken in two adjacent fragments, one of which is now lost
+                                        (<dimensions>
+                                            <width>0.68</width>
+                                            <height>0.23</height>
+                                            <depth>0.465</depth>
+                                        </dimensions>; left fragment alone: width 0.40).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face (inscribed panel, left fragment:  width 0.35; height 0.42) 
+                                    with the beginning of lines on the same vertical axis.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.035</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0301" precision="medium">Second half of the fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1929">
+                                    <p>Found in 1929 probably in the 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732" cert="low">Port of Cyrene, later Apollonia</placeName>.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" when="1954" resp="Chamoux">
+                            <p>Still complete in 1954 when seen by Fr. Chamoux in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in front of the ancient <rs type="monuList" ref="https://www.slsgazetteer.org/934">Sculpture Museum</rs>.</p>
+                        </provenance>
+                        <provenance type="observed" when="1961" resp="Beschi">
+                            <p>Still complete in 1961 when seen by L. Beschi in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in front of the ancient <rs type="monuList" ref="https://www.slsgazetteer.org/934">Sculpture Museum</rs>.</p>
+                        </provenance>
+                                <provenance type="observed" when="2010" resp="CDL">
+                                    <p>Left part only seen by C. Dobias-Lalou in 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: inside the new <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors and stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-10-04" who="cdl">bibl updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2016-04-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-05-13" who="CDL">lemma, text markup, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77138/3/igcyr068600-1-view.tiff.jpg" corresp="igcyr068600" decls="#photograph"><desc resp="Chamoux, Fr." source="Mission Archéologique Française" n="1947"><ref target="http://hdl.handle.net/20.500.14008/77138">View of igcyr068600 Epitaph</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77139/3/igcyr068600-2-left%20part.tiff.jpg" corresp="igcyr068600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77139">Left part of igcyr068600 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#beschi1970"/>, pp. <citedRange>197</citedRange> (with fig. 51), <citedRange>204</citedRange> (date of the base)</bibl>; 
+                    <bibl><ptr target="#jmr1976"/>, p. 322, n. <citedRange>66</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>27.1150</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>068600</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#chamoux1953"/>, pl. <citedRange>XIII, 1</citedRange> (photograph)</bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue, <citedRange>B.1</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62141"><name nymRef="#Φυλυσία">Φυλυσία</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62046"><name type="patronymic" nymRef="#Βαθυκλῆς">Βαθυκλεῦς</name></persName></persName>
+
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Phylysia fille de Bathyklès.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Phylysia daughter of Bathykles.</p>
+                </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Phylysia figlia di Bathykles.</p>
+         </div><div type="commentary">
+                <p>The base was before World War II in Apollonia Museum (Susah) and came to Shahat only later. So it was presumably from a tomb in the Port of Cyrene.
+                Upon it stood a mourning half-figure (n. 21 of Beschi's catalogue)</p>
+                <p>According to <bibl><ptr target="#masson1976"/>, p. <citedRange>62</citedRange></bibl>, <foreign xml:lang="grc">Φυλυσια</foreign> should be a Libyan name.
+                But the argument is not very strong and it is possible to propose a Greek origin (see <bibl><ptr target="#cdl2017"/>, p. <citedRange>486</citedRange></bibl>).</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

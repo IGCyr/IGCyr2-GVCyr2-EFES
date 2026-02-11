@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr001500</idno>
+                <idno type="number" subtype="second-edition">001500</idno>
+                <idno type="TM">738112</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr001500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr001500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr001500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">501</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of  white <material>marble</material> <objectType>basin</objectType>
+                                        (<dimensions>
+                                            <width>0.3</width>
+                                            <height atLeast="0.06">0.06</height>
+                                            <depth atLeast="0.04">0.04</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the rim 
+                                    (height 0.03), to be read from the exterior.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.022</height>; archaic letters: H stands for aspirate, omicron is a dotted circle.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0520" notAfter="-0501" precision="medium">End of the sixth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: exact
+                                findspot unrecorded. </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" when-iso="1993" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 and again 1993 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.
+                                    </p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8.</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitalized photograph</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized photogrqph of squeeze Dobias</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-20" who="Alice">checked</change>
+            <change when="2013-03-26" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-09" who="HB">"persName" addition</change>
+            <change when="2012-03-09" who="CDL+HB">lemma, text edited, translation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76676/3/igcyr001500-1-face.tiff.jpg" corresp="igcyr001500" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1929"><ref target="http://hdl.handle.net/20.500.14008/76676">Face of igcyr001500 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76677/3/igcyr001500-2-squeeze.tiff.jpg" corresp="igcyr001500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/76677">Squeeze of igcyr001500 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>172</citedRange></bibl>;
+                    <bibl><ptr target="#cdl1970"/>, p. 245, n. <citedRange>9</citedRange></bibl>;
+                <bibl><ptr target="#cdl2000"/>, p. <citedRange>76</citedRange></bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>50.1637</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>001500</citedRange></bibl>.
+                 Cf. <bibl><ptr target="#cdl2015a"/>, pp. <citedRange>67, 319</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key=""><name nymRef="#_ος"><seg part="F">ος</seg></name> <g type="punct">:</g> <persName type="attested" key=""><name type="patronymic" nymRef="#Εὔμολπος">hὀυμόλ<unclear>π</unclear><supplied reason="lost">ō</supplied></name></persName></persName>
+                            <gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem resp="#cdl2000">hὀυμόλ<unclear>π</unclear><supplied reason="lost">ō</supplied></lem>
+                        <rdg resp="#SECir"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65836"><name>hο<unclear>ρ</unclear>μογ<supplied reason="lost">ένεος</supplied></name></persName></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/>os fils d'Eumolpos <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/>os son of Eumolpos <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/>os figlio di Eumolpos <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="commentary">
+                
+                <p>Pugliese thought this might be a fragment referred to by <bibl><ptr target="#ferri1923"/>, p. 9 and n. <citedRange>2</citedRange></bibl>,
+                    which we suspect now to be <ref type="inscription" source="#IGCyr2">IGCyr118900</ref>. So Pugliese's hypothesis should be dropped.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

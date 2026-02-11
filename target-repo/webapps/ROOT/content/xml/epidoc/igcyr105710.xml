@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Private honours</rs> for Ptolemy VIII Euergetes II</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr105710</idno>
+                <idno type="number" subtype="second-edition">105710</idno>
+                <idno type="TM">738583</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr105710</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr105710</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr105710</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Part of a <material>marble</material> low <objectType>base</objectType>, neatly cut at left (see commentary) and broken off at right
+                                        (<dimensions>
+                                            <width>0.57</width>
+                                            <height>0.32</height>
+                                            <depth>1.13</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in two lines on front face.
+                                    (<dimensions>
+                                        <width>0.40</width>
+                                        <height>0.32</height>
+                                    </dimensions>),
+                                which is the upper face of the remaining block as it now stands.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.027</height>; some letters were hammered and are illegible; pi with projecting upper bar.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                             probably from the Agora.</origPlace>
+                            <origDate evidence="lettering reign" notBefore="-0130" notAfter="-0116" precision="medium" cert="low">Probably between 130 and 116 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1960">
+                                    <p>Found before 1960 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        area of the <rs type="monuList" ref="https://www.slsgazetteer.org/991">House of Jason Magnus</rs>, in the so-called 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/992">Temple of Hermes</rs>. 
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="Morelli">
+                                    <p>Seen by D. Morelli in 1960 at the findspot, in the <rs type="monuList" ref="https://www.slsgazetteer.org/992">Temple of Hermes</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="1977" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in 1977 at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-27" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2017-01-29" who="CDL">changed title, text (and added w, lemma, rs), apparatus, translations, commentary</change>
+            <change when="2013-12-14" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77449/3/igcyr105710-1-face.tiff.jpg" corresp="igcyr105710" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77449">Face of igcyr105710 Honours for Ptolemy VIII</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77450/3/igcyr105710-2-drawing.tiff.jpg" corresp="igcyr105710" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77450">Drawing of igcyr105710 Honours for Ptoelmy VIII</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>Morelli in <ptr target="#SECir"/>, <citedRange>273</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>105710</citedRange></bibl>.</p>    
+              </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="βασιλεύς"><supplied reason="lost">Βασιλέα</supplied></w> <persName type="ruler" key="Ptolemy VIII"><name nymRef="#Πτολεμαῖος"><supplied reason="lost">Πτολεμαῖον</supplied></name> <rs type="epithet" key="Theos Euergetes"><w lemma="θεός"><supplied reason="lost">θ</supplied>εὸν</w> <w lemma="εὐεργέτης">Ε<del rend="erasure">ὐ</del><unclear>ε</unclear><supplied reason="lost">ργέτην</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/></persName>                    
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="aulic" key="ton proton philon"><supplied reason="lost">τῶν</supplied> <w lemma="πρῶτος">π<del rend="erasure"><unclear>ρώ</unclear></del>τ<supplied reason="lost">ων</supplied></w> <w lemma="φίλος"><supplied reason="lost">φίλων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>                
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem><supplied reason="lost">Βασιλέα Πτολεμαῖον θ</supplied>εὸν Ε<del rend="erasure">ὐ</del><unclear>ε</unclear><supplied reason="lost">ργέτην</supplied></lem>
+                        <rdg resp="#SECir"><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>θ</unclear>εονευς</orig></rdg>
+                    </app>
+                    <app loc="2">
+                        <lem><supplied reason="lost">τῶν</supplied> π<del rend="erasure"><unclear>ρώ</unclear></del>τ<supplied reason="lost">ων</supplied> <supplied reason="lost">φίλων</supplied></lem>
+                        <rdg resp="#SECir">Πρατᾶ</rdg>
+                    </app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">La statue du</supplied> <supplied reason="lost">roi Ptolémée</supplied> Dieux Evergète <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">a été 
+            consacrée par Un tel</supplied> des Premiers Amis <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">The statue of</supplied> <supplied reason="lost">king Ptolemy</supplied> God Euergetes <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">was 
+            dedicated by So-and-so</supplied> of the First Friends <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">La statua del</supplied> <supplied reason="lost">re Tolemeo</supplied> Dio Evergete <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">è stata 
+            dedicata dal tale</supplied> dei Primi Amici <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>(تمثال) [الملك بتوليميوس (بطليموس)] المُؤلَّه المُنْقِذ [---] [كُرِس من قِبل فلان] من الأصدقاء الأوائل (أحد أعضاء هذه المجموعة) [---].</p>
+            </div>
+            <div type="commentary">
+                
+                <p>There are many obscurities in this inscription, which seems to belong to a larger monument with a missing part at left, either another block or a part 
+                    that was cut off for a re-use.</p>
+                <p>The reading is made difficult because of both lines being partly hammered, perhaps on occasion of a re-use. A honorific base for a king would have stood on the 
+                agora proper. It may whave been moved from there to its findspot, some blocks further to the East.</p>
+                <p>At line 1, Morelli's reading does not lead to an acceptable name. The last preserved letter, read by him as sigma, has only the upper and lower bars preserved,
+                so that it may be an epsilon as well. If so we catch a possible mention of a king 'God Euergetes' who, given the lettering, would be the second one, preferably at the end 
+                of his reign.</p>
+                <p>At line 2, as read by Morelli, genitive of masculine <foreign xml:lang="grc">Πράτας</foreign> or nominative of <foreign xml:lang="grc">Πράτα</foreign>, those names are unknown in 
+                    Cyrenaica and nearly inexistant elsewhere. C. Dobias-Lalou could not read as much as Morelli. The 2nd letter, a rho for Morelli, not seen by C. Dobias-Lalou, seems to be 
+                    confirmed by the photograph. Of the 3rd letter she could see only the upper part which is not pointed like an alpha and would rather be an omega. The 4th letter is a clear tau. 
+                    The 5th letter, which she could not see, might be also an omega instead of the alpha read by Morelli.</p>
+            </div></body>
+    </text>
+</TEI>

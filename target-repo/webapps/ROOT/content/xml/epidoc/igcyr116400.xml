@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr116400</idno>
+                <idno type="number" subtype="second-edition">116400</idno>
+                <idno type="TM">738713</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr116400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr116400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr116400</idno>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the American excavations</repository> <idno type="invNo">69.208; 74-91</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lower part of a <material>marble</material> <objectType>stele</objectType> with all edges chipped  
+                                        (<dimensions>
+                                            <width>0.405</width>
+                                            <height>0.62</height>
+                                            <depth>0.215</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the very worn and stained face with irregular alignment.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.018</height>; letters rather regular in shape, some of them keeping traces of preliminary dots; some characters are obscure (an unfinished phi at line 3?); dissymmetrical nu, pi once with 
+                                equal hastae, twice with unequal ones, slanting sigma, horseshoe omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" cert="low" precision="medium">Perhaps third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1974">
+                                    <p>Found in 1974 by the American team of D. White at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>, area 2, 1.2.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" resp="JMR">
+                            <p>Seen by J. Reynolds at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1485">Storeroom of the American excavations</rs>.</p>
+                        </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor and photographs.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>    
+            <change when="2023-01-25" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2014-02-19" who="cdl">lemma, bibliography, text, apparatus, translation, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80471/3/igcyr116400-1-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80471">Face of igcyr116400 Names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr2012"/>, n. <citedRange>A.8</citedRange> (no image) </bibl>, and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2013.480</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>62.1791</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>116400</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                                    <persName type="attested" key=""><name type="patronymic" nymRef="#Ἀθηναγόρας"><supplied reason="lost">Ἀθη</supplied><unclear>ν</unclear>αγόρα</name></persName></persName>
+                    
+                    <lb n="1a"/><space quantity="2" unit="line"/>
+                    
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Φιλέας">Φιλέας</name> 
+                                    <persName type="attested" key=""><name type="patronymic" nymRef="#Χάρινος">Χαρίνω</name></persName></persName> <surplus>ν</surplus>
+                    
+                    <lb n="2a"/><space quantity="4" unit="line"/>
+                    
+                    <lb n="3"/><gap reason="illegible" quantity="1" unit="character"/>
+                    
+                    <lb n="4"/><persName type="attested" key=""><name nymRef="#Πελάγων">Πελάγων</name> 
+                                <persName type="attested" key=""><name type="patronymic" nymRef="#Φίλιππος">Φιλίππ<choice><corr>ω</corr><sic>ο</sic></choice></name></persName></persName> <space extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1a">
+                            <lem resp="#jmr2012"><space quantity="2" unit="line"/></lem>
+                            <rdg resp="#jmr2012"><gap reason="lost" quantity="1" unit="line"/><lb/><gap reason="lost" quantity="1" unit="line"/></rdg>
+                    </app>
+                    <app loc="2">
+                            <lem>Φιλέας Χαρίνω <surplus>ν</surplus></lem>
+                            <rdg resp="#IGCyr">Φιλείας Χαρίνω <orig>ν</orig><gap reason="lost" atLeast="3" atMost="4" unit="character"/></rdg>
+                            <rdg resp="#jmr2012">φιλείας χάριν <orig>ων</orig></rdg>
+                    </app>
+                    <app loc="2a">
+                            <lem resp="#jmr2012"><space quantity="4" unit="line"/></lem>
+                            <rdg resp="#jmr2012"><gap reason="lost" quantity="1" unit="line"/><lb/><gap reason="lost" quantity="1" unit="line"/><lb/><gap reason="lost" quantity="1" unit="line"/><lb/><gap reason="lost" quantity="1" unit="line"/></rdg>
+                    </app>
+                    <app loc="3">
+                            <lem><gap reason="illegible" quantity="1" unit="character"/></lem>
+                            <rdg resp="#IGCyr"><orig>Φ</orig><space extent="unknown" unit="character"/></rdg>
+                            <rdg resp="#jmr2012"><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>Φιλίππ<choice><corr>ω</corr><sic>ο</sic></choice></lem>
+                        <rdg resp="#jmr2012 #IGCyr"/>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Untel</supplied> fils d'Athènagoras. Phileas fils de Kharinos N<gap reason="lost" extent="unknown" unit="character"/>. <orig>Ph</orig>.
+            Pélagôn fils de Philippos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so</supplied> son of Athenagoras. Phileas son of Charinos N<gap reason="lost" extent="unknown" unit="character"/>. <orig>Ph</orig>.
+            Pelagon son of Philippos.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale</supplied> figlio di Athenagoras. Phileas figlio di Charinos N<gap reason="lost" extent="unknown" unit="character"/>. <orig>Ph</orig>.
+            Pelagon figlio di Philippos.</p>
+         </div><div type="commentary">
+                
+                <p>Some changes have been brought to this edition, thanks to the photograph now available.</p>
+	           <p>At line 2, we prefer to read personal names rather that Reynolds' alternative suggestion of the formula meaning 'for the sake of friendship',
+	           which is attested much later. The last preserved letter nu might be the beginning of <foreign xml:lang="grc">νέος</foreign>, rather than
+	           the numeral 50 giving the age (as suggested by <bibl><ptr target="#cdlBE"/><citedRange>2013.480</citedRange></bibl>), because this feature is also later.</p>
+	           <p>At line 3, Reynolds could see no letter after the supposed phi, which is only a flat circle. The photograph now confirms this view.</p>
+             <p>Although found in the sanctuary of Demeter and Kore, this stone has certainly been brought there from elsewhere. Rather than a list
+                 of officials of some kind related to the sanctuary, it might be a funerary stele brought from the nearby West Necropolis. Alternatively, given the queer cutting technique, 
+              the names were perhaps graffiti appended on a monument. The gymnasium, in the agora quarter, might be the original place as well.</p>
+            </div></body>
+    </text>
+</TEI>

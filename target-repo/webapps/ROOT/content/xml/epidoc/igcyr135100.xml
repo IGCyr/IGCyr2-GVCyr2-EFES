@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType"/>Epitaph</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135100</idno>
+                <idno type="number" subtype="second-edition">135100</idno>
+                <idno type="TM">749387</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr135100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr135100</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> 
+                                    <p>White <material>marble</material> <objectType>base</objectType> with mouldings of eggs and darts on top and below on 
+                                        three sides, wholly broken off at left
+                                        (<dimensions>
+                                            <width atLeast="0.26">0.26</width>
+                                            <height>0.51</height>
+                                            <depth>0.26</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro"/>Inscribed in two lines on the face between the mouldings 
+                                    (height 0.22).</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Average <height>0.044</height> carefully cut with very small apices; slightly slanting sigma, horse-shoe omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0350" notAfter="-0251" precision="low" cert="low">Perhaps second half of fourth or first half of third century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notBefore="2003">
+                                    <p>Seen between 2003 and 2009 by L. Cherstich at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, tomb S253 Cassels.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team; studied by C. Dobias-Lalou from Cherstich's photograph.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from photograph (CDL)</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-06" who="CDL">updated bibl</change>    
+            <change when="2023-01-21" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2018-04-11" who="Alice">checked</change>
+            <change when="2018-03-10" who="CDL">file created and filled</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77861/3/igcyr135100-view.tiff.jpg" corresp="igcyr135100" decls="#photograph"><desc resp="Cherstich, L." source="L. Cherstich" n="2001-2009"><ref target="http://hdl.handle.net/20.500.14008/77861">View of igcyr135100 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>135100</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cherstich2009"/>, fig. <citedRange>143</citedRange></bibl>;
+                    <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.30</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#_βης"><gap reason="lost" extent="unknown" unit="character"/><seg part="F">βης</seg></name>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#_σιος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>σ</unclear>ίω</seg></name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>bès fils de <gap reason="lost" extent="unknown" unit="character"/>sios.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/>bes son of <gap reason="lost" extent="unknown" unit="character"/>sios</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p><gap reason="lost" extent="unknown" unit="character"/>bes figlio di <gap reason="lost" extent="unknown" unit="character"/>sios.</p>
+            </div><div type="commentary">
+                
+               <p>This much mutilated base shows a man's name with a rather rare ending. The most plausible restoration would be <foreign xml:lang="grc">Εὐσέβης</foreign>,
+               although this name, meaning 'Pious', is not very usual before the Roman imperial period. On the other hand, the father's name ended with -sios, for 
+               which there are a lot of possibilities. It is thus impossible to offer any restitution.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

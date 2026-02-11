@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr021600</idno>
+                <idno type="number" subtype="second-edition">021600</idno>
+                <idno type="TM">738239</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr021600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr021600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr021600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>altar</objectType> with compartment, adjacent and similar to <ref type="inscription" source="#IGCyr2">IGCyr021700</ref>
+                                        (<dimensions>
+                                            <width>0.56</width>
+                                            <height>0.34</height>
+                                            <depth>0.56</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.025" max="0.03">0.025-0.03</height>; sigma taller than other letters.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context" cert="low" notBefore="-0400" notAfter="-0301" precision="medium">Perhaps fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1923">
+                                    <p>Found before 1923 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        under vestibule of <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>, which was formerly
+                                        an area belonging to the so-called <rs type="monuList" ref="https://www.slsgazetteer.org/1366">Agora of the Gods</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1982" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1982 in the vestibule of the <rs type="monuList" ref="https://www.slsgazetteer.org/1227">Byzantine Baths</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-21" who="CDL">small emendation in commentary</change> 
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2021-09-17" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-04-02" who="HellasLabUnibo">checked, updated and in case corrected tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-12" who="cdl">lemma, text changed, apparatus, commentary, translations</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80440/3/igcyr021600-1-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80440">Face of igcyr021600 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#ferri1923"/>, p. 9, n. <citedRange>8a</citedRange> (no image)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.137</citedRange></bibl>;
+                    published again by <bibl>Morelli, <ptr target="#SECir"/>, <citedRange>218</citedRange> (no image)</bibl>, as if unpublished;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>021600</citedRange></bibl>.</p>
+                <p>Cf. <bibl><ptr target="#cdl2020b"/>, p. <citedRange>63</citedRange>, footnote 38</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Hestia"><name nymRef="#Ἱστία">Ἱσ<supplied reason="lost">τ</supplied><unclear>ί</unclear>ας</name></persName>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#ferri1923">Ἱσ<supplied reason="lost">τ</supplied>ίας</rdg>
+                        <rdg resp="#SECir">Ἑ<supplied reason="lost">κ</supplied>άτας</rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">Autel</supplied> d'Hestia.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">Altar</supplied> of Hestia.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">Altare</supplied> di Estia.</p>
+         </div><div type="commentary">
+                
+                <p>Known through a simple mention by Ferri, it belongs to the series of altars with compartments of the so-called '<foreign xml:lang="it">agorà degli dei</foreign>'.
+                Neither illustration nor dimensions were given then.</p>
+                <p>Morelli in <bibl><ptr target="#SECir"/>, <citedRange>218</citedRange></bibl> gave no illustration, but from localisation, dimensions and similarity with <ref type="inscription" source="#IGCyr2">IGCyr021700</ref>, 
+	              Dobias-Lalou could trace the stone, although she was unable to provide any useful image for <bibl><ptr target="#IGCyr"/></bibl>. See also <bibl><ptr target="#cdl2020b"/></bibl>.</p>
+	           <p>Morelli's different reading is due to the bad condition of the stone, worn out and covered by concretion. The first sigma being clear, Ferri's reading seems 
+	           the better one.</p>
+            </div></body>
+    </text>
+</TEI>

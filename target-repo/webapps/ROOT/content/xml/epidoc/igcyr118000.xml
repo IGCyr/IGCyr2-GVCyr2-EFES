@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr118000</idno>
+                <idno type="number" subtype="second-edition">118000</idno>
+                <idno type="TM">738728</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr118000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr118000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr118000</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Tolmeita Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragmentary <material>marble</material> <objectType>panel</objectType> broken off on all sides
+                                        (<dimensions>
+                                            <width>0.19</width>
+                                            <height>0.163</height>
+                                            <depth>0.035</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one side and later inscribed with 
+                                    <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/P.58.html">IRCyr2020 P.58</ref> on opposite side.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.029</height>; smaller and dotted omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0200" notAfter="-0101" precision="low" cert="low">Probably second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1935">
+                                    <p>Found in 1935 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>: in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/942">Basilica</rs>, which should not be the place of its first re-use.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1961" resp="jmr">
+                                    <p>Seen by J.M. Reynolds in 1961 in the <rs type="monuList" ref="https://www.slsgazetteer.org/1096">Tolmeita Museum</rs>.</p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team; edited from J.M. Reynolds' notebook.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183">Tolmeita</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (J.M. Reynolds).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2014-06-24" who="CD+HB">file created, file completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl>G. Pugliese Carratelli in <ptr target="#SECir"/> n. <citedRange>210a</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>118000</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ν</unclear>ας</orig>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="βάρβαρος"><supplied reason="lost">βα</supplied>ρβάρου</w> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisible.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile.</p>
+         </div><div type="commentary">
+                
+	       <p>The context is too lacunar to allow an interpretation of the only word subsisting at line 2 : an adjective ('foreign')?  A personal name ('Barbaros')?</p>
+            </div></body>
+    </text>
+</TEI>

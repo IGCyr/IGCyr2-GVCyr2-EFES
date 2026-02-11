@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr096950</idno>
+                <idno type="number" subtype="second-edition">096950</idno>
+                <idno type="TM">738481</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr096950</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr096950</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr096950</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">156</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of <material>marble</material> <objectType>panel</objectType> broken on all sides, but for a small part of the righthand edge at back,
+                                        showing a moulding on rim of back face 
+                                        (<dimensions>
+                                            <width>0.215</width>
+                                            <height>0.145</height>
+                                            <depth max="0.045">0.045 at the deepest</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>; carefully cut, with serifs; non-slanting sigma, rather large omicron.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0150" notAfter="-0101" cert="low" precision="medium">Perhaps second half of second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1926">
+                                    <p>Found in 1926 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: plausibly in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs> (see commentary).
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="cdl">
+                                    <p>Seen in 1979 by Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-23" who="Alice">checked</change>
+            <change when="2017-01-19" who="CDL">overall check; added Ital. translation and amended commentary</change>
+            <change when="2013-10-15" who="cdl">lemma text, Fr; and Engl. translations, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-06-20" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77309/3/igcyr096950-squeeze.tiff.jpg" corresp="igcyr096950" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77309">Face of igcyr096950 Names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioTacc"/>, <citedRange>X.4, X.20</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/>, <citedRange>82</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>096950</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>253</citedRange>, footnote 2</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key=""><name nymRef="#_κις" type="patronymic"><seg part="F"><unclear>κ</unclear>ιος</seg></name></persName></persName>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name> 
+                        <persName type="attested" key=""><name nymRef="#_ρσίλας" type="patronymic"><seg part="F">ρσίλα</seg></name></persName></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                 <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Un tel fils de </supplied><gap reason="lost" extent="unknown" unit="character"/>kis, <supplied reason="subaudible">Un tel fils de </supplied><gap reason="lost" extent="unknown" unit="character"/>rsilas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">So-and-so son of </supplied><gap reason="lost" extent="unknown" unit="character"/>kis, <supplied reason="subaudible">So-and-so son of </supplied><gap reason="lost" extent="unknown" unit="character"/>rsilas.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Il tale figlio di </supplied><gap reason="lost" extent="unknown" unit="character"/>kis, <supplied reason="subaudible">il tale figlio di </supplied><gap reason="lost" extent="unknown" unit="character"/>rsilas.</p>
+         </div><div type="commentary">
+                
+                <p>Pugliese Carratelli published this inscription from a drawing by Oliverio, hesitantely adding that the stone came from the excavations of the 'Piazzale',
+                a word that means either the lower terrace of the Sanctuary of Apollo or the Fountain Terrace. At <bibl><ptr target="#IGCyr"/></bibl>, we thought that it should have 
+                been found either in the Lower Terrace in 1925 or rather on the Upper Terrace in 1929 or 1930. However, <bibl><ptr target="#rosamilia2023"/></bibl> very cleverly argues that 
+                the first page of Oliverio's sketchbook (X.4) mentioned by Pugliese Carratelli follows immediately the page with <ref type="inscription" source="#IGCyr2">IGCyr096000</ref>,
+                which was found in 1926 in the Trajanic Baths of the Sanctuary of Apollo. Therefore, it is very plausible that this inscription was found during the same period in the 
+                Sanctuary, if no it the same building.</p>                
+                <p>For line 1, no Greek name in <foreign xml:lang="grc">-κιος</foreign> is attested in Cyrene, whereas a series of names in <foreign xml:lang="grc">-κις</foreign> does.
+                So both endings should be taken as genitives of fathers' names.</p>
+                <p>For line 2, we know of a Cyrenaean <foreign xml:lang="grc">Θερσίλας</foreign> at <ref type="inscription" source="#IGCyr2">IGCyr014700</ref>, line 35.
+                    However, other compounds in <foreign xml:lang="grc">-σίλας</foreign> are also possible.</p>
+            </div></body>
+    </text>
+</TEI>

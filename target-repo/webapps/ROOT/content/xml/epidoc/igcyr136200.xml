@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Dedication</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr136200</idno>
+                <idno type="number" subtype="second-edition">136200</idno>
+                <idno type="TM">997624</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr136200</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository> <idno type="invNo">25</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <objectType>block</objectType> of dark grey <material>marble</material> with possibly a moulding at bottom, broken away at left and back
+                                    (preserved dimensions <dimensions>
+                                       <width atLeast="0.325">0.325</width>
+                                        <height>0.21</height>
+                                        <depth atLeast="0.21">0.21</depth>
+                                    </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in two lines, very much chipped off, with guidelines (distant <dim type="interval">0.02</dim>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.015</height>; epsilon with horizontal bars, smaller omicron with central dot, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0450" notAfter="-0400" precision="low">Probably second half of fifth century</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p> Found presumably before World War II at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot not registered.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="1979" resp="CDL">
+                            <p>Seen by Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change> 
+            <change when="2024-01-17" who="CDL">inserted textType</change> 
+                <change when="2023-01-23" who="CDL">file updated</change>
+         <change when="2022-04-13" who="CDL">File created.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80490/3/igcyr136200-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80490">View of igcyr136200 Dedication (?)</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80491/3/igcyr136200-2-squeeze.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80491">Squeeze of igcyr136200 Dedication (?)</ref></desc></graphic></facsimile>
+    <!-- <facsimile/> photo mauvaise, prendre l'estampage -->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig>σο</orig><choice><unclear>ι</unclear><unclear>ν</unclear><unclear>π</unclear></choice><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig> <w lemma="ὅδε"><unclear>τ</unclear>όδε</w> <space atLeast="7" atMost="9" unit="character"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisibile.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>Only the final word is identifiable, meaning 'this object'. Therefore this inscription was probably a dedication. The omicron which precedes is necessarily the ending of a genitive, strengthening the impression that 
+                 the lettering antidates the adoption of the standard alphabet at the end of the fifth century BC.</p>
+            </div></body>
+    </text>
+</TEI>

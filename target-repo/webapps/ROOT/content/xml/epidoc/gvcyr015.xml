@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of Myrtilos</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr015</idno>
+                <idno type="number" subtype="second-edition">015</idno>
+                <idno type="TM">738909</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr015</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr015</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr015</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Tocra Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Sandstone</material> <objectType>panel</objectType> cracked in two places and broken away at the lower righthand corner 
+                                        (<dimensions>
+                                            <width>1.65</width>
+                                            <height>0.45</height>
+                                            <depth>0.08</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face, in a shallow recess.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.03" max="0.04">0.03-0.04</height>; lunate epsilon, sigma and omega, 
+                                alpha and lambda with right stroke projecting above, cursive mu.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>: possibly from the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1124">Gymnasium</rs>.</origPlace>
+                            <origDate evidence="lettering" precision="medium" cert="low" notBefore="0101" notAfter="0300">Perhaps second or third century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1965">
+                            <p>Found in 1965 at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>: reused as a paving slab, in the East corridor of the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1128">Byzantine 'fortress'</rs>, South of the decumanus.</p>
+                        </provenance>
+                        
+                        <provenance type="observed" notAfter="1968" resp="jmr">
+                            <p>Seen by J.M. Reynolds before 1968 at 
+                                <placeName type="modernSpot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/1095">Tocra Museum</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" when="1975" when-iso="1976" resp="Chamoux">
+                            <p>Seen in 1975 and again 1976 by Fr. Chamoux at the same place.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by GVCyr team</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-10" who="Alice">It. translation; checked</change>
+            <change when="2017-02-28" who="CDL">overall check</change>
+            <change when="2014-04-18" who="CDL+HB">file created; lemma, text, apparatus, commentary, bibliography, Fr. and Engl. translation</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76589/3/gvcyr015-1-left.tiff.jpg" corresp="gvcyr015" decls="#photograph"><desc resp="Reynolds, J.M." source="IRCyr project" n="-"><ref target="http://hdl.handle.net/20.500.14008/76589">Left part of gvcyr015 Epitaph of Myrtilos</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76590/3/gvcyr015-2-right.tiff.jpg" corresp="gvcyr015" decls="#photograph"><desc resp="Reynolds, J.M." source="IRCyr project" n="-"><ref target="http://hdl.handle.net/20.500.14008/76590">Right part of gvcyr015 Epitaph of Myrtilos</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#jmr1996"/>, p. <citedRange>40</citedRange>, pl. <citedRange>XIV</citedRange></bibl>, 
+                    whence <bibl><ptr target="#SEG"/>, <citedRange>46.2222</citedRange></bibl>;
+                    <bibl><ptr target="#chamoux2000"/>, pp. <citedRange>109-114</citedRange></bibl>, 
+                    whence <bibl><ptr target="#SEG"/>, <citedRange>50.1651</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>015</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#jmr1998"/>, pp. <citedRange>479-480</citedRange></bibl>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <lg met="elegiac couplet">
+                        <lb n="1"/><l n="1" met="hexameter">
+                            <seg real="++|+--|+--|++|+--|+-"><persName type="divine" ref="#Mousae"><name nymRef="#Μοῦσα">Μουσάων</name></persName> <w lemma="θεράπων">θεράποντα</w> καὶ
+                            <persName type="divine" ref="#Heracles"><name nymRef="#Ἡρακλῆς">Ἡρακλῆος</name></persName> <w lemma="ἑταῖρος">ἑταῖρον</w>
+                            <space quantity="1" unit="character"/></seg></l>
+                        <lb n="2"/><l n="2" met="pentameter">
+                            <seg real="+--|++|+|+--|+--|+"><persName type="attested" key=""><name nymRef="#Μυρτίλος">Μυρτίλον</name></persName> 
+                            <w lemma="ὅδε">ἥδ'</w> <w lemma="εὐνή">εὐνὴ</w> <w lemma="λαϊνέος">λαϊνέη</w> <w lemma="κατέχω">κατέχει</w>
+                            <space quantity="1" unit="character"/></seg></l>
+                    </lg>
+                    <lg met="elegiac couplet">
+                        <lb n="3"/><l n="3" met="hexameter">
+                            <seg real="+--|+--|+--|+--|+--|+-"><w lemma="ὅς1" type="relative">ᾦ</w> <w lemma="κανών">κανόνες</w> τε <w lemma="πούς">πόδες</w> τε <w lemma="διηνεκής">διηνεκέως</w> 
+                            <w lemma="μέλω">ἐμέλησ<supplied reason="lost">αν</supplied></w></seg></l>
+                        <lb n="4"/>
+                        <l n="4" met="pentameter">
+                            <seg real="+--|+--|+|+--|+--|+"><w lemma="πεντάεθλον">πενταέθλων</w> <w lemma="μελέτη">μελέτης</w> <w lemma="γράμμα">γράμματι</w> 
+                            <w lemma="κήδομαι">κη<supplied reason="lost">δομένῳ</supplied></w></seg></l>
+                    </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="4">
+                        <lem resp="#chamoux2000">γράμματι κη<supplied reason="lost">δομένῳ</supplied></lem>
+                            <rdg resp="#jmr1996">γραμματικῆ<supplied reason="lost">ς θ' ἅμ' ἔην</supplied></rdg>
+                            <rdg resp="#jmr1996">γραμματικῆ<supplied reason="lost">ς τε γὰρ ἦν</supplied></rdg>
+                        
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr" source="#chamoux2000">
+                <p>Serviteur des Muses et compagnon d'Héraclès,</p>
+                <p>tel était Myrtilos qui repose dans cette tombe de pierre.</p>
+                <p>Il n'a pas cessé de donner tous ses soins aux règles et aux pieds</p>
+                <p>en consacrant un poème à la pratique du pentathle.</p>
+                <note>trad. Fr. Chamoux</note>
+            </div><div type="translation" xml:space="preserve" xml:lang="en" source="#jmr1996">
+                <p>Servant of the Muses and companion of Heracles,</p>
+                <p>Myrtilos is constrained by this bed of stone.</p>
+                <p>The rules and feet were his constant care</p>
+                <p>and he produced a poem about the pentathlon practice (J.M. Reynolds' translation with some changes).</p>
+                
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Servitore delle Muse e compagno di Eracle,</p>
+                <p>Myrtilos questo letto di pietra trattiene.</p>
+                <p>A lui ininterrottamente stettero a cuore i metri e i piedi:</p>
+                <p>dedicò un poema alla pratica del pentathlon.</p>
+            </div><div type="commentary">
+                
+                <p>Reynolds suspected that Myrtilos' tomb stood inside the <rs type="monuList" ref="https://www.slsgazetteer.org/1124">Gymnasium</rs>, which would explain that the stone was
+                reused in the nearby <rs type="monuList" ref="https://www.slsgazetteer.org/1128">Byzantine 'fortress'</rs>, more easily than if it was brought from one of the necropoles outside the city walls.</p>
+                <p>In Chamoux' view, the <foreign xml:lang="grc">γράμμα</foreign> was a didactical poem about the pentathlon; of course Myrtilos would also have composed his own epitaph.</p>
+                <p>Metrical analysis: two elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

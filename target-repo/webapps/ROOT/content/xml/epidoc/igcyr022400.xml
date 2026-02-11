@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of a portal</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr022400</idno>
+                <idno type="number" subtype="second-edition">022400</idno>
+                <idno type="TM">738247</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr022400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr022400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr022400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Grey <material>marble</material> <objectType>block</objectType>, recut at left for re-use
+                                        (<dimensions>
+                                            <width>1.07</width>
+                                            <height>0.3</height>
+                                            <depth>0.66</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in columns of three lines each, probably 3 in number, followed by one line on the whole width.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; careful lettering.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>, 
+                                <rs type="monulist" key="www.slsgazetteer.org/1033">Sanctuary of Apollo</rs>, part of the 
+                                second phase of the <rs type="monulist" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>.</origPlace>
+                            <origDate evidence="prosopography" precision="medium" notBefore="-0345" notAfter="-0340">Between 345 and 340 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925">
+                                    <p>Found in 1925 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, re-used in the frigidarium of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1041">Trajanic Baths</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1983" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1983 placed on two Corinthian capitals along the North wall of the frigidarium of the <rs type="monuList" ref="https://www.slsgazetteer.org/1041">Trajanic Baths</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>Seen by E. Rosamilia in 2012 at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from the stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2023-08-14" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-10-27" who="CDL">added French and English translations and some parts of commentary</change>
+            <change when="2014-10-22" who="HellasLabUnibo">checked, updated and in case corrected</change>
+             <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-08" who="CDL+HB">lemma, text, commentary, apparatus</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76932/3/igcyr022400-face.tiff.jpg" corresp="igcyr022400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/76932">Face of igcyr022400 Dedication of a portal</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>
+                    <bibl><ptr target="#oliverio1930"/>, p. 144, n. <citedRange>1</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.147</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>108-116</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1894</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>022400</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>83-85</citedRange> (monument),  pp. <citedRange>196-197</citedRange> (typology), pp. <citedRange>373-374</citedRange>, number 100 (text)</bibl>.
+                    Cf. <bibl><ptr target="#ghislanzoni1925"/>, p. <citedRange>414</citedRange></bibl>;
+                    <bibl><ptr target="#oliverio1927"/>, p. <citedRange>326</citedRange></bibl>;
+                    <bibl><ptr target="#pernier1935"/>, pp. <citedRange>94-95</citedRange></bibl>;
+                    <bibl><ptr target="#robert1955"/>, p. <citedRange>28</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>14.890</citedRange></bibl>;
+                    <bibl><ptr target="#stucchi1975"/>, pp. <citedRange>90-92</citedRange>, footnote 3</bibl>;
+                    <bibl><ptr target="#cdl2012"/>, pp. <citedRange>245-248</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="column" n="I">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+                        <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="II">
+                    <ab>
+                        <lb n="4"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="5"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="#_ας"><seg part="F">α</seg></name></persName>
+                        <lb n="6"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name nymRef="#_μος"><seg part="F">μω</seg></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="III">
+                    <ab>
+                        <lb n="7"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65627"><name nymRef="#Στᾶσις">Στᾶσις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63476"><name type="patronymic" nymRef="#Δᾶμις">Δάμιος</name></persName></persName>,
+                        <lb n="8"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66108"><name nymRef="#Φίλων">Φίλων</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62907"><name type="patronymic" nymRef="#Αννικερις">Αννικεριος</name></persName></persName>,
+                        <lb n="9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65168"><name nymRef="#Νικόδαμος">Νικόδαμος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63505"><name type="patronymic" nymRef="#Δαμῶναξ">Δαμώνακτος</name></persName></persName>,
+                    </ab>
+                </div>
+                <div type="textpart" subtype="text">
+                    <ab>
+                        <lb n="10"/><w lemma="στραταγέω"><supplied reason="lost" cert="low">στραταγέντες</supplied></w> <supplied reason="lost">τὰ</supplied>ν <w lemma="ὀπά">ὀπὰν</w> <w lemma="ἀνατίθημι">ἀνέθηκαν</w>.
+                    </ab>
+                </div> 
+	 
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="10"><lem resp="#rosamilia2023"><supplied reason="lost" cert="low">στραταγέντες</supplied></lem>
+                        <rdg type="alternative" resp="#rosamilia2023"><supplied reason="lost" cert="low">τελεσφορέντες</supplied></rdg>
+                        <rdg resp="#IGCyr"><gap reason="lost" atLeast="8" atMost="9" unit="character"/> <supplied reason="lost">Ἀπόλλωνι</supplied></rdg>
+                        <rdg resp="#laronde1987"><supplied reason="lost">στραταγοὶ <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName></supplied></rdg>
+                    </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="explanation">trois noms avec patronymes</supplied>,</p>
+                <p><supplied reason="lost">Untel fils d'Untel</supplied>, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>as, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>mos,</p>
+                <p>Stasis, fils de Damis, Philôn fils d'Annikeris, Nikodamos fils de Damônax,</p>
+                <p><gap reason="lost" atLeast="8" atMost="9" unit="character"/> ont dédié le portail <supplied reason="lost" cert="low">durant leur stratégie</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="explanation">three names with fathers' names</supplied>,</p>
+                <p><supplied reason="lost">So-and-so son of So-and-so</supplied>, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>as, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>mos,</p>
+                <p>Stasis, son of Damis, Philon son of Annikeris, Nikodamos son of Damonax,</p> 
+                <p><gap reason="lost" atLeast="8" atMost="9" unit="character"/> dedicated the portal <supplied reason="lost" cert="low">while being strategoi</supplied>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="explanation">tre nomi con patronimici</supplied>,</p>
+                <p><supplied reason="lost">il tale figlio del tale</supplied>, <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>as, <supplied reason="lost">il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>mos,</p>
+                <p>Stasis figlio di Damis, Philon figlio di Annikeris, Nikodamos figlio di Damonax,</p>
+                <p><gap reason="lost" atLeast="8" atMost="9" unit="character"/> dedicarono il portale <supplied reason="lost" cert="low">mentre erano strateghi</supplied>.</p>
+            </div><div type="commentary">
+                
+                <p> Pernier, on the base of the probable number of nine dedicants suggested that they might have been <foreign rend="italic">nomophylakes</foreign> and Stucchi preferred 
+                    <foreign rend="italic">ephoroi</foreign>. There are no good arguments for any of those hypotheses, especially at the date provided through lettering and prosopography. 
+                    <bibl><ptr target="#laronde1987"/>, p. <citedRange>110</citedRange></bibl> supplied at line 3 <foreign xml:lang="grc">στραταγοί</foreign> on the base of Philon's office as a <foreign rend="italic">triakatiarchos</foreign> in 
+                    <ref type="inscription" source="#IGCyr2">IGCyr084000</ref>; although this does not imply that he later became a general, <bibl><ptr target="#rosamilia2023"/></bibl> goes on this track. However, he 
+                    rightly points out that the space available allows to restore only 12-14 letters. The mention of Apollo is not necessary and <foreign xml:lang="grc">στραταγέντες</foreign> fits the space perfectly.
+                Alternatively, Rosamilia also suggests a dedication by <foreign rend="italic">telesphoroi</foreign>, which would be parallel with <ref type="inscription" source="#IGCyr2">IGCyr099400</ref>, but exceeds siglhtly the space available.
+                For the number 9, he convincingly suggests to explain it in relation with the division of the civic body into three tribes.</p>
+                <p>As Pernier already suspected in 1935, this stone is probably part of the architrave of the pronaos in Apollo's temple. For the meaning of <foreign xml:lang="grc">ὀπά</foreign>
+                    see <bibl><ptr target="#cdl2013"/>, pp. <citedRange>182-183</citedRange></bibl>. The architrave was later cut into two blocks, then sculpted in the shape of lion's feet, both found in the frigidarium of the
+                    Trajanic Baths. In the modern restoration, one was placed together with a Corinthian capital as support of a basin, itself re-used from the <rs type="monuList" ref="https://www.slsgazetteer.org/1350">Greek propylaeum</rs> and 
+                    inscribed in the second century CE as <ref type="inscription">IRCyr2020 C.242</ref>, making its study now impossible. The other one was placed in the same room of the Trajanic Baths as described above.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

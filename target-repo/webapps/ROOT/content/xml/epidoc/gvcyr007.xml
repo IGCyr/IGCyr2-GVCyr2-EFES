@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of Stlakkie</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr007</idno>
+                <idno type="number" subtype="second-edition">007</idno>
+                <idno type="TM">738903</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr007</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr007</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr007</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Plain white <material>marble</material> <objectType>stele</objectType> slightly tapering 
+                                        (<dimensions>
+                                            <width>0.93</width>
+                                            <height min="0.345" max="0.37">0.345 to 0.38</height>
+                                            <depth min="0.22" max="0.23">0.22 to 0.23</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face in twelve lines, two for each verse, 
+                                    beginning at <dim type="distance">0.055</dim> from the top and ending at <dim type="distance">0.61</dim> from the bottom.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height min="0.015" max="0.017">0.015 to 0.017</height>; very carefully cut inside guidelines still visible; small serifs; alpha with dropped bar, theta with short
+                                central bar, kappa with large oblique bars, slightly slanting mu, large round or oval omicron, rho with square loop, non slanting sigma, phi with large round loop, 
+                                developed lower appendices of omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0051" notAfter="0100" precision="medium" cert="low">Perhaps second half of first century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" when="1998" resp="dthorn">
+                            <p>Found by Dorothy Thorn in 1998 at  
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>, from tomb N258 Cassels.</p>   
+                        </provenance>
+
+                        <provenance type="observed" when="2001">
+                            <p>Seen by C. Dobias-Lalou in 2001 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+            <change when="2023-10-06" who="cdl">updated bibliography</change>
+            <change when="2023-08-18" who="CDL">file updated</change>   
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-07" who="Alice">It. translation; checked</change>
+            <change when="2017-02-26" who="CDL">tagged w and lemma; overall check</change>
+            <change when="2014-04-07" who="cdl">tagged metrics</change>
+            <change when="2014-03-30" who="CDL">lemma, bibliography, text, apparatus, Fr. and Engl. translations, commentary </change>
+            <change when="2014-03-25" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76576/3/gvcyr007-face.tiff.jpg" corresp="gvcyr007" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2010"><ref target="http://hdl.handle.net/20.500.14008/76576">Face of gvcyr007 Epitaph of Stlakkie</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#almuzzeini1998"/>, p. <citedRange>269</citedRange>, fig. 1</bibl>, whence
+                    <bibl>Boter and Tybout in <ptr target="#SEG"/>, <citedRange>51.2212</citedRange></bibl>;
+                    <bibl><ptr target="#jmr2003"/>, pp. <citedRange>168-170</citedRange>, fig. 3</bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2004.447</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2057</citedRange></bibl> and 
+                    <bibl><ptr target="#AE"/> <citedRange>2003.1883</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2014a"/>, p. <citedRange>326</citedRange>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2009</citedRange></bibl></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>007</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+               
+            <lg n="a" met="elegiac couplet">
+                <l n="1" met="hexameter" real="+--|+--|+--|++|+--|+-">
+                    <lb n="1"/><num type="ordinal" value="22" xml:id="lykab"><w lemma="δεύτερος">Δεύτερον</w></num> <w lemma="εἰς">εἰς</w> <w lemma="λυκάβας">λυκάβαντα</w>    
+                    <lb n="2"/><num sameAs="#lykab">καὶ <w lemma="ἰκοστός">ἰκοστόν</w></num> <w lemma="ἐγώ">με</w> <w lemma="περάω">περῶσαν</w></l>
+                <l n="2" met="pentameter" real="+--|++|+|+--|+--|+">
+                    <lb n="3"/><w lemma="λυγρός">λυγρὸς</w> <w lemma="ἀπό">ἀφ᾿</w> <w lemma="ἱμερτός">ἱμερτῶν</w> <w lemma="αἱρέω">εἷλε</w>                    
+                    <lb n="4"/><w lemma="μόρος">μόρος</w> <w lemma="θάλαμος">θαλάμων</w> <space quantity="4" unit="character"/></l>
+            </lg>                
+            <lg n="b" met="elegiac couplet">
+                <l n="3" met="hexameter" real="+--|++|+--|+--|++|+-">
+                    <lb n="5"/>οὐδ᾿<w lemma="ὅλος">ὅλον</w> <w lemma="εἰς">εἰς</w> <w lemma="πλειών">πλειῶνα</w> <w lemma="γάμος">γά<lb n="6" break="no"/>μοις</w> <w lemma="ἐπιγηθέω">ἐπιγηθήσασαν</w>·<space quantity="3" unit="character"/></l>
+                <l n="4" met="pentameter" real="+--|++|+|+--|+--|-">
+                    <lb n="7"/><w lemma="ἦμαρ">ἤματι</w> δ᾿<w lemma="ὅς1" type="relative">ὧι</w> <w lemma="παστός">παστὸν</w> καὶ <space quantity="2" unit="character"/>
+                    <lb n="8"/><w lemma="σποδίη">σποδίην</w> <w lemma="λαγχάνω">ἔλαχον</w>, <space quantity="5" unit="character"/></l>
+            </lg>
+            <lg n="c" met="elegiac couplet">
+                <l n="5" met="hexameter" real="+--|+--|+--|+--|--|++">
+                    <lb n="9"/><persName type="attested" key=""><name nymRef="#Στλακκίη">Στλακκίη</name></persName> <w lemma="αἰνοδάκρυτος">αἰνοδάκρυτος</w>·
+                    <lb n="10"/><w lemma="ἀμαυρός">ἀμαυροτέρηι</w> δ᾿<w lemma="ὑπό">ὑπὸ</w> <w lemma="λύπη">λύπηι</w></l>
+                <l n="6" met="pentameter" real="++|++|+|+--|+--|+">
+                    <lb n="11"/><w lemma="θνήσκω">θνήσκω</w> τὴν <w lemma="μόνος">μούνην</w> <w lemma="σύ">σοι</w>,
+                    <lb n="12"/><w lemma="πόσις">πόσι</w>, <w lemma="παρτίθημι">παρθεμένη</w> <g type="leaf">❧</g></l>
+            </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    
+                    <app loc="2"><lem>ἰκοστόν</lem>
+                        <rdg resp="#jmr2003">εἰκοστόν <note>Reynolds</note></rdg>
+                        <rdg resp="#SEG"><supplied reason="omitted">ε</supplied>ἰκοστόν <note>Boter SEG 51, again Tybout SEG 53</note></rdg>                  
+                    </app>
+                    <app loc="4"><lem resp="#jmr2003">μόρος <note>Reynolds</note></lem>
+                    <rdg resp="#SEG">μόγος <note>Tybout SEG 51</note></rdg>
+                    </app>
+                    <app loc="5-6"><lem resp="#jmr2003">γά<lb break="no"/>μοις <note>Reynolds</note></lem>
+                    <rdg resp="#SEG"><choice><corr>γ</corr><sic>π</sic></choice>ά<lb break="no"/>μοις <note>Boter SEG 51</note></rdg>
+                    </app>
+                    <app loc="6"><lem>ἐπιγηθήσασαν</lem>
+                        <rdg resp="#jmr2003">ἔπι γηθήσασαν <note>Reynolds</note></rdg>
+                    <rdg resp="#SEG">ἐπιγη<choice><corr>θ</corr><sic>ο</sic></choice>ήσασαν <note>Boter SEG 51</note></rdg>
+                    </app>
+                    <app loc="7"><lem resp="#SEG">ὧι <note>SEG 53</note></lem>
+                    <rdg resp="#jmr2003">ᾧ <note>Reynolds and already SEG 51</note></rdg>
+                    </app>
+                    <app loc="7"><lem resp="#jmr2003">παστὸν <note>Reynolds</note></lem>
+                    <rdg resp="#SEG"><choice><corr>μ</corr><sic>η</sic></choice>αστὸν <note>Boter SEG 51</note></rdg>
+                    </app>
+                    <app loc="7"><lem resp="#jmr2003">καὶ <note>Reynolds</note></lem>
+                    <rdg resp="#SEG">καὶ <surplus>σ</surplus> <note>Tybout SEG 51</note></rdg>
+                    </app>
+                    <app loc="10"><lem resp="#cdlBE">ἀμαυροτέρηι δ᾿ὑπὸ λύπηι</lem>
+                    <rdg resp="#jmr2003">ἀμαυροτέρηι δ᾿ὑπὸ λύπηι <note>Reynolds</note></rdg>
+                    <rdg resp="#SEG">ἀμαυροτέρη<surplus>ι</surplus> δ᾿ὑπὸ λύπη<choice><corr>ς</corr><sic>ι</sic></choice> <note>Martin SEG 51 and again Tybout SEG 53</note></rdg>
+                    </app>
+                    <app loc="11"><lem>θνήσκω</lem>
+                    <rdg resp="#jmr2003 #SEG">θνῄσκω</rdg>
+                    </app>                    
+                    <app loc="11"><lem resp="#SEG">μούνην</lem>
+                    <rdg resp="#jmr2003">μουνήν <note>Reynolds</note></rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Alors que je m'acheminais vers ma vingt-deuxième année,</p>
+                <p>un lamentable sort m'a arrachée à mon aimable chambre nuptiale,</p>
+                <p>sans que j'aie joui de mon mariage jusqu'à une année complète;</p>
+                <p>et le jour où m'est échu le voile nuptial, m'est échue aussi la cendre,</p>
+                <p>à moi Stlakkiè, qui mérite des pleurs amers; sous le poids d'un chagrin débilitant,</p>
+                <p>je meurs, après t'avoir confié, mon époux, cette unique enfant.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>As I was passing towards my twenty-second year,</p>
+                <p>gloomy fate snatched me from my beloved bridal-chamber,</p>
+                <p>when I had not rejoiced in my marriage for a full year;</p>
+                <p>but on the day on which I was alotted a bridal bed was I also promised to ashes,</p>
+                <p>I Stlakkie, deserving of bitter lament; under the weight of enfeebling pain,</p>
+                <p>I die, having entrusted you, my dear husband, this only girl (transl. J.M. Reynolds at <bibl><ptr target="#almuzzeini2003"/></bibl> with some changes)</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Mentre mi incamminavo verso il mio ventiduesimo anno,</p>
+                    <p>un destino terribile mi ha sottratto dall'amata stanza nuziale,</p>
+                    <p>senza che io abbia goduto nemmeno per un anno intero delle nozze;</p>
+                    <p>proprio nel giorno in cui ho ricevuto in sorte il talamo nuziale, eccomi condannata anche alla cenere,</p> 
+                    <p>io, Stlakkie, che merito amare lacrime. Sotto il peso di un dolore che mi esaurisce,</p>
+                    <p>muoio, dopo aver affidato a te, sposo, questa unica figlia.</p>
+            </div><div type="commentary">
+                
+                <p>For the probable position of the stele inside a recess, flanked by two series of three niches (all features being re-used in Roman date in the Hellenistic 
+                    tomb) see the other contributions associated with <bibl><ptr target="#jmr2003"/></bibl>; for names of other members of the same family, cut directly on the wall, 
+                    see <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.591.html">IRCyr2020 C.591</ref>.</p>
+                <p>Most of the corrections proposed in <bibl><ptr target="#SEG"/>, <citedRange>51.2212</citedRange></bibl> were due to hastily editing the inscription 
+                    from a clumsy copy. Reynolds' definitive publication proved them useless and they were renounced in <bibl><ptr target="#SEG"/>, <citedRange>53.2057</citedRange></bibl>.</p>
+                <p>Once the text was really published, only two points remained discussed. First the rare construction of <foreign xml:lang="grc">ὑπό</foreign> with the
+                dative case is not admitted by Tybout for SEG; however the dative ending is sure for both the adjective and the noun and the use of this case instead of the genitive does occur
+                especially in poetry.</p>
+                <p>The second point is the word <foreign xml:lang="grc">ΜΟΥΝΗΝ</foreign> at line 11. Instead of the rare noun <foreign xml:lang="grc">μονήν</foreign>, only attested in prose without lenghtening 
+                of the first syllable, and never used in funerary contexts, it seems better to identify it with the adjective <foreign xml:lang="grc">μόνος</foreign>, very often
+                    used since Homer with the lengthened first syllable. <bibl><ptr target="#cdlBE"/>, <citedRange>2004.447</citedRange></bibl> proposed to connect it with the feminine 
+                    noun <foreign xml:lang="grc">λύπη</foreign> mentioned at the preceding line and understood so: 'having brought you this only sorrow (i.e. my death)'. However, Tybout's 
+                    proposal (<bibl><ptr target="#SEG"/>, <citedRange>53.2057</citedRange></bibl>) of a subaudible <foreign xml:lang="grc">παῖδα</foreign> seems eventually more convincing for the 
+                    premature death of a recently married wife: she probably died in childbearth.</p>
+                <p>Metrical analysis: three elegiac couplets. At verse-line 2, apart from the shortening in hiatus of <foreign xml:lang="grc">καί</foreign>, there has been some discussion about 
+                    <foreign xml:lang="grc">ἰκοστόν</foreign>. It might be an effect of iotacism, however, it is better explained as recording  the Doric form of number 
+                    'twenty' with a long i and might therefore be a touch of dialectal tradition in Cyrenaica. At line 9 the final vowel of the name <foreign xml:lang="grc">Στλακκίη</foreign> 
+                    is metrically shortened before the following vowel.</p>
+            </div></body>
+    </text>
+</TEI>

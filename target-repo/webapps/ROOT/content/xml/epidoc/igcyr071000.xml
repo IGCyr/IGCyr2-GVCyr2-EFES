@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Tithe</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr071000</idno>
+                <idno type="number" subtype="second-edition">071000</idno>
+                <idno type="TM">738357</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr071000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr071000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr071000</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Benghazi Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> rectangular <objectType>base</objectType>, badly chipped off on the first line of inscription and below
+                                        (<dimensions>
+                                            <width>1.01</width>
+                                            <height>0.21</height>
+                                            <depth>0.89</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face; both lines begin near the left margin.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; no serifs, sigma with slanting strokes, omicron slightly smaller than omega, dissymmetrical pi.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/1464" key="http://pleiades.stoa.org/places/373757">Euesperides</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0251" precision="medium">Probably first half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1974">
+                                    <p>Found in 1974 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/910" key="http://pleiades.stoa.org/places/373757">Berenike</placeName>:                                         
+                                        reused in Byzantine times under the <rs type="monuList" ref="https://www.slsgazetteer.org/1087">Church</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="Chamoux Laronde">
+                                    <p>Seen by Fr. Chamoux and A. Laronde in 1977 at <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>: 
+                                        in the <rs type="monulist" ref="https://www.slsgazetteer.org/1094">Benghazi Museum</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88319" key="Benghazi">Benghazi</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2016-04-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-14" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77140/3/igcyr071000-1-left.tiff.jpg" corresp="igcyr071000" decls="#photograph"><desc resp="-" source="Department of Antiquities, Benghazi" n="1974"><ref target="http://hdl.handle.net/20.500.14008/77140">Left part of igcyr071000 Tithe</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77141/3/igcyr071000-2-centre.tiff.jpg" corresp="igcyr071000" decls="#photograph"><desc resp="-" source="Department of Antiquities, Benghazi" n="1974"><ref target="http://hdl.handle.net/20.500.14008/77141">Central part of igcyr071000 Tithe</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77142/3/igcyr071000-3-right.tiff.jpg" corresp="igcyr071000" decls="#photograph"><desc resp="-" source="Department of Antiquities, Benghazi" n="1974"><ref target="http://hdl.handle.net/20.500.14008/77142">Right part of igcyr071000 Tithe</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr1978"/>, p. 233, n. <citedRange>1</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>28.1541</citedRange></bibl>; 
+                    <bibl><ptr target="#laronde1987"/>, p. <citedRange>394</citedRange></bibl> (as unpublished), whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1870</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>071000</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#cdl-maffre2018"/></bibl>, whence 
+                <bibl><ptr target="#SEG"/> <citedRange>68.1746</citedRange></bibl>
+                <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>87</citedRange>, footnote 22</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-61921"><name nymRef="#Εὐγένης">Εὐ<unclear>γ</unclear>έ<unclear>νη</unclear>ς</name> 
+                            <persName type="attested" key=""><name type="patronymic" nymRef="#Ἀρίμμας"><supplied reason="lost" cert="low">Ἀρίμμα</supplied>ντος</name></persName></persName> <w lemma="δεκάτα">δεκάταν</w>
+                    <lb n="2"/>τῶι <persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνι</name></persName> 
+                    <space quantity="6" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#jmr1978">Εὐγένης <gap reason="lost" quantity="6" precision="low" unit="character"/>ντος</rdg>
+                        <rdg resp="#laronde1987">Εὔξενος Μ<gap reason="lost" atLeast="8" atMost="10" unit="character"/>ντος</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Eu<unclear>genès</unclear> fils d'<supplied reason="lost" cert="low">Arimmas</supplied> <supplied reason="subaudible">a consacré</supplied> la dîme à Apollon.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Eu<unclear>genes</unclear> son of <supplied reason="lost" cert="low">Arimmas</supplied> <supplied reason="subaudible">dedicated</supplied> the tithe to Apollo.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Eu<unclear>genes</unclear> figlio di <supplied reason="lost" cert="low">Arimmas</supplied> <supplied reason="subaudible">ha dedicato</supplied> la decima ad Apollo.</p>
+         </div><div type="commentary">
+                
+                <p>The letters missing at l. 1 have been erased when the stone was re-used. For the father's name, to judge from the photograph, we agree with Reynolds for a loss 
+                of 6 letters, so that <foreign xml:lang="grc">Ἀρίμμας</foreign> seems a good restoration. As to the first name, it is not easy to decide between the two 
+                different readings proposed. We only may suspect that Reynolds could spend more time to study the inscription than Laronde and Chamoux on their brief visit in 1976.</p>
+                <p>Reynolds dated the lettering to «perhaps third to second century BC» and Rosamilia to the 'very time of Magas'. This would not quite discard Laronde's opinion, although he dated 
+                 the lettering to the «fourth century» or somewhat later and thought subsequentely that the stone was probably earlier than the foundation of Berenike and that it would have been 
+                 brought from Euesperides, re-used a first time in the city-defences of Berenike and later again in the Byzantine Church. The question cannot be answered with precision, as the abandonment 
+                 of Euesperides and refoundation of Berenike followed exactly the end of Magas' reign. As we have so few inscriptions from Euesperides/Berenike, we are not able to date the lettering on a scale of ten years earlier or later.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

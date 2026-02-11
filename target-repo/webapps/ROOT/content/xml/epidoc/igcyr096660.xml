@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Private honours</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr096660</idno>
+                <idno type="number" subtype="second-edition">096660</idno>
+                <idno type="TM">738478</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr096660</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr096660</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr096660</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">322</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three joining fragments of a white <material>marble</material> rectangular <objectType>base</objectType> broken on all sides,
+                                        the front face burnt black, with the right end broken off since it was seen by Oliverio                                        
+                                        (<dimensions>
+                                            <width>0.25</width>
+                                            <height>0.085</height>
+                                            <depth>0.15</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.018" max="0.021">0.018 to 0.021</height>; small serifs, non-slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" cert="low" notBefore="-0200" notAfter="-0101" precision="medium">Perhaps second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925" resp="Oliverio">
+                                    <p>Found in 1925 by G. Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone and previous editor (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-22" who="Alice">checked</change>
+            <change when="2017-03-16" who="CDL">Fr. and Engl. translations; improved text and commentary; overall check</change>
+            <change when="2013-10-14" who="cdl">lemma, text, apparatus, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77306/3/igcyr096660-face.tiff.jpg" corresp="igcyr096660" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1925-1935"><ref target="http://hdl.handle.net/20.500.14008/77306">Face of igcyr096660 Private honours (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>67</citedRange> (fig. 59)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>096660</citedRange></bibl>.</p>       
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                       
+                            <ab>
+                                <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+                                        <gap reason="lost" extent="unknown" unit="character"/>
+                                <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">τὸν</supplied>
+                                <w lemma="πρόγονος"><supplied reason="lost">π</supplied>ρόγο<unclear>ν</unclear><supplied reason="undefined" evidence="previouseditor">ον</supplied></w> 
+                                <supplied reason="undefined" evidence="previouseditor"><space quantity="1" unit="character"/></supplied>
+                                 <supplied reason="undefined" evidence="previouseditor"><persName type="attested" key=""><name nymRef="#Ἀ_"><seg part="I">Ἀ<choice><unclear>ι</unclear><unclear>μ</unclear><unclear>ν</unclear></choice></seg></name></persName><gap reason="lost" extent="unknown" unit="character"/></supplied>                               
+                                <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><space quantity="2" unit="character"/>
+                                    <w lemma="ἵστημι"><supplied reason="lost">ἔ</supplied>στα<supplied reason="undefined" evidence="previouseditor">σε</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                                <lb n="3a"/><gap reason="lost" extent="unknown" unit="character"/>
+                            </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                 <p>
+                     <app loc="2">
+                         <lem><supplied reason="lost"> τὸν π</supplied>ρόγο<unclear>ν</unclear>ον <space quantity="1" unit="character"/>
+                             Ἀ<choice><unclear>ι</unclear><unclear>μ</unclear><unclear>ν</unclear></choice><gap reason="lost" extent="unknown" unit="character"/></lem>
+                         <rdg resp="#SECir"><orig>ρoγο<unclear>ν</unclear>ον αι</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     </app>
+                      <app loc="3">
+                          <lem><supplied reason="lost">ἔ</supplied>στα<supplied reason="undefined" evidence="previouseditor">σε</supplied></lem>
+                          <rdg resp="#SECir"><orig>στασ</orig><gap reason="illegible" quantity="1" unit="character"/></rdg>
+                      </app>
+                 </p>
+                          
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Untel fils d'Untel</supplied> a fait ériger <supplied reason="subaudible">la statue</supplied> de son ancêtre 
+            A<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fils d'Untel</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so son of So-and-so</supplied> had <supplied reason="subaudible">the statue</supplied> of his forefather 
+            A<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">son of So-and-so</supplied> erected.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale figlio del tale</supplied> ha fatto erigere <supplied reason="subaudible">la statua</supplied> del suo antenato
+            A<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">figlio del tale</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>At line 2, the word <foreign xml:lang="grc">πρόγονος</foreign> is highly plausible. It was followed by a personal name, the vestiges of which would 
+                easily fit very common names such as Aiglanor, Ammonios, Annikeris, and so on. Being at the accusative it would be the name of the person honored with 
+                a statue or any other image placed upon the base. In such honorary inscriptions the verb is usually subaudible; if mentioned, it reads <foreign xml:lang="grc">ἀνέθηκε</foreign>. We have here the less common <foreign xml:lang="grc">ἔστασε</foreign>, which is well chosen for a statue.</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

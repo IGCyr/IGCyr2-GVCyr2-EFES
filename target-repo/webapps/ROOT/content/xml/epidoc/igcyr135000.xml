@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType"/>Epitaph</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr135000</idno>
+                <idno type="number" subtype="second-edition">135000</idno>
+                <idno type="TM">749388</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr135000</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr135000</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr135000</idno>
+                
+                <availability>
+                <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository><idno type="invNo">8525</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType> with plain mouldings on top and below  
+                                        <dimensions>
+                                            <height>0.24</height>
+                                            <width>0.54</width>
+                                            <depth>0.06</depth>
+                                        </dimensions>), reddish from earth; broken off at the lower right angle. Recut for secondary use (see commentary). </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one line on the front, below the upper moulding.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Estimated <height>0.024</height> (smaller omicron); not deeply, but carefully cut with small serifs; slightering mu and sigma. </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Perhaps area of findspot.</origPlace>
+                            <origDate evidence="lettering context" notBefore="-0350" notAfter="-0301" precision="low" cert="low">Probably second half of fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="2017">
+                                    <p>Brought to the Department of Antiquities in August 2017; found at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>, area named Al Baggara, during building works.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team. Studied by C. Dobias-Lalou through photographs provided by the Department of Antiquities when the 
+                                    stone was presented.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from photograph (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-08" who="CDL">updated bibliography</change>    
+            <change when="2023-01-21" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2018-04-11" who="Alice">checked</change>
+            <change when="2018-03-09" who="CDL">file created and filled</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77860/3/igcyr135000-face.jpeg.jpg" corresp="igcyr135000" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="2017"><ref target="http://hdl.handle.net/20.500.14008/77860">Face of igcyr135000 Epitaph</ref></desc></graphic>
+        <graphic url="https://historica.unibo.it/bitstream/20.500.14008/80481/3/igcyr135000-2-frontandback.tiff.jpg" corresp="igcyr135000" decls="#photograph"><desc><ref target="http://hdl.handle.net/20.500.14008/80481">Front and back of igcyr135000 Epitaph</ref></desc></graphic>
+    
+    </facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>135000</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.86</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Τιμώι">Τιμὼι</name> 
+                        <persName type="attested" key=""><name type="patronymic" nymRef="#Τιμοκλῆς">Τιμοκλεῦς</name></persName></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Timô fille de Timoklès.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Timo daughter of Timocles.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+                <p>Timò figlia di Timokles.</p>
+            </div><div type="commentary">
+                
+               <p>This base, known to us only through photographs and archive of the Department of Antiquities, is very similar to the one bearing <ref type="inscription" source="#IGCyr2">IGCyr122000</ref>, i.e. a plain 
+               type of funerary bases, the dimensions of which are approximately 2 x 1 cubits. Its back was later re-cut so as to form a semi-column, able to adorn the sides of a niche or rather of a naiskos.</p>
+	           <p>The feminine name Timo is attested in Cyrenaica only as the by-name of a priestess of Artemis in the Roman imperial period 
+	               (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.221.html">IRCyr2020 C.221</ref>). However such names ending with <foreign xml:lang="grc">-ώι</foreign> are frequent 
+	           in the region and this one is derived from the father's name. For the latter, two men bearing the name Timocles are known, one in the 
+	           fourth century BC (<ref type="inscription" source="#IGCyr2">IGCyr0081200</ref>), the other at the beginning of the third century (<ref type="inscription" source="#IGCyr2">IGCyr065210</ref>).
+	           One or the other might be related with Timo, but we cannot push the hypothesis further ahead.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

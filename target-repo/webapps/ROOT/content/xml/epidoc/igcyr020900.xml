@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr020900</idno>
+                <idno type="number" subtype="second-edition">020900</idno>
+                <idno type="TM">738238</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr020900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr020900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr020900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository>
+                        <idno type="invNo">380</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, badly worn out, with mouldings of eggs and darts on top and below, with right 
+                                        edge chipped off and back broken off; one hole for attachment on the upper side; two holes for attachment on the under side, maybe for later re-use                                      
+                                        (<dimensions>
+                                            <width>0.42</width>
+                                            <height>0.23</height>
+                                            <depth>0.28</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face between the mouldings
+                                    (<dimensions>
+                                        <width>0.395</width>
+                                        <height>0.14</height>
+                                        <depth>0.26</depth>
+                                    </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.023</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="prosopography" when="-0350" precision="low">About 350 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1931">
+                                    <p>Found before 1931 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, placed before the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1365">Exedra of Apollo Karneios</rs> (called 'Fountain of the Gorgoneion' by G. Oliverio).
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 2001 in
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-10" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2014-03-26" who="HellasLabUnibo">checked, updated and in case corrected tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-02-11" who="cdl">lemma, bibliography, translation, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76920/3/igcyr020900-1-face.tiff.jpg" corresp="igcyr020900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="2001"><ref target="http://hdl.handle.net/20.500.14008/76920">Face of igcyr020900 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76921/3/igcyr020900-2-squeeze.tiff.jpg" corresp="igcyr020900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/76921">Squeeze of igcyr020900 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverioDAI1"/>, pp. 174-175, n. <citedRange>51</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.124</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>020900</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#stucchi1981a"/>, p. <citedRange>107</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>31.1576</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, pp. <citedRange>165-166</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>100</citedRange> (date), pp. <citedRange>195-196</citedRange> (content) and pp. <citedRange>357-358</citedRange>, number 81 (text)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><rs type="office" key="eponymous priest"><w lemma="ἐπί">Ἐπ’</w></rs> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63853"><name nymRef="#Εὐμηλίδας">Εὐμηλίδα</name></persName>·
+                    <lb n="2"/><w lemma="ὄρνις">ὀρνίχων</w>·
+                    <lb n="3"/><w lemma="σκυλάκιον"><supplied reason="lost">σκ</supplied>υλακίων</w>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p> Sous <supplied reason="subaudible">la prêtrise d'</supplied>Eumélidas, avec les revenus des chiots et des oiseaux.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Being <supplied reason="subaudible">priest</supplied> Eumelidas, thanks to the revenues from puppies and birds.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Sotto <supplied reason="subaudible">il sacerdozio di</supplied> Eumelidas, grazie ai proventi dei cuccioli di cane e degli uccelli.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>فترة (الكاهن) إفميليديس ، شكر لأجل العائدات الناتجة عن بيع الجراء والطيور.</p>
+         </div><div type="commentary">
+                
+             <p>This inscription is very similar to <ref type="inscription" source="#IGCyr2">IGCyr020800</ref>, except for the lack of a preposition (for which see <bibl><ptr target="#cdl2000"/>, p. <citedRange>166</citedRange></bibl>).
+                 Such a formulation mentions simply the origin of the expense made for the monument. The syntax and meaning were correctly interpreted by <bibl><ptr target="#oliverioDAI1"/></bibl>, who rejected 
+                 the interpretation of <ref type="inscription" source="#IGCyr2">IGCyr020800</ref> by its first editor, Ferri.</p>   
+             <p>In the absence of any mention of a deity for whom the offering was intended, Oliverio guesssed that it was both Hekate (because of the puppies) and Demeter (because of the birds,
+                 which he thought were poultry), but neither the formula nor the finding-place match this hypothesis. Later on, <bibl><ptr target="#stucchi1981a"/>, p. <citedRange>107</citedRange></bibl> 
+                 supposed that birds were clues for divination, which is acceptable neither for syntax nor for meaning.</p> 
+             <p>At <bibl><ptr target="#IGCyr"/></bibl>, we were able to relate the two inscription to the new <ref type="inscription" source="#IGCyr2">IGCyr125600</ref>), which has the same formula, but mentions as recipient Apollo, 
+                 in whose sanctuary both afore mentioned bases were found. The dossier is now enriched by <bibl><ptr target="#rosamilia2023"/></bibl>, who offers a new interpretation of 
+             <ref type="inscription" source="#IGCyr2">IGCyr127500</ref>. He shows that the revenues came probably from small taxes collected on occasion of sacrifices of puppies and birds to deities whose 
+             cult was organised in Apollo's sanctuary and within the framework of his cash box.</p>
+                <p>For a possible mention of this priest, see <ref type="inscription" source="#IGCyr2">IGCyr093600</ref>. His priesthood is placed by <bibl><ptr target="#rosamilia2023"/></bibl> between ca. 370 and 335 BC.</p>
+         </div></body>
+    </text>
+</TEI>

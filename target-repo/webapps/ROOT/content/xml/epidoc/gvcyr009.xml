@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of the second Paresia</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr009</idno>
+                <idno type="number" subtype="second-edition">009</idno>
+                <idno type="TM">738905</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr009</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr009</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr009</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Sculpture Museum</repository> <idno type="invNo">251</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Slightly tapered <objectType>stele</objectType> of white <material>marble</material> with strongly marked blue veins; 
+                                        on top, a plain and little projecting moulding 
+                                        (<dimensions>
+                                            <width>0.395</width> 
+                                            <height>1.10</height> 
+                                            <depth>0.265</depth>
+                                        </dimensions>);
+                                        on the front face, up to the upper ridge, including the moulding, a sculpted palm branch (height 0.18) is standing 
+                                        in the middle, whereas near the bottom a wreath is sculpted in relief inside a shallow circular recess.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face   
+                                    (<dimensions>
+                                        <width min="0.37" max="0.42">0.37 to 0.42</width>
+                                        <height>1.03</height>
+                                        <depth min="0.25" max="0.28">0.25 to 0.28</depth>
+                                    </dimensions>), in 29 lines beginning just under the moulding, so that ll. 1-4 are interrupted by the palm (marked in the text by spaces).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height>0.016</height>; deeply cut letters without serifs, traces of guide-lines; lettering on the whole similar to that of <ref type="inscription" source="#GVCyr2">GVCyr008</ref>, 
+                                but for the loop of phi at l. 1 which is angled; an ivy leaf stop in l. 27 (end of a verse).</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0101" notAfter="0200" precision="medium" cert="low">Perhaps second century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" notAfter="1935">
+                            <p>Found before 1935 by G. Oliverio at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places//373778">Cyrene</placeName>: 
+                                together with <ref type="inscription" source="#GVCyr2">GVCyr008</ref> in the same rock-cut tomb of the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1071">North Necropolis</rs>.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1979" when-iso="2010" resp="cdl">
+                            <p>Seen by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                in 1979 in the old <rs type="monuList" ref="https://www.slsgazetteer.org/934">Sculpture Museum</rs> and again in 2010 in the forecourt of the new Museum, which is since the 
+                                years 1990 the only <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>                    
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+            <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+         <change when="2023-08-31" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-08" who="Alice">It. translation; checked</change>
+            <change when="2017-02-26" who="CDL">overall check, tagged w and lemma, improved commentary</change>
+            <change when="2014-04-04" who="CDL+HB">revised tagging of metrics</change>
+            <change when="2014-04-02" who="cdl">lemma, bibliography, Fr. and Engl. translations, commentary</change>
+            <change when="2014-03-30" who="cdl">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76579/3/gvcyr009-face.tiff.jpg" corresp="gvcyr009" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1935-1920"><ref target="http://hdl.handle.net/20.500.14008/76579">Face of gvcyr009 Epitaph of Paresia 2</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl> From †Oliverio's papers <ptr target="#gpc1961"/>, n. <citedRange>18</citedRange>, fig. 32</bibl> and  
+                    <bibl><ptr target="#gallavotti1962"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.748</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>009</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#morelli1963"/><citedRange/></bibl>
+                    <bibl> <ptr target="#chamoux1991a"/><citedRange/></bibl>
+                    (= <bibl> <ptr target="#chamoux1995"/><citedRange/></bibl>), whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>41.1698</citedRange></bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>1992.583</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2018"/>, p. <citedRange>202</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>68.1745</citedRange></bibl>.
+                   </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    <div type="textpart" subtype="text">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64061"><name nymRef="#Ἡφαιστοῦς">Ἡφαιστ <space quantity="1" unit="character"/>οῦτος</name></persName> 
+                        <w lemma="θυγάτηρ">θυγά<lb n="2" break="no"/>τηρ</w> <w lemma="γίγνομαι">γεν<space quantity="1" unit="character"/>όμαν</w> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62506"><name nymRef="#Ἀγαθάγγελος">Ἀγα<lb n="3" break="no"/>θανγέλο<space quantity="1" unit="character"/>υ</name></persName> 
+                        δ'<w lemma="ἀνήρ">ἀνδρός</w>
+                        <lb n="4"/><w lemma="ὅς1" type="relative">ἥν</w> <w lemma="πᾶς">πάντ<space quantity="1" unit="character"/>ες</w> <w lemma="σεμνός">σεμνὴν</w>
+                        <lb n="5"/><w lemma="γιγνώσκω">γεινώσκουσιν</w>, <w lemma="λέγω">λέγομαι</w>
+                        <lb n="6"/>δὲ <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65270"><name nymRef="#Παρησία">Παρησία</name></persName>.
+                    </ab></div>
+                
+                <div type="textpart" subtype="verse">
+                    <lg met="dactylic">
+                    <l n="1" met="heptameter"> 
+                      <w lemma="πολύς">Πολλῶν</w> <w lemma="πραγματίη">πρα<lb n="7" break="no"/>γματιῶν</w> <w lemma="μέτοχος">μέτοχος</w> 
+                      <w lemma="γίγνομαι">γενό<lb n="8" break="no"/>μαν</w> <w lemma="πιστός">πιστὴ</w> <w lemma="κατά">κατὰ</w> <w lemma="πᾶς">πάντα</w>.
+                    </l>
+                    <l n="2" met="dactylic pentapody">
+                        <lb n="9"/><w lemma="οὕνεκα">Οὕνεκά</w> <w lemma="ἐγώ">μοι</w> <w lemma="πόσις">πόσις</w> <w lemma="ἔνθα">ἔνθα</w> 
+                      <w lemma="βραβεῖον">βρα<lb n="10" break="no"/>βεῖον</w> <w lemma="τίθημι">ἔθηκεν</w>,
+                    </l>
+                   <l n="3" met="hexameter">
+                       <w lemma="σημαίνω">σημαίνων</w> <space quantity="1" unit="character"/>
+                       <lb n="11"/><w lemma="πᾶς">πάσης</w> <w lemma="ἀρετή">ἀρετῆς</w> <w lemma="στέφανος">στέφανόν</w> 
+                       <lb n="12"/><w lemma="ἐγώ">με</w> <w lemma="λαμβάνω">λαβοῦσαν</w>.
+                   </l> 
+                   <l n="4" met="hexameter">
+                       <w lemma="πᾶς">Πάντων</w>
+                       <lb n="13"/>γὰρ <w lemma="χάρις">χάριν</w> <w lemma="ἔχω">ἔσχον</w> <w lemma="ἐγώ">ἐγὼ</w> <w lemma="νίκη">νείκης</w> <space quantity="1" unit="character"/>
+                       <lb n="14"/>τὸ <w lemma="βραβεῖον">βραβεῖον</w>.
+                   </l>
+                   </lg>
+
+                    <lg met="iambic trimeter">
+                        <l n="5">
+                        Καὶ γὰρ <w lemma="χορεία">χορεί<lb n="15" break="no"/>αις</w> ταῖς <w lemma="ἐμός">ἐμαῖς</w> δ'<w lemma="ἐν">ἐν</w> <w lemma="παστάς">παστά<lb n="16" break="no"/>σιν</w>
+                    </l>
+                    </lg>
+                
+                    <lg met="dactylic">
+                    <l n="6" met="hexameter">
+                        <w lemma="ἐν">ἐν</w> <w lemma="καλυβός">καλ<unclear>υ</unclear>βοῖσιν</w>  <w lemma="ἐμός">ἐμοῖς</w> <space quantity="1" unit="character"/>
+                        <lb n="17"/><w lemma="ἱλαρός">ἱλαρὸν</w> <w lemma="κρότος">κρότον</w> <w lemma="εὔρυθμος">εὔρυθμον</w> 
+                        <lb n="18"/><w lemma="ὁράω">εἶδον</w>·
+                    </l> 
+                   <l n="7" met="hexameter">
+                       καὶ <w lemma="λιγύς">λιγὺς</w> <w lemma="αὐλός">αὐλὸς</w> <w lemma="ἐμός">ἐμαῖς</w> 
+                       <lb n="19"/><w lemma="ἐν">ἐν</w> <w lemma="παστάς">παστάσι</w> <w lemma="θρόος">θρο<unclear>ῦ</unclear><supplied reason="lost">ν</supplied></w> 
+                       <w lemma="δονέω">ἐδόνησεν</w>,
+                   </l>
+                    <l n="8" met="hexameter">
+                        <lb n="20"/><w lemma="κωμάζω">κωμάζων</w> δ' <persName type="divine" ref="#Hymenaios"><name nymRef="#Ὑμέναιος">Ὑμέναιος</name></persName> 
+                        <w lemma="ἀπηχέω">ἀπή<lb n="21" break="no"/>χησεν</w> <w lemma="μέλος">μέλος</w> <w lemma="ἡδύς">ἡδύ</w> <space quantity="1" unit="character"/>.
+                    </l>
+                   <l n="9" met="heptameter" real="++|+--|+--|+--|+--|+--|+-">
+                        <num type="cardinal" value="60"><w lemma="ἑξηκονταέτης">Ἑξηκον<lb n="22" break="no"/>ταέτης</w></num> δὲ <w lemma="πλείων">πλέον</w> <w lemma="κατέρχομαι">κατελή<lb n="23" break="no"/><surplus>λη</surplus>λυθον</w> <w lemma="εἰς">εἰς</w> <persName type="divine" ref="#Hades"><name nymRef="#Ἀΐδης"><unclear>Ἀ</unclear>ΐδαο</name></persName> <space quantity="1" unit="character"/>
+                    </l>
+                        <l n="10" met="hexameter">
+                        καὶ <w lemma="νῦν">νῦν</w>
+                        <lb n="24"/>ἡ <w lemma="πανάριστος">πανάριστος</w> <w lemma="ἀσύγκριτος">ἀσύνκρι<space quantity="2" unit="character"/><lb n="25" break="no"/>τος</w> ἡ <w lemma="περί">περὶ</w> <w lemma="πᾶς">πάντα</w>
+                        </l> 
+                    <l n="11">
+                       <w lemma="κεῖμαι">κ<unclear>ε</unclear>ῖμαι</w> <space quantity="1" unit="character"/>
+                       <lb n="26"/><w lemma="σιωπάω">σωπήσασα</w>, <w lemma="διά">διὰ</w> <w lemma="στήλη">στήλης</w> <space quantity="1" unit="character"/>
+                       <lb n="27"/>δὲ <w lemma="λέγω">λέγουσα</w>.
+                    </l>
+                    <l n="12" met="hexameter">
+                      <g type="leaf">❧</g> <w lemma="τίς">Τίς</w> <w lemma="πόθεν">πόθεν</w>;
+                      <lb n="28"/>Ἡ <w lemma="στήλη">στήλη</w> δὲ <w lemma="λαλέω">λαλεῖ</w> τὸ δ'<w lemma="ἐμός">ἐ<space quantity="2" unit="character"/><lb n="29" break="no"/>μὸν</w> <w lemma="στόμα">στόμα</w> <w lemma="σιγάω">σειγᾷ</w>.
+                  </l>
+                </lg>
+                </div> 
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="23">
+                        <lem resp="#gallavotti1962">Ἀΐδαο</lem>
+                        <rdg resp="#gpc1961">Ἅιδαο</rdg>
+                    </app>
+                    <app loc="26">
+                        <lem resp="#gallavotti1962">σωπήσασα</lem>
+                        <rdg resp="#gpc1961">σ<supplied reason="omitted">ι</supplied>ωπήσασα</rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr" source="#chamoux1991a">
+                <p>Je fus la fille d'Héphaistous, j'eus Agathangelos pour époux et j'inspire à tous du respect. J'ai nom Parèsia.</p>
+                <p>Je me suis dépensée en tâches multiples et l'on pouvait toujours compter sur moi.</p>
+                <p>C'est pourquoi mon époux m'a élevé ici cette stèle comme prix de mes mérites,</p>
+                <p>pour faire savoir que j'ai reçu la couronne de toutes les vertus:</p>
+                <p>n'ai-je pas remporté en toutes choses le premier prix?</p>
+                <p>Et de fait lors des choeurs formés en mon honneur sous les portiques</p>
+                <p>j'ai vu dans ma maison s'élever le gai tapage des chants bien rythmés.</p>
+                <p>Les sons aigus de la flûte ont fait résonner mes portiques.</p>
+                <p>Conduisant le cortège nuptial, Hyménée éveilla les échos de sa douce mélodie.</p>
+                <p>A plus de soixante ans, je suis descendue dans l'Hadès</p>
+                <p>et désormais moi, la femme parfaite, l'incomparable en tous points,</p>
+                <p>je repose, réduite au silence: la stèle parle pour moi.</p>
+                <p>Qui je fus et de qui je suis née, c'est la stèle qui le dit, car ma bouche est silencieuse.</p> <note>trad. Fr. Chamoux</note>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>I was daughter of Hephaistous and had Agathangelos as a husband, inspiring respect to all. My name is Paresia.</p>
+                <p>I was busy in many occupations and trustworthy on all occasions.</p>
+                <p>That is why my husband erected here this stele as an award,</p> 
+                <p>in order to let know that I received the crown of all virtues:</p>
+                <p>I did in fact carry off the victory crown in all matters.</p>
+                <p>So did I see, on the occasion of the choruses honoring me under the porches,</p>
+                <p>the joyful noise of well-rhythmed songs spreading around my house.</p>
+                <p>The sharp tone of the flute buzzed under my porches.</p>
+                <p>Leading the bridal procession, Hymenaios echoed with his pleasant melody.</p>
+                <p>Aged more than sixty years, I went down to Hades</p>
+                <p>and now, a perfect woman, incomparable in all matters,</p>
+                <p>I lie, bound to be silent, the stele speaking for me.</p>
+                <p>Who I was, born to whom, the stele tells it, for my mouth is silent.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                    <p>Sono stata la figlia di Hephaistous e ho avuto Agathangelos come sposo, a tutti ho ispirato rispetto. Mi chiamo Paresia.</p> 
+                    <p>Mi sono spesa in molte occupazioni, in tutte degna di fede.</p> 
+                    <p>Per questo lo sposo pose qui per me la stele come premio,</p>
+                    <p>per mostrare che ho ricevuto la corona per tutte le virtù:</p>
+                    <p>in effetti in tutte ho riportato il primo premio.</p> 
+                    <p>E in occasione dei cori in mio onore sotto i portici</p>
+                    <p>ho visto in casa mia il lieto rumore ben ritmato dei canti,</p>
+                     <p>l’aulo nei miei portici ha fatto vibrare il suo suono limpido,</p>
+                    <p>Imeneo in processione nuziale ha fatto risuonare la sua dolce melodia.</p> 
+                    <p>A più di sessanta anni sono scesa nell’Ade,</p>
+                    <p>e ora, donna perfetta, incomparabile in tutto,</p>
+                    <p>ridotta al silenzio giaccio, parlo grazie alla stele.</p>
+                    <p>Chi sono, da dove vengo, la stele dice, la mia bocca tace.</p>
+
+            </div><div type="commentary">
+                
+                <p>This epitaph was found along with <ref type="inscription" source="#GVCyr2">GVCyr008</ref> and there has been some discussion about their relationship.
+                Oliverio's statement that the lettering of the present one was later than the other, followed by Gallavotti, Chamoux and Reynolds (private 
+                information) is not the most certain argument. On the contrary, both letterings are very similar. The same scholars adhered to the view that 
+                after a first Paresia died at age 4, her parents (or at least her mother, as the father is not mentioned here and might have been a second husband)
+                gave the same name to another daughter who lived for more than 60 years. When the second Paresia died, a poet composed a poem by imitation and amplification 
+                of the funerary verse commemorating the first Paresia. This being also our position, the proximity of the lettering might be explained in two ways: either 
+                the stone-cutter of the second stele was commissioned to make as similar a stele as possible or both momuments were made at the same time. Even if so, 
+                the baroque style of the second allows to consider it as developing the themes of the preceding and more sober one.</p> 
+                <p>An opposite view was developed by Morelli, who took only textual arguments into account. Although his view would solve the problem of the
+                  epigraphic execution, his arguments on substance and form do not seem very convincing.</p>
+                <p>The relationship of this Paresia with Agathangelos is not quite sure. The husband of married women are often mentioned on funerary stele, but their 
+                father's name is also normally a must. And the more so if the mother's name is mentioned. One might also translate 'I was the daughter of Hephaistous and of 
+                Aganthangelos her husband'. If so, the mention of 'husband' instead of 'father' like in the heading of <ref type="inscription" source="#GVCyr2">GVCyr008</ref> would be explained 
+                as a mere taste for variety, whereas there had been a change in the family and both Paresia had only a common mother.</p>
+                <p>Metrical analysis. 
+                    Lines 1-6 are no verse, although rhythmically echoing dactylic or anapestic segments.
+                    Verse-lines 1 to 12 make up a series of dactylic unities, some forming a hexameter, others a heptameter (but for verse-line 5 which is a iambic trimeter).</p>
+            </div></body>
+    </text>
+</TEI>

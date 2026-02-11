@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr120300</idno>
+                <idno type="number" subtype="second-edition">120300</idno>
+                <idno type="TM">738752</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr120300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr120300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr120300</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">102 (fragm. a) + 106 (fragm. c) + 427 (fragm. d)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Four fragments of a white <material>marble</material> circular <objectType>basin</objectType>, of which one paire was adjacent,
+                                        here described with width and depth:
+                                        fragment a, broken into two adjacent pieces perhaps after the discovery
+                                        (<dimensions>
+                                            <width atLeast="0.14">0.14</width>
+                                            <depth atLeast="0.07">0.07</depth>
+                                        </dimensions>);
+                                        fragment b, now lost, known only from a photograph (dimensions unknown);
+                                        fragment c 
+                                        (<dimensions>
+                                            <width atLeast="0.1">0.1</width>
+                                            <depth atLeast="0.1">0.1</depth>
+                                        </dimensions>), photographed with fragment b, with which is was adjacent at rear;
+                                        fragment d
+                                        (<dimensions>
+                                            <width atLeast="0.06">0.06</width>
+                                            <depth atLeast="0.09">0.09</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the rim (<dimensions><height>0.045</height></dimensions>), 
+                                    to be read from outside.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.03</height>;carefully and regularly cut, with serifs; theta with central short bar, rho with rather small loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" cert="low" precision="medium" notBefore="-0200" notAfter="-0101">Probably second century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1979">
+                                    <p>Found before 1979 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" resp="cdl" when="1977" when-iso="1979">
+                                    <p>Three of the fragments seen by C.Dobias-Lalou in 1977 and again 1979 in 
+                                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>,
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.
+                                    </p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-01-20" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2015-10-17" who="CDL">file created and filled</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77586/3/igcyr120300-1-drawing.tiff.jpg" corresp="igcyr120300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77586">Drawing of igcyr120300 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77587/3/igcyr120300-2-squeezes.tiff.jpg" corresp="igcyr120300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77587">Squeezes of igcyr120300 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77588/3/igcyr120300-3-fgmt%20b.tiff.jpg" corresp="igcyr120300" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77588">Fragment b of igcyr120300 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>120300</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a+b+c">
+                    <ab>
+                        <lb n="1"/><milestone unit="fragment" n="a"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λωτήρ"><supplied reason="lost" cert="low">λωτ</supplied>ῆρα</w> 
+                        <w lemma="ἀνατίθημι">ἀ<milestone unit="fragment" n="b"/>ν<supplied reason="lost">έ</supplied>θ<supplied reason="lost">η</supplied><milestone unit="fragment" n="c"/>κε</w> <gap reason="lost" extent="unknown" unit="character"/>                  
+                    </ab>
+                </div>
+                
+                <div type="textpart" subtype="fragment" n="d">
+                    <ab>
+                       <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>τε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> a consacré la <supplied reason="lost" cert="low">vas</supplied>que <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> dedicated the <supplied reason="lost" cert="low">ba</supplied>sin <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><gap reason="lost" extent="unknown" unit="character"/> ha dedicato la <supplied reason="lost" cert="low">va</supplied>sca <gap reason="lost" extent="unknown" unit="character"/>.</p>
+
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>[---] أهدى [الح؟] وض [---].</p>
+         </div><div type="commentary">
+                
+                <p>A photograph from the Department of Antiquities, plausibly taken before World War II, preserved in J.M. Reynolds' photographic archive, shows fragment b and c already pasted together.
+                    However, this restoration did not last and fragment b is now lost (<ref type="inscription" source="#IGCyr2">IGCyr119800</ref> stand on the same photograph).</p>
+                <p>Fragments a, b and c together bear the usual verb of dedication. The ending <foreign xml:lang="grc">ΗΡΑ</foreign>, preserved before the verb might be intended either as the ending of a father's personal name at 
+                    the genitive case or as the ending of a noun at the accusative case. For the former hypothesis, although there is no name attested in Cyrenaica with an ending 
+                    <foreign xml:lang="grc">-ηρας</foreign>, nick-names <foreign xml:lang="grc">Πανθηρᾶς</foreign> or <foreign xml:lang="grc">Σπινθηρᾶς</foreign> are to be 
+                    found elsewhere. On the other hand, the word <foreign xml:lang="grc">λωτήρ</foreign> (<foreign xml:lang="grc">λουτήρ</foreign> in koine), which means 
+                    'washbasin' and was originally used for a water container, is also attested in many a city of Asia Minor for containers of oil for oinment in the gymnasium. This 
+                    reading seems on the whole more convincing. For another basin referring to the sphere of gymnic activities, see <ref type="inscription" source="#IGCyr2">IGCyr120400</ref>.
+                    For a possible support of such a basin, see <ref type="inscription" source="#IGCyr2">IGCyr089000</ref>.</p>
+	       <p>The place and meaning of fragment d cannot be restored with confidence.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

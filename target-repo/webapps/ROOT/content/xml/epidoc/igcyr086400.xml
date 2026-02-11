@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr086400</idno>
+                <idno type="number" subtype="second-edition">086400</idno>
+                <idno type="TM">738415</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr086400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr086400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr086400</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> rectangular <objectType>panel</objectType> on the wall facing the entrance, in a rock-cut tomb
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in four lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>not registered</height> and somewhat irregular; circular letters slightly smaller, symmetrical pi, non-slanting sigma; the second theta 
+                                has a small and vertical central bar; one out of three alphas has a dropped bar on Smith and Porcher's copy (<foreign xml:lang="la">contra</foreign> Pacho's).</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0130" notAfter="-0101" precision="medium">Late second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance xml:id="copy-cervelli" type="found" notBefore="1811" notAfter="1812">
+                                    <p>Copied by A. Cervelli in 1811-1812 'on the road from Safsaf to Gren (Cyrene)', i.e. at                                      
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                    <provenance xml:id="copy-pacho" type="found" when="1825">
+                                        <p>Copied by J.-R. Pacho in 1825 in situ.</p>
+                                </provenance>
+                                <provenance xml:id="copy-smith-porcher" type="found" when="1861">
+                                    <p>Copied by R.M. Smith and E.A. Porcher in 1861 in situ.</p>
+                                </provenance>
+                                <provenance type="observed" notBefore="1960" notAfter="1970" resp="Reynolds">
+                                    <p>Seen by J.M. Reynolds in the sixties of the twentieth century in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="https://www.slsgazetteer.org/1679">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.slsgazetteer.org/1416">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2023-08-26" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-10" who="Alice">checked</change>
+            <change when="2017-02-26" who="Alice">It. translation; checked</change>
+            <change when="2017-01-10" who="CDL">added w and lemma; commentary amended; new georefs</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-27" who="CDL">lemma, text mark-up, bibliography, translation, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+         </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77240/3/igcyr086400-drawing.tiff.jpg" corresp="igcyr086400" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1861"><ref target="http://hdl.handle.net/20.500.14008/77240">Drawing of igcyr086400 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#CIG"/> <citedRange>5154</citedRange> (Franz)</bibl>, from 
+                    <bibl><ptr target="#pacho1827"/>, pl. <citedRange>65, 9</citedRange></bibl>; 
+                    <bibl><ptr target="#smith-porcher1864"/>, n. <citedRange>27</citedRange></bibl>; 
+                    <bibl><ptr target="#mohamed-jmr1997"/>, pp. 34-35 n. <citedRange>4 C</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2180, C</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>086400</citedRange></bibl>.
+                    Cf.<bibl><ptr target="#cervelli1825"/>, p. <citedRange>26</citedRange> and pl. <citedRange>I.5 (erroneously numbered 3)</citedRange></bibl>;
+                    <bibl><ptr target="#dthorn-thorn2009"/>, p. <citedRange>267</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2013"/>, p. <citedRange>185</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2015</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>108</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63182"><name nymRef="#Ἀριστοτέλης">Ἀριστοτέλης</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65720"><name type="patronymic" nymRef="#Σῶσις">Σώσιος</name></persName></persName> <rs type="office" key="eponymous priest"><w lemma="ἱαρεύς">ἱαρεὺς</w></rs>
+                    <lb n="3"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνος</name></persName>· <w lemma="μηθείς">μηθέ<lb n="4" break="no"/>να</w> <w lemma="ἐντίθημι">ἐντίθη</w> <space quantity="5" unit="character" precision="low"/>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Aristoteles fils de Sosis, prêtre d'Apollon. N'enterrer personne d'autre.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Aristoteles son of Sosis, priest of Apollo. Don't bury anyone else here.</p>
+         </div><div type="commentary">
+                
+                <p>Before being copied by Pacho and from him edited in <bibl><ptr target="#CIG"/> <citedRange>5154</citedRange></bibl>, the inscription had been copied by Cervelli, who described the tomb in a few lines.</p>
+                <p>From the same tomb, not precisely identified in the South Necropolis, comes <ref type="inscription" source="#IGCyr2">IGCyr008100</ref> and might also come <ref type="inscription" source="#IGCyr2">IGCyr086200</ref> and <ref type="inscription" source="#IGCyr2">IGCyr086500</ref>.</p>
+	     <p>An Aristoteles son of Sosis is mentioned among the contributors of <ref type="inscription" source="#IGCyr2">IGCyr065200</ref>, about 280 BC. The lettering here indicates a date about the end of 
+	         the second century. So a family link is possible, but cannot be fixed more precisely. <bibl><ptr target="#rosamilia2023"/></bibl> considers that this Aristoteles would plausibly be the great-great-grandson 
+	         of the contributor and dates his priesthood between 140 and 100 BC.</p>
+	
+            </div></body>
+    </text>
+</TEI>

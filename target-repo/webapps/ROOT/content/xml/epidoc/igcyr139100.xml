@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">List of names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+
+                <idno type="filename" subtype="second-edition">IGCyr139100</idno>
+                <idno type="number" subtype="second-edition">139100</idno>
+                <idno type="TM">997653</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr139100</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum, Storeroom of the Italian missions</repository><idno type="invNo">Inventory number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a <material>marble</material> <objectType>panel</objectType>, broken off on all sides
+                                    (<dimensions><depth>0.02</depth></dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Carefully cut letters (<height>0.01</height>), slightly thickening out; alpha with low bar, slantering sigma.</handNote>                 
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0310" notAfter="-0280" precision="low" resp="ER">Probably end of fourth or beginning of third century BC, according to Rosamilia</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notBefore="1958">
+                                    <p>Found probably after 1958 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: on the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Agora</rs>.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>Studied by E. Rosamilia in 2012 at
+                                <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>, in the <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>,
+                            Storeroom of the Italian missions.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (ER).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-02-12" who="Alice">checked</change>
+         <change when="2023-11-26" who="CDL">updated bibl</change>
+            <change when="2023-11-09" who="CDL">created file and wholly done</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80536/3/igcyr139100-1-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80536">Face of igcyr139100 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                <head>Bibliography</head>
+            <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><seg part="M" cert="low">άτω</seg><gap reason="lost" extent="unknown" unit="character"/><certainty locus="name" match=".."/></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#Φίλισκος"><supplied reason="lost">Φ</supplied>ιλίσ<supplied reason="lost" cert="low">κω</supplied></name></persName></persName>
+                    <lb n="3"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#_ιππος"/><gap reason="lost" extent="unknown" unit="character"/><choice><unclear>σ</unclear><unclear>τ</unclear></choice>ίππ<supplied reason="lost">ω</supplied></persName></persName>  
+                    <lb n="4"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#-στρατος"/><gap reason="lost" extent="unknown" unit="character"/><seg part="F">στρά<supplied reason="lost">τω</supplied></seg></persName></persName>
+                    <lb n="5"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#-τέλης"/><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost">τ</supplied>έλε<unclear>υ</unclear><supplied reason="lost">ς</supplied></seg></persName></persName>
+                    <lb n="6"/><persName type="attested" key=""><name><gap reason="lost" extent="unknown" unit="character"/></name> <persName type="attested" key=""><name type="patronymic" nymRef="#-στρατος"/><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><supplied reason="lost"/>σ<unclear>τ</unclear>ρά<supplied reason="lost">τω</supplied></seg></persName></persName>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+                    <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Untel</supplied> fils de <gap reason="lost"/>stratos (ou de Strat<supplied reason="lost">ôn</supplied>),
+            <supplied reason="lost">Untel</supplied> fils de <supplied reason="lost">Ph</supplied>ilis<supplied reason="lost" cert="low">kos</supplied>, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>ippos, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>stratos, (5) <supplied reason="lost">Untel</supplied> fils de 
+                <gap reason="lost" extent="unknown" unit="character"/>telès, <supplied reason="lost">Untel</supplied> fils de <gap reason="lost" extent="unknown" unit="character"/>stratos, <gap reason="lost" extent="unknown" unit="line"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+             <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost"/>stratos (or of Strat<supplied reason="lost">on</supplied>),
+            <supplied reason="lost">So-and-so</supplied> son of <supplied reason="lost">Ph</supplied>ilis<supplied reason="lost" cert="low">kos</supplied>, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>ippos, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>stratos, (5) <supplied reason="lost">So-and-so</supplied> son of 
+                <gap reason="lost" extent="unknown" unit="character"/>teles, <supplied reason="lost">So-and-so</supplied> son of <gap reason="lost" extent="unknown" unit="character"/>stratos, <gap reason="lost" extent="unknown" unit="line"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+             <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Il tale</supplied> figlio di <gap reason="lost"/>stratos (o di Strat<supplied reason="lost">on</supplied>),
+            <supplied reason="lost">Il tale</supplied> figlio di <supplied reason="lost">Ph</supplied>ilis<supplied reason="lost" cert="low">kos</supplied>, <supplied reason="lost">Il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>ippos, <supplied reason="lost">Il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>stratos, (5) <supplied reason="lost">Il tale</supplied> figlio di 
+                <gap reason="lost" extent="unknown" unit="character"/>teles, <supplied reason="lost">Il tale</supplied> figlio di <gap reason="lost" extent="unknown" unit="character"/>stratos, <gap reason="lost" extent="unknown" unit="line"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                <head>Commentary</head>
+             <p>In spite of the fragmentary condition of this inscription, it is clear that it contained a list of names. As shown by the omega at line 1 and by the correspondance with second parts of compound names such as 
+                 <foreign xml:lang="grc">-τέλης</foreign> at line 5, we may conclude that we have only part of the fathers' names. All names were carefully cut by the same hand. The lettering seems too old for a list of ephebes, 
+                 the oldest one being <ref type="inscription" source="#IGCyr2">IGCyr015200</ref> at the beginning of the second century BC. It looks rather like the lists of military officers, which, however, are rather older.
+                 Other lists of names of unknown purpose, such as <ref type="inscription" source="#IGCyr2">IGCyr009100</ref> or <ref type="inscription" source="#IGCyr2">IGCyr131500</ref>, are nearer in matter of lettering, although none may be brought together with this fragment.</p>
+             <p>The segment preserved at line 1 might be the end of a compound name in <foreign xml:lang="grc">-στρατος</foreign> or belong to the name <foreign xml:lang="grc">Στράτων</foreign>. At line 3, on the broken edge at left,
+                 a very small stroke above might belong to a sigma or a tau. This would lead, amongst the names that are common at Cyrene, either to <foreign xml:lang="grc">Λύσιππος</foreign> or to <foreign xml:lang="grc">Ἀρίστιππος</foreign>.
+                Anyway, as none of the partial names preserved here is a rare one, no prosopographical identification is possible.</p>
+            </div></body>
+    </text>
+</TEI>

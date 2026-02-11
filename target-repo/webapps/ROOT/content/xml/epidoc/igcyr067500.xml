@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Demeter and Kore</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr067500</idno>
+                <idno type="number" subtype="second-edition">067500</idno>
+                <idno type="TM">738353</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr067500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr067500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr067500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">73-7 (American excavations)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Part of a white, brown stained, <material>marble</material> <objectType>base</objectType> with recess on top for a statue; broken off at right and behind
+                                        (<dimensions>
+                                            <width>0.165</width>
+                                            <height>0.065</height>
+                                            <depth>0.12</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.0175</height>; carefully cut letters without serifs, sigma and mu with four markedly slanting strokes.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" cert="low" notBefore="-0300" notAfter="-0201" precision="medium">Perhaps third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1973">
+                                    <p>Found in 1973 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>, Western part, upper terrace, grid C 12/13.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1973" resp="Reynolds">
+                                    <p>Seen by J.M. Reynolds in 1973 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>,
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1485">Storeroom of the American excavations</rs>.</p>
+                                </provenance>
+                        <provenance type="not-observed"><p>Not seen by IGCyr team.</p></provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-02" who="Alice">checked</change>
+            <change when="2016-04-20" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-05-13" who="cdl">translations, bibliography</change>
+            <change when="2013-02-25" who="cdl">lemma, apparatus, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-17" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#white1973"/>, p. <citedRange>208, footnote 26</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>26.1834</citedRange></bibl>; 
+                    <bibl><ptr target="#jmr2012"/>, p. 192, n. <citedRange>A.5</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>067500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Διονύσιος"><seg part="I"><supplied reason="lost">Διο</supplied>νύσι<supplied reason="lost">ο</supplied></seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><space extent="unknown" unit="character"/> <persName type="divine" ref="#Demeter"><name nymRef="#Δαμάτηρ">Δάματ<supplied reason="lost">ρι</supplied></name></persName> 
+                        <supplied reason="lost" cert="low">καὶ</supplied> <persName type="divine" ref="#Kore"><name nymRef="#Κόρα"><supplied reason="lost" cert="low">Κόραι</supplied></name></persName> <w lemma="ἀνατίθημι"><supplied reason="lost" cert="low">ἀνέθηκε</supplied></w>.
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><lem resp="#jmr2012"><supplied reason="lost" cert="low">καὶ Κόραι ἀνέθηκε</supplied></lem>
+                        <rdg resp="#white1973"><supplied reason="lost">καὶ Κόραι</supplied></rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Dionysios <gap reason="lost" extent="unknown" unit="character"/> à Dèmèter <supplied reason="lost" cert="low">et à Korè a consacré</supplied>.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Dionysios <gap reason="lost" extent="unknown" unit="character"/> to Demeter <supplied reason="lost" cert="low">and to Kore dedicated</supplied>.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Dionysios <gap reason="lost" extent="unknown" unit="character"/> a Demetra e <supplied reason="lost" cert="low">a Kore ha dedicato</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>As <bibl><ptr target="#jmr2012"/></bibl>, puts it, the name Dionysios, which is plausibly restored, might belong to the dedicant (hence nominative)
+                    or to the person whose statue was dedicated by someone else (hence accusative).
+                It depends on the width of the original base, as well as of the divine name or names to be restored at l. 2, with or without a verb.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

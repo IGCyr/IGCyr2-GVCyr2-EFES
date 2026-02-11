@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Archaeological Maps</title>
+                <title xml:lang="it">Mappe Archeologiche</title>
+                <title xml:lang="fr">Cartes Archéologiques</title>
+                <title xml:lang="ar"></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>...</authority>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>
+                    <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename, as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="text">
+                <p xml:lang="en"><!-- check -->These maps from <ptr target="#kenrick2013"/> show inscriptions’ places of origin and findspots. They may be inspected through a click: monuments where inscriptions were found are surrounded by a moving dashed line. Archaeological maps, depending on provenance, are placed also at the page of each inscription. A click enlarges the map: mentioned monuments are highlighted in red.
+A single click on the name of the monument links to the website ‘Heritage Gazetteer of Libya’.</p>
+                <p xml:lang="it"><!-- check -->Queste mappe, tratte da <bibl><ptr target="#kenrick2013"/></bibl>, mostrano i luoghi di origine e i luoghi di ritrovamento delle iscrizioni. Possono essere esaminate con un clic: i monumenti che hanno restituito iscrizioni sono evidenziati a tratteggio mobile. Le mappe archeologiche si trovano anche nelle singole pagine delle iscrizioni, a seconda del rispettivo luogo di provenienza. Un clic ingrandisce la mappa: i monumenti relativi al ritrovamento sono evidenziati in rosso. Un clic sul nome del monumento conduce direttamente al sito ‘Heritage Gazetteer of Libya’.</p>
+                <p xml:lang="fr"><!-- check -->Ces cartes, tirées de <bibl><ptr target="#kenrick2013"/></bibl>, indiquent les emplacements d'origine et de découverte des inscriptions. On peut les examiner en effectuant un clic : les monuments où des inscriptions ont été trouvées sont entourés d'une ligne pointillée mouvante. Des plans se trouvent aussi à la page de chaque inscription dont la provenance est avérée. Si l'on effectue un clic dessus, les monuments concernés sont signalés par un carré rouge. Un clic simple sur le nom du monument renvoie vers le site ‘Heritage Gazetteer of Libya’.</p>
+                <p xml:lang="ar"><!-- check -->These maps from <bibl><ptr target="#kenrick2013"/></bibl> show inscriptions’ places of origin and findspots. They may be inspected through a click: monuments where inscriptions were found are surrounded by a moving dashed line. Archaeological maps, depending on provenance, are placed also at the page of each inscription. A click enlarges the map: mentioned monuments are highlighted in red.
+A single click on the name of the monument links to the website ‘Heritage Gazetteer of Libya’.</p>
+            </div>
+                <div xml:id="archaeological_maps">
+                    <div xml:id="map_Apollonia" type="archaeological_map">
+                        <head type="subheading">Apollonia</head>
+                        <p><ref target="map_apollonia.html"><figure corresp="/images/map_apollonia.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Berenike" type="archaeological_map">
+                        <head type="subheading">Berenike</head>
+                        <p><ref target="map_berenike.html"><figure corresp="/images/map_berenike.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Cyrene_general_plan" type="archaeological_map">
+                        <head type="subheading">Cyrene, general plan</head>
+                        <p><ref target="map_cyrene_general_plan.html"><figure corresp="/images/map_cyrene_general_plan.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Cyrene_agora" type="archaeological_map">
+                        <head type="subheading">Cyrene, Agora zone</head>
+                        <p><ref target="map_cyrene_agora.html"><figure corresp="/images/map_cyrene_agora.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Cyrene_central_quarter" type="archaeological_map">
+                        <head type="subheading">Cyrene, Central quarter</head>
+                        <p><ref target="map_cyrene_central_quarter.html"><figure corresp="/images/map_cyrene_central_quarter.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Cyrene_north_necropolis" type="archaeological_map">
+                        <head type="subheading">Cyrene, North Necropolis</head>
+                        <p><ref target="map_cyrene_north_necropolis.html"><figure corresp="/images/map_cyrene_north_necropolis.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Cyrene_sanctuary_of_Apollo" type="archaeological_map">
+                        <head type="subheading">Cyrene, Sanctuary of Apollo</head>
+                        <p><ref target="map_cyrene_sanctuary_of_apollo.html"><figure corresp="/images/map_cyrene_sanctuary_of_apollo.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Euesperides" type="archaeological_map">
+                        <head type="subheading">Euesperides</head>
+                        <p><ref target="map_euesperides.html"><figure corresp="/images/map_euesperides.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Ptolemais_inner" type="archaeological_map">
+                        <head type="subheading">Ptolemais, inner</head>
+                        <p><ref target="map_ptolemais_inner.html"><figure corresp="/images/map_ptolemais_inner.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Ptolemais_outer" type="archaeological_map">
+                        <head type="subheading">Ptolemais, outer</head>
+                        <p><ref target="map_ptolemais_outer.html"><figure corresp="/images/map_ptolemais_outer.png"/></ref></p>
+                    </div>
+                    <div xml:id="map_Tocra" type="archaeological_map">
+                        <head type="subheading">Tocra</head>
+                        <p><ref target="map_tocra.html"><figure corresp="/images/map_tocra.png"/></ref></p>
+                    </div>
+                </div>
+        </body>
+    </text>
+</TEI>

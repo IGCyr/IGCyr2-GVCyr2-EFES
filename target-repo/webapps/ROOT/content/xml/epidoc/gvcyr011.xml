@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs> of Krispina and Sabinos</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr011</idno>
+                <idno type="number" subtype="second-edition">011</idno>
+                <idno type="TM">738907</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr011</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr011</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr011</idno>
+                
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">2073</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Stele</objectType> of local <material>limestone</material>, red from earth, broken off at top obliquely 
+                                         and at right below;
+                                         (<dimensions>
+                                             <width>0.38</width>
+                                             <height>0.98</height>
+                                             <depth min="0.20" max="0.21">0.20-0.21</depth>
+                                         </dimensions>); inside an oval medalion 
+                                         (<dimensions>
+                                             <width>0.35</width>
+                                             <height>0.40</height>
+                                         </dimensions>), 
+                                        two carved busts, at left a girl in a mourning attitude, at right a boy with a round face and short hair on the forehead.
+                                        </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> under each bust (a at left on 5 lines, b at right on 6 lines); both poems 
+                                    are not exactly displayed in columns, but the segments of lines belonging to each of them are separated by stops.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height>; alpha with dropped bar, pi with both equal vertical strokes, very small omicron, phi with tall hasta; an omitted sigma at a.2 was added in small dimension overline.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="0001" notAfter="0100" precision="medium" resp="JMR">First century AD</origDate>
+                        </origin>
+                        
+                        
+                        <provenance type="found" notBefore="1972" notAfter="1975">
+                            <p>Found between 1972 and 1975 in 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1427" key="http://pleiades.stoa.org/places/373853">Martūbah</placeName>.</p>
+                            
+                        </provenance>
+                        <provenance type="observed" when="1993" resp="cdl">
+                            <p>Observed in 1993 by Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                            <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs> (photography not possible).</p>
+                        </provenance>
+                        <provenance type="observed" when="2022" resp="struffolino">
+                            <p>Observed and photographed in December 2022 by Struffolino in the storeroom of the same Museum.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/85074" key="Martūbah">Martūbah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-01-12" who="Alice">added ref to the first edition</change>
+                <change when="2023-08-25" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-08" who="Alice">It. translation; checked</change>
+            <change when="2017-02-28" who="CDL">tagged w and lemma; overall check</change>
+            <change when="2014-04-08" who="cdl">file created; lemma, bibliography, text, apparatus, Fr. and Engl. translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80435/3/gvcyr011-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80435http://hdl.handle.net/20.500.14008/80437">View of gvcyr011 Epitaph of Crispina and Sabinos</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80437/3/gvcyr011-2-face.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80437">Face of gvcyr011 Epitaph of Crispina and Sabinos</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr1996"/>, n. <citedRange>2</citedRange> (no image)</bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>1997.710</citedRange></bibl> and
+                    <bibl><ptr target="#AE"/>, <citedRange>1996, 1670</citedRange> (Laronde)</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>46.2212</citedRange></bibl>;
+                    <bibl><ptr target="#GVCyr"/> <citedRange>011</citedRange></bibl>.
+                Cf. <bibl><ptr target="#cdl2014a"/>, p. <citedRange>324</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2009</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                    
+                <div type="textpart" subtype="section" n="a">
+                <lg met="elegiac couplet">
+                <l n="1" met="hexameter">
+                    <seg real="+--|+--|++|+--|+--|+-"><lb n="1"/><w lemma="σῶμα">Σῶμα</w> μὲν <w lemma="οὗτος">οὗτος</w> 
+                    <lb n="2"/><w lemma="ἔχω">ἔχι</w> <w lemma="παῖς">παιδὸς</w> <w lemma="τάφος">τάφος</w>, 
+                    <lb n="3"/><w lemma="εἰς">εἰς</w> <w lemma="μάκαρ">μακάρων</w> δὲ</seg></l>
+                <l n="2" met="pentameter">
+                    <seg real="++|++|+|+--|+--|-"><w lemma="χῶρος">χῶ<lb break="no" n="4"/>ρον</w> <persName type="attested" key=""><name nymRef="#Κρισπίνα">Κρι<hi rend="superscript">σ</hi>πίνας</name></persName> <w lemma="ψυχά">ψυχὰ</w> 
+                    <lb n="5"/><w lemma="ἐνοικέω">ἐνῳκίσατο</w>. <space extent="unknown" unit="character"/>
+                    <lb n="5a"/><space quantity="1" unit="line"/></seg></l>
+                </lg>
+            </div>
+                            
+            <div type="textpart" subtype="section" n="b">
+            <lg met="elegiac couplet">
+            <l n="1" met="hexameter">  
+                <seg real="+--|+--|+--|++|+--|+-"><lb n="1"/><w lemma="δάκρυον">Δάκρυα</w> <w lemma="πατήρ">πατ<supplied reason="lost">ρὶ</supplied></w> 
+                <lb n="2"/><w lemma="λείπω">λιπὼν</w> <w lemma="ἱερός">ἱερὸ<supplied reason="lost">ς</supplied></w>                
+                <lb n="3"/><w lemma="παῖς">παῖς</w> <w lemma="ἔνθα">ἔνθα</w> <persName type="attested" key=""><name nymRef="#Σαβῖνος"><supplied reason="lost">Σα</supplied><lb n="4" break="no"/>βῖνος</name></persName></seg></l>
+            <l n="2" met="pentameter"> 
+                <seg real="++|++|+|+--|+--|+"><w lemma="κεῖμαι">κεῖ<supplied reason="lost" cert="low">ται</supplied></w> 
+            <lb n="5"/><w lemma="ὅς1" type="relative">τὸν</w> <w lemma="κοῦφος">κούφη</w> <w lemma="γαῖα"><supplied reason="lost">γ</supplied><unclear>α</unclear>ῖ<supplied reason="lost">α</supplied></w>
+            <lb n="6"/><w lemma="τάφος">τάφοισ<supplied reason="lost">ιν</supplied></w> 
+                    <w lemma="ἔχω">ἔχ<unclear>ο</unclear><supplied reason="lost">ι</supplied></w>.</seg>
+            </l>
+            </lg>
+            </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="a.2">
+                        <lem>Κρι<hi rend="superscript">σ</hi>πίνας</lem><note>Struffolino's observation.</note>
+                        <rdg resp="#GVCyr">Κρι<supplied reason="omitted">σ</supplied>πίνας</rdg>
+                    </app>
+                    <app loc="b.2">
+                        <lem>λιπὼν ἱερὸ<supplied reason="lost">ς</supplied></lem>
+                        <rdg resp="#mohamed-jmr1996 #cdlBE #AE"> <note>linebreak omitted, <foreign xml:lang="grc">λιπών</foreign> given at l. 1 and <foreign xml:lang="grc">ἱερός</foreign>
+                    omitted, whence a shift of the following lines and a different metrical analysis</note></rdg>
+                    </app>
+                    <app loc="b.3">
+                        <lem>ἔνθα</lem>
+                        <rdg resp="#mohamed-jmr1996">ἐνθά<supplied reason="lost">δε</supplied></rdg>
+                    </app>
+                    <app loc="b.3-4">
+                        <lem><supplied reason="lost">Σα</supplied><lb break="no"/>βῖνος</lem>
+                            <rdg resp="#mohamed-jmr1996"><supplied reason="lost">Ἀλ</supplied><lb break="no"/>βῖνος</rdg>
+                            <rdg resp="#mohamed-jmr1996"><supplied reason="lost">Καλ</supplied><lb break="no"/>βῖνος</rdg>
+                    </app>
+                </p>     
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>a) Un corps d'enfant est enfermé dans cette tombe ; l'âme de Krispina, elle, a pris demeure au pays des bienheureux.</p>                    
+                <p>b) N'ayant laissé que des larmes à son père, un merveilleux enfant, Sabinos, gît ici; légère soit la terre qui le retient en sa tombe !</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>a) A child's body is enclosed into this tomb; but Krispina's soul has gone to settle down in the land of the blessed ones.</p>
+                <p>b) Having left but tears to his father, a wonderful child, Sabinos, lies here; may be light the earth that keeps him in his tomb! </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>a) Un corpo di fanciulla è racchiuso in questa tomba; ma l'anima di Krispina ha preso dimora nella terra dei beati.</p>
+                <p>b) Lasciate al padre solo le lacrime, un meraviglioso bambino, Sabinos, qui giace; gli sia lieve la terra che copre la sua tomba!</p>
+            </div><div type="commentary">
+                
+                <p>The date is suggested on J. Reynolds' assesment: 'Julio-Claudian or Flavian'</p>
+                <p>Mohamed and Reynolds in their contribution of 1996 intended to give a provisional discussion of the area of new discoveries in the Cyrenaican 'Far East' 
+                    rather than a thorough epigraphical publication, the more so that the placement of the stone in the Cyrene Museum prevented to take any photograph. 
+                    Dobias-Lalou had the opportunity to study the stone with them in 1993 and again later on and they agreed with her observation about the line that had
+                    slipped away in part b.</p>
+                <p>The erection of one and the same monument and the young age of the deceased, attested both through the wording and the busts, allow to suppose that
+                they were sister and brother and died at the same time or within a small span of time. Nothing is known about the reason of their death.</p>
+                <p>At b. 3-4 the name of the boy should be restored either with a short syllable beginning with a consonant or with a long syllable beginning with a vowel, leading
+                to the elision of the final <foreign xml:lang="grc">α</foreign> of <foreign xml:lang="grc">ἔνθα</foreign>. Although <foreign xml:lang="grc">Ἀλβῖνος</foreign> would 
+                    be possible, we prefer <foreign xml:lang="grc">Σαβῖνος</foreign>, which is already attested in Cyrenaica.</p>
+                <p>Additional commentary: On Struffolino's visit in December 2022, the stone was again in a position allowing photos to be made. Unfortunately, the lower left angle has been split off and some letters which were 
+                    clear in 1993 are now lost: the reading would now be <foreign xml:lang="grc">ἔνθ<supplied reason="lost">α</supplied></foreign> at b.3, <foreign xml:lang="grc">κε<unclear>ῖ</unclear><supplied reason="lost">ται</supplied></foreign> 
+                at b.4, whereas <foreign xml:lang="grc">γαῖα</foreign> is wholly lost at b.5.</p>
+                <p>Metrical analysis: for each child, an elegiac couplet.</p>
+            </div></body>
+    </text>
+</TEI>

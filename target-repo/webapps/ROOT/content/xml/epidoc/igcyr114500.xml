@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">List of men</rs>, perhaps heads of an association</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr114500</idno>
+                <idno type="number" subtype="second-edition">114500</idno>
+                <idno type="TM">738697</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr114500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr114500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr114500</idno>
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>stele</objectType> with a horizontal channel cut through the front face at
+                                        about <dim type="distance">0.35</dim> from the top before it was inscribed; later recut at right and back for re-use                                        
+                                        (<dimensions>
+                                            <width>0.39</width>
+                                            <height>2.175</height>
+                                            <depth>0.32</depth>
+                                        </dimensions>). A hole near the left edge anteceded the inscription, so that lines 42-44 begin at some distance from the left rim.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face and left-hand side (perhaps also on the right lost side); traces of guidelines;
+                                many different entries, of which height and description of the hands are estimated under Dobias-Lalou's responsability from editor's photograph.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>     
+                            <handNote xml:id="m1">Hand 1: height unknown.</handNote>
+                            <handNote xml:id="m2">Hand 2: <height min="0.035" max="0.038">0.035-0.038</height>, alpha with dropped bar, classical pi, moderately slanting sigma.</handNote>
+                            <handNote xml:id="m3">Hand 3: <height>0.025</height>, alpha with dropped bar, dotted theta, pi with projecting upper bar, non-slanting sigma.</handNote>
+                            <handNote xml:id="m4">Hand 4: <height>0.038</height>, alpha with straight bar, smaller omicron, rho with very small loop, slanting sigma.</handNote>
+                            <handNote xml:id="m5">Hand 5: <height min="0.016" max="0.022">0.022 (ll. 11-12); 0.016 (ll. 13-14)</height>, slight serifs, alpha with broken bar, non-slanting
+                            sigma, calice-shaped upsilon.</handNote>
+                            <handNote xml:id="m6">Hand 6: <height>0.019</height>, slight serifs, pi with projecting upper bar, non-slanting sigma, calice-shaped upsilon.</handNote>
+                            <handNote xml:id="m7">Hand 7: <height min="0.019" max="0.028">0.00.019-0.028 (phi, psi)</height>, broad nu, phi with small and flat loop, psi with
+                            tall vertical and short oblique strokes.</handNote>
+                            <handNote xml:id="m8">Hand 8: <height>0.019</height>, serifs, smaller delta and circular letters.</handNote>
+                            <handNote xml:id="m9">Hand 9: <height>0.019</height>, serifs, rho with large loop.</handNote>
+                            <handNote xml:id="m10">Hand 10: <height>0.017</height>, slight serifs of non-slanting sigma, horseshoe omega.</handNote>
+                            <handNote xml:id="m11">Hand 11: <height>0.019</height>, slight serifs, non-slanting sigma, xi without central vertical stroke.</handNote>
+                            <handNote xml:id="m12">Hand 12: <height>0.022</height>, serifs, dropped bar alpha, tall beta, rho with samll loop.</handNote>
+                            <handNote xml:id="m13">Hand 13: <height min="0.019" max="0.023">0.019-0.023</height>, marked serifs, alpha with dropped bar, phi with flattened loop low on the vertical stroke.</handNote>
+                            <handNote xml:id="m14">Hand 14: <height>0.016</height>, nearly no serifs.</handNote>
+                            <handNote xml:id="m15">Hand 15: <height>0.019</height>, deeply cut with serifs, broad letters.</handNote>
+                            <handNote xml:id="m16">Hand 16: <height>0.022</height>, deeply cut, serifs; narrow beta, calice-shaped upsilon, phi with very small oval loop.</handNote>
+                            <handNote xml:id="m17">Hand 17: <height>0.025</height>, serifs, rho with loop tending to be square, nice oval loop of phi.</handNote>
+                            <handNote xml:id="m18">Hand 18: <height>0.018</height>, nearly no serifs, beta with upper loop smaller than lower, broad non-slanting sigma.</handNote>
+                            <handNote xml:id="m19">Hand 19: <height min="0.025" max="0.031">0.025-0.031</height>, serifs, pi with projecting upper bar, some sigmas slighlty slanting, phi with much flattened loop.</handNote>
+                            <handNote xml:id="m20">Hand 20: <height min="0.027" max="0.03">0.027-0.03</height>, carelessly aligned letters, no serifs, but for omega.</handNote>
+                            <handNote xml:id="m21">Hand 21: <height>0.022</height>, nearly no serifs, broad sigma.</handNote>
+                            <handNote xml:id="m22">Hand 22: <height>0.013</height>, broad sigma.</handNote>
+                            <handNote xml:id="m23">Hand 23: <height>0.024</height>, perhaps no serifs, irregular sigmas.</handNote>
+                            <handNote xml:id="m24">Hand 24: <height>0.025</height>, too badly damaged to allow any description.</handNote>
+                            <handNote xml:id="m25">Hand 25: <height>0.025</height>, no marked serifs, rho with loop tending to be square, slightly slanting sigma.</handNote>
+                            <handNote xml:id="m26">Hand 26: <height>0.024</height>, no real serifs, mu with four oblique strokes nearly equal, not at all slanting sigma.</handNote>
+                            <handNote xml:id="m27">Hand 27: <height>0.025</height>, no serifs, rho with samll loop cut right-to-left, horse-shoe omega.</handNote>
+                            <handNote xml:id="m28">Hand 28: <height>0.025</height>, no serifs, rectangular epsilon, lunate omega.</handNote>
+                            <handNote xml:id="m29">Hand 29: <height>0.025</height>, no serifs, not allowing further description.</handNote>
+                            <handNote xml:id="m30">Hand 30: <height>0.025</height>, no serifs, carelessly cut, rho with small square loop.</handNote>
+                            <handNote xml:id="m31">Hand 31: <height>0.019</height>, see above.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>.</origPlace>
+                            <origDate notBefore="-0250" notAfter="-0075" precision="medium" evidence="lettering">From mid third century to first quarter of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="2005">
+                                    <p>Found in 2005 by the Polish Mission during survey at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>: re-used in a wall,
+                                        half way between the <rs type="monuList" ref="https://www.slsgazetteer.org/946">Theatre</rs> and the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/937">Tokra Gate</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="2006">
+                                    <p>Observed by A. Łajtar in 2006 at <placeName type="modernSpot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1096">Tolmeita Museum</rs>, probably in the storeroom of the Polish mission.</p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Editor's transcription.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2022-03-18" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-28" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">checked</change>
+            <change when="2017-02-08" who="CDL">overall check; Ital. translation</change>
+            <change when="2014-02-07" who="CDL+HB">lemma, text, apparatus, commentary; Fr. and Engl. translations</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-09-01" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77539/3/igcyr114500-1-ll.1-10.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77539">Lines 1-10 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77540/3/igcyr114500-2-ll.1-10.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77540">Lines 1-10 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77541/3/igcyr114500-3-ll.11-20.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77541">Lines 11-20 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77542/3/igcyr114500-4-ll.17-26.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77542">Lines 17-26 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77543/3/igcyr114500-5-ll.24-31.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77543">Lines 24-31 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77544/3/igcyr114500-6-ll.29-36.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77544">Lines 29-36 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77545/3/igcyr114500-7-ll.35-43.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77545">Lines 35-43 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77546/3/igcyr114500-8-ll.42-50.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77546">Lines 42-50 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77547/3/igcyr114500-9-ll.50-53.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77547">Lines 50-53 of igcyr114500 List of names</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77548/3/igcyr114500-10-ll.57-69.tiff.jpg" corresp="igcyr114500" decls="#photograph"><desc resp="Małkowski, W." source="Polish Archaeological Mission to Ptolemais" n="2005"><ref target="http://hdl.handle.net/20.500.14008/77548">Lines 57-69 of igcyr114500 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#łajtar2010"/><citedRange/></bibl> and
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2011.658</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>60.1844</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>114500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="face" n="a">
+                    <ab>
+                        <lb n="1"/><space unit="character" quantity="1"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><handShift new="#m1"/><gap reason="lost" quantity="1" unit="character"/><orig>ασ</orig><gap reason="lost" quantity="1" unit="character"/><orig>σ</orig><gap reason="lost" quantity="1" unit="character"/><orig>σ</orig><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+                        <lb n="2a"/><space quantity="2" unit="line"/>
+                        <lb n="3"/><handShift new="#m2"/><persName type="attested" key=""><name nymRef="#Νίκαιος">Νίκαιο<space quantity="2" unit="character"/>ς</name> 
+                            <persName type="attested" key=""><name nymRef="#Κτησικλῆς" type="patronymic">Κτησικλ<supplied reason="lost">έους</supplied></name></persName></persName>
+                        <lb n="4"/><persName type="attested" key=""><name nymRef="#Φίλιππος">Φίλιππος</name> 
+                            <persName type="attested" key=""><name nymRef="#Δημήτριος" type="patronymic">Δημητ<supplied reason="lost">ρίου</supplied></name></persName></persName>
+                        <lb n="5"/><handShift new="#m3"/><persName type="attested" key=""><name nymRef="#Θεόφιλος">Θεόφιλος</name> 
+                            <persName type="attested" key=""><name nymRef="#Σώσιππος" type="patronymic">Σωσίππο<supplied reason="lost">υ</supplied></name></persName></persName>
+                        <lb n="6"/><persName type="attested" key=""><name nymRef="#Δημήτριος">Δημήτριος</name> 
+                            <persName type="attested" key=""><name nymRef="#Σευθας" type="patronymic">Σευθα</name></persName></persName>
+                        <lb n="7"/><persName type="attested" key=""><name nymRef="#Ἄριστις">Ἄριστις</name> 
+                            <persName type="attested" key=""><name nymRef="#Φιλωνίδης" type="patronymic">Φιλωνίδο<unclear>υ</unclear></name></persName></persName>
+                        <lb n="8"/><handShift new="#m4"/><persName type="attested" key=""><name nymRef="#Χρήσιμος">Χρήσιμος</name> 
+                            <persName type="attested" key=""><name nymRef="#Νικα-" type="patronymic"><seg part="I">Νικ<unclear>α</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="9"/><persName type="attested" key=""><name nymRef="#Νικάνωρ">Νικάνωρ</name> 
+                            <persName type="attested" key=""><name nymRef="#Καλλι_" type="patronymic"><seg part="I">Καλλι</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="10"/><persName type="attested" key=""><name nymRef="#Ζώπυρος">Ζώπυρος</name> 
+                            <persName type="attested" key=""><name nymRef="#Χρησ_" type="patronymic"><seg part="I">Χρησ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="10a"/><space quantity="3" unit="line"/>
+                        <lb n="11"/><handShift new="#m5"/><persName type="attested" key=""><name nymRef="#Ἑρμοκράτης">Ἑρμοκράτης</name> 
+                            <persName type="attested" key=""><name nymRef="#Θέων" type="patronymic">Θέ<unclear>ω</unclear><supplied reason="lost">νος</supplied></name></persName></persName>
+                        <lb n="12"/><persName type="attested" key=""><name nymRef="#Εὖφρις">Εὖφρις</name> <space quantity="2" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Ἡρακλε_" type="patronymic"><seg part="I">Ἡρακλε</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="13"/><persName type="attested" key=""><name nymRef="#Ἁγήτωρ">Ἁγήτωρ</name> <space quantity="2" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Θευφάνης" type="patronymic">Θευφάν<unclear>ο</unclear><supplied reason="lost">υς</supplied></name></persName></persName>
+                        <lb n="14"/><w>εὐεργέτης</w> καὶ <rs type="office" key="priest"><w lemma="ἱερεύς">ἱερεύς</w></rs>
+                        <lb n="15"/><handShift new="#m6"/><persName type="attested" key=""><name nymRef="#Δωρίων">Δωρίων</name> <space quantity="3" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Δωρόθεος" type="patronymic">Δωροθέου</name></persName></persName>
+                        <lb n="16"/><persName type="attested" key=""><name nymRef="#Μηνόδωρος">Μηνόδωρος</name> <space quantity="1" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Ζώπυρος" type="patronymic">Ζωπύρο<unclear>υ</unclear></name></persName></persName>
+                        <lb n="17"/><handShift new="#m7"/><persName type="attested" key=""><name nymRef="#Ὄρθων">Ὄρθων</name> <space quantity="2" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Ὄρθων" type="patronymic">Ὄρθωνος</name></persName></persName>
+                        <lb n="18"/><persName type="attested" key=""><name nymRef="#Ψάφων">Ψάφων</name> <space quantity="1" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Ψάφων" type="patronymic">Ψάφωνος</name></persName></persName>
+                        <lb n="19"/><handShift new="#m8"/><persName type="attested" key=""><name nymRef="#Μάρων">Μάρων</name> 
+                            <persName type="attested" key=""><name nymRef="#Μάρων" type="patronymic">Μάρωνος</name></persName></persName>
+                        <lb n="20"/><persName type="attested" key=""><name nymRef="#Ἀρτεμίδωρος">Ἀρτεμίδωρος</name> 
+                            <persName type="attested" key=""><name nymRef="#Αἴσχας" type="patronymic">Αἴσχα</name></persName></persName>
+                        <lb n="21"/><handShift new="#m9"/><persName type="attested" key=""><name nymRef="#Πτολεμαῖος">Πτολεμαῖος</name> 
+                            <persName type="attested" key=""><name nymRef="#Ἀρχέπολις" type="patronymic">Ἀρχεπόλιος</name></persName></persName>
+                        <lb n="22"/><persName type="attested" key=""><name nymRef="#Διοσκουρίδης">Διοσκουρίδης</name> 
+                            <persName type="attested" key=""><name nymRef="#Διοτ_" type="patronymic"><seg part="I">Διοτ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="23"/><handShift new="#m10"/><persName type="attested" key=""><name nymRef="#Ὄρθων">Ὄρθων</name> 
+                            <persName type="attested" key=""><name nymRef="#Ὄρθων" type="patronymic">Ὄρθωνος</name></persName></persName> <space quantity="1" unit="character"/> <w lemma="νέος">νεώ<unclear>τ</unclear><supplied reason="lost">ερος</supplied></w>
+                        <lb n="24"/><persName type="attested" key=""><name nymRef="#Σώστρατος">Σώστρατος</name> 
+                            <persName type="attested" key=""><name nymRef="#Θεόδωρος" type="patronymic">Θεοδώρου</name></persName></persName>
+                        <lb n="25"/><handShift new="#m11"/><persName type="attested" key=""><name nymRef="#Σκόπας">Σκόπας</name> <space quantity="1" unit="character"/> <persName type="attested" key=""><name nymRef="#Ξενόλαος" type="patronymic">Ξενολάου</name></persName></persName>
+                        <lb n="26"/><persName type="attested" key=""><name nymRef="#Πραξίας">Πραξίας</name> <space quantity="1" unit="character"/> <persName type="attested" key=""><name nymRef="#Πραξίας" type="patronymic"><supplied reason="lost">Π</supplied><unclear>ρ</unclear>αξία</name></persName></persName>
+                        <lb n="27"/><handShift new="#m12"/><persName type="attested" key=""><name nymRef="#Βαρκαῖος">Βαρκαῖος</name> <space quantity="2" unit="character"/> <persName type="attested" key=""><name nymRef="#Φίλων" type="patronymic">Φίλωνος</name></persName></persName>
+                        <lb n="28"/><persName type="attested" key=""><name nymRef="#Δόρκος">Δόρκο<supplied reason="lost">ς</supplied></name> <space quantity="3" unit="character"/> <persName type="attested" key=""><name nymRef="#Φίλων" type="patronymic">Φίλωνος</name></persName></persName>
+                        <lb n="29"/><handShift new="#m13"/><persName type="attested" key=""><name nymRef="#Ἀριστέας">Ἀριστέας</name> 
+                            <persName type="attested" key=""><name nymRef="#Εὐφράνωρ" type="patronymic">Εὐφράν<supplied reason="lost">ορος</supplied></name></persName></persName>
+                        <lb n="30"/><handShift new="#m14"/><persName type="attested" key=""><name nymRef="#Ζαιγαῖος">Ζ<unclear>αι</unclear>γα<unclear>ῖ</unclear><supplied reason="lost">ο</supplied>ς</name> 
+                            <persName type="attested" key=""><name nymRef="#Διονύσιος" type="patronymic">Διονυσίου</name></persName></persName>
+                        <lb n="30a"/><space quantity="1" unit="line"/>
+                        <lb n="31"/><persName type="attested" key=""><name nymRef="#Δημοφῶν">Δημοφῶν</name> 
+                            <persName type="attested" key=""><name nymRef="#Δημοφῶν" type="patronymic">Δημοφῶντος</name></persName></persName>
+                        <lb n="32"/><handShift new="#m15"/><persName type="attested" key=""><name nymRef="#Σωσίβιος">Σωσίβιος</name> 
+                            <persName type="attested" key=""><name nymRef="#Νόμος" type="patronymic">Νόμου</name></persName></persName> <space quantity="2" unit="character"/> <rs type="office" key="priest"><w lemma="ἱερεύς">ἱε<supplied reason="lost">ρεύς</supplied></w></rs>
+                        <lb n="33"/><persName type="attested" key=""><name nymRef="#Εὔνους">Εὔνους</name> <space quantity="2" unit="character"/> <persName type="attested" key=""><name nymRef="#Νίκων" type="patronymic">Νίκωνος</name></persName></persName>
+                        <lb n="34"/><persName type="attested" key=""><name nymRef="#Σωσίβιος">Σωσίβιος</name> <space quantity="1" unit="character"/> <persName type="attested" key=""><name nymRef="#Σαραφίων" type="patronymic">Σαραφίων<unclear>ο</unclear><supplied reason="lost">ς</supplied></name></persName></persName>                        
+                        <lb n="35"/><handShift new="#m16"/><persName type="attested" key=""><name nymRef="#Εὐτυχίδης">Εὐτυχίδης</name> 
+                            <persName type="attested" key=""><name nymRef="#Εὐφράνωρ" type="patronymic">Εὐ<unclear>φ</unclear>ρ<unclear>ά</unclear><supplied reason="lost">νορος</supplied></name></persName></persName>         
+                        <lb n="36"/><persName type="attested" key=""><name nymRef="#Σωτάδας">Σωτάδας</name> 
+                            <persName type="attested" key=""><name nymRef="#Δᾶμις" type="patronymic">Δάμ<supplied reason="lost">ιος</supplied></name></persName></persName>
+                        <lb n="37"/><handShift new="#m17"/><persName type="attested" key=""><name nymRef="#Εὐφράνωρ">Εὐφράνωρ</name> 
+                            <persName type="attested" key=""><name nymRef="#Ἀριστέας" type="patronymic">Ἀρι<supplied reason="lost">στέα</supplied></name></persName></persName>
+                        <lb n="38"/><handShift new="#m18"/><persName type="attested" key=""><name nymRef="#Διόδωρος">Διόδωρος</name> 
+                            <persName type="attested" key=""><name nymRef="#Βίων" type="patronymic">Βίωνος</name></persName></persName>
+                        <lb n="39"/><handShift new="#m19"/><persName type="attested" key=""><name nymRef="#Σφαῖρος">Σφαῖρος</name> 
+                            <persName type="attested" key=""><name nymRef="#Ἀπολλ_" type="patronymic"><seg part="I">Ἀπολ<unclear>λ</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="40"/><persName type="attested" key=""><name nymRef="#Δίσκος">Δίσκος</name> 
+                            <persName type="attested" key=""><name nymRef="#Ἀπολλ_" type="patronymic"><seg part="I">Ἀπολλ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="41"/><persName type="attested" key=""><name nymRef="#Ὀνήσιμος">Ὀνήσιμος</name> 
+                            <persName type="attested" key=""><name nymRef="#Λυσ_" type="patronymic"><seg part="I">Λυ<unclear>σ</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="42"/><handShift new="#m20"/><space quantity="4" unit="character"/> <persName type="attested" key=""><name nymRef="#Δίσκος">Δίσκος</name> 
+                            <space quantity="1" unit="character"/><persName type="attested" key=""><name nymRef="#Δίσκος" type="patronymic">Δ<supplied reason="lost" cert="low">ίσκου</supplied></name></persName></persName>
+                        <lb n="43"/><space quantity="4" unit="character"/> <persName type="attested" key=""><name nymRef="#Σωτήριχος">Σωτήριχο<supplied reason="lost">ς</supplied></name> 
+                            <persName type="attested" cert="low"><name type="patronymic" cert="low"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="44"/><space quantity="4" unit="character"/> <persName type="attested" key=""><name nymRef="#Πρώταρχος">Πρώταρχος</name> 
+                            <persName type="attested" cert="low"><name type="patronymic" cert="low"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="45"/><handShift new="#m21"/><persName type="attested" key=""><name nymRef="#Ὀνήσιμος">Ὀνήσιμος</name> 
+                            <persName type="attested" key=""><name nymRef="#Σωσίβιος" type="patronymic">Σωσιβίο<supplied reason="lost">υ</supplied></name></persName></persName>
+                        <lb n="46"/><persName type="attested" key=""><name nymRef="#Ἁγήσαρχος">Ἁγήσαρχος</name> 
+                            <persName type="attested" key=""><name nymRef="#Δίσκος" type="patronymic">Δίσκ<supplied reason="lost">ου</supplied></name></persName></persName>
+                        <lb n="47"/><persName type="attested" key=""><name nymRef="#Νουμήνιος">Νουμήνιος</name> 
+                            <persName type="attested" key=""><name nymRef="#Καλλι_" type="patronymic"><seg part="I">Καλλι<choice><unclear>ν</unclear><unclear>μ</unclear></choice></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="48"/><handShift new="#m22"/><persName type="attested" key=""><name nymRef="#Λυσανίας"><unclear>Λυσ</unclear>ανίας</name> <space quantity="1" unit="character"/> 
+                            <persName type="attested" key=""><name nymRef="#Ὀνήσιμος" type="patronymic">Ὀνη<unclear>σ</unclear>ί<unclear>μου</unclear></name></persName></persName>
+                        <lb n="49"/><persName type="attested" key=""><name nymRef="#Ἀμμώνιος"><unclear>Ἀ</unclear><supplied reason="lost">μμ</supplied>ώνιος</name> 
+                            <persName type="attested" key=""><name nymRef="#Εὐφράνωρ" type="patronymic">Εὐφράνο<supplied reason="lost">ρος</supplied></name></persName></persName>
+                        <lb n="50"/><handShift new="#m23"/><persName type="attested" key=""><name nymRef="#Σώφρων">Σώφρων</name> 
+                            <persName type="attested" key=""><name nymRef="#Εὔδωρος" type="patronymic">Εὐδώρω</name></persName></persName>
+                        <lb n="50a"/><space quantity="1" unit="line"/>
+                        <lb n="51"/><handShift new="#m24"/><persName type="attested" key=""><name nymRef="#_ικ_"><gap reason="illegible" quantity="3" unit="character"/><seg part="M">ικ</seg><gap reason="lost" quantity="2" unit="character"/></name></persName> 
+                            <persName type="attested" key=""><name nymRef="#Ἡρακλείδης" type="patronymic"><supplied reason="lost" cert="low">Ἡρ</supplied>
+                                <unclear>α</unclear><supplied reason="lost">κ</supplied><unclear>λ</unclear>είδ<unclear>ο</unclear><supplied reason="lost">υ</supplied></name></persName>
+                        <lb n="52"/><persName type="attested" key=""><name nymRef="#Γλαυκ_"><seg part="I">Γλαυκ</seg><gap reason="lost" extent="unknown" unit="character"/></name> 
+                            <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="53"/><persName type="attested" key=""><name nymRef="#Σπινθ_"><seg part="I">Σ<unclear>π</unclear>ι<unclear>ν</unclear><supplied reason="lost">θ</supplied></seg><gap reason="lost" extent="unknown" unit="character"/></name> 
+                            <persName type="attested" key=""><name type="patronymic"><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>
+                        <lb n="53a"/><gap reason="lost" quantity="3" unit="line"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="b">
+                    <ab>
+                        <lb n="57"/><handShift new="#m25"/><persName type="attested" key=""><name nymRef="#_οδωρος"><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><seg part="F"><unclear>ο</unclear>δω<supplied reason="lost">ρ</supplied><unclear>ο</unclear>ς</seg></name> 
+                            <persName type="attested" key=""><name nymRef="#Υρατθις" type="patronymic">Υρ<unclear>α</unclear><supplied reason="lost">τθιος</supplied></name></persName></persName>
+                        <lb n="58"/><persName type="attested" key=""><name nymRef="#Ἀπολλοφάνης">Ἀπολλοφάνης</name> 
+                            <persName type="attested" key=""><name nymRef="#Ἀλέξανδρος" type="patronymic">Ἀλεξάνδρ<unclear>ου</unclear></name></persName></persName>
+                        <lb n="59"/><handShift new="#m26"/><persName type="attested" key=""><name nymRef="#Ἀρτεμίδωρος"><unclear>Ἀ</unclear>ρτεμίδωρος</name> 
+                            <persName type="attested" key=""><name nymRef="#Διονύσιος" type="patronymic">Διονυσίου</name></persName></persName>
+                        <lb n="60"/><persName type="attested" key=""><name nymRef="#_αις"><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><seg part="F">αις</seg></name> <space quantity="1" unit="character"/>
+                            <persName type="attested" key=""><name nymRef="#Νίκων" type="patronymic">Νίκωνος</name></persName></persName>
+                        <lb n="61"/><handShift new="#m27"/><persName type="attested" key=""><name nymRef="#_ων"><gap reason="lost" atLeast="3" atMost="4" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><seg part="F">ντος</seg></name> 
+                            <persName type="attested" key=""><name nymRef="#Ἕρμων" type="patronymic">Ἕ<hi rend="reversed">ρ</hi>μωνος</name></persName></persName>
+                        <lb n="62"/><handShift new="#m28"/><persName type="attested" key=""><name nymRef="#_κρέων"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><seg part="F">κρέω<unclear>ν</unclear></seg></name> 
+                            <persName type="attested" key=""><name nymRef="#_ρος" type="patronymic"><gap reason="illegible" quantity="3" unit="character"/><seg part="F">ρο<unclear>υ</unclear></seg></name></persName></persName>
+                        <lb n="63"/><handShift new="#m29"/><persName type="attested" key=""><name nymRef="#Βαρκαῖος"><supplied reason="lost" cert="low">Βαρκ</supplied>αῖος</name> 
+                            <persName type="attested" key=""><name nymRef="#Φίλων" type="patronymic">Φίλωνος</name></persName></persName>
+                        <lb n="64"/><persName type="attested"><name nymRef="#_ανανων_"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><seg part="M"><orig>ανανων</orig></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="65"/><handShift new="#m30"/><persName type="attested" key=""><name nymRef="#_σιος"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><seg part="F"><unclear>σ</unclear>ιος</seg></name> 
+                            <persName type="attested" key=""><name nymRef="#Κράτις" type="patronymic">Κράτιος</name></persName></persName>
+                        <lb n="66"/><persName type="attested" key=""><name nymRef="#Ποσειδώνιος"><supplied reason="lost">Πο</supplied>σειδώνιος</name> 
+                            <persName type="attested" key=""><name nymRef="Ἀρίστιππος" type="patronymic">Ἀριστίππου</name></persName></persName>
+                        <lb n="67"/><persName type="attested" key=""><name nymRef="#Φιλώτας"><supplied reason="lost">Φι</supplied>λώτας</name><space quantity="1" unit="character"/> 
+                            <persName type="attested" key=""><name nymRef="#Φιλώτας" type="patronymic">Φιλώτα</name></persName></persName>
+                        <lb n="68"/><handShift new="#m31"/><persName type="attested" key=""><name nymRef="#Ἄνταλλος"><supplied reason="lost">Ἄ</supplied>νταλλος</name></persName>
+                                <space extent="unknown" unit="character"/>
+                        <lb n="69"/><persName type="attested" key=""><name nymRef="#Ἐπικράτης"><supplied reason="lost">Ἐ</supplied>πικράτης</name></persName>
+                                <space extent="unknown" unit="character"/>
+                        <lb n="69a"/><space atLeast="6" unit="line"/>
+                    </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="20"><lem resp="#cdlBE">Αἴσχα</lem>
+                        <rdg resp="#łajtar2010 #IRCyr">Αἰσχᾶ</rdg></app>
+                    <app loc="36">
+                        <lem>Δάμ<supplied reason="lost">ιος</supplied></lem>
+                        <rdg resp="#łajtar2010"><seg part="I">Δαμ</seg><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="37">
+                        <lem><handShift new="#m17"/></lem>
+                        <rdg resp="#łajtar2010"> <note>no change of hand here in his view, only a smaller dimension of letters</note></rdg>
+                    </app>
+                    <app loc="41">
+                        <lem><seg part="I">Λυ<unclear>σ</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <rdg resp="#łajtar2010">Λυ<unclear>σ</unclear>ανίου</rdg>
+                    </app>
+                    <app loc="43"><lem><persName type="attested" cert="low"><name type="patronymic" cert="low"><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <note>the space of at most 4 letters lost through re-cutting would probably be too short for a father's name</note></lem>
+                        <rdg resp="#łajtar2010"><name><gap reason="lost" extent="unknown" unit="character"/></name></rdg>
+                        
+                    </app>
+                    <app loc="44"><lem><persName type="attested" cert="low"><name type="patronymic" cert="low"><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <note>same as at line 43</note></lem>
+                        <rdg resp="#łajtar2010"><name><gap reason="lost" extent="unknown" unit="character"/></name></rdg>
+                    </app>
+                    <app loc="49">
+                        <lem><handShift new="#m22"/></lem>
+                        <rdg resp="#łajtar2010"> <note>change of hand not registered</note></rdg>
+                    </app>
+                    <app loc="50">
+                        <lem>Εὐδώρω</lem>
+                        <rdg resp="#łajtar2010">Εὐδώρω<unclear>ν</unclear><supplied reason="lost">ος</supplied></rdg>
+                    </app>
+                    <app loc="50a">
+                        <lem><space quantity="1" unit="line"/></lem>
+                        <rdg resp="#łajtar2010"> <note>space not registered</note></rdg>
+                    </app>
+                    <app loc="51">
+                        <lem><gap reason="illegible" quantity="3" unit="character"/>ικ<gap reason="lost" quantity="2" unit="character"/></lem>
+                        <rdg resp="#łajtar2010"><gap reason="illegible" quantity="3" unit="character"/>κ<gap reason="lost" quantity="2" unit="character"/></rdg>
+                    </app>
+                    <app loc="57">
+                        <lem><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><seg part="F"><unclear>ο</unclear>δω<supplied reason="lost">ρ</supplied><unclear>ο</unclear>ς</seg></lem>
+                        <rdg resp="#łajtar2010"><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ο</unclear>δω <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><unclear>ο</unclear>ς</rdg>
+                    </app>
+                    <app loc="61"><lem>Ἕρμωνος <note>rho written right-to-left</note></lem>
+                    </app>
+                    <app loc="62">
+                        <lem><gap reason="lost" atLeast="5" atMost="6" unit="character"/><seg part="F">κρέω<unclear>ν</unclear></seg></lem>
+                        <rdg resp="#łajtar2010"><gap reason="lost" atLeast="5" atMost="6" unit="character"/><orig>κρ<unclear>ε</unclear></orig><gap reason="illegible" quantity="2" unit="character"/></rdg>
+                    </app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> Nikaios fils de Ktèsiklès, Philippos fils de Dèmètrios, (5) Theophilos fils de Sôsippos, Dèmètrios fils de Seuthas, Aristis fils de Simônidès,
+                Chrèsimos fils de Nika<gap reason="lost" extent="unknown" unit="character"/>, Nikanôr fils de Kalli<gap reason="lost" extent="unknown" unit="character"/>, (10) Zôpuros fils de Chrès<gap reason="lost" extent="unknown" unit="character"/>, Hermokratès fils de
+                Théôn, Euphris fils d'Hérakle<gap reason="lost" extent="unknown" unit="character"/>, Hagètôr fils de Theuphanès bienfaiteur et prêtre, (15) Dôriôn fils de Dôrothéos, Mènodôros fils de Zôpyros, 
+                Orthôn fils d'Orthôn, Psaphôn fils de Psaphôn, Marôn fils de Marôn, (20) Artemidôros fils d'Aischas, Ptolémaios fils d'Archepolis, Dioskouridès fils de Diot<gap reason="lost" extent="unknown" unit="character"/>,
+            Orthôn fils d'Orthôn le jeune, Sôstratos fils de Theodôros, (25) Skopas fils de Xénolaos, Praxias fils de Praxias, Barkaios fils de Philôn, Aristeas fils de
+            Euphranôr, (30) Zaigaios fils de Dionysios, Dèmophôn fils de Dèmophôn, Sôsibios fils de Nomos prêtre, Eunous fils de Nikôn, Sôsibios fils de Saraphiôn,
+            (35) Eutychides fils d'Euphranor, Sotadas fils de Damis, Euphranor fils d'Aristeas, Diodoros fils de Bion, Sphairos fils d'Apoll<gap reason="lost" extent="unknown" unit="character"/>, 
+            (40) Diskos fils de Apoll<gap reason="lost" extent="unknown" unit="character"/>, Onèsimos fils de Lys<gap reason="lost" extent="unknown" unit="character"/>, Diskos fils de D<supplied reason="lost">iskos</supplied>,
+            Sôtèrikhos <supplied reason="lost" cert="low">fils d'Untel</supplied>, Prôtarkhos <supplied reason="lost" cert="low">fils d'Untel</supplied>,
+            (45) Onèsimos fils de Sôsibios, Hagèsarkhos fils de Diskos, Noumènios fils de Kalli<gap reason="lost" extent="unknown" unit="character"/>, Lysanias fils d'Onèsimos, Ammônios fils d'Euphranôr, 
+            (50) Sophrôn fils d'Eudoros, <supplied reason="lost">Untel</supplied> fils d'Herakleidès, Glauk<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fils d'Untel</supplied>,
+            Spinth<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fils d'Untel</supplied>, <gap reason="lost" quantity="3" unit="line"/>
+             (57) <gap reason="lost" extent="unknown" unit="character"/>dôros fils d'Yratthis, Apollophanès fils d'Alexandros, Artemidôros fils de Dionysios, (60) <gap reason="lost" extent="unknown" unit="character"/>ais
+            fils de Nikôn, <gap reason="lost" extent="unknown" unit="character"/>ntos fils d'Hermôn, <gap reason="lost" extent="unknown" unit="character"/>kréôn fils de <gap reason="lost" extent="unknown" unit="character"/>ros, <gap reason="lost" extent="unknown" unit="character"/>aios fils de Philôn,
+            <supplied reason="lost">Untel fils d'Untel</supplied>, (65) <gap reason="lost" extent="unknown" unit="character"/>sios fils de Kratis, Poseidônios fils d'Aristippos,
+            Philotas fils de Philotas, Antallos, Epikratès.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> Nikaios son of Ktesikles, Philippos son of Demetrios,(5) Theophilos son of Sosippos, Demetrios son of Seuthas, Aristis son of Simonides,
+                Chresimos son of Nika<gap reason="lost" extent="unknown" unit="character"/>, Nikanor son of Kalli<gap reason="lost" extent="unknown" unit="character"/>, (10) Zopuros son of Chres<gap reason="lost" extent="unknown" unit="character"/>, Hermokrates son of
+            Theon, Euphris son of Herakle<gap reason="lost" extent="unknown" unit="character"/>, Hagetor son of Theuphanes benefactor and priest, (15) Dorion son of Dorotheos, Menodoros son of Zopyros,
+            Orthon son of Orthon, Psaphon son of Psaphon, Maron son of Maron, (20) Artemidoros son of Aischas, Ptolemaios son of Archepolis, Dioscourides son of Diot<gap reason="lost" extent="unknown" unit="character"/>, Orthon son of Orthon the younger, Sostratos son of Theodoros, (25) Skopas son of Xenolaos, Praxias son of Praxias, Barkaios son of Philon, 
+                Aristeas son of Euphranor, (30) Zaigaios son of Dionysios, Demophon son of Demophon, Sosibios son of Nomos priest, Eunous son of Nikon, Sosibios son of 
+                Saraphion, (35) Eutychides son of Euphranor, Sotadas son of Damis, Euphranor son of Aristeas, Diodoros son of Bion, Sphairos son of Apoll<gap reason="lost" extent="unknown" unit="character"/>, (40) Diskos son of Apoll<gap reason="lost" extent="unknown" unit="character"/>, Onesimos son of Lys<gap reason="lost" extent="unknown" unit="character"/>, Diskos son of D<supplied reason="lost">iskos</supplied>,
+            Soterichos <supplied reason="lost" cert="low">son of So-and-so</supplied>, Protarchos <supplied reason="lost" cert="low">son of So-and-so</supplied>,
+            (45) Onesimos son of Sosibios, Hagesarchos son of Diskos, Noumenios son of Kalli<gap reason="lost" extent="unknown" unit="character"/>, Lysanias son of Onesimos, Ammonios son of Euphranor, 
+            (50) Sophron son of Eudoros, <supplied reason="lost">So-and-so</supplied> son of Herakleides, Glauk<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">son of So-and-so</supplied>,
+            Spinth<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">son of So-and-so</supplied>, <gap reason="lost" quantity="3" unit="line"/>
+             (57) <gap reason="lost" extent="unknown" unit="character"/>doros son of Yratthis, Apollophanes son of Alexandros, Artemidoros son of Dionysios, (60) <gap reason="lost" extent="unknown" unit="character"/>ais
+            son of Nikon, <gap reason="lost" extent="unknown" unit="character"/>ntos son of Hermon, <gap reason="lost" extent="unknown" unit="character"/>kreon son of <gap reason="lost" extent="unknown" unit="character"/>ros, <gap reason="lost" extent="unknown" unit="character"/>aios son of Philon,
+            <supplied reason="lost">So-and-so son of So-and-so</supplied>, (65) <gap reason="lost" extent="unknown" unit="character"/>sios son of Kratis, Poseidonios son of Aristippos,
+            Philotas son of Philotas, Antallos, Epikrates.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/> Nikaios figlio di Ktesikles, Philippos figlio di Demetrios, (5) Theophilos figlio di Sosippos, Demetrios figlio di Seuthas, Aristis figlio di Simonides,
+             Chresimos figlio di Nika<gap reason="lost" extent="unknown" unit="character"/>, Nikanor figlio di Kalli<gap reason="lost" extent="unknown" unit="character"/>, (10) Zopuros figlio di Chres<gap reason="lost" extent="unknown" unit="character"/>, Hermokrates figlio di
+            Theon, Euphris figlio di Herakle<gap reason="lost" extent="unknown" unit="character"/>, Hagetor figlio di Theuphanes benefattore e sacerdote, (15) Dorion figlio di Dorotheos, Menodoros figlio di Zopyros, 
+            Orthon figlio di Orthon, Psaphon figlio di Psaphon, Maron figlio di Maron, (20) Artemidoros figlio di Aischas, Ptolemaios figlio di Archepolis, Dioscourides 
+            figlio di Diot<gap reason="lost" extent="unknown" unit="character"/>, Orthon figlio di Orthon, il giovane, Sostratos figlio di Theodoros, (25) Skopas figlio di Xenolaos, Praxias figlio di 
+                Praxias, Barkaios figlio di Philon, Aristeas figlio di Euphranor, (30) Zaigaios figlio di Dionysios, Demophon figlio di Demophon, Sosibios figlio di Nomos 
+                sacerdote, Eunous figlio di Nikon, Sosibios figlio di Saraphion, (35) Eutychides figlio di Euphranor, Sotadas figlio di Damis, Euphranor figlio di Aristeas, 
+                Diodoros figlio di Bion, Sphairos figlio di Apoll<gap reason="lost" extent="unknown" unit="character"/>, (40) Diskos figlio di Apoll<gap reason="lost" extent="unknown" unit="character"/>, Onesimos figlio di Lys<gap reason="lost" extent="unknown" unit="character"/>, 
+                Diskos figlio di D<supplied reason="lost">iskos</supplied>, Soterichos <supplied reason="lost" cert="low">figlio del tale</supplied>, Protarchos <supplied reason="lost" cert="low">figlio del tale</supplied>, (45) Onesimos figlio di Sosibios, Hagesarchos figlio di Diskos, Noumenios figlio di Kalli<gap reason="lost" extent="unknown" unit="character"/>, 
+                Lysanias figlio di Onesimos, Ammonios figlio di Euphranor, (50) Sophron figlio di Eudoros, <supplied reason="lost">il tale</supplied> figlio di Herakleides, 
+                Glauk<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">figlio del tale</supplied>, Spinth<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">figlio del tale</supplied>, 
+                <gap reason="lost" quantity="3" unit="line"/> (57) <gap reason="lost" extent="unknown" unit="character"/>doros figlio di Yratthis, Apollophanes figlio di Alexandros, Artemidoros figlio di Dionysios, 
+                (60) <gap reason="lost" extent="unknown" unit="character"/>ais figlio di Nikon, <gap reason="lost" extent="unknown" unit="character"/>ntos figlio di Hermon, <gap reason="lost" extent="unknown" unit="character"/>kreon figlio di <gap reason="lost" extent="unknown" unit="character"/>ros, <gap reason="lost" extent="unknown" unit="character"/>aios figlio di Philon, <supplied reason="lost">il tale figlio del tale</supplied>, (65) <gap reason="lost" extent="unknown" unit="character"/>sios figlio di Kratis, 
+                Poseidonios figlio di Aristippos, Philotas figlio di Philotas, Antallos, Epikrates.</p>
+            </div><div type="commentary">
+                
+                <p>The wide chronological span, already estimated by Łajtar, is based on the succession of different hands. Moreover there seems to be a gap between the letterings of sides a and b, 
+                    the latter offering a lunate omega at line 62 and also the ending <foreign xml:lang="grc">-αις</foreign> for <foreign xml:lang="grc">-αιος</foreign> at line 60, another hint of lateness.</p>
+                <p>While Łajtar counted the entries from line 3 on, whence 27 different items, we here count the hands, including one for lines 1 and 2, which in Łajtar's mind might be a title; besides,
+                we tend to distinguish a few more hands than he did (a view that remains hypothetical because it relies only on photographs). Furthermore, one should mind that the numbering of lines 
+                continued from face a to face b may be arbitrary, because the right face was perhaps also inscribed, all the more so that generally speaking the script at side b shows a clear contrast 
+                with that of side a.</p>
+                <p>At line 41, Łajtar cautiously suggested as father's name <foreign xml:lang="grc">Λυσανίας</foreign>, who would be the grand-father of the homonym at line 48; 
+                however this restoration seems rather long, even with the dialectal ending <foreign xml:lang="grc">Λυσανία</foreign>, so that the shorter genitive 
+                <foreign xml:lang="grc">Λύσιος</foreign> would perhaps be more acceptable.</p> 
+                <p>At lines 42-44, a hole at left probably anteceded the inscription; in the space left, there was perhaps enough space for a short father's name beginning with a delta at line 42, whereas
+                 lines 43 and 44 the space would be so small that perhaps only one name each without any patronymic was inscribed there.</p>
+                <p>Łajtar, after thourough discussion (<bibl><ptr target="#łajtar2010"/>, pp. <citedRange>115-117</citedRange></bibl>) suggests that the catalogue
+                lists the heads of an association, two or three men perhaps changed every two years.</p>
+            </div></body>
+    </text>
+</TEI>

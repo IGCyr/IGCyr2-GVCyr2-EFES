@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Sacred regulation</rs>s (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr109400</idno>
+                <idno type="number" subtype="second-edition">109400</idno>
+                <idno type="TM">738623</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr109400</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr109400</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr109400</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">4575</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Lower right corner of a white <material>marble</material> <objectType>panel</objectType>, slightly tapering
+                                        (<dimensions>
+                                            <width>0.115</width>
+                                            <height>0.155</height>
+                                            <depth min="0.03" max="0.033">0.03 to 0.003</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face, the three upper lines much deteriorated by strokes.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.009" max="0.012">0.009 to 0.012</height>; shorter right stroke of nu, slanting mu and sigma, xi with three horizontal bars; the space between the surviving letters of line 8 is somewhat larger,
+                            either because that line was highlighted or because the line was shorter, allowing larger spaces.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0320" notAfter="-0281" precision="medium">Late fourth or early third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1993">
+                                    <p>Found before 1993 in a votive depot South of 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the area of 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1461">Wadi el Aish</rs>.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1993" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1993 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-07" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-03-03" who="Alice">It. transl.; checked</change>
+            <change when="2017-02-03" who="CDL">overall check; tagged w and lemma</change> 
+            <change when="2015-05-08" who="CDL">Fr. and Engl. translations</change>
+            <change when="2014-01-17" who="CDL+HB">text, apparatus, lemma, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-31" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77497/3/igcyr109400-1-face.tiff.jpg" corresp="igcyr109400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77497">Face of igcyr109400 Sacred law</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77498/3/igcyr109400-2-squeeze.tiff.jpg" corresp="igcyr109400" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1993"><ref target="http://hdl.handle.net/20.500.14008/77498">Squeeze of igcyr109400 Sacred law</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr-cdl2007"/>, pp. 45-46, n. <citedRange>12</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2012</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>109400</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>56</citedRange> (focus), pp. <citedRange>274-275</citedRange>, number 19 (text)</bibl>;.</p>
+            <p/>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>μη</orig><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost">ἄλ</supplied>λη</w> δὲ <orig>πο</orig><gap reason="lost" quantity="2" unit="character"/>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πρίαμαι"><supplied reason="lost" cert="low">πρί</supplied>ασθαι</w> <w lemma="βάβαλος" part="I">βάβα<lb n="4" break="no"/><supplied reason="lost">λ</supplied></w><gap reason="lost" extent="unknown" unit="character"/>· <w lemma="αἰ"><supplied reason="lost">αἰ</supplied></w> δέ <w>κα</w> <w lemma="πωλέω">πωλῆι</w> 
+                     <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ς <w>ἐξ</w> <w lemma="ἀλλότριος">ἀλλοτρί<lb n="6" break="no"/><supplied reason="lost">ων</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear> <w lemma="οὗ2" type="personal">οἱ</w> <w lemma="εἰμι">τένται</w> <w part="I">ἀλ<lb n="7" break="no"/><supplied reason="lost">λ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><w part="F">σω</w> <orig>ατιμακ</orig>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>ω</unclear>ρια</w>.<space extent="unknown" unit="character"/>
+                    <lb n="8a"/><space quantity="1" unit="line"/>
+                </ab></div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="2"><lem><orig>πο</orig><gap reason="lost" quantity="2" unit="character"/></lem>
+                        <rdg resp="#rosamilia2023"><orig>πο</orig></rdg>
+                    <rdg resp="#mohamed-jmr-cdl2007 #IGCyr"><orig>πο</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                    </app>
+                    <app loc="6"><lem resp="#rosamilia2023"><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear> οἱ τένται</lem>
+                    <rdg resp="#mohamed-jmr-cdl2007 #IGCyr"><gap reason="lost" extent="unknown" unit="character"/><unclear>λ</unclear>οι τένται</rdg>
+                    </app>
+                    <app loc="7"><lem><orig>ατιμακ</orig></lem>
+                        <rdg resp="#mohamed-jmr-cdl2007 #IGCyr">ἄτιμα <orig>κ</orig></rdg>
+                        <rdg type="alternative" resp="#mohamed-jmr-cdl2007">ἁ τιμὰ <measure type="currency" unit="drachma" cert="low"><num type="cardinal" value="10"><g type="alphabetic">κ</g></num></measure></rdg> <note>also possible</note>
+                        <rdg resp="#rosamilia2023">ἁ τιμὰ <orig>κ</orig></rdg>
+                    </app>
+                </p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/> et ailleurs <gap reason="lost" extent="unknown" unit="character"/> acheter des objets profanes <gap reason="lost" extent="unknown" unit="character"/>; et si l'on vend <gap reason="lost" extent="unknown" unit="character"/>, pris sur les 
+            biens d'autrui <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">si</supplied> d'autres <supplied reason="subaudible">biens</supplied> sont à lui <gap reason="lost" extent="unknown" unit="character"/> la valeur/sans valeur <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/> and elsewhere <gap reason="lost" extent="unknown" unit="character"/> to buy secular objects <gap reason="lost" extent="unknown" unit="character"/>; and if one sells <gap reason="lost" extent="unknown" unit="character"/> from someone 
+            else's belongings <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">if</supplied> other <supplied reason="subaudible">properties</supplied> belong him <gap reason="lost" extent="unknown" unit="character"/> the value/valueless <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p><gap reason="lost" extent="unknown" unit="character"/> e altrove <gap reason="lost" extent="unknown" unit="character"/> comprare oggetti profani <gap reason="lost" extent="unknown" unit="character"/>; e se uno vende <gap reason="lost" extent="unknown" unit="character"/> dai 
+            beni altrui <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">se</supplied> altri <supplied reason="subaudible">beni</supplied> sono sui <gap reason="lost" extent="unknown" unit="character"/> la valore/senza valore <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>These poor rests clearly contain prescriptions implying the opposition between sacred and secular properties. A first discussion was developed by <bibl><ptr target="#mohamed-jmr-cdl2007"/></bibl>, giving way to 
+                <ref type="inscription" source="#IGCyr">IGCyr109400</ref>. <bibl><ptr target="#rosamilia2023"/></bibl> adds some interesting insights: A. At line 6, the verbe being at the singular, the subject should be either a masculine singular or a neuter plural. It is thus 
+                    preceded by the personal pronoun at the dative. The subject was therefore very probably a neuter plural (as well as the adjective 'secular' at line 4). B. He prefers the reading 
+                    <foreign xml:lang="grc">ἁ τιμά</foreign>, but does not interpret the following kappa, which might have a numeral value, as proposed earlier, rather than belong to a new word, with a very awkward cut in a non-stoichedon text. Therefore, 
+                we prefer to leave now the question open.</p>
+                <p/>
+            </div></body>
+    </text>
+</TEI>

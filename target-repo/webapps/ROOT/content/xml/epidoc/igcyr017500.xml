@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo by Pratomedes</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr017500</idno>
+                <idno type="number" subtype="second-edition">017500</idno>
+                <idno type="TM">738229</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr017500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr017500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr017500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Marble</material> <objectType>base</objectType> of cubic shape belonging to an exedra; the base, which is  broken off at left,
+                                        is surmounted with an agyieus. The upper part of the base (reconstructed width 0.725) has a relief with two figures and is separated from the inscribed bottom by a plain cornice.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> under relief on a surface badly chipped below; stoichedon (preserved inscribed area <dimensions>
+                                    <width>0.48</width>
+                                    <height>0.095</height>
+                                </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.02</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0350" notAfter="-0301" evidence="lettering" precision="medium">Second half of the fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1926">
+                                    <p>Found in 1926 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1365">Exedra of Apollo Karneios</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="CDL">
+                                    <p>Seen in 2001 by C. Dobias-Lalou in situ, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1365">Exedra of Apollo Karneios</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-30" who="Alice">checked</change>
+            <change when="2016-08-12" who="CDL">Italian translation</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-12-26" who="CDL">lemma, Fr. and Engl. translations, commentary</change>
+            <change when="2012-07-14" who="HB">minor modifications to markup</change>
+            <change when="2011-12-19" who="CDL"> training workshop </change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76885/3/igcyr017500-1-view.tiff.jpg" corresp="igcyr017500" decls="#photograph"><desc resp="Walda, H." source="IRCyr project" n="2008"><ref target="http://hdl.handle.net/20.500.14008/76885">View of igcyr017500 Dedication to Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/76886/3/igcyr017500-2-face.tiff.jpg" corresp="igcyr017500" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1926"><ref target="http://hdl.handle.net/20.500.14008/76886">Face of igcyr017500 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1928"/>, p. 327, n. <citedRange>7</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.81</citedRange></bibl>. 
+                    Cf. <bibl><ptr target="#paribeni1959"/>, n. <citedRange>60</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>17.794</citedRange></bibl>; 
+                    <bibl><ptr target="#gasperini1976"/><citedRange/></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>26.1832</citedRange></bibl>;
+                    <bibl>again <ptr target="#gasperini2008"/>, pp. <citedRange>119-123</citedRange></bibl>
+;                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>182-183, 196 footnote 140</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1896</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>017500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65474"><name nymRef="#Πρατομήδης"><supplied reason="lost">Πρατο</supplied>μήδης</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65392"><name nymRef="#Πόλυμνις" type="patronymic"><supplied reason="lost">Πολύ</supplied>μνιος</name></persName></persName>
+                    <lb n="3"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><supplied reason="lost">Ἀπόλ</supplied>λ<unclear>ω</unclear>ν<supplied reason="lost">ι</supplied></name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Pratomedes fils de Polymnis <supplied reason="subaudible">a consacré</supplied> à Apollon.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Pratomedes son of Polymnis <supplied reason="subaudible">dedicated</supplied> to Apollo.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Pratomedes figlio di Polymnis <supplied reason="subaudible">ha dedicato</supplied> ad Apollo.</p>
+            </div><div type="commentary">
+                
+                <p>In the debated question of the function and date of the whole monument (fountain, exedra?), L. Gasperini (<bibl><ptr target="#gasperini1976"/></bibl>) gives epigraphical arguments
+                    for Oliverio's dating towards the end of IV BC. So also <bibl><ptr target="#laronde1987"/>, pp. <citedRange>182-183</citedRange></bibl> with bibliography.</p>
+	<p>The colour picture (courtesy H. Walda, IRCyr project) was taken in 2008. Sitting at right of the exedra is Joyce M. Reynolds during her last visit to Cyrene.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

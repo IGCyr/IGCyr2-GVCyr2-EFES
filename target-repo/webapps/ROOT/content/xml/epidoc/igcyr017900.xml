@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo by Philon</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr017900</idno>
+                <idno type="number" subtype="second-edition">017900</idno>
+                <idno type="TM">106091</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr017900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr017900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr017900</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three fragments of a white <material>marble</material> <objectType>panel</objectType>: missing parts towards the left and at right upper angle
+                                        (total reconstructed <dimensions>
+                                            <width>2.49</width>
+                                            <height>0.73</height>
+                                            <depth>0.035</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Average <height>0.088</height>, omicron <height>0.067</height>, very carefully cut, without serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: facing of the Northern side of <rs type="monuList" ref="https://www.slsgazetteer.org/1049">Apollo's altar</rs> .</origPlace>
+                            <origDate evidence="prosopography" when="-0340" precision="low">Ca. 340 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1926">
+                                    <p>Found in 1926 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        re-used as pavement in frigidarium of <rs type="monuList" ref="https://www.slsgazetteer.org/1041">Trajanic Baths</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1983" when-iso="2010" resp="CDL">
+                                    <p>Seen in 1983 and many times again until 2010 by C. Dobias-Lalou at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: on the reconstructed 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1049">altar of Apollo</rs>.</p> 
+                                </provenance>
+                        <provenance type="observed" when="2012" resp="ER">
+                            <p>Seen in 2012 by Rosamilia at the same place.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-01" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-30" who="Alice">checked</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-14" who="HB">minor midifications to mark-up</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2011-12-19" who="HB">text edited</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76891/3/igcyr017900-face.tiff.jpg" corresp="igcyr017900" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/76891">Face of igcyr017900 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1928"/>, p. 325, n. <citedRange>2</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.85</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>017900</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>325-326</citedRange>, number 66 a (text)</bibl>.
+                    Cf. <bibl><ptr target="#laronde1987"/>, pp. <citedRange>108-110, 116</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1894</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><milestone unit="fragment" n="a"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66108"><name nymRef="#Φίλων">Φ<supplied reason="lost">ί</supplied><milestone unit="fragment" n="b"/><unclear>λ</unclear>ων</name> 
+                        <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62907"><name nymRef="#Αννικερις" type="patronymic">Αννικεριο<milestone unit="fragment" n="c"/><supplied reason="lost">ς</supplied></name></persName></persName>
+                    <lb n="2"/><milestone unit="fragment" n="a"/>τὸ<supplied reason="lost">ν</supplied> <w lemma="βωμός"><supplied reason="lost">β</supplied><milestone unit="fragment" n="b"/>ωμὸν</w> 
+                    <w lemma="ἀνατίθημι">ἀνέθηκε</w> τὸν <w lemma="λύγδινος">λύγ<unclear>δ</unclear><milestone unit="fragment" n="c"/><supplied reason="lost">ινο</supplied>ν</w>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Philon fils d'Annikeris a consacré l'autel de marbre.</p>
+            </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Philon son of Annikeris dedicated the marble altar.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Philon figlio di Annikeris ha dedicato l'altare di marmo.</p>
+            </div><div type="commentary">
+                
+                <p>Philo's dedication consisted in remodeling the older limestone altar with white marble (see also <ref type="inscription" source="#IGCyr2">IGCyr018000</ref>).</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

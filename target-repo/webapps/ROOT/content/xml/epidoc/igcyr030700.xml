@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr030700</idno>
+                <idno type="number" subtype="second-edition">030700</idno>
+                <idno type="TM">738299</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr030700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr030700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr030700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">250 (fragm. a+b); 513 (fragm. c); 166 (fragm. d)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Dark grey <material>marble</material> <objectType>block</objectType>, broken away below, reconstituted from four adjacent fragments 
+                                        (a and b pasted together); the back is cut obliquely, perhaps for its original use 
+                                        (all together <dimensions>
+                                            <width>0.49</width>
+                                            <height atLeast="0.195">0.195</height>
+                                            <depth min="0.09" max="0.17">0.09 at top, 0.17 below</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.035</height>; carefully cut, with very slight serifs; calice-shaped upsilon, slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0251" precision="medium">First half of third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1928">
+                                    <p>Fragment c was found during Oliverio's excavations in 1928 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>,  in a small building to the North of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1051">Temple of Artemis</rs>; the other fragments are of unknown provenance.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2023-08-29" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-31" who="Alice">checked</change>
+            <change when="2015-02-16" who="HellasLabUnibo">checked, updated and in case corrected tagging</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-03-29" who="CDL">lemma, translations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-15" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77002/3/igcyr030700-1-face.tiff.jpg" corresp="igcyr030700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77002">Face of igcyr030700 Dedication to Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77003/3/igcyr030700-2-squeezes.tiff.jpg" corresp="igcyr030700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77003">Squeezes of igcyr030700 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Fragment d: <bibl><ptr target="#oliverio1930"/>, p. 205, n. <citedRange>27</citedRange>, fig. 62</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.323</citedRange></bibl>;
+                    the other fragments were not published before <bibl><ptr target="#IGCyr"/> <citedRange>030700</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/> <citedRange>67.1491</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65031"><name nymRef="#Μνάσαρχος"><milestone unit="fragment" n="a"/><unclear>Μ</unclear>νάσ<supplied reason="lost">αρ</supplied><milestone unit="fragment" n="c"/>χος</name>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64611"><name type="patronymic" nymRef="#Καρτισθένης"><milestone unit="fragment" n="a"/><unclear>Κ</unclear>αρτι<milestone unit="fragment" n="b"/>σθ<supplied reason="lost">έ</supplied><milestone unit="fragment" n="c"/>νευς</name></persName></persName>
+                    <lb n="3"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων"><milestone unit="fragment" n="d"/>Ἀ<unclear>π</unclear><milestone unit="fragment" n="c"/><unclear>ό</unclear>λ<supplied reason="lost">λωνι</supplied></name></persName>
+                    <lb n="4"/><supplied reason="lost" cert="low"><w lemma="ἀνατίθημι">ἀνέθηκε</w></supplied>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><rdg resp="#oliverio1930"><gap reason="lost" extent="unknown" unit="character"/>χος</rdg></app>
+                <app loc="2"><rdg resp="#oliverio1930"><gap reason="lost" extent="unknown" unit="character"/>νευς</rdg></app></p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Mnasarkhos fils de Kartisthenès <supplied reason="lost" cert="low">a consacré</supplied> à Apollon.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Mnasarchos son of Kartisthenes <supplied reason="lost" cert="low">dedicated</supplied> to Apollo.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Mnasarchos figlio di Kartisthenes <supplied reason="lost" cert="low">ha dedicato</supplied> ad Apollo.</p>
+         </div><div type="commentary">
+                
+	       <p>Although both names are not rare in Cyrenaica, this man might be akin to the homonymous <foreign rend="italic">thearodokos</foreign> of the Delphians mentioned in 
+	           the great list <bibl><ptr target="#plassart1921"/>, <citedRange>IV.16</citedRange></bibl> and registered in <bibl><ptr target="#PP"/> <citedRange>14980</citedRange></bibl>.
+	           This list is now dated from the third century BC (J. Oulhen, unpublished thesis of 1992).</p>
+	       <p>The lettering of this inscription is very similar to that of <ref type="inscription" source="#IGCyr2">IGCyr063900</ref> and <ref type="inscription" source="#IGCyr2">IGCyr063100</ref>, 
+	           thus placing our inscription at a date not too late in the third century. Therefore, it is tempting to assume that Mnasarchos was either the <foreign rend="italic">thearodokos</foreign> himself or his grandfather.</p>
+                <p>Oliverio gave no date for the lettering; the indication 'first century AD' given in SEG is not sustainable.</p>
+            </div></body>
+    </text>
+</TEI>

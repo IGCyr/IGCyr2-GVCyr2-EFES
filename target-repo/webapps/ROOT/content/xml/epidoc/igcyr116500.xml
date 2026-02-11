@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr116500</idno>
+                <idno type="number" subtype="second-edition">116500</idno>
+                <idno type="TM">738714</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr116500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr116500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr116500</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the American excavations</repository> <idno type="invNo">71-715</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment from the rim and body of a <objectType>bowl</objectType> of white medium-grained <material>marble</material>
+                                        (<dimensions>
+                                            <width>0.12</width>
+                                            <height>0.075</height>
+                                            <depth>0.02</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> a) on the body, b) on the rim.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0300" notAfter="-0201" precision="medium" cert="low">Perhaps third century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1971">
+                                    <p>Found in 1971 during the American excavations at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>, area F11.
+                                   </p>
+                                </provenance>
+                        <provenance type="observed" resp="JMR">
+                            <p>Seen by J. Reynolds at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: in the
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1485">Storeroom of the American excavations</rs>.</p>
+                        </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2014-02-19" who="cdl">lemma, text, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#jmr2012"/>, n. <citedRange>A.9</citedRange> (no image)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>116500</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                    <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig>
+	               </ab>
+                </div>
+                <div type="textpart" n="b">
+                    <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθη</supplied><space quantity="1" unit="character"/>καν</w> 
+                        <gap reason="lost" extent="unknown" unit="character"/>
+	               </ab>
+                </div>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>a) Intraduisible.</p>
+                <p>b) Consacré par <supplied reason="lost">Untel et Untel</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+                <p>a) Not usefully translatable.</p>
+                <p>b) Dedicated by <supplied reason="lost">So-and-so and So-and-so</supplied>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>a) Intraducibile.</p>
+                <p>b) Dedicato dal <supplied reason="lost"> tale e dal tale</supplied>.</p>
+         </div><div type="commentary">
+                
+                <p>Such marble bowls were often dedicated in sanctuaries of Cyrene. Only fragments of them have been found up to now (see for instance <ref type="inscription" source="#IGCyr2">IGCyr118900</ref>). Most of them are inscribed only on the rim. Reynolds suggested that both textparts were linked together, 
+                    (a) giving with its final iota the name of the deity (Demeter or Kore) to whom the bowl was dedicated and (b) having the end of the verb of dedication; 
+                    however, a gap inside this verb would be rather puzzling. It is difficult to decide without any image.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

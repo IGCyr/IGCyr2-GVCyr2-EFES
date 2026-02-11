@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Authority list of corporate entities in IRT</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>InsLib Project</authority>
+            </publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <list type="military">
+                    <head>Military organisations</head>
+                    <item xml:id="alaflauia">
+                        <term xml:lang="la">Ala Flauia Philippiana</term>
+                        <term xml:lang="en">Flavian Philippian unit</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q57624</idno>
+                    </item>
+                    <item xml:id="alamart">
+                        <term xml:lang="la">Ala Martialis</term>
+                        <term xml:lang="en">Martial unit</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q57624</idno>
+                    </item>
+                    <item xml:id="cohorsanon">
+                        <term xml:lang="la">Cohors ?</term>
+                        <term xml:lang="en">Cohort, number unknown</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q202167</idno>
+                    </item>
+                <item xml:id="cohorsurb">
+                    <term xml:lang="la">Cohors urbana</term>
+                    <term xml:lang="en">Urban cohort</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1107163</idno>
+                </item>
+                
+                <item xml:id="cohorspraetoria">
+                    <term xml:lang="la">Cohors Praetoria</term>
+                    <term xml:lang="en">Praetorian Guard</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q181733</idno>
+                </item>
+                <item xml:id="cohorsIthrac">
+                    <term xml:lang="la">Cohors I Augusta Thracum</term>
+                    <term xml:lang="en">First cohort, of Thracians</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q18395860</idno>
+                </item>
+                    <item xml:id="cohorsIsyr">
+                        <term xml:lang="la">Cohors I Syrorum sagitariorum</term>
+                        <term xml:lang="en">First cohort, of Syrian sagitarii</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q65232990</idno>
+                    </item>
+                    <item xml:id="cohorsIIham">
+                        <term xml:lang="la">Cohors II Hamiorum</term>
+                        <term xml:lang="en">Second cohort, of Hamii (?)</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q97379568</idno>  
+                    </item>
+                <item xml:id="cohorsIImontan">
+                    <term xml:lang="la">Cohors II miliaria Montanorum</term>
+                    <term xml:lang="en">Second cohort, of Montani (?)</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q56293317</idno>
+                </item>
+                    <item xml:id="cohorsVIIIfid">
+                        <term xml:lang="la">Cohors VIII Fida</term>
+                        <term xml:lang="en">Eighth cohort, Faithful</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q65233023</idno>
+                    </item>
+                <item xml:id="legioanon">
+                    <term xml:lang="la">Legio ?</term>
+                    <term xml:lang="en">Legion, number unknown</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q163323</idno>
+                </item>
+                <item xml:id="legio1ital">
+                    <term xml:lang="la">Legio I Italica</term>
+                    <term xml:lang="en">First legion, Italica</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1508806</idno>
+                </item>
+                <item xml:id="legio1minerv">
+                    <term xml:lang="la">Legio I Minervia</term>
+                    <term xml:lang="en">First legion, Minervia</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1263789</idno>
+                </item>
+                <item xml:id="legio2adiut">
+                    <term xml:lang="la">Legio II Adiutrix</term>
+                    <term xml:lang="en">Second legion, Adiutrix</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1064291</idno>
+                </item>
+                <item xml:id="legio2august">
+                    <term xml:lang="la">Legio II Augusta</term>
+                    <term xml:lang="en">Second legion, Augusta</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q168654</idno>
+                </item>
+                <item xml:id="legio2traian">
+                    <term xml:lang="la">Legio II Traiana</term>
+                    <term xml:lang="en">Second legion, Traiana</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q179319</idno>
+                </item>
+                <item xml:id="legio3cyren">
+                    <term xml:lang="la">Legio III Cyrenaica</term>
+                    <term xml:lang="en">Legion III, Cyrenaica</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q295302</idno>
+                </item>
+                <item xml:id="legio3august">
+                    <term xml:lang="la">Legio III Augusta</term>
+                    <term xml:lang="en">Third legion, Augusta</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1434231</idno>
+                </item>
+                <item xml:id="legio5">
+                    <term xml:lang="la">Legio V Alaudae</term>
+                    <term xml:lang="en">Fifth legion, Alaudae</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1136322</idno>
+                </item>
+                <item xml:id="legio6ferr">
+                    <term xml:lang="la">Legio VI Ferrata</term>
+                    <term xml:lang="en">Sixth legion, Ferrata</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1164525</idno>
+                </item>
+                <item xml:id="legio7gemin">
+                    <term xml:lang="la">Legio VII Gemina</term>
+                    <term xml:lang="en">Seventh legion, Gemina</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1234638</idno>
+                </item>
+                <item xml:id="legio13gemin">
+                    <term xml:lang="la">Legio XIII Gemina</term>
+                    <term xml:lang="en">Thirteenth legion, Gemina</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q168553</idno>
+                </item>
+                    <item xml:id="uexgol">
+                        <term xml:lang="la">Uexillatio Golensis</term>
+                        <term xml:lang="en">Golaian detachment</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q593565</idno>
+                    </item>
+                    
+            </list>
+            <list type="civil">
+                <head>Civil organisations</head>
+                <item xml:id="caenin">
+                <term xml:lang="la">Caeninses sacerdotes</term>
+                    <term xml:lang="en">Religious assocation, Rome</term>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q34485523</idno>
+                </item>
+                <item xml:id="curia">
+                        <term xml:lang="la">Curiae</term>
+                        <term xml:lang="en">Associations at Lepcis and Sabratha</term>
+                    </item>
+                <item xml:id="kaneian">
+                    <term xml:lang="la">Kaneiani</term>
+                    <term xml:lang="en">Religious assocation, North Africa</term>
+                </item>
+                    <item xml:id="laurent">
+                        <term xml:lang="la">Laurentes Lauinates</term>
+                        <term xml:lang="en">Religious assocation, Rome</term>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q60825142</idno>
+                    </item></list>
+        </body>
+    </text>
+</TEI>

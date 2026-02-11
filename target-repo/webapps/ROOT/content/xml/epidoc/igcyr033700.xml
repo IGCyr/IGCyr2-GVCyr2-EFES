@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Public honours</rs> for Arsinoe II</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr033700</idno>
+                <idno type="number" subtype="second-edition">033700</idno>
+                <idno type="TM">6016</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr033700</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr033700</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr033700</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Limestone</material> <objectType>block</objectType>, probably belonging to the same monument as <ref type="inscription" source="#IGCyr2">IGCyr033800</ref>; 
+                                        recut at right and reused upside down in Roman times
+                                        (<dimensions>
+                                            <width>0.73</width>
+                                            <height>0.35</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in three lines centered along vertical axis.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.06</height>; carefully cut, similar to <ref type="inscription" source="#IGCyr2">IGCyr033800</ref>.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>.</origPlace>
+                        <origDate evidence="context lettering reign" notBefore="-0251" notAfter="-0168" precision="medium">Between 251 and 168 BC</origDate>
+                        </origin>
+                        
+                             
+                                <provenance type="found" when="1825" xml:id="copy-pacho">
+                                    <p>Seen by all visitors since Pacho (1825) at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912" key="http://pleiades.stoa.org/places/373879">Ptolemais</placeName>: 
+                                        recut and reused in the rostra of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/948">Square of the Cisterns</rs>, 5th file, 2nd block from left.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1979 at the place of re-use in the <rs type="monuList" ref="https://www.slsgazetteer.org/948">Square of the Cisterns</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/89183" key="Ţulmaythah">Ţulmaythah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>    
+            <change when="2023-08-26" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-01" who="Alice">checked</change>
+            <change when="2015-01-04" who="Alice">changed translations of epithets following CDL's sugggestions</change>
+            <change when="2014-12-12" who="Alice">changed translations following CDL's sugggestions</change>
+            <change when="2014-10-06" who="CDL">changed French translation</change>
+            <change when="2014-09-22" who="Alice">changed English and Italian translations</change>
+            <change when="2014-07-12" who="Alice">checked for demo text in IGCyr site</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-02" who="CDL">lemma, bibliography, tranlations, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-16" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77046/3/igcyr033700-face.tiff.jpg" corresp="igcyr033700" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77046">Face of igcyr033700 Honorary dedication for Arsinoe II</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Letronne in <bibl><ptr target="#pacho1827"/>, pl. LXXIV and pp. <citedRange>397-399</citedRange></bibl> (= 
+                    <bibl><ptr target="#letronne1828"/>, pp. <citedRange>259-261</citedRange></bibl>), whence
+                    <bibl><ptr target="#CIG"/> <citedRange>5184</citedRange></bibl> and
+                    <bibl><ptr target="#OGIS"/> <citedRange>33</citedRange></bibl>; 
+                    <bibl><ptr target="#oliverioDAI1"/>, pp. 68-69, n. <citedRange>3</citedRange>, fig. 7</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.357</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>033700</citedRange></bibl>.</p>                    
+                    <p>Cf. <bibl><ptr target="#moretti1976"/><citedRange/></bibl> (=
+                    <bibl><ptr target="#moretti1990"/>, pp. <citedRange>343-348</citedRange></bibl>), whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>26.1838</citedRange></bibl>;
+                    <bibl><ptr target="#robertBE"/>, <citedRange>1977.593</citedRange></bibl>;
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>398, 402</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>38.1905</citedRange></bibl>; 
+                    <bibl><ptr target="#marquaille2003"/><citedRange/></bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2005.620</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>53.2028</citedRange></bibl>; 
+                    <bibl><ptr target="#mueller2004"/><citedRange/></bibl>, and 
+                        <bibl><ptr target="#cdlBE"/>, <citedRange>2007.568</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>54.1779bis</citedRange></bibl>;
+                    <bibl><ptr target="#criscuolo2001b"/><citedRange/></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>51.2213</citedRange></bibl>;
+                    <bibl><ptr target="#caneva2016"/>, p. <citedRange>213</citedRange></bibl>;
+                        <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>55-56</citedRange> (date)</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><w lemma="βασίλισσα">Βασίλισσαν</w> <persName type="ruler" key="Arsinoe II"><name nymRef="#Ἀρσινόη">Ἀρσινόην</name> <rs type="epithet" key="Thea Philadelphos"><w lemma="θεά">θεὰ<supplied reason="lost">ν</supplied></w> <w lemma="φιλάδελφος"><supplied reason="lost">Φιλάδελφον</supplied></w></rs></persName>,
+                    <lb n="2"/>τὴν <persName type="ruler" key="Ptolemy I and Berenice I"><persName type="ruler" key="Ptolemy I"><name type="patronymic" nymRef="#Πτολεμαῖος">Πτολεμαίου</name></persName> καὶ <persName type="ruler" key="Berenice I"><name type="matronymic" nymRef="#Βερενίκη">Βερενίκης</name></persName>, <rs type="epithet" key="Theoi Soteres"><supplied reason="lost"><w lemma="θεός">θεῶν</w> <w lemma="σωτήρ">Σωτήρων</w></supplied></rs></persName>,
+                    <lb n="3"/><space atLeast="8" atMost="9" unit="character"/> ἡ <w lemma="πόλις">πόλις</w> <supplied reason="lost"><space atLeast="8" atMost="9" unit="character"/></supplied>.
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#OGIS #oliverioDAI1 #crisculo2001b #IGCyr">θεὰ<supplied reason="lost">ν Φιλάδελφον</supplied></lem> 
+                    <rdg resp="#laronde1987 #caneva2016">θεὰ<supplied reason="lost">ν Φιλοπάτορα</supplied></rdg> <note>Also alternative reading for Dittenberger in <bibl><ptr target="#OGIS"/></bibl>.</note></app>
+                <app loc="2"><lem><supplied reason="lost">θεῶν Σωτήρων</supplied></lem>
+                <rdg resp="#laronde1987 #caneva2016"><supplied reason="lost">θεῶν Εὐεργετῶν</supplied></rdg> <note>Also alternative reading for Dittenberger in <bibl><ptr target="#OGIS"/></bibl>.</note></app>
+                </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p><supplied reason="subaudible">La statue de la</supplied> reine Arsinoè, Déesse <supplied reason="lost">Philadelphe</supplied>, fille de Ptolémée et de Bérénice, <supplied reason="lost">Dieux Sôtères</supplied> <supplied reason="subaudible">a été érigée par</supplied> la cité.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p><supplied reason="subaudible">The statue of</supplied> queen Arsinoe, Goddess <supplied reason="lost">Philadelphos</supplied>, daughter of Ptolemy and of Berenice, <supplied reason="lost">Gods Soteres</supplied> <supplied reason="subaudible">has been dedicated by</supplied> the city.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><supplied reason="subaudible">La statua della</supplied> regina Arsinoe, Dea <supplied reason="lost">Filadelfo</supplied>, figlia di Tolemeo e di Berenice, <supplied reason="lost">Dèi Soteri</supplied> <supplied reason="subaudible">è stata eretta dalla</supplied> città.</p>
+         </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>تمثال الملكة آرسينوي، المؤلهة [فيلادلفوس]، ابنة بطليموس وبيرنيكي، [المؤلهين سوتيرس]، (كان قد نُصبَ) من قبل المدينه.  </p>
+         </div><div type="commentary">
+                
+                <p>At Ptolemais there are three similar bases for members of the Lagid family (<ref type="inscription" source="#IGCyr2">IGCyr033700</ref>, <ref type="inscription" source="#IGCyr2">IGCyr033800</ref> and 
+                    <ref type="inscription" source="#IGCyr2">IGCyr084300</ref>), which were re-used in the same Roman monument that seems to lay upon the foundations of a Hellenistic monumental base to which 
+                    they probably all belonged, perhaps along with a fourth one, now lost. The Roman monument is part of the so-called Square of the Cisterns, which may have been formerly either 
+                    the gymnasium (<bibl><ptr target="#stucchi1975"/>, p. <citedRange>128, footnote 3</citedRange></bibl>) or the agora 
+                    (<bibl><ptr target="#laronde1987"/>, p. <citedRange>398</citedRange></bibl>).</p>
+                <p>The possibility of having here queen Arsinoe III instead of Arsinoe II, left open by Dittenberger, admitted by Laronde, was recently sustained again by Caneva, who argued that no 
+                    exact parallel was to be found for the titulature of Arsinoe II. However, at line 2 their restoration with 13 letters seems too long for the space available: the layout of the inscription is axial
+                    and at line 3, the text is wholly preserved with a vacat at left end, corresponding to 9 letters at lines 1 and 2. We prefer thus the shorter restoration, i.e. 10 letters at line 1 and 11 letters (but not 13) 
+                    at line 2. The authorities at Ptolemais were not too strictly submitted to the subtilities of the Alexandrian chancellery.</p>
+                <p>The present dedication may have been erected earlier than the two others, which, as <bibl><ptr target="#criscuolo2001b"/></bibl> established, were modelled on it between 168 and 164 BC 
+	               in order to form a monumental base. However, the lettering does not show a span of time as long as one century (Arsinoe died in 270).</p>
+	           <p> It is not clear whether the city mentioned at l. 3  might have been still Barka and not yet Ptolemais, for the cult of Arsinoe was specially developed in harbours and not 
+	               necessarily in the city-centre; however, as we now know that Ptolemais was founded probably after 260 (<bibl><ptr target="#laronde1987"/>, p. <citedRange>398</citedRange></bibl>) and certainly before 251 (<bibl><ptr target="#mueller2004"/></bibl>), it is highly plausible 
+	               that the dedication to Arsinoe was erected by the city of Ptolemais in a prominent place. <bibl><ptr target="#rosamilia2023"/></bibl> in turn, argueing about the deliberative process giving 
+	           way to the erection of a honorific monument by a city in Cyrenaica, shows that this is one of the most ancient instances in the region.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

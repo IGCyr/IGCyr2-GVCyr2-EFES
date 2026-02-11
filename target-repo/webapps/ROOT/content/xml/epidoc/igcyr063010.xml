@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honorary inscription</rs> and <rs type="textType">artist's signature</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr063010</idno>
+                <idno type="number" subtype="second-edition">063010</idno>
+                <idno type="TM">120632</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr063010</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr063010</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr063010</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">345</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Pink and blue <material>marble</material> circular <objectType>base</objectType> re-used upside down for 
+                                        <ref type="inscription" source="#IGCyr2">IGCyr063000</ref>
+                                        (height 0.31; diameter 0.60).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on vertical side, erased when re-used but for the last two lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height max="0.01" min="0.008">0.008-0.01</height>; slight serifs.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace cert="low">Probably findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0150" notAfter="-0109" precision="medium">Between 150 and 109 BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1936">
+                                    <p>Found in 1936 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        in the <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1977 in 
+                                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            <provenance type="observed" when="2010" resp="ER">
+                                <p>Seen by E. Rosamilia in 2010 in
+                                    <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                            </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL and ER).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-03" who="Alice">checked</change>
+            <change when="2015-10-07" who="HellasLabUnibo">checked, updated and in case corrected</change>
+            <change when="2014-06-01" who="cdl">lemma, bibliography, text, apparatus, translations, commentary</change>
+            <change when="2014-06-01" who="cdl">created file through separating from IGCyr063000</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77081/3/igcyr063010-1-erasure.tiff.jpg" corresp="igcyr063010" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77081">Erased area of igcyr063010 Public honours and artist's signature</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77082/3/igcyr063010-2-l5.tiff.jpg" corresp="igcyr063010" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2010"><ref target="http://hdl.handle.net/20.500.14008/77082">Line 5 of igcyr063010 Public honours and artist's signature</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gpc1961"/>,  p. 31, n. <citedRange>11 b</citedRange> (from †Oliverio's papers)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>20.725</citedRange></bibl>;
+                    <bibl><ptr target="#Sammelbuch"/> <citedRange>10078</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2014"/>, n. <citedRange>9</citedRange> and fig. 9</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>64.2012</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>063010</citedRange></bibl>.
+                    </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                   
+                        <ab>
+                            <lb n="1"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                            <lb n="2"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                            <lb n="3"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/>
+                                        <orig><choice><unclear>α</unclear><unclear>λ</unclear></choice><unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></del>
+                            <lb n="4"/><placeName type="ethnic" nymRef="#Κυραναῖος"><del rend="erasure">Κυραναῖοι</del></placeName>
+                            <lb n="5"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63945"><name nymRef="#Εὐφράνωρ">Εὐφράνωρ</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65699"><name type="patronymic" nymRef="#Σώσαρχος">Σωσάρχω</name></persName> 
+                            <placeName type="ethnic" nymRef="#Κυραναῖος">Κυραναῖος</placeName></persName> <w lemma="ποιέω">ἐποίησε</w>.
+                        </ab>
+                    
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1-3"><note>those lines not mentioned before E. Rosamilia</note>
+                    </app>
+                </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+                <p><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del> 
+                    <del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                    <del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                    <supplied reason="subaudible">a été consacré</supplied>
+                    <del rend="erasure">par les Cyrénéens</del>.</p>
+                <p>Oeuvre d'Euphranôr fils de Sôsarkhos, Cyrénéen.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+                <p><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                    <del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                    <del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                    <supplied reason="subaudible">was dedicated</supplied> 
+                    <del rend="erasure">by the Cyrenaeans</del>.</p>
+                <p>Made by Euphranor son of Sosarchos, a Cyrenaean.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                <del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                <del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+                <supplied reason="subaudible">è stata dedicata</supplied> 
+                <del rend="erasure">dai Cirenei</del>.</p>
+            <p>Opera di Euphranor figlio di Sosarchos, cireneo.</p>
+            </div>
+            <div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>〚[------]〛〚[------]〛〚[------]〛 (كُرِس)〚من قبل الكيرينيين〛.صُنِع من قبل إفرانور بن سوسارخوس، كيريني (شخص من كيريني).</p>
+            </div>
+            <div type="commentary">
+                
+                <p>From what remains of the formula, we may guess that this was the dedication by the Cyrenaeans of a statue of a Ptolemy or some person of
+                    high rank. Those indications were erased, but the artist's signature was kept. However, as the letters were upside down it was of no use for <ref type="inscription" source="#IGCyr2">IGCyr063000</ref>.
+                    This makes plausible that the statue itself was also re-used. Anyway the lettering of the signature is not much older than that of the later
+                    use, which provides a terminus ante quem.</p>
+	   <p>We know of the date and place of discovery through <bibl><ptr target="#luni2014b"/>, p.<citedRange>153</citedRange></bibl>. It is not quite sure that for this 
+	   first use the stone already stood in the agora.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr121600</idno>
+                <idno type="number" subtype="second-edition">121600</idno>
+                <idno type="TM">738765</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr121600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr121600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr121600</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, with plain mouldings on top and below, broken off at right
+                                        (<dimensions>
+                                            <width>0.68</width>
+                                            <height>0.30</height>
+                                            <depth>0.535</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in one line on the face 
+                                    (<dimensions>
+                                        <width>0.61</width>
+                                        <height>0.12</height>
+                                        <depth>0.485</depth>
+                                    </dimensions>).
+                                </layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.032</height>; no serifs, smaller theta and omicron, slanting mu and sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                plausibly from an unidentified <rs type="monuList" ref="https://www.slsgazetteer.org/1074">Necropolis</rs>.</origPlace>
+                            <origDate notBefore="-0350" notAfter="-0301" evidence="lettering prosopography">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" notAfter="1979">
+                                    <p>Found before 1979 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" when-iso="1997" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1979 and again in 1997 in
+                                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.
+                                    </p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>    
+            <change when="2023-01-20" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-30" who="Alice">checked</change>
+            <change when="2017-02-10" who="CDL">overall check</change>
+            <change when="2015-11-20" who="CD+HB">file created, lemma, text, translations, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77599/3/igcyr121600-drawing.tiff.jpg" corresp="igcyr121600" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77599">Drawing of igcyr121600 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not published before <bibl><ptr target="#IGCyr"/> <citedRange>121600</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.68</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Θέαρος">Θέαρος</name> <persName type="attested" key=""><name type="patronymic" nymRef="#Ἑρμήσανδρος">Ἑρμησάνδρ<supplied reason="lost">ω</supplied></name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Théaros fils d'Hermésandros.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Thearos son of Hermesandros.</p>
+            </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Thearos figlio di Hermesandros.</p>
+         </div><div type="commentary">
+                
+               <p>This man might be the father of Hermesandros son of Thearos, strategos about 330 BC (<ref type="inscription" source="#IGCyr2">IGCyr017100</ref>), and
+              perhaps the grandfather of a son of Thearos, mentionned in <ref type="inscription" source="#IGCyr2">IGCyr014800</ref>, b.18.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

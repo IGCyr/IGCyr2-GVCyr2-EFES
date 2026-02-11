@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Athena and another deity</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr062600</idno>
+                <idno type="number" subtype="second-edition">062600</idno>
+                <idno type="TM">738330</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr062600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr062600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr062600</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Apollonia Museum</repository> <idno type="invNo">inv. number unknown</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two fragments of a large <material>limestone</material> <objectType>altar</objectType>
+                                        (fragment a broken off at right and back: <dimensions>
+                                            <width>0.49</width>
+                                            <height>0.335</height>
+                                            <depth>0.28</depth>
+                                        </dimensions>; 
+                                        fragment b broken at left and back: <dimensions>
+                                            <width>0.315</width>
+                                            <height>0.335</height>
+                                            <depth>0.39</depth>
+                                        </dimensions>); the upper side has a shallow depression, leaving on all preserved sides a margin 0.05 wide.
+                                    </p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> just under the upper edge: the letters on fragment b run across the angle on the next side to its right; the same is possible, but not sure for fragment a.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.1" max="0.11">0.1-0.11</height>; very low bar of alpha, asymetric nu, slanting sigma, very short tail of upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0450" notAfter="-0401" resp="#chamoux1958" precision="medium">Second half of fifth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1955-04-22">
+                                    <p>Found on April 22nd, 1955 by Montet's Mission in the
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/911" key="http://pleiades.stoa.org/places/373732">Port of Cyrene, later Apollonia</placeName>: 
+                                        reused in <rs type="monuList" ref="https://www.slsgazetteer.org/920">Roman Baths</rs>, in the Eastern stylobatus.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" notBefore="1976" resp="CDL">
+                                    <p>Seen by C. Dobias-Lalou in 1976 and later on at <placeName type="modernSpot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/932">Apollonia Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/81584" key="Sūsah">Sūsah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-31" who="CDL">file updated</change>
+         <change when="2023-08-31">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-01" who="Alice">checked</change>
+            <change when="2015-06-08" who="HellasLabunibo">checked, updated and in case corrected</change>
+            <change when="2015-03-19" who="CDL">completed lemma, apparatus and commentary</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-04-05" who="CDL+HB">lemma, text edited, apparatus, commentary</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77057/3/igcyr062600-1-view.tiff.jpg" corresp="igcyr062600" decls="#photograph"><desc resp="Chamoux, Fr." source="Archives François Chamoux" n="1955"><ref target="http://hdl.handle.net/20.500.14008/77057">View of igcyr062600 Dedication to Athena and Ares</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77059/3/igcyr062600-2-fgta.tiff.jpg" corresp="igcyr062600" decls="#photograph"><desc resp="Chamoux, Fr." source="Archives François Chamoux" n="1955"><ref target="http://hdl.handle.net/20.500.14008/77059">Fragment a of igcyr062600 Dedication to Athena and Ares</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77060/3/igcyr062600-3-fgtb.tiff.jpg" corresp="igcyr062600" decls="#photograph"><desc resp="Chamoux, Fr." source="Archives François Chamoux" n="1955"><ref target="http://hdl.handle.net/20.500.14008/77060">Fragment b of igcyr062600 Dedication to Athena and Ares</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#chamoux1958"/>, pp. <citedRange>581-584</citedRange>, figs. 4-6</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>17.816</citedRange></bibl>; 
+                    <bibl><ptr target="#robertBE"/>, <citedRange>1960.439</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>18.757</citedRange></bibl>; 
+                    <bibl><ptr target="#jmr1976"/>, n. <citedRange>39</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>27.1125bis</citedRange></bibl>;
+                    <bibl><ptr target="#chevrollier2018-2019"/>, pp. <citedRange>73-74</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/> <citedRange>68.1742</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>062600</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2020b"/>, pp. <citedRange>68-70</citedRange> and fig. 6-7</bibl>.</p>
+                    
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                    <lb n="1" rend="right-to-left"/><persName type="divine" ref="#Athanaia"><name nymRef="#Ἀθαναία"><supplied reason="lost">Ἀθ</supplied>αναίας</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab><lb n="1" rend="left-to-right"/><milestone unit="block" n="i"/><persName type="divine" ref="#Heracles"><name nymRef="#Ἡρακλῆς"><supplied reason="lost" cert="low">Ἡρακ</supplied><unclear>λ</unclear>εῦ<milestone unit="block" n="ii"/>ς</name></persName>                    
+                    </ab>
+                </div>
+
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="b.i"><lem resp="#chamoux1958" type="alternative" cert="low"><supplied reason="lost" cert="low">Ἡρακλ</supplied>εῦς</lem> <note>or rather</note>
+                        <rdg resp="#chamoux1958 #IGCyr"><supplied reason="lost" cert="medium">Ἄρ</supplied>ευς</rdg> 
+                        <rdg resp="#jmr1976"><gap reason="lost" extent="unknown" unit="character"/>ευς</rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="subaudible">Autel</supplied> d'Athéna.</p>
+             <p><supplied reason="subaudible">Autel</supplied> <supplied reason="lost" cert="low">d'Hérak</supplied>lès.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="subaudible">Altar</supplied> of Athena. </p>
+                <p><supplied reason="subaudible">Altar</supplied> <supplied reason="lost" cert="low">of Herak</supplied>les.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="subaudible">Altare</supplied> di Atena. </p>
+                <p><supplied reason="subaudible">Altare</supplied> <supplied reason="lost"/> <supplied reason="lost" cert="low">di Erac</supplied>le.</p>
+            </div><div type="commentary">
+                
+                <p>The arrangement of the two fragments is not easy to determine, although on the photograph taken during the excavation they might seem to be nearly adjacent, so that 
+                    one might imagine that the break occurred during the phase of re-use. Chamoux was very clear about the fact that they were not adjacent. Side i of b might
+                    thus belong either to the right of side a or to its opposite side. See a tentative reconstruction at <bibl><ptr target="#cdl2020b"/>, fig. 7</bibl>.</p>
+                <p>At Cyrene we have another altar (<ref type="inscription" source="#IGCyr2">IGCyr103310</ref> and <ref type="inscription" source="#IGCyr2">IGCyr103315</ref>) bearing the names of two deities inscribed on two different sides. 
+                However in that case, one inscription was later than the first one. On the contrary, the present altar seems to have been erected at once for both divinities.</p>
+    	   <p>The god whose name stood at b is not quite clear. Chamoux preferred to restore Ares' name on behalf of his being worshipped under name Enyalios in <ref type="inscription" source="#GVCyr2">GVCyr022</ref>. 
+ 	      The latter was found in a late building of the Eastern part of the town. However, as both stones were re-used, it is quite possible that they once stood nearer to one another, 
+ 	      in a cultic area that would be common with Athena. On the other hand, Chamoux also mentioned the possibility that the god's name on the altar was Heracles and J. Reynolds found it 
+ 	      a good option, so that she left the question open. Chevrollier has a slight preference for Ares. In fact, Heracles was worshipped at Cyrene on an altar common with Hekate, Hygieia and Panakeia, 
+ 	      for his curative virtues (<ref type="inscription" source="#IGCyr2">IGCyr022300</ref>). Moreover, in the harbour (Apollonia), a votive club was found during the Montet excavations in 1954 but  
+    	       never published. It might attest Heracles' cult also on the spot. See now further arguments in favour of Herakles developed by <bibl><ptr target="#cdl2020b"/></bibl> on behalf of the epigraphical display.</p>
+            </div></body>
+    </text>
+</TEI>

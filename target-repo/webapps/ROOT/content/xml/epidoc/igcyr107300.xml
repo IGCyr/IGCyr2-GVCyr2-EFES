@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr107300</idno>
+                <idno type="number" subtype="second-edition">107300</idno>
+                <idno type="TM">738602</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr107300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr107300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr107300</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Cylindrical low <objectType>base</objectType> of white <material>marble</material>, recut so as to form a right angle at left back; 
+                                     on top there are two holes for the feet of a statue                                          
+                                        (preserved dimension <dimensions>
+                                            <width>0.63</width>
+                                            <height>0.23</height>
+                                            <depth>0.495</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the circular front face in the axis of the standing statue.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.045</height>, carefully cut; alpha with low bar, slightly dissymmetrical nu.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot</origPlace>
+                            <origDate evidence="lettering prosopography" precision="low" when="-0335">Probably ca. 335 BC</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1929">
+                                    <p>Found between March and July 1929 by G. Oliverio at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>, re-used in a late wall eastward of the  
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/2079">East staircase leading to the Fountain Terrace</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1929-07-29" resp="Pernier">
+                                    <p>Copied by L. Pernier on July 29th, 1929 at findspot, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                        <provenance type="observed" when="1983" when-iso="2001" resp="CDL">
+                            <p>Seen by C. Dobias-Lalou in 1983 and again with E. Catani in 2001 at the same place.</p> 
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-01" who="CDL">overall check</change>
+            <change when="2015-03-28" who="cdl">File created; lemma, text, translation, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77853/3/igcyr107300-1-face.JPG.jpg" corresp="igcyr107300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77853">Face of igcyr107300 Honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77854/3/igcyr107300-2-squeeze.JPG.jpg" corresp="igcyr107300" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1983"><ref target="http://hdl.handle.net/20.500.14008/77854">Squeeze of igcyr107300 Honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77855/3/igcyr107300-3-drawing.jpeg.jpg" corresp="igcyr107300" decls="#photograph"><desc resp="Pernier, L." source="Fondo Luigi Pernier, Università di Macerata" n="1929"><ref target="http://hdl.handle.net/20.500.14008/77855">Drawing of igcyr107300 Honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Not previously published before  <bibl><ptr target="#IGCyr"/> <citedRange>107300</citedRange></bibl>. Cf. <bibl><ptr target="#pernierTacc"/>, <citedRange>1929-1930, p. 50</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Κλέων">Κλέων</name> 
+                        <persName type="attested" key=""><name nymRef="#Πολλίδας" type="patronymic">Πολλίδα</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Kleôn fils de Pollidas.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Kleon son of Pollidas.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Kleon figlio di Pollidas.</p>
+         </div><div type="commentary">
+                
+               <p>This base was copied by L. Pernier in his notebook on his arrival at Cyrene on July 29th, 1929 for the summer campaign of 1929. He described it amongst the 
+                   area excavated by the Superintendancy since March of the same year. Since that date, it has not been moved. Although recut for a re-use, the inscription was 
+                   probably not moved very far and should have stood in the Sanctuary by its first use.</p>
+	<p>Kleon is no rare name at Cyrene, whereas Pollidas is only known for three persons. The lettering allows to identify the present Kleon son of Pollidas with the 
+	    homonymous damiergos on duty in <ref type="inscription" source="#IGCyr2">IGCyr011500</ref>. Moreover, Pollidas son of Kleon in a probable list of military officers 
+	    (<ref type="inscription" source="#IGCyr2">IGCyr103500</ref>) would be his father. Furthermore, Phylochos son of Pollidas in the great list of military officers dated about 
+	    345 BC (<ref type="inscription" source="#IGCyr2">IGCyr084000</ref>, line 77) is almost certainly a brother of our Kleon.
+	</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

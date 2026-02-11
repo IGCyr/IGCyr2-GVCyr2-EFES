@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr094200</idno>
+                <idno type="number" subtype="second-edition">094200</idno>
+                <idno type="TM">738453</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr094200</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr094200</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr094200</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>White <material>marble</material> <objectType>base</objectType>, with mouldings on top and below chipped out; the front face is scratched; 
+                                        two holes for attachment of a statue on top
+                                        (<dimensions>
+                                            <width>0.925</width>
+                                            <height>0.42</height>
+                                            <depth>0.535</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face (<dimensions>
+                                    <width>0.87</width>
+                                    <height>0.33</height>
+                                </dimensions>) near the upper edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.025</height>; slanting sigma, disymetrical nu.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0350" notAfter="-0301" precision="medium">Second half of fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1861">
+                                    <p>Found in 1861 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>,  near the North wall of the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1051">Temple of Artemis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1960" resp="gpc">
+                                    <p>Seen by Pugliese Carratelli in 1960 'in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>'.</p>
+                                </provenance>
+                                <provenance type="observed" when="2001" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 2001 at findspot, in the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-26" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-20" who="Alice">checked</change>
+            <change when="2013-10-04" who="CDL+HB">lemma, text, apparatus, translation</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-07-23" who="HB">text edited</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77273/3/igcyr094200-1-view.tiff.jpg" corresp="igcyr094200" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1987"><ref target="http://hdl.handle.net/20.500.14008/77273">View of igcyr094200 Honours</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77274/3/igcyr094200-2-drawing.tiff.jpg" corresp="igcyr094200" decls="#photograph"><desc resp="-" source="-" n="1861"><ref target="http://hdl.handle.net/20.500.14008/77274">Drawing of igcyr094200 Honours</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#smith-porcher1864"/>, n. <citedRange>4</citedRange></bibl>, whence
+                    <bibl><ptr target="#SGDI"/> <citedRange>4857</citedRange></bibl>;
+                    <bibl><ptr target="#oliverioTacc"/>, <citedRange>XI.46, XIII.12</citedRange></bibl>, whence
+                    <bibl><ptr target="#SECir"/> <citedRange>61</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>094200</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65763"><name nymRef="#Τεισίων">Τει<unclear>σίω</unclear>ν</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64363"><name type="patronymic" nymRef="#Ἰάσων">Ἰάσονος</name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#smith-porcher1864">Τείσων <g type="punct">:</g> Ἰάσονος <note>there are no puncts but accidental holes</note></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Teisiôn fils de Iasôn.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Teision son of Iason.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Teision figlio di Iason.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>تيسيون بن إياسون.</p>
+         </div><div type="commentary">
+                
+                <p>The base was associated with a statue which featured the man mentioned on its front face. To have it erected in Apollo's sanctuary was a honour.</p>
+	<p/>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

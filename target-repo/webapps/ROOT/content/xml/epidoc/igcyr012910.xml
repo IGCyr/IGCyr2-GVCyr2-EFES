@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Account</rs>s of the damiergoi</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr012910</idno>
+                <idno type="number" subtype="second-edition">012910</idno>
+                <idno type="TM">738217</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr012910</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr012910</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr012910</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">431</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small fragment of left side of white <material>marble</material> <objectType>panel</objectType>, broken above, at right and below
+                                        (<dimensions>
+                                            <width>0.055</width>
+                                            <height>0.1</height>
+                                            <depth>0.035</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.012</height>; alpha with low bar, xi without hasta, phi with oval loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0365" notAfter="-0345" precision="medium" evidence="lettering content" resp="rosamilia">Between 365 and 345 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1976">
+                                    <p>Found before 1976 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        exact findspot unrecorded.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" resp="cdl">
+                                    <p>Seen by C. Dobias-Lalou in 1976 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-07-09" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-09-28" who="Alice">checked; added it. transl.</change>
+            <change when="2016-08-02" who="CDL">added w and lemma into text</change>
+            <change when="2015-04-20" who="CDL">text and apparatus changed from Rosamilia's suggestion; Fr. and Engl. translations</change>
+            <change when="2014-03-12" who="cdl">commentary added</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-11-30" who="CDL+HB">lemma, text markup</change>
+            <change when="2012-11-05" who="Ljuba">Added from catalogo</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77848/3/igcyr012910-squeeze.jpeg.jpg" corresp="igcyr012910" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1976"><ref target="http://hdl.handle.net/20.500.14008/77848">Squeeze of igcyr012910 Account of the damiergoi</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Unpublished before <bibl><ptr target="#IGCyr"/> <citedRange>012910</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>164-167</citedRange> (date), pp. <citedRange>293-294</citedRange>, number 34 (text).</bibl></p>
+                    <p>For general bibliography on the accounts of the damiergoi see <ref type="inscription" source="#IGCyr2">IGCyr011400</ref>.
+                </p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ψύθιος"><supplied reason="lost">ψυθί</supplied><lb n="2" break="no"/>α</w> <w lemma="ἔξος">ἔξ<supplied reason="lost">ος</supplied></w> <supplied reason="lost">τᾶς</supplied> <w lemma="προκλησία"><supplied reason="lost">προκλησίας</supplied></w> <w><supplied reason="lost">ἀν</supplied></w> <gap reason="lost" atMost="3" unit="character"/>, <w lemma="μέλας"><supplied reason="lost">μέλαιν</supplied><lb n="3" break="no"/>α</w> <w lemma="ἔξος">ἕξ<supplied reason="lost">ος</supplied></w> <supplied reason="lost">τᾶς</supplied> <w lemma="προκλησία"><supplied reason="lost">προκλησίας</supplied></w> 
+                        <w><supplied reason="lost">ἀν</supplied></w> <gap reason="lost" atLeast="4" atMost="7" unit="character"/>,
+                    <lb n="4"/><w lemma="κάρφος">καρφ<supplied reason="lost">έων</supplied></w> <w lemma="ἥμερος"><supplied reason="lost">ἠμέρων</supplied></w> <supplied reason="lost">ἁ</supplied> <w><supplied reason="lost">ἅμαξα</supplied></w> <gap reason="lost" atLeast="4" atMost="7" unit="character"/>, 
+                    <lb n="5"/><w lemma="ἄγριος">ἀγρ<unclear>ί</unclear><supplied reason="lost">ων</supplied></w> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>, <w lemma="ἄχυρον"><supplied reason="lost">ἀχύρων</supplied></w> <w><supplied reason="lost">ῥῖπος</supplied></w> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+                    <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="4"><note>already restored in <bibl><ptr target="#IGCyr"/></bibl> by Emilio Rosamilia per litteras</note></app>
+                <app loc="5"><lem resp="#rosamilia2023"><gap reason="lost" atLeast="2" atMost="3" unit="character"/>, <supplied reason="lost">ἀχύρων ῥῖπος</supplied> <gap reason="lost" atLeast="2" atMost="3" unit="character"/></lem>
+                <rdg resp="#IGCyr"><supplied reason="lost" unit="character" extent="unknown"/></rdg></app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">raisin: hâtif</supplied>, hors garantie, <supplied reason="lost">la mesure, tant</supplied>; <supplied reason="lost">noir</supplied>, hors garantie,
+                <supplied reason="lost">la mesure, tant</supplied>; foin <supplied reason="lost">cultivé, la charretée, tant</supplied>; sauvage, <supplied reason="lost">tant; paille, le filet, tant</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">grapes: early</supplied>, without guarantee, <supplied reason="lost">per unit, so much</supplied>; <supplied reason="lost">black</supplied>, without guarantee,
+                <supplied reason="lost">per unit, so much</supplied>; <supplied reason="lost">cultivated</supplied> hay, <supplied reason="lost">per cartload, so much</supplied>;  wild, <supplied reason="lost">so much; straw, per net, so much</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">uva: primaticcia</supplied>, non scelta, a <supplied reason="lost">tanto; nera</supplied>, non scelta,
+                <supplied reason="lost">a tanto</supplied>; fieno <supplied reason="lost">coltivato, per carro, a tanto</supplied>; selvatico, <supplied reason="lost">a tanto; paglia, la rete, a tanto</supplied>; <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+                <p>---] العنب: المبكر [، غيرمباع بعقد مسبق، ]للمقدار الواحد، قيمة ما[؛ ]الأسود[، مباع بعقد مسبق، ] للمقدار الواحد، قيمة ما[؛ التبن ]المزروع[،]لحمولة العربة، قيمة ما[؛ البري (التبن أو الأعشاب)،]قيمة ما، القش (الناتج عن درس الحبوب) للشبكة، قيمة ما[ ؛ [---].</p>
+            </div><div type="commentary">
+                
+                <p>This small fragment clearly belongs to one of the accounts of the damiergoi and may be dated from its lettering in the series of the first
+                    half of the fourth century BC. However it cannot be joined to any other fragment, differing from every one by at least one physical characteristic. 
+                    C. Dobias-Lalou, who had once thought that it might belong to <ref type="inscription" source="#IGCyr2">IGCyr012900</ref> (so <bibl><ptr target="#chamoux1988"/>, 
+                    p. <citedRange>143</citedRange></bibl>), is now sure that it is impossible.</p>
+	   <p>E. Rosamilia's suggestion that hay was measured by cartload at line 4 produces a plausible dimension for each line. He also suggests to add <foreign xml:lang="grc">ἀν</foreign> 
+	   for each product, which is optional at the time.</p>
+            </div></body>
+    </text>
+</TEI>

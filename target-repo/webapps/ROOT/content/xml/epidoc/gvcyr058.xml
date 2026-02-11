@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Honours</rs> for a son of Markianos</title>
+                <editor>Greek Verse Inscriptions of Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">GVCyr058</idno>
+                <idno type="number" subtype="second-edition">058</idno>
+                <idno type="TM">738947</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">gvcyr058</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/gvcyr058</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/gvcyr058</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Three adjoining fragments of an inscribed <material>limestone</material> <objectType>column drum</objectType>
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the surface probably in 10 lines, with missing parts at right and left;
+                                an alternate inset of the pentameters is probable.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; deeply and carefully cut, letters with small serifs, resembling that of <ref type="inscription" source="#GVCyr2">GVCyr036</ref>:
+                                dropped bar alpha, lunate epsilon and sigma, kappa with very long and slightly curved bars, pi with equal hastae, phi with tall hasta, cursive omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="0101" notAfter="0300" precision="medium" evidence="lettering">Second to third century AD</origDate>
+                        </origin>
+                        
+                                <provenance type="found" when="1925">
+                                    <p>Found in 1925 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        in the <rs type="monuList" ref="https://www.slsgazetteer.org/1033">Temple of Apollo</rs>: plausibly from the <rs type="monuList" ref="https://www.slsgazetteer.org/1036">Peristasis</rs> 
+                                        of the second century AD temple.
+                                   </p>
+                                </provenance>
+                                <provenance type="not-observed">
+                                    <p>Known only from an ancient photograph.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from photograph (JMR and CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-06" who="CDL">updated bibl</change>
+            <change when="2023-08-29" who="cdl">updated bibl</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-18" who="Alice">It. translation; checked</change>
+            <change when="2017-03-08" who="CDL">Engl. translation; overall check</change>
+            <change when="2016-12-13" who="CDL">support, text, apparatus, commentary, Fr. translation</change>
+            <change when="2016-12-08" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76655/3/gvcyr058-face.tiff.jpg" corresp="gvcyr058" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="-"><ref target="http://hdl.handle.net/20.500.14008/76655">Face of gvcyr058 Honours for a son of Markianos</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Not published before <bibl><ptr target="#GVCyr"/><citedRange>058</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/> <citedRange>67.1485</citedRange></bibl> and 
+                    <bibl><ptr target="#AE"/> <citedRange>2017.1659</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <lg>
+                    
+                    <lb n="0"/><space extent="unknown" unit="line"/>
+                    <l n="1" met="hexameter" real="+--|+--|+--|+--|+--|+±">
+                        <lb n="1"/><seg met="+--"><gap reason="lost" quantity="6" unit="character" precision="low"/>νοῦ</seg> <w lemma="κλυτός">κλυτὸν</w> <w lemma="ἔρνος">ἔρνος</w> 
+                        <w lemma="ἁβρός">ἁβ<supplied reason="lost">ρὸν</supplied></w> <w lemma="γόνος"><supplied reason="lost" cert="low">γόνον</supplied></w> 
+                        <seg met="+"><gap reason="lost" extent="unknown" unit="character"/></seg> <w lemma="ὅς1" type="relative"><supplied reason="lost">ὃν</supplied></w> 
+                        <w lemma="τίκτω"><supplied reason="lost">ἔτικτε</supplied></w></l> 
+                    <l n="2" met="pentameter" real="+--|+--|+|+--|+--|+">
+                        <lb n="2"/><persName type="attested" key=""><name nymRef="#Μαρκιανός"><supplied reason="lost">Μαρκι</supplied>ανὸς</name></persName> <rs type="office" key="eponymous priest"><w lemma="ἱερεύς">ἱερεὺς</w></rs>, 
+                        <w lemma="ἄστρον">ἄστρον</w> <w lemma="ὁμηλικίη">ὁμηλικί<unclear>η</unclear><supplied reason="lost">ς</supplied></w></l>
+                    <l n="3" met="hexameter" real="++|++|+--|+--|+--|++">
+                        <lb n="3"/><w lemma="λέγω"><supplied reason="lost">εἶπον</supplied></w> <w lemma="σύμπας"><supplied reason="lost">σύ</supplied><unclear>μπ</unclear>αντές</w> 
+                        <w lemma="τις">τιν’</w> <w lemma="ἔχω">ἔχειν</w> <w lemma="περικαλλής">περικαλλέα</w> <w lemma="φωνή">φ<unclear>ω</unclear>νήν</w>,</l>                    
+                    <l n="4" met="pentameter" real="+--|+--|+|+--|+--|±">
+                        <lb n="4"/><w lemma="ὅς2" type="possessive"><unclear>ἧ</unclear>ς</w> <w lemma="σοφίη">σοφίης</w> <w lemma="πραπίδες">πραπίσιν</w>
+                        <w lemma="ἁρμονίη">ἁρμονίην</w> <w lemma="λαγχάνω">ἔλαχε<supplied reason="lost">ν</supplied></w>·</l>                    
+                    <l n="5" met="hexameter" real="++|++|++|++|+--|++">
+                        <lb n="5"/><supplied reason="lost">τὸν δ'</supplied> <w lemma="ἦμος">ἦμ<unclear>ος</unclear></w> <w lemma="νοστέω"><supplied reason="lost">ν</supplied>οστεῖν</w> 
+                    <placeName type="ethnic" nymRef="#Κυρηναῖος"><supplied reason="lost">Κυρην</supplied>αί<unclear>ω</unclear>ν</placeName> <w lemma="πόλις">πόλις</w>
+                        <w lemma="γιγνώσκω"><unclear>ἔ</unclear><supplied reason="lost">γνω</supplied></w></l>
+                    <l n="6" met="pentameter" real="++|+--|+|+--|+--|±">
+                        <lb n="6"/><w lemma="ὅς2" type="possessive"><supplied reason="lost">ᾗ</supplied></w> <w lemma="φωνή"><supplied reason="lost">φώνῃ</supplied></w> 
+                        <w lemma="θαλερός">θαλερῇ</w> <placeName type="country" nymRef="#Ἑλλάς"><unclear>Ἑλ</unclear>λά<supplied reason="lost">δο</supplied>ς</placeName> 
+                        <rs type="office" key="archechoros"><w lemma="ἀρχέχορος">ἀρχέ<supplied reason="lost" cert="low">χορον</supplied></w></rs>,</l>
+                    <l n="7" met="hexameter" real="+--|+--|+--|+--|+--|+±">
+                        <lb n="7"/><w lemma="πατήρ"><supplied reason="lost" cert="low">πατέρι</supplied></w> <w lemma="εὔχομαι"><supplied reason="lost">ε</supplied>ὐχομένῳ</w> 
+                        <w lemma="καλέω">κα<unclear>λ</unclear><supplied reason="lost">έ</supplied>ειν</w> <w lemma="μάκαρ" part="I">μακα<unclear>ρ</unclear></w><seg met="--|+±"><gap reason="lost" extent="unknown" unit="character"/></seg></l>
+                    <l n="8" met="hexameter" real="+--|++|+--|++|+--|++">
+                        <lb n="8"/><seg met="+-"><gap reason="lost" quantity="7" unit="character" precision="low"/></seg><w part="F">ίην</w> <w lemma="οἶκος">οἴκοιο</w>
+                    <w lemma="κασίγνητος">κασιγνήτων</w> <rs type="office" key="eponymous priest"><w lemma="ἱερεύς">ἱερ<unclear>ή</unclear><supplied reason="lost">ων</supplied></w></rs></l>
+                    <l n="9" met="pentameter" real="+--|++|+|+--|+--|+">
+                        <lb n="9"/><seg met="+-"><gap reason="lost" quantity="4" unit="character" precision="low"/></seg><w part="F"><choice><unclear>ι</unclear><unclear>ν</unclear></choice>ον</w> 
+                        <w lemma="παῖς">παῖδας</w> <w lemma="στέμμα">στέμμασι</w> <w lemma="γηθέω">γηθομ<unclear>έ</unclear><supplied reason="lost">νους</supplied></w></l>
+                    <l n="10" met="hexameter" real="+--|+--|++|+--|+--|++">
+                        <lb n="10"/><seg met="+--"><gap reason="lost" quantity="6" unit="character" precision="low"/></seg> <w lemma="τόσσος"><supplied reason="lost">τόσσ'</supplied></w> 
+                        <w lemma="φημί">ἐφάμην</w> καί <w lemma="σύ">τοι</w> <w lemma="τελέω">τελέσειε<supplied reason="lost">ν</supplied></w> 
+                        <persName type="divine" ref="#Apollo"><supplied reason="lost"><name nymRef="#Ἀπόλλων">Ἀπόλλων</name></supplied></persName></l>
+                    <lb n="10a"/><space extent="unknown" unit="line"/>
+	 </lg>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="3"><lem><supplied reason="lost">εἶπον</supplied> <note>Peek's reading</note></lem> 
+                    <rdg>φασίν</rdg> <note>Peek's reading; both verbs oddly placed at the end of the line</note>
+                </app>
+                <app loc="5"><lem><supplied reason="lost">τὸν δ'ἦμ</supplied><unclear>ος</unclear> <supplied reason="lost">ν</supplied>οστεῖν <supplied reason="lost">Κυρην</supplied>αί<unclear>ω</unclear>ν
+                    πόλις <unclear>ἔ</unclear><supplied reason="lost">γνω</supplied> <note>Peek's reading</note></lem>
+                    <rdg><supplied reason="lost">τὸν</supplied> <unclear>Φο</unclear><supplied reason="lost">ῖβ</supplied>ος τεί<unclear>μ</unclear><supplied reason="lost">ησε</supplied> <unclear>κ</unclear>αὶ ὃν πόλις ἐ<supplied reason="lost">στεφάνωσεν</supplied> <note>Peek's reading</note></rdg>
+                </app>
+                <app loc="6"><lem>ἀρχέ<supplied reason="lost" cert="low">χορον</supplied></lem>
+                    <rdg>ἀρχέ<supplied reason="lost">γονον</supplied> <note>Peek's reading</note></rdg>
+                    <rdg>ἀρχέ<supplied reason="lost">τυπον</supplied> <note>Peek's reading</note></rdg>
+                </app>
+                <app loc="7"><lem>κα<unclear>λ</unclear><supplied reason="lost">έ</supplied>ειν μακα<unclear>ρ</unclear><gap reason="lost" quantity="2" unit="character"/> 
+                        <gap reason="lost" extent="unknown" unit="character"/></lem>
+                    <rdg>κα<supplied reason="lost">λέ</supplied>ειν μακάρ<supplied reason="lost">ας ποτὶ δεῖπνον</supplied> <note>Peek's reading</note></rdg>
+                </app>
+                <app loc="8"><lem><gap reason="lost" quantity="7" unit="character" precision="low"/>ίην</lem>
+                    <rdg type="alternative"><note>or</note> <supplied reason="lost">εὐσεβ</supplied>ίην</rdg>
+                    <rdg><supplied reason="lost">εὐκλε</supplied>ίην <note>Peek's reading</note></rdg></app>
+                <app loc="10"><lem><gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">τόσσ'</supplied> ἐφάμην</lem>
+                    <rdg><supplied reason="lost">πλείω δ'οὐκ</supplied> ἐφάμην <note>Peek's reading</note></rdg>
+                </app>
+                <app loc="10"><lem>καί τοι</lem>
+                <rdg>καίτοι <note>Peek's reading</note></rdg>
+                </app>
+                <app loc="10"><lem><supplied reason="lost">Ἀπόλλων</supplied> <note>Peek's reading</note></lem>
+                </app>
+                 </p>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Le glorieux rejeton de <gap reason="lost" extent="unknown" unit="character"/>nos, le gracieux <supplied reason="lost">fils qu'engendra</supplied></p>
+                <p>le prêtre Markianos, étoile parmi la jeunesse contemporaine,</p>
+                <p>dont tous disaient qu'il avait une voix magnifique,</p>
+                <p>obtint pour son intelligence un lot en harmonie avec son habileté ;</p>
+                <p>lorsque la cité des Cyrénéens apprit qu'il revenait</p>
+                <p>grâce à sa voix florissante en chef <supplied reason="lost" cert="low">de choeur</supplied> de la Grèce,</p>
+                <p>pour son père qui faisait le voeu d'appeler bienheureux <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p>la <gap reason="lost" extent="unknown" unit="character"/> de la maison de ses frères prêtres</p>
+                <p><gap reason="lost" extent="unknown" unit="character"/> ses enfants se réjouissant de leurs couronnes</p>
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">c'est tout ce que</supplied> j'ai dit et puisse <supplied reason="lost">Apollon</supplied> le réaliser !</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>The glorious offspring of <gap reason="lost" extent="unknown" unit="character"/>nos, the gracious <supplied reason="lost">son whom</supplied> priest Markianos</p>
+            <p><supplied reason="lost">begot</supplied>, star amongst those of the same age,</p>
+            <p>whom everybody said that he had a wonderful voice,</p> 
+             <p>obtained for his mind a lot concording with his skills;</p> 
+             <p>when the city of the Cyrenaeans knew that he was coming back</p>
+             <p>thanks to his flourishing voice as the head of <supplied reason="lost" cert="low">choirs</supplied> in Greece,</p> 
+             <p>for his father who vowed to call mostly happy <gap reason="lost" extent="unknown" unit="character"/>,</p> 
+             <p>the <gap reason="lost" extent="unknown" unit="character"/> of his brothers priests' house</p>
+             <p><gap reason="lost" extent="unknown" unit="character"/> the children being delighted with their crowns</p> 
+             <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">that is all</supplied> I said and may <supplied reason="lost">Apollo</supplied> achieve it!</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Il glorioso rampollo di <gap reason="lost" extent="unknown" unit="character"/>nos, lo splendido <supplied reason="lost">figlio che</supplied> il sacerdote Markianos</p> 
+                <p><supplied reason="lost">generò</supplied>, stella tra i coetanei,</p>
+                <p>che tutti dicevano avesse una voce meravigliosa,</p> 
+                 <p>ottenne per la sua intelligenza una sorte in armonia con le sue abilità;</p>
+                 <p>quando la città dei Cirenei seppe che stava tornando,</p>
+                 <p>grazie alla sua voce fiorente, come capo dei <supplied reason="lost" cert="low">cori</supplied> della Grecia,</p> 
+                 <p>per suo padre che aveva fatto voto di chiamare beato <gap reason="lost" extent="unknown" unit="character"/>,</p>
+                <p>la <gap reason="lost" extent="unknown" unit="character"/> della casa dei suoi fratelli sacerdoti</p>
+                 <p><gap reason="lost" extent="unknown" unit="character"/> i figli deliziati delle loro corone</p>
+                <p><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">è tutto quanto</supplied> ho detto e possa <supplied reason="lost">Apollo</supplied> realizzarlo!</p>
+            </div><div type="commentary">
+                
+               <p>This inscription is known only from an ancient photograph, from which J.M. Reynolds made a first transcription at an unknown date. She then took advice from W. Peek. 
+                 In the latter's archive (Nachlass Peek, Berlin, kindly communicated by Kl. Hallof) are two copies and three tentative readings, one of which dated 1970. However, 
+                 Peek did not insert this item into his published collection (<bibl><ptr target="#peek1972"/></bibl>, given for edition in February 1971), probably because he was not 
+                 quite satisfied with the restorations. Moreover, there is in J.M. Reynolds' notebooks a fourth tentative reading, undated, also attributed to W. Peek. C. Dobias-Lalou 
+                 took advantage of all four sketches with due reference in the apparatus. However, as Peek was evidently not wholly satisfied with any of them, we did not mention 
+                 all his tentative readings. Groups of words are clear enough, but it is very difficult to connect them into well-formed sentences.</p>
+                <p>Both the support of the inscription and its content offer many similarities with <ref type="inscription" source="#GVCyr2">GVCyr036</ref> and probably also with 
+	    <ref type="inscription" source="#GVCyr2">GVCyr037</ref>: at least two of them were cut on a column drum of the peristasis of the temple of Apollo as rebuilt in the second century AD,
+	    all three seem to mention the same family composed of a father Markianos, priest of Apollo, a son Markos, also priest of Apollo and a daughter Markiane, priestess of 
+	    Artemis. This third piece apparently mentions another son, here praised for his voice and his intellect. This inscription should clearly be placed after the two others, 
+	    as it mentions the 'brotherly priests' (in fact a priest and a priestess), to whom the present hero is compared. It has in common with <ref type="inscription" source="#GVCyr2">GVCyr036</ref> 
+                    the mention of a 1st person as responsible here for the final vow, there for the inscription.</p>
+                <p>An alternative explanation of the 'brotherly priests' might perhaps be found in an inscription recently published (<bibl><ptr target="#alshareef-chevrollier-dobiaslalou2021"/>, p. <citedRange>34</citedRange>, footnote 54</bibl>), where two brothers are priests together, 
+                one being eponymous priest of Apollo, the other being priest of the civic cult of Augustus. Unfortunately the present inscription is too lacunar to allow a solid conclusion.</p>
+                <p>The name Markianos would offer a good restoration at the beginning of both lines 1 and 2. However, this would make the family stemma even more complicated. So 
+                we choose to restore this name only at line 2 for the priest. The name at line 1 should be another name of Latin origin ending with <foreign xml:lang="la">-anus</foreign>
+                refering to a forefather.</p>
+                <p>At line 4, no additional word being possible at the beginning, we suggest the possessive <foreign xml:lang="grc">ἧς</foreign>, referring to <foreign xml:lang="grc">σοφίης</foreign>, although the result is rather clumsy.</p>
+                <p>At line 6, we suggest <foreign xml:lang="grc">ἀρχέχορος</foreign>, for which see Euripides, <foreign rend="italic">Tr.</foreign> 151.</p>
+                <p>At line 7, it is difficult to choose for the meaning of the phrase <foreign xml:lang="grc">καλέω μακάρας</foreign> between 'to call someone very happy'
+                or 'to call (for lunch) the immortals'.</p>
+	<p>Metrical analysis: the dactylic rhythm is obvious. As rather large parts of the centre of each line is preserved, we are able to determine whether the line is 
+	a hexameter or a pentameter. The result is a somewhat surprising sequence of both verses, which cannot form pure elegiac couplets.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType" cert="low">Dedication</rs> (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr109610</idno>
+                <idno type="number" subtype="second-edition">109610</idno>
+                <idno type="TM">738626</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr109610</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr109610</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr109610</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">2984</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small-scale <material>limestone</material> <objectType>altar</objectType> with fluted column as base, surmounted by a capital broken at right
+                                        (<dimensions>
+                                            <width>0.07</width>
+                                            <height>0.115</height>
+                                            <depth/>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one side of the abacus of the capital
+                                    (<dimensions>
+                                        <width>0.03</width>
+                                        <height>0.019</height>
+                                        <depth/>
+                                    </dimensions>).
+                                </layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.01</height></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering context" notBefore="-0120" notAfter="-0096" precision="medium">Probably late second or early first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1982">
+                                    <p>Found before 1982 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot unrecorded.
+                                    </p>
+                                </provenance>
+                                <provenance type="observed" when="1982" resp="cdl">
+                                    <p>Seen in 1982 by C. Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-24" who="Alice">checked</change>
+            <change when="2017-02-04" who="CDL">overall check, commentary</change>
+            <change when="2014-01-17" who="CDL+HB">text, apparatus, lemma, translation</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-08-31" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77502/3/igcyr109610-1-view.tiff.jpg" corresp="igcyr109610" decls="#photograph"><desc resp="Fabbricotti, E." source="Missione archeologica dell'Università di Chieti" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77502">View of igcyr109610 Dedication (?)</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77503/3/igcyr109610-2-squeeze.tiff.jpg" corresp="igcyr109610" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1982"><ref target="http://hdl.handle.net/20.500.14008/77503">Squeeze of igcyr109610 Dedication (?)</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#fabbricotti2007"/>, p. 280, n. <citedRange>13</citedRange>, fig. 12</bibl>, and 
+                    <bibl><ptr target="#cdlBE"/>, <citedRange>2008.601</citedRange></bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>57.2017, 4</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>109610</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Ἐτέαρχος">Ἐτέα<supplied reason="lost">ρχος</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>                
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <lem resp="#cdlBE">Ἐτέα<supplied reason="lost">ρχος</supplied></lem>
+                        <rdg resp="#fabbricotti2007">Ἐτεα<gap reason="lost" extent="unknown" unit="character"/></rdg></app>.</p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Étéarkhos <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Etearchos <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Etearchos <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>The few other small-scale altars bearing inscriptions have a divine name at the dative alone (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.663.html">IRCyr2020 C.663</ref>) or with the name 
+                    of a dedicant at the nominative (<ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/C.494.html">IRCyr2020 C.494</ref>, <ref type="inscription" target="https://ircyr2020.inslib.kcl.ac.uk/en/inscriptions/M.191.html">IRCyr2020 M.191</ref>, l. 2). Most of the present inscription 
+                being lost, we may suppose that Etearchos dedicated this one to an unknown deity.</p>
+                <p>It would not be inconceivable that a woman was the dedicant. However no feminine is known corresponding to the masculine name Etearchos.</p>
+            </div></body>
+    </text>
+</TEI>

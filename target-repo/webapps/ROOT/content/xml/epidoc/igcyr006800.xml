@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Perhaps <rs type="textType" cert="low">list of priests</rs> of Dionysos (?)</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr006800</idno>
+                <idno type="number" subtype="second-edition">006800</idno>
+                <idno type="TM">113374</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr006800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr006800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr006800</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Stele</objectType>, probably of white                                       
+                                        <material>marble</material> with a simple upper moulding on three sides, already chipped off above in Pacho's time, broken off below                                        
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face, aligned along the left margin, with some gaps between lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; slanting sigma, small omicron, often above the line, as well as some omegas.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="prosopography lettering" precision="low" notBefore="-0340" notAfter="-0301" resp="rosamilia">Probably between 340 and 300 BC (Rosamilia)</origDate>
+                        </origin>
+                        
+                        
+                        <provenance xml:id="copy-dellacella" type="found" when="1817">
+                                    <p>Copied by P. Della Cella (1817) at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: probably in the
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1381">Enclosed sanctuary of Demeter and Kore</rs>.
+                                   </p>
+                        </provenance>
+                        <provenance xml:id="copy-pacho" type="observed" when="1825">
+                            <p>Copied by J.-R. Pacho in 1825 at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>.</p>
+                        </provenance>
+                        <provenance type="not-observed">
+                                    <p>Now lost.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from previous editors (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">updated obs place</change>    
+            <change when="2023-09-09" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-24" who="Alice">checked</change>
+            <change when="2016-07-21" who="CDL">added nymRef; three translations</change> 
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-22" who="CDL">lemma, text, apparatus, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76736/3/igcyr006800-drawing.tiff.jpg" corresp="igcyr006800" decls="#photograph"><desc resp="Pacho, J.R." source="-" n="1825"><ref target="http://hdl.handle.net/20.500.14008/76736">Drawing of igcyr006800 List of names</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#CIG"/> <citedRange>5146</citedRange></bibl>, from 
+                    <bibl><ptr target="#dellacella1819"/><citedRange/></bibl><bibl> (= <ptr target="#dellacella1912"/>, pp. <citedRange>145-146</citedRange></bibl>) and 
+                    <bibl><ptr target="#pacho1827"/>, vol. 2,  pl. <citedRange>62, 2</citedRange> and vol. 1, p.<citedRange>392</citedRange> (Letronne)</bibl>;
+                    <bibl><ptr target="#SGDI"/> <citedRange>4835</citedRange> (Blass)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>006800</citedRange></bibl>
+                    <bibl><ptr target="#rosamilia2023"/>, pp. <citedRange>118-122</citedRange> (provenance, content, date), pp. <citedRange>254-255</citedRange>, number 10 (text)</bibl>.  
+                    Cf. <bibl><ptr target="#tod1948"/>, n. <citedRange>203</citedRange></bibl>; 
+                    <bibl><ptr target="#laronde1987"/>, pp. <citedRange>67-68, 132</citedRange></bibl>;
+                    <bibl><ptr target="#marengo1991"/>, pp. <citedRange>114, 228</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2000"/>, p. <citedRange>60</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2016"/>, pp. <citedRange>251-252</citedRange></bibl>;
+                    <bibl><ptr target="#minon2020"/>, p. <citedRange>351</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63128"><name nymRef="#Ἄριστις"><supplied reason="undefined" evidence="previouseditor">Ἄρι</supplied>στις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66112"><name type="patronymic" nymRef="#Φίλων">Φίλων<supplied reason="lost">ος</supplied></name></persName></persName>
+                    <lb n="2"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63437"><name nymRef="#Γόργος">Γόργος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64757"><name type="patronymic" nymRef="#Κώμαρχος"><unclear>Κ</unclear>ωμάρχο<supplied reason="lost">υ</supplied></name></persName></persName> 
+                    <lb n="3"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63412"><name nymRef="#Βίμβων">Βίμβων</name></persName> <orig>λλιρου</orig>
+                    <lb n="4"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63107"><name nymRef="#Ἄριστις">Ἄριστις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64764"><name type="patronymic" nymRef="#Λαϊάδας">Λαϊάδα</name></persName></persName>
+                    <lb n="4a"/><space quantity="1" unit="line"/>
+                    <lb n="5"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65648"><name nymRef="#Στράτων">Στράτων</name> <persName type="attested"><name type="patronymic" nymRef="#Ἀριστέας">Ἀριστέα</name></persName></persName>
+                    <lb n="6"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64051"><name nymRef="#Ἡρόφαντος"><unclear>Ἡ</unclear>ρόφαν<unclear>τ</unclear>ος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63745"><name type="patronymic" nymRef="#Ἑρμόδωρος"><unclear>Ἑ</unclear>ρμοδώρου</name></persName></persName>
+                    <lb n="7"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66076"><name nymRef="#Φίλων">Φίλων</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64209"><name type="patronymic" nymRef="#Θεύτιμος">Θευτίμω</name></persName></persName>
+                    <lb n="8"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65277"><name nymRef="#Πάταλλος">Πάταλλο<unclear>ς</unclear></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63132"><name type="patronymic" nymRef="#Ἀριστίων">Ἀριστίωνος</name></persName></persName>
+                    <lb n="9"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63486"><name nymRef="#Δαμόστρατος">Δαμόστρατος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62562"><name type="patronymic" nymRef="#Ἁγήσαρχος">Ἁγησάρχω</name></persName></persName>
+                    <lb n="10"/><persName type="attested" key=""><name nymRef="#Ἐπίνικος"><unclear>Ἐ</unclear>πίν<supplied reason="lost">ι</supplied>κος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65468"><name type="patronymic" nymRef="#Πρατόλας"><supplied reason="lost">Πρ</supplied>ατόλα</name></persName></persName>
+                    <lb n="11"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65703"><name nymRef="#Σωσίας">Σωσ<surplus>π</surplus>ίας</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65462"><name type="patronymic" nymRef="#Πρᾶτις">Πράτιος</name></persName></persName>
+                    <lb n="12"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66075"><name nymRef="#Φίλων">Φίλων</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62531"><name type="patronymic" nymRef="#Ἀγάθων">Ἀγά<unclear>θ</unclear>ωνος</name></persName></persName>
+                    <lb n="13"/><persName type="attested" key=""><name nymRef="#Ἐχθατί_ν">Ἐχ<unclear>θ</unclear>ατί<choice><unclear>α</unclear><unclear>ω</unclear></choice>ν</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63333"><name type="patronymic" nymRef="#Αὐτόφιλος">Αὐτοφίλο<supplied reason="lost">υ</supplied></name></persName></persName>
+                    <lb n="14"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62714"><name nymRef="#Ἀλέξανδρος">Ἀλέξανδρος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64995"><name type="patronymic" nymRef="#Μένανδρος">Μενάνδρω</name></persName></persName>
+                    <lb n="15"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62713"><name nymRef="#Ἀλέξανδρος">Ἀλέξανδρος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62574"><name type="patronymic" nymRef="#Ἅγησις">Ἁγήσιος</name></persName></persName>
+                    <lb n="16"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64207"><name nymRef="#Θευτέρπης">Θευτέρπης</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65469"><name type="patronymic" nymRef="#Πρατόλας">Πρατόλα</name></persName></persName>
+                    <lb n="17"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64314"><name nymRef="#Ἰάσων">Ἰάσων</name> <persName type="attested" key=""><name type="patronymic" nymRef="#Χιραυρας">Χιραυρα</name></persName></persName>
+                    <lb n="18"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63465"><name nymRef="#Δᾶμις">Δᾶμις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64785"><name type="patronymic" nymRef="#Λεύκασπις">Λευκάσπιος</name></persName></persName>
+                    <lb n="19"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63523"><name nymRef="#Δέξις">Δέξις</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65886"><name type="patronymic" nymRef="#Φερέγγυος"><unclear>Φ</unclear>ερεγγύω</name></persName></persName>
+                    <lb n="20"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62737"><name nymRef="#Ἀλεξίμαχος">Ἀλεξίμαχος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64713"><name type="patronymic" nymRef="#Κομάτας">Κομάτα</name></persName></persName>
+                    <lb n="21"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66009"><name nymRef="#Φιλόκωμος"><unclear>Φ</unclear>ιλόκωμος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63064"><name type="patronymic" nymRef="#Ἀρίσταρχος">Ἀριστάρχω</name></persName></persName>
+                    <lb n="22"/><gap reason="lost" quantity="4" unit="character"/><orig>ω</orig><gap reason="lost" quantity="12" unit="character" precision="low"/>
+                    <lb n="23"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65664"><name nymRef="#Συνναίων">Συνναίων</name> <persName type="attested"><name type="patronymic" nymRef="#Αἴσχρων">Αἴ<supplied reason="lost">σχρ</supplied>ωνος</name></persName></persName>
+                    <lb n="23a"/><space quantity="1" unit="line"/>
+                    <lb n="24"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64620"><name nymRef="#Κεφαλίων">Κεφαλίων</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63330"><name type="patronymic" nymRef="#Αὐτοκλῆς"><unclear>Ἀ</unclear>υτοκλεῦ<supplied reason="lost">ς</supplied></name></persName></persName>
+                    <lb n="24a"/><space quantity="1" unit="line"/>
+                    <lb n="25"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64098"><name nymRef="#Θεμίσων"><supplied reason="lost">Θ</supplied>εμί<supplied reason="lost">σ</supplied>ων</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63160"><name type="patronymic" nymRef="#Ἀριστομένης">Ἀρ<supplied reason="lost">ισ</supplied>τομένευ<supplied reason="lost">ς</supplied></name></persName></persName>
+                    <lb n="26"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65591"><name nymRef="#Σθένων">Σ<unclear>θ</unclear>ένων</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66153"><name type="patronymic" nymRef="#Χαρικλῆς">Χα<unclear>ρ</unclear>ικλεῦς</name></persName></persName>
+                    <lb n="27"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63800"><name nymRef="#Εὐηθίδας"><unclear>Ε</unclear>ὐηθίδας</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63678"><name type="patronymic" nymRef="#Ἐπιγένης">Ἐπιγένευ<supplied reason="lost">ς</supplied></name></persName></persName>
+                    <lb n="28"/><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64726"><name nymRef="#Κρίνιππος">Κρίν<supplied reason="lost">ιπ</supplied><unclear>π</unclear>ος</name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-66020"><name type="patronymic" nymRef="#Φιλόκωμος"><unclear>Φι</unclear>λοκώμω</name></persName></persName>
+                    <lb n="28a"/><space quantity="1" unit="line"/>
+                    <lb n="29"/><persName type="attested" key=""><name nymRef="#Νείκιππος">Ν<unclear>εί</unclear>κ<unclear>ι</unclear>ππος</name> <persName type="attested"><name nymRef="#Θαλ_"><seg part="I"><unclear>Θ</unclear>αλ</seg><gap reason="lost" atLeast="3" atMost="5" unit="character"/></name></persName></persName>
+                    <lb n="30"/><persName type="attested"><name nymRef="#_ένων"><gap reason="lost" quantity="1" unit="character"/><seg part="F">έν<unclear>ω</unclear>ν</seg></name> <persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65529"><name type="patronymic" nymRef="#Ἱππόμαχος">Ἱπ<unclear>π</unclear>ομ<supplied reason="lost" cert="low">άχω</supplied></name></persName></persName>
+                    <lb n="31"/><gap reason="lost" quantity="5" unit="character" precision="low"/><orig>τσ</orig><gap reason="lost" atLeast="7" atMost="8" unit="character"/>
+                </ab>        
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1"><lem><supplied reason="undefined" evidence="previouseditor">Ἄρι</supplied>στις</lem>
+                        <rdg resp="#dellacella1819"><orig>αρισ</orig> <note>already lost in Pacho's time</note></rdg>
+                    </app>
+                    <app loc="2"><lem><unclear>Κ</unclear>ωμάρχο<supplied reason="lost">υ</supplied></lem> 
+                        <rdg resp="#CIG"><supplied reason="lost">Κ</supplied>ωμάρχ<supplied reason="lost">ω</supplied> <note>Franz</note></rdg> 
+                        <rdg resp="#dellacella1819"><orig>οωμαρχο</orig></rdg> 
+                        <rdg resp="#pacho1827"><orig>ιωμαρχο</orig></rdg>
+                    </app>
+                    <app loc="3"><lem resp="#pacho1827"><orig>ΛΛΙΡΟΥ</orig></lem> 
+                        <rdg resp="#dellacella1819"><orig>ΛΑΤΙΟΥ</orig></rdg>
+                        <note>perhaps <foreign xml:lang="grc">Λαιά<unclear>ρχ</unclear>ου</foreign>?</note>
+                    </app>
+                    <app loc="5"><lem resp="#dellacella1819 #pacho1827">Ἀριστέα <note>both copies</note></lem> 
+                        <rdg resp="#fraser-matthews1987"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63077"><name>Ἀριστεῦς</name></persName> <note>probably Reynolds's suggestion</note></rdg> 
+                    </app>
+                    <app loc="6"><lem><unclear>Ἡ</unclear>ρόφαν<unclear>τ</unclear>τος</lem> 
+                        <rdg resp="#CIG"><unclear>Ἡ</unclear>ρό<unclear>φα</unclear>ν<unclear>τ</unclear>ος <note>Franz</note></rdg>
+                        <rdg resp="#dellacella1819"><orig>ΝΡΟ<gap reason="illegible" quantity="2" unit="character"/>ΑΝΓ<gap reason="illegible" quantity="1" unit="character"/>Σ</orig></rdg> 
+                        <rdg resp="#pacho1827"><orig>ΠΡΟΥΛΝΙΟΣ</orig></rdg>
+                    </app>
+                    <app loc="6"><lem><unclear>Ἑ</unclear>ρμο-</lem> 
+                        <rdg resp="#CIG"><orig>Ἑρμο-</orig> <note>Franz</note></rdg> 
+                        <rdg resp="#dellacella1819 #pacho1827"><orig>ιρμο-</orig> <note>both copies</note></rdg>
+                    </app>
+                    <app loc="8"><lem>Πάταλλο<unclear>ς</unclear></lem> 
+                        <rdg resp="#CIG">Πάταλλος̣ <note>Franz</note></rdg>  
+                        <rdg resp="#pacho1827">Πάταλλο</rdg>
+                    </app>
+                    <app loc="10"><lem resp="#marengo1991"><unclear>Ἐ</unclear>πίν<supplied reason="lost">ι</supplied>κος</lem>
+                        <rdg resp="#CIG"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-64413"><name>Ἱπ<unclear>π</unclear><supplied reason="lost">ό</supplied>ν<supplied reason="lost">ι</supplied>κος</name></persName> <note>Franz</note></rdg>  
+                        <rdg resp="#dellacella1819"><orig>ιπι κο</orig></rdg> 
+                        <rdg resp="#pacho1827"><orig>ιπιν<gap reason="lost" quantity="1" unit="character"/>κο</orig></rdg>
+                    </app>
+                    <app loc="13"><lem>Ἐχ<unclear>θ</unclear>ατί<choice><unclear>α</unclear><unclear>ω</unclear></choice>ν</lem>
+                        <rdg resp="#cdl2000 #IGCyr">Ἐχ<unclear>θ</unclear>α<unclear>π</unclear>αν</rdg> 
+                        <rdg resp="#CIG" cert="low"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-63973"><name>Ἐχ<unclear>θ</unclear>ατιάν</name></persName> <note>tentatively suggested by Franz</note></rdg> 
+                    </app>
+                    <app loc="17"><lem resp="#CIG" cert="low">Χιραύρα <note>tentatively suggested by Franz</note></lem>
+                        <rdg resp="#dellacella1819 #pacho1827"><orig>χιραυβα</orig></rdg>
+                    </app>
+                    <app loc="19"><lem resp="#CIG"><unclear>Φ</unclear>ερεγγύω <note>Franz</note></lem>  
+                        <rdg resp="#dellacella1819"><orig>ιερεγγυω</orig></rdg> 
+                        <rdg resp="#pacho1827"><orig>ρερεγγυω</orig></rdg>
+                    </app>
+                    <app loc="23"><lem>Αἴ<supplied reason="lost">σχρ</supplied>ωνος</lem> 
+                        <rdg resp="#CIG"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-62669"><name>Αἴ<supplied reason="lost">σ</supplied>ωνος</name></persName> <note>Franz</note></rdg>  
+                        <rdg resp="#pacho1827"><orig>αι<gap reason="lost" atLeast="3" atMost="4" unit="character"/>ωνοσ</orig></rdg>
+                    </app> 
+                    <app loc="25"><lem resp="#CIG"><supplied reason="lost">Θ</supplied>εμί<supplied reason="lost">σ</supplied>ων <note>Franz</note></lem>
+                        <rdg resp="#dellacella1819"><gap reason="lost" quantity="2" unit="character"/>εμι<gap reason="lost" quantity="2" unit="character"/>ων</rdg>
+                        <rdg resp="#pacho1827"><gap reason="lost" quantity="1" unit="character"/>εμι<gap reason="lost" quantity="1" unit="character"/>ων</rdg>
+                    </app> 
+                    <app loc="26"><lem resp="#CIG">Χα<unclear>ρ</unclear>ι- <note>Franz</note></lem>  
+                        <rdg resp="#pacho1827"><orig>υαψι</orig>-</rdg>
+                    </app>
+                    <app loc="27"><lem resp="#SGDI"><unclear>Ε</unclear>ὐηθίδας <note>Keil ap. Blass</note></lem> 
+                        <rdg resp="#CIG">Συηθίδας <note>Franz</note></rdg> 
+                    </app>
+                    <app loc="28"><lem resp="#CIG">Κρίν<supplied reason="lost">ιπ</supplied><unclear>π</unclear>ος <note>Franz</note></lem>  
+                        <rdg resp="#pacho1827"><orig>κριν<gap reason="illegible" quantity="2" unit="character"/>γοσ</orig></rdg>
+                    </app> 
+                    <app loc="28"><lem resp="#CIG"><unclear>Φι</unclear>λοκώμω <note>Franz</note></lem>  
+                        <rdg resp="#dellacella1819"><orig>ιιλο</orig>κώμω</rdg> 
+                        <rdg resp="#pacho1827"><orig>πλο</orig>κώμω</rdg>
+                    </app>
+                    <app loc="29"><lem resp="#marengo1991">Ν<unclear>εί</unclear>κ<unclear>ι</unclear>ππος</lem>
+                        <rdg resp="#CIG"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65147"><name>Ν<supplied reason="lost">ί</supplied>κ<unclear>ιππ</unclear>ος</name></persName> <note>Franz</note></rdg> 
+                    </app> 
+                    <app loc="29"><lem><unclear>Θ</unclear>αλ<gap reason="lost" atLeast="3" atMost="5" unit="character"/></lem> 
+                        <rdg resp="#dellacella1819"><orig>οαλ</orig></rdg> 
+                        <rdg resp="#pacho1827"><orig>ολω</orig></rdg>
+                    </app>
+                    <app loc="30"><lem><gap reason="lost" quantity="1" unit="character"/>έν<unclear>ω</unclear>ν</lem> 
+                        <rdg resp="#CIG"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65185"><name><supplied reason="lost">Ξ</supplied>ένων</name></persName> <note>Franz's reading, but <foreign xml:lang="grc"><supplied reason="lost">Μ</supplied>ένων</foreign> would also be possible</note></rdg> 
+                    </app>  
+                    <app loc="30"><lem resp="#rosamilia2023">Ἱπ<unclear>π</unclear>ομ<supplied reason="lost" cert="low">άχω</supplied></lem>
+                        <rdg resp="#SGDI">Ἱπ<supplied reason="lost">π</supplied>ομ- <note>Blass</note></rdg>
+                        <rdg resp="#IGCyr"><persName type="attested" key="http://clas-lgpn2.classics.ox.ac.uk/cgi-bin/lgpn_search.cgi?id=V1-65529"><name type="patronymic" nymRef="#Πτολεμαῖος">Πτολε<unclear>μ</unclear><supplied reason="lost">αίω</supplied></name></persName></rdg> 
+                        <rdg resp="#CIG">Πτο<supplied reason="lost">λεμαίω</supplied> <note>Franz</note></rdg>  
+                        <rdg resp="#pacho1827"><orig>ιπτομ</orig></rdg>
+                        <rdg resp="#dellacella1819"><orig>ιπ</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ομ</orig></rdg>
+                    </app>
+                    <app loc="31"><note>letters of that line, seen only by Pacho, not mentioned in CIG nor SGDI</note></app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+                <p>Aristis fils de Philôn, Gorgos fils de Kômarkhos, Bimbôn fils de <gap reason="lost" extent="unknown" unit="character"/>, Arisitis fils de Laiadas, Stratôn fils d'Aristéas, 
+                Hèrophantos fils d'Hermodôros, Philôn fils de Theutimos, Patallos fils d'Aristiôn, Damostratos fils d'Hagèsarkhos, (10) Epinikos fils de Pratolas, 
+                Sôsias fils de Pratis, Philôn fils d'Agathôn, Ekhthati(.)n fils d'Autophilos, Alexandros fils de Ménandros, Alexandros fils d'Hagèsis, Theuterpès fils
+                de Pratolas, Iasôn fils de Khirauras, Damis fils de Leukaspis, Dexis fils de Pherengyos, (20) Aleximakhos fils de Kômatas, Philokômos fils d'Arsitarkhos,
+                <gap reason="lost" quantity="1" unit="line"/>, Synnaiôn fils d'Aiskhrôn, Kephaliôn fils d'Autoklès, Thémisôn fils d'Aristoménès, Sthénôn fils de Khariklès,
+                Euèthidas fils d'Epigénès, Krinippos fils de Philokômos, Neikippos fils de Thal<gap reason="lost" extent="unknown" unit="character"/>, (30) <gap reason="lost" extent="unknown" unit="character"/>énôn fils d'Hippomakhos,
+                <gap reason="lost" extent="unknown" unit="character"/>.</p>
+                <p>Aristis son of Philon, Gorgos son of Komarchos, Bimbon son of <gap reason="lost" extent="unknown" unit="character"/>, Arisitis son of Laiadas, Straton son of Aristeas, 
+                Herophantos son of Hermodoros, Philon son of Theutimos, Patallos son of Aristion, Damostratos son of Hagesarchos, (10) Epinikos son of Pratolas, 
+                Sosias son of Pratis, Philon son of Agathon, Echthati(.)n son of Autophilos, Alexandros son of Menandros, Alexandros son of Hagesis, Theuterpes son of 
+                Pratolas, Iason son of Chirauras, Damis son of Leukaspis, Dexis son of Pherengyos, (20) Aleximachos son of Komatas, Philokomos son of Arsitarchos,
+                <gap reason="lost" quantity="1" unit="line"/>, Synnaion son of Aischron, Kephalion son of Autokles, Themison son of Aristomenes, Sthenon son of Charikles,
+                Euethidas son of Epigenes, Krinippos son of Philokomos, Neikippos son of Thal<gap reason="lost" extent="unknown" unit="character"/>, (30) <gap reason="lost" extent="unknown" unit="character"/>enon son of Hippomachos,
+                <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+                <p>Aristis figlio di Philon, Gorgos figlio di Komarchos, Bimbon figlio di <gap reason="lost" extent="unknown" unit="character"/>, Arisitis figlio di Laiadas, Straton figlio di Aristeas, 
+                Herophantos figlio di Hermodoros, Philon figlio di Theutimos, Patallos figlio di Aristion, Damostratos figlio di Hagesarchos, (10) Epinikos figlio di Pratolas, 
+                Sosias figlio di Pratis, Philon figlio di Agathon, Echthati(.)n figlio di Autophilos, Alexandros figlio di Menandros, Alexandros figlio di Hagesis, Theuterpes
+                figlio di Pratolas, Iason figlio di Chirauras, Damis figlio di Leukaspis, Dexis figlio di Pherengyos, (20) Aleximachos figlio di Komatas, Philokomos figlio di Arsitarchos,
+                <gap reason="lost" quantity="1" unit="line"/>, Synnaion son of Aischron, Kephalion son of Autokles, Themison son of Aristomenes, Sthenon figlio di Charikles,
+                Euethidas figlio di Epigenes, Krinippos figlio di Philokomos, Neikippos figlio di Thal<gap reason="lost" extent="unknown" unit="character"/>, (30) <gap reason="lost" extent="unknown" unit="character"/>enon figlio di Hippomachos,
+                <gap reason="lost" extent="unknown" unit="character"/>.</p>
+            </div><div type="commentary">
+                
+                <p>It has been argued that <foreign xml:lang="grc">Ἄριστις Φίλωνος </foreign> (l. 1) and <foreign xml:lang="grc">Σθένων Χαρικλεῦς</foreign> (l. 26) could be the victorious 
+                    dedicants of <ref type="inscription" source="#IGCyr2">IGCyr016900</ref>, here probably officers of lower rank. Whence a date about 340 BC (<bibl><ptr target="#laronde1987"/>, pp. <citedRange>67-68, 132</citedRange></bibl>, also citing Oliverio). 
+                    However, <bibl><ptr target="#fraser-matthews1987"/></bibl> (probably upon J.M. Reynolds’ opinion) gives IV/III as date for all names, except that of l. 1. One argument against a higher date 
+                    could be the non-dialectal endings –<foreign xml:lang="grc">ου</foreign> at ll. 2, 3 and 13, but <foreign xml:lang="grc">O</foreign> in both copies 
+                    might also be misread for <foreign xml:lang="grc">Ω</foreign>. <bibl><ptr target="#cdl2016"/>, pp. <citedRange>251-252</citedRange></bibl> gives some arguments 
+                against the mentioned identification of Sthenon and suggested cautiously that this might be a list of priests.</p>
+                <p><bibl><ptr target="#rosamilia2023"/></bibl> shares the idea of a list of priests. Taking into account the place where both Della Cella and Pacho reported their copying 
+                the inscription (erroneoulsy given in <bibl><ptr target="#IGCyr"/></bibl>), he suggests convincingly that the names are those of priests of a male deity whose cult was related to 
+                that of Demeter, i.e. Dionysos.</p>
+                <p>Names <foreign xml:lang="grc">Βίμβων</foreign> (l. 3) and <foreign xml:lang="grc">Πάταλλος</foreign> (l. 8), which were read by both travellers, are not known elsewhere.</p>
+                <p>At l. 13 Pacho's copy produces another problematic name. Dobias-Lalou first suggested a wholly Libyan name <foreign xml:lang="grc">Εχθαπαν</foreign> (<bibl><ptr target="#cdl2000"/></bibl>). Minon (<bibl><ptr target="#minon2020"/></bibl>) was 
+                    able to compare it to the Beotian name <foreign xml:lang="grc">Ἐχθάτιος</foreign>, related to <foreign xml:lang="grc">ἔχθος</foreign> and supposed that the Cyrenaean name was 
+                    rebuilt with a Libyan ending, as in for example <foreign xml:lang="grc">Ἀρίμμαν</foreign>. However, we know of such alterations only for Greek names ending with 
+                <foreign xml:lang="grc">-ας</foreign>. Another possibility might be that an omega was misread as an alpha, the suffix <foreign xml:lang="grc">-ων</foreign> being very usual, the more so that in the copy 
+                some omegas are of small size and cut high above the line and their summits might have been taken as those of alpha.</p>
+                <p>At l. 17, it seems possible to suspect a Libyan name behind the mysterious <foreign xml:lang="grc">Χιραυρα</foreign>, but no parallel exists up to now.</p>
+        </div></body>
+    </text>
+</TEI>

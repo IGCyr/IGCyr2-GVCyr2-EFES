@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs>, perhaps <rs type="textType" cert="low">dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr115600</idno>
+                <idno type="number" subtype="second-edition">115600</idno>
+                <idno type="TM">738708</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr115600</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr115600</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr115600</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two <material>rock</material>-cut <objectType>altar</objectType>s, each in a niche
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> in the rock above both niches.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.09" max="0.12">0.09-0.12</height>; slightly dissymmetrical nu, non-slanting sigma, widely open upsilon.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="context lettering" notBefore="-0300" notAfter="-0100" cert="low" precision="medium">Perhaps third or second century BC</origDate>
+                        </origin>
+                        
+                            
+                        <provenance type="found" when="2007">
+                            <p>Found by M. Luni in 2007 at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                along the road to Balagrae, opposite the Eastern limit of the <rs type="monuList" ref="https://www.slsgazetteer.org/1477">Southern temple precinct</rs>.
+                            </p>
+                        </provenance>
+                        <provenance type="observed" resp="paci" when="2008">
+                            <p>Observed by G. Paci in 2008 in situ, East of the <rs type="monuList" ref="https://www.slsgazetteer.org/1477">Southern temple precinct</rs>.</p>
+                        </provenance>
+                        <provenance type="observed" resp="rosamilia" when="2010">
+                            <p>Seen by E. Rosamilia in 2010 in situ.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (GP).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check, translations</change>
+            <change when="2014-02-18" who="cdl">lemma, text, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2013-01-15" who="Ljuba">added from CATALOGO </change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#paci2011"/>, p. <citedRange>268</citedRange> and fig. 14.1.5</bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>61.1555.B.3</citedRange></bibl> and
+                    <bibl><ptr target="#SEG"/>, <citedRange>61.1555.B.4</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>115600</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#gasparini-rosamilia2016"/>, pp. <citedRange>190-195</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>66.2322</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <div type="textpart" n="a">
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Εὐτυ_"><seg part="I">Εὐτυ<choice><reg>χ</reg><orig>κ</orig></choice></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+                </ab>
+                </div>
+                <div type="textpart" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested" key=""><name nymRef="#_νος"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><seg part="F">νος</seg></name></persName>
+                    </ab>
+                </div>
+
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="a.1"><lem>Εὐτυ<choice><reg>χ</reg><orig>κ</orig></choice><gap reason="lost" extent="unknown" unit="character"/></lem>
+                <rdg resp="#paci2011"><orig>ΕΥΤΥΚ</orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                </app></p>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisible.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمة بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>One of the series of personal names inscribed above altars rock-cut in niches; the 'owner' of the altar(s) engraved his name, but we
+                    do not known the deity to whom offerings were laid down.</p>
+                <p>Dobias-Lalou's commentary: Paci did not comment upon the name in a), the last letter of which he transcribed as a kappa. If this reading is sure, 
+                    it should have been cut instead of a chi. If it is preserved only partly, it might also be a chi. This would allow to suspect a common personal 
+                    name derived from the adjective <foreign xml:lang="grc">εὐτυχής</foreign>. For b) an alternative reading would be Zeus' name (see at 
+                <ref type="inscription" source="#IGCyr2">IGCyr115200</ref>).</p>
+            </div></body>
+    </text>
+</TEI>

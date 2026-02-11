@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Names</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr137000</idno>
+                <idno type="number" subtype="second-edition">137000</idno>
+                <idno type="TM">997632</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr137000</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cyrene Museum</repository><idno type="invNo">169</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Left part of a white <material>marble</material> rectangular <objectType>panel</objectType>, broken off at right and also at the upper left angle 
+                                    (<dimensions>
+                                        <width atLeast="0.12">0.12</width>
+                                        <height>0.11</height>
+                                        <depth max="0.032">0.032</depth>
+                                    </dimensions>); at back the bottom is bevelled, perhaps recut for a re-use; anathyrosis on the upper face.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face in two lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Carefully cut letters (<height>0.032</height> at line 1; <height>0.029</height> at line 2); small serifs, rho with rather small loop, phi with small flattened loop. </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0125" notAfter="-0075" precision="low">Probably end of second or beginning of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p> Plausibly found before World War II at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>:
+                                        exact findspot not registered.
+                                    </p>
+                                </provenance>
+                        <provenance type="observed" when="1979" resp="CDL">
+                            <p>Seen in 1979 by Dobias-Lalou in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>:
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+            <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+                              <change when="2024-02-26" who="CDL">added TM ref</change>
+            <change when="2024-01-26" who="Alice">checked</change> 
+                <change when="2023-09-06" who="CDL">file updated</change>
+                <change when="2022-05-21" who="CDL">file created</change>
+         <change when="2022-05-23" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80506/3/igcyr137000-1-view.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80506">View of igcyr137000 Names</ref></desc></graphic><graphic url="https://historica.unibo.it/bitstream/20.500.14008/80507/3/igcyr137000-2-squeeze.tiff.jpg"><desc><ref target="http://hdl.handle.net/20.500.14008/80507">Squeeze of igcyr137000 Names</ref></desc></graphic></facsimile>
+    <!-- photo 79/IV; squeeze CD219 <facsimile/> -->
+    <text>
+        <body><div type="bibliography">
+                
+                <p>Never published before this edition.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name><unclear>Φ</unclear>ιλύ<supplied reason="lost">τας</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/><certainty locus="name" match=".."/>
+                    <lb n="2"/><persName type="attested" key=""><name>Εὖφρ<unclear>ι</unclear><supplied reason="lost">ς</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/><certainty locus="name" match=".."/>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+               </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Philytas <gap reason="lost" extent="unknown" unit="character"/> Euphris <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+           <p>Philytas <gap reason="lost" extent="unknown" unit="character"/> Euphris <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+           <p>Philytas <gap reason="lost" extent="unknown" unit="character"/> Euphris <gap reason="lost" extent="unknown" unit="character"/>.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p/>
+         </div><div type="commentary">
+                
+             <p>The shape of the stone, an oblong panel, lets us suppose that each line contained more than one name. Furthermore, line 2 has letters not really different in style, but a bit smaller 
+             than at line 1. Each line thus contained probably a name followed by the related father's name. Anyhow, both lines were probably cut by the same hand, exluding the hypothesis of a list of priests,
+             an idea which would also be discarded by the type of support.</p>
+             <p>Generally speaking, the name <foreign xml:lang="grc">Φιλύτας</foreign> is rather rare, but it is more frequent at Cyrene, one occurrence near in date being in <ref type="inscription" source="#IGCyr2">IGCyr104000</ref>. A very small 
+                 vestige of hasta above the break at line 2 allows to exclude an alpha and to read an iota, whence the name <foreign xml:lang="grc">Εὖφρις</foreign> rather than <foreign xml:lang="grc">Εὐφράνωρ</foreign>, both the compound form and the shorter one being typical in Cyrenaica. </p>
+            </div></body>
+    </text>
+</TEI>

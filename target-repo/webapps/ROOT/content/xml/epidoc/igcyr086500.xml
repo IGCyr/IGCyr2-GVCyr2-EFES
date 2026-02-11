@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Epitaph</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr086500</idno>
+                <idno type="number" subtype="second-edition">086500</idno>
+                <idno type="TM">738416</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr086500</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr086500</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr086500</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Left part of a white <material>marble</material> <objectType>base</objectType> with plain mouldings, 
+                                        severely damaged above and to the right
+                                        (<dimensions>
+                                           <width min="0.66">0.66-</width>
+                                                <height min="0.39">0.39-</height>
+                                            <depth>0.56</depth></dimensions>); on top, a hole with a small channel for attachment.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face, between the mouldings (<dimensions>
+                                            <width min="0.62">0.62-</width>
+                                                <height min="0.22">0.22-</height>
+                                        </dimensions>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.07</height>; slight serifs; slanting sigma.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" precision="medium" notBefore="-0150" notAfter="-0101">Second half of the second century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found">
+                                    <p>Found at an unknown date at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1070">South Necropolis</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1979" resp="cdl">                                    
+                                    <p>Seen by C. Dobias-Lalou in 1979 at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        inside archaeological enclosure North of <rs type="monuList" ref="https://www.slsgazetteer.org/987">Caesareum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="https://www.slsgazetteer.org/1679">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="https://www.slsgazetteer.org/1416">Shahhat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-07" who="CDL">updated bibliography</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-10" who="Alice">checked</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-03-27" who="CDL">lemma, text mark-up, apparatus, translations, commentary</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77241/3/igcyr086500-face.tiff.jpg" corresp="igcyr086500" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1979"><ref target="http://hdl.handle.net/20.500.14008/77241">Face of igcyr086500 Epitaph</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#mohamed-jmr1997"/>, pp. 34-35 n. <citedRange>4 D</citedRange> (ph.)</bibl>, whence 
+                    <bibl><ptr target="#SEG"/>, <citedRange>47.2180, D</citedRange></bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>086500</citedRange></bibl>.</p>
+            <p>Cf. <bibl><ptr target="#belzic2022"/>, catalogue <citedRange>B.43</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#Κριν_"><seg part="I">Κρι<unclear>ν</unclear><gap reason="lost" quantity="5" unit="character" precision="medium"/></seg></name>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Ἀρίστιππος" type="patronymic">Ἀρισ<unclear>τίπ</unclear><supplied reason="lost">πω</supplied></name></persName></persName>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                        <rdg resp="#mohamed-jmr1997">Κρῖν<supplied reason="lost" cert="low">ις</supplied></rdg>
+                    </app>
+                </p>
+                <p>
+                    <app loc="2">
+                        <rdg resp="#mohamed-jmr1997">Ἀρισ<unclear>τίπ</unclear><supplied reason="lost">που</supplied></rdg>
+                    </app>
+               </p>
+ </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Krin<gap reason="lost" extent="unknown" unit="character"/> fils (ou fille ?) d'Aristippos.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Krin<gap reason="lost" extent="unknown" unit="character"/> son (or daughter?) of Aristippos.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Krin<gap reason="lost" extent="unknown" unit="character"/> figlio (o figlia?) di Aristippos.</p>
+         </div><div type="commentary">
+                
+                <p>The first editors, on the view that the base comes from the same tomb as <ref type="inscription" source="#IGCyr2">IGCyr08100</ref> and <ref type="inscription" source="#IGCyr2">IGCyr086400</ref>, tried to find names common to those epitaphs 
+                    and retained <foreign xml:lang="grc">Κρῖνις</foreign> as a possible restoration. However, the provenance might not be very clear. Moreover, the careful lettering shows a somewhat earlier date for the present 
+                    inscription; the spacing of the letters and the place of the hole on top show that the gap was of ca. 5 letters at l. 1.</p>
+            </div></body>
+    </text>
+</TEI>

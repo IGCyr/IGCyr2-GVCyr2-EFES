@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr133800</idno>
+                <idno type="number" subtype="second-edition">133800</idno>
+                <idno type="TM">738885</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr133800</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr133800</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr133800</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small <material>limestone</material> <objectType>altar</objectType>, made of a cube inserted into a slightly larger box with cuttings
+                                        on its upper edges allowing liquids to be poured between the two parts 
+                                        (overall dimensions <dimensions>
+                                            <width>0.115</width>
+                                            <height>0.09</height>
+                                            <depth>0.115</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> rather than inscribed on one of the outer faces near the upper edge, in one line
+                                beginning at ca. <dim type="distance" precision="low">0.025</dim> from the left edge and running up to the right edge.</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.01" max="0.015">0.01-0.015</height>; irregular lettering, with cursive features; lunate sigma, upsilon with very tall 
+                            tail.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0100" notAfter="-0001" precision="medium" cert="low">Perhaps first century BC (or later?)</origDate>
+                        </origin>
+                        
+                        <provenance type="found" notBefore="2008" notAfter="2012">
+                            <p>Found between 2008 and 2012 by the Mission of Urbino at 
+                                <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1473">Southern Extra-Mural Sacred Zone</rs>, North-West of the 
+                                <rs type="monuList" ref="https://www.slsgazetteer.org/1475">Extra-Mural Temple of Demeter</rs>.
+                            </p>
+                        </provenance>
+                            <provenance type="observed" when="2012" resp="ER">
+                                <p>First studied in 2012 by E. Rosamilia in situ in the <rs type="monuList" ref="https://www.slsgazetteer.org/1473">Southern Extra-Mural Sacred Zone</rs>.</p>
+                            </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-29" who="CDL">amended obs place</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-05-07" who="Alice">checked</change>
+            <change when="2017-03-05" who="Alice">checked</change>
+            <change when="2017-02-21" who="CDL">lemma, text, translation, commentary</change>
+            <change when="2017-02-18" who="CDL">file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77759/3/igcyr133800-1-map.tiff.jpg" corresp="igcyr133800" decls="#photograph"><desc resp="Gasparini, M." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77759">Map for igcyr133800 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77760/3/igcyr133800-2-view.tiff.jpg" corresp="igcyr133800" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77760">View of igcyr133800 Dedication</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77761/3/igcyr133800-3-face.tiff.jpg" corresp="igcyr133800" decls="#photograph"><desc resp="Rosamilia, E." source="Missione archeologica a Cirene, Università di Urbino" n="2012"><ref target="http://hdl.handle.net/20.500.14008/77761">Face of igcyr133800 Dedication</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+            <p><bibl><ptr target="#gasparini-rosamilia2016"/>, n. <citedRange>6</citedRange> (fig. 14-15)</bibl>, whence
+                <bibl><ptr target="#SEG"/>, <citedRange>66.2336</citedRange></bibl>;
+                <bibl><ptr target="#IGCyr"/> <citedRange>133800</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="divine" ref="#Eumenis"><name nymRef="#Εὐμενίς">Εὐμενίς</name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+            </div><div type="translation" xml:lang="fr" xml:space="preserve">
+            <p>Euménide.</p>
+         </div><div type="translation" xml:lang="en" xml:space="preserve">
+            <p>Eumenide.</p>
+         </div><div type="translation" xml:lang="it" xml:space="preserve">
+            <p>Eumenide.</p>
+         </div><div type="commentary">
+                
+               <p>Two similar small altars were found in the same area, the other one not inscribed. They were inserted into the hollows of two near rock-cut altars. On other 
+                   altars the hollows were filled with miniature vases and closed with stone lids. Two such hollows had been re-cut in order to receive the small altars.</p>
+	           <p>This and <ref type="inscription" source="#IGCyr2">IGCyr133400</ref> are the only instances of one Eumenide mentioned instead of several. Furthermore if the genitive is more 
+	               usual in such mentions, the nominative is not uncommon, so we leave the title 'dedication'.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

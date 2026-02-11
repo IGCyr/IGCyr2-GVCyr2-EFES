@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Name</rs> of an ephebe</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr117900</idno>
+                <idno type="number" subtype="second-edition">117900</idno>
+                <idno type="TM">738727</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr117900</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr117900</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr117900</idno>
+                
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material>Sandstone</material> <objectType>block</objectType> reused in the city wall
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on front face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height min="0.05" max="0.06">0.05-0.06</height>; seemingly pre-Augustan script.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName>.</origPlace>
+                            <origDate notBefore="-0100" notAfter="-0051" precision="low" cert="low" evidence="lettering">First half of first century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1962" resp="goodchild">
+                                    <p>Found in 1962 by R.G. Goodchild in
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/913" key="http://pleiades.stoa.org/places/373736">Taucheira</placeName> (the 
+                                        city being re-named Arsinoe at the time of the inscription): re-used in the wall of the late guardroom on the extramural side of the South tower of the 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1131">East gate</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" resp="jmr" notAfter="1995">
+                                    <p>Seen by J.M. Reynolds before 1995 in situ, at <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>.</p>
+                                </provenance>
+                        <provenance type="not-observed">
+                            <p>Not seen by IGCyr team; edited from J.M. Reynolds' observations.</p>
+                        </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/88834" key="Tūkrah">Tūkrah</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (J.M. Reynolds).</creation></profileDesc>
+        <revisionDesc>
+                               <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-28" who="CDL">amended obs place</change>
+            <change when="2023-08-28" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-29" who="Alice">checked</change>
+            <change when="2017-02-09" who="CDL">overall check</change>
+            <change when="2014-06-24" who="CD+HB">file created, file completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile><graphic url="-"/></facsimile>-->
+    <text>
+        <body><div type="bibliography">
+                
+            <p>Never published before <bibl><ptr target="#IGCyr"/> <citedRange>117900</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    
+                    <lb n="1"/><date calendar="egyptian"><expan><abbr><am><g type="year">𐅹</g></am></abbr> <ex>ἔτους</ex></expan> 
+                    <num type="cardinal" value="4"><g type="alphabetic">δ</g></num></date> 
+                    <persName type="attested" key=""><name nymRef="#Ζην_"><seg part="I">Ζην</seg><gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="2"/><persName type="attested" key=""><name nymRef="#Ἁνίοχος" type="patronymic">Ἁνιόχο<unclear>υ</unclear></name></persName></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p/>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>An 4. Zèn<gap reason="lost" extent="unknown" unit="character"/> fils d'Haniokhos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Year 4. Zen<gap reason="lost" extent="unknown" unit="character"/> son of Haniochos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Anno 4. Zen<gap reason="lost" extent="unknown" unit="character"/> figlio di Haniochos.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>السنة 4. زين [---] بن هانيوخوس.</p>
+         </div><div type="commentary">
+                
+	<p>J.M. Reynolds observed that the stonecutter perhaps did not finish the name beginning with <foreign xml:lang="grc">Ζην</foreign>- because avoiding an isolated delta
+	    already cut there.</p>
+            <p>Most names dated with a year are considered of Roman time. However J.M. Reynolds thought that the lettering of this one was older. If so, we do not know to 
+            which event the era was related.</p>            
+            </div></body>
+    </text>
+</TEI>

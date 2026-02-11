@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Unclear</rs></title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr000410</idno>
+                <idno type="number" subtype="second-edition">000410</idno>
+                <idno type="TM">738098</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr000410</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr000410</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr000410</idno>
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum, Storeroom of the Italian missions</repository> <idno>A58 A6</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Fragment of a <material>light brown-glazed ware</material> <objectType>vase</objectType>
+                                        (dimensions unknown).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="graffito">Scratched</rs> on the surface; no other precision given.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Height <height>unknown</height>; regularly cut phi with large loop.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate notBefore="-0600" notAfter="-0501" precision="medium" cert="low">Perhaps sixth century BC</origDate>
+                        </origin>
+                                <provenance type="found" when="1958">
+                                    <p>Found by S. Stucchi in 1958 at
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1009">agora</rs>, in a sounding under the future
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/1483">Augusteum</rs>.
+                                   </p>
+                                </provenance>
+                            <provenance type="observed">
+                                <p>Studied by L. Gasperini in the years 1960 at <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName></p>
+                            </provenance>
+                                <provenance type="not-observed">
+                                    <p>Not seen by IGCyr team.</p>
+                                </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Editor's transcription.</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2016-08-19" who="Alice">checked</change>
+            <change when="2014-10-20" who="cdl">slight changes in apparatus and commentary</change>
+            <change when="2013-03-20" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+         <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-05-21" who="Ljuba">added from CATALOGO</change>
+            <change when="2012-07-10" who="CDL">apparatus</change>
+            <change when="2012-07-09" who="HB">text edited, commentary</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76662/3/igcyr000410-drawing.tiff.jpg" corresp="igcyr000410" decls="#photograph"><desc resp="-" source="Missione archeologica a Cirene, Università di Urbino" n="1958-1966"><ref target="http://hdl.handle.net/20.500.14008/76662">Drawing of igcyr000410 Unclear</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#gasperini1967a"/>, p. 166, n. <citedRange>4</citedRange> (dr.) 
+                    (= <bibl><ptr target="#gasperini2008"/>, p. <citedRange>77</citedRange></bibl>)</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>000410</citedRange></bibl>.</p>
+            
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>φ<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><rdg resp="#gasperini1967a"><gap reason="lost" extent="unknown" unit="character"/><orig>φ<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></rdg>
+                     <rdg resp="#gasperini1967a"><lb rend="right-to-left"/><gap reason="lost" extent="unknown" unit="character"/><orig>φ<unclear>δ</unclear></orig></rdg>
+                    <note resp="cdl">it might also be read <orig>φ<unclear>λ</unclear></orig></note>
+                </app></p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p>Intraduisible.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p>Not usefully translatable.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p>Intraducibile.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="ar">
+            <p>غير قابل للترجمه بشكل جيد</p>
+         </div><div type="commentary">
+                
+                <p>Gasperini's indication about the direction of writing are somewhat confusing. Both readings proposed by him should be read from left to right.
+                Moreover there seems no need to admit a delta with the shape of a Latin D for the second character.</p>
+                <p>All suggested readings being meaningless, neither seems compulsory, but for the fact that no Greek word would admit a group <foreign xml:lang="grc">ΦΔ</foreign>.</p>
+	<p/>
+            </div></body>
+    </text>
+</TEI>

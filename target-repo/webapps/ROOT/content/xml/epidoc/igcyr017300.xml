@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> of a door</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr017300</idno>
+                <idno type="number" subtype="second-edition">017300</idno>
+                <idno type="TM">738227</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr017300</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr017300</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr017300</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Block of <material>limestone</material> <objectType>architrave</objectType>, broken or perhaps recut at left for re-use; along the upper edge
+                                        three guttae surmounted by a ruler are preserved on width 0.20 at the right end 
+                                        (<dimensions>
+                                            <width>2.08</width>
+                                            <height>0.445</height>
+                                            <depth/>
+                                        </dimensions>; depth not accessible; height estimated, as the lower part cannot be unearthed; all observations by Laronde).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on one line at a distance of <dim>0.18</dim> from the upper edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.085</height>; no serifs, short right stroke of pi; the first four letters are very faint if compared with the others.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>.</origPlace>
+                            <origDate evidence="lettering" resp="#oliverio1927" notBefore="-0400" notAfter="-0301" precision="medium">Fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1925">
+                                    <p>Found in 1925 at 
+                                        <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778">Cyrene</placeName>: 
+                                      re-used at bottom of the retaining wall of the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" resp="laronde" when="1980">
+                                    <p>Observed by A. Laronde in the years 1980 at the same place, below the <rs type="monuList" ref="https://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from editor and Laronde's archive (CDL).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+            <change when="2023-10-23" who="CDL">amended obs place</change>    
+            <change when="2023-08-14" who="CDL">file updated</change>
+            <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-03-30" who="Alice">checked</change>
+            <change when="2016-08-11" who="CDL">Italian translation</change>
+            <change when="2013-11-25" who="cdl">little changes in text, apparatus translation and commentary from Laronde's archive</change>
+            <change when="2013-07-03" who="cdl">lemma, bilbiography changed, commentary</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+            <change when="2011-12-19" who="Alice">text markup</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/76882/3/igcyr017300-face.tiff.jpg" corresp="igcyr017300" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1926"><ref target="http://hdl.handle.net/20.500.14008/76882">Face of igcyr017300 Dedication of a door</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#oliverio1927"/>, p. <citedRange>157</citedRange></bibl>, and
+                    <bibl><ptr target="#pernier1927"/>, p. <citedRange>155</citedRange> and fig. 23</bibl>;
+                    <bibl><ptr target="#IGCyr"/> <citedRange>017300</citedRange></bibl>.
+                    Cf. <bibl><ptr target="#boehringer1929"/>, p. <citedRange>422</citedRange></bibl>, whence
+                    <bibl><ptr target="#SEG"/>, <citedRange>9.79</citedRange></bibl>; 
+                    <bibl><ptr target="#robert1955"/>, p. <citedRange>28</citedRange></bibl>;
+                    <bibl><ptr target="#cdl2020"/>, p. <citedRange>245-248</citedRange></bibl>;
+                    <bibl><ptr target="#rosamilia2023"/>, p. <citedRange>77</citedRange> footnote 19</bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθη</supplied>κε</w> καὶ τὰν <w lemma="ὀπά">ὀπάν</w>
+                </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p><app loc="1"><lem resp="#oliverio1927"><supplied reason="lost">ἀνέθη</supplied>κε</lem>
+                    <rdg resp="#SEG"><supplied reason="lost">ἀνέ</supplied><unclear>θ</unclear>ηκε</rdg>
+                </app>
+                </p>
+            </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><supplied reason="lost">Untel</supplied> a consacré <gap reason="lost" extent="unknown" unit="character"/> et la porte.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><supplied reason="lost">So-and-so</supplied> dedicated <gap reason="lost" extent="unknown" unit="character"/> and the door.</p>
+            </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><supplied reason="lost">Il tale</supplied> ha dedicato <gap reason="lost" extent="unknown" unit="character"/> e la porta.</p>
+            </div><div type="commentary">
+                
+                <p>This is one of the architraves bearing a dedication of a monumental door (see <ref type="inscription" source="#IGCyr2">IGCyr099400</ref>, <ref type="inscription" source="#IGCyr2">IGCyr020700</ref>, <ref type="inscription" source="#IGCyr2">IGCyr022400</ref>, 
+                    <ref type="inscription" source="#IGCyr2">IGCyr096800</ref>). It was registered in <bibl><ptr target="#SEG"/>, <citedRange>9.79</citedRange></bibl> from a photograph in Pernier's article
+                    and Oliverio's simple transcription.</p>
+	           <p>We also have a sketch with measures and transcription by Laronde, who saw nothing before <foreign xml:lang="grc">καί</foreign>; the same may be said of Pernier's photograph. 
+	               Oliverio transcribed two letters there, so that the verb <foreign xml:lang="grc">ἀνέθηκε</foreign> is unescapable. However we do not know on what behalf two more letters 
+	               are given as readable in <bibl><ptr target="#SEG"/></bibl>.</p>
+	           <p><bibl><ptr target="#rosamilia2023"/></bibl> suggested that <ref type="inscription" source="#IGCyr2">IGCyr018500</ref> might belong to the same inscription. Mnastokles would have dedicated a monument (or rather part of 
+	           monument) and its door. As to the dimensions of the blocks and the size of the letters, this is quite possible. The main problem is that we do not know the original place or neither of them.</p>
+            </div></body>
+    </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Dedication</rs> to Apollo</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename" subtype="second-edition">IGCyr096100</idno>
+                <idno type="number" subtype="second-edition">096100</idno>
+                <idno type="TM">738471</idno>
+                <idno type="IGCyr-GVCyr" subtype="first-edition">igcyr096100</idno>
+                <idno type="URI" subtype="second-edition">https://igcyr2.unibo.it/en/igcyr096100</idno>
+                 <idno type="URI" subtype="first-edition">https://igcyr.unibo.it/igcyr096100</idno>
+
+
+                <availability>
+                    <p><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 Deed Attribution-NonCommercial-ShareAlike 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="https://doi.org/10.60760/unibo/igcyrgvcyr2">https://doi.org/10.60760/unibo/igcyrgvcyr2</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository>Cyrene Museum</repository> <idno type="invNo">519 (fragm. a)</idno></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Two non-adjacent fragments of a black <material>stone</material> (<foreign xml:lang="it">lava</foreign>?) <objectType>plate</objectType>:
+                                        fragment a (diameter at least 0.37);
+                                        fragment b (dimensions, as given in SECir: width 0.43; height 0.195).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="scalpro">Inscribed</rs> on the flat rim (high 0.04), to be read from outside.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height>0.023</height>; slightly dissymetrical nu, very open, flat and small omega.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Findspot.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0301" cert="low" precision="medium">Perhaps fourth century BC</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" notAfter="1935" resp="Oliverio">
+                                   <p>Fragment a found at an unknown date at <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909" key="http://pleiades.stoa.org/places/373778" cert="low">Cyrene</placeName>;
+                                    fragment b found by G. Oliverio before 1935, exact findspot unrecorded for both fragments.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1977" resp="cdl">
+                                    <p>Fragment a observed by C. Dobias-Lalou in 1977 in <placeName type="modernSpot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>: 
+                                        <rs type="monuList" ref="https://www.slsgazetteer.org/933">Cyrene Museum</rs>; fragment b not found.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/8410832" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (fragment a, CDL) and from previous editor (fragment b).</creation></profileDesc>
+        <revisionDesc>
+         
+             <change when="2024-01-12" who="Alice">added ref to the first edition</change> 
+                <change when="2023-08-27" who="CDL">file updated</change>
+         <change when="2021-12-14" who="IV">inserted images</change>
+            <change when="2017-04-22" who="Alice">checked</change>
+            <change when="2013-10-11" who="cdl">lemma, text, apparatus, translation, commentary</change>
+            <change when="2013-06-15" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change> 
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://historica.unibo.it/bitstream/20.500.14008/77300/3/igcyr096100-1-fgt%20a-squeeze.tiff.jpg" corresp="igcyr096100" decls="#photograph"><desc resp="Dobias-Lalou, C." source="Mission Archéologique Française" n="1977"><ref target="http://hdl.handle.net/20.500.14008/77300">Squeeze of fragment a of igcyr096100 Dedication to Apollo</ref></desc></graphic>
+         <graphic url="https://historica.unibo.it/bitstream/20.500.14008/77301/3/igcyr096100-2-frgt%20b.tiff.jpg" corresp="igcyr096100" decls="#photograph"><desc resp="-" source="Department of Antiquities, Shahat" n="1920-1935"><ref target="http://hdl.handle.net/20.500.14008/77301">Fragment b of igcyr096100 Dedication to Apollo</ref></desc></graphic></facsimile>
+    <text>
+        <body><div type="bibliography">
+                
+                <p><bibl><ptr target="#SECir"/>, <citedRange>50</citedRange> (fragment b)</bibl>;
+                    fragment a not previously published before <bibl><ptr target="#IGCyr"/> <citedRange>096100</citedRange></bibl>.</p>
+            </div><div type="edition" xml:lang="grc" xml:space="preserve">
+                
+                <ab>
+                    <lb n="1"/><persName type="attested" key=""><name nymRef="#_ων"><gap reason="lost" extent="unknown" unit="character"/><milestone unit="fragment" n="a"/><seg part="F">ων</seg></name> 
+                    <persName type="attested" key=""><name nymRef="#Αγ_" type="patronymic"><seg part="I">Αγ</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName></persName>                    
+                    <gap reason="lost" extent="unknown" unit="character"/><milestone unit="fragment" n="b"/><persName type="divine" ref="#Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλ<unclear>λ</unclear><supplied reason="lost">ωνι</supplied></name></persName>
+	 </ab>
+            </div><div type="apparatus" xml:space="preserve">
+            
+                <p>
+                    <app loc="1">
+                       <lem>Ἀπόλ<unclear>λ</unclear><supplied reason="lost">ωνι</supplied></lem>
+                        <rdg resp="#SECir">Ἀπό<unclear>λ</unclear><supplied reason="lost">ωνι</supplied></rdg> 
+                            <rdg resp="#SECir">Ἀπό<unclear>λ</unclear><supplied reason="lost">ωνος</supplied></rdg>
+                    </app>
+                </p>
+ </div><div type="translation" xml:space="preserve" xml:lang="fr">
+            <p><gap reason="lost" extent="unknown" unit="character"/>ôn fils d'Ag<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">a consacré cet objet</supplied> à Apollon.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="en">
+            <p><gap reason="lost" extent="unknown" unit="character"/>on son of Ag<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">dedicated this</supplied> to Apollo.</p>
+         </div><div type="translation" xml:space="preserve" xml:lang="it">
+            <p><gap reason="lost" extent="unknown" unit="character"/>on figlio di Ag<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="subaudible">ha dedicato questo</supplied> ad Apollo.</p>
+         </div><div type="commentary">
+                
+                <p>Although fragment b seems to be lost, the dimensions, the shape and the rare material of the plate make very plausible that both fragments belong together.</p>
+	<p>We give for fragment b the dimensions published from Oliverio's papers by Pugliese Carratelli, who does not seem to have found it. However their proportions do 
+	    not match the photograph given in the publication. Either there is an error or Oliverio knew of an adjacent fragment that had not been photographed.</p>
+	<p>The inventory number given here is that of fragment a.</p>
+                <p>A joint publication of both fragments was presented by C. Dobias-Lalou in a conference held at Urbino in October 2015 in memory of Mario Luni to be published 
+                in a volume scheduled for 2017 and much delated.</p>
+            </div></body>
+    </text>
+</TEI>
