@@ -24,6 +24,17 @@ Per spegnere EFES [sull'uso di screen vedi sopra]:
 cd /var/www/html/IGCyr2
 ctrl+C
 
+[Lista completa dei comandi per riavviare EFES sul server]
+cd /var/www/html/IGCyr2   (scrivere + premere invio; entra nella cartella di EFES)
+killall screen            (scrivere + premere invio; chiude le eventuali sessioni di screen aperte)
+screen                    (scrivere + premere invio; avvia una nuova sessione di screen)
+screen -r                 (scrivere + premere invio; riapre la sessione di screen precedente: da usare eventualmente al posto dei due comandi precedenti)
+ctrl+c                    (digitare insieme sulla tastiera: spegne EFES)
+sudo sh build.sh          (scrivere + premere invio: riavvia EFES)
+ctrl+a                    (digitare insieme sulla tastiera)
+ctrl+d                    (digitare insieme sulla tastiera; assieme al comando precedente, fa uscire dalla sessione di screen senza chiuderla)
+exit                      (scrivere + premere invio: fa uscire dal server)
+
 AGGIORNAMENTO AUTOMATICO DEL SITO DA GITHUB (https://github.com/IGCyr/IGCyr2)
 1) è stata installata la CLI di GitHub:
 sudo apt install curl
