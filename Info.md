@@ -1,0 +1,67 @@
+## DOCUMENTAZIONE TECNICA
+
+- GitHub repository (public): https://github.com/IGCyr/IGCyr2-GVCyr2-EFES [mirror of private repo, sync via GitHub CI]
+- GitHub repository (private): https://github.com/IGCyr/IGCyr2
+- EFES documentation: https://github.com/EpiDoc/EFES/wiki 
+- Website: https://igcyr2.unibo.it/
+
+- Accesso al server: `ssh xxx@personale.dir.unibo.it@igcyr2.unibo.it` (credenziali unibo, previa autorizzazione e uso di VPN)
+- FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
+
+- NB: dopo che si modificano file .xsl occorre spegnere e riavviare EFES sul server
+- NB: se l'aggiornamento automatico non funziona più, ri-associare un account di GitHub (che abbia accesso al repository) con `sudo gh auth login`
+- Apache config file: /etc/apache2/sites-available/000-default.conf
+
+(RI)AVVIARE IL SITO SUL SERVER
+
+Per avviare EFES (o riavviare dopo il riavvio della macchina virtuale):
+
+[per non interrompere alla chiusura del terminale il processo che esegue EFES viene usato screen; se è attiva una sessione screen a cui si ha accesso, accedervi con `screen -r`, altrimenti chiudere tutte le sessioni attive con `killall screen` e riaprirne una nuova con `screen`; per uscire senza chiudere la sessione screen, digitare ctrl+A ctrl+D]
+```
+cd /var/www/html/IGCyr2
+sudo sh build.sh
+```
+
+Per spegnere EFES [sull'uso di screen vedi sopra]:
+```
+cd /var/www/html/IGCyr2
+ctrl+C
+```
+
+[Lista completa dei comandi per riavviare EFES sul server]
+```
+cd /var/www/html/IGCyr2   (scrivere + premere invio; entra nella cartella di EFES)
+killall screen            (scrivere + premere invio; chiude le eventuali sessioni di screen aperte)
+screen                    (scrivere + premere invio; avvia una nuova sessione di screen)
+screen -r                 (scrivere + premere invio; riapre la sessione di screen precedente: da usare eventualmente al posto dei due comandi precedenti)
+ctrl+c                    (digitare insieme sulla tastiera: spegne EFES)
+sudo sh build.sh          (scrivere + premere invio: riavvia EFES)
+ctrl+a                    (digitare insieme sulla tastiera)
+ctrl+d                    (digitare insieme sulla tastiera; assieme al comando precedente, fa uscire dalla sessione di screen senza chiuderla)
+exit                      (scrivere + premere invio: fa uscire dal server)
+```
+
+AGGIORNAMENTO AUTOMATICO DEL SITO DA GITHUB (https://github.com/IGCyr/IGCyr2)
+
+1) è stata installata la CLI di GitHub:
+```
+sudo apt install curl
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+sudo snap install gh
+sudo gh auth login	(selezionare GitHub.com, poi HTTPS, poi Y)
+Paste an authentication token: (inserire un token associato ad un account di GitHub che abbia accesso al repository; i token sono generabili da qui https://github.com/settings/tokens)
+```
+
+1) l'intera cartella 'IGCyr2' è stata clonata da GitHub: gh repo clone IGCyr/IGCyr2
+
+2) È stato modificato `sudo visudo` aggiungendo `$USER ALL=(ALL) NOPASSWD: ALL` alla fine per poter eseguire `sudo` senza password
+
+3) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno (con `sudo crontab -e`):
+```
+*/5 * * * * cd /var/www/html/IGCyr2 && sudo git pull (ogni 5’)
+1 1 * * * curl https://admin:PASSWORD@igcyr2.unibo.it/admin/rdf/harvest/all.html (all’1:01 di notte)
+6 1 * * * curl https://admin:PASSWORD@igcyr2.unibo.it/admin/solr/index/all.html (all’1:06 di notte)
+```
+## NOTE AGGIUNTIVE
+- Quando si eliminano dei file, vanno eliminati anche da all_inscriptions.xml.
+- Non vanno fatte modifiche sul repository pubblico (README/Info inclusi) poiché vengono sovrascritte dalla sincronizzazione.
