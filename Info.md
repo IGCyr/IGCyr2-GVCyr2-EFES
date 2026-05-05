@@ -63,7 +63,7 @@ Paste an authentication token: (inserire un token associato ad un account di Git
 1 1 * * * curl https://admin:PASSWORD@igcyr2.unibo.it/admin/rdf/harvest/all.html (all’1:01 di notte)
 6 1 * * * curl https://admin:PASSWORD@igcyr2.unibo.it/admin/solr/index/all.html (all’1:06 di notte)
 ```
-4) In 'sw/jetty/logs' e 'webapps/openrdf-sesame/app_dir/openrdf-sesame/logs' vengono conservati solo i log dell'ultima settimana, eliminando gli altri una volta al giorno tramite crontab:
+4) In 'sw/jetty/logs' e 'webapps/openrdf-sesame/app_dir/openrdf-sesame/logs' vengono conservati solo gli ultimi 7 log, eliminando gli altri una volta al giorno tramite crontab:
 ```
 30 23 * * * cd /var/www/html/IGCyr2/sw/jetty/logs/ && ls -tp *.log *.log.* 2>/dev/null | grep -v '/$' | tail -n +8 | xargs -r rm --
 30 23 * * * cd /var/www/html/IGCyr2/webapps/openrdf-sesame/app_dir/openrdf-sesame/logs/ && ls -tp *.log *.log.* 2>/dev/null | grep -v '/$' | tail -n +8 | xargs -r rm --
