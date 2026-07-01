@@ -19,6 +19,8 @@
           <meta charset="utf-8" />
           <meta content="width=device-width" name="viewport" />
           <meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible" />
+          <meta name="description" content="IGCyr2: Inscriptions of Greek Cyrenaica, 2nd edition. GVCyr2: Greek Verse Inscriptions of Cyrenaica, 2nd edition."/>
+          <link rel="canonical" href="https://igcyr2.unibo.it/en/"/>
           <title>
             <kiln:block name="title">IGCyr2|GVCyr2: </kiln:block>
           </title>
