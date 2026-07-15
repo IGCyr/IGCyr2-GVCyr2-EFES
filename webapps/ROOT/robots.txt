@@ -2,3 +2,4 @@ User-agent: *
 Allow: /en/$
 Allow: /en/inscriptions/*
 Disallow: /
+Sitemap: https://igcyr2.unibo.it/sitemap.xml
