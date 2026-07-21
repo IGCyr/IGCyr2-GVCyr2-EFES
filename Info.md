@@ -60,8 +60,8 @@ Paste an authentication token: (inserire un token associato ad un account di Git
 3) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno (con `sudo crontab -e`):
 ```
 */5 * * * * cd /var/www/html/IGCyr2 && sudo git pull (ogni 5’)
-1 1 * * * curl https://admin:PASSWORD@igcyr2.unibo.it/admin/rdf/harvest/all.html (all’1:01 di notte)
-6 1 * * * curl https://admin:PASSWORD@igcyr2.unibo.it/admin/solr/index/all.html (all’1:06 di notte)
+1 1 * * * /usr/bin/curl -fsS http://127.0.0.1:9999/admin/rdf/harvest/all.xml (all’1:01 di notte)
+6 1 * * * /usr/bin/curl -fsS http://127.0.0.1:9999/admin/solr/index/all.html (all’1:06 di notte)
 ```
 4) In 'sw/jetty/logs' e 'webapps/openrdf-sesame/app_dir/openrdf-sesame/logs' vengono conservati solo gli ultimi 7 log, eliminando gli altri una volta al giorno tramite crontab:
 ```
