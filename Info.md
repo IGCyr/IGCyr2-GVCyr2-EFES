@@ -57,7 +57,7 @@ Paste an authentication token: (inserire un token associato ad un account di Git
 
 2) È stato modificato `sudo visudo` aggiungendo `$USER ALL=(ALL) NOPASSWD: ALL` alla fine per poter eseguire `sudo` senza password
 
-3) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno (con `sudo crontab -e`):
+3) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno (con `sudo crontab -e`) [AL MOMENTO DISABILITATO]:
 ```
 */5 * * * * cd /var/www/html/IGCyr2 && sudo git pull (ogni 5’)
 1 1 * * * /usr/bin/curl -fsS http://127.0.0.1:9999/admin/rdf/harvest/all.xml (all’1:01 di notte)
