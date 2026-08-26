@@ -8,6 +8,11 @@ ul.index-instances { }
 
 .index-instance-line { }
 
+.index-table-wrapper {
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
 div#source-description p {
     margin-bottom: 2px;
 }

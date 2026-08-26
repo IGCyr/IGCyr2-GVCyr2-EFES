@@ -58,7 +58,8 @@
       </p>
     </div>
     
-        <table class="index tablesorter">
+    <div class="index-table-wrapper">
+      <table class="index tablesorter">
           <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
           <tbody class="top_align">
             <xsl:apply-templates select="doc">
@@ -75,6 +76,7 @@
             </xsl:apply-templates>
           </tbody>
         </table>
+    </div>
   </xsl:template>
 
   <xsl:template match="str[@name='index_abbreviation_expansion']">

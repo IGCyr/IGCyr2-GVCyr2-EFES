@@ -38,7 +38,7 @@
           </div>
           
           <h2 id="seg_secir"><i18n:text i18n:key="biblio-seg-secir">Concordance with SEG and SECir</i18n:text></h2>
-          <table class="tablesorter">
+          <table class="tablesorter biblio-table">
             <thead>
               <tr>
                 <th scope="col">Date</th>
@@ -54,7 +54,7 @@
           </table>
           
           <h2 id="series_collections"><i18n:text i18n:key="biblio-series">Series and Collections</i18n:text></h2>
-          <table class="tablesorter">
+          <table class="tablesorter biblio-table">
             <thead>
               <tr>
                 <th scope="col">Date</th>
@@ -69,7 +69,7 @@
           </table>
           
           <h2 id="authored_editions"><i18n:text i18n:key="biblio-auth-editions">Authored Editions, Articles and Monographs</i18n:text></h2>
-          <table class="tablesorter">
+          <table class="tablesorter biblio-table">
             <thead>
               <tr>
                 <th scope="col">Date</th>
