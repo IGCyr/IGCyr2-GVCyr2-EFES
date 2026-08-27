@@ -27,7 +27,8 @@
     margin-top: 8px;
     margin-bottom: 8px;
     position: relative;
-    padding-right: 4em;
+    padding-right: 5em;
+    overflow-wrap: anywhere;
 }
 
 .textpartnumber {
